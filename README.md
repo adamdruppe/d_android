@@ -1,6 +1,4 @@
-# Where it is going
-
-This repository contains translated Android NDK headers, helper programs,
+This repository contains translated Android NDK headers (or will in a bit), helper programs,
 and build instructions.
 
 1. Download LDC, at least version 1.15
