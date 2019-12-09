@@ -61,6 +61,19 @@ int wrappedMain(string[] args) {
 			} else if(arg.startsWith("-mtriple")) {
 				arch = arg["-mtriple=".length .. $];
 				linkerExecutable = getLinkerExecutableForMtriple(arch, ndk);
+
+				import std.path;
+				import std.file : thisExePath;
+				// those have libdruntime-ldc-debug.a  libdruntime-ldc.a  libphobos2-ldc-debug.a  libphobos2-ldc.a
+				// we need to link in druntime and phobos
+				// assumes the runtimes are built here too... possble fixme
+				linkerArgs ~= dirName(thisExePath()) ~ "/runtime_droid_" ~ archFolderForMtriple(arch) ~ "/lib/libphobos2-ldc.a";
+				linkerArgs ~= dirName(thisExePath()) ~ "/runtime_droid_" ~ archFolderForMtriple(arch) ~ "/lib/libdruntime-ldc.a";
+
+				linkerArgs ~= "-lc";
+				linkerArgs ~= "-lm";
+				linkerArgs ~= "-landroid";
+
 				linkerArgs ~= getLinkerArgsForMtriple(arch, ndk);
 			} else if(arg.startsWith("-of")) {
 				fileToBeGenerated = arg[3 .. $];
@@ -125,21 +138,26 @@ string getLinkerExecutableForMtriple(string mtriple, string ndk) {
 
 string[] getLinkerArgsForMtriple(string mtriple, string ndk) {
 	string arch;
+	string libgcc;
 	switch(mtriple) {
 		case "i386-none-linux-android":
 			arch = "x86";
+			libgcc = ndk ~ "toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/libgcc.a";
 		break;
 		case "armv7-none-linux-android":
 			arch = "arm";
+			libgcc = ndk ~ "toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/libgcc.a";
 		break;
 		case "x86_64-none-linux-android":
 			arch = "x86_64";
+			libgcc = ndk ~ "toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/libgcc.a";
 		break;
 		case "aarch64-none-linux-android":
 			arch = "arm64";
+			libgcc = ndk ~ "toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/libgcc.a";
 		break;
 		default:
 			throw new Exception("Unsupported architecture: " ~ mtriple);
 	}
-	return ["--sysroot="~ndk~"platforms/android-21/arch-"~arch~"/"];
+	return ["--sysroot="~ndk~"platforms/android-21/arch-"~arch~"/", libgcc];
 }

@@ -1,7 +1,7 @@
 This repository contains translated Android NDK headers (or will in a bit), helper programs,
 and build instructions.
 
-1. Download LDC, at least version 1.15
+1. Download LDC, at least version 1.19
 2. If you use dub, make sure you have at least version 1.18
 3. Build the runtime with ldc-build-runtime for each supported platform (I HAVEN'T TESTED THIS FULLY YET)
 4. Build your program for each supported platform. My android-dub-build can help with this.
@@ -41,3 +41,10 @@ ldc supports compiling D code, the only trouble is you must use the linker from
 Android's NDK and build for the necessary platforms. If you have an existing
 build system you can do the same thing: compile for the arch, link with the ndk
 linker, repeat for all necessary arches.
+
+# Tips
+
+`java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_tlsstart" referenced by`
+means you forgot a `void main() {}` in your thing. It is never called, but is needed for a TLS hack.
+
+Make sure your class is `final` if you use arsd.jni. Otherwise you will see mysterious crashes on Android.

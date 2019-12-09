@@ -1,8 +1,7 @@
 {
         "name": "dubtest",
 	"targetType": "dynamicLibrary",
-	"buildOptions": ["betterC"],
         "dependencies": {
-                "arsd-official:dom" : "*"
+                "arsd-official:jni" : "*"
         }
 }
