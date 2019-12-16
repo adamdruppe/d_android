@@ -4,6 +4,7 @@
 	"description": "Helper programs, instructions, and bindings for using D on Android",
 	"sourcePaths": ["translated_headers"],
 	"importPaths": ["translated_headers"],
+	"license": "Apache-2.0",
 	"dependencies": {
 		"arsd-official:jni": "*"
 	}
