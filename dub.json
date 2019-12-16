@@ -1,0 +1,10 @@
+{
+	"name": "d_android",
+	"targetType": "library",
+	"description": "Helper programs, instructions, and bindings for using D on Android",
+	"sourcePaths": ["translated_headers"],
+	"importPaths": ["translated_headers"],
+	"dependencies": {
+		"arsd-official:jni": "*"
+	}
+}
