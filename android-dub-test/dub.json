@@ -2,6 +2,6 @@
         "name": "dubtest",
 	"targetType": "dynamicLibrary",
         "dependencies": {
-                "arsd-official:jni" : "*"
+                "d_android" : "*"
         }
 }
