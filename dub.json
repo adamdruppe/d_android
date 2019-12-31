@@ -1,11 +1,35 @@
 {
 	"name": "d_android",
-	"targetType": "library",
+	"targetType": "sourceLibrary",
 	"description": "Helper programs, instructions, and bindings for using D on Android",
-	"sourcePaths": ["translated_headers"],
-	"importPaths": ["translated_headers"],
 	"license": "Apache-2.0",
 	"dependencies": {
-		"arsd-official:jni": "*"
-	}
+		"d_android:ndk_bindings": "*",
+		"d_android:java_bindings": "*"
+	},
+	"sourceFiles": ["source/hacks.d"],
+
+	"subPackages": [
+		{
+			"name": "ndk_bindings",
+			"description": "Bindings for Android NDK",
+			"sourcePaths": ["translated_headers"],
+			"importPaths": ["translated_headers"],
+			"dependencies": {
+				"arsd-official:jni": "*"
+			},
+			"targetType": "library"
+		},
+		{
+			"name": "java_bindings",
+			"description": "Bindings for Android Java classes",
+			"importPaths": ["java_bindings"],
+			"dflags": ["-i"],
+			"dependencies": {
+				"arsd-official:jni": "*"
+			},
+			"targetType": "sourceLibrary"
+		}
+
+	]
 }

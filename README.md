@@ -5,40 +5,58 @@ and build instructions.
 
 To get started:
 
-1. Download the Android NDK. I have version 20 here, I believe it will work with anything past version 18. Set the environment variable NDK to its path.
-2. Download LDC, at least version 1.19. Make sure ldc2 is in your PATH.
+1. Download the Android NDK. I have personally tested with version 20, I believe it will work with anything past version 18.
+Set the environment variable NDK to its path.
+2. Download LDC, at least version 1.19 from the official release page for your operating system. Make sure ldc2 is in your PATH.
 3. If you use dub, make sure you have at least version 1.18
-4. Build the runtime with ldc-build-runtime for each supported platform. See the `android-setup.d` for my notes. You can't run that program yet but you can easily follow along with the short, simple comments. It expects these results will be found in this same directory.
-5. Build your program for each supported platform. My android-dub-build can help with this.
-6. Copy the generated libs into your existing Android project's jniLibs folder. My android-dub-build will do this for you too if you pass it the directory.
+4. Compile and run `android-setup.d`. It will download the pre-built Android runtimes for you and set up ldc2.conf.
 
-On my box, for example, I can put a jni library in a project called "omg" like this:
+Now, you can compile your project. There are four targets you will want to build:
 
-    $ NDK=/home/me/Android/ndk/android-ndk-r20/ /home/me/Android/d_android/android-dub-build /home/me/Android/omg/app/src/main/
+        string[] targets = [
+                "i386-none-linux-android",
+                "armv7a-none-linux-android",
+                "x86_64-none-linux-android",
+                "aarch64-none-linux-android"
+	];
 
-If you use dub, make sure you set targetType = dynamicLibrary in your app's dub.json.
+And the generated `.so` file will need to be put in `jniLibs/ARCH` in your Android Studio module. The ARCH is:
 
-However, dub doesn't know how to do an Android link, so we will need to cheat
-by using a compiler wrapper.
+	string archFolderForMtriple(string mtriple) {
+		switch(mtriple) {
+			case "i386-none-linux-android":
+				return "x86";
+			case "armv7-none-linux-android":
+				return "armeabi-v7a";
+			case "x86_64-none-linux-android":
+				return "x86_64";
+			case "aarch64-none-linux-android":
+				return "arm64-v8a";
+		}
+	}
 
-Make sure my `android-ldc` is in your path as well as your real copy of
-ldc, configure it to point at your android NDK by setting an environment
-variable and then:
 
-    dub build --compiler=android-ldc -a ARCH
+	import std.file;
+	import std.path;
+	std.file.mkdirRecurse(targetPath ~ "jniLibs/" ~ archFolderForMtriple(arch));
+	std.file.copy(fileToBeGenerated, targetPath ~ "jniLibs/" ~ archFolderForMtriple(arch) ~ "/" ~ baseName(fileToBeGenerated));
 
-There are a few different arches you need to build for. If you like, you can
-use my wrapper script too.
+Since dub doesn't allow you to change its output directory on the command line, you'll have to move
+the generated files into position yourself. It is usually `libPACKAGE_NAME.so` in the current working directory.
 
-    android-dub-build
+After that, you can use your stuff with Android Studio just like any other lib.
 
-Will compile it for each Android architecture. If you give it a target directory,
-it will copy it into the jniLibs for you too.
+I like to put the jniLibs directory under the main module.
 
-## Helper programs
+   $ dub build --compiler=ldc2 -a armv7a-none-linux-android
+   $ cp libtest.so /home/me/Android/omg/app/src/main/jniLibs/
+
+If you use dub, make sure you set targetType = dynamicLibrary in your app's dub.json as an android thing must be a `.so` library.
+
+## Compiling android-dub-build and android-setup
 
 Each helper program is a stand-alone D file, depending on nothing outside Phobos.
-Simply compile them with `dmd file.d` and then run them.
+Simply compile them with `dmd file.d` or `ldc2 file.d` and then run them.
 
 ## Principles
 
@@ -47,11 +65,11 @@ Android's NDK and build for the necessary platforms. If you have an existing
 build system you can do the same thing: compile for the arch, link with the ndk
 linker, repeat for all necessary arches.
 
-## Tips
+# Tips and Tricks
 
-`java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_tlsstart" referenced by`
-means you forgot a `void main() {}` in your thing. It is never called, but is needed for a TLS hack.
-
-Make sure your class is `final` if you use arsd.jni. Otherwise you will see mysterious crashes on Android.
+Make sure you do not attempt to `@Export` any methods that do not exist in the Java
+class. Doing so will cause an error at startup. The debugger in the Android Studio
+can help find these, but you'll have to scroll to the top of the red text to find
+the relevant error to you.
 
 # Notes for future maintainers

@@ -2,6 +2,7 @@
         "name": "dubtest",
 	"targetType": "dynamicLibrary",
         "dependencies": {
-                "d_android" : "*"
+                "d_android" : "*",
+		"whatever" : "*"
         }
 }
