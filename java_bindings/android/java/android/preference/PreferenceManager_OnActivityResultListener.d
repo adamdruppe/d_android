@@ -1,0 +1,3 @@
+module android.java.android.preference.PreferenceManager_OnActivityResultListener;
+public import android.java.android.preference.PreferenceManager_OnActivityResultListener_d_interface;
+

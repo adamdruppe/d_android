@@ -1,0 +1,3 @@
+module android.java.android.media.MediaPlayer_OnBufferingUpdateListener;
+public import android.java.android.media.MediaPlayer_OnBufferingUpdateListener_d_interface;
+

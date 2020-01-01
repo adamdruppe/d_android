@@ -1,0 +1,3 @@
+module android.java.android.view.GestureDetector_OnDoubleTapListener;
+public import android.java.android.view.GestureDetector_OnDoubleTapListener_d_interface;
+

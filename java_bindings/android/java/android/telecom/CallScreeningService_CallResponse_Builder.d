@@ -1,0 +1,5 @@
+module android.java.android.telecom.CallScreeningService_CallResponse_Builder;
+public import android.java.android.telecom.CallScreeningService_CallResponse_Builder_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!CallScreeningService_CallResponse_Builder;

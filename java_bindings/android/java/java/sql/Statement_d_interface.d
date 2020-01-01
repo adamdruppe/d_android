@@ -1,0 +1,50 @@
+module android.java.java.sql.Statement_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import2 = android.java.java.sql.Connection_d_interface;
+import import1 = android.java.java.sql.SQLWarning_d_interface;
+import import0 = android.java.java.sql.ResultSet_d_interface;
+
+interface Statement : IJavaObject {
+	@Import import0.ResultSet executeQuery(string);
+	@Import int executeUpdate(string);
+	@Import void close();
+	@Import int getMaxFieldSize();
+	@Import void setMaxFieldSize(int);
+	@Import int getMaxRows();
+	@Import void setMaxRows(int);
+	@Import void setEscapeProcessing(bool);
+	@Import int getQueryTimeout();
+	@Import void setQueryTimeout(int);
+	@Import void cancel();
+	@Import import1.SQLWarning getWarnings();
+	@Import void clearWarnings();
+	@Import void setCursorName(string);
+	@Import bool execute(string);
+	@Import import0.ResultSet getResultSet();
+	@Import int getUpdateCount();
+	@Import bool getMoreResults();
+	@Import void setFetchDirection(int);
+	@Import int getFetchDirection();
+	@Import void setFetchSize(int);
+	@Import int getFetchSize();
+	@Import int getResultSetConcurrency();
+	@Import int getResultSetType();
+	@Import void addBatch(string);
+	@Import void clearBatch();
+	@Import int[] executeBatch();
+	@Import import2.Connection getConnection();
+	@Import bool getMoreResults(int);
+	@Import import0.ResultSet getGeneratedKeys();
+	@Import int executeUpdate(string, int);
+	@Import int executeUpdate(string, int[]);
+	@Import int executeUpdate(string, string[]);
+	@Import bool execute(string, int);
+	@Import bool execute(string, int[]);
+	@Import bool execute(string, string[]);
+	@Import int getResultSetHoldability();
+	@Import bool isClosed();
+	@Import void setPoolable(bool);
+	@Import bool isPoolable();
+	mixin JavaPackageId!("java.sql", "Statement");
+}

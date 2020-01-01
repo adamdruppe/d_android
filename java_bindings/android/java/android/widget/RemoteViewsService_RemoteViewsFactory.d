@@ -1,0 +1,3 @@
+module android.java.android.widget.RemoteViewsService_RemoteViewsFactory;
+public import android.java.android.widget.RemoteViewsService_RemoteViewsFactory_d_interface;
+

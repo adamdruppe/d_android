@@ -1,0 +1,3 @@
+module android.java.android.widget.AbsListView_MultiChoiceModeListener;
+public import android.java.android.widget.AbsListView_MultiChoiceModeListener_d_interface;
+

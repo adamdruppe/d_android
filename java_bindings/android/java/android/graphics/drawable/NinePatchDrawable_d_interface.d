@@ -1,0 +1,57 @@
+module android.java.android.graphics.drawable.NinePatchDrawable_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import0 = android.java.android.graphics.Bitmap_d_interface;
+import import1 = android.java.android.graphics.Rect_d_interface;
+import import12 = android.java.android.content.res.Resources_Theme_d_interface;
+import import4 = android.java.android.graphics.Canvas_d_interface;
+import import10 = android.java.org.xmlpull.v1.XmlPullParser_d_interface;
+import import2 = android.java.android.content.res.Resources_d_interface;
+import import7 = android.java.android.graphics.ColorFilter_d_interface;
+import import15 = android.java.android.graphics.drawable.Drawable_ConstantState_d_interface;
+import import5 = android.java.android.util.DisplayMetrics_d_interface;
+import import8 = android.java.android.content.res.ColorStateList_d_interface;
+import import9 = android.java.android.graphics.PorterDuff_Mode_d_interface;
+import import11 = android.java.android.util.AttributeSet_d_interface;
+import import16 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import6 = android.java.android.graphics.Outline_d_interface;
+import import13 = android.java.android.graphics.Paint_d_interface;
+import import3 = android.java.android.graphics.NinePatch_d_interface;
+import import14 = android.java.android.graphics.Region_d_interface;
+
+final class NinePatchDrawable : IJavaObject {
+	@Import this(import0.Bitmap, byte, import1.Rect, string[]);
+	@Import this(import2.Resources, import0.Bitmap, byte, import1.Rect, string[]);
+	@Import this(import3.NinePatch);
+	@Import this(import2.Resources, import3.NinePatch);
+	@Import void setTargetDensity(import4.Canvas);
+	@Import void setTargetDensity(import5.DisplayMetrics);
+	@Import void setTargetDensity(int);
+	@Import void draw(import4.Canvas);
+	@Import int getChangingConfigurations();
+	@Import bool getPadding(import1.Rect);
+	@Import void getOutline(import6.Outline);
+	@Import void setAlpha(int);
+	@Import int getAlpha();
+	@Import void setColorFilter(import7.ColorFilter);
+	@Import void setTintList(import8.ColorStateList);
+	@Import void setTintMode(import9.PorterDuff_Mode);
+	@Import void setDither(bool);
+	@Import void setAutoMirrored(bool);
+	@Import bool isAutoMirrored();
+	@Import void setFilterBitmap(bool);
+	@Import bool isFilterBitmap();
+	@Import void inflate(import2.Resources, import10.XmlPullParser, import11.AttributeSet, import12.Resources_Theme);
+	@Import void applyTheme(import12.Resources_Theme);
+	@Import bool canApplyTheme();
+	@Import import13.Paint getPaint();
+	@Import int getIntrinsicWidth();
+	@Import int getIntrinsicHeight();
+	@Import int getOpacity();
+	@Import import14.Region getTransparentRegion();
+	@Import import15.Drawable_ConstantState getConstantState();
+	@Import import16.Drawable mutate();
+	@Import bool isStateful();
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.graphics.drawable", "NinePatchDrawable");
+}

@@ -1,0 +1,5 @@
+module android.java.android.provider.ContactsContract_CommonDataKinds_Organization;
+public import android.java.android.provider.ContactsContract_CommonDataKinds_Organization_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!ContactsContract_CommonDataKinds_Organization;

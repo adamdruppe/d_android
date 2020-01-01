@@ -1,0 +1,5 @@
+module android.java.android.media.MediaCasException_NotProvisionedException;
+public import android.java.android.media.MediaCasException_NotProvisionedException_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!MediaCasException_NotProvisionedException;

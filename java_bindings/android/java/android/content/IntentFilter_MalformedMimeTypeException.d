@@ -1,0 +1,5 @@
+module android.java.android.content.IntentFilter_MalformedMimeTypeException;
+public import android.java.android.content.IntentFilter_MalformedMimeTypeException_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!IntentFilter_MalformedMimeTypeException;

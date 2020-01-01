@@ -1,0 +1,3 @@
+module android.java.android.preference.PreferenceManager_OnActivityDestroyListener;
+public import android.java.android.preference.PreferenceManager_OnActivityDestroyListener_d_interface;
+

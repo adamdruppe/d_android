@@ -1,0 +1,58 @@
+module android.java.android.database.CursorWrapper_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import3 = android.java.android.database.ContentObserver_d_interface;
+import import0 = android.java.android.database.Cursor_d_interface;
+import import5 = android.java.android.content.ContentResolver_d_interface;
+import import6 = android.java.android.net.Uri_d_interface;
+import import4 = android.java.android.database.DataSetObserver_d_interface;
+import import1 = android.java.android.os.Bundle_d_interface;
+import import2 = android.java.android.database.CharArrayBuffer_d_interface;
+
+final class CursorWrapper : IJavaObject {
+	@Import this(import0.Cursor);
+	@Import import0.Cursor getWrappedCursor();
+	@Import void close();
+	@Import bool isClosed();
+	@Import int getCount();
+	@Import void deactivate();
+	@Import bool moveToFirst();
+	@Import int getColumnCount();
+	@Import int getColumnIndex(string);
+	@Import int getColumnIndexOrThrow(string);
+	@Import string getColumnName(int);
+	@Import string[] getColumnNames();
+	@Import double getDouble(int);
+	@Import void setExtras(import1.Bundle);
+	@Import import1.Bundle getExtras();
+	@Import float getFloat(int);
+	@Import int getInt(int);
+	@Import long getLong(int);
+	@Import short getShort(int);
+	@Import string getString(int);
+	@Import void copyStringToBuffer(int, import2.CharArrayBuffer);
+	@Import byte[] getBlob(int);
+	@Import bool getWantsAllOnMoveCalls();
+	@Import bool isAfterLast();
+	@Import bool isBeforeFirst();
+	@Import bool isFirst();
+	@Import bool isLast();
+	@Import int getType(int);
+	@Import bool isNull(int);
+	@Import bool moveToLast();
+	@Import bool move(int);
+	@Import bool moveToPosition(int);
+	@Import bool moveToNext();
+	@Import int getPosition();
+	@Import bool moveToPrevious();
+	@Import void registerContentObserver(import3.ContentObserver);
+	@Import void registerDataSetObserver(import4.DataSetObserver);
+	@Import bool requery();
+	@Import import1.Bundle respond(import1.Bundle);
+	@Import void setNotificationUri(import5.ContentResolver, import6.Uri);
+	@Import import6.Uri getNotificationUri();
+	@Import void unregisterContentObserver(import3.ContentObserver);
+	@Import void unregisterDataSetObserver(import4.DataSetObserver);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.database", "CursorWrapper");
+}

@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_BaseSyncColumns;
+public import android.java.android.provider.ContactsContract_BaseSyncColumns_d_interface;
+

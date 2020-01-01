@@ -1,0 +1,53 @@
+module android.java.android.graphics.drawable.DrawableContainer_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import1 = android.java.android.graphics.Rect_d_interface;
+import import8 = android.java.android.content.res.Resources_Theme_d_interface;
+import import0 = android.java.android.graphics.Canvas_d_interface;
+import import5 = android.java.android.graphics.PorterDuff_Mode_d_interface;
+import import3 = android.java.android.graphics.ColorFilter_d_interface;
+import import9 = android.java.android.graphics.drawable.Drawable_ConstantState_d_interface;
+import import4 = android.java.android.content.res.ColorStateList_d_interface;
+import import6 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import2 = android.java.android.graphics.Outline_d_interface;
+import import7 = android.java.java.lang.Runnable_d_interface;
+
+final class DrawableContainer : IJavaObject {
+	@Import void draw(import0.Canvas);
+	@Import int getChangingConfigurations();
+	@Import bool getPadding(import1.Rect);
+	@Import void getOutline(import2.Outline);
+	@Import void setAlpha(int);
+	@Import int getAlpha();
+	@Import void setDither(bool);
+	@Import void setColorFilter(import3.ColorFilter);
+	@Import void setTintList(import4.ColorStateList);
+	@Import void setTintMode(import5.PorterDuff_Mode);
+	@Import void setEnterFadeDuration(int);
+	@Import void setExitFadeDuration(int);
+	@Import bool isStateful();
+	@Import void setAutoMirrored(bool);
+	@Import bool isAutoMirrored();
+	@Import void jumpToCurrentState();
+	@Import void setHotspot(float, float);
+	@Import void setHotspotBounds(int, int, int, int);
+	@Import void getHotspotBounds(import1.Rect);
+	@Import bool onLayoutDirectionChanged(int);
+	@Import int getIntrinsicWidth();
+	@Import int getIntrinsicHeight();
+	@Import int getMinimumWidth();
+	@Import int getMinimumHeight();
+	@Import void invalidateDrawable(import6.Drawable);
+	@Import void scheduleDrawable(import6.Drawable, import7.Runnable, long);
+	@Import void unscheduleDrawable(import6.Drawable, import7.Runnable);
+	@Import bool setVisible(bool, bool);
+	@Import int getOpacity();
+	@Import bool selectDrawable(int);
+	@Import import6.Drawable getCurrent();
+	@Import void applyTheme(import8.Resources_Theme);
+	@Import bool canApplyTheme();
+	@Import import9.Drawable_ConstantState getConstantState();
+	@Import import6.Drawable mutate();
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.graphics.drawable", "DrawableContainer");
+}

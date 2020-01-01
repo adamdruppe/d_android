@@ -1,0 +1,3 @@
+module android.java.android.media.ImageWriter_OnImageReleasedListener;
+public import android.java.android.media.ImageWriter_OnImageReleasedListener_d_interface;
+

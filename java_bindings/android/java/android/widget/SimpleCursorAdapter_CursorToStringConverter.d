@@ -1,0 +1,3 @@
+module android.java.android.widget.SimpleCursorAdapter_CursorToStringConverter;
+public import android.java.android.widget.SimpleCursorAdapter_CursorToStringConverter_d_interface;
+

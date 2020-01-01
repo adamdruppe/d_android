@@ -1,0 +1,3 @@
+module android.java.android.view.ViewGroup_OnHierarchyChangeListener;
+public import android.java.android.view.ViewGroup_OnHierarchyChangeListener_d_interface;
+

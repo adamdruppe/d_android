@@ -1,0 +1,5 @@
+module android.java.android.content.pm.FeatureInfo;
+public import android.java.android.content.pm.FeatureInfo_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!FeatureInfo;

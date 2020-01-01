@@ -1,0 +1,3 @@
+module android.java.android.media.RemoteController_OnClientUpdateListener;
+public import android.java.android.media.RemoteController_OnClientUpdateListener_d_interface;
+

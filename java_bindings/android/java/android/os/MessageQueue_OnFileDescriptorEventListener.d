@@ -1,0 +1,3 @@
+module android.java.android.os.MessageQueue_OnFileDescriptorEventListener;
+public import android.java.android.os.MessageQueue_OnFileDescriptorEventListener_d_interface;
+

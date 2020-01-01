@@ -1,0 +1,3 @@
+module android.java.android.media.AudioRecord_OnRecordPositionUpdateListener;
+public import android.java.android.media.AudioRecord_OnRecordPositionUpdateListener_d_interface;
+

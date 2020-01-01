@@ -1,0 +1,54 @@
+module android.java.android.net.Uri_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import4 = android.java.java.util.Set_d_interface;
+import import2 = android.java.android.net.Uri_Builder_d_interface;
+import import0 = android.java.java.util.List_d_interface;
+import import1 = android.java.android.net.Uri_d_interface;
+import import5 = android.java.android.os.Parcel_d_interface;
+import import3 = android.java.java.io.File_d_interface;
+
+final class Uri : IJavaObject {
+	@Import bool isHierarchical();
+	@Import bool isOpaque();
+	@Import bool isRelative();
+	@Import bool isAbsolute();
+	@Import string getScheme();
+	@Import string getSchemeSpecificPart();
+	@Import string getEncodedSchemeSpecificPart();
+	@Import string getAuthority();
+	@Import string getEncodedAuthority();
+	@Import string getUserInfo();
+	@Import string getEncodedUserInfo();
+	@Import string getHost();
+	@Import int getPort();
+	@Import string getPath();
+	@Import string getEncodedPath();
+	@Import string getQuery();
+	@Import string getEncodedQuery();
+	@Import string getFragment();
+	@Import string getEncodedFragment();
+	@Import import0.List getPathSegments();
+	@Import string getLastPathSegment();
+	@Import bool equals(IJavaObject);
+	@Import int hashCode();
+	@Import int compareTo(import1.Uri);
+	@Import @JavaName("toString") string toString_();
+	@Import import2.Uri_Builder buildUpon();
+	@Import static import1.Uri parse(string);
+	@Import static import1.Uri fromFile(import3.File);
+	@Import static import1.Uri fromParts(string, string, string);
+	@Import import4.Set getQueryParameterNames();
+	@Import import0.List getQueryParameters(string);
+	@Import string getQueryParameter(string);
+	@Import bool getBooleanQueryParameter(string, bool);
+	@Import import1.Uri normalizeScheme();
+	@Import static void writeToParcel(import5.Parcel, import1.Uri);
+	@Import static string encode(string);
+	@Import static string encode(string, string);
+	@Import static string decode(string);
+	@Import static import1.Uri withAppendedPath(import1.Uri, string);
+	@Import int compareTo(IJavaObject);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.net", "Uri");
+}

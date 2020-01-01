@@ -1,0 +1,58 @@
+module android.java.android.net.ConnectivityManager_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import2 = android.java.android.net.LinkProperties_d_interface;
+import import9 = android.java.android.app.PendingIntent_d_interface;
+import import8 = android.java.android.os.Handler_d_interface;
+import import3 = android.java.android.net.NetworkCapabilities_d_interface;
+import import6 = android.java.android.net.NetworkRequest_d_interface;
+import import4 = android.java.android.net.ConnectivityManager_OnNetworkActiveListener_d_interface;
+import import5 = android.java.android.net.ProxyInfo_d_interface;
+import import0 = android.java.android.net.NetworkInfo_d_interface;
+import import7 = android.java.android.net.ConnectivityManager_NetworkCallback_d_interface;
+import import1 = android.java.android.net.Network_d_interface;
+
+final class ConnectivityManager : IJavaObject {
+	@Import static bool isNetworkTypeValid(int);
+	@Import void setNetworkPreference(int);
+	@Import int getNetworkPreference();
+	@Import import0.NetworkInfo getActiveNetworkInfo();
+	@Import import1.Network getActiveNetwork();
+	@Import import0.NetworkInfo getNetworkInfo(int);
+	@Import import0.NetworkInfo getNetworkInfo(import1.Network);
+	@Import import0.NetworkInfo[] getAllNetworkInfo();
+	@Import import1.Network[] getAllNetworks();
+	@Import import2.LinkProperties getLinkProperties(import1.Network);
+	@Import import3.NetworkCapabilities getNetworkCapabilities(import1.Network);
+	@Import bool getBackgroundDataSetting();
+	@Import void addDefaultNetworkActiveListener(import4.ConnectivityManager_OnNetworkActiveListener);
+	@Import void removeDefaultNetworkActiveListener(import4.ConnectivityManager_OnNetworkActiveListener);
+	@Import bool isDefaultNetworkActive();
+	@Import void reportBadNetwork(import1.Network);
+	@Import void reportNetworkConnectivity(import1.Network, bool);
+	@Import import5.ProxyInfo getDefaultProxy();
+	@Import bool isActiveNetworkMetered();
+	@Import void requestNetwork(import6.NetworkRequest, import7.ConnectivityManager_NetworkCallback);
+	@Import void requestNetwork(import6.NetworkRequest, import7.ConnectivityManager_NetworkCallback, import8.Handler);
+	@Import void requestNetwork(import6.NetworkRequest, import7.ConnectivityManager_NetworkCallback, int);
+	@Import void requestNetwork(import6.NetworkRequest, import7.ConnectivityManager_NetworkCallback, import8.Handler, int);
+	@Import void requestNetwork(import6.NetworkRequest, import9.PendingIntent);
+	@Import void releaseNetworkRequest(import9.PendingIntent);
+	@Import void registerNetworkCallback(import6.NetworkRequest, import7.ConnectivityManager_NetworkCallback);
+	@Import void registerNetworkCallback(import6.NetworkRequest, import7.ConnectivityManager_NetworkCallback, import8.Handler);
+	@Import void registerNetworkCallback(import6.NetworkRequest, import9.PendingIntent);
+	@Import void registerDefaultNetworkCallback(import7.ConnectivityManager_NetworkCallback);
+	@Import void registerDefaultNetworkCallback(import7.ConnectivityManager_NetworkCallback, import8.Handler);
+	@Import bool requestBandwidthUpdate(import1.Network);
+	@Import void unregisterNetworkCallback(import7.ConnectivityManager_NetworkCallback);
+	@Import void unregisterNetworkCallback(import9.PendingIntent);
+	@Import int getMultipathPreference(import1.Network);
+	@Import bool bindProcessToNetwork(import1.Network);
+	@Import static bool setProcessDefaultNetwork(import1.Network);
+	@Import import1.Network getBoundNetworkForProcess();
+	@Import static import1.Network getProcessDefaultNetwork();
+	@Import int getRestrictBackgroundStatus();
+	@Import byte[] getNetworkWatchlistConfigHash();
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.net", "ConnectivityManager");
+}

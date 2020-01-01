@@ -1,0 +1,58 @@
+module android.java.android.animation.ObjectAnimator_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import3 = android.java.android.animation.TypeConverter_d_interface;
+import import0 = android.java.android.util.Property_d_interface;
+import import7 = android.java.android.animation.Animator_d_interface;
+import import1 = android.java.android.animation.ObjectAnimator_d_interface;
+import import2 = android.java.android.graphics.Path_d_interface;
+import import4 = android.java.android.animation.TypeEvaluator_d_interface;
+import import6 = android.java.android.animation.ValueAnimator_d_interface;
+import import5 = android.java.android.animation.PropertyValuesHolder_d_interface;
+
+final class ObjectAnimator : IJavaObject {
+	@Import void setPropertyName(string);
+	@Import void setProperty(import0.Property);
+	@Import string getPropertyName();
+	@Import static import1.ObjectAnimator ofInt(IJavaObject, string, int[]);
+	@Import static import1.ObjectAnimator ofInt(IJavaObject, string, string, import2.Path);
+	@Import static import1.ObjectAnimator ofInt(IJavaObject, import0.Property, int[]);
+	@Import static import1.ObjectAnimator ofInt(IJavaObject, import0.Property, import0.Property, import2.Path);
+	@Import static import1.ObjectAnimator ofMultiInt(IJavaObject, string, int[][]);
+	@Import static import1.ObjectAnimator ofMultiInt(IJavaObject, string, import2.Path);
+	@Import static import1.ObjectAnimator ofMultiInt(IJavaObject, string, import3.TypeConverter, import4.TypeEvaluator, IJavaObject[]);
+	@Import static import1.ObjectAnimator ofArgb(IJavaObject, string, int[]);
+	@Import static import1.ObjectAnimator ofArgb(IJavaObject, import0.Property, int[]);
+	@Import static import1.ObjectAnimator ofFloat(IJavaObject, string, float[]);
+	@Import static import1.ObjectAnimator ofFloat(IJavaObject, string, string, import2.Path);
+	@Import static import1.ObjectAnimator ofFloat(IJavaObject, import0.Property, float[]);
+	@Import static import1.ObjectAnimator ofFloat(IJavaObject, import0.Property, import0.Property, import2.Path);
+	@Import static import1.ObjectAnimator ofMultiFloat(IJavaObject, string, float[][]);
+	@Import static import1.ObjectAnimator ofMultiFloat(IJavaObject, string, import2.Path);
+	@Import static import1.ObjectAnimator ofMultiFloat(IJavaObject, string, import3.TypeConverter, import4.TypeEvaluator, IJavaObject[]);
+	@Import static import1.ObjectAnimator ofObject(IJavaObject, string, import4.TypeEvaluator, IJavaObject[]);
+	@Import static import1.ObjectAnimator ofObject(IJavaObject, string, import3.TypeConverter, import2.Path);
+	@Import static import1.ObjectAnimator ofObject(IJavaObject, import0.Property, import4.TypeEvaluator, IJavaObject[]);
+	@Import static import1.ObjectAnimator ofObject(IJavaObject, import0.Property, import3.TypeConverter, import4.TypeEvaluator, IJavaObject[]);
+	@Import static import1.ObjectAnimator ofObject(IJavaObject, import0.Property, import3.TypeConverter, import2.Path);
+	@Import static import1.ObjectAnimator ofPropertyValuesHolder(IJavaObject, import5.PropertyValuesHolder[]);
+	@Import void setIntValues(int[]);
+	@Import void setFloatValues(float[]);
+	@Import void setObjectValues(IJavaObject[]);
+	@Import void setAutoCancel(bool);
+	@Import void start();
+	@Import import1.ObjectAnimator setDuration(long);
+	@Import IJavaObject getTarget();
+	@Import void setTarget(IJavaObject);
+	@Import void setupStartValues();
+	@Import void setupEndValues();
+	@Import import1.ObjectAnimator clone();
+	@Import @JavaName("toString") string toString_();
+	@Import import6.ValueAnimator clone();
+	@Import import6.ValueAnimator setDuration(long);
+	@Import import7.Animator clone();
+	@Import import7.Animator setDuration(long);
+	@Import IJavaObject clone();
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.animation", "ObjectAnimator");
+}

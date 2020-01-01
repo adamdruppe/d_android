@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_CommonDataKinds_CommonColumns;
+public import android.java.android.provider.ContactsContract_CommonDataKinds_CommonColumns_d_interface;
+

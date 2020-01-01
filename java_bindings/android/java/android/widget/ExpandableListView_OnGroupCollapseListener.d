@@ -1,0 +1,3 @@
+module android.java.android.widget.ExpandableListView_OnGroupCollapseListener;
+public import android.java.android.widget.ExpandableListView_OnGroupCollapseListener_d_interface;
+

@@ -1,0 +1,3 @@
+module android.java.android.provider.CalendarContract_RemindersColumns;
+public import android.java.android.provider.CalendarContract_RemindersColumns_d_interface;
+

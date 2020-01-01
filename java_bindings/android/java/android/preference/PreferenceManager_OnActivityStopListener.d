@@ -1,0 +1,3 @@
+module android.java.android.preference.PreferenceManager_OnActivityStopListener;
+public import android.java.android.preference.PreferenceManager_OnActivityStopListener_d_interface;
+

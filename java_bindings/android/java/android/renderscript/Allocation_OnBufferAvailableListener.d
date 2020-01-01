@@ -1,0 +1,3 @@
+module android.java.android.renderscript.Allocation_OnBufferAvailableListener;
+public import android.java.android.renderscript.Allocation_OnBufferAvailableListener_d_interface;
+

@@ -1,0 +1,5 @@
+module android.java.android.hardware.fingerprint.FingerprintManager_AuthenticationResult;
+public import android.java.android.hardware.fingerprint.FingerprintManager_AuthenticationResult_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!FingerprintManager_AuthenticationResult;

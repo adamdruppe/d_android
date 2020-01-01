@@ -1,0 +1,3 @@
+module android.java.android.accessibilityservice.AccessibilityService_MagnificationController_OnMagnificationChangedListener;
+public import android.java.android.accessibilityservice.AccessibilityService_MagnificationController_OnMagnificationChangedListener_d_interface;
+

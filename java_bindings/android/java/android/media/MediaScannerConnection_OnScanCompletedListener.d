@@ -1,0 +1,3 @@
+module android.java.android.media.MediaScannerConnection_OnScanCompletedListener;
+public import android.java.android.media.MediaScannerConnection_OnScanCompletedListener_d_interface;
+

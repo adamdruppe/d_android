@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_CommonDataKinds_BaseTypes;
+public import android.java.android.provider.ContactsContract_CommonDataKinds_BaseTypes_d_interface;
+

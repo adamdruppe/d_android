@@ -1,0 +1,57 @@
+module android.java.android.content.ContentProvider_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import9 = android.java.android.content.res.AssetFileDescriptor_d_interface;
+import import14 = android.java.java.io.FileDescriptor_d_interface;
+import import3 = android.java.android.database.Cursor_d_interface;
+import import4 = android.java.android.net.Uri_d_interface;
+import import15 = android.java.java.io.PrintWriter_d_interface;
+import import11 = android.java.android.content.pm.ProviderInfo_d_interface;
+import import1 = android.java.android.content.pm.PathPermission_d_interface;
+import import7 = android.java.android.content.ContentValues_d_interface;
+import import5 = android.java.android.os.CancellationSignal_d_interface;
+import import6 = android.java.android.os.Bundle_d_interface;
+import import2 = android.java.android.content.res.Configuration_d_interface;
+import import8 = android.java.android.os.ParcelFileDescriptor_d_interface;
+import import12 = android.java.android.content.ContentProviderResult_d_interface;
+import import13 = android.java.java.util.ArrayList_d_interface;
+import import10 = android.java.android.content.ContentProvider_PipeDataWriter_d_interface;
+import import0 = android.java.android.content.Context_d_interface;
+
+final class ContentProvider : IJavaObject {
+	@Import import0.Context getContext();
+	@Import string getCallingPackage();
+	@Import string getReadPermission();
+	@Import string getWritePermission();
+	@Import import1.PathPermission[] getPathPermissions();
+	@Import bool onCreate();
+	@Import void onConfigurationChanged(import2.Configuration);
+	@Import void onLowMemory();
+	@Import void onTrimMemory(int);
+	@Import import3.Cursor query(import4.Uri, string, string, string, string[][]);
+	@Import import3.Cursor query(import4.Uri, string, string, string, string, import5.CancellationSignal[][]);
+	@Import import3.Cursor query(import4.Uri, string, import6.Bundle, import5.CancellationSignal[]);
+	@Import string getType(import4.Uri);
+	@Import import4.Uri canonicalize(import4.Uri);
+	@Import import4.Uri uncanonicalize(import4.Uri);
+	@Import bool refresh(import4.Uri, import6.Bundle, import5.CancellationSignal);
+	@Import import4.Uri insert(import4.Uri, import7.ContentValues);
+	@Import int bulkInsert(import4.Uri, import7.ContentValues[]);
+	@Import @JavaName("delete") int delete_(import4.Uri, string, string[]);
+	@Import int update(import4.Uri, import7.ContentValues, string, string[]);
+	@Import import8.ParcelFileDescriptor openFile(import4.Uri, string);
+	@Import import8.ParcelFileDescriptor openFile(import4.Uri, string, import5.CancellationSignal);
+	@Import import9.AssetFileDescriptor openAssetFile(import4.Uri, string);
+	@Import import9.AssetFileDescriptor openAssetFile(import4.Uri, string, import5.CancellationSignal);
+	@Import string[] getStreamTypes(import4.Uri, string);
+	@Import import9.AssetFileDescriptor openTypedAssetFile(import4.Uri, string, import6.Bundle);
+	@Import import9.AssetFileDescriptor openTypedAssetFile(import4.Uri, string, import6.Bundle, import5.CancellationSignal);
+	@Import import8.ParcelFileDescriptor openPipeHelper(import4.Uri, string, import6.Bundle, IJavaObject, import10.ContentProvider_PipeDataWriter);
+	@Import void attachInfo(import0.Context, import11.ProviderInfo);
+	@Import import12.ContentProviderResult[] applyBatch(import13.ArrayList);
+	@Import import6.Bundle call(string, string, import6.Bundle);
+	@Import void shutdown();
+	@Import void dump(import14.FileDescriptor, import15.PrintWriter, string[]);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.content", "ContentProvider");
+}

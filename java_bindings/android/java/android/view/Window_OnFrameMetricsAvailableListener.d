@@ -1,0 +1,3 @@
+module android.java.android.view.Window_OnFrameMetricsAvailableListener;
+public import android.java.android.view.Window_OnFrameMetricsAvailableListener_d_interface;
+

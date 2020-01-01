@@ -1,0 +1,3 @@
+module android.java.android.widget.AbsListView_SelectionBoundsAdjuster;
+public import android.java.android.widget.AbsListView_SelectionBoundsAdjuster_d_interface;
+

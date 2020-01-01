@@ -1,0 +1,51 @@
+module android.java.android.graphics.ImageDecoder_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import9 = android.java.android.graphics.Rect_d_interface;
+import import7 = android.java.android.graphics.PostProcessor_d_interface;
+import import0 = android.java.android.graphics.ImageDecoder_Source_d_interface;
+import import2 = android.java.android.content.ContentResolver_d_interface;
+import import3 = android.java.android.net.Uri_d_interface;
+import import13 = android.java.android.graphics.Bitmap_d_interface;
+import import6 = android.java.java.io.File_d_interface;
+import import12 = android.java.android.graphics.ImageDecoder_OnHeaderDecodedListener_d_interface;
+import import1 = android.java.android.content.res.Resources_d_interface;
+import import8 = android.java.android.graphics.ImageDecoder_OnPartialImageListener_d_interface;
+import import4 = android.java.android.content.res.AssetManager_d_interface;
+import import11 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import10 = android.java.android.graphics.ColorSpace_d_interface;
+import import5 = android.java.java.nio.ByteBuffer_d_interface;
+
+final class ImageDecoder : IJavaObject {
+	@Import static import0.ImageDecoder_Source createSource(import1.Resources, int);
+	@Import static import0.ImageDecoder_Source createSource(import2.ContentResolver, import3.Uri);
+	@Import static import0.ImageDecoder_Source createSource(import4.AssetManager, string);
+	@Import static import0.ImageDecoder_Source createSource(import5.ByteBuffer);
+	@Import static import0.ImageDecoder_Source createSource(import6.File);
+	@Import void setTargetSize(int, int);
+	@Import void setTargetSampleSize(int);
+	@Import void setAllocator(int);
+	@Import int getAllocator();
+	@Import void setUnpremultipliedRequired(bool);
+	@Import bool isUnpremultipliedRequired();
+	@Import void setPostProcessor(import7.PostProcessor);
+	@Import import7.PostProcessor getPostProcessor();
+	@Import void setOnPartialImageListener(import8.ImageDecoder_OnPartialImageListener);
+	@Import import8.ImageDecoder_OnPartialImageListener getOnPartialImageListener();
+	@Import void setCrop(import9.Rect);
+	@Import import9.Rect getCrop();
+	@Import void setMutableRequired(bool);
+	@Import bool isMutableRequired();
+	@Import void setMemorySizePolicy(int);
+	@Import int getMemorySizePolicy();
+	@Import void setDecodeAsAlphaMaskEnabled(bool);
+	@Import bool isDecodeAsAlphaMaskEnabled();
+	@Import void setTargetColorSpace(import10.ColorSpace);
+	@Import void close();
+	@Import static import11.Drawable decodeDrawable(import0.ImageDecoder_Source, import12.ImageDecoder_OnHeaderDecodedListener);
+	@Import static import11.Drawable decodeDrawable(import0.ImageDecoder_Source);
+	@Import static import13.Bitmap decodeBitmap(import0.ImageDecoder_Source, import12.ImageDecoder_OnHeaderDecodedListener);
+	@Import static import13.Bitmap decodeBitmap(import0.ImageDecoder_Source);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.graphics", "ImageDecoder");
+}

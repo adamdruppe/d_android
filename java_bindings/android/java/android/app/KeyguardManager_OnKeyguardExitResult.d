@@ -1,0 +1,3 @@
+module android.java.android.app.KeyguardManager_OnKeyguardExitResult;
+public import android.java.android.app.KeyguardManager_OnKeyguardExitResult_d_interface;
+

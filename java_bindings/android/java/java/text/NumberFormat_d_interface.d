@@ -1,0 +1,54 @@
+module android.java.java.text.NumberFormat_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import1 = android.java.java.text.FieldPosition_d_interface;
+import import2 = android.java.java.text.ParsePosition_d_interface;
+import import5 = android.java.java.util.Locale_d_interface;
+import import3 = android.java.java.lang.Number_d_interface;
+import import4 = android.java.java.text.NumberFormat_d_interface;
+import import6 = android.java.java.util.Currency_d_interface;
+import import7 = android.java.java.math.RoundingMode_d_interface;
+import import0 = android.java.java.lang.StringBuffer_d_interface;
+
+final class NumberFormat : IJavaObject {
+	@Import import0.StringBuffer format(IJavaObject, import0.StringBuffer, import1.FieldPosition);
+	@Import IJavaObject parseObject(string, import2.ParsePosition);
+	@Import string format(double);
+	@Import string format(long);
+	@Import import0.StringBuffer format(double, import0.StringBuffer, import1.FieldPosition);
+	@Import import0.StringBuffer format(long, import0.StringBuffer, import1.FieldPosition);
+	@Import import3.Number parse(string, import2.ParsePosition);
+	@Import import3.Number parse(string);
+	@Import bool isParseIntegerOnly();
+	@Import void setParseIntegerOnly(bool);
+	@Import static import4.NumberFormat getInstance();
+	@Import static import4.NumberFormat getInstance(import5.Locale);
+	@Import static import4.NumberFormat getNumberInstance();
+	@Import static import4.NumberFormat getNumberInstance(import5.Locale);
+	@Import static import4.NumberFormat getIntegerInstance();
+	@Import static import4.NumberFormat getIntegerInstance(import5.Locale);
+	@Import static import4.NumberFormat getCurrencyInstance();
+	@Import static import4.NumberFormat getCurrencyInstance(import5.Locale);
+	@Import static import4.NumberFormat getPercentInstance();
+	@Import static import4.NumberFormat getPercentInstance(import5.Locale);
+	@Import static import5.Locale[] getAvailableLocales();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import IJavaObject clone();
+	@Import bool isGroupingUsed();
+	@Import void setGroupingUsed(bool);
+	@Import int getMaximumIntegerDigits();
+	@Import void setMaximumIntegerDigits(int);
+	@Import int getMinimumIntegerDigits();
+	@Import void setMinimumIntegerDigits(int);
+	@Import int getMaximumFractionDigits();
+	@Import void setMaximumFractionDigits(int);
+	@Import int getMinimumFractionDigits();
+	@Import void setMinimumFractionDigits(int);
+	@Import import6.Currency getCurrency();
+	@Import void setCurrency(import6.Currency);
+	@Import import7.RoundingMode getRoundingMode();
+	@Import void setRoundingMode(import7.RoundingMode);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("java.text", "NumberFormat");
+}

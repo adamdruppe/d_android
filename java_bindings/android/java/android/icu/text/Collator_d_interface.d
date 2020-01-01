@@ -1,0 +1,53 @@
+module android.java.android.icu.text.Collator_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import0 = android.java.android.icu.text.Collator_d_interface;
+import import1 = android.java.android.icu.util.ULocale_d_interface;
+import import2 = android.java.java.util.Locale_d_interface;
+import import4 = android.java.android.icu.text.CollationKey_d_interface;
+import import3 = android.java.android.icu.text.UnicodeSet_d_interface;
+import import5 = android.java.android.icu.util.VersionInfo_d_interface;
+
+final class Collator : IJavaObject {
+	@Import bool equals(IJavaObject);
+	@Import int hashCode();
+	@Import void setStrength(int);
+	@Import void setDecomposition(int);
+	@Import void setReorderCodes(int[]);
+	@Import static import0.Collator getInstance();
+	@Import IJavaObject clone();
+	@Import static import0.Collator getInstance(import1.ULocale);
+	@Import static import0.Collator getInstance(import2.Locale);
+	@Import static import2.Locale[] getAvailableLocales();
+	@Import static import1.ULocale[] getAvailableULocales();
+	@Import static string[] getKeywords();
+	@Import static string[] getKeywordValues(string);
+	@Import static string[] getKeywordValuesForLocale(string, import1.ULocale, bool);
+	@Import static import1.ULocale getFunctionalEquivalent(string, import1.ULocale, bool[]);
+	@Import static import1.ULocale getFunctionalEquivalent(string, import1.ULocale);
+	@Import static string getDisplayName(import2.Locale, import2.Locale);
+	@Import static string getDisplayName(import1.ULocale, import1.ULocale);
+	@Import static string getDisplayName(import2.Locale);
+	@Import static string getDisplayName(import1.ULocale);
+	@Import int getStrength();
+	@Import int getDecomposition();
+	@Import bool equals(string, string);
+	@Import import3.UnicodeSet getTailoredSet();
+	@Import int compare(string, string);
+	@Import int compare(IJavaObject, IJavaObject);
+	@Import import4.CollationKey getCollationKey(string);
+	@Import import0.Collator setMaxVariable(int);
+	@Import int getMaxVariable();
+	@Import int getVariableTop();
+	@Import import5.VersionInfo getVersion();
+	@Import import5.VersionInfo getUCAVersion();
+	@Import int[] getReorderCodes();
+	@Import static int[] getEquivalentReorderCodes(int);
+	@Import bool isFrozen();
+	@Import import0.Collator freeze();
+	@Import import0.Collator cloneAsThawed();
+	@Import IJavaObject cloneAsThawed();
+	@Import IJavaObject freeze();
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.icu.text", "Collator");
+}

@@ -1,0 +1,53 @@
+module android.java.android.media.tv.TvView_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import3 = android.java.android.net.Uri_d_interface;
+import import13 = android.java.android.graphics.Canvas_d_interface;
+import import9 = android.java.android.media.tv.TvView_OnUnhandledInputEventListener_d_interface;
+import import1 = android.java.android.util.AttributeSet_d_interface;
+import import6 = android.java.android.media.PlaybackParams_d_interface;
+import import10 = android.java.android.view.KeyEvent_d_interface;
+import import2 = android.java.android.media.tv.TvView_TvInputCallback_d_interface;
+import import4 = android.java.android.os.Bundle_d_interface;
+import import7 = android.java.android.media.tv.TvView_TimeShiftPositionCallback_d_interface;
+import import11 = android.java.android.view.MotionEvent_d_interface;
+import import5 = android.java.java.util.List_d_interface;
+import import8 = android.java.android.view.InputEvent_d_interface;
+import import12 = android.java.android.graphics.Region_d_interface;
+import import0 = android.java.android.content.Context_d_interface;
+
+final class TvView : IJavaObject {
+	@Import this(import0.Context);
+	@Import this(import0.Context, import1.AttributeSet);
+	@Import this(import0.Context, import1.AttributeSet, int);
+	@Import void setCallback(import2.TvView_TvInputCallback);
+	@Import void setZOrderMediaOverlay(bool);
+	@Import void setZOrderOnTop(bool);
+	@Import void setStreamVolume(float);
+	@Import void tune(string, import3.Uri);
+	@Import void tune(string, import3.Uri, import4.Bundle);
+	@Import void reset();
+	@Import void setCaptionEnabled(bool);
+	@Import void selectTrack(int, string);
+	@Import import5.List getTracks(int);
+	@Import string getSelectedTrack(int);
+	@Import void timeShiftPlay(string, import3.Uri);
+	@Import void timeShiftPause();
+	@Import void timeShiftResume();
+	@Import void timeShiftSeekTo(long);
+	@Import void timeShiftSetPlaybackParams(import6.PlaybackParams);
+	@Import void setTimeShiftPositionCallback(import7.TvView_TimeShiftPositionCallback);
+	@Import void sendAppPrivateCommand(string, import4.Bundle);
+	@Import bool dispatchUnhandledInputEvent(import8.InputEvent);
+	@Import bool onUnhandledInputEvent(import8.InputEvent);
+	@Import void setOnUnhandledInputEventListener(import9.TvView_OnUnhandledInputEventListener);
+	@Import bool dispatchKeyEvent(import10.KeyEvent);
+	@Import bool dispatchTouchEvent(import11.MotionEvent);
+	@Import bool dispatchTrackballEvent(import11.MotionEvent);
+	@Import bool dispatchGenericMotionEvent(import11.MotionEvent);
+	@Import void dispatchWindowFocusChanged(bool);
+	@Import bool gatherTransparentRegion(import12.Region);
+	@Import void draw(import13.Canvas);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.media.tv", "TvView");
+}

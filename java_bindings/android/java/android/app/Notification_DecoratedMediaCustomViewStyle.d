@@ -1,0 +1,5 @@
+module android.java.android.app.Notification_DecoratedMediaCustomViewStyle;
+public import android.java.android.app.Notification_DecoratedMediaCustomViewStyle_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!Notification_DecoratedMediaCustomViewStyle;

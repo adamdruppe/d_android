@@ -1,0 +1,3 @@
+module android.java.android.speech.tts.TextToSpeech_OnUtteranceCompletedListener;
+public import android.java.android.speech.tts.TextToSpeech_OnUtteranceCompletedListener_d_interface;
+

@@ -1,0 +1,5 @@
+module android.java.android.media.MediaPlayer_ProvisioningNetworkErrorException;
+public import android.java.android.media.MediaPlayer_ProvisioningNetworkErrorException_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!MediaPlayer_ProvisioningNetworkErrorException;

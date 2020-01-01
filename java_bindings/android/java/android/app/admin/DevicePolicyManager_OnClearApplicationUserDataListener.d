@@ -1,0 +1,3 @@
+module android.java.android.app.admin.DevicePolicyManager_OnClearApplicationUserDataListener;
+public import android.java.android.app.admin.DevicePolicyManager_OnClearApplicationUserDataListener_d_interface;
+

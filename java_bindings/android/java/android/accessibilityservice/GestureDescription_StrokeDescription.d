@@ -1,0 +1,5 @@
+module android.java.android.accessibilityservice.GestureDescription_StrokeDescription;
+public import android.java.android.accessibilityservice.GestureDescription_StrokeDescription_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!GestureDescription_StrokeDescription;

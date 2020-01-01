@@ -1,0 +1,3 @@
+module android.java.android.widget.MediaController_MediaPlayerControl;
+public import android.java.android.widget.MediaController_MediaPlayerControl_d_interface;
+

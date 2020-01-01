@@ -1,0 +1,3 @@
+module android.java.android.widget.RatingBar_OnRatingBarChangeListener;
+public import android.java.android.widget.RatingBar_OnRatingBarChangeListener_d_interface;
+

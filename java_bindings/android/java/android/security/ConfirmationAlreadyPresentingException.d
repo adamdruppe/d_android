@@ -1,0 +1,5 @@
+module android.java.android.security.ConfirmationAlreadyPresentingException;
+public import android.java.android.security.ConfirmationAlreadyPresentingException_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!ConfirmationAlreadyPresentingException;

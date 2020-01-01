@@ -1,0 +1,3 @@
+module android.java.android.net.ConnectivityManager_OnNetworkActiveListener;
+public import android.java.android.net.ConnectivityManager_OnNetworkActiveListener_d_interface;
+

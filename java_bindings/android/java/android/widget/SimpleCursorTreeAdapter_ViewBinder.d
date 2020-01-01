@@ -1,0 +1,3 @@
+module android.java.android.widget.SimpleCursorTreeAdapter_ViewBinder;
+public import android.java.android.widget.SimpleCursorTreeAdapter_ViewBinder_d_interface;
+

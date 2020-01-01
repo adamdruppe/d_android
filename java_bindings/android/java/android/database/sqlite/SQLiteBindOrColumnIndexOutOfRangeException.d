@@ -1,0 +1,5 @@
+module android.java.android.database.sqlite.SQLiteBindOrColumnIndexOutOfRangeException;
+public import android.java.android.database.sqlite.SQLiteBindOrColumnIndexOutOfRangeException_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!SQLiteBindOrColumnIndexOutOfRangeException;

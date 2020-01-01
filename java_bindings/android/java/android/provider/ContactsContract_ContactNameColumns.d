@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_ContactNameColumns;
+public import android.java.android.provider.ContactsContract_ContactNameColumns_d_interface;
+

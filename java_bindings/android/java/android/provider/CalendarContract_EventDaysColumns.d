@@ -1,0 +1,3 @@
+module android.java.android.provider.CalendarContract_EventDaysColumns;
+public import android.java.android.provider.CalendarContract_EventDaysColumns_d_interface;
+

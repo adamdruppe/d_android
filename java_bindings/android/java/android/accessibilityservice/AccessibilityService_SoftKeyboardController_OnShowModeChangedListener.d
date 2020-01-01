@@ -1,0 +1,3 @@
+module android.java.android.accessibilityservice.AccessibilityService_SoftKeyboardController_OnShowModeChangedListener;
+public import android.java.android.accessibilityservice.AccessibilityService_SoftKeyboardController_OnShowModeChangedListener_d_interface;
+

@@ -1,0 +1,5 @@
+module android.java.android.app.Notification_CarExtender_UnreadConversation;
+public import android.java.android.app.Notification_CarExtender_UnreadConversation_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!Notification_CarExtender_UnreadConversation;

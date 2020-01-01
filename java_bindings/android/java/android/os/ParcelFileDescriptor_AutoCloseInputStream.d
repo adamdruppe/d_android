@@ -1,0 +1,5 @@
+module android.java.android.os.ParcelFileDescriptor_AutoCloseInputStream;
+public import android.java.android.os.ParcelFileDescriptor_AutoCloseInputStream_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!ParcelFileDescriptor_AutoCloseInputStream;

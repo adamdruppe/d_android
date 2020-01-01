@@ -1,0 +1,5 @@
+module android.java.android.view.inputmethod.InputMethodSubtype_InputMethodSubtypeBuilder;
+public import android.java.android.view.inputmethod.InputMethodSubtype_InputMethodSubtypeBuilder_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!InputMethodSubtype_InputMethodSubtypeBuilder;

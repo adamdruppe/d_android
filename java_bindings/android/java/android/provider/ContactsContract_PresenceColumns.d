@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_PresenceColumns;
+public import android.java.android.provider.ContactsContract_PresenceColumns_d_interface;
+

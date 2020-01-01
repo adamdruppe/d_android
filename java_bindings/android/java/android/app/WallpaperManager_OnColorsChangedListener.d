@@ -1,0 +1,3 @@
+module android.java.android.app.WallpaperManager_OnColorsChangedListener;
+public import android.java.android.app.WallpaperManager_OnColorsChangedListener_d_interface;
+

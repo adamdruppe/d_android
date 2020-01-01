@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_PhoneticNameStyle;
+public import android.java.android.provider.ContactsContract_PhoneticNameStyle_d_interface;
+

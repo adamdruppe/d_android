@@ -1,0 +1,3 @@
+module android.java.android.gesture.GestureOverlayView_OnGesturingListener;
+public import android.java.android.gesture.GestureOverlayView_OnGesturingListener_d_interface;
+

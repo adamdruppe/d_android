@@ -1,0 +1,5 @@
+module android.java.android.icu.text.UnicodeSetIterator;
+public import android.java.android.icu.text.UnicodeSetIterator_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!UnicodeSetIterator;

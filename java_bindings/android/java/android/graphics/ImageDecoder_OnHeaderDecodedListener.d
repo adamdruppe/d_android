@@ -1,0 +1,3 @@
+module android.java.android.graphics.ImageDecoder_OnHeaderDecodedListener;
+public import android.java.android.graphics.ImageDecoder_OnHeaderDecodedListener_d_interface;
+

@@ -1,0 +1,3 @@
+module android.java.android.media.RemoteControlClient_OnMetadataUpdateListener;
+public import android.java.android.media.RemoteControlClient_OnMetadataUpdateListener_d_interface;
+

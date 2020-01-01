@@ -1,0 +1,3 @@
+module android.java.android.widget.Chronometer_OnChronometerTickListener;
+public import android.java.android.widget.Chronometer_OnChronometerTickListener_d_interface;
+

@@ -1,0 +1,3 @@
+module android.java.android.widget.SlidingDrawer_OnDrawerOpenListener;
+public import android.java.android.widget.SlidingDrawer_OnDrawerOpenListener_d_interface;
+

@@ -1,0 +1,3 @@
+module android.java.android.media.MediaPlayer_OnMediaTimeDiscontinuityListener;
+public import android.java.android.media.MediaPlayer_OnMediaTimeDiscontinuityListener_d_interface;
+

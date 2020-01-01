@@ -1,0 +1,3 @@
+module android.java.android.bluetooth.BluetoothAdapter_LeScanCallback;
+public import android.java.android.bluetooth.BluetoothAdapter_LeScanCallback_d_interface;
+

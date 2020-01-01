@@ -1,0 +1,3 @@
+module android.java.android.media.audiofx.EnvironmentalReverb_OnParameterChangeListener;
+public import android.java.android.media.audiofx.EnvironmentalReverb_OnParameterChangeListener_d_interface;
+

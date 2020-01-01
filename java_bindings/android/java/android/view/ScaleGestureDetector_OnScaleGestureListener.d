@@ -1,0 +1,3 @@
+module android.java.android.view.ScaleGestureDetector_OnScaleGestureListener;
+public import android.java.android.view.ScaleGestureDetector_OnScaleGestureListener_d_interface;
+

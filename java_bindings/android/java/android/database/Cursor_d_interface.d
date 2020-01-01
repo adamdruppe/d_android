@@ -1,0 +1,54 @@
+module android.java.android.database.Cursor_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import2 = android.java.android.database.DataSetObserver_d_interface;
+import import1 = android.java.android.database.ContentObserver_d_interface;
+import import3 = android.java.android.content.ContentResolver_d_interface;
+import import4 = android.java.android.net.Uri_d_interface;
+import import5 = android.java.android.os.Bundle_d_interface;
+import import0 = android.java.android.database.CharArrayBuffer_d_interface;
+
+interface Cursor : IJavaObject {
+	@Import int getCount();
+	@Import int getPosition();
+	@Import bool move(int);
+	@Import bool moveToPosition(int);
+	@Import bool moveToFirst();
+	@Import bool moveToLast();
+	@Import bool moveToNext();
+	@Import bool moveToPrevious();
+	@Import bool isFirst();
+	@Import bool isLast();
+	@Import bool isBeforeFirst();
+	@Import bool isAfterLast();
+	@Import int getColumnIndex(string);
+	@Import int getColumnIndexOrThrow(string);
+	@Import string getColumnName(int);
+	@Import string[] getColumnNames();
+	@Import int getColumnCount();
+	@Import byte[] getBlob(int);
+	@Import string getString(int);
+	@Import void copyStringToBuffer(int, import0.CharArrayBuffer);
+	@Import short getShort(int);
+	@Import int getInt(int);
+	@Import long getLong(int);
+	@Import float getFloat(int);
+	@Import double getDouble(int);
+	@Import int getType(int);
+	@Import bool isNull(int);
+	@Import void deactivate();
+	@Import bool requery();
+	@Import void close();
+	@Import bool isClosed();
+	@Import void registerContentObserver(import1.ContentObserver);
+	@Import void unregisterContentObserver(import1.ContentObserver);
+	@Import void registerDataSetObserver(import2.DataSetObserver);
+	@Import void unregisterDataSetObserver(import2.DataSetObserver);
+	@Import void setNotificationUri(import3.ContentResolver, import4.Uri);
+	@Import import4.Uri getNotificationUri();
+	@Import bool getWantsAllOnMoveCalls();
+	@Import void setExtras(import5.Bundle);
+	@Import import5.Bundle getExtras();
+	@Import import5.Bundle respond(import5.Bundle);
+	mixin JavaPackageId!("android.database", "Cursor");
+}

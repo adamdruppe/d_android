@@ -1,0 +1,5 @@
+module android.java.android.hardware.biometrics.BiometricPrompt_AuthenticationResult;
+public import android.java.android.hardware.biometrics.BiometricPrompt_AuthenticationResult_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!BiometricPrompt_AuthenticationResult;

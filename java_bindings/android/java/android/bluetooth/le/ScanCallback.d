@@ -1,0 +1,5 @@
+module android.java.android.bluetooth.le.ScanCallback;
+public import android.java.android.bluetooth.le.ScanCallback_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!ScanCallback;

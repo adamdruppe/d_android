@@ -1,0 +1,3 @@
+module android.java.android.app.Application_ActivityLifecycleCallbacks;
+public import android.java.android.app.Application_ActivityLifecycleCallbacks_d_interface;
+

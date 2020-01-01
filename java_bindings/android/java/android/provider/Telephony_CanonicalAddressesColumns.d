@@ -1,0 +1,3 @@
+module android.java.android.provider.Telephony_CanonicalAddressesColumns;
+public import android.java.android.provider.Telephony_CanonicalAddressesColumns_d_interface;
+

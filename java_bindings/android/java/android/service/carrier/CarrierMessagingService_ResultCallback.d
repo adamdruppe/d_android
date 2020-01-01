@@ -1,0 +1,3 @@
+module android.java.android.service.carrier.CarrierMessagingService_ResultCallback;
+public import android.java.android.service.carrier.CarrierMessagingService_ResultCallback_d_interface;
+

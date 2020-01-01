@@ -1,0 +1,3 @@
+module android.java.android.app.UiAutomation_OnAccessibilityEventListener;
+public import android.java.android.app.UiAutomation_OnAccessibilityEventListener_d_interface;
+

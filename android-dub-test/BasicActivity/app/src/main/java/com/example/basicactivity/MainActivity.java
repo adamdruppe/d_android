@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public native static void DoSomethingInD(TextView t);
+    public native String saySomething();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 TextView tv = findViewById(R.id.sample_text);
                 DoSomethingInD(tv);
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, saySomething(), Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

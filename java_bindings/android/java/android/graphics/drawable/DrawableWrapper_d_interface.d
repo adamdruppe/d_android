@@ -1,0 +1,51 @@
+module android.java.android.graphics.drawable.DrawableWrapper_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import7 = android.java.android.graphics.Rect_d_interface;
+import import4 = android.java.android.content.res.Resources_Theme_d_interface;
+import import6 = android.java.android.graphics.Canvas_d_interface;
+import import2 = android.java.org.xmlpull.v1.XmlPullParser_d_interface;
+import import1 = android.java.android.content.res.Resources_d_interface;
+import import8 = android.java.android.graphics.ColorFilter_d_interface;
+import import12 = android.java.android.graphics.drawable.Drawable_ConstantState_d_interface;
+import import10 = android.java.android.graphics.PorterDuff_Mode_d_interface;
+import import9 = android.java.android.content.res.ColorStateList_d_interface;
+import import3 = android.java.android.util.AttributeSet_d_interface;
+import import0 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import11 = android.java.android.graphics.Outline_d_interface;
+import import5 = android.java.java.lang.Runnable_d_interface;
+
+final class DrawableWrapper : IJavaObject {
+	@Import this(import0.Drawable);
+	@Import void setDrawable(import0.Drawable);
+	@Import import0.Drawable getDrawable();
+	@Import void inflate(import1.Resources, import2.XmlPullParser, import3.AttributeSet, import4.Resources_Theme);
+	@Import void applyTheme(import4.Resources_Theme);
+	@Import bool canApplyTheme();
+	@Import void invalidateDrawable(import0.Drawable);
+	@Import void scheduleDrawable(import0.Drawable, import5.Runnable, long);
+	@Import void unscheduleDrawable(import0.Drawable, import5.Runnable);
+	@Import void draw(import6.Canvas);
+	@Import int getChangingConfigurations();
+	@Import bool getPadding(import7.Rect);
+	@Import void setHotspot(float, float);
+	@Import void setHotspotBounds(int, int, int, int);
+	@Import void getHotspotBounds(import7.Rect);
+	@Import bool setVisible(bool, bool);
+	@Import void setAlpha(int);
+	@Import int getAlpha();
+	@Import void setColorFilter(import8.ColorFilter);
+	@Import import8.ColorFilter getColorFilter();
+	@Import void setTintList(import9.ColorStateList);
+	@Import void setTintMode(import10.PorterDuff_Mode);
+	@Import bool onLayoutDirectionChanged(int);
+	@Import int getOpacity();
+	@Import bool isStateful();
+	@Import int getIntrinsicWidth();
+	@Import int getIntrinsicHeight();
+	@Import void getOutline(import11.Outline);
+	@Import import12.Drawable_ConstantState getConstantState();
+	@Import import0.Drawable mutate();
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.graphics.drawable", "DrawableWrapper");
+}

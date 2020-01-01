@@ -1,0 +1,3 @@
+module android.java.android.provider.CalendarContract_CalendarAlertsColumns;
+public import android.java.android.provider.CalendarContract_CalendarAlertsColumns_d_interface;
+

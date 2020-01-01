@@ -1,0 +1,3 @@
+module android.java.android.media.ImageReader_OnImageAvailableListener;
+public import android.java.android.media.ImageReader_OnImageAvailableListener_d_interface;
+

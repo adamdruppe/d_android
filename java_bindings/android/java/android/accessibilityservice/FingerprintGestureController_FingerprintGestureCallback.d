@@ -1,0 +1,5 @@
+module android.java.android.accessibilityservice.FingerprintGestureController_FingerprintGestureCallback;
+public import android.java.android.accessibilityservice.FingerprintGestureController_FingerprintGestureCallback_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!FingerprintGestureController_FingerprintGestureCallback;

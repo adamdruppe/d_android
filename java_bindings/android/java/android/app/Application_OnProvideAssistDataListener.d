@@ -1,0 +1,3 @@
+module android.java.android.app.Application_OnProvideAssistDataListener;
+public import android.java.android.app.Application_OnProvideAssistDataListener_d_interface;
+

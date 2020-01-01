@@ -1,0 +1,3 @@
+module android.java.android.media.RemoteControlClient_OnPlaybackPositionUpdateListener;
+public import android.java.android.media.RemoteControlClient_OnPlaybackPositionUpdateListener_d_interface;
+

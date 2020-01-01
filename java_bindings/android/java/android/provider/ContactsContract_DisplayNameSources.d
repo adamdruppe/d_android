@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_DisplayNameSources;
+public import android.java.android.provider.ContactsContract_DisplayNameSources_d_interface;
+

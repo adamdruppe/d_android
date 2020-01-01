@@ -1,0 +1,3 @@
+module android.java.android.content.ClipboardManager_OnPrimaryClipChangedListener;
+public import android.java.android.content.ClipboardManager_OnPrimaryClipChangedListener_d_interface;
+

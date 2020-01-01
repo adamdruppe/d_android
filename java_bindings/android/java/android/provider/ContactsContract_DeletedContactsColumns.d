@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_DeletedContactsColumns;
+public import android.java.android.provider.ContactsContract_DeletedContactsColumns_d_interface;
+

@@ -1,0 +1,3 @@
+module android.java.android.opengl.GLSurfaceView_EGLWindowSurfaceFactory;
+public import android.java.android.opengl.GLSurfaceView_EGLWindowSurfaceFactory_d_interface;
+

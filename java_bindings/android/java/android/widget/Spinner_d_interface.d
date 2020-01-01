@@ -1,0 +1,54 @@
+module android.java.android.widget.Spinner_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import8 = android.java.java.lang.CharSequence_d_interface;
+import import2 = android.java.android.content.res.Resources_Theme_d_interface;
+import import11 = android.java.android.widget.Adapter_d_interface;
+import import7 = android.java.android.content.DialogInterface_d_interface;
+import import4 = android.java.android.widget.SpinnerAdapter_d_interface;
+import import1 = android.java.android.util.AttributeSet_d_interface;
+import import3 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import5 = android.java.android.widget.AdapterView_OnItemClickListener_d_interface;
+import import10 = android.java.android.view.PointerIcon_d_interface;
+import import6 = android.java.android.view.MotionEvent_d_interface;
+import import9 = android.java.android.os.Parcelable_d_interface;
+import import0 = android.java.android.content.Context_d_interface;
+
+final class Spinner : IJavaObject {
+	@Import this(import0.Context);
+	@Import this(import0.Context, int);
+	@Import this(import0.Context, import1.AttributeSet);
+	@Import this(import0.Context, import1.AttributeSet, int);
+	@Import this(import0.Context, import1.AttributeSet, int, int);
+	@Import this(import0.Context, import1.AttributeSet, int, int, int);
+	@Import this(import0.Context, import1.AttributeSet, int, int, int, import2.Resources_Theme);
+	@Import import0.Context getPopupContext();
+	@Import void setPopupBackgroundDrawable(import3.Drawable);
+	@Import void setPopupBackgroundResource(int);
+	@Import import3.Drawable getPopupBackground();
+	@Import void setDropDownVerticalOffset(int);
+	@Import int getDropDownVerticalOffset();
+	@Import void setDropDownHorizontalOffset(int);
+	@Import int getDropDownHorizontalOffset();
+	@Import void setDropDownWidth(int);
+	@Import int getDropDownWidth();
+	@Import void setEnabled(bool);
+	@Import void setGravity(int);
+	@Import int getGravity();
+	@Import void setAdapter(import4.SpinnerAdapter);
+	@Import int getBaseline();
+	@Import void setOnItemClickListener(import5.AdapterView_OnItemClickListener);
+	@Import bool onTouchEvent(import6.MotionEvent);
+	@Import bool performClick();
+	@Import void onClick(import7.DialogInterface, int);
+	@Import import8.CharSequence getAccessibilityClassName();
+	@Import void setPrompt(import8.CharSequence);
+	@Import void setPromptId(int);
+	@Import import8.CharSequence getPrompt();
+	@Import import9.Parcelable onSaveInstanceState();
+	@Import void onRestoreInstanceState(import9.Parcelable);
+	@Import import10.PointerIcon onResolvePointerIcon(import6.MotionEvent, int);
+	@Import void setAdapter(import11.Adapter);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.widget", "Spinner");
+}

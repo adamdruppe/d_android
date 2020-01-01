@@ -1,0 +1,3 @@
+module android.java.android.provider.ContactsContract_DataUsageStatColumns;
+public import android.java.android.provider.ContactsContract_DataUsageStatColumns_d_interface;
+

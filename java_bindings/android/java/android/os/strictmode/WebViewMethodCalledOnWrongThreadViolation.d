@@ -1,0 +1,5 @@
+module android.java.android.os.strictmode.WebViewMethodCalledOnWrongThreadViolation;
+public import android.java.android.os.strictmode.WebViewMethodCalledOnWrongThreadViolation_d_interface;
+
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!WebViewMethodCalledOnWrongThreadViolation;

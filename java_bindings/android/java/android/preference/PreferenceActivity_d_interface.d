@@ -1,0 +1,53 @@
+module android.java.android.preference.PreferenceActivity_d_interface;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+
+import import4 = android.java.android.content.Intent_d_interface;
+import import7 = android.java.java.lang.CharSequence_d_interface;
+import import3 = android.java.android.view.View_d_interface;
+import import6 = android.java.android.app.Fragment_d_interface;
+import import9 = android.java.android.preference.PreferenceFragment_d_interface;
+import import1 = android.java.android.preference.PreferenceActivity_Header_d_interface;
+import import11 = android.java.android.preference.PreferenceManager_d_interface;
+import import5 = android.java.android.os.Bundle_d_interface;
+import import10 = android.java.android.preference.Preference_d_interface;
+import import2 = android.java.java.util.List_d_interface;
+import import12 = android.java.android.preference.PreferenceScreen_d_interface;
+import import0 = android.java.android.view.MenuItem_d_interface;
+import import8 = android.java.android.view.View_OnClickListener_d_interface;
+
+final class PreferenceActivity : IJavaObject {
+	@Import bool onOptionsItemSelected(import0.MenuItem);
+	@Import void onBackPressed();
+	@Import bool hasHeaders();
+	@Import bool isMultiPane();
+	@Import bool onIsMultiPane();
+	@Import bool onIsHidingHeaders();
+	@Import import1.PreferenceActivity_Header onGetInitialHeader();
+	@Import import1.PreferenceActivity_Header onGetNewHeader();
+	@Import void onBuildHeaders(import2.List);
+	@Import void invalidateHeaders();
+	@Import void loadHeadersFromResource(int, import2.List);
+	@Import void setListFooter(import3.View);
+	@Import void onContentChanged();
+	@Import void onHeaderClick(import1.PreferenceActivity_Header, int);
+	@Import import4.Intent onBuildStartFragmentIntent(string, import5.Bundle, int, int);
+	@Import void startWithFragment(string, import5.Bundle, import6.Fragment, int);
+	@Import void startWithFragment(string, import5.Bundle, import6.Fragment, int, int, int);
+	@Import void showBreadCrumbs(import7.CharSequence, import7.CharSequence);
+	@Import void setParentTitle(import7.CharSequence, import7.CharSequence, import8.View_OnClickListener);
+	@Import void switchToHeader(string, import5.Bundle);
+	@Import void switchToHeader(import1.PreferenceActivity_Header);
+	@Import void startPreferenceFragment(import6.Fragment, bool);
+	@Import void startPreferencePanel(string, import5.Bundle, int, import7.CharSequence, import6.Fragment, int);
+	@Import void finishPreferencePanel(import6.Fragment, int, import4.Intent);
+	@Import bool onPreferenceStartFragment(import9.PreferenceFragment, import10.Preference);
+	@Import import11.PreferenceManager getPreferenceManager();
+	@Import void setPreferenceScreen(import12.PreferenceScreen);
+	@Import import12.PreferenceScreen getPreferenceScreen();
+	@Import void addPreferencesFromIntent(import4.Intent);
+	@Import void addPreferencesFromResource(int);
+	@Import bool onPreferenceTreeClick(import12.PreferenceScreen, import10.Preference);
+	@Import import10.Preference findPreference(import7.CharSequence);
+	mixin IJavaObjectImplementation!(false);
+	mixin JavaPackageId!("android.preference", "PreferenceActivity");
+}
