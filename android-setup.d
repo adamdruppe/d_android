@@ -10,6 +10,9 @@ import std.algorithm;
 import std.path;
 import std.file;
 
+version(X86)
+	pragma(msg, "You might want to try -m64 build instead so curl is more likely to work. But you can try this anyway.");
+
 int main() {
 	auto p = executeShell("ldc2 -v");
 	if(p.status != 0 && p.status != 1) {
@@ -210,7 +213,7 @@ immutable string configTemplate = q{
 };
 
 
-version(Windows) {
+version(none) {
 	// use the IE API since it is bundled with OS and thus saves
 	// dependency trouble for initial install
 	import core.sys.windows.windows;
