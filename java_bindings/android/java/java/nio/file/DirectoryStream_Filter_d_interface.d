@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("DirectoryStream$Filter")
 interface DirectoryStream_Filter : IJavaObject {
 	@Import bool accept(IJavaObject);
-	mixin JavaPackageId!("java.nio.file", "DirectoryStream$Filter");
+	public static immutable string _javaParameterString = "Ljava/nio/file/DirectoryStream$Filter";
 }

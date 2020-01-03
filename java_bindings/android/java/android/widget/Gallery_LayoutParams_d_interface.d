@@ -11,5 +11,5 @@ final class Gallery_LayoutParams : IJavaObject {
 	@Import this(int, int);
 	@Import this(import2.ViewGroup_LayoutParams);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Gallery$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/Gallery$LayoutParams";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("RemoteViews$RemoteView")
 interface RemoteViews_RemoteView : IJavaObject {
-	mixin JavaPackageId!("android.widget", "RemoteViews$RemoteView");
+	public static immutable string _javaParameterString = "Landroid/widget/RemoteViews$RemoteView";
 }

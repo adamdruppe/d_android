@@ -17,5 +17,5 @@ final class IndianCalendar : IJavaObject {
 	@Import this(int, int, int, int, int, int);
 	@Import string getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "IndianCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/IndianCalendar";
 }

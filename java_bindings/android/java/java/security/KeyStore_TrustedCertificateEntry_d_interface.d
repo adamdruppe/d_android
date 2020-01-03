@@ -12,5 +12,5 @@ final class KeyStore_TrustedCertificateEntry : IJavaObject {
 	@Import import1.Set getAttributes();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyStore$TrustedCertificateEntry");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$TrustedCertificateEntry";
 }

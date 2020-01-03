@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SharedElementCallback$OnSharedElementsReadyListener")
 interface SharedElementCallback_OnSharedElementsReadyListener : IJavaObject {
 	@Import void onSharedElementsReady();
-	mixin JavaPackageId!("android.app", "SharedElementCallback$OnSharedElementsReadyListener");
+	public static immutable string _javaParameterString = "Landroid/app/SharedElementCallback$OnSharedElementsReadyListener";
 }

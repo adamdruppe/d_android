@@ -6,5 +6,5 @@ final class StatsLog : IJavaObject {
 	@Import static bool logStop(int);
 	@Import static bool logEvent(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "StatsLog");
+	public static immutable string _javaParameterString = "Landroid/util/StatsLog";
 }

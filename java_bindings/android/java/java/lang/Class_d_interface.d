@@ -19,6 +19,7 @@ final class Class : IJavaObject {
 	@Import string toGenericString();
 	@Import static import0.Class forName(string);
 	@Import static import0.Class forName(string, bool, import1.ClassLoader);
+	@Import IJavaObject newInstance();
 	@Import bool isInstance(IJavaObject);
 	@Import bool isAssignableFrom(import0.Class);
 	@Import bool isInterface();
@@ -39,9 +40,12 @@ final class Class : IJavaObject {
 	@Import IJavaObject[] getSigners();
 	@Import import5.Method getEnclosingMethod();
 	@Import import6.Constructor getEnclosingConstructor();
+	@Import import0.Class getDeclaringClass();
+	@Import import0.Class getEnclosingClass();
 	@Import string getSimpleName();
 	@Import string getTypeName();
 	@Import string getCanonicalName();
+	@Import bool isAnonymousClass();
 	@Import bool isLocalClass();
 	@Import bool isMemberClass();
 	@Import import0.Class[] getClasses();
@@ -51,8 +55,11 @@ final class Class : IJavaObject {
 	@Import import7.Field getField(string);
 	@Import import5.Method getMethod(string, import0.Class[]);
 	@Import import6.Constructor getConstructor(import0.Class[]);
+	@Import import0.Class[] getDeclaredClasses();
+	@Import import7.Field[] getDeclaredFields();
 	@Import import5.Method[] getDeclaredMethods();
 	@Import import6.Constructor[] getDeclaredConstructors();
+	@Import import7.Field getDeclaredField(string);
 	@Import import5.Method getDeclaredMethod(string, import0.Class[]);
 	@Import import6.Constructor getDeclaredConstructor(import0.Class[]);
 	@Import import8.InputStream getResourceAsStream(string);
@@ -67,6 +74,8 @@ final class Class : IJavaObject {
 	@Import bool isAnnotationPresent(import0.Class);
 	@Import import11.Annotation[] getAnnotationsByType(import0.Class);
 	@Import import11.Annotation[] getAnnotations();
+	@Import import11.Annotation getDeclaredAnnotation(import0.Class);
+	@Import import11.Annotation[] getDeclaredAnnotations();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Class");
+	public static immutable string _javaParameterString = "Ljava/lang/Class";
 }

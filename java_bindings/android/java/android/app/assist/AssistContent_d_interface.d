@@ -22,5 +22,5 @@ final class AssistContent : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import4.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.assist", "AssistContent");
+	public static immutable string _javaParameterString = "Landroid/app/assist/AssistContent";
 }

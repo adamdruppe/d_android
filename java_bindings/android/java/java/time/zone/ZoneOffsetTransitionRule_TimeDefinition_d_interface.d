@@ -11,5 +11,5 @@ final class ZoneOffsetTransitionRule_TimeDefinition : IJavaObject {
 	@Import static import0.ZoneOffsetTransitionRule_TimeDefinition valueOf(string);
 	@Import import1.LocalDateTime createDateTime(import1.LocalDateTime, import2.ZoneOffset, import2.ZoneOffset);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.zone", "ZoneOffsetTransitionRule$TimeDefinition");
+	public static immutable string _javaParameterString = "Ljava/time/zone/ZoneOffsetTransitionRule$TimeDefinition";
 }

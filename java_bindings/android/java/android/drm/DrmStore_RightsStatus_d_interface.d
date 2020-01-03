@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("DrmStore$RightsStatus")
 final class DrmStore_RightsStatus : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmStore$RightsStatus");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmStore$RightsStatus";
 }

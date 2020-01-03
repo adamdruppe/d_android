@@ -45,5 +45,5 @@ final class JobInfo : IJavaObject {
 	@Import void writeToParcel(import6.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.job", "JobInfo");
+	public static immutable string _javaParameterString = "Landroid/app/job/JobInfo";
 }

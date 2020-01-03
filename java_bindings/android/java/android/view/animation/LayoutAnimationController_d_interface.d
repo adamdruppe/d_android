@@ -26,5 +26,5 @@ final class LayoutAnimationController : IJavaObject {
 	@Import import2.Animation getAnimationForView(import4.View);
 	@Import bool isDone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "LayoutAnimationController");
+	public static immutable string _javaParameterString = "Landroid/view/animation/LayoutAnimationController";
 }

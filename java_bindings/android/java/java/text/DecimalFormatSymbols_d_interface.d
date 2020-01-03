@@ -44,5 +44,5 @@ final class DecimalFormatSymbols : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "DecimalFormatSymbols");
+	public static immutable string _javaParameterString = "Ljava/text/DecimalFormatSymbols";
 }

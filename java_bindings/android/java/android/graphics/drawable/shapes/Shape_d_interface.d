@@ -16,5 +16,5 @@ final class Shape : IJavaObject {
 	@Import import3.Shape clone();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable.shapes", "Shape");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/shapes/Shape";
 }

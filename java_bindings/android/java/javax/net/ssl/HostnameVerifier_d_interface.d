@@ -5,5 +5,5 @@ import import0 = android.java.javax.net.ssl.SSLSession_d_interface;
 
 interface HostnameVerifier : IJavaObject {
 	@Import bool verify(string, import0.SSLSession);
-	mixin JavaPackageId!("javax.net.ssl", "HostnameVerifier");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/HostnameVerifier";
 }

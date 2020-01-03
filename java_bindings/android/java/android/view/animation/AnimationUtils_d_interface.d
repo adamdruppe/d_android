@@ -15,5 +15,5 @@ final class AnimationUtils : IJavaObject {
 	@Import static import0.Animation makeInChildBottomAnimation(import1.Context);
 	@Import static import3.Interpolator loadInterpolator(import1.Context, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "AnimationUtils");
+	public static immutable string _javaParameterString = "Landroid/view/animation/AnimationUtils";
 }

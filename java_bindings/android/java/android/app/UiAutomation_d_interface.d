@@ -39,5 +39,5 @@ final class UiAutomation : IJavaObject {
 	@Import void revokeRuntimePermissionAsUser(string, string, import11.UserHandle);
 	@Import import12.ParcelFileDescriptor executeShellCommand(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "UiAutomation");
+	public static immutable string _javaParameterString = "Landroid/app/UiAutomation";
 }

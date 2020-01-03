@@ -63,5 +63,5 @@ final class DatabaseUtils : IJavaObject {
 	@Import static int getSqlStatementType(string);
 	@Import static string[] appendSelectionArgs(string, string[][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "DatabaseUtils");
+	public static immutable string _javaParameterString = "Landroid/database/DatabaseUtils";
 }

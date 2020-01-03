@@ -6,5 +6,5 @@ import import0 = android.java.javax.xml.xpath.XPathFunction_d_interface;
 
 interface XPathFunctionResolver : IJavaObject {
 	@Import import0.XPathFunction resolveFunction(import1.QName, int);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathFunctionResolver");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathFunctionResolver";
 }

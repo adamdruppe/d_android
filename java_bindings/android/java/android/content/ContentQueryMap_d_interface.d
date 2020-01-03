@@ -14,5 +14,5 @@ final class ContentQueryMap : IJavaObject {
 	@Import import3.Map getRows();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentQueryMap");
+	public static immutable string _javaParameterString = "Landroid/content/ContentQueryMap";
 }

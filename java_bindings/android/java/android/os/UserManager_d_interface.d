@@ -34,5 +34,5 @@ final class UserManager : IJavaObject {
 	@Import bool setRestrictionsChallenge(string);
 	@Import long getUserCreationTime(import0.UserHandle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "UserManager");
+	public static immutable string _javaParameterString = "Landroid/os/UserManager";
 }

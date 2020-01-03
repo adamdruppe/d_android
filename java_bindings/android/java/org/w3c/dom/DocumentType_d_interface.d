@@ -10,5 +10,5 @@ interface DocumentType : IJavaObject {
 	@Import string getPublicId();
 	@Import string getSystemId();
 	@Import string getInternalSubset();
-	mixin JavaPackageId!("org.w3c.dom", "DocumentType");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DocumentType";
 }

@@ -8,5 +8,5 @@ final class RSAPublicKeySpec : IJavaObject {
 	@Import import0.BigInteger getModulus();
 	@Import import0.BigInteger getPublicExponent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "RSAPublicKeySpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/RSAPublicKeySpec";
 }

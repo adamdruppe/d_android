@@ -22,5 +22,5 @@ final class TwoStatePreference : IJavaObject {
 	@Import bool getDisableDependentsState();
 	@Import void setDisableDependentsState(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "TwoStatePreference");
+	public static immutable string _javaParameterString = "Landroid/preference/TwoStatePreference";
 }

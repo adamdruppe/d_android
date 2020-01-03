@@ -15,5 +15,5 @@ final class ActionBar_LayoutParams : IJavaObject {
 	@Import this(import2.ActionBar_LayoutParams);
 	@Import this(import3.ViewGroup_LayoutParams);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActionBar$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/app/ActionBar$LayoutParams";
 }

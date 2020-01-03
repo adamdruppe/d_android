@@ -32,5 +32,5 @@ final class PrintJob : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.printservice", "PrintJob");
+	public static immutable string _javaParameterString = "Landroid/printservice/PrintJob";
 }

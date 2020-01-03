@@ -15,5 +15,5 @@ final class ScriptIntrinsicYuvToRGB : IJavaObject {
 	@Import import4.Script_KernelID getKernelID();
 	@Import import5.Script_FieldID getFieldID_Input();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicYuvToRGB");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicYuvToRGB";
 }

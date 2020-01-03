@@ -6,5 +6,5 @@ final class RestoreObserver : IJavaObject {
 	@Import void onUpdate(int, string);
 	@Import void restoreFinished(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "RestoreObserver");
+	public static immutable string _javaParameterString = "Landroid/app/backup/RestoreObserver";
 }

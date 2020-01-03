@@ -9,5 +9,5 @@ final class AnimatorInflater : IJavaObject {
 	@Import static import0.Animator loadAnimator(import1.Context, int);
 	@Import static import2.StateListAnimator loadStateListAnimator(import1.Context, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "AnimatorInflater");
+	public static immutable string _javaParameterString = "Landroid/animation/AnimatorInflater";
 }

@@ -15,5 +15,5 @@ final class Script_LaunchOptions : IJavaObject {
 	@Import int getZStart();
 	@Import int getZEnd();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Script$LaunchOptions");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Script$LaunchOptions";
 }

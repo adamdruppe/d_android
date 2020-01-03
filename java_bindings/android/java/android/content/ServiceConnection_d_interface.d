@@ -9,5 +9,5 @@ interface ServiceConnection : IJavaObject {
 	@Import void onServiceDisconnected(import0.ComponentName);
 	@Import void onBindingDied(import0.ComponentName);
 	@Import void onNullBinding(import0.ComponentName);
-	mixin JavaPackageId!("android.content", "ServiceConnection");
+	public static immutable string _javaParameterString = "Landroid/content/ServiceConnection";
 }

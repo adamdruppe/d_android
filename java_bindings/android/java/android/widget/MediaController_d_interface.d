@@ -28,5 +28,5 @@ final class MediaController : IJavaObject {
 	@Import import6.CharSequence getAccessibilityClassName();
 	@Import void setPrevNextListeners(import7.View_OnClickListener, import7.View_OnClickListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "MediaController");
+	public static immutable string _javaParameterString = "Landroid/widget/MediaController";
 }

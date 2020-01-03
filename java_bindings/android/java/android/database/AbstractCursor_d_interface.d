@@ -55,5 +55,5 @@ final class AbstractCursor : IJavaObject {
 	@Import import6.Bundle getExtras();
 	@Import import6.Bundle respond(import6.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "AbstractCursor");
+	public static immutable string _javaParameterString = "Landroid/database/AbstractCursor";
 }

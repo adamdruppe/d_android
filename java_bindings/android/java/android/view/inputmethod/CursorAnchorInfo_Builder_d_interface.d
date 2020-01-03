@@ -16,5 +16,5 @@ final class CursorAnchorInfo_Builder : IJavaObject {
 	@Import import3.CursorAnchorInfo build();
 	@Import void reset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "CursorAnchorInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/CursorAnchorInfo$Builder";
 }

@@ -12,5 +12,5 @@ final class VirtualDisplay : IJavaObject {
 	@Import void release();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.display", "VirtualDisplay");
+	public static immutable string _javaParameterString = "Landroid/hardware/display/VirtualDisplay";
 }

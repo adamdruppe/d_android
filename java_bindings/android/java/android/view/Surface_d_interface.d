@@ -19,5 +19,5 @@ final class Surface : IJavaObject {
 	@Import void writeToParcel(import3.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Surface");
+	public static immutable string _javaParameterString = "Landroid/view/Surface";
 }

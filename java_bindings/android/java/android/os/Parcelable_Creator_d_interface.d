@@ -7,5 +7,5 @@ import import0 = android.java.android.os.Parcel_d_interface;
 interface Parcelable_Creator : IJavaObject {
 	@Import IJavaObject createFromParcel(import0.Parcel);
 	@Import IJavaObject[] newArray(int);
-	mixin JavaPackageId!("android.os", "Parcelable$Creator");
+	public static immutable string _javaParameterString = "Landroid/os/Parcelable$Creator";
 }

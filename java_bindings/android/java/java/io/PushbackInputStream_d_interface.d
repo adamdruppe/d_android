@@ -18,5 +18,5 @@ final class PushbackInputStream : IJavaObject {
 	@Import void reset();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "PushbackInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/PushbackInputStream";
 }

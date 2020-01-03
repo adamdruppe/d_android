@@ -38,5 +38,5 @@ final class DocumentsContract : IJavaObject {
 	@Import static import6.DocumentsContract_Path findDocumentPath(import3.ContentResolver, import0.Uri);
 	@Import static import7.IntentSender createWebLinkIntent(import3.ContentResolver, import0.Uri, import8.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "DocumentsContract");
+	public static immutable string _javaParameterString = "Landroid/provider/DocumentsContract";
 }

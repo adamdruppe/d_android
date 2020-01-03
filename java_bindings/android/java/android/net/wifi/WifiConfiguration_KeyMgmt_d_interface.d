@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WifiConfiguration$KeyMgmt")
 final class WifiConfiguration_KeyMgmt : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiConfiguration$KeyMgmt");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiConfiguration$KeyMgmt";
 }

@@ -8,5 +8,5 @@ final class MatrixCursor_RowBuilder : IJavaObject {
 	@Import import0.MatrixCursor_RowBuilder add(IJavaObject);
 	@Import import0.MatrixCursor_RowBuilder add(string, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "MatrixCursor$RowBuilder");
+	public static immutable string _javaParameterString = "Landroid/database/MatrixCursor$RowBuilder";
 }

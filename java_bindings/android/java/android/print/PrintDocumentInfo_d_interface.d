@@ -14,5 +14,5 @@ final class PrintDocumentInfo : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintDocumentInfo");
+	public static immutable string _javaParameterString = "Landroid/print/PrintDocumentInfo";
 }

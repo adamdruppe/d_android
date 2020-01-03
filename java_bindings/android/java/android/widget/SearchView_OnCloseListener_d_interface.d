@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SearchView$OnCloseListener")
 interface SearchView_OnCloseListener : IJavaObject {
 	@Import bool onClose();
-	mixin JavaPackageId!("android.widget", "SearchView$OnCloseListener");
+	public static immutable string _javaParameterString = "Landroid/widget/SearchView$OnCloseListener";
 }

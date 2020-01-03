@@ -7,5 +7,5 @@ final class KeyguardManager_KeyguardDismissCallback : IJavaObject {
 	@Import void onDismissSucceeded();
 	@Import void onDismissCancelled();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "KeyguardManager$KeyguardDismissCallback");
+	public static immutable string _javaParameterString = "Landroid/app/KeyguardManager$KeyguardDismissCallback";
 }

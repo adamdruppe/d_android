@@ -49,5 +49,5 @@ final class TvView : IJavaObject {
 	@Import bool gatherTransparentRegion(import12.Region);
 	@Import void draw(import13.Canvas);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvView");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvView";
 }

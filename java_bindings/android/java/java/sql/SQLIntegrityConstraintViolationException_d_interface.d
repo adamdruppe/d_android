@@ -12,5 +12,5 @@ final class SQLIntegrityConstraintViolationException : IJavaObject {
 	@Import this(string, string, import0.JavaThrowable);
 	@Import this(string, string, int, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLIntegrityConstraintViolationException");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLIntegrityConstraintViolationException";
 }

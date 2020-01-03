@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SQLiteAbortException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteAbortException");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteAbortException";
 }

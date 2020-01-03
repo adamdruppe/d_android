@@ -11,5 +11,5 @@ final class AtomicBoolean : IJavaObject {
 	@Import bool getAndSet(bool);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicBoolean");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicBoolean";
 }

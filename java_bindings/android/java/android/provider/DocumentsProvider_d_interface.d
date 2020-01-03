@@ -55,5 +55,5 @@ final class DocumentsProvider : IJavaObject {
 	@Import string[] getDocumentStreamTypes(string, string);
 	@Import string[] getStreamTypes(import10.Uri, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "DocumentsProvider");
+	public static immutable string _javaParameterString = "Landroid/provider/DocumentsProvider";
 }

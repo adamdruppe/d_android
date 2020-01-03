@@ -38,5 +38,5 @@ interface InputConnection : IJavaObject {
 	@Import import7.Handler getHandler();
 	@Import void closeConnection();
 	@Import bool commitContent(import8.InputContentInfo, int, import6.Bundle);
-	mixin JavaPackageId!("android.view.inputmethod", "InputConnection");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputConnection";
 }

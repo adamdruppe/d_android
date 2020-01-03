@@ -18,5 +18,5 @@ final class BufferedReader : IJavaObject {
 	@Import void close();
 	@Import import1.Stream lines();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "BufferedReader");
+	public static immutable string _javaParameterString = "Ljava/io/BufferedReader";
 }

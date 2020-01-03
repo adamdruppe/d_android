@@ -13,5 +13,5 @@ final class TtsSpan : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int getSpanTypeId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan";
 }

@@ -14,5 +14,5 @@ final class ECFieldF2m : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "ECFieldF2m");
+	public static immutable string _javaParameterString = "Ljava/security/spec/ECFieldF2m";
 }

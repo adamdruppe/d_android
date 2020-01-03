@@ -13,5 +13,5 @@ final class ByteArrayInputStream : IJavaObject {
 	@Import void reset();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "ByteArrayInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/ByteArrayInputStream";
 }

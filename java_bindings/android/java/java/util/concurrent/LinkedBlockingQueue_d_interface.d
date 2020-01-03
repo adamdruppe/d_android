@@ -29,5 +29,5 @@ final class LinkedBlockingQueue : IJavaObject {
 	@Import import2.Iterator iterator();
 	@Import import3.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "LinkedBlockingQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/LinkedBlockingQueue";
 }

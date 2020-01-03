@@ -8,5 +8,5 @@ final class Contacts_Settings : IJavaObject {
 	@Import static string getSetting(import0.ContentResolver, string, string);
 	@Import static void setSetting(import0.ContentResolver, string, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Contacts$Settings");
+	public static immutable string _javaParameterString = "Landroid/provider/Contacts$Settings";
 }

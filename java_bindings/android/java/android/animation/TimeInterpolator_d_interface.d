@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface TimeInterpolator : IJavaObject {
 	@Import float getInterpolation(float);
-	mixin JavaPackageId!("android.animation", "TimeInterpolator");
+	public static immutable string _javaParameterString = "Landroid/animation/TimeInterpolator";
 }

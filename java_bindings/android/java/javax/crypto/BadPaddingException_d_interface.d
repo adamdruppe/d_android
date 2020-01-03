@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class BadPaddingException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "BadPaddingException");
+	public static immutable string _javaParameterString = "Ljavax/crypto/BadPaddingException";
 }

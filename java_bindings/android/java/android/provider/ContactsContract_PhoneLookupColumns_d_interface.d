@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("ContactsContract$PhoneLookupColumns")
 interface ContactsContract_PhoneLookupColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "ContactsContract$PhoneLookupColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$PhoneLookupColumns";
 }

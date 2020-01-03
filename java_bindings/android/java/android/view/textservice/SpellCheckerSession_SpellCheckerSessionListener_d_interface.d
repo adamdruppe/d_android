@@ -8,5 +8,5 @@ import import0 = android.java.android.view.textservice.SuggestionsInfo_d_interfa
 interface SpellCheckerSession_SpellCheckerSessionListener : IJavaObject {
 	@Import void onGetSuggestions(import0.SuggestionsInfo[]);
 	@Import void onGetSentenceSuggestions(import1.SentenceSuggestionsInfo[]);
-	mixin JavaPackageId!("android.view.textservice", "SpellCheckerSession$SpellCheckerSessionListener");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/SpellCheckerSession$SpellCheckerSessionListener";
 }

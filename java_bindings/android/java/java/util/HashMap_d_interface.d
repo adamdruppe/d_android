@@ -37,5 +37,5 @@ final class HashMap : IJavaObject {
 	@Import void replaceAll(import4.BiFunction);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "HashMap");
+	public static immutable string _javaParameterString = "Ljava/util/HashMap";
 }

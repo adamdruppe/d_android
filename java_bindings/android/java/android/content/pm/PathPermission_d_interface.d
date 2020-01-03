@@ -10,5 +10,5 @@ final class PathPermission : IJavaObject {
 	@Import string getWritePermission();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PathPermission");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PathPermission";
 }

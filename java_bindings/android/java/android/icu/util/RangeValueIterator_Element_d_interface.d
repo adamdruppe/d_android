@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("RangeValueIterator$Element")
 final class RangeValueIterator_Element : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "RangeValueIterator$Element");
+	public static immutable string _javaParameterString = "Landroid/icu/util/RangeValueIterator$Element";
 }

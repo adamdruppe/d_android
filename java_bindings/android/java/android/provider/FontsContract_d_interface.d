@@ -15,5 +15,5 @@ final class FontsContract : IJavaObject {
 	@Import static import5.FontsContract_FontFamilyResult fetchFonts(import0.Context, import3.CancellationSignal, import1.FontRequest);
 	@Import static import6.Typeface buildTypeface(import0.Context, import3.CancellationSignal, import7.FontsContract_FontInfo[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "FontsContract");
+	public static immutable string _javaParameterString = "Landroid/provider/FontsContract";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class InvalidParameterSpecException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "InvalidParameterSpecException");
+	public static immutable string _javaParameterString = "Ljava/security/spec/InvalidParameterSpecException";
 }

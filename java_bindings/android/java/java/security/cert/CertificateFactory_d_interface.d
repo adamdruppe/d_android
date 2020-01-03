@@ -26,5 +26,5 @@ final class CertificateFactory : IJavaObject {
 	@Import import8.CRL generateCRL(import3.InputStream);
 	@Import import7.Collection generateCRLs(import3.InputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertificateFactory");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertificateFactory";
 }

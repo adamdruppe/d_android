@@ -8,5 +8,5 @@ final class SSLSessionCache : IJavaObject {
 	@Import this(import0.File);
 	@Import this(import1.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "SSLSessionCache");
+	public static immutable string _javaParameterString = "Landroid/net/SSLSessionCache";
 }

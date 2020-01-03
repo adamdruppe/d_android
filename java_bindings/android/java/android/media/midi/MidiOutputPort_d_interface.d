@@ -9,5 +9,5 @@ final class MidiOutputPort : IJavaObject {
 	@Import void onDisconnect(import0.MidiReceiver);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiOutputPort");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiOutputPort";
 }

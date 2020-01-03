@@ -13,5 +13,5 @@ final class ForegroundColorSpan : IJavaObject {
 	@Import int getForegroundColor();
 	@Import void updateDrawState(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "ForegroundColorSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/ForegroundColorSpan";
 }

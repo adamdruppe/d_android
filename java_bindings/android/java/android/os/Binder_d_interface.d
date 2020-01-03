@@ -8,7 +8,12 @@ import import3 = android.java.android.os.Parcel_d_interface;
 import import0 = android.java.android.os.UserHandle_d_interface;
 
 final class Binder : IJavaObject {
+	@Import static int getCallingPid();
+	@Import static int getCallingUid();
 	@Import static import0.UserHandle getCallingUserHandle();
+	@Import static long clearCallingIdentity();
+	@Import static void restoreCallingIdentity(long);
+	@Import static void flushPendingCommands();
 	@Import static void joinThreadPool();
 	@Import void attachInterface(import1.IInterface, string);
 	@Import string getInterfaceDescriptor();
@@ -21,5 +26,5 @@ final class Binder : IJavaObject {
 	@Import void linkToDeath(import4.IBinder_DeathRecipient, int);
 	@Import bool unlinkToDeath(import4.IBinder_DeathRecipient, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Binder");
+	public static immutable string _javaParameterString = "Landroid/os/Binder";
 }

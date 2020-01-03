@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class RecursiveTask : IJavaObject {
 	@Import IJavaObject getRawResult();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "RecursiveTask");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/RecursiveTask";
 }

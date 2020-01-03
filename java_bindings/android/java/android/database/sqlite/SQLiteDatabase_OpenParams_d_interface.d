@@ -15,5 +15,5 @@ final class SQLiteDatabase_OpenParams : IJavaObject {
 	@Import string getJournalMode();
 	@Import string getSynchronousMode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteDatabase$OpenParams");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteDatabase$OpenParams";
 }

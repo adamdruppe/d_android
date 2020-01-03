@@ -27,5 +27,5 @@ final class Service : IJavaObject {
 	@Import void stopForeground(bool);
 	@Import void stopForeground(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Service");
+	public static immutable string _javaParameterString = "Landroid/app/Service";
 }

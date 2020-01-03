@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacter$BidiPairedBracketType")
 interface UCharacter_BidiPairedBracketType : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$BidiPairedBracketType");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$BidiPairedBracketType";
 }

@@ -8,5 +8,5 @@ final class ColorSpace_Named : IJavaObject {
 	@Import static import0.ColorSpace_Named[] values();
 	@Import static import0.ColorSpace_Named valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorSpace$Named");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorSpace$Named";
 }

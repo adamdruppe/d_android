@@ -16,5 +16,5 @@ final class MidiDeviceService : IJavaObject {
 	@Import void onClose();
 	@Import import3.IBinder onBind(import4.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiDeviceService");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiDeviceService";
 }

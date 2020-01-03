@@ -9,5 +9,5 @@ interface LoaderManager_LoaderCallbacks : IJavaObject {
 	@Import import0.Loader onCreateLoader(int, import1.Bundle);
 	@Import void onLoadFinished(import0.Loader, IJavaObject);
 	@Import void onLoaderReset(import0.Loader);
-	mixin JavaPackageId!("android.app", "LoaderManager$LoaderCallbacks");
+	public static immutable string _javaParameterString = "Landroid/app/LoaderManager$LoaderCallbacks";
 }

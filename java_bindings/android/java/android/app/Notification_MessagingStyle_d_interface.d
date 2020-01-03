@@ -24,5 +24,5 @@ final class Notification_MessagingStyle : IJavaObject {
 	@Import import2.Notification_MessagingStyle setGroupConversation(bool);
 	@Import bool isGroupConversation();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$MessagingStyle");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$MessagingStyle";
 }

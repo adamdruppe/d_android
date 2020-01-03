@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("Policy$Parameters")
 interface Policy_Parameters : IJavaObject {
-	mixin JavaPackageId!("java.security", "Policy$Parameters");
+	public static immutable string _javaParameterString = "Ljava/security/Policy$Parameters";
 }

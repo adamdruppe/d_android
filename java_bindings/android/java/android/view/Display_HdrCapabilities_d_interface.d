@@ -14,5 +14,5 @@ final class Display_HdrCapabilities : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Display$HdrCapabilities");
+	public static immutable string _javaParameterString = "Landroid/view/Display$HdrCapabilities";
 }

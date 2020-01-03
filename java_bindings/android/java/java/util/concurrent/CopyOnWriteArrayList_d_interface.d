@@ -51,5 +51,5 @@ final class CopyOnWriteArrayList : IJavaObject {
 	@Import import7.Spliterator spliterator();
 	@Import import8.List subList(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "CopyOnWriteArrayList");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CopyOnWriteArrayList";
 }

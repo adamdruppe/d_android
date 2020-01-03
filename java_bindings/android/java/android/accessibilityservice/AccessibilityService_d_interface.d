@@ -33,5 +33,5 @@ final class AccessibilityService : IJavaObject {
 	@Import IJavaObject getSystemService(string);
 	@Import import11.IBinder onBind(import12.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityService");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityService";
 }

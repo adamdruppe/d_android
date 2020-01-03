@@ -40,5 +40,5 @@ final class MessagePattern : IJavaObject {
 	@Import IJavaObject cloneAsThawed();
 	@Import IJavaObject freeze();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MessagePattern");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MessagePattern";
 }

@@ -21,5 +21,5 @@ final class Range : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Range");
+	public static immutable string _javaParameterString = "Landroid/util/Range";
 }

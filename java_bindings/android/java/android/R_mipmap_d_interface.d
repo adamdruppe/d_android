@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("R$mipmap")
 final class R_mipmap : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "R$mipmap");
+	public static immutable string _javaParameterString = "Landroid/R$mipmap";
 }

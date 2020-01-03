@@ -6,5 +6,5 @@ final class UnmappableCharacterException : IJavaObject {
 	@Import int getInputLength();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "UnmappableCharacterException");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/UnmappableCharacterException";
 }

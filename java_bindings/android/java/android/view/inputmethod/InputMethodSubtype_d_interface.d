@@ -26,5 +26,5 @@ final class InputMethodSubtype : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "InputMethodSubtype");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethodSubtype";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Byte2 : IJavaObject {
 	@Import this(byte, byte);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Byte2");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Byte2";
 }

@@ -23,5 +23,5 @@ final class PKIXRevocationChecker : IJavaObject {
 	@Import import5.PKIXRevocationChecker clone();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PKIXRevocationChecker");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PKIXRevocationChecker";
 }

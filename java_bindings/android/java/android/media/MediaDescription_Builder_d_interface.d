@@ -20,5 +20,5 @@ final class MediaDescription_Builder : IJavaObject {
 	@Import import0.MediaDescription_Builder setMediaUri(import3.Uri);
 	@Import import5.MediaDescription build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDescription$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDescription$Builder";
 }

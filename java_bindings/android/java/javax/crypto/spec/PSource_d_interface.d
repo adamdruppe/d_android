@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class PSource : IJavaObject {
 	@Import string getAlgorithm();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "PSource");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/PSource";
 }

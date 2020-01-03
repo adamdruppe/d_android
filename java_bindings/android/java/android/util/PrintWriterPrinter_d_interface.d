@@ -7,5 +7,5 @@ final class PrintWriterPrinter : IJavaObject {
 	@Import this(import0.PrintWriter);
 	@Import void println(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "PrintWriterPrinter");
+	public static immutable string _javaParameterString = "Landroid/util/PrintWriterPrinter";
 }

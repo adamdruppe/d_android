@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface RunnableScheduledFuture : IJavaObject {
 	@Import bool isPeriodic();
-	mixin JavaPackageId!("java.util.concurrent", "RunnableScheduledFuture");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/RunnableScheduledFuture";
 }

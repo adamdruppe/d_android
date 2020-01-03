@@ -6,5 +6,5 @@ import import0 = android.java.java.security.cert.CRL_d_interface;
 interface CRLSelector : IJavaObject {
 	@Import bool match(import0.CRL);
 	@Import IJavaObject clone();
-	mixin JavaPackageId!("java.security.cert", "CRLSelector");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CRLSelector";
 }

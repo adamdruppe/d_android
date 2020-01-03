@@ -21,5 +21,5 @@ final class Settings_Secure : IJavaObject {
 	@Import static bool isLocationProviderEnabled(import0.ContentResolver, string);
 	@Import static void setLocationProviderEnabled(import0.ContentResolver, string, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Settings$Secure");
+	public static immutable string _javaParameterString = "Landroid/provider/Settings$Secure";
 }

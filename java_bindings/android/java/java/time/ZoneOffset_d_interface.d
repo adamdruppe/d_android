@@ -31,5 +31,5 @@ final class ZoneOffset : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "ZoneOffset");
+	public static immutable string _javaParameterString = "Ljava/time/ZoneOffset";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class PidHealthStats : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.health", "PidHealthStats");
+	public static immutable string _javaParameterString = "Landroid/os/health/PidHealthStats";
 }

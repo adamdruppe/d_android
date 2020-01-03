@@ -66,5 +66,5 @@ final class Transition : IJavaObject {
 	@Import string getName();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "Transition");
+	public static immutable string _javaParameterString = "Landroid/transition/Transition";
 }

@@ -17,5 +17,5 @@ interface Blob : IJavaObject {
 	@Import void truncate(long);
 	@Import void free();
 	@Import import0.InputStream getBinaryStream(long, long);
-	mixin JavaPackageId!("java.sql", "Blob");
+	public static immutable string _javaParameterString = "Ljava/sql/Blob";
 }

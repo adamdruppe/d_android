@@ -19,5 +19,5 @@ final class URLUtil : IJavaObject {
 	@Import static string stripAnchor(string);
 	@Import static string guessFileName(string, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "URLUtil");
+	public static immutable string _javaParameterString = "Landroid/webkit/URLUtil";
 }

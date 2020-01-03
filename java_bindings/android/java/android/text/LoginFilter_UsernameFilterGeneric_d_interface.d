@@ -6,5 +6,5 @@ final class LoginFilter_UsernameFilterGeneric : IJavaObject {
 	@Import this(bool);
 	@Import bool isAllowed(wchar);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "LoginFilter$UsernameFilterGeneric");
+	public static immutable string _javaParameterString = "Landroid/text/LoginFilter$UsernameFilterGeneric";
 }

@@ -9,5 +9,5 @@ final class Loader_ForceLoadContentObserver : IJavaObject {
 	@Import bool deliverSelfNotifications();
 	@Import void onChange(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Loader$ForceLoadContentObserver");
+	public static immutable string _javaParameterString = "Landroid/content/Loader$ForceLoadContentObserver";
 }

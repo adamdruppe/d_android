@@ -9,5 +9,5 @@ final class VoiceInteractor_ConfirmationRequest : IJavaObject {
 	@Import this(import0.VoiceInteractor_Prompt, import1.Bundle);
 	@Import void onConfirmationResult(bool, import1.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "VoiceInteractor$ConfirmationRequest");
+	public static immutable string _javaParameterString = "Landroid/app/VoiceInteractor$ConfirmationRequest";
 }

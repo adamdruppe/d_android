@@ -17,5 +17,5 @@ final class SipAudioCall_Listener : IJavaObject {
 	@Import void onError(import0.SipAudioCall, int, string);
 	@Import void onChanged(import0.SipAudioCall);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipAudioCall$Listener");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipAudioCall$Listener";
 }

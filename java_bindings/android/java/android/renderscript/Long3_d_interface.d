@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Long3 : IJavaObject {
 	@Import this(long, long, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Long3");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Long3";
 }

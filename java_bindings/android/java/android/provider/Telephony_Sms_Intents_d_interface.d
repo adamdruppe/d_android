@@ -8,5 +8,5 @@ import import0 = android.java.android.telephony.SmsMessage_d_interface;
 final class Telephony_Sms_Intents : IJavaObject {
 	@Import static import0.SmsMessage[] getMessagesFromIntent(import1.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Telephony$Sms$Intents");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$Sms$Intents";
 }

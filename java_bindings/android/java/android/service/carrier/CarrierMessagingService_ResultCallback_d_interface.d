@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("CarrierMessagingService$ResultCallback")
 interface CarrierMessagingService_ResultCallback : IJavaObject {
 	@Import void onReceiveResult(IJavaObject);
-	mixin JavaPackageId!("android.service.carrier", "CarrierMessagingService$ResultCallback");
+	public static immutable string _javaParameterString = "Landroid/service/carrier/CarrierMessagingService$ResultCallback";
 }

@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class TvContract_Channels : IJavaObject {
 	@Import static string getVideoResolution(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvContract$Channels");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvContract$Channels";
 }

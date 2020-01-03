@@ -26,5 +26,5 @@ final class GregorianCalendar : IJavaObject {
 	@Import int getActualMaximum(int);
 	@Import string getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "GregorianCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/GregorianCalendar";
 }

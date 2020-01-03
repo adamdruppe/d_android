@@ -26,5 +26,5 @@ interface Element : IJavaObject {
 	@Import void setIdAttribute(string, bool);
 	@Import void setIdAttributeNS(string, string, bool);
 	@Import void setIdAttributeNode(import0.Attr, bool);
-	mixin JavaPackageId!("org.w3c.dom", "Element");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Element";
 }

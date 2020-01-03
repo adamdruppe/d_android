@@ -9,5 +9,5 @@ final class ActivityManager_MemoryInfo : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import void readFromParcel(import0.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActivityManager$MemoryInfo");
+	public static immutable string _javaParameterString = "Landroid/app/ActivityManager$MemoryInfo";
 }

@@ -38,5 +38,5 @@ final class GLSurfaceView : IJavaObject {
 	@Import void onResume();
 	@Import void queueEvent(import8.Runnable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "GLSurfaceView");
+	public static immutable string _javaParameterString = "Landroid/opengl/GLSurfaceView";
 }

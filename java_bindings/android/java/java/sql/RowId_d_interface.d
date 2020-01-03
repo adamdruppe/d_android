@@ -6,5 +6,5 @@ interface RowId : IJavaObject {
 	@Import byte[] getBytes();
 	@Import @JavaName("toString") string toString_();
 	@Import int hashCode();
-	mixin JavaPackageId!("java.sql", "RowId");
+	public static immutable string _javaParameterString = "Ljava/sql/RowId";
 }

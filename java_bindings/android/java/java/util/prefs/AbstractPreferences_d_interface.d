@@ -42,5 +42,5 @@ final class AbstractPreferences : IJavaObject {
 	@Import void exportNode(import3.OutputStream);
 	@Import void exportSubtree(import3.OutputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.prefs", "AbstractPreferences");
+	public static immutable string _javaParameterString = "Ljava/util/prefs/AbstractPreferences";
 }

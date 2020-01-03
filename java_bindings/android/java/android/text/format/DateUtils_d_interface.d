@@ -25,5 +25,5 @@ final class DateUtils : IJavaObject {
 	@Import static import0.CharSequence getRelativeTimeSpanString(import1.Context, long, bool);
 	@Import static import0.CharSequence getRelativeTimeSpanString(import1.Context, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.format", "DateUtils");
+	public static immutable string _javaParameterString = "Landroid/text/format/DateUtils";
 }

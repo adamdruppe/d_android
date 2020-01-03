@@ -33,5 +33,5 @@ final class Executors : IJavaObject {
 	@Import static import3.Callable privilegedCallable(import3.Callable);
 	@Import static import3.Callable privilegedCallableUsingCurrentClassLoader(import3.Callable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "Executors");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Executors";
 }

@@ -11,5 +11,5 @@ final class AlwaysOnHotwordDetector_Callback : IJavaObject {
 	@Import void onRecognitionPaused();
 	@Import void onRecognitionResumed();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "AlwaysOnHotwordDetector$Callback");
+	public static immutable string _javaParameterString = "Landroid/service/voice/AlwaysOnHotwordDetector$Callback";
 }

@@ -13,5 +13,5 @@ interface Application_ActivityLifecycleCallbacks : IJavaObject {
 	@Import void onActivityStopped(import0.Activity);
 	@Import void onActivitySaveInstanceState(import0.Activity, import1.Bundle);
 	@Import void onActivityDestroyed(import0.Activity);
-	mixin JavaPackageId!("android.app", "Application$ActivityLifecycleCallbacks");
+	public static immutable string _javaParameterString = "Landroid/app/Application$ActivityLifecycleCallbacks";
 }

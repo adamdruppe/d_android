@@ -13,5 +13,5 @@ final class MediaCodec_Callback : IJavaObject {
 	@Import void onError(import0.MediaCodec, import2.MediaCodec_CodecException);
 	@Import void onOutputFormatChanged(import0.MediaCodec, import3.MediaFormat);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodec$Callback");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodec$Callback";
 }

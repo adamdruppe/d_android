@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface SearchView_OnQueryTextListener : IJavaObject {
 	@Import bool onQueryTextSubmit(string);
 	@Import bool onQueryTextChange(string);
-	mixin JavaPackageId!("android.widget", "SearchView$OnQueryTextListener");
+	public static immutable string _javaParameterString = "Landroid/widget/SearchView$OnQueryTextListener";
 }

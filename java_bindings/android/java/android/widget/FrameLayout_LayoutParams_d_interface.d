@@ -16,5 +16,5 @@ final class FrameLayout_LayoutParams : IJavaObject {
 	@Import this(import3.ViewGroup_MarginLayoutParams);
 	@Import this(import4.FrameLayout_LayoutParams);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "FrameLayout$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/FrameLayout$LayoutParams";
 }

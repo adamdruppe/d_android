@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface DoubleSupplier : IJavaObject {
 	@Import double getAsDouble();
-	mixin JavaPackageId!("java.util.function", "DoubleSupplier");
+	public static immutable string _javaParameterString = "Ljava/util/function/DoubleSupplier";
 }

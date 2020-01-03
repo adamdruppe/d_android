@@ -7,5 +7,5 @@ final class XPathFunctionException : IJavaObject {
 	@Import this(string);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathFunctionException");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathFunctionException";
 }

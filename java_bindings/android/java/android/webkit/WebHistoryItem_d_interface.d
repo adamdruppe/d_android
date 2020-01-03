@@ -9,5 +9,5 @@ final class WebHistoryItem : IJavaObject {
 	@Import string getTitle();
 	@Import import0.Bitmap getFavicon();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebHistoryItem");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebHistoryItem";
 }

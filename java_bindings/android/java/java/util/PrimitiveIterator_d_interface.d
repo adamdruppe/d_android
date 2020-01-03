@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface PrimitiveIterator : IJavaObject {
 	@Import void forEachRemaining(IJavaObject);
-	mixin JavaPackageId!("java.util", "PrimitiveIterator");
+	public static immutable string _javaParameterString = "Ljava/util/PrimitiveIterator";
 }

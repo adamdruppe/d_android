@@ -7,5 +7,5 @@ interface Struct : IJavaObject {
 	@Import string getSQLTypeName();
 	@Import IJavaObject[] getAttributes();
 	@Import IJavaObject[] getAttributes(import0.Map);
-	mixin JavaPackageId!("java.sql", "Struct");
+	public static immutable string _javaParameterString = "Ljava/sql/Struct";
 }

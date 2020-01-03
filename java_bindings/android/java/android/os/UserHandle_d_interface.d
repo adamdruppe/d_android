@@ -15,5 +15,5 @@ final class UserHandle : IJavaObject {
 	@Import static void writeToParcel(import1.UserHandle, import0.Parcel);
 	@Import static import1.UserHandle readFromParcel(import0.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "UserHandle");
+	public static immutable string _javaParameterString = "Landroid/os/UserHandle";
 }

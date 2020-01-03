@@ -19,5 +19,5 @@ final class Settings_Global : IJavaObject {
 	@Import static float getFloat(import0.ContentResolver, string);
 	@Import static bool putFloat(import0.ContentResolver, string, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Settings$Global");
+	public static immutable string _javaParameterString = "Landroid/provider/Settings$Global";
 }

@@ -14,5 +14,5 @@ final class SentenceSuggestionsInfo : IJavaObject {
 	@Import int getOffsetAt(int);
 	@Import int getLengthAt(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textservice", "SentenceSuggestionsInfo");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/SentenceSuggestionsInfo";
 }

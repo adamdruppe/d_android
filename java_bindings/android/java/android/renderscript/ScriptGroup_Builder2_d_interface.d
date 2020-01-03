@@ -18,5 +18,5 @@ final class ScriptGroup_Builder2 : IJavaObject {
 	@Import import2.ScriptGroup_Closure addInvoke(import5.Script_InvokeID, IJavaObject[]);
 	@Import import6.ScriptGroup create(string, import7.ScriptGroup_Future[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptGroup$Builder2");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptGroup$Builder2";
 }

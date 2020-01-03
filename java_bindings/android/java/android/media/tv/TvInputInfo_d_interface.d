@@ -30,5 +30,5 @@ final class TvInputInfo : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import void writeToParcel(import6.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvInputInfo");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputInfo";
 }

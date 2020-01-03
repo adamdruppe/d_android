@@ -77,5 +77,5 @@ final class DateFormat : IJavaObject {
 	@Import static import5.DateFormat getPatternInstance(import2.Calendar, string, import6.Locale);
 	@Import static import5.DateFormat getPatternInstance(import2.Calendar, string, import7.ULocale);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DateFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateFormat";
 }

@@ -61,5 +61,5 @@ final class Switch : IJavaObject {
 	@Import void onProvideStructure(import9.ViewStructure);
 	@Import void onProvideAutofillStructure(import9.ViewStructure, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Switch");
+	public static immutable string _javaParameterString = "Landroid/widget/Switch";
 }

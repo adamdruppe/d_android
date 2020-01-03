@@ -12,5 +12,5 @@ final class AbsoluteLayout_LayoutParams : IJavaObject {
 	@Import this(import2.ViewGroup_LayoutParams);
 	@Import @JavaName("debug") string debug_(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AbsoluteLayout$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsoluteLayout$LayoutParams";
 }

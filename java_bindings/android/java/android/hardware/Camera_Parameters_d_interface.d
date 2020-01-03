@@ -99,5 +99,5 @@ final class Camera_Parameters : IJavaObject {
 	@Import bool getVideoStabilization();
 	@Import bool isVideoStabilizationSupported();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "Camera$Parameters");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$Parameters";
 }

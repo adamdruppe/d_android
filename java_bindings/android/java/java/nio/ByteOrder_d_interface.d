@@ -7,5 +7,5 @@ final class ByteOrder : IJavaObject {
 	@Import static import0.ByteOrder nativeOrder();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "ByteOrder");
+	public static immutable string _javaParameterString = "Ljava/nio/ByteOrder";
 }

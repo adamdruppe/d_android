@@ -9,5 +9,5 @@ final class VibrationEffect : IJavaObject {
 	@Import static import0.VibrationEffect createWaveform(long, int, int[][]);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "VibrationEffect");
+	public static immutable string _javaParameterString = "Landroid/os/VibrationEffect";
 }

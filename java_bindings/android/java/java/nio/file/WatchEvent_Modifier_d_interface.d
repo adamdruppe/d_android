@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WatchEvent$Modifier")
 interface WatchEvent_Modifier : IJavaObject {
 	@Import string name();
-	mixin JavaPackageId!("java.nio.file", "WatchEvent$Modifier");
+	public static immutable string _javaParameterString = "Ljava/nio/file/WatchEvent$Modifier";
 }

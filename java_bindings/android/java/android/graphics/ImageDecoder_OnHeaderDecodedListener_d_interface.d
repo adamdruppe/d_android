@@ -8,5 +8,5 @@ import import1 = android.java.android.graphics.ImageDecoder_ImageInfo_d_interfac
 @JavaName("ImageDecoder$OnHeaderDecodedListener")
 interface ImageDecoder_OnHeaderDecodedListener : IJavaObject {
 	@Import void onHeaderDecoded(import0.ImageDecoder, import1.ImageDecoder_ImageInfo, import2.ImageDecoder_Source);
-	mixin JavaPackageId!("android.graphics", "ImageDecoder$OnHeaderDecodedListener");
+	public static immutable string _javaParameterString = "Landroid/graphics/ImageDecoder$OnHeaderDecodedListener";
 }

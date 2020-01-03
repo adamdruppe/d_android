@@ -12,5 +12,5 @@ final class RC5ParameterSpec : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "RC5ParameterSpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/RC5ParameterSpec";
 }

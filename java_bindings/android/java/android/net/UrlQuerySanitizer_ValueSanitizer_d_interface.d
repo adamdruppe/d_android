@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("UrlQuerySanitizer$ValueSanitizer")
 interface UrlQuerySanitizer_ValueSanitizer : IJavaObject {
 	@Import string sanitize(string);
-	mixin JavaPackageId!("android.net", "UrlQuerySanitizer$ValueSanitizer");
+	public static immutable string _javaParameterString = "Landroid/net/UrlQuerySanitizer$ValueSanitizer";
 }

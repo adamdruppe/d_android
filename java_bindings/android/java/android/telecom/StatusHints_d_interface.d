@@ -16,5 +16,5 @@ final class StatusHints : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "StatusHints");
+	public static immutable string _javaParameterString = "Landroid/telecom/StatusHints";
 }

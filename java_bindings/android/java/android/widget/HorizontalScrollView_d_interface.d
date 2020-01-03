@@ -47,5 +47,5 @@ final class HorizontalScrollView : IJavaObject {
 	@Import void setOverScrollMode(int);
 	@Import void draw(import8.Canvas);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "HorizontalScrollView");
+	public static immutable string _javaParameterString = "Landroid/widget/HorizontalScrollView";
 }

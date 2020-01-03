@@ -20,5 +20,5 @@ final class LinkProperties : IJavaObject {
 	@Import int hashCode();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "LinkProperties");
+	public static immutable string _javaParameterString = "Landroid/net/LinkProperties";
 }

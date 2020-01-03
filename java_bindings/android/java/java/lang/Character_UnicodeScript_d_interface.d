@@ -10,5 +10,5 @@ final class Character_UnicodeScript : IJavaObject {
 	@Import static import0.Character_UnicodeScript of(int);
 	@Import static import0.Character_UnicodeScript forName(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Character$UnicodeScript");
+	public static immutable string _javaParameterString = "Ljava/lang/Character$UnicodeScript";
 }

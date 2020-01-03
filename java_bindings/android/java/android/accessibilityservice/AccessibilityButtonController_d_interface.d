@@ -10,5 +10,5 @@ final class AccessibilityButtonController : IJavaObject {
 	@Import void registerAccessibilityButtonCallback(import0.AccessibilityButtonController_AccessibilityButtonCallback, import1.Handler);
 	@Import void unregisterAccessibilityButtonCallback(import0.AccessibilityButtonController_AccessibilityButtonCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityButtonController");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityButtonController";
 }

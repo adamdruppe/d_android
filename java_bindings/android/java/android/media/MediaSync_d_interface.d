@@ -17,11 +17,14 @@ final class MediaSync : IJavaObject {
 	@Import void setOnErrorListener(import2.MediaSync_OnErrorListener, import1.Handler);
 	@Import void setSurface(import3.Surface);
 	@Import void setAudioTrack(import4.AudioTrack);
+	@Import import3.Surface createInputSurface();
 	@Import void setPlaybackParams(import5.PlaybackParams);
+	@Import import5.PlaybackParams getPlaybackParams();
 	@Import void setSyncParams(import6.SyncParams);
+	@Import import6.SyncParams getSyncParams();
 	@Import void flush();
 	@Import import7.MediaTimestamp getTimestamp();
 	@Import void queueAudio(import8.ByteBuffer, int, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaSync");
+	public static immutable string _javaParameterString = "Landroid/media/MediaSync";
 }

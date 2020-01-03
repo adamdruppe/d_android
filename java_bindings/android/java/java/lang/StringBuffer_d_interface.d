@@ -63,5 +63,5 @@ final class StringBuffer : IJavaObject {
 	@Import import2.Appendable append(import0.CharSequence, int, int);
 	@Import import2.Appendable append(import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "StringBuffer");
+	public static immutable string _javaParameterString = "Ljava/lang/StringBuffer";
 }

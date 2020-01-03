@@ -155,5 +155,5 @@ final class Window : IJavaObject {
 	@Import void setDecorCaptionShade(int);
 	@Import void setResizingCaptionDrawable(import18.Drawable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Window");
+	public static immutable string _javaParameterString = "Landroid/view/Window";
 }

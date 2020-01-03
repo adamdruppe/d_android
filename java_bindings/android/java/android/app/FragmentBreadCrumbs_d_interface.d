@@ -19,5 +19,5 @@ final class FragmentBreadCrumbs : IJavaObject {
 	@Import void setTitle(import3.CharSequence, import3.CharSequence);
 	@Import void onBackStackChanged();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentBreadCrumbs");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentBreadCrumbs";
 }

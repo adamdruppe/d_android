@@ -7,5 +7,5 @@ import import0 = android.java.android.app.Activity_d_interface;
 @JavaName("Application$OnProvideAssistDataListener")
 interface Application_OnProvideAssistDataListener : IJavaObject {
 	@Import void onProvideAssistData(import0.Activity, import1.Bundle);
-	mixin JavaPackageId!("android.app", "Application$OnProvideAssistDataListener");
+	public static immutable string _javaParameterString = "Landroid/app/Application$OnProvideAssistDataListener";
 }

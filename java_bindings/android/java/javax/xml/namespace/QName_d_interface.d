@@ -15,5 +15,5 @@ final class QName : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import static import0.QName valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.namespace", "QName");
+	public static immutable string _javaParameterString = "Ljavax/xml/namespace/QName";
 }

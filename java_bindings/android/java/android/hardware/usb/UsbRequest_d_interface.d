@@ -15,5 +15,5 @@ final class UsbRequest : IJavaObject {
 	@Import bool queue(import2.ByteBuffer);
 	@Import bool cancel();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.usb", "UsbRequest");
+	public static immutable string _javaParameterString = "Landroid/hardware/usb/UsbRequest";
 }

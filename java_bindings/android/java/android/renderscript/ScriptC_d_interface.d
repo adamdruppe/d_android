@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ScriptC : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptC");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptC";
 }

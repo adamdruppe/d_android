@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class UnsupportedSchemeException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "UnsupportedSchemeException");
+	public static immutable string _javaParameterString = "Landroid/media/UnsupportedSchemeException";
 }

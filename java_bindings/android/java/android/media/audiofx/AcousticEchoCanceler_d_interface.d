@@ -7,5 +7,5 @@ final class AcousticEchoCanceler : IJavaObject {
 	@Import static bool isAvailable();
 	@Import static import0.AcousticEchoCanceler create(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "AcousticEchoCanceler");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/AcousticEchoCanceler";
 }

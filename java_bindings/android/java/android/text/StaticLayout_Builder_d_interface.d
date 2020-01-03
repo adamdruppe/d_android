@@ -27,5 +27,5 @@ final class StaticLayout_Builder : IJavaObject {
 	@Import import0.StaticLayout_Builder setJustificationMode(int);
 	@Import import6.StaticLayout build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "StaticLayout$Builder");
+	public static immutable string _javaParameterString = "Landroid/text/StaticLayout$Builder";
 }

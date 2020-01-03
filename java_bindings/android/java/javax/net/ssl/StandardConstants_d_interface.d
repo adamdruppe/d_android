@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class StandardConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "StandardConstants");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/StandardConstants";
 }

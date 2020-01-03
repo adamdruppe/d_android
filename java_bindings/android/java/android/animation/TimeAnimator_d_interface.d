@@ -8,5 +8,5 @@ final class TimeAnimator : IJavaObject {
 	@Import void setCurrentPlayTime(long);
 	@Import void setTimeListener(import0.TimeAnimator_TimeListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "TimeAnimator");
+	public static immutable string _javaParameterString = "Landroid/animation/TimeAnimator";
 }

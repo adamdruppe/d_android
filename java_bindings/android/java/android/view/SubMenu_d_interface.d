@@ -17,5 +17,5 @@ interface SubMenu : IJavaObject {
 	@Import import0.SubMenu setIcon(int);
 	@Import import0.SubMenu setIcon(import2.Drawable);
 	@Import import4.MenuItem getItem();
-	mixin JavaPackageId!("android.view", "SubMenu");
+	public static immutable string _javaParameterString = "Landroid/view/SubMenu";
 }

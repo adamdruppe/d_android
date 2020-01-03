@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface InterruptibleChannel : IJavaObject {
 	@Import void close();
-	mixin JavaPackageId!("java.nio.channels", "InterruptibleChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/InterruptibleChannel";
 }

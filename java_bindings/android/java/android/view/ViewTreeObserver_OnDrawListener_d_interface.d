@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ViewTreeObserver$OnDrawListener")
 interface ViewTreeObserver_OnDrawListener : IJavaObject {
 	@Import void onDraw();
-	mixin JavaPackageId!("android.view", "ViewTreeObserver$OnDrawListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewTreeObserver$OnDrawListener";
 }

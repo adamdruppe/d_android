@@ -39,5 +39,5 @@ final class MediaSession : IJavaObject {
 	@Import void setExtras(import6.Bundle);
 	@Import import13.MediaSessionManager_RemoteUserInfo getCurrentControllerInfo();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaSession");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaSession";
 }

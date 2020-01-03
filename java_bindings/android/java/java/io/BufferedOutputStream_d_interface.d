@@ -10,5 +10,5 @@ final class BufferedOutputStream : IJavaObject {
 	@Import void write(byte, int, int[]);
 	@Import void flush();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "BufferedOutputStream");
+	public static immutable string _javaParameterString = "Ljava/io/BufferedOutputStream";
 }

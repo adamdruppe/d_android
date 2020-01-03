@@ -34,5 +34,5 @@ interface Map : IJavaObject {
 	@Import IJavaObject computeIfPresent(IJavaObject, import4.BiFunction);
 	@Import IJavaObject compute(IJavaObject, import4.BiFunction);
 	@Import IJavaObject merge(IJavaObject, IJavaObject, import4.BiFunction);
-	mixin JavaPackageId!("java.util", "Map");
+	public static immutable string _javaParameterString = "Ljava/util/Map";
 }

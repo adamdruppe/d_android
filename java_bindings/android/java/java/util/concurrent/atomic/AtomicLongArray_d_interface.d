@@ -26,5 +26,5 @@ final class AtomicLongArray : IJavaObject {
 	@Import long accumulateAndGet(int, long, import1.LongBinaryOperator);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicLongArray");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicLongArray";
 }

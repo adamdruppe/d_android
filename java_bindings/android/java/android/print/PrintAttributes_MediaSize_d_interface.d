@@ -18,5 +18,5 @@ final class PrintAttributes_MediaSize : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintAttributes$MediaSize");
+	public static immutable string _javaParameterString = "Landroid/print/PrintAttributes$MediaSize";
 }

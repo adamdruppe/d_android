@@ -36,5 +36,5 @@ final class RippleDrawable : IJavaObject {
 	@Import import9.Drawable_ConstantState getConstantState();
 	@Import import1.Drawable mutate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "RippleDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/RippleDrawable";
 }

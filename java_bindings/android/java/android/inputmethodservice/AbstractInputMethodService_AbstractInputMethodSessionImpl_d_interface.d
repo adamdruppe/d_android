@@ -17,5 +17,5 @@ final class AbstractInputMethodService_AbstractInputMethodSessionImpl : IJavaObj
 	@Import void dispatchTrackballEvent(int, import3.MotionEvent, import2.InputMethodSession_EventCallback);
 	@Import void dispatchGenericMotionEvent(int, import3.MotionEvent, import2.InputMethodSession_EventCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "AbstractInputMethodService$AbstractInputMethodSessionImpl");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/AbstractInputMethodService$AbstractInputMethodSessionImpl";
 }

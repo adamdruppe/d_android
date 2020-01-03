@@ -21,5 +21,5 @@ final class ExtractEditText : IJavaObject {
 	@Import bool isFocused();
 	@Import bool hasFocus();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "ExtractEditText");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/ExtractEditText";
 }

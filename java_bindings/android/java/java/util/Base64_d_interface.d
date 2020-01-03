@@ -13,5 +13,5 @@ final class Base64 : IJavaObject {
 	@Import static import1.Base64_Decoder getUrlDecoder();
 	@Import static import1.Base64_Decoder getMimeDecoder();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Base64");
+	public static immutable string _javaParameterString = "Ljava/util/Base64";
 }

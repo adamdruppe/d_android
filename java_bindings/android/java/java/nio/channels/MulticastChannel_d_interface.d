@@ -9,5 +9,5 @@ interface MulticastChannel : IJavaObject {
 	@Import void close();
 	@Import import0.MembershipKey join(import1.InetAddress, import2.NetworkInterface);
 	@Import import0.MembershipKey join(import1.InetAddress, import2.NetworkInterface, import1.InetAddress);
-	mixin JavaPackageId!("java.nio.channels", "MulticastChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/MulticastChannel";
 }

@@ -13,5 +13,5 @@ final class SEService : IJavaObject {
 	@Import void shutdown();
 	@Import string getVersion();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.se.omapi", "SEService");
+	public static immutable string _javaParameterString = "Landroid/se/omapi/SEService";
 }

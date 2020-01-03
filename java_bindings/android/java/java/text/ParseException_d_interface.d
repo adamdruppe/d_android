@@ -5,5 +5,5 @@ final class ParseException : IJavaObject {
 	@Import this(string, int);
 	@Import int getErrorOffset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "ParseException");
+	public static immutable string _javaParameterString = "Ljava/text/ParseException";
 }

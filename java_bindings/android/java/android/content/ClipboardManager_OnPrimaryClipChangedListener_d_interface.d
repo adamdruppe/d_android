@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ClipboardManager$OnPrimaryClipChangedListener")
 interface ClipboardManager_OnPrimaryClipChangedListener : IJavaObject {
 	@Import void onPrimaryClipChanged();
-	mixin JavaPackageId!("android.content", "ClipboardManager$OnPrimaryClipChangedListener");
+	public static immutable string _javaParameterString = "Landroid/content/ClipboardManager$OnPrimaryClipChangedListener";
 }

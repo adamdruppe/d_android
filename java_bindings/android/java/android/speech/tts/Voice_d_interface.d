@@ -19,5 +19,5 @@ final class Voice : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech.tts", "Voice");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/Voice";
 }

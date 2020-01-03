@@ -8,5 +8,5 @@ final class Sampler_Value : IJavaObject {
 	@Import static import0.Sampler_Value[] values();
 	@Import static import0.Sampler_Value valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Sampler$Value");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Sampler$Value";
 }

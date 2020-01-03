@@ -23,5 +23,5 @@ final class SSLSocketFactory : IJavaObject {
 	@Import void setHostnameVerifier(import7.X509HostnameVerifier);
 	@Import import7.X509HostnameVerifier getHostnameVerifier();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.apache.http.conn.ssl", "SSLSocketFactory");
+	public static immutable string _javaParameterString = "Lorg/apache/http/conn/ssl/SSLSocketFactory";
 }

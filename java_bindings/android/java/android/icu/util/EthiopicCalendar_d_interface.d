@@ -19,5 +19,5 @@ final class EthiopicCalendar : IJavaObject {
 	@Import void setAmeteAlemEra(bool);
 	@Import bool isAmeteAlemEra();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "EthiopicCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/EthiopicCalendar";
 }

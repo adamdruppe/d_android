@@ -13,5 +13,5 @@ final class UsageEvents_Event : IJavaObject {
 	@Import string getShortcutId();
 	@Import int getAppStandbyBucket();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "UsageEvents$Event");
+	public static immutable string _javaParameterString = "Landroid/app/usage/UsageEvents$Event";
 }

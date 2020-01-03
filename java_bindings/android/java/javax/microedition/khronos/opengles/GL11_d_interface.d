@@ -74,5 +74,5 @@ interface GL11 : IJavaObject {
 	@Import void glTexParameterxv(int, int, int, int[]);
 	@Import void glTexParameterxv(int, int, import2.IntBuffer);
 	@Import void glVertexPointer(int, int, int, int);
-	mixin JavaPackageId!("javax.microedition.khronos.opengles", "GL11");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/opengles/GL11";
 }

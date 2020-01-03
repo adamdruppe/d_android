@@ -33,5 +33,5 @@ final class GnssMeasurement : IJavaObject {
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GnssMeasurement");
+	public static immutable string _javaParameterString = "Landroid/location/GnssMeasurement";
 }

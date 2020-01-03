@@ -6,5 +6,5 @@ import import0 = android.java.java.util.concurrent.locks.Lock_d_interface;
 interface ReadWriteLock : IJavaObject {
 	@Import import0.Lock readLock();
 	@Import import0.Lock writeLock();
-	mixin JavaPackageId!("java.util.concurrent.locks", "ReadWriteLock");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/ReadWriteLock";
 }

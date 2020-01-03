@@ -17,5 +17,5 @@ final class SpeechRecognizer : IJavaObject {
 	@Import void cancel();
 	@Import void destroy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech", "SpeechRecognizer");
+	public static immutable string _javaParameterString = "Landroid/speech/SpeechRecognizer";
 }

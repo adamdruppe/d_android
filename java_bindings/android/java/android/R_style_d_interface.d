@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("R$style")
 final class R_style : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "R$style");
+	public static immutable string _javaParameterString = "Landroid/R$style";
 }

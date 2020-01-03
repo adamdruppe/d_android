@@ -14,5 +14,5 @@ final class RadioGroup_LayoutParams : IJavaObject {
 	@Import this(import2.ViewGroup_LayoutParams);
 	@Import this(import3.ViewGroup_MarginLayoutParams);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RadioGroup$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/RadioGroup$LayoutParams";
 }

@@ -8,5 +8,5 @@ final class ExtendedSSLSession : IJavaObject {
 	@Import string[] getPeerSupportedSignatureAlgorithms();
 	@Import import0.List getRequestedServerNames();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "ExtendedSSLSession");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/ExtendedSSLSession";
 }

@@ -18,5 +18,5 @@ final class MediaRouter_RouteGroup : IJavaObject {
 	@Import void requestUpdateVolume(int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRouter$RouteGroup");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRouter$RouteGroup";
 }

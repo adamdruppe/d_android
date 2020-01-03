@@ -7,5 +7,5 @@ final class StreamingServiceInfo : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "StreamingServiceInfo");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/StreamingServiceInfo";
 }

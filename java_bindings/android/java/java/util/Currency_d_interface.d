@@ -18,5 +18,5 @@ final class Currency : IJavaObject {
 	@Import string getDisplayName(import1.Locale);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Currency");
+	public static immutable string _javaParameterString = "Ljava/util/Currency";
 }

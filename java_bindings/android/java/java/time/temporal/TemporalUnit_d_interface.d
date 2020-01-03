@@ -13,5 +13,5 @@ interface TemporalUnit : IJavaObject {
 	@Import import1.Temporal addTo(import1.Temporal, long);
 	@Import long between(import1.Temporal, import1.Temporal);
 	@Import @JavaName("toString") string toString_();
-	mixin JavaPackageId!("java.time.temporal", "TemporalUnit");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalUnit";
 }

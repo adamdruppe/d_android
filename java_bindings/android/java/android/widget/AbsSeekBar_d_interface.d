@@ -42,5 +42,5 @@ final class AbsSeekBar : IJavaObject {
 	@Import import7.CharSequence getAccessibilityClassName();
 	@Import void onRtlPropertiesChanged(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AbsSeekBar");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsSeekBar";
 }

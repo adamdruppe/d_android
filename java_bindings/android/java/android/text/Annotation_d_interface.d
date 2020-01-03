@@ -12,5 +12,5 @@ final class Annotation : IJavaObject {
 	@Import string getKey();
 	@Import string getValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Annotation");
+	public static immutable string _javaParameterString = "Landroid/text/Annotation";
 }

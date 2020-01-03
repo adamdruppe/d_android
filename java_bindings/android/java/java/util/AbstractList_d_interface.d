@@ -23,5 +23,5 @@ final class AbstractList : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "AbstractList");
+	public static immutable string _javaParameterString = "Ljava/util/AbstractList";
 }

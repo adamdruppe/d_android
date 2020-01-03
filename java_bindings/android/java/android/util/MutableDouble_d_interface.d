@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MutableDouble : IJavaObject {
 	@Import this(double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MutableDouble");
+	public static immutable string _javaParameterString = "Landroid/util/MutableDouble";
 }

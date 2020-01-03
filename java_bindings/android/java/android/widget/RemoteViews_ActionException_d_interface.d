@@ -8,5 +8,5 @@ final class RemoteViews_ActionException : IJavaObject {
 	@Import this(import0.JavaException);
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RemoteViews$ActionException");
+	public static immutable string _javaParameterString = "Landroid/widget/RemoteViews$ActionException";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.PathEffect_d_interface;
 final class SumPathEffect : IJavaObject {
 	@Import this(import0.PathEffect, import0.PathEffect);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "SumPathEffect");
+	public static immutable string _javaParameterString = "Landroid/graphics/SumPathEffect";
 }

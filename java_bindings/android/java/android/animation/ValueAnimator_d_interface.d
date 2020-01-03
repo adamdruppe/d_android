@@ -57,5 +57,5 @@ final class ValueAnimator : IJavaObject {
 	@Import import5.Animator setDuration(long);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "ValueAnimator");
+	public static immutable string _javaParameterString = "Landroid/animation/ValueAnimator";
 }

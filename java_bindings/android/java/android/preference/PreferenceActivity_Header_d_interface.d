@@ -15,5 +15,5 @@ final class PreferenceActivity_Header : IJavaObject {
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import void readFromParcel(import2.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "PreferenceActivity$Header");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceActivity$Header";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class FileUriExposedException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "FileUriExposedException");
+	public static immutable string _javaParameterString = "Landroid/os/FileUriExposedException";
 }

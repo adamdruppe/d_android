@@ -9,5 +9,5 @@ interface XPathExpression : IJavaObject {
 	@Import string evaluate(IJavaObject);
 	@Import IJavaObject evaluate(import1.InputSource, import0.QName);
 	@Import string evaluate(import1.InputSource);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathExpression");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathExpression";
 }

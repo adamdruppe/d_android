@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("EventLogTags$Description")
 final class EventLogTags_Description : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "EventLogTags$Description");
+	public static immutable string _javaParameterString = "Landroid/util/EventLogTags$Description";
 }

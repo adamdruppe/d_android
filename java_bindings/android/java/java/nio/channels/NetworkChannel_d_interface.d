@@ -12,5 +12,5 @@ interface NetworkChannel : IJavaObject {
 	@Import import0.NetworkChannel setOption(import2.SocketOption, IJavaObject);
 	@Import IJavaObject getOption(import2.SocketOption);
 	@Import import3.Set supportedOptions();
-	mixin JavaPackageId!("java.nio.channels", "NetworkChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/NetworkChannel";
 }

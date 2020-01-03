@@ -10,5 +10,5 @@ final class ScanResult : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "ScanResult");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/ScanResult";
 }

@@ -17,5 +17,5 @@ final class ScanFilter_Builder : IJavaObject {
 	@Import import0.ScanFilter_Builder setManufacturerData(int, byte, byte[][]);
 	@Import import2.ScanFilter build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "ScanFilter$Builder");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/ScanFilter$Builder";
 }

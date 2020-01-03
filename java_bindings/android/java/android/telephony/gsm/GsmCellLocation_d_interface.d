@@ -15,5 +15,5 @@ final class GsmCellLocation : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import void fillInNotifierBundle(import0.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.gsm", "GsmCellLocation");
+	public static immutable string _javaParameterString = "Landroid/telephony/gsm/GsmCellLocation";
 }

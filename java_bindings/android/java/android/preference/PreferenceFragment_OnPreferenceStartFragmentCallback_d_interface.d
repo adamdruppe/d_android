@@ -7,5 +7,5 @@ import import0 = android.java.android.preference.PreferenceFragment_d_interface;
 @JavaName("PreferenceFragment$OnPreferenceStartFragmentCallback")
 interface PreferenceFragment_OnPreferenceStartFragmentCallback : IJavaObject {
 	@Import bool onPreferenceStartFragment(import0.PreferenceFragment, import1.Preference);
-	mixin JavaPackageId!("android.preference", "PreferenceFragment$OnPreferenceStartFragmentCallback");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceFragment$OnPreferenceStartFragmentCallback";
 }

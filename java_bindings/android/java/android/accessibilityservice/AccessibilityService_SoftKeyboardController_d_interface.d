@@ -12,5 +12,5 @@ final class AccessibilityService_SoftKeyboardController : IJavaObject {
 	@Import int getShowMode();
 	@Import bool setShowMode(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityService$SoftKeyboardController");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityService$SoftKeyboardController";
 }

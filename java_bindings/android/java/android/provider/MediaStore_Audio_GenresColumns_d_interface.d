@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("MediaStore$Audio$GenresColumns")
 interface MediaStore_Audio_GenresColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "MediaStore$Audio$GenresColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Audio$GenresColumns";
 }

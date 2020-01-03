@@ -33,5 +33,5 @@ final class ProgressDialog : IJavaObject {
 	@Import void setProgressNumberFormat(string);
 	@Import void setProgressPercentFormat(import5.NumberFormat);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ProgressDialog");
+	public static immutable string _javaParameterString = "Landroid/app/ProgressDialog";
 }

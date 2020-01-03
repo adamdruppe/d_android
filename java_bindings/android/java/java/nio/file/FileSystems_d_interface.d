@@ -14,5 +14,5 @@ final class FileSystems : IJavaObject {
 	@Import static import0.FileSystem newFileSystem(import1.URI, import2.Map, import3.ClassLoader);
 	@Import static import0.FileSystem newFileSystem(import4.Path, import3.ClassLoader);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "FileSystems");
+	public static immutable string _javaParameterString = "Ljava/nio/file/FileSystems";
 }

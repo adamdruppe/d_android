@@ -12,5 +12,5 @@ interface NamedNodeMap : IJavaObject {
 	@Import import0.Node getNamedItemNS(string, string);
 	@Import import0.Node setNamedItemNS(import0.Node);
 	@Import import0.Node removeNamedItemNS(string, string);
-	mixin JavaPackageId!("org.w3c.dom", "NamedNodeMap");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/NamedNodeMap";
 }

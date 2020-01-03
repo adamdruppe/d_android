@@ -24,5 +24,5 @@ final class GestureStore : IJavaObject {
 	@Import void load(import4.InputStream);
 	@Import void load(import4.InputStream, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "GestureStore");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureStore";
 }

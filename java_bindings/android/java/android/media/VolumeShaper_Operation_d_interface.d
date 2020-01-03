@@ -11,5 +11,5 @@ final class VolumeShaper_Operation : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "VolumeShaper$Operation");
+	public static immutable string _javaParameterString = "Landroid/media/VolumeShaper$Operation";
 }

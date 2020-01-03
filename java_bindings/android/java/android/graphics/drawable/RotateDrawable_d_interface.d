@@ -24,5 +24,5 @@ final class RotateDrawable : IJavaObject {
 	@Import void setPivotYRelative(bool);
 	@Import bool isPivotYRelative();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "RotateDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/RotateDrawable";
 }

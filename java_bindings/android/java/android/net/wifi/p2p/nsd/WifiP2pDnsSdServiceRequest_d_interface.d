@@ -8,5 +8,5 @@ final class WifiP2pDnsSdServiceRequest : IJavaObject {
 	@Import static import0.WifiP2pDnsSdServiceRequest newInstance(string);
 	@Import static import0.WifiP2pDnsSdServiceRequest newInstance(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.p2p.nsd", "WifiP2pDnsSdServiceRequest");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/p2p/nsd/WifiP2pDnsSdServiceRequest";
 }

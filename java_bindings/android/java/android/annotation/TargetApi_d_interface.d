@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface TargetApi : IJavaObject {
 	@Import int value();
-	mixin JavaPackageId!("android.annotation", "TargetApi");
+	public static immutable string _javaParameterString = "Landroid/annotation/TargetApi";
 }

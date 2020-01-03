@@ -8,5 +8,5 @@ final class UriMatcher : IJavaObject {
 	@Import void addURI(string, string, int);
 	@Import int match(import0.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "UriMatcher");
+	public static immutable string _javaParameterString = "Landroid/content/UriMatcher";
 }

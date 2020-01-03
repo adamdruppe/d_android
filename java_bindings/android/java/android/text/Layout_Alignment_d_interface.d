@@ -8,5 +8,5 @@ final class Layout_Alignment : IJavaObject {
 	@Import static import0.Layout_Alignment[] values();
 	@Import static import0.Layout_Alignment valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Layout$Alignment");
+	public static immutable string _javaParameterString = "Landroid/text/Layout$Alignment";
 }

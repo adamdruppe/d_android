@@ -17,5 +17,5 @@ final class Provider_Service : IJavaObject {
 	@Import bool supportsParameter(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Provider$Service");
+	public static immutable string _javaParameterString = "Ljava/security/Provider$Service";
 }

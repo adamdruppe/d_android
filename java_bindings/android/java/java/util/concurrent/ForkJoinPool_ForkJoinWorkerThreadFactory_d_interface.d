@@ -7,5 +7,5 @@ import import1 = android.java.java.util.concurrent.ForkJoinPool_d_interface;
 @JavaName("ForkJoinPool$ForkJoinWorkerThreadFactory")
 interface ForkJoinPool_ForkJoinWorkerThreadFactory : IJavaObject {
 	@Import import0.ForkJoinWorkerThread newThread(import1.ForkJoinPool);
-	mixin JavaPackageId!("java.util.concurrent", "ForkJoinPool$ForkJoinWorkerThreadFactory");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ForkJoinPool$ForkJoinWorkerThreadFactory";
 }

@@ -20,5 +20,5 @@ final class ScriptIntrinsicHistogram : IJavaObject {
 	@Import import5.Script_KernelID getKernelID_Separate();
 	@Import import6.Script_FieldID getFieldID_Input();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicHistogram");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicHistogram";
 }

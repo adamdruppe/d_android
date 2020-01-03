@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WebChromeClient$CustomViewCallback")
 interface WebChromeClient_CustomViewCallback : IJavaObject {
 	@Import void onCustomViewHidden();
-	mixin JavaPackageId!("android.webkit", "WebChromeClient$CustomViewCallback");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebChromeClient$CustomViewCallback";
 }

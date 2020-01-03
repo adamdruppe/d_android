@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface KeyChainAliasCallback : IJavaObject {
 	@Import @JavaName("alias") void alias_(string);
-	mixin JavaPackageId!("android.security", "KeyChainAliasCallback");
+	public static immutable string _javaParameterString = "Landroid/security/KeyChainAliasCallback";
 }

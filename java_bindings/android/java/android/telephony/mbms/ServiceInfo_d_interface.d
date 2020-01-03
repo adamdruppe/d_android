@@ -18,5 +18,5 @@ final class ServiceInfo : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "ServiceInfo");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/ServiceInfo";
 }

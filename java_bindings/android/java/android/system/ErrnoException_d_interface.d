@@ -8,5 +8,5 @@ final class ErrnoException : IJavaObject {
 	@Import this(string, int, import0.JavaThrowable);
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "ErrnoException");
+	public static immutable string _javaParameterString = "Landroid/system/ErrnoException";
 }

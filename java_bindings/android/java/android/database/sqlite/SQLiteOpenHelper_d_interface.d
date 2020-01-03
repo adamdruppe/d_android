@@ -25,5 +25,5 @@ final class SQLiteOpenHelper : IJavaObject {
 	@Import void onDowngrade(import4.SQLiteDatabase, int, int);
 	@Import void onOpen(import4.SQLiteDatabase);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteOpenHelper");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteOpenHelper";
 }

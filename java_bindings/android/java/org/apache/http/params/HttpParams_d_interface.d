@@ -18,5 +18,5 @@ interface HttpParams : IJavaObject {
 	@Import import0.HttpParams setBooleanParameter(string, bool);
 	@Import bool isParameterTrue(string);
 	@Import bool isParameterFalse(string);
-	mixin JavaPackageId!("org.apache.http.params", "HttpParams");
+	public static immutable string _javaParameterString = "Lorg/apache/http/params/HttpParams";
 }

@@ -7,5 +7,5 @@ final class FormatFlagsConversionMismatchException : IJavaObject {
 	@Import wchar getConversion();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "FormatFlagsConversionMismatchException");
+	public static immutable string _javaParameterString = "Ljava/util/FormatFlagsConversionMismatchException";
 }

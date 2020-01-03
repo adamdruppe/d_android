@@ -8,5 +8,5 @@ final class AllPermission : IJavaObject {
 	@Import bool implies(import0.Permission);
 	@Import string getActions();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "AllPermission");
+	public static immutable string _javaParameterString = "Ljava/security/AllPermission";
 }

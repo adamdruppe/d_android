@@ -19,5 +19,5 @@ interface MethodHandleInfo : IJavaObject {
 	@Import static bool refKindIsValid(int);
 	@Import static bool refKindIsField(int);
 	@Import static string refKindName(int);
-	mixin JavaPackageId!("java.lang.invoke", "MethodHandleInfo");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/MethodHandleInfo";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.javax.net.ssl.SSLSessionBindingEvent_d_interface;
 interface SSLSessionBindingListener : IJavaObject {
 	@Import void valueBound(import0.SSLSessionBindingEvent);
 	@Import void valueUnbound(import0.SSLSessionBindingEvent);
-	mixin JavaPackageId!("javax.net.ssl", "SSLSessionBindingListener");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLSessionBindingListener";
 }

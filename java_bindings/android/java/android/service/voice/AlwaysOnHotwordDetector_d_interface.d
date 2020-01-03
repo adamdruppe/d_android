@@ -11,5 +11,5 @@ final class AlwaysOnHotwordDetector : IJavaObject {
 	@Import import0.Intent createUnEnrollIntent();
 	@Import import0.Intent createReEnrollIntent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "AlwaysOnHotwordDetector");
+	public static immutable string _javaParameterString = "Landroid/service/voice/AlwaysOnHotwordDetector";
 }

@@ -8,5 +8,5 @@ import import1 = android.java.android.content.ContentResolver_d_interface;
 final class CalendarContract_Attendees : IJavaObject {
 	@Import static import0.Cursor query(import1.ContentResolver, long, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "CalendarContract$Attendees");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$Attendees";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ExemptionMechanismException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "ExemptionMechanismException");
+	public static immutable string _javaParameterString = "Ljavax/crypto/ExemptionMechanismException";
 }

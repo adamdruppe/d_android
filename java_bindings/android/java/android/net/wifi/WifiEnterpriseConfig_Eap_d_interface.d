@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WifiEnterpriseConfig$Eap")
 final class WifiEnterpriseConfig_Eap : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiEnterpriseConfig$Eap");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiEnterpriseConfig$Eap";
 }

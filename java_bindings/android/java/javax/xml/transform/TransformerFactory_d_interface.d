@@ -25,5 +25,5 @@ final class TransformerFactory : IJavaObject {
 	@Import void setErrorListener(import6.ErrorListener);
 	@Import import6.ErrorListener getErrorListener();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform", "TransformerFactory");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/TransformerFactory";
 }

@@ -12,5 +12,5 @@ final class Channel : IJavaObject {
 	@Import byte[] getSelectResponse();
 	@Import bool selectNext();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.se.omapi", "Channel");
+	public static immutable string _javaParameterString = "Landroid/se/omapi/Channel";
 }

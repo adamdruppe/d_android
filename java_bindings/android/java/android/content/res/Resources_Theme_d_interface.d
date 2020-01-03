@@ -21,5 +21,5 @@ final class Resources_Theme : IJavaObject {
 	@Import int getChangingConfigurations();
 	@Import void dump(int, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "Resources$Theme");
+	public static immutable string _javaParameterString = "Landroid/content/res/Resources$Theme";
 }

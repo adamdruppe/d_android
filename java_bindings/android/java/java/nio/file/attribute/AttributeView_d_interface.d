@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface AttributeView : IJavaObject {
 	@Import string name();
-	mixin JavaPackageId!("java.nio.file.attribute", "AttributeView");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/AttributeView";
 }

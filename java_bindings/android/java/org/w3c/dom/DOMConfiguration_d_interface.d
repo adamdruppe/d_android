@@ -8,5 +8,5 @@ interface DOMConfiguration : IJavaObject {
 	@Import IJavaObject getParameter(string);
 	@Import bool canSetParameter(string, IJavaObject);
 	@Import import0.DOMStringList getParameterNames();
-	mixin JavaPackageId!("org.w3c.dom", "DOMConfiguration");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMConfiguration";
 }

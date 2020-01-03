@@ -18,5 +18,5 @@ final class UsbManager : IJavaObject {
 	@Import void requestPermission(import2.UsbDevice, import5.PendingIntent);
 	@Import void requestPermission(import3.UsbAccessory, import5.PendingIntent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.usb", "UsbManager");
+	public static immutable string _javaParameterString = "Landroid/hardware/usb/UsbManager";
 }

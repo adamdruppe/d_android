@@ -8,5 +8,5 @@ interface IntUnaryOperator : IJavaObject {
 	@Import import0.IntUnaryOperator compose(import0.IntUnaryOperator);
 	@Import import0.IntUnaryOperator andThen(import0.IntUnaryOperator);
 	@Import static import0.IntUnaryOperator identity();
-	mixin JavaPackageId!("java.util.function", "IntUnaryOperator");
+	public static immutable string _javaParameterString = "Ljava/util/function/IntUnaryOperator";
 }

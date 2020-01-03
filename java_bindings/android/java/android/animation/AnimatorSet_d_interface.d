@@ -42,5 +42,5 @@ final class AnimatorSet : IJavaObject {
 	@Import import0.Animator setDuration(long);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "AnimatorSet");
+	public static immutable string _javaParameterString = "Landroid/animation/AnimatorSet";
 }

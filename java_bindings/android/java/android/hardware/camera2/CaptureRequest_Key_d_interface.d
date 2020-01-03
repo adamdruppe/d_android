@@ -8,5 +8,5 @@ final class CaptureRequest_Key : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CaptureRequest$Key");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CaptureRequest$Key";
 }

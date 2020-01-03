@@ -13,5 +13,5 @@ final class LockSupport : IJavaObject {
 	@Import static void parkNanos(long);
 	@Import static void parkUntil(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "LockSupport");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/LockSupport";
 }

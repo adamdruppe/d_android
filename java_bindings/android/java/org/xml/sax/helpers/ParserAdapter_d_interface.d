@@ -35,5 +35,5 @@ final class ParserAdapter : IJavaObject {
 	@Import void ignorableWhitespace(wchar, int, int[]);
 	@Import void processingInstruction(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "ParserAdapter");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/ParserAdapter";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.view.accessibility.AccessibilityEvent_d_in
 interface AccessibilityEventSource : IJavaObject {
 	@Import void sendAccessibilityEvent(int);
 	@Import void sendAccessibilityEventUnchecked(import0.AccessibilityEvent);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityEventSource");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityEventSource";
 }

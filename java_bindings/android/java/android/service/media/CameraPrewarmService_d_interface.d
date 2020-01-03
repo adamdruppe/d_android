@@ -10,5 +10,5 @@ final class CameraPrewarmService : IJavaObject {
 	@Import void onPrewarm();
 	@Import void onCooldown(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.media", "CameraPrewarmService");
+	public static immutable string _javaParameterString = "Landroid/service/media/CameraPrewarmService";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("R$plurals")
 final class R_plurals : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "R$plurals");
+	public static immutable string _javaParameterString = "Landroid/R$plurals";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.java.net.URI_d_interface;
 
 interface CookiePolicy : IJavaObject {
 	@Import bool shouldAccept(import0.URI, import1.HttpCookie);
-	mixin JavaPackageId!("java.net", "CookiePolicy");
+	public static immutable string _javaParameterString = "Ljava/net/CookiePolicy";
 }

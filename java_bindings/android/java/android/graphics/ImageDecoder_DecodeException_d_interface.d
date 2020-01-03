@@ -8,5 +8,5 @@ final class ImageDecoder_DecodeException : IJavaObject {
 	@Import int getError();
 	@Import import0.ImageDecoder_Source getSource();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ImageDecoder$DecodeException");
+	public static immutable string _javaParameterString = "Landroid/graphics/ImageDecoder$DecodeException";
 }

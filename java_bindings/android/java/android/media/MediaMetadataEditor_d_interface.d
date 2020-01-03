@@ -19,5 +19,5 @@ final class MediaMetadataEditor : IJavaObject {
 	@Import import1.Bitmap getBitmap(int, import1.Bitmap);
 	@Import IJavaObject getObject(int, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaMetadataEditor");
+	public static immutable string _javaParameterString = "Landroid/media/MediaMetadataEditor";
 }

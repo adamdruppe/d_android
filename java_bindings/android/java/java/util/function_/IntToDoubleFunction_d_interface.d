@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface IntToDoubleFunction : IJavaObject {
 	@Import double applyAsDouble(int);
-	mixin JavaPackageId!("java.util.function", "IntToDoubleFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/IntToDoubleFunction";
 }

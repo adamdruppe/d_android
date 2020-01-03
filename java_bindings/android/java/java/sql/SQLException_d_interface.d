@@ -19,5 +19,5 @@ final class SQLException : IJavaObject {
 	@Import void setNextException(import1.SQLException);
 	@Import import2.Iterator iterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLException");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLException";
 }

@@ -29,5 +29,5 @@ final class Properties : IJavaObject {
 	@Import void list(import7.PrintStream);
 	@Import void list(import8.PrintWriter);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Properties");
+	public static immutable string _javaParameterString = "Ljava/util/Properties";
 }

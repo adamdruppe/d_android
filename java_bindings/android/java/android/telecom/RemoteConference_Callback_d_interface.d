@@ -19,5 +19,5 @@ final class RemoteConference_Callback : IJavaObject {
 	@Import void onDestroyed(import0.RemoteConference);
 	@Import void onExtrasChanged(import0.RemoteConference, import4.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "RemoteConference$Callback");
+	public static immutable string _javaParameterString = "Landroid/telecom/RemoteConference$Callback";
 }

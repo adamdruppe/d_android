@@ -5,5 +5,5 @@ import import0 = android.java.org.w3c.dom.DOMError_d_interface;
 
 interface DOMErrorHandler : IJavaObject {
 	@Import bool handleError(import0.DOMError);
-	mixin JavaPackageId!("org.w3c.dom", "DOMErrorHandler");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMErrorHandler";
 }

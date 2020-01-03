@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("BlockedNumberContract$BlockedNumbers")
 final class BlockedNumberContract_BlockedNumbers : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "BlockedNumberContract$BlockedNumbers");
+	public static immutable string _javaParameterString = "Landroid/provider/BlockedNumberContract$BlockedNumbers";
 }

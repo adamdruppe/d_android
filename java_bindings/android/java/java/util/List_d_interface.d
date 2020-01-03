@@ -38,5 +38,5 @@ interface List : IJavaObject {
 	@Import import4.ListIterator listIterator(int);
 	@Import import5.List subList(int, int);
 	@Import import6.Spliterator spliterator();
-	mixin JavaPackageId!("java.util", "List");
+	public static immutable string _javaParameterString = "Ljava/util/List";
 }

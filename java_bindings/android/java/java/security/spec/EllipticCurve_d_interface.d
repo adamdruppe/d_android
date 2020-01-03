@@ -14,5 +14,5 @@ final class EllipticCurve : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "EllipticCurve");
+	public static immutable string _javaParameterString = "Ljava/security/spec/EllipticCurve";
 }

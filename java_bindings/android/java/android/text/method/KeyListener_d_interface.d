@@ -11,5 +11,5 @@ interface KeyListener : IJavaObject {
 	@Import bool onKeyUp(import0.View, import1.Editable, int, import2.KeyEvent);
 	@Import bool onKeyOther(import0.View, import1.Editable, import2.KeyEvent);
 	@Import void clearMetaKeyState(import0.View, import1.Editable, int);
-	mixin JavaPackageId!("android.text.method", "KeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/KeyListener";
 }

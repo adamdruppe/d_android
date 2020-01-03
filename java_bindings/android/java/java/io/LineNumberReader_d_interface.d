@@ -15,5 +15,5 @@ final class LineNumberReader : IJavaObject {
 	@Import void mark(int);
 	@Import void reset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "LineNumberReader");
+	public static immutable string _javaParameterString = "Ljava/io/LineNumberReader";
 }

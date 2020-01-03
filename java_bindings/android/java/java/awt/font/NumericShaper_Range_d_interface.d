@@ -8,5 +8,5 @@ final class NumericShaper_Range : IJavaObject {
 	@Import static import0.NumericShaper_Range[] values();
 	@Import static import0.NumericShaper_Range valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.awt.font", "NumericShaper$Range");
+	public static immutable string _javaParameterString = "Ljava/awt/font/NumericShaper$Range";
 }

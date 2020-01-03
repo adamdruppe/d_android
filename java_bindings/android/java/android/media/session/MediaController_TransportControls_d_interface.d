@@ -28,5 +28,5 @@ final class MediaController_TransportControls : IJavaObject {
 	@Import void sendCustomAction(import3.PlaybackState_CustomAction, import0.Bundle);
 	@Import void sendCustomAction(string, import0.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaController$TransportControls");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaController$TransportControls";
 }

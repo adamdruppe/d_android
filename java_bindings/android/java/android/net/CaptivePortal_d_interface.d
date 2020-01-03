@@ -9,5 +9,5 @@ final class CaptivePortal : IJavaObject {
 	@Import void reportCaptivePortalDismissed();
 	@Import void ignoreNetwork();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "CaptivePortal");
+	public static immutable string _javaParameterString = "Landroid/net/CaptivePortal";
 }

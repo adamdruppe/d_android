@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class InterruptedIOException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "InterruptedIOException");
+	public static immutable string _javaParameterString = "Ljava/io/InterruptedIOException";
 }

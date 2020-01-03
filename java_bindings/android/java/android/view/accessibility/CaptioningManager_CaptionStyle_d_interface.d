@@ -12,5 +12,5 @@ final class CaptioningManager_CaptionStyle : IJavaObject {
 	@Import bool hasWindowColor();
 	@Import import0.Typeface getTypeface();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "CaptioningManager$CaptionStyle");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/CaptioningManager$CaptionStyle";
 }

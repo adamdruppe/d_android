@@ -35,5 +35,5 @@ final class X509Certificate : IJavaObject {
 	@Import import5.Collection getIssuerAlternativeNames();
 	@Import void verify(import6.PublicKey, import7.Provider);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "X509Certificate");
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509Certificate";
 }

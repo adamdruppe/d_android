@@ -9,6 +9,8 @@ final class Visualizer : IJavaObject {
 	@Import void release();
 	@Import int setEnabled(bool);
 	@Import bool getEnabled();
+	@Import static int[] getCaptureSizeRange();
+	@Import static int getMaxCaptureRate();
 	@Import int setCaptureSize(int);
 	@Import int getCaptureSize();
 	@Import int setScalingMode(int);
@@ -21,5 +23,5 @@ final class Visualizer : IJavaObject {
 	@Import int getMeasurementPeakRms(import0.Visualizer_MeasurementPeakRms);
 	@Import int setDataCaptureListener(import1.Visualizer_OnDataCaptureListener, int, bool, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "Visualizer");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/Visualizer";
 }

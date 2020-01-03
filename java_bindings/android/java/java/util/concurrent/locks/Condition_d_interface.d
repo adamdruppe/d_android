@@ -12,5 +12,5 @@ interface Condition : IJavaObject {
 	@Import bool awaitUntil(import1.Date);
 	@Import void signal();
 	@Import void signalAll();
-	mixin JavaPackageId!("java.util.concurrent.locks", "Condition");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/Condition";
 }

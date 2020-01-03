@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class RenderScript_RSMessageHandler : IJavaObject {
 	@Import void run();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "RenderScript$RSMessageHandler");
+	public static immutable string _javaParameterString = "Landroid/renderscript/RenderScript$RSMessageHandler";
 }

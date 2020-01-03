@@ -17,5 +17,5 @@ final class ViewSwitcher : IJavaObject {
 	@Import void setFactory(import5.ViewSwitcher_ViewFactory);
 	@Import void reset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ViewSwitcher");
+	public static immutable string _javaParameterString = "Landroid/widget/ViewSwitcher";
 }

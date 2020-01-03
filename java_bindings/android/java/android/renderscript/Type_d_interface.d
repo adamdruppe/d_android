@@ -18,5 +18,5 @@ final class Type : IJavaObject {
 	@Import static import1.Type createXY(import2.RenderScript, import0.Element, int, int);
 	@Import static import1.Type createXYZ(import2.RenderScript, import0.Element, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Type");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Type";
 }

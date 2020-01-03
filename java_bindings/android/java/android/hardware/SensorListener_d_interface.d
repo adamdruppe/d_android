@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface SensorListener : IJavaObject {
 	@Import void onSensorChanged(int, float[]);
 	@Import void onAccuracyChanged(int, int);
-	mixin JavaPackageId!("android.hardware", "SensorListener");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorListener";
 }

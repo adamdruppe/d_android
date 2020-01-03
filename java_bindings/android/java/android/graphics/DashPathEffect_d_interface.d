@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DashPathEffect : IJavaObject {
 	@Import this(float, float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "DashPathEffect");
+	public static immutable string _javaParameterString = "Landroid/graphics/DashPathEffect";
 }

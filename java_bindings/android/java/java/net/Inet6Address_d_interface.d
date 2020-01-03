@@ -25,5 +25,5 @@ final class Inet6Address : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import bool isIPv4CompatibleAddress();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "Inet6Address");
+	public static immutable string _javaParameterString = "Ljava/net/Inet6Address";
 }

@@ -5,5 +5,5 @@ import import0 = android.java.javax.net.ssl.HandshakeCompletedEvent_d_interface;
 
 interface HandshakeCompletedListener : IJavaObject {
 	@Import void handshakeCompleted(import0.HandshakeCompletedEvent);
-	mixin JavaPackageId!("javax.net.ssl", "HandshakeCompletedListener");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/HandshakeCompletedListener";
 }

@@ -13,5 +13,5 @@ final class ProxySelector : IJavaObject {
 	@Import import1.List select(import2.URI);
 	@Import void connectFailed(import2.URI, import3.SocketAddress, import4.IOException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "ProxySelector");
+	public static immutable string _javaParameterString = "Ljava/net/ProxySelector";
 }

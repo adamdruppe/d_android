@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Manifest$permission_group")
 final class Manifest_permission_group : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "Manifest$permission_group");
+	public static immutable string _javaParameterString = "Landroid/Manifest$permission_group";
 }

@@ -7,5 +7,5 @@ final class AclEntryPermission : IJavaObject {
 	@Import static import0.AclEntryPermission[] values();
 	@Import static import0.AclEntryPermission valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "AclEntryPermission");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/AclEntryPermission";
 }

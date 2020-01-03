@@ -28,5 +28,5 @@ final class ClipData : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import7.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ClipData");
+	public static immutable string _javaParameterString = "Landroid/content/ClipData";
 }

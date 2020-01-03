@@ -85,5 +85,5 @@ final class SQLiteDatabase : IJavaObject {
 	@Import bool isDatabaseIntegrityOk();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteDatabase");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteDatabase";
 }

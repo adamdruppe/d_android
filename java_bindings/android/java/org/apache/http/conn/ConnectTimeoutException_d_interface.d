@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ConnectTimeoutException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.apache.http.conn", "ConnectTimeoutException");
+	public static immutable string _javaParameterString = "Lorg/apache/http/conn/ConnectTimeoutException";
 }

@@ -24,5 +24,5 @@ final class Optional : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Optional");
+	public static immutable string _javaParameterString = "Ljava/util/Optional";
 }

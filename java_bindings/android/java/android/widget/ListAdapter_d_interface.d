@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface ListAdapter : IJavaObject {
 	@Import bool areAllItemsEnabled();
 	@Import bool isEnabled(int);
-	mixin JavaPackageId!("android.widget", "ListAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/ListAdapter";
 }

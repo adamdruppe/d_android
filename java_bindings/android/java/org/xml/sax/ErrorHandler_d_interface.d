@@ -7,5 +7,5 @@ interface ErrorHandler : IJavaObject {
 	@Import void warning(import0.SAXParseException);
 	@Import void error(import0.SAXParseException);
 	@Import void fatalError(import0.SAXParseException);
-	mixin JavaPackageId!("org.xml.sax", "ErrorHandler");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ErrorHandler";
 }

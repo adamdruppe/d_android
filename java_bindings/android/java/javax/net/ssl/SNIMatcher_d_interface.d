@@ -7,5 +7,5 @@ final class SNIMatcher : IJavaObject {
 	@Import int getType();
 	@Import bool matches(import0.SNIServerName);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SNIMatcher");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SNIMatcher";
 }

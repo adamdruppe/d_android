@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class WindowManager_BadTokenException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "WindowManager$BadTokenException");
+	public static immutable string _javaParameterString = "Landroid/view/WindowManager$BadTokenException";
 }

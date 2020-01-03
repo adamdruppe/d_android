@@ -24,5 +24,5 @@ final class HttpURLConnection : IJavaObject {
 	@Import import0.Permission getPermission();
 	@Import import1.InputStream getErrorStream();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "HttpURLConnection");
+	public static immutable string _javaParameterString = "Ljava/net/HttpURLConnection";
 }

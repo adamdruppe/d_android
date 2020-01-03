@@ -10,5 +10,5 @@ interface GestureOverlayView_OnGestureListener : IJavaObject {
 	@Import void onGesture(import0.GestureOverlayView, import1.MotionEvent);
 	@Import void onGestureEnded(import0.GestureOverlayView, import1.MotionEvent);
 	@Import void onGestureCancelled(import0.GestureOverlayView, import1.MotionEvent);
-	mixin JavaPackageId!("android.gesture", "GestureOverlayView$OnGestureListener");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureOverlayView$OnGestureListener";
 }

@@ -21,5 +21,5 @@ final class PrinterDiscoverySession : IJavaObject {
 	@Import bool isDestroyed();
 	@Import bool isPrinterDiscoveryStarted();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.printservice", "PrinterDiscoverySession");
+	public static immutable string _javaParameterString = "Landroid/printservice/PrinterDiscoverySession";
 }

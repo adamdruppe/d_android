@@ -8,5 +8,5 @@ final class ParcelFileDescriptor_AutoCloseOutputStream : IJavaObject {
 	@Import this(import0.ParcelFileDescriptor);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ParcelFileDescriptor$AutoCloseOutputStream");
+	public static immutable string _javaParameterString = "Landroid/os/ParcelFileDescriptor$AutoCloseOutputStream";
 }

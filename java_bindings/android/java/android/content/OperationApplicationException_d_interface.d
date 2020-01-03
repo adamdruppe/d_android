@@ -11,5 +11,5 @@ final class OperationApplicationException : IJavaObject {
 	@Import this(string, int);
 	@Import int getNumSuccessfulYieldPoints();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "OperationApplicationException");
+	public static immutable string _javaParameterString = "Landroid/content/OperationApplicationException";
 }

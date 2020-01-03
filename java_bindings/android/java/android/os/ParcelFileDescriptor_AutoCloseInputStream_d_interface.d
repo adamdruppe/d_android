@@ -11,5 +11,5 @@ final class ParcelFileDescriptor_AutoCloseInputStream : IJavaObject {
 	@Import int read(byte[]);
 	@Import int read(byte, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ParcelFileDescriptor$AutoCloseInputStream");
+	public static immutable string _javaParameterString = "Landroid/os/ParcelFileDescriptor$AutoCloseInputStream";
 }

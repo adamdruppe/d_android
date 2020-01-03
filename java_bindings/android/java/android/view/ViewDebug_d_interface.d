@@ -14,5 +14,5 @@ final class ViewDebug : IJavaObject {
 	@Import static void stopHierarchyTracing();
 	@Import static void dumpCapturedView(string, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewDebug");
+	public static immutable string _javaParameterString = "Landroid/view/ViewDebug";
 }

@@ -13,5 +13,5 @@ final class PipedInputStream : IJavaObject {
 	@Import int available();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "PipedInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/PipedInputStream";
 }

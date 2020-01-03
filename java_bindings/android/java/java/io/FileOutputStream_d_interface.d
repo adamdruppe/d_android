@@ -18,5 +18,5 @@ final class FileOutputStream : IJavaObject {
 	@Import import1.FileDescriptor getFD();
 	@Import import2.FileChannel getChannel();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FileOutputStream");
+	public static immutable string _javaParameterString = "Ljava/io/FileOutputStream";
 }

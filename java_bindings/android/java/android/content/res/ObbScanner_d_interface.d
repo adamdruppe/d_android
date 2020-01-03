@@ -6,5 +6,5 @@ import import0 = android.java.android.content.res.ObbInfo_d_interface;
 final class ObbScanner : IJavaObject {
 	@Import static import0.ObbInfo getObbInfo(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "ObbScanner");
+	public static immutable string _javaParameterString = "Landroid/content/res/ObbScanner";
 }

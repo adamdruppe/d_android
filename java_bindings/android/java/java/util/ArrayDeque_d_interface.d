@@ -44,5 +44,5 @@ final class ArrayDeque : IJavaObject {
 	@Import import3.Spliterator spliterator();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ArrayDeque");
+	public static immutable string _javaParameterString = "Ljava/util/ArrayDeque";
 }

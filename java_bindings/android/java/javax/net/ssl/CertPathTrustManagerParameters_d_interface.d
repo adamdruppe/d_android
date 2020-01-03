@@ -7,5 +7,5 @@ final class CertPathTrustManagerParameters : IJavaObject {
 	@Import this(import0.CertPathParameters);
 	@Import import0.CertPathParameters getParameters();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "CertPathTrustManagerParameters");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/CertPathTrustManagerParameters";
 }

@@ -40,5 +40,5 @@ final class FragmentManager : IJavaObject {
 	@Import void invalidateOptionsMenu();
 	@Import bool isStateSaved();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentManager");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentManager";
 }

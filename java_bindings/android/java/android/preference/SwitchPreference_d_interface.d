@@ -17,5 +17,5 @@ final class SwitchPreference : IJavaObject {
 	@Import import2.CharSequence getSwitchTextOn();
 	@Import import2.CharSequence getSwitchTextOff();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "SwitchPreference");
+	public static immutable string _javaParameterString = "Landroid/preference/SwitchPreference";
 }

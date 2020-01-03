@@ -42,5 +42,5 @@ final class Rect : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import void readFromParcel(import1.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Rect");
+	public static immutable string _javaParameterString = "Landroid/graphics/Rect";
 }

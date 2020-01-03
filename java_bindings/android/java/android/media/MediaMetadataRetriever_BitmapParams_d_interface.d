@@ -9,5 +9,5 @@ final class MediaMetadataRetriever_BitmapParams : IJavaObject {
 	@Import import0.Bitmap_Config getPreferredConfig();
 	@Import import0.Bitmap_Config getActualConfig();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaMetadataRetriever$BitmapParams");
+	public static immutable string _javaParameterString = "Landroid/media/MediaMetadataRetriever$BitmapParams";
 }

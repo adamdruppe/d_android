@@ -49,5 +49,5 @@ final class BluetoothAdapter : IJavaObject {
 	@Import bool startLeScan(import6.UUID, import10.BluetoothAdapter_LeScanCallback[]);
 	@Import void stopLeScan(import10.BluetoothAdapter_LeScanCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothAdapter");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothAdapter";
 }

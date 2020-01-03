@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("TextToSpeech$OnUtteranceCompletedListener")
 interface TextToSpeech_OnUtteranceCompletedListener : IJavaObject {
 	@Import void onUtteranceCompleted(string);
-	mixin JavaPackageId!("android.speech.tts", "TextToSpeech$OnUtteranceCompletedListener");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/TextToSpeech$OnUtteranceCompletedListener";
 }

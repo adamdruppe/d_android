@@ -146,5 +146,5 @@ final class AbsListView : IJavaObject {
 	@Import void setAdapter(import25.Adapter);
 	@Import import26.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AbsListView");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsListView";
 }

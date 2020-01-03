@@ -20,5 +20,5 @@ final class Notification_MessagingStyle_Message : IJavaObject {
 	@Import string getDataMimeType();
 	@Import import3.Uri getDataUri();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$MessagingStyle$Message");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$MessagingStyle$Message";
 }

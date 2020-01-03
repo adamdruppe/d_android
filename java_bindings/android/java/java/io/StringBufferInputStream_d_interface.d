@@ -9,5 +9,5 @@ final class StringBufferInputStream : IJavaObject {
 	@Import int available();
 	@Import void reset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "StringBufferInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/StringBufferInputStream";
 }

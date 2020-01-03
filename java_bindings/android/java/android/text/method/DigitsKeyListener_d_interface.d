@@ -18,5 +18,5 @@ final class DigitsKeyListener : IJavaObject {
 	@Import int getInputType();
 	@Import import2.CharSequence filter(import2.CharSequence, int, int, import3.Spanned, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "DigitsKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/DigitsKeyListener";
 }

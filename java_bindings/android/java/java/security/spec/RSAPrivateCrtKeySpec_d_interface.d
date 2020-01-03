@@ -12,5 +12,5 @@ final class RSAPrivateCrtKeySpec : IJavaObject {
 	@Import import0.BigInteger getPrimeExponentQ();
 	@Import import0.BigInteger getCrtCoefficient();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "RSAPrivateCrtKeySpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/RSAPrivateCrtKeySpec";
 }

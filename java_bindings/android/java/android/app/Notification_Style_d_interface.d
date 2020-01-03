@@ -9,5 +9,5 @@ final class Notification_Style : IJavaObject {
 	@Import void setBuilder(import0.Notification_Builder);
 	@Import import1.Notification build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$Style");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$Style";
 }

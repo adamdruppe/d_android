@@ -14,5 +14,5 @@ final class Base64InputStream : IJavaObject {
 	@Import int read();
 	@Import int read(byte, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Base64InputStream");
+	public static immutable string _javaParameterString = "Landroid/util/Base64InputStream";
 }

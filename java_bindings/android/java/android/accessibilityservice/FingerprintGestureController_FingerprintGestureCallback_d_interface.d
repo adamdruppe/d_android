@@ -6,5 +6,5 @@ final class FingerprintGestureController_FingerprintGestureCallback : IJavaObjec
 	@Import void onGestureDetectionAvailabilityChanged(bool);
 	@Import void onGestureDetected(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "FingerprintGestureController$FingerprintGestureCallback");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/FingerprintGestureController$FingerprintGestureCallback";
 }

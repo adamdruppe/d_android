@@ -21,5 +21,5 @@ final class LabeledIntent : IJavaObject {
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import void readFromParcel(import4.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "LabeledIntent");
+	public static immutable string _javaParameterString = "Landroid/content/pm/LabeledIntent";
 }

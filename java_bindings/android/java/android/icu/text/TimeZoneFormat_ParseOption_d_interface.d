@@ -8,5 +8,5 @@ final class TimeZoneFormat_ParseOption : IJavaObject {
 	@Import static import0.TimeZoneFormat_ParseOption[] values();
 	@Import static import0.TimeZoneFormat_ParseOption valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "TimeZoneFormat$ParseOption");
+	public static immutable string _javaParameterString = "Landroid/icu/text/TimeZoneFormat$ParseOption";
 }

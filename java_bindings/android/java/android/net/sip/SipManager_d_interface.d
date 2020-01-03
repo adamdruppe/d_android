@@ -34,5 +34,5 @@ final class SipManager : IJavaObject {
 	@Import import8.SipSession getSessionFor(import7.Intent);
 	@Import import8.SipSession createSipSession(import2.SipProfile, import9.SipSession_Listener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipManager");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipManager";
 }

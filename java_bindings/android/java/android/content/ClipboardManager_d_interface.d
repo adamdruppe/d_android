@@ -18,5 +18,5 @@ final class ClipboardManager : IJavaObject {
 	@Import void setText(import3.CharSequence);
 	@Import bool hasText();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ClipboardManager");
+	public static immutable string _javaParameterString = "Landroid/content/ClipboardManager";
 }

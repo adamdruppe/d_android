@@ -54,5 +54,5 @@ final class JSONObject : IJavaObject {
 	@Import static string quote(string);
 	@Import static IJavaObject wrap(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.json", "JSONObject");
+	public static immutable string _javaParameterString = "Lorg/json/JSONObject";
 }

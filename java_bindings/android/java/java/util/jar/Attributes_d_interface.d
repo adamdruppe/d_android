@@ -29,5 +29,5 @@ final class Attributes : IJavaObject {
 	@Import int hashCode();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "Attributes");
+	public static immutable string _javaParameterString = "Ljava/util/jar/Attributes";
 }

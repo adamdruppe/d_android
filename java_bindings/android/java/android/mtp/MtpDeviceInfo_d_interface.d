@@ -11,5 +11,5 @@ final class MtpDeviceInfo : IJavaObject {
 	@Import bool isOperationSupported(int);
 	@Import bool isEventSupported(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.mtp", "MtpDeviceInfo");
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpDeviceInfo";
 }

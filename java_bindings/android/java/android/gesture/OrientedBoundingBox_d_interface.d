@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class OrientedBoundingBox : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "OrientedBoundingBox");
+	public static immutable string _javaParameterString = "Landroid/gesture/OrientedBoundingBox";
 }

@@ -18,5 +18,5 @@ final class RemoteController : IJavaObject {
 	@Import bool setSynchronizationMode(int);
 	@Import import4.RemoteController_MetadataEditor editMetadata();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "RemoteController");
+	public static immutable string _javaParameterString = "Landroid/media/RemoteController";
 }

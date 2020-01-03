@@ -12,5 +12,5 @@ final class AudioPresentation : IJavaObject {
 	@Import bool hasSpokenSubtitles();
 	@Import bool hasDialogueEnhancement();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioPresentation");
+	public static immutable string _javaParameterString = "Landroid/media/AudioPresentation";
 }

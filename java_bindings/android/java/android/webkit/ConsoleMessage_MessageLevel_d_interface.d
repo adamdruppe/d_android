@@ -8,5 +8,5 @@ final class ConsoleMessage_MessageLevel : IJavaObject {
 	@Import static import0.ConsoleMessage_MessageLevel[] values();
 	@Import static import0.ConsoleMessage_MessageLevel valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "ConsoleMessage$MessageLevel");
+	public static immutable string _javaParameterString = "Landroid/webkit/ConsoleMessage$MessageLevel";
 }

@@ -17,5 +17,5 @@ final class Inet4Address : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "Inet4Address");
+	public static immutable string _javaParameterString = "Ljava/net/Inet4Address";
 }

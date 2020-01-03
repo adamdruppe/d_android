@@ -20,5 +20,5 @@ final class BluetoothHidDevice : IJavaObject {
 	@Import bool connect(import1.BluetoothDevice);
 	@Import bool disconnect(import1.BluetoothDevice);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothHidDevice");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothHidDevice";
 }

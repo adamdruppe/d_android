@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WebView$FindListener")
 interface WebView_FindListener : IJavaObject {
 	@Import void onFindResultReceived(int, int, bool);
-	mixin JavaPackageId!("android.webkit", "WebView$FindListener");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebView$FindListener";
 }

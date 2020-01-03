@@ -8,5 +8,5 @@ import import1 = android.java.android.content.Context_d_interface;
 @JavaName("LayoutInflater$Factory")
 interface LayoutInflater_Factory : IJavaObject {
 	@Import import0.View onCreateView(string, import1.Context, import2.AttributeSet);
-	mixin JavaPackageId!("android.view", "LayoutInflater$Factory");
+	public static immutable string _javaParameterString = "Landroid/view/LayoutInflater$Factory";
 }

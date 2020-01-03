@@ -8,5 +8,5 @@ final class GnssMeasurementsEvent_Callback : IJavaObject {
 	@Import void onGnssMeasurementsReceived(import0.GnssMeasurementsEvent);
 	@Import void onStatusChanged(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GnssMeasurementsEvent$Callback");
+	public static immutable string _javaParameterString = "Landroid/location/GnssMeasurementsEvent$Callback";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface GetChars : IJavaObject {
 	@Import void getChars(int, int, wchar, int[]);
-	mixin JavaPackageId!("android.text", "GetChars");
+	public static immutable string _javaParameterString = "Landroid/text/GetChars";
 }

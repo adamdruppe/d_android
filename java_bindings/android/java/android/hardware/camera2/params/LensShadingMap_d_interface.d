@@ -14,5 +14,5 @@ final class LensShadingMap : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2.params", "LensShadingMap");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/params/LensShadingMap";
 }

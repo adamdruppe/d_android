@@ -19,5 +19,5 @@ final class CertStore : IJavaObject {
 	@Import import5.Provider getProvider();
 	@Import static string getDefaultType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertStore");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertStore";
 }

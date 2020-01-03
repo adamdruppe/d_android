@@ -19,5 +19,5 @@ final class CdmaCellLocation : IJavaObject {
 	@Import void fillInNotifierBundle(import0.Bundle);
 	@Import static double convertQuartSecToDecDegrees(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.cdma", "CdmaCellLocation");
+	public static immutable string _javaParameterString = "Landroid/telephony/cdma/CdmaCellLocation";
 }

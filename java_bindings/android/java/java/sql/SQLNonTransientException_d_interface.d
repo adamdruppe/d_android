@@ -12,5 +12,5 @@ final class SQLNonTransientException : IJavaObject {
 	@Import this(string, string, import0.JavaThrowable);
 	@Import this(string, string, int, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLNonTransientException");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLNonTransientException";
 }

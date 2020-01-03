@@ -24,5 +24,5 @@ final class ListPreference : IJavaObject {
 	@Import import2.CharSequence getEntry();
 	@Import int findIndexOfValue(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "ListPreference");
+	public static immutable string _javaParameterString = "Landroid/preference/ListPreference";
 }

@@ -9,5 +9,5 @@ final class SubjectDomainCombiner : IJavaObject {
 	@Import import0.Subject getSubject();
 	@Import import1.ProtectionDomain[] combine(import1.ProtectionDomain, import1.ProtectionDomain[][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth", "SubjectDomainCombiner");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/SubjectDomainCombiner";
 }

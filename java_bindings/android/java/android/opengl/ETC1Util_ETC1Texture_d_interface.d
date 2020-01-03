@@ -10,5 +10,5 @@ final class ETC1Util_ETC1Texture : IJavaObject {
 	@Import int getHeight();
 	@Import import0.ByteBuffer getData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "ETC1Util$ETC1Texture");
+	public static immutable string _javaParameterString = "Landroid/opengl/ETC1Util$ETC1Texture";
 }

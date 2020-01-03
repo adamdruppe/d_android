@@ -21,5 +21,5 @@ final class Sampler : IJavaObject {
 	@Import static import1.Sampler MIRRORED_REPEAT_LINEAR(import2.RenderScript);
 	@Import static import1.Sampler MIRRORED_REPEAT_LINEAR_MIP_LINEAR(import2.RenderScript);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Sampler");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Sampler";
 }

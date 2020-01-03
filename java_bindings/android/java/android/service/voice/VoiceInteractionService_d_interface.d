@@ -22,5 +22,5 @@ final class VoiceInteractionService : IJavaObject {
 	@Import void onShutdown();
 	@Import import5.AlwaysOnHotwordDetector createAlwaysOnHotwordDetector(string, import6.Locale, import7.AlwaysOnHotwordDetector_Callback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionService");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionService";
 }

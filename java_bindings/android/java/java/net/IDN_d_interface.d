@@ -7,5 +7,5 @@ final class IDN : IJavaObject {
 	@Import static string toUnicode(string, int);
 	@Import static string toUnicode(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "IDN");
+	public static immutable string _javaParameterString = "Ljava/net/IDN";
 }

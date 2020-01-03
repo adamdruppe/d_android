@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MutableLong : IJavaObject {
 	@Import this(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MutableLong");
+	public static immutable string _javaParameterString = "Landroid/util/MutableLong";
 }

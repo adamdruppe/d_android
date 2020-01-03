@@ -13,9 +13,11 @@ import import2 = android.java.android.content.Context_d_interface;
 final class MediaMetadataRetriever : IJavaObject {
 	@Import void setDataSource(string);
 	@Import void setDataSource(string, import0.Map);
+	@Import void setDataSource(import1.FileDescriptor, long, long);
 	@Import void setDataSource(import1.FileDescriptor);
 	@Import void setDataSource(import2.Context, import3.Uri);
 	@Import void setDataSource(import4.MediaDataSource);
+	@Import string extractMetadata(int);
 	@Import import5.Bitmap getFrameAtTime(long, int);
 	@Import import5.Bitmap getScaledFrameAtTime(long, int, int, int);
 	@Import import5.Bitmap getFrameAtTime(long);
@@ -29,6 +31,7 @@ final class MediaMetadataRetriever : IJavaObject {
 	@Import import5.Bitmap getPrimaryImage(import6.MediaMetadataRetriever_BitmapParams);
 	@Import import5.Bitmap getPrimaryImage();
 	@Import byte[] getEmbeddedPicture();
+	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaMetadataRetriever");
+	public static immutable string _javaParameterString = "Landroid/media/MediaMetadataRetriever";
 }

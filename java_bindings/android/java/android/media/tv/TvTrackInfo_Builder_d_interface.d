@@ -21,5 +21,5 @@ final class TvTrackInfo_Builder : IJavaObject {
 	@Import import0.TvTrackInfo_Builder setExtra(import2.Bundle);
 	@Import import3.TvTrackInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvTrackInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvTrackInfo$Builder";
 }

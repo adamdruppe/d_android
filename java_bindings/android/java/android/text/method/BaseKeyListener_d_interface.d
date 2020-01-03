@@ -11,5 +11,5 @@ final class BaseKeyListener : IJavaObject {
 	@Import bool onKeyDown(import0.View, import1.Editable, int, import2.KeyEvent);
 	@Import bool onKeyOther(import0.View, import1.Editable, import2.KeyEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "BaseKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/BaseKeyListener";
 }

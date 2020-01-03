@@ -19,5 +19,5 @@ final class GridLayoutAnimationController : IJavaObject {
 	@Import void setDirectionPriority(int);
 	@Import bool willOverlap();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "GridLayoutAnimationController");
+	public static immutable string _javaParameterString = "Landroid/view/animation/GridLayoutAnimationController";
 }

@@ -40,5 +40,5 @@ interface Window_Callback : IJavaObject {
 	@Import void onActionModeFinished(import8.ActionMode);
 	@Import void onProvideKeyboardShortcuts(import10.List, import4.Menu, int);
 	@Import void onPointerCaptureChanged(bool);
-	mixin JavaPackageId!("android.view", "Window$Callback");
+	public static immutable string _javaParameterString = "Landroid/view/Window$Callback";
 }

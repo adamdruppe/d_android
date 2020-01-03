@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Format$Field")
 final class Format_Field : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "Format$Field");
+	public static immutable string _javaParameterString = "Ljava/text/Format$Field";
 }

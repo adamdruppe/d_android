@@ -33,5 +33,5 @@ final class ViewTreeObserver : IJavaObject {
 	@Import bool dispatchOnPreDraw();
 	@Import void dispatchOnDraw();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewTreeObserver");
+	public static immutable string _javaParameterString = "Landroid/view/ViewTreeObserver";
 }

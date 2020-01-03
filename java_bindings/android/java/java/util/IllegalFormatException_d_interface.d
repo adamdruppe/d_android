@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class IllegalFormatException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IllegalFormatException");
+	public static immutable string _javaParameterString = "Ljava/util/IllegalFormatException";
 }

@@ -15,5 +15,5 @@ final class RemoteConnection_VideoProvider_Callback : IJavaObject {
 	@Import void onCameraCapabilitiesChanged(import0.RemoteConnection_VideoProvider, import2.VideoProfile_CameraCapabilities);
 	@Import void onVideoQualityChanged(import0.RemoteConnection_VideoProvider, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "RemoteConnection$VideoProvider$Callback");
+	public static immutable string _javaParameterString = "Landroid/telecom/RemoteConnection$VideoProvider$Callback";
 }

@@ -5,5 +5,5 @@ final class RuntimePermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "RuntimePermission");
+	public static immutable string _javaParameterString = "Ljava/lang/RuntimePermission";
 }

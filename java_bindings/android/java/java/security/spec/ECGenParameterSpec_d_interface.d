@@ -5,5 +5,5 @@ final class ECGenParameterSpec : IJavaObject {
 	@Import this(string);
 	@Import string getName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "ECGenParameterSpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/ECGenParameterSpec";
 }

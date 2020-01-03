@@ -8,5 +8,5 @@ final class ProviderException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "ProviderException");
+	public static immutable string _javaParameterString = "Ljava/security/ProviderException";
 }

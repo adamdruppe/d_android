@@ -21,5 +21,5 @@ final class StreamSupport : IJavaObject {
 	@Import static import7.DoubleStream doubleStream(import8.Spliterator_OfDouble, bool);
 	@Import static import7.DoubleStream doubleStream(import2.Supplier, int, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.stream", "StreamSupport");
+	public static immutable string _javaParameterString = "Ljava/util/stream/StreamSupport";
 }

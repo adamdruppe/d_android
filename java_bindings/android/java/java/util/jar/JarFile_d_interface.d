@@ -22,5 +22,5 @@ final class JarFile : IJavaObject {
 	@Import import5.Stream stream();
 	@Import import6.InputStream getInputStream(import3.ZipEntry);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "JarFile");
+	public static immutable string _javaParameterString = "Ljava/util/jar/JarFile";
 }

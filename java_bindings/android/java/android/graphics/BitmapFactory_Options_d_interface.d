@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class BitmapFactory_Options : IJavaObject {
 	@Import void requestCancelDecode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "BitmapFactory$Options");
+	public static immutable string _javaParameterString = "Landroid/graphics/BitmapFactory$Options";
 }

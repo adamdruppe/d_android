@@ -6,5 +6,5 @@ import import0 = android.java.android.widget.CompoundButton_d_interface;
 @JavaName("CompoundButton$OnCheckedChangeListener")
 interface CompoundButton_OnCheckedChangeListener : IJavaObject {
 	@Import void onCheckedChanged(import0.CompoundButton, bool);
-	mixin JavaPackageId!("android.widget", "CompoundButton$OnCheckedChangeListener");
+	public static immutable string _javaParameterString = "Landroid/widget/CompoundButton$OnCheckedChangeListener";
 }

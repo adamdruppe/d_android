@@ -7,5 +7,5 @@ interface DSAParams : IJavaObject {
 	@Import import0.BigInteger getP();
 	@Import import0.BigInteger getQ();
 	@Import import0.BigInteger getG();
-	mixin JavaPackageId!("java.security.interfaces", "DSAParams");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/DSAParams";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.java.io.IOException_d_interface;
 @JavaName("ParcelFileDescriptor$OnCloseListener")
 interface ParcelFileDescriptor_OnCloseListener : IJavaObject {
 	@Import void onClose(import0.IOException);
-	mixin JavaPackageId!("android.os", "ParcelFileDescriptor$OnCloseListener");
+	public static immutable string _javaParameterString = "Landroid/os/ParcelFileDescriptor$OnCloseListener";
 }

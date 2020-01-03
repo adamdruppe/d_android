@@ -10,5 +10,5 @@ final class ActivityManager_RunningAppProcessInfo : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import void readFromParcel(import0.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActivityManager$RunningAppProcessInfo");
+	public static immutable string _javaParameterString = "Landroid/app/ActivityManager$RunningAppProcessInfo";
 }

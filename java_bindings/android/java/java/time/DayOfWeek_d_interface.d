@@ -26,5 +26,5 @@ final class DayOfWeek : IJavaObject {
 	@Import IJavaObject query(import6.TemporalQuery);
 	@Import import7.Temporal adjustInto(import7.Temporal);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "DayOfWeek");
+	public static immutable string _javaParameterString = "Ljava/time/DayOfWeek";
 }

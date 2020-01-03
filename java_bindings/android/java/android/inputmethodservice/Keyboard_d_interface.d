@@ -19,5 +19,5 @@ final class Keyboard : IJavaObject {
 	@Import int getShiftKeyIndex();
 	@Import int[] getNearestKeys(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "Keyboard");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/Keyboard";
 }

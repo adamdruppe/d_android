@@ -26,5 +26,5 @@ final class JetPlayer : IJavaObject {
 	@Import void setEventListener(import2.JetPlayer_OnJetEventListener);
 	@Import void setEventListener(import2.JetPlayer_OnJetEventListener, import3.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "JetPlayer");
+	public static immutable string _javaParameterString = "Landroid/media/JetPlayer";
 }

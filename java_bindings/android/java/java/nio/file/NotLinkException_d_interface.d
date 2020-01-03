@@ -5,5 +5,5 @@ final class NotLinkException : IJavaObject {
 	@Import this(string);
 	@Import this(string, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "NotLinkException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/NotLinkException";
 }

@@ -9,5 +9,5 @@ final class GLDebugHelper : IJavaObject {
 	@Import static import0.GL wrap(import0.GL, int, import1.Writer);
 	@Import static import2.EGL wrap(import2.EGL, int, import1.Writer);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "GLDebugHelper");
+	public static immutable string _javaParameterString = "Landroid/opengl/GLDebugHelper";
 }

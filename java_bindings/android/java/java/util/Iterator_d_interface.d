@@ -8,5 +8,5 @@ interface Iterator : IJavaObject {
 	@Import IJavaObject next();
 	@Import void remove();
 	@Import void forEachRemaining(import0.Consumer);
-	mixin JavaPackageId!("java.util", "Iterator");
+	public static immutable string _javaParameterString = "Ljava/util/Iterator";
 }

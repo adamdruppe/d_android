@@ -11,5 +11,5 @@ final class AudioPlaybackConfiguration : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioPlaybackConfiguration");
+	public static immutable string _javaParameterString = "Landroid/media/AudioPlaybackConfiguration";
 }

@@ -17,5 +17,5 @@ final class OutputStreamWriter : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "OutputStreamWriter");
+	public static immutable string _javaParameterString = "Ljava/io/OutputStreamWriter";
 }

@@ -8,5 +8,5 @@ final class AccessControlException : IJavaObject {
 	@Import this(string, import0.Permission);
 	@Import import0.Permission getPermission();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "AccessControlException");
+	public static immutable string _javaParameterString = "Ljava/security/AccessControlException";
 }

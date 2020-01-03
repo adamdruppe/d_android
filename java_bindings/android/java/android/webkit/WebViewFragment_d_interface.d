@@ -15,5 +15,5 @@ final class WebViewFragment : IJavaObject {
 	@Import void onDestroy();
 	@Import import4.WebView getWebView();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebViewFragment");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebViewFragment";
 }

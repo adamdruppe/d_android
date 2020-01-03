@@ -5,5 +5,5 @@ import import0 = android.java.android.accounts.AccountManagerFuture_d_interface;
 
 interface AccountManagerCallback : IJavaObject {
 	@Import void run(import0.AccountManagerFuture);
-	mixin JavaPackageId!("android.accounts", "AccountManagerCallback");
+	public static immutable string _javaParameterString = "Landroid/accounts/AccountManagerCallback";
 }

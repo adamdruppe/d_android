@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ArgbEvaluator : IJavaObject {
 	@Import IJavaObject evaluate(float, IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "ArgbEvaluator");
+	public static immutable string _javaParameterString = "Landroid/animation/ArgbEvaluator";
 }

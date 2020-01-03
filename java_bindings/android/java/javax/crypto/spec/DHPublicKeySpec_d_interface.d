@@ -9,5 +9,5 @@ final class DHPublicKeySpec : IJavaObject {
 	@Import import0.BigInteger getP();
 	@Import import0.BigInteger getG();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "DHPublicKeySpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/DHPublicKeySpec";
 }

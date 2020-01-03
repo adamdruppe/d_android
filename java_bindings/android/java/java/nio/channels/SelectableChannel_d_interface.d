@@ -17,5 +17,5 @@ final class SelectableChannel : IJavaObject {
 	@Import bool isBlocking();
 	@Import IJavaObject blockingLock();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "SelectableChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/SelectableChannel";
 }

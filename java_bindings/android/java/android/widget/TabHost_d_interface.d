@@ -36,5 +36,5 @@ final class TabHost : IJavaObject {
 	@Import void setCurrentTab(int);
 	@Import void setOnTabChangedListener(import9.TabHost_OnTabChangeListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TabHost");
+	public static immutable string _javaParameterString = "Landroid/widget/TabHost";
 }

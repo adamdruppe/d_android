@@ -18,5 +18,5 @@ final class CellIdentityWcdma : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CellIdentityWcdma");
+	public static immutable string _javaParameterString = "Landroid/telephony/CellIdentityWcdma";
 }

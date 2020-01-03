@@ -17,5 +17,5 @@ final class InputBinding : IJavaObject {
 	@Import void writeToParcel(import3.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "InputBinding");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputBinding";
 }

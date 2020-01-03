@@ -135,5 +135,5 @@ interface RowSet : IJavaObject {
 	@Import void setNClob(int, import15.NClob);
 	@Import void setNClob(int, import6.Reader);
 	@Import void setURL(int, import16.URL);
-	mixin JavaPackageId!("javax.sql", "RowSet");
+	public static immutable string _javaParameterString = "Ljavax/sql/RowSet";
 }

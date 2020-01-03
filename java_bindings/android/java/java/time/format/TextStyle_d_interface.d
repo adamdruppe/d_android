@@ -10,5 +10,5 @@ final class TextStyle : IJavaObject {
 	@Import import0.TextStyle asStandalone();
 	@Import import0.TextStyle asNormal();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.format", "TextStyle");
+	public static immutable string _javaParameterString = "Ljava/time/format/TextStyle";
 }

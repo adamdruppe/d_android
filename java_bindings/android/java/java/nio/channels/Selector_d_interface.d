@@ -17,5 +17,5 @@ final class Selector : IJavaObject {
 	@Import import0.Selector wakeup();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "Selector");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/Selector";
 }

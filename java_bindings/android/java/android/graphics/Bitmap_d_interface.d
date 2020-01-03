@@ -77,5 +77,5 @@ final class Bitmap : IJavaObject {
 	@Import bool sameAs(import2.Bitmap);
 	@Import void prepareToDraw();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Bitmap");
+	public static immutable string _javaParameterString = "Landroid/graphics/Bitmap";
 }

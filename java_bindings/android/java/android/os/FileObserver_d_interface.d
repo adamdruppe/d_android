@@ -8,5 +8,5 @@ final class FileObserver : IJavaObject {
 	@Import void stopWatching();
 	@Import void onEvent(int, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "FileObserver");
+	public static immutable string _javaParameterString = "Landroid/os/FileObserver";
 }

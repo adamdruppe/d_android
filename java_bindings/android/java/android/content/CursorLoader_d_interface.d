@@ -29,5 +29,5 @@ final class CursorLoader : IJavaObject {
 	@Import void onCanceled(IJavaObject);
 	@Import void deliverResult(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "CursorLoader");
+	public static immutable string _javaParameterString = "Landroid/content/CursorLoader";
 }

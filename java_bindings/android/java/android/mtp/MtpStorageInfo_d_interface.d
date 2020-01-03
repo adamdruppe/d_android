@@ -8,5 +8,5 @@ final class MtpStorageInfo : IJavaObject {
 	@Import string getDescription();
 	@Import string getVolumeIdentifier();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.mtp", "MtpStorageInfo");
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpStorageInfo";
 }

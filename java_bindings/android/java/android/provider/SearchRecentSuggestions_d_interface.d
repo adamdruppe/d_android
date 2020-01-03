@@ -8,5 +8,5 @@ final class SearchRecentSuggestions : IJavaObject {
 	@Import void saveRecentQuery(string, string);
 	@Import void clearHistory();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "SearchRecentSuggestions");
+	public static immutable string _javaParameterString = "Landroid/provider/SearchRecentSuggestions";
 }

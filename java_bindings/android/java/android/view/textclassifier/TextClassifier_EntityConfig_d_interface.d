@@ -15,5 +15,5 @@ final class TextClassifier_EntityConfig : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassifier$EntityConfig");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassifier$EntityConfig";
 }

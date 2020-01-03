@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacter$SentenceBreak")
 interface UCharacter_SentenceBreak : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$SentenceBreak");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$SentenceBreak";
 }

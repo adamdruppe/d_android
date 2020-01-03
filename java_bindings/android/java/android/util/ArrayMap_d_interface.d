@@ -35,5 +35,5 @@ final class ArrayMap : IJavaObject {
 	@Import import3.Set keySet();
 	@Import import1.Collection values();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "ArrayMap");
+	public static immutable string _javaParameterString = "Landroid/util/ArrayMap";
 }

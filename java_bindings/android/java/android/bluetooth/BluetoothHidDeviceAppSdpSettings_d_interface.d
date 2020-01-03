@@ -13,5 +13,5 @@ final class BluetoothHidDeviceAppSdpSettings : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothHidDeviceAppSdpSettings");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothHidDeviceAppSdpSettings";
 }

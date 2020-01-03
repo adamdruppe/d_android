@@ -15,5 +15,5 @@ final class AbstractSelectableChannel : IJavaObject {
 	@Import IJavaObject blockingLock();
 	@Import import3.SelectableChannel configureBlocking(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels.spi", "AbstractSelectableChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/spi/AbstractSelectableChannel";
 }

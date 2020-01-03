@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ClosedByInterruptException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "ClosedByInterruptException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/ClosedByInterruptException";
 }

@@ -7,5 +7,5 @@ interface X509TrustManager : IJavaObject {
 	@Import void checkClientTrusted(import0.X509Certificate, string[]);
 	@Import void checkServerTrusted(import0.X509Certificate, string[]);
 	@Import import0.X509Certificate[] getAcceptedIssuers();
-	mixin JavaPackageId!("javax.net.ssl", "X509TrustManager");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/X509TrustManager";
 }

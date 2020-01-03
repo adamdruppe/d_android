@@ -12,5 +12,5 @@ final class AdvertiseSettings_Builder : IJavaObject {
 	@Import import0.AdvertiseSettings_Builder setTimeout(int);
 	@Import import1.AdvertiseSettings build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertiseSettings$Builder");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertiseSettings$Builder";
 }

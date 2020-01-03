@@ -14,5 +14,5 @@ final class CameraCaptureSession_StateCallback : IJavaObject {
 	@Import void onClosed(import0.CameraCaptureSession);
 	@Import void onSurfacePrepared(import0.CameraCaptureSession, import1.Surface);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraCaptureSession$StateCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraCaptureSession$StateCallback";
 }

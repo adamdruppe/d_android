@@ -20,5 +20,5 @@ final class ResourceBundle_Control : IJavaObject {
 	@Import string toBundleName(string, import2.Locale);
 	@Import string toResourceName(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ResourceBundle$Control");
+	public static immutable string _javaParameterString = "Ljava/util/ResourceBundle$Control";
 }

@@ -17,5 +17,5 @@ final class UsbInterface : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.usb", "UsbInterface");
+	public static immutable string _javaParameterString = "Landroid/hardware/usb/UsbInterface";
 }

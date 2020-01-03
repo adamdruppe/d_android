@@ -9,5 +9,5 @@ final class ScaleGestureDetector_SimpleOnScaleGestureListener : IJavaObject {
 	@Import bool onScaleBegin(import0.ScaleGestureDetector);
 	@Import void onScaleEnd(import0.ScaleGestureDetector);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ScaleGestureDetector$SimpleOnScaleGestureListener");
+	public static immutable string _javaParameterString = "Landroid/view/ScaleGestureDetector$SimpleOnScaleGestureListener";
 }

@@ -22,5 +22,5 @@ final class SpellCheckerInfo : IJavaObject {
 	@Import import6.SpellCheckerSubtype getSubtypeAt(int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textservice", "SpellCheckerInfo");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/SpellCheckerInfo";
 }

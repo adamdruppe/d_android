@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ObjIntConsumer : IJavaObject {
 	@Import void accept(IJavaObject, int);
-	mixin JavaPackageId!("java.util.function", "ObjIntConsumer");
+	public static immutable string _javaParameterString = "Ljava/util/function/ObjIntConsumer";
 }

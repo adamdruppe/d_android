@@ -12,5 +12,5 @@ final class Magnifier : IJavaObject {
 	@Import int getHeight();
 	@Import float getZoom();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Magnifier");
+	public static immutable string _javaParameterString = "Landroid/widget/Magnifier";
 }

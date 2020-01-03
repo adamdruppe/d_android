@@ -7,5 +7,5 @@ import import0 = android.java.android.widget.ListView_d_interface;
 final class ListView_FixedViewInfo : IJavaObject {
 	@Import this(import0.ListView);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ListView$FixedViewInfo");
+	public static immutable string _javaParameterString = "Landroid/widget/ListView$FixedViewInfo";
 }

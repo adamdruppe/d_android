@@ -11,5 +11,5 @@ final class MediaBrowser_SubscriptionCallback : IJavaObject {
 	@Import void onError(string);
 	@Import void onError(string, import1.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.browse", "MediaBrowser$SubscriptionCallback");
+	public static immutable string _javaParameterString = "Landroid/media/browse/MediaBrowser$SubscriptionCallback";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class CornerPathEffect : IJavaObject {
 	@Import this(float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "CornerPathEffect");
+	public static immutable string _javaParameterString = "Landroid/graphics/CornerPathEffect";
 }

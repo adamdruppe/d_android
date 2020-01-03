@@ -80,5 +80,5 @@ final class AudioTrack : IJavaObject {
 	@Import void addOnRoutingChangedListener(import13.AudioTrack_OnRoutingChangedListener, import6.Handler);
 	@Import void removeOnRoutingChangedListener(import13.AudioTrack_OnRoutingChangedListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioTrack");
+	public static immutable string _javaParameterString = "Landroid/media/AudioTrack";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class HapticFeedbackConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "HapticFeedbackConstants");
+	public static immutable string _javaParameterString = "Landroid/view/HapticFeedbackConstants";
 }

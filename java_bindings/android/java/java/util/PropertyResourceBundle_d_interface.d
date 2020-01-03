@@ -11,5 +11,5 @@ final class PropertyResourceBundle : IJavaObject {
 	@Import IJavaObject handleGetObject(string);
 	@Import import2.Enumeration getKeys();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "PropertyResourceBundle");
+	public static immutable string _javaParameterString = "Ljava/util/PropertyResourceBundle";
 }

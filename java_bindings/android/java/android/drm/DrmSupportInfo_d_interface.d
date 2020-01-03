@@ -14,5 +14,5 @@ final class DrmSupportInfo : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmSupportInfo");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmSupportInfo";
 }

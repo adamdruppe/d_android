@@ -7,5 +7,5 @@ interface RowSetListener : IJavaObject {
 	@Import void rowSetChanged(import0.RowSetEvent);
 	@Import void rowChanged(import0.RowSetEvent);
 	@Import void cursorMoved(import0.RowSetEvent);
-	mixin JavaPackageId!("javax.sql", "RowSetListener");
+	public static immutable string _javaParameterString = "Ljavax/sql/RowSetListener";
 }

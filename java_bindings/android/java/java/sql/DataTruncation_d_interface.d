@@ -12,5 +12,5 @@ final class DataTruncation : IJavaObject {
 	@Import int getDataSize();
 	@Import int getTransferSize();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "DataTruncation");
+	public static immutable string _javaParameterString = "Ljava/sql/DataTruncation";
 }

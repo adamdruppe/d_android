@@ -27,5 +27,5 @@ final class CopyOnWriteArraySet : IJavaObject {
 	@Import void forEach(import3.Consumer);
 	@Import import4.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "CopyOnWriteArraySet");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CopyOnWriteArraySet";
 }

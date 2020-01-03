@@ -18,5 +18,5 @@ final class TvInputManager : IJavaObject {
 	@Import bool isRatingBlocked(import4.TvContentRating);
 	@Import import0.List getBlockedRatings();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvInputManager");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputManager";
 }

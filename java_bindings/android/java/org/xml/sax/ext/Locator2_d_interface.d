@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Locator2 : IJavaObject {
 	@Import string getXMLVersion();
 	@Import string getEncoding();
-	mixin JavaPackageId!("org.xml.sax.ext", "Locator2");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ext/Locator2";
 }

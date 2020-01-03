@@ -7,5 +7,5 @@ import import1 = android.java.java.util.List_d_interface;
 @JavaName("MediaDrm$OnKeyStatusChangeListener")
 interface MediaDrm_OnKeyStatusChangeListener : IJavaObject {
 	@Import void onKeyStatusChange(import0.MediaDrm, byte, import1.List, bool[]);
-	mixin JavaPackageId!("android.media", "MediaDrm$OnKeyStatusChangeListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$OnKeyStatusChangeListener";
 }

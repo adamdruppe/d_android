@@ -11,5 +11,5 @@ final class CaptioningManager_CaptioningChangeListener : IJavaObject {
 	@Import void onLocaleChanged(import1.Locale);
 	@Import void onFontScaleChanged(float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "CaptioningManager$CaptioningChangeListener");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/CaptioningManager$CaptioningChangeListener";
 }

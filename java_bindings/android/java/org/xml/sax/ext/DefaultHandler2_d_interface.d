@@ -19,5 +19,5 @@ final class DefaultHandler2 : IJavaObject {
 	@Import import0.InputSource resolveEntity(string, string, string, string);
 	@Import import0.InputSource resolveEntity(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.ext", "DefaultHandler2");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ext/DefaultHandler2";
 }

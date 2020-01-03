@@ -8,5 +8,5 @@ import import1 = android.java.java.lang.Runnable_d_interface;
 interface SurfaceHolder_Callback2 : IJavaObject {
 	@Import void surfaceRedrawNeeded(import0.SurfaceHolder);
 	@Import void surfaceRedrawNeededAsync(import0.SurfaceHolder, import1.Runnable);
-	mixin JavaPackageId!("android.view", "SurfaceHolder$Callback2");
+	public static immutable string _javaParameterString = "Landroid/view/SurfaceHolder$Callback2";
 }

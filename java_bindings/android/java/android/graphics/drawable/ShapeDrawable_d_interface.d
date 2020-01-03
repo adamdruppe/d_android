@@ -47,5 +47,5 @@ final class ShapeDrawable : IJavaObject {
 	@Import import13.Drawable_ConstantState getConstantState();
 	@Import import14.Drawable mutate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "ShapeDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/ShapeDrawable";
 }

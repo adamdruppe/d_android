@@ -8,5 +8,5 @@ interface ObjectOutput : IJavaObject {
 	@Import void write(byte, int, int[]);
 	@Import void flush();
 	@Import void close();
-	mixin JavaPackageId!("java.io", "ObjectOutput");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectOutput";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Build$VERSION")
 final class Build_VERSION : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Build$VERSION");
+	public static immutable string _javaParameterString = "Landroid/os/Build$VERSION";
 }

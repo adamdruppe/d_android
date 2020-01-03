@@ -6,5 +6,5 @@ final class PSource_PSpecified : IJavaObject {
 	@Import this(byte[]);
 	@Import byte[] getValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "PSource$PSpecified");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/PSource$PSpecified";
 }

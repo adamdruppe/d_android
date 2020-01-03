@@ -13,5 +13,5 @@ final class YuvImage : IJavaObject {
 	@Import int getWidth();
 	@Import int getHeight();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "YuvImage");
+	public static immutable string _javaParameterString = "Landroid/graphics/YuvImage";
 }

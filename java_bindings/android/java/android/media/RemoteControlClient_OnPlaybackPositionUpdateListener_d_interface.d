@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("RemoteControlClient$OnPlaybackPositionUpdateListener")
 interface RemoteControlClient_OnPlaybackPositionUpdateListener : IJavaObject {
 	@Import void onPlaybackPositionUpdate(long);
-	mixin JavaPackageId!("android.media", "RemoteControlClient$OnPlaybackPositionUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/media/RemoteControlClient$OnPlaybackPositionUpdateListener";
 }

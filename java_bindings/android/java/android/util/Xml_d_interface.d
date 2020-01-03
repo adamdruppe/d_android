@@ -18,5 +18,5 @@ final class Xml : IJavaObject {
 	@Import static import3.Xml_Encoding findEncodingByName(string);
 	@Import static import6.AttributeSet asAttributeSet(import4.XmlPullParser);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Xml");
+	public static immutable string _javaParameterString = "Landroid/util/Xml";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ImageFormat : IJavaObject {
 	@Import static int getBitsPerPixel(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ImageFormat");
+	public static immutable string _javaParameterString = "Landroid/graphics/ImageFormat";
 }

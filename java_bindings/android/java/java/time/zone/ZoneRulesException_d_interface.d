@@ -7,5 +7,5 @@ final class ZoneRulesException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.zone", "ZoneRulesException");
+	public static immutable string _javaParameterString = "Ljava/time/zone/ZoneRulesException";
 }

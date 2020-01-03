@@ -11,5 +11,5 @@ interface CharSequence : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import import1.IntStream chars();
 	@Import import1.IntStream codePoints();
-	mixin JavaPackageId!("java.lang", "CharSequence");
+	public static immutable string _javaParameterString = "Ljava/lang/CharSequence";
 }

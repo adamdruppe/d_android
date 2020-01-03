@@ -91,5 +91,5 @@ final class Preference : IJavaObject {
 	@Import void restoreHierarchyState(import4.Bundle);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "Preference");
+	public static immutable string _javaParameterString = "Landroid/preference/Preference";
 }

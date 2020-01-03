@@ -7,5 +7,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 final class VoicemailContract_Status : IJavaObject {
 	@Import static import0.Uri buildSourceUri(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "VoicemailContract$Status");
+	public static immutable string _javaParameterString = "Landroid/provider/VoicemailContract$Status";
 }

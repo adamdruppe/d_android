@@ -25,5 +25,5 @@ final class AtomicIntegerFieldUpdater : IJavaObject {
 	@Import int getAndAccumulate(IJavaObject, int, import3.IntBinaryOperator);
 	@Import int accumulateAndGet(IJavaObject, int, import3.IntBinaryOperator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicIntegerFieldUpdater");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater";
 }

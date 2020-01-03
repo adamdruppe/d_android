@@ -1,13 +1,16 @@
 module android.java.android.media.MediaDrm_d_interface;
 import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
 
+import import5 = android.java.android.media.MediaDrm_KeyRequest_d_interface;
 import import2 = android.java.android.os.Handler_d_interface;
 import import3 = android.java.android.media.MediaDrm_OnKeyStatusChangeListener_d_interface;
-import import5 = android.java.android.media.MediaDrm_ProvisionRequest_d_interface;
+import import7 = android.java.android.media.MediaDrm_ProvisionRequest_d_interface;
+import import6 = android.java.java.util.HashMap_d_interface;
 import import0 = android.java.java.util.UUID_d_interface;
-import import6 = android.java.android.os.PersistableBundle_d_interface;
+import import9 = android.java.android.os.PersistableBundle_d_interface;
 import import1 = android.java.android.media.MediaDrm_OnExpirationUpdateListener_d_interface;
-import import7 = android.java.android.media.MediaDrm_CryptoSession_d_interface;
+import import8 = android.java.java.util.List_d_interface;
+import import10 = android.java.android.media.MediaDrm_CryptoSession_d_interface;
 import import4 = android.java.android.media.MediaDrm_OnEventListener_d_interface;
 
 final class MediaDrm : IJavaObject {
@@ -18,14 +21,36 @@ final class MediaDrm : IJavaObject {
 	@Import void setOnKeyStatusChangeListener(import3.MediaDrm_OnKeyStatusChangeListener, import2.Handler);
 	@Import void setOnEventListener(import4.MediaDrm_OnEventListener);
 	@Import byte[] openSession();
-	@Import import5.MediaDrm_ProvisionRequest getProvisionRequest();
+	@Import byte[] openSession(int);
+	@Import void closeSession(byte[]);
+	@Import import5.MediaDrm_KeyRequest getKeyRequest(byte, byte, string, int, import6.HashMap[][]);
+	@Import byte[] provideKeyResponse(byte, byte[][]);
+	@Import void restoreKeys(byte, byte[][]);
+	@Import void removeKeys(byte[]);
+	@Import import6.HashMap queryKeyStatus(byte[]);
+	@Import import7.MediaDrm_ProvisionRequest getProvisionRequest();
 	@Import void provideProvisionResponse(byte[]);
+	@Import import8.List getSecureStops();
+	@Import import8.List getSecureStopIds();
+	@Import byte[] getSecureStop(byte[]);
+	@Import void releaseSecureStops(byte[]);
+	@Import void removeSecureStop(byte[]);
+	@Import void removeAllSecureStops();
 	@Import void releaseAllSecureStops();
+	@Import int getConnectedHdcpLevel();
+	@Import int getMaxHdcpLevel();
+	@Import int getOpenSessionCount();
+	@Import int getMaxSessionCount();
 	@Import static int getMaxSecurityLevel();
-	@Import import6.PersistableBundle getMetrics();
-	@Import import7.MediaDrm_CryptoSession getCryptoSession(byte, string, string[]);
+	@Import int getSecurityLevel(byte[]);
+	@Import string getPropertyString(string);
+	@Import void setPropertyString(string, string);
+	@Import byte[] getPropertyByteArray(string);
+	@Import void setPropertyByteArray(string, byte[]);
+	@Import import9.PersistableBundle getMetrics();
+	@Import import10.MediaDrm_CryptoSession getCryptoSession(byte, string, string[]);
 	@Import void close();
 	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDrm");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm";
 }

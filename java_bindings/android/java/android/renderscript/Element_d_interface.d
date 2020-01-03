@@ -88,5 +88,5 @@ final class Element : IJavaObject {
 	@Import static import0.Element createPixel(import3.RenderScript, import1.Element_DataType, import2.Element_DataKind);
 	@Import bool isCompatible(import0.Element);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Element");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Element";
 }

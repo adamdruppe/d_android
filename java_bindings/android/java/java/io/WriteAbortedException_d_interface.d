@@ -9,5 +9,5 @@ final class WriteAbortedException : IJavaObject {
 	@Import string getMessage();
 	@Import import1.JavaThrowable getCause();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "WriteAbortedException");
+	public static immutable string _javaParameterString = "Ljava/io/WriteAbortedException";
 }

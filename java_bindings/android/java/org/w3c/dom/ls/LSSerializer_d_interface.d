@@ -12,5 +12,5 @@ interface LSSerializer : IJavaObject {
 	@Import bool write(import1.Node, import2.LSOutput);
 	@Import bool writeToURI(import1.Node, string);
 	@Import string writeToString(import1.Node);
-	mixin JavaPackageId!("org.w3c.dom.ls", "LSSerializer");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/LSSerializer";
 }

@@ -9,5 +9,5 @@ interface WatchService : IJavaObject {
 	@Import import0.WatchKey poll();
 	@Import import0.WatchKey poll(long, import1.TimeUnit);
 	@Import import0.WatchKey take();
-	mixin JavaPackageId!("java.nio.file", "WatchService");
+	public static immutable string _javaParameterString = "Ljava/nio/file/WatchService";
 }

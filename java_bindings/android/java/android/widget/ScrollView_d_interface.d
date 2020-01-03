@@ -52,5 +52,5 @@ final class ScrollView : IJavaObject {
 	@Import bool onNestedFling(import2.View, float, float, bool);
 	@Import void draw(import8.Canvas);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ScrollView");
+	public static immutable string _javaParameterString = "Landroid/widget/ScrollView";
 }

@@ -11,5 +11,5 @@ final class PKIXCertPathBuilderResult : IJavaObject {
 	@Import import0.CertPath getCertPath();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PKIXCertPathBuilderResult");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PKIXCertPathBuilderResult";
 }

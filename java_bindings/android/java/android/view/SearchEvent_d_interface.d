@@ -7,5 +7,5 @@ final class SearchEvent : IJavaObject {
 	@Import this(import0.InputDevice);
 	@Import import0.InputDevice getInputDevice();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "SearchEvent");
+	public static immutable string _javaParameterString = "Landroid/view/SearchEvent";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MutableChar : IJavaObject {
 	@Import this(wchar);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MutableChar");
+	public static immutable string _javaParameterString = "Landroid/util/MutableChar";
 }

@@ -8,5 +8,5 @@ final class ColorMatrixColorFilter : IJavaObject {
 	@Import this(float[]);
 	@Import void getColorMatrix(import0.ColorMatrix);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorMatrixColorFilter");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorMatrixColorFilter";
 }

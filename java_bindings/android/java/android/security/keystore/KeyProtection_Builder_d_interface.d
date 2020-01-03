@@ -26,5 +26,5 @@ final class KeyProtection_Builder : IJavaObject {
 	@Import import0.KeyProtection_Builder setUnlockedDeviceRequired(bool);
 	@Import import2.KeyProtection build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "KeyProtection$Builder");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/KeyProtection$Builder";
 }

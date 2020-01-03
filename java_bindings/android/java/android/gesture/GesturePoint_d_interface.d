@@ -5,5 +5,5 @@ final class GesturePoint : IJavaObject {
 	@Import this(float, float, long);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "GesturePoint");
+	public static immutable string _javaParameterString = "Landroid/gesture/GesturePoint";
 }

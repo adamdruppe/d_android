@@ -12,5 +12,5 @@ final class SQLTransactionRollbackException : IJavaObject {
 	@Import this(string, string, import0.JavaThrowable);
 	@Import this(string, string, int, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLTransactionRollbackException");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLTransactionRollbackException";
 }

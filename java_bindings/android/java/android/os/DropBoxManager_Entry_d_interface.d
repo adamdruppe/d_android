@@ -22,5 +22,5 @@ final class DropBoxManager_Entry : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "DropBoxManager$Entry");
+	public static immutable string _javaParameterString = "Landroid/os/DropBoxManager$Entry";
 }

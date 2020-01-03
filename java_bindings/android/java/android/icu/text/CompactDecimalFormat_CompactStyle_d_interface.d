@@ -8,5 +8,5 @@ final class CompactDecimalFormat_CompactStyle : IJavaObject {
 	@Import static import0.CompactDecimalFormat_CompactStyle[] values();
 	@Import static import0.CompactDecimalFormat_CompactStyle valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "CompactDecimalFormat$CompactStyle");
+	public static immutable string _javaParameterString = "Landroid/icu/text/CompactDecimalFormat$CompactStyle";
 }

@@ -10,5 +10,5 @@ interface RemoteController_OnClientUpdateListener : IJavaObject {
 	@Import void onClientPlaybackStateUpdate(int, long, long, float);
 	@Import void onClientTransportControlUpdate(int);
 	@Import void onClientMetadataUpdate(import0.RemoteController_MetadataEditor);
-	mixin JavaPackageId!("android.media", "RemoteController$OnClientUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/media/RemoteController$OnClientUpdateListener";
 }

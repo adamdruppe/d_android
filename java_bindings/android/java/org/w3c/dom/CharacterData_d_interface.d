@@ -10,5 +10,5 @@ interface CharacterData : IJavaObject {
 	@Import void insertData(int, string);
 	@Import void deleteData(int, int);
 	@Import void replaceData(int, int, string);
-	mixin JavaPackageId!("org.w3c.dom", "CharacterData");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/CharacterData";
 }

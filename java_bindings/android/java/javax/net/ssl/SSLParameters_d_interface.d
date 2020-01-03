@@ -27,5 +27,5 @@ final class SSLParameters : IJavaObject {
 	@Import void setUseCipherSuitesOrder(bool);
 	@Import bool getUseCipherSuitesOrder();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLParameters");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLParameters";
 }

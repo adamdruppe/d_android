@@ -18,5 +18,5 @@ final class CameraCaptureSession_CaptureCallback : IJavaObject {
 	@Import void onCaptureSequenceAborted(import0.CameraCaptureSession, int);
 	@Import void onCaptureBufferLost(import0.CameraCaptureSession, import1.CaptureRequest, import5.Surface, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraCaptureSession$CaptureCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraCaptureSession$CaptureCallback";
 }

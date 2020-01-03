@@ -8,5 +8,5 @@ final class KeyChainException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "KeyChainException");
+	public static immutable string _javaParameterString = "Landroid/security/KeyChainException";
 }

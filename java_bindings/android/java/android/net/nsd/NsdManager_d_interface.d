@@ -13,5 +13,5 @@ final class NsdManager : IJavaObject {
 	@Import void stopServiceDiscovery(import2.NsdManager_DiscoveryListener);
 	@Import void resolveService(import0.NsdServiceInfo, import3.NsdManager_ResolveListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.nsd", "NsdManager");
+	public static immutable string _javaParameterString = "Landroid/net/nsd/NsdManager";
 }

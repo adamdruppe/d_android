@@ -8,5 +8,5 @@ final class TextView_BufferType : IJavaObject {
 	@Import static import0.TextView_BufferType[] values();
 	@Import static import0.TextView_BufferType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TextView$BufferType");
+	public static immutable string _javaParameterString = "Landroid/widget/TextView$BufferType";
 }

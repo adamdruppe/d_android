@@ -7,5 +7,5 @@ import import0 = android.java.java.lang.Class_d_interface;
 interface WatchEvent_Kind : IJavaObject {
 	@Import string name();
 	@Import import0.Class type();
-	mixin JavaPackageId!("java.nio.file", "WatchEvent$Kind");
+	public static immutable string _javaParameterString = "Ljava/nio/file/WatchEvent$Kind";
 }

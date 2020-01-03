@@ -10,5 +10,5 @@ interface TemporalAmount : IJavaObject {
 	@Import import1.List getUnits();
 	@Import import2.Temporal addTo(import2.Temporal);
 	@Import import2.Temporal subtractFrom(import2.Temporal);
-	mixin JavaPackageId!("java.time.temporal", "TemporalAmount");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalAmount";
 }

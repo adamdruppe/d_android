@@ -8,5 +8,5 @@ final class RootElement : IJavaObject {
 	@Import this(string);
 	@Import import0.ContentHandler getContentHandler();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.sax", "RootElement");
+	public static immutable string _javaParameterString = "Landroid/sax/RootElement";
 }

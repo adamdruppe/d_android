@@ -76,5 +76,5 @@ final class RemoteViews : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RemoteViews");
+	public static immutable string _javaParameterString = "Landroid/widget/RemoteViews";
 }

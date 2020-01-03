@@ -24,5 +24,5 @@ final class RelativeLayout : IJavaObject {
 	@Import import3.CharSequence getAccessibilityClassName();
 	@Import import4.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RelativeLayout");
+	public static immutable string _javaParameterString = "Landroid/widget/RelativeLayout";
 }

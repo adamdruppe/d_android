@@ -6,5 +6,5 @@ final class TransitionValues : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "TransitionValues");
+	public static immutable string _javaParameterString = "Landroid/transition/TransitionValues";
 }

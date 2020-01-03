@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Filter$FilterListener")
 interface Filter_FilterListener : IJavaObject {
 	@Import void onFilterComplete(int);
-	mixin JavaPackageId!("android.widget", "Filter$FilterListener");
+	public static immutable string _javaParameterString = "Landroid/widget/Filter$FilterListener";
 }

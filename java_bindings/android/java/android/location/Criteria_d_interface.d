@@ -30,5 +30,5 @@ final class Criteria : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "Criteria");
+	public static immutable string _javaParameterString = "Landroid/location/Criteria";
 }

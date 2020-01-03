@@ -16,5 +16,5 @@ final class NfcFCardEmulation : IJavaObject {
 	@Import bool enableService(import3.Activity, import2.ComponentName);
 	@Import bool disableService(import3.Activity);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc.cardemulation", "NfcFCardEmulation");
+	public static immutable string _javaParameterString = "Landroid/nfc/cardemulation/NfcFCardEmulation";
 }

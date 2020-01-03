@@ -34,5 +34,5 @@ final class CursorAdapter : IJavaObject {
 	@Import import7.FilterQueryProvider getFilterQueryProvider();
 	@Import void setFilterQueryProvider(import7.FilterQueryProvider);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "CursorAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/CursorAdapter";
 }

@@ -54,5 +54,5 @@ final class WifiManager : IJavaObject {
 	@Import import10.WifiManager_WifiLock createWifiLock(string);
 	@Import import11.WifiManager_MulticastLock createMulticastLock(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiManager");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiManager";
 }

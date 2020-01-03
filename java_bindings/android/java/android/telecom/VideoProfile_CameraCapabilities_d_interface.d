@@ -11,5 +11,5 @@ final class VideoProfile_CameraCapabilities : IJavaObject {
 	@Import int getWidth();
 	@Import int getHeight();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "VideoProfile$CameraCapabilities");
+	public static immutable string _javaParameterString = "Landroid/telecom/VideoProfile$CameraCapabilities";
 }

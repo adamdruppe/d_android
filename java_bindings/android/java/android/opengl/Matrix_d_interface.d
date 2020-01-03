@@ -2,6 +2,8 @@ module android.java.android.opengl.Matrix_d_interface;
 import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
 
 final class Matrix : IJavaObject {
+	@Import static void multiplyMM(float, int, float, int, float, int[][][]);
+	@Import static void multiplyMV(float, int, float, int, float, int[][][]);
 	@Import static void transposeM(float, int, float, int[][]);
 	@Import static bool invertM(float, int, float, int[][]);
 	@Import static void orthoM(float, int, float, float, float, float, float, float[]);
@@ -19,5 +21,5 @@ final class Matrix : IJavaObject {
 	@Import static void setRotateEulerM(float, int, float, float, float[]);
 	@Import static void setLookAtM(float, int, float, float, float, float, float, float, float, float, float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "Matrix");
+	public static immutable string _javaParameterString = "Landroid/opengl/Matrix";
 }

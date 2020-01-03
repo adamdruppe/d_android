@@ -14,5 +14,5 @@ final class SeekBar : IJavaObject {
 	@Import void setOnSeekBarChangeListener(import2.SeekBar_OnSeekBarChangeListener);
 	@Import import3.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "SeekBar");
+	public static immutable string _javaParameterString = "Landroid/widget/SeekBar";
 }

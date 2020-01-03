@@ -7,5 +7,5 @@ final class CarrierMessagingService_SendSmsResult : IJavaObject {
 	@Import int getMessageRef();
 	@Import int getSendStatus();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.carrier", "CarrierMessagingService$SendSmsResult");
+	public static immutable string _javaParameterString = "Landroid/service/carrier/CarrierMessagingService$SendSmsResult";
 }

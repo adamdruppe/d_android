@@ -14,5 +14,5 @@ final class ReentrantReadWriteLock_ReadLock : IJavaObject {
 	@Import import1.Condition newCondition();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "ReentrantReadWriteLock$ReadLock");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock";
 }

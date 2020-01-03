@@ -21,5 +21,5 @@ final class TemporalAdjusters : IJavaObject {
 	@Import static import0.TemporalAdjuster previous(import2.DayOfWeek);
 	@Import static import0.TemporalAdjuster previousOrSame(import2.DayOfWeek);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "TemporalAdjusters");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalAdjusters";
 }

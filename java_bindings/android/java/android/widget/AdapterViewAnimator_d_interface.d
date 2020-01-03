@@ -44,5 +44,5 @@ final class AdapterViewAnimator : IJavaObject {
 	@Import void fyiWillBeAdvancedByHostKThx();
 	@Import import8.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AdapterViewAnimator");
+	public static immutable string _javaParameterString = "Landroid/widget/AdapterViewAnimator";
 }

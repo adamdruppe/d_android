@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NetworkScan : IJavaObject {
 	@Import void stopScan();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "NetworkScan");
+	public static immutable string _javaParameterString = "Landroid/telephony/NetworkScan";
 }

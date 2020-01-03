@@ -21,5 +21,5 @@ final class PlaybackState_Builder : IJavaObject {
 	@Import import1.PlaybackState_Builder setExtras(import4.Bundle);
 	@Import import0.PlaybackState build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "PlaybackState$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/session/PlaybackState$Builder";
 }

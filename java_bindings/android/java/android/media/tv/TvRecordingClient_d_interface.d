@@ -16,5 +16,5 @@ final class TvRecordingClient : IJavaObject {
 	@Import void stopRecording();
 	@Import void sendAppPrivateCommand(string, import4.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvRecordingClient");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvRecordingClient";
 }

@@ -107,5 +107,5 @@ final class FieldPacker : IJavaObject {
 	@Import bool subBoolean();
 	@Import byte[] getData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "FieldPacker");
+	public static immutable string _javaParameterString = "Landroid/renderscript/FieldPacker";
 }

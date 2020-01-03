@@ -8,5 +8,5 @@ final class ContactsContract_PinnedPositions : IJavaObject {
 	@Import static void undemote(import0.ContentResolver, long);
 	@Import static void pin(import0.ContentResolver, long, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$PinnedPositions");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$PinnedPositions";
 }

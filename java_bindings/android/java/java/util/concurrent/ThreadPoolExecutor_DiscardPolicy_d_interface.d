@@ -8,5 +8,5 @@ import import1 = android.java.java.util.concurrent.ThreadPoolExecutor_d_interfac
 final class ThreadPoolExecutor_DiscardPolicy : IJavaObject {
 	@Import void rejectedExecution(import0.Runnable, import1.ThreadPoolExecutor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ThreadPoolExecutor$DiscardPolicy");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ThreadPoolExecutor$DiscardPolicy";
 }

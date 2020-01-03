@@ -14,5 +14,5 @@ final class MediaRouter_RouteCategory : IJavaObject {
 	@Import bool isGroupable();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRouter$RouteCategory");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRouter$RouteCategory";
 }

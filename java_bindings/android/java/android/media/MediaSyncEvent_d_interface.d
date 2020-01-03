@@ -9,5 +9,5 @@ final class MediaSyncEvent : IJavaObject {
 	@Import int getType();
 	@Import int getAudioSessionId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaSyncEvent");
+	public static immutable string _javaParameterString = "Landroid/media/MediaSyncEvent";
 }

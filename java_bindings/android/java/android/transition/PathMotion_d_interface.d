@@ -9,5 +9,5 @@ final class PathMotion : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet);
 	@Import import2.Path getPath(float, float, float, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "PathMotion");
+	public static immutable string _javaParameterString = "Landroid/transition/PathMotion";
 }

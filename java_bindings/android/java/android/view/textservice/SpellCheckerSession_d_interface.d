@@ -13,5 +13,5 @@ final class SpellCheckerSession : IJavaObject {
 	@Import void getSuggestions(import1.TextInfo, int);
 	@Import void getSuggestions(import1.TextInfo, int, bool[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textservice", "SpellCheckerSession");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/SpellCheckerSession";
 }

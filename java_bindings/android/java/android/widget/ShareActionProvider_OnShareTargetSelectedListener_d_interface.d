@@ -7,5 +7,5 @@ import import0 = android.java.android.widget.ShareActionProvider_d_interface;
 @JavaName("ShareActionProvider$OnShareTargetSelectedListener")
 interface ShareActionProvider_OnShareTargetSelectedListener : IJavaObject {
 	@Import bool onShareTargetSelected(import0.ShareActionProvider, import1.Intent);
-	mixin JavaPackageId!("android.widget", "ShareActionProvider$OnShareTargetSelectedListener");
+	public static immutable string _javaParameterString = "Landroid/widget/ShareActionProvider$OnShareTargetSelectedListener";
 }

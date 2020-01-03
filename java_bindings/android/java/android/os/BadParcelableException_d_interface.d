@@ -7,5 +7,5 @@ final class BadParcelableException : IJavaObject {
 	@Import this(string);
 	@Import this(import0.JavaException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "BadParcelableException");
+	public static immutable string _javaParameterString = "Landroid/os/BadParcelableException";
 }

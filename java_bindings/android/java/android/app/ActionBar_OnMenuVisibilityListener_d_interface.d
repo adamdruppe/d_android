@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ActionBar$OnMenuVisibilityListener")
 interface ActionBar_OnMenuVisibilityListener : IJavaObject {
 	@Import void onMenuVisibilityChanged(bool);
-	mixin JavaPackageId!("android.app", "ActionBar$OnMenuVisibilityListener");
+	public static immutable string _javaParameterString = "Landroid/app/ActionBar$OnMenuVisibilityListener";
 }

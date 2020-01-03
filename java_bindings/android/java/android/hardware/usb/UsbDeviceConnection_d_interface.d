@@ -22,5 +22,5 @@ final class UsbDeviceConnection : IJavaObject {
 	@Import import3.UsbRequest requestWait(long);
 	@Import string getSerial();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.usb", "UsbDeviceConnection");
+	public static immutable string _javaParameterString = "Landroid/hardware/usb/UsbDeviceConnection";
 }

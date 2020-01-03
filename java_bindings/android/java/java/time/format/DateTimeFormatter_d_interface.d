@@ -50,5 +50,5 @@ final class DateTimeFormatter : IJavaObject {
 	@Import import14.Format toFormat(import3.TemporalQuery);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.format", "DateTimeFormatter");
+	public static immutable string _javaParameterString = "Ljava/time/format/DateTimeFormatter";
 }

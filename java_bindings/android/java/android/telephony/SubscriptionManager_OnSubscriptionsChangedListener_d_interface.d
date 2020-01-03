@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SubscriptionManager_OnSubscriptionsChangedListener : IJavaObject {
 	@Import void onSubscriptionsChanged();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SubscriptionManager$OnSubscriptionsChangedListener");
+	public static immutable string _javaParameterString = "Landroid/telephony/SubscriptionManager$OnSubscriptionsChangedListener";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.view.View_d_interface;
 @JavaName("AbsListView$RecyclerListener")
 interface AbsListView_RecyclerListener : IJavaObject {
 	@Import void onMovedToScrapHeap(import0.View);
-	mixin JavaPackageId!("android.widget", "AbsListView$RecyclerListener");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsListView$RecyclerListener";
 }

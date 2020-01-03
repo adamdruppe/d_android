@@ -17,5 +17,5 @@ final class RouteInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "RouteInfo");
+	public static immutable string _javaParameterString = "Landroid/net/RouteInfo";
 }

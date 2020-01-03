@@ -19,5 +19,5 @@ final class TvView_TvInputCallback : IJavaObject {
 	@Import void onContentBlocked(string, import2.TvContentRating);
 	@Import void onTimeShiftStatusChanged(string, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvView$TvInputCallback");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvView$TvInputCallback";
 }

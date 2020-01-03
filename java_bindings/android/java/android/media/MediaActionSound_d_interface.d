@@ -6,5 +6,5 @@ final class MediaActionSound : IJavaObject {
 	@Import void play(int);
 	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaActionSound");
+	public static immutable string _javaParameterString = "Landroid/media/MediaActionSound";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.app.FragmentManager_BackStackEntry_d_inter
 @JavaName("FragmentBreadCrumbs$OnBreadCrumbClickListener")
 interface FragmentBreadCrumbs_OnBreadCrumbClickListener : IJavaObject {
 	@Import bool onBreadCrumbClick(import0.FragmentManager_BackStackEntry, int);
-	mixin JavaPackageId!("android.app", "FragmentBreadCrumbs$OnBreadCrumbClickListener");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentBreadCrumbs$OnBreadCrumbClickListener";
 }

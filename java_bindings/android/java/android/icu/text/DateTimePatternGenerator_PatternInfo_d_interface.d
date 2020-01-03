@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("DateTimePatternGenerator$PatternInfo")
 final class DateTimePatternGenerator_PatternInfo : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DateTimePatternGenerator$PatternInfo");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateTimePatternGenerator$PatternInfo";
 }

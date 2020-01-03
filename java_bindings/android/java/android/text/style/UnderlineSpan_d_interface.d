@@ -11,5 +11,5 @@ final class UnderlineSpan : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import void updateDrawState(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "UnderlineSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/UnderlineSpan";
 }

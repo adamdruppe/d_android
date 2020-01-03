@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("TvContract$PreviewPrograms")
 final class TvContract_PreviewPrograms : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvContract$PreviewPrograms");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvContract$PreviewPrograms";
 }

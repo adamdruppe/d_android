@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SSLPeerUnverifiedException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLPeerUnverifiedException");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLPeerUnverifiedException";
 }

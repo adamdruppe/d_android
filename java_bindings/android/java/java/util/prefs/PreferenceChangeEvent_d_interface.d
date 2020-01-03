@@ -9,5 +9,5 @@ final class PreferenceChangeEvent : IJavaObject {
 	@Import string getKey();
 	@Import string getNewValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.prefs", "PreferenceChangeEvent");
+	public static immutable string _javaParameterString = "Ljava/util/prefs/PreferenceChangeEvent";
 }

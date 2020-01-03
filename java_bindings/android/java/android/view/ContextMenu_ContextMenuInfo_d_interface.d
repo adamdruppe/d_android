@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("ContextMenu$ContextMenuInfo")
 interface ContextMenu_ContextMenuInfo : IJavaObject {
-	mixin JavaPackageId!("android.view", "ContextMenu$ContextMenuInfo");
+	public static immutable string _javaParameterString = "Landroid/view/ContextMenu$ContextMenuInfo";
 }

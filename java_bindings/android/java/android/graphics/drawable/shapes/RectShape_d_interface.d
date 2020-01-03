@@ -14,5 +14,5 @@ final class RectShape : IJavaObject {
 	@Import import4.Shape clone();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable.shapes", "RectShape");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/shapes/RectShape";
 }

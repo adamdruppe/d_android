@@ -109,5 +109,5 @@ final class UCharacter : IJavaObject {
 	@Import static int offsetByCodePoints(import1.CharSequence, int, int);
 	@Import static int offsetByCodePoints(wchar, int, int, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.lang", "UCharacter");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter";
 }

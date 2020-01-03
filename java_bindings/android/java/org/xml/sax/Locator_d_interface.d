@@ -6,5 +6,5 @@ interface Locator : IJavaObject {
 	@Import string getSystemId();
 	@Import int getLineNumber();
 	@Import int getColumnNumber();
-	mixin JavaPackageId!("org.xml.sax", "Locator");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/Locator";
 }

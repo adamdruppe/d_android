@@ -11,5 +11,5 @@ final class WallpaperService : IJavaObject {
 	@Import import0.IBinder onBind(import1.Intent);
 	@Import import2.WallpaperService_Engine onCreateEngine();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.wallpaper", "WallpaperService");
+	public static immutable string _javaParameterString = "Landroid/service/wallpaper/WallpaperService";
 }

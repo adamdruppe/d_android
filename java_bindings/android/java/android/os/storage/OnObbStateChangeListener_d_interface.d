@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class OnObbStateChangeListener : IJavaObject {
 	@Import void onObbStateChange(string, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.storage", "OnObbStateChangeListener");
+	public static immutable string _javaParameterString = "Landroid/os/storage/OnObbStateChangeListener";
 }

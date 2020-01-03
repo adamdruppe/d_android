@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class SensorAdditionalInfo : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "SensorAdditionalInfo");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorAdditionalInfo";
 }

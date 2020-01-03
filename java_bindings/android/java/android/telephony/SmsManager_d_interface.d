@@ -24,5 +24,5 @@ final class SmsManager : IJavaObject {
 	@Import import5.Bundle getCarrierConfigValues();
 	@Import string createAppSpecificSmsToken(import0.PendingIntent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SmsManager");
+	public static immutable string _javaParameterString = "Landroid/telephony/SmsManager";
 }

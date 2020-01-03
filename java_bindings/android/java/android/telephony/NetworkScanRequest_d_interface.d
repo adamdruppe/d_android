@@ -19,5 +19,5 @@ final class NetworkScanRequest : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "NetworkScanRequest");
+	public static immutable string _javaParameterString = "Landroid/telephony/NetworkScanRequest";
 }

@@ -7,5 +7,5 @@ import import0 = android.java.java.lang.JavaException_d_interface;
 final class Fragment_InstantiationException : IJavaObject {
 	@Import this(string, import0.JavaException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Fragment$InstantiationException");
+	public static immutable string _javaParameterString = "Landroid/app/Fragment$InstantiationException";
 }

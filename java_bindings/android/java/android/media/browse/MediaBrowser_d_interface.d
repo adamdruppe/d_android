@@ -24,5 +24,5 @@ final class MediaBrowser : IJavaObject {
 	@Import void unsubscribe(string, import5.MediaBrowser_SubscriptionCallback);
 	@Import void getItem(string, import6.MediaBrowser_ItemCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.browse", "MediaBrowser");
+	public static immutable string _javaParameterString = "Landroid/media/browse/MediaBrowser";
 }

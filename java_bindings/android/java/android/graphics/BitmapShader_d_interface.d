@@ -7,5 +7,5 @@ import import1 = android.java.android.graphics.Shader_TileMode_d_interface;
 final class BitmapShader : IJavaObject {
 	@Import this(import0.Bitmap, import1.Shader_TileMode, import1.Shader_TileMode);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "BitmapShader");
+	public static immutable string _javaParameterString = "Landroid/graphics/BitmapShader";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("DocumentsContract$Document")
 final class DocumentsContract_Document : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "DocumentsContract$Document");
+	public static immutable string _javaParameterString = "Landroid/provider/DocumentsContract$Document";
 }

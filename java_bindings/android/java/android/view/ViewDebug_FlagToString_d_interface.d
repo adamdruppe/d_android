@@ -7,5 +7,5 @@ interface ViewDebug_FlagToString : IJavaObject {
 	@Import int equals();
 	@Import string name();
 	@Import bool outputIf();
-	mixin JavaPackageId!("android.view", "ViewDebug$FlagToString");
+	public static immutable string _javaParameterString = "Landroid/view/ViewDebug$FlagToString";
 }

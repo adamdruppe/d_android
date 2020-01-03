@@ -8,5 +8,5 @@ final class DateFormat_Field : IJavaObject {
 	@Import static import0.DateFormat_Field ofCalendarField(int);
 	@Import int getCalendarField();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DateFormat$Field");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateFormat$Field";
 }

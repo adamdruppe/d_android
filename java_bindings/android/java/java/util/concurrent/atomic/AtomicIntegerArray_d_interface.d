@@ -26,5 +26,5 @@ final class AtomicIntegerArray : IJavaObject {
 	@Import int accumulateAndGet(int, int, import1.IntBinaryOperator);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicIntegerArray");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicIntegerArray";
 }

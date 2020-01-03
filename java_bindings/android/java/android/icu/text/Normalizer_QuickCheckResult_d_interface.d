@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Normalizer$QuickCheckResult")
 final class Normalizer_QuickCheckResult : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "Normalizer$QuickCheckResult");
+	public static immutable string _javaParameterString = "Landroid/icu/text/Normalizer$QuickCheckResult";
 }

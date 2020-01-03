@@ -15,5 +15,5 @@ final class MemoryFile : IJavaObject {
 	@Import int readBytes(byte, int, int, int[]);
 	@Import void writeBytes(byte, int, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "MemoryFile");
+	public static immutable string _javaParameterString = "Landroid/os/MemoryFile";
 }

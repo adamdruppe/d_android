@@ -7,5 +7,5 @@ final class DrmErrorEvent : IJavaObject {
 	@Import this(int, int, string);
 	@Import this(int, int, string, import0.HashMap);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmErrorEvent");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmErrorEvent";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.javax.sql.PooledConnection_d_interface;
 interface ConnectionPoolDataSource : IJavaObject {
 	@Import import0.PooledConnection getPooledConnection();
 	@Import import0.PooledConnection getPooledConnection(string, string);
-	mixin JavaPackageId!("javax.sql", "ConnectionPoolDataSource");
+	public static immutable string _javaParameterString = "Ljavax/sql/ConnectionPoolDataSource";
 }

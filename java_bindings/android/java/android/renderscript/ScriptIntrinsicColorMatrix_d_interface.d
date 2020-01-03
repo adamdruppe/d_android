@@ -25,5 +25,5 @@ final class ScriptIntrinsicColorMatrix : IJavaObject {
 	@Import void forEach(import6.Allocation, import6.Allocation, import7.Script_LaunchOptions);
 	@Import import8.Script_KernelID getKernelID();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicColorMatrix");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicColorMatrix";
 }

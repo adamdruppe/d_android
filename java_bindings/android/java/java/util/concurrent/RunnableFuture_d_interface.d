@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface RunnableFuture : IJavaObject {
 	@Import void run();
-	mixin JavaPackageId!("java.util.concurrent", "RunnableFuture");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/RunnableFuture";
 }

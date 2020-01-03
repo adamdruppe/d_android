@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.reflect.Type_d_interface;
 interface WildcardType : IJavaObject {
 	@Import import0.Type[] getUpperBounds();
 	@Import import0.Type[] getLowerBounds();
-	mixin JavaPackageId!("java.lang.reflect", "WildcardType");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/WildcardType";
 }

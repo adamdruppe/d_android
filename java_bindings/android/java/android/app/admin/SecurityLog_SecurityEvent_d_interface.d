@@ -15,5 +15,5 @@ final class SecurityLog_SecurityEvent : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "SecurityLog$SecurityEvent");
+	public static immutable string _javaParameterString = "Landroid/app/admin/SecurityLog$SecurityEvent";
 }

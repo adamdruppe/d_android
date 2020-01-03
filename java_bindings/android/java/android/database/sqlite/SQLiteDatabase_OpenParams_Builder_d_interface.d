@@ -20,5 +20,5 @@ final class SQLiteDatabase_OpenParams_Builder : IJavaObject {
 	@Import import1.SQLiteDatabase_OpenParams_Builder setSynchronousMode(string);
 	@Import import0.SQLiteDatabase_OpenParams build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteDatabase$OpenParams$Builder");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteDatabase$OpenParams$Builder";
 }

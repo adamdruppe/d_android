@@ -23,5 +23,5 @@ final class TransformerException : IJavaObject {
 	@Import void printStackTrace(import2.PrintStream);
 	@Import void printStackTrace(import3.PrintWriter);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform", "TransformerException");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/TransformerException";
 }

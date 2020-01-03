@@ -8,5 +8,5 @@ final class Calendar_WeekData : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "Calendar$WeekData");
+	public static immutable string _javaParameterString = "Landroid/icu/util/Calendar$WeekData";
 }

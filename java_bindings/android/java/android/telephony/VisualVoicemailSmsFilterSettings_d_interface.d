@@ -8,5 +8,5 @@ final class VisualVoicemailSmsFilterSettings : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "VisualVoicemailSmsFilterSettings");
+	public static immutable string _javaParameterString = "Landroid/telephony/VisualVoicemailSmsFilterSettings";
 }

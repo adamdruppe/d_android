@@ -35,5 +35,5 @@ final class DialogPreference : IJavaObject {
 	@Import import5.Dialog getDialog();
 	@Import void onActivityDestroy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "DialogPreference");
+	public static immutable string _javaParameterString = "Landroid/preference/DialogPreference";
 }

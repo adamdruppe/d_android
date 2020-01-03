@@ -10,5 +10,5 @@ final class WifiDeviceFilter_Builder : IJavaObject {
 	@Import import0.WifiDeviceFilter_Builder setNamePattern(import1.Pattern);
 	@Import import2.WifiDeviceFilter build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "WifiDeviceFilter$Builder");
+	public static immutable string _javaParameterString = "Landroid/companion/WifiDeviceFilter$Builder";
 }

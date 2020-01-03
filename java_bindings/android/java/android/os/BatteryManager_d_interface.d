@@ -7,5 +7,5 @@ final class BatteryManager : IJavaObject {
 	@Import long getLongProperty(int);
 	@Import long computeChargeTimeRemaining();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "BatteryManager");
+	public static immutable string _javaParameterString = "Landroid/os/BatteryManager";
 }

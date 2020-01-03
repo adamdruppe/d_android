@@ -15,5 +15,5 @@ final class Keyboard_Key : IJavaObject {
 	@Import int squaredDistanceFrom(int, int);
 	@Import int[] getCurrentDrawableState();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "Keyboard$Key");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/Keyboard$Key";
 }

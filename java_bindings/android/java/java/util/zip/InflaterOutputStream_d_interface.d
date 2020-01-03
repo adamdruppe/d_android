@@ -14,5 +14,5 @@ final class InflaterOutputStream : IJavaObject {
 	@Import void write(int);
 	@Import void write(byte, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "InflaterOutputStream");
+	public static immutable string _javaParameterString = "Ljava/util/zip/InflaterOutputStream";
 }

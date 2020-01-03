@@ -49,5 +49,5 @@ final class Preferences : IJavaObject {
 	@Import void exportSubtree(import4.OutputStream);
 	@Import static void importPreferences(import5.InputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.prefs", "Preferences");
+	public static immutable string _javaParameterString = "Ljava/util/prefs/Preferences";
 }

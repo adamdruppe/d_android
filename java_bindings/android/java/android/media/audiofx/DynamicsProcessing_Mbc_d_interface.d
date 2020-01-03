@@ -12,5 +12,5 @@ final class DynamicsProcessing_Mbc : IJavaObject {
 	@Import void setBand(int, import1.DynamicsProcessing_MbcBand);
 	@Import import1.DynamicsProcessing_MbcBand getBand(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "DynamicsProcessing$Mbc");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/DynamicsProcessing$Mbc";
 }

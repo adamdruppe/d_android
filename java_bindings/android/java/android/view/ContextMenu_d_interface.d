@@ -13,5 +13,5 @@ interface ContextMenu : IJavaObject {
 	@Import import0.ContextMenu setHeaderIcon(import2.Drawable);
 	@Import import0.ContextMenu setHeaderView(import3.View);
 	@Import void clearHeader();
-	mixin JavaPackageId!("android.view", "ContextMenu");
+	public static immutable string _javaParameterString = "Landroid/view/ContextMenu";
 }

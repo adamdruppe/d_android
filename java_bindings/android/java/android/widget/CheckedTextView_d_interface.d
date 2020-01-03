@@ -32,5 +32,5 @@ final class CheckedTextView : IJavaObject {
 	@Import import6.Parcelable onSaveInstanceState();
 	@Import void onRestoreInstanceState(import6.Parcelable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "CheckedTextView");
+	public static immutable string _javaParameterString = "Landroid/widget/CheckedTextView";
 }

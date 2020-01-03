@@ -41,5 +41,5 @@ final class URI : IJavaObject {
 	@Import string toASCIIString();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "URI");
+	public static immutable string _javaParameterString = "Ljava/net/URI";
 }

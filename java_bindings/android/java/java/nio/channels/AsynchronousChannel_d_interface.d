@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface AsynchronousChannel : IJavaObject {
 	@Import void close();
-	mixin JavaPackageId!("java.nio.channels", "AsynchronousChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/AsynchronousChannel";
 }

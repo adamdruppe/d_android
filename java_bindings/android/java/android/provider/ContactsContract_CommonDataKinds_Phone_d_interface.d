@@ -9,5 +9,5 @@ final class ContactsContract_CommonDataKinds_Phone : IJavaObject {
 	@Import static int getTypeLabelResource(int);
 	@Import static import0.CharSequence getTypeLabel(import1.Resources, int, import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$CommonDataKinds$Phone");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$CommonDataKinds$Phone";
 }

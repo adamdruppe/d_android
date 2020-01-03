@@ -12,5 +12,5 @@ final class NetworkRequest : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "NetworkRequest");
+	public static immutable string _javaParameterString = "Landroid/net/NetworkRequest";
 }

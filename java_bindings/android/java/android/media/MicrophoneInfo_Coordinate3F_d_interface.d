@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MicrophoneInfo_Coordinate3F : IJavaObject {
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MicrophoneInfo$Coordinate3F");
+	public static immutable string _javaParameterString = "Landroid/media/MicrophoneInfo$Coordinate3F";
 }

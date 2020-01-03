@@ -8,5 +8,5 @@ final class UnsupportedCallbackException : IJavaObject {
 	@Import this(import0.Callback, string);
 	@Import import0.Callback getCallback();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth.callback", "UnsupportedCallbackException");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/callback/UnsupportedCallbackException";
 }

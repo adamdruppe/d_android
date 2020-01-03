@@ -9,5 +9,5 @@ final class AbstractCursor_SelfContentObserver : IJavaObject {
 	@Import bool deliverSelfNotifications();
 	@Import void onChange(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "AbstractCursor$SelfContentObserver");
+	public static immutable string _javaParameterString = "Landroid/database/AbstractCursor$SelfContentObserver";
 }

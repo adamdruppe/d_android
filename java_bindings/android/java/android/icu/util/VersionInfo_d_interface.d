@@ -19,5 +19,5 @@ final class VersionInfo : IJavaObject {
 	@Import int compareTo(import0.VersionInfo);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "VersionInfo");
+	public static immutable string _javaParameterString = "Landroid/icu/util/VersionInfo";
 }

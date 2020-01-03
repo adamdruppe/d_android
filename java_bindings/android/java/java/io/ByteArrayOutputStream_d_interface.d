@@ -16,5 +16,5 @@ final class ByteArrayOutputStream : IJavaObject {
 	@Import @JavaName("toString") string toString_(int);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "ByteArrayOutputStream");
+	public static immutable string _javaParameterString = "Ljava/io/ByteArrayOutputStream";
 }

@@ -16,5 +16,5 @@ final class MediaRouter_SimpleCallback : IJavaObject {
 	@Import void onRouteUngrouped(import0.MediaRouter, import1.MediaRouter_RouteInfo, import2.MediaRouter_RouteGroup);
 	@Import void onRouteVolumeChanged(import0.MediaRouter, import1.MediaRouter_RouteInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRouter$SimpleCallback");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRouter$SimpleCallback";
 }

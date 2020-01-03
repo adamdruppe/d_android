@@ -7,5 +7,5 @@ import import0 = android.java.android.view.Display_d_interface;
 interface WindowManager : IJavaObject {
 	@Import import0.Display getDefaultDisplay();
 	@Import void removeViewImmediate(import1.View);
-	mixin JavaPackageId!("android.view", "WindowManager");
+	public static immutable string _javaParameterString = "Landroid/view/WindowManager";
 }

@@ -7,5 +7,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnTimedTextListener")
 interface MediaPlayer_OnTimedTextListener : IJavaObject {
 	@Import void onTimedText(import0.MediaPlayer, import1.TimedText);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnTimedTextListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnTimedTextListener";
 }

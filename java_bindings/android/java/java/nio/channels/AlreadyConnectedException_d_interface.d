@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class AlreadyConnectedException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "AlreadyConnectedException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/AlreadyConnectedException";
 }

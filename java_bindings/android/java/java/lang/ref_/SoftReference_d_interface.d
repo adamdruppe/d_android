@@ -8,5 +8,5 @@ final class SoftReference : IJavaObject {
 	@Import this(IJavaObject, import0.ReferenceQueue);
 	@Import IJavaObject get();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.ref", "SoftReference");
+	public static immutable string _javaParameterString = "Ljava/lang/ref/SoftReference";
 }

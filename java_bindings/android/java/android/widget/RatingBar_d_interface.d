@@ -24,5 +24,5 @@ final class RatingBar : IJavaObject {
 	@Import void setMax(int);
 	@Import import3.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RatingBar");
+	public static immutable string _javaParameterString = "Landroid/widget/RatingBar";
 }

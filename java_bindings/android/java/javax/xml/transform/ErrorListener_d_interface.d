@@ -7,5 +7,5 @@ interface ErrorListener : IJavaObject {
 	@Import void warning(import0.TransformerException);
 	@Import void error(import0.TransformerException);
 	@Import void fatalError(import0.TransformerException);
-	mixin JavaPackageId!("javax.xml.transform", "ErrorListener");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/ErrorListener";
 }

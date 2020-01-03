@@ -122,5 +122,5 @@ final class ZonedDateTime : IJavaObject {
 	@Import import22.ChronoLocalDateTime toLocalDateTime();
 	@Import import23.ChronoLocalDate toLocalDate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "ZonedDateTime");
+	public static immutable string _javaParameterString = "Ljava/time/ZonedDateTime";
 }

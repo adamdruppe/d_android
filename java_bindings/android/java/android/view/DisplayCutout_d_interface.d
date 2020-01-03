@@ -15,5 +15,5 @@ final class DisplayCutout : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "DisplayCutout");
+	public static immutable string _javaParameterString = "Landroid/view/DisplayCutout";
 }

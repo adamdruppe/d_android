@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("Collator$ReorderCodes")
 interface Collator_ReorderCodes : IJavaObject {
-	mixin JavaPackageId!("android.icu.text", "Collator$ReorderCodes");
+	public static immutable string _javaParameterString = "Landroid/icu/text/Collator$ReorderCodes";
 }

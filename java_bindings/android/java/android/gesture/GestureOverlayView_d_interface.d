@@ -62,5 +62,5 @@ final class GestureOverlayView : IJavaObject {
 	@Import void cancelGesture();
 	@Import bool dispatchTouchEvent(import9.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "GestureOverlayView");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureOverlayView";
 }

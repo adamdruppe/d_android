@@ -8,5 +8,5 @@ final class WifiManager_LocalOnlyHotspotReservation : IJavaObject {
 	@Import import0.WifiConfiguration getWifiConfiguration();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiManager$LocalOnlyHotspotReservation");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiManager$LocalOnlyHotspotReservation";
 }

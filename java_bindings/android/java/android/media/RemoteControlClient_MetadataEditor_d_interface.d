@@ -19,5 +19,5 @@ final class RemoteControlClient_MetadataEditor : IJavaObject {
 	@Import import2.MediaMetadataEditor putLong(int, long);
 	@Import import2.MediaMetadataEditor putString(int, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "RemoteControlClient$MetadataEditor");
+	public static immutable string _javaParameterString = "Landroid/media/RemoteControlClient$MetadataEditor";
 }

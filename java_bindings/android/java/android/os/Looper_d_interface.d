@@ -22,5 +22,5 @@ final class Looper : IJavaObject {
 	@Import void dump(import2.Printer, string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Looper");
+	public static immutable string _javaParameterString = "Landroid/os/Looper";
 }

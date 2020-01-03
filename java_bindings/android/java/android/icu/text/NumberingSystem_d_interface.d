@@ -18,5 +18,5 @@ final class NumberingSystem : IJavaObject {
 	@Import string getName();
 	@Import bool isAlgorithmic();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "NumberingSystem");
+	public static immutable string _javaParameterString = "Landroid/icu/text/NumberingSystem";
 }

@@ -10,5 +10,5 @@ final class MediaSessionManager_RemoteUserInfo : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaSessionManager$RemoteUserInfo");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaSessionManager$RemoteUserInfo";
 }

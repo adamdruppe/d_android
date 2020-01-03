@@ -10,5 +10,5 @@ final class PrintDocumentAdapter_LayoutResultCallback : IJavaObject {
 	@Import void onLayoutFailed(import1.CharSequence);
 	@Import void onLayoutCancelled();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintDocumentAdapter$LayoutResultCallback");
+	public static immutable string _javaParameterString = "Landroid/print/PrintDocumentAdapter$LayoutResultCallback";
 }

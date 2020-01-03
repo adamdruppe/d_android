@@ -20,7 +20,7 @@ final class SSLContext : IJavaObject {
 	@Import static import0.SSLContext getInstance(string, import1.Provider);
 	@Import string getProtocol();
 	@Import import1.Provider getProvider();
-	@Import void init(import2.KeyManager, import3.TrustManager, import4.SecureRandom[][]);
+	@Import @JavaName("init") void init_(import2.KeyManager, import3.TrustManager, import4.SecureRandom[][]);
 	@Import import5.SSLSocketFactory getSocketFactory();
 	@Import import6.SSLServerSocketFactory getServerSocketFactory();
 	@Import import7.SSLEngine createSSLEngine();
@@ -30,5 +30,5 @@ final class SSLContext : IJavaObject {
 	@Import import9.SSLParameters getDefaultSSLParameters();
 	@Import import9.SSLParameters getSupportedSSLParameters();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLContext");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLContext";
 }

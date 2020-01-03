@@ -25,5 +25,5 @@ final class Chronometer : IJavaObject {
 	@Import import3.CharSequence getContentDescription();
 	@Import import3.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Chronometer");
+	public static immutable string _javaParameterString = "Landroid/widget/Chronometer";
 }

@@ -17,5 +17,5 @@ final class SharedMemory : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "SharedMemory");
+	public static immutable string _javaParameterString = "Landroid/os/SharedMemory";
 }

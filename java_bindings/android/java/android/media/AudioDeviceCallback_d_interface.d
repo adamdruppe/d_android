@@ -7,5 +7,5 @@ final class AudioDeviceCallback : IJavaObject {
 	@Import void onAudioDevicesAdded(import0.AudioDeviceInfo[]);
 	@Import void onAudioDevicesRemoved(import0.AudioDeviceInfo[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioDeviceCallback");
+	public static immutable string _javaParameterString = "Landroid/media/AudioDeviceCallback";
 }

@@ -35,5 +35,5 @@ final class Display : IJavaObject {
 	@Import int getState();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Display");
+	public static immutable string _javaParameterString = "Landroid/view/Display";
 }

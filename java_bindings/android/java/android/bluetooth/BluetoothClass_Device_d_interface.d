@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("BluetoothClass$Device")
 final class BluetoothClass_Device : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothClass$Device");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothClass$Device";
 }

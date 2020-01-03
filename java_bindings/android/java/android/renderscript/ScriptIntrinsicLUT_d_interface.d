@@ -19,5 +19,5 @@ final class ScriptIntrinsicLUT : IJavaObject {
 	@Import void forEach(import3.Allocation, import3.Allocation, import4.Script_LaunchOptions);
 	@Import import5.Script_KernelID getKernelID();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicLUT");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicLUT";
 }

@@ -9,5 +9,5 @@ final class CharacterStyle : IJavaObject {
 	@Import static import1.CharacterStyle wrap(import1.CharacterStyle);
 	@Import import1.CharacterStyle getUnderlying();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "CharacterStyle");
+	public static immutable string _javaParameterString = "Landroid/text/style/CharacterStyle";
 }

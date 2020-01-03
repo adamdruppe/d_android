@@ -9,5 +9,5 @@ final class DirectoryIteratorException : IJavaObject {
 	@Import import0.IOException getCause();
 	@Import import1.JavaThrowable getCause();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "DirectoryIteratorException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/DirectoryIteratorException";
 }

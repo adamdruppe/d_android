@@ -23,5 +23,5 @@ final class ExifInterface : IJavaObject {
 	@Import bool getLatLong(float[]);
 	@Import double getAltitude(double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "ExifInterface");
+	public static immutable string _javaParameterString = "Landroid/media/ExifInterface";
 }

@@ -13,5 +13,5 @@ final class KeyStore_PasswordProtection : IJavaObject {
 	@Import void destroy();
 	@Import bool isDestroyed();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyStore$PasswordProtection");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$PasswordProtection";
 }

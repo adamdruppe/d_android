@@ -8,5 +8,5 @@ final class SystemHealthManager : IJavaObject {
 	@Import import0.HealthStats takeMyUidSnapshot();
 	@Import import0.HealthStats[] takeUidSnapshots(int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.health", "SystemHealthManager");
+	public static immutable string _javaParameterString = "Landroid/os/health/SystemHealthManager";
 }

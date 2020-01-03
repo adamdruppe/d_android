@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacterEnums$ECharacterCategory")
 interface UCharacterEnums_ECharacterCategory : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacterEnums$ECharacterCategory");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacterEnums$ECharacterCategory";
 }

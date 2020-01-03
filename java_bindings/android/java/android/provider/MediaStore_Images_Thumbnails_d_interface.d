@@ -18,5 +18,5 @@ final class MediaStore_Images_Thumbnails : IJavaObject {
 	@Import static import3.Bitmap getThumbnail(import1.ContentResolver, long, long, int, import4.BitmapFactory_Options);
 	@Import static import2.Uri getContentUri(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Images$Thumbnails");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Images$Thumbnails";
 }

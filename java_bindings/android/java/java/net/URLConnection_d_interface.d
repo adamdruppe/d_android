@@ -63,5 +63,5 @@ final class URLConnection : IJavaObject {
 	@Import static string guessContentTypeFromName(string);
 	@Import static string guessContentTypeFromStream(import5.InputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "URLConnection");
+	public static immutable string _javaParameterString = "Ljava/net/URLConnection";
 }

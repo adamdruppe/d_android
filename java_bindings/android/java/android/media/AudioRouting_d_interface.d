@@ -11,5 +11,5 @@ interface AudioRouting : IJavaObject {
 	@Import import0.AudioDeviceInfo getRoutedDevice();
 	@Import void addOnRoutingChangedListener(import1.AudioRouting_OnRoutingChangedListener, import2.Handler);
 	@Import void removeOnRoutingChangedListener(import1.AudioRouting_OnRoutingChangedListener);
-	mixin JavaPackageId!("android.media", "AudioRouting");
+	public static immutable string _javaParameterString = "Landroid/media/AudioRouting";
 }

@@ -5,5 +5,5 @@ import import0 = android.java.javax.sql.RowSetInternal_d_interface;
 
 interface RowSetWriter : IJavaObject {
 	@Import bool writeData(import0.RowSetInternal);
-	mixin JavaPackageId!("javax.sql", "RowSetWriter");
+	public static immutable string _javaParameterString = "Ljavax/sql/RowSetWriter";
 }

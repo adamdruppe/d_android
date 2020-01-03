@@ -9,5 +9,5 @@ final class Number : IJavaObject {
 	@Import byte byteValue();
 	@Import short shortValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Number");
+	public static immutable string _javaParameterString = "Ljava/lang/Number";
 }

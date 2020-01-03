@@ -20,5 +20,5 @@ final class TimeZoneNames : IJavaObject {
 	@Import string getTimeZoneDisplayName(string, import4.TimeZoneNames_NameType);
 	@Import string getExemplarLocationName(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "TimeZoneNames");
+	public static immutable string _javaParameterString = "Landroid/icu/text/TimeZoneNames";
 }

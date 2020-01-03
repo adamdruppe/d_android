@@ -10,5 +10,5 @@ final class AbstractQueue : IJavaObject {
 	@Import void clear();
 	@Import bool addAll(import0.Collection);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "AbstractQueue");
+	public static immutable string _javaParameterString = "Ljava/util/AbstractQueue";
 }

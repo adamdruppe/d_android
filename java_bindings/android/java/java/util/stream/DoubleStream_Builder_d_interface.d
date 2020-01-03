@@ -9,5 +9,5 @@ interface DoubleStream_Builder : IJavaObject {
 	@Import void accept(double);
 	@Import import0.DoubleStream_Builder add(double);
 	@Import import1.DoubleStream build();
-	mixin JavaPackageId!("java.util.stream", "DoubleStream$Builder");
+	public static immutable string _javaParameterString = "Ljava/util/stream/DoubleStream$Builder";
 }

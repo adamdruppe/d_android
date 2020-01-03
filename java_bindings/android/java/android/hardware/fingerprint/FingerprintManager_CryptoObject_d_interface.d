@@ -14,5 +14,5 @@ final class FingerprintManager_CryptoObject : IJavaObject {
 	@Import import1.Cipher getCipher();
 	@Import import2.Mac getMac();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.fingerprint", "FingerprintManager$CryptoObject");
+	public static immutable string _javaParameterString = "Landroid/hardware/fingerprint/FingerprintManager$CryptoObject";
 }

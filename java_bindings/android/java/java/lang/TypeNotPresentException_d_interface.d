@@ -7,5 +7,5 @@ final class TypeNotPresentException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import string typeName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "TypeNotPresentException");
+	public static immutable string _javaParameterString = "Ljava/lang/TypeNotPresentException";
 }

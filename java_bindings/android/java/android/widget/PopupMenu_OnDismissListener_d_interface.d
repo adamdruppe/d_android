@@ -6,5 +6,5 @@ import import0 = android.java.android.widget.PopupMenu_d_interface;
 @JavaName("PopupMenu$OnDismissListener")
 interface PopupMenu_OnDismissListener : IJavaObject {
 	@Import void onDismiss(import0.PopupMenu);
-	mixin JavaPackageId!("android.widget", "PopupMenu$OnDismissListener");
+	public static immutable string _javaParameterString = "Landroid/widget/PopupMenu$OnDismissListener";
 }

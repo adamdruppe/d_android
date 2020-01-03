@@ -8,5 +8,5 @@ final class FrameStats : IJavaObject {
 	@Import long getEndTimeNano();
 	@Import long getFramePresentedTimeNano(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "FrameStats");
+	public static immutable string _javaParameterString = "Landroid/view/FrameStats";
 }

@@ -8,5 +8,5 @@ final class X509ExtendedKeyManager : IJavaObject {
 	@Import string chooseEngineClientAlias(string, import0.Principal, import1.SSLEngine[][]);
 	@Import string chooseEngineServerAlias(string, import0.Principal, import1.SSLEngine[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "X509ExtendedKeyManager");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/X509ExtendedKeyManager";
 }

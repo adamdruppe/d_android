@@ -6,5 +6,5 @@ final class MediaDrm_ProvisionRequest : IJavaObject {
 	@Import byte[] getData();
 	@Import string getDefaultUrl();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDrm$ProvisionRequest");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$ProvisionRequest";
 }

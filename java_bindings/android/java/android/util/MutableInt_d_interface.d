@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MutableInt : IJavaObject {
 	@Import this(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MutableInt");
+	public static immutable string _javaParameterString = "Landroid/util/MutableInt";
 }

@@ -35,5 +35,5 @@ final class MtpDevice : IJavaObject {
 	@Import import4.MtpObjectInfo sendObjectInfo(import4.MtpObjectInfo);
 	@Import import6.MtpEvent readEvent(import7.CancellationSignal);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.mtp", "MtpDevice");
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpDevice";
 }

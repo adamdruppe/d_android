@@ -12,5 +12,5 @@ final class BatchUpdates_Builder : IJavaObject {
 	@Import import0.BatchUpdates_Builder transformChild(int, import2.Transformation);
 	@Import import3.BatchUpdates build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "BatchUpdates$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/BatchUpdates$Builder";
 }

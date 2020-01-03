@@ -20,5 +20,5 @@ final class URLClassLoader : IJavaObject {
 	@Import static import5.URLClassLoader newInstance(import0.URL, import1.ClassLoader[]);
 	@Import static import5.URLClassLoader newInstance(import0.URL[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "URLClassLoader");
+	public static immutable string _javaParameterString = "Ljava/net/URLClassLoader";
 }

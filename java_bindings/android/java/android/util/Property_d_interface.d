@@ -13,5 +13,5 @@ final class Property : IJavaObject {
 	@Import string getName();
 	@Import import0.Class getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Property");
+	public static immutable string _javaParameterString = "Landroid/util/Property";
 }

@@ -32,5 +32,5 @@ final class MethodHandles : IJavaObject {
 	@Import static import3.MethodHandle catchException(import3.MethodHandle, import2.Class, import3.MethodHandle);
 	@Import static import3.MethodHandle throwException(import2.Class, import2.Class);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.invoke", "MethodHandles");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/MethodHandles";
 }

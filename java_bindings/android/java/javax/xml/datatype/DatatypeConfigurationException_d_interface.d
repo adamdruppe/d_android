@@ -13,5 +13,5 @@ final class DatatypeConfigurationException : IJavaObject {
 	@Import void printStackTrace(import1.PrintStream);
 	@Import void printStackTrace(import2.PrintWriter);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.datatype", "DatatypeConfigurationException");
+	public static immutable string _javaParameterString = "Ljavax/xml/datatype/DatatypeConfigurationException";
 }

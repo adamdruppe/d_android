@@ -37,5 +37,5 @@ final class KeyGenParameterSpec_Builder : IJavaObject {
 	@Import import0.KeyGenParameterSpec_Builder setUnlockedDeviceRequired(bool);
 	@Import import5.KeyGenParameterSpec build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "KeyGenParameterSpec$Builder");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/KeyGenParameterSpec$Builder";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SEService$OnConnectedListener")
 interface SEService_OnConnectedListener : IJavaObject {
 	@Import void onConnected();
-	mixin JavaPackageId!("android.se.omapi", "SEService$OnConnectedListener");
+	public static immutable string _javaParameterString = "Landroid/se/omapi/SEService$OnConnectedListener";
 }

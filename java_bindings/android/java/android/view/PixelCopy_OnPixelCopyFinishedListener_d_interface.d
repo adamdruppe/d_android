@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("PixelCopy$OnPixelCopyFinishedListener")
 interface PixelCopy_OnPixelCopyFinishedListener : IJavaObject {
 	@Import void onPixelCopyFinished(int);
-	mixin JavaPackageId!("android.view", "PixelCopy$OnPixelCopyFinishedListener");
+	public static immutable string _javaParameterString = "Landroid/view/PixelCopy$OnPixelCopyFinishedListener";
 }

@@ -7,5 +7,5 @@ final class TimedText : IJavaObject {
 	@Import string getText();
 	@Import import0.Rect getBounds();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "TimedText");
+	public static immutable string _javaParameterString = "Landroid/media/TimedText";
 }

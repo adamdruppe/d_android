@@ -15,5 +15,5 @@ final class LinkAddress : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "LinkAddress");
+	public static immutable string _javaParameterString = "Landroid/net/LinkAddress";
 }

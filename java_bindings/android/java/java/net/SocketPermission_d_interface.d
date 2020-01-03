@@ -8,5 +8,5 @@ final class SocketPermission : IJavaObject {
 	@Import bool implies(import0.Permission);
 	@Import string getActions();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "SocketPermission");
+	public static immutable string _javaParameterString = "Ljava/net/SocketPermission";
 }

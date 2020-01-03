@@ -9,5 +9,5 @@ interface AccountManagerFuture : IJavaObject {
 	@Import bool isDone();
 	@Import IJavaObject getResult();
 	@Import IJavaObject getResult(long, import0.TimeUnit);
-	mixin JavaPackageId!("android.accounts", "AccountManagerFuture");
+	public static immutable string _javaParameterString = "Landroid/accounts/AccountManagerFuture";
 }

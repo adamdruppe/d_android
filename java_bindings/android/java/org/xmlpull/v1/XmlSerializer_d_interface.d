@@ -32,5 +32,5 @@ interface XmlSerializer : IJavaObject {
 	@Import void docdecl(string);
 	@Import void ignorableWhitespace(string);
 	@Import void flush();
-	mixin JavaPackageId!("org.xmlpull.v1", "XmlSerializer");
+	public static immutable string _javaParameterString = "Lorg/xmlpull/v1/XmlSerializer";
 }

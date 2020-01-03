@@ -10,5 +10,5 @@ final class PrivateCredentialPermission : IJavaObject {
 	@Import bool implies(import0.Permission);
 	@Import string getActions();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth", "PrivateCredentialPermission");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/PrivateCredentialPermission";
 }

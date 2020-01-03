@@ -10,5 +10,5 @@ final class AnalogClock : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet, int);
 	@Import this(import0.Context, import1.AttributeSet, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AnalogClock");
+	public static immutable string _javaParameterString = "Landroid/widget/AnalogClock";
 }

@@ -13,5 +13,5 @@ final class BluetoothHidDevice_Callback : IJavaObject {
 	@Import void onInterruptData(import0.BluetoothDevice, byte, byte[]);
 	@Import void onVirtualCableUnplug(import0.BluetoothDevice);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothHidDevice$Callback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothHidDevice$Callback";
 }

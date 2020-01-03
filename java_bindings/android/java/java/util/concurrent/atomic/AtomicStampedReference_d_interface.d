@@ -11,5 +11,5 @@ final class AtomicStampedReference : IJavaObject {
 	@Import void set(IJavaObject, int);
 	@Import bool attemptStamp(IJavaObject, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicStampedReference");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicStampedReference";
 }

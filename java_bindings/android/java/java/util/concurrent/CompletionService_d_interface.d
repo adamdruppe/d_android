@@ -12,5 +12,5 @@ interface CompletionService : IJavaObject {
 	@Import import0.Future take();
 	@Import import0.Future poll();
 	@Import import0.Future poll(long, import3.TimeUnit);
-	mixin JavaPackageId!("java.util.concurrent", "CompletionService");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CompletionService";
 }

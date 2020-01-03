@@ -8,5 +8,5 @@ import import1 = android.java.android.transition.Transition_d_interface;
 final class Transition_EpicenterCallback : IJavaObject {
 	@Import import0.Rect onGetEpicenter(import1.Transition);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "Transition$EpicenterCallback");
+	public static immutable string _javaParameterString = "Landroid/transition/Transition$EpicenterCallback";
 }

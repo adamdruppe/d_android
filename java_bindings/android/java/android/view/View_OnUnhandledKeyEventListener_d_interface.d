@@ -7,5 +7,5 @@ import import1 = android.java.android.view.KeyEvent_d_interface;
 @JavaName("View$OnUnhandledKeyEventListener")
 interface View_OnUnhandledKeyEventListener : IJavaObject {
 	@Import bool onUnhandledKeyEvent(import0.View, import1.KeyEvent);
-	mixin JavaPackageId!("android.view", "View$OnUnhandledKeyEventListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnUnhandledKeyEventListener";
 }

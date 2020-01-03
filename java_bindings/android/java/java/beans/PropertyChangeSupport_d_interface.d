@@ -21,5 +21,5 @@ final class PropertyChangeSupport : IJavaObject {
 	@Import void fireIndexedPropertyChange(string, int, bool, bool);
 	@Import bool hasListeners(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.beans", "PropertyChangeSupport");
+	public static immutable string _javaParameterString = "Ljava/beans/PropertyChangeSupport";
 }

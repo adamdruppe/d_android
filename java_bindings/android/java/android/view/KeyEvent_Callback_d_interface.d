@@ -9,5 +9,5 @@ interface KeyEvent_Callback : IJavaObject {
 	@Import bool onKeyLongPress(int, import0.KeyEvent);
 	@Import bool onKeyUp(int, import0.KeyEvent);
 	@Import bool onKeyMultiple(int, int, import0.KeyEvent);
-	mixin JavaPackageId!("android.view", "KeyEvent$Callback");
+	public static immutable string _javaParameterString = "Landroid/view/KeyEvent$Callback";
 }

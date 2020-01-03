@@ -18,5 +18,5 @@ final class Security : IJavaObject {
 	@Import static void setProperty(string, string);
 	@Import static import2.Set getAlgorithms(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Security");
+	public static immutable string _javaParameterString = "Ljava/security/Security";
 }

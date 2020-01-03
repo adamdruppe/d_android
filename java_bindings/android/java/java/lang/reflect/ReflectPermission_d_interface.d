@@ -5,5 +5,5 @@ final class ReflectPermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "ReflectPermission");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/ReflectPermission";
 }

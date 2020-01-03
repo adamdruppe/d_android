@@ -14,5 +14,5 @@ final class CipherInputStream : IJavaObject {
 	@Import void close();
 	@Import bool markSupported();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "CipherInputStream");
+	public static immutable string _javaParameterString = "Ljavax/crypto/CipherInputStream";
 }

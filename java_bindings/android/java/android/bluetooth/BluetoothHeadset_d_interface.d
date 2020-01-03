@@ -13,5 +13,5 @@ final class BluetoothHeadset : IJavaObject {
 	@Import bool isAudioConnected(import1.BluetoothDevice);
 	@Import bool sendVendorSpecificResultCode(import1.BluetoothDevice, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothHeadset");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothHeadset";
 }

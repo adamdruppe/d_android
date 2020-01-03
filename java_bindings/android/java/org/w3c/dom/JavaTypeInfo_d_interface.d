@@ -6,5 +6,5 @@ interface JavaTypeInfo : IJavaObject {
 	@Import string getTypeName();
 	@Import string getTypeNamespace();
 	@Import bool isDerivedFrom(string, string, int);
-	mixin JavaPackageId!("org.w3c.dom", "TypeInfo");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/TypeInfo";
 }

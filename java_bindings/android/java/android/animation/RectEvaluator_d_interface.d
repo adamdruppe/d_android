@@ -8,5 +8,5 @@ final class RectEvaluator : IJavaObject {
 	@Import import0.Rect evaluate(float, import0.Rect, import0.Rect);
 	@Import IJavaObject evaluate(float, IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "RectEvaluator");
+	public static immutable string _javaParameterString = "Landroid/animation/RectEvaluator";
 }

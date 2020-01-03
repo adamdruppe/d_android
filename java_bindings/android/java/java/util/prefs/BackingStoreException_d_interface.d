@@ -7,5 +7,5 @@ final class BackingStoreException : IJavaObject {
 	@Import this(string);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.prefs", "BackingStoreException");
+	public static immutable string _javaParameterString = "Ljava/util/prefs/BackingStoreException";
 }

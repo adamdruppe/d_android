@@ -9,5 +9,5 @@ final class MessagePattern_Part_Type : IJavaObject {
 	@Import static import0.MessagePattern_Part_Type valueOf(string);
 	@Import bool hasNumericValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MessagePattern$Part$Type");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MessagePattern$Part$Type";
 }

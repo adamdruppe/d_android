@@ -14,5 +14,5 @@ final class Gravity : IJavaObject {
 	@Import static bool isHorizontal(int);
 	@Import static int getAbsoluteGravity(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Gravity");
+	public static immutable string _javaParameterString = "Landroid/view/Gravity";
 }

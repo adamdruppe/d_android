@@ -12,5 +12,5 @@ final class ScientificNumberFormatter : IJavaObject {
 	@Import static import0.ScientificNumberFormatter getMarkupInstance(import2.DecimalFormat, string, string);
 	@Import string format(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "ScientificNumberFormatter");
+	public static immutable string _javaParameterString = "Landroid/icu/text/ScientificNumberFormatter";
 }

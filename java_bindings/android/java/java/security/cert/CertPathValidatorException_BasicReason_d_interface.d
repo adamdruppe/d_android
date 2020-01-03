@@ -8,5 +8,5 @@ final class CertPathValidatorException_BasicReason : IJavaObject {
 	@Import static import0.CertPathValidatorException_BasicReason[] values();
 	@Import static import0.CertPathValidatorException_BasicReason valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertPathValidatorException$BasicReason");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathValidatorException$BasicReason";
 }

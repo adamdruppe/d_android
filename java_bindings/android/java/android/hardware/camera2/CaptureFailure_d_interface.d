@@ -10,5 +10,5 @@ final class CaptureFailure : IJavaObject {
 	@Import bool wasImageCaptured();
 	@Import int getSequenceId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CaptureFailure");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CaptureFailure";
 }

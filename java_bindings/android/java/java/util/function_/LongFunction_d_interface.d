@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface LongFunction : IJavaObject {
 	@Import IJavaObject apply(long);
-	mixin JavaPackageId!("java.util.function", "LongFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/LongFunction";
 }

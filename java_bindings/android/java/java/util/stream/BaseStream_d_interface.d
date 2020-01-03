@@ -15,5 +15,5 @@ interface BaseStream : IJavaObject {
 	@Import import2.BaseStream unordered();
 	@Import import2.BaseStream onClose(import3.Runnable);
 	@Import void close();
-	mixin JavaPackageId!("java.util.stream", "BaseStream");
+	public static immutable string _javaParameterString = "Ljava/util/stream/BaseStream";
 }

@@ -110,5 +110,5 @@ final class Os : IJavaObject {
 	@Import static int write(import0.FileDescriptor, byte, int, int[]);
 	@Import static int writev(import0.FileDescriptor, IJavaObject, int, int[][][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "Os");
+	public static immutable string _javaParameterString = "Landroid/system/Os";
 }

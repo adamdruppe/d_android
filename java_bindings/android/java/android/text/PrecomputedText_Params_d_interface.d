@@ -14,5 +14,5 @@ final class PrecomputedText_Params : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "PrecomputedText$Params");
+	public static immutable string _javaParameterString = "Landroid/text/PrecomputedText$Params";
 }

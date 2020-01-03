@@ -23,5 +23,5 @@ final class KeyPairGeneratorSpec_Builder : IJavaObject {
 	@Import import1.KeyPairGeneratorSpec_Builder setEncryptionRequired();
 	@Import import6.KeyPairGeneratorSpec build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "KeyPairGeneratorSpec$Builder");
+	public static immutable string _javaParameterString = "Landroid/security/KeyPairGeneratorSpec$Builder";
 }

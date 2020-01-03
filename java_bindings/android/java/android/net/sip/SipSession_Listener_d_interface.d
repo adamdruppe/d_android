@@ -19,5 +19,5 @@ final class SipSession_Listener : IJavaObject {
 	@Import void onRegistrationFailed(import0.SipSession, int, string);
 	@Import void onRegistrationTimeout(import0.SipSession);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipSession$Listener");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipSession$Listener";
 }

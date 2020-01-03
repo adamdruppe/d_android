@@ -31,5 +31,5 @@ final class SAXParser : IJavaObject {
 	@Import import7.Schema getSchema();
 	@Import bool isXIncludeAware();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.parsers", "SAXParser");
+	public static immutable string _javaParameterString = "Ljavax/xml/parsers/SAXParser";
 }

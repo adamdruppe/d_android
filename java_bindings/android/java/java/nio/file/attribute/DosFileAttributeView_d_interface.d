@@ -12,5 +12,5 @@ interface DosFileAttributeView : IJavaObject {
 	@Import void setSystem(bool);
 	@Import void setArchive(bool);
 	@Import import1.BasicFileAttributes readAttributes();
-	mixin JavaPackageId!("java.nio.file.attribute", "DosFileAttributeView");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/DosFileAttributeView";
 }

@@ -9,5 +9,5 @@ final class PackageInstaller_SessionCallback : IJavaObject {
 	@Import void onProgressChanged(int, float);
 	@Import void onFinished(int, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageInstaller$SessionCallback");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageInstaller$SessionCallback";
 }

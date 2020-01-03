@@ -44,5 +44,5 @@ final class BitSet : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import import3.IntStream stream();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "BitSet");
+	public static immutable string _javaParameterString = "Ljava/util/BitSet";
 }

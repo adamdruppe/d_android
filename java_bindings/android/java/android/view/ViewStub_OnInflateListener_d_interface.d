@@ -7,5 +7,5 @@ import import0 = android.java.android.view.ViewStub_d_interface;
 @JavaName("ViewStub$OnInflateListener")
 interface ViewStub_OnInflateListener : IJavaObject {
 	@Import void onInflate(import0.ViewStub, import1.View);
-	mixin JavaPackageId!("android.view", "ViewStub$OnInflateListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewStub$OnInflateListener";
 }

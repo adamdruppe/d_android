@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Contacts$Intents$Insert")
 final class Contacts_Intents_Insert : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Contacts$Intents$Insert");
+	public static immutable string _javaParameterString = "Landroid/provider/Contacts$Intents$Insert";
 }

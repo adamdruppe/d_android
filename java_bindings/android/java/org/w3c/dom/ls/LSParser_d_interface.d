@@ -17,5 +17,5 @@ interface LSParser : IJavaObject {
 	@Import import2.Document parseURI(string);
 	@Import import4.Node parseWithContext(import3.LSInput, import4.Node, short);
 	@Import void abort();
-	mixin JavaPackageId!("org.w3c.dom.ls", "LSParser");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/LSParser";
 }

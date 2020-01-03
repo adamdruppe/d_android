@@ -22,5 +22,5 @@ final class UScript : IJavaObject {
 	@Import static bool breaksBetweenLetters(int);
 	@Import static bool isCased(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.lang", "UScript");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UScript";
 }

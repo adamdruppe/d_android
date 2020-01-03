@@ -15,5 +15,5 @@ final class Reader : IJavaObject {
 	@Import void reset();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "Reader");
+	public static immutable string _javaParameterString = "Ljava/io/Reader";
 }

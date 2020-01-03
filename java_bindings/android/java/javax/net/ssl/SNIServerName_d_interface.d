@@ -8,5 +8,5 @@ final class SNIServerName : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SNIServerName");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SNIServerName";
 }

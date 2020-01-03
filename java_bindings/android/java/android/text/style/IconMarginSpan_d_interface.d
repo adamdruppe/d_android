@@ -15,5 +15,5 @@ final class IconMarginSpan : IJavaObject {
 	@Import void drawLeadingMargin(import1.Canvas, import2.Paint, int, int, int, int, int, import3.CharSequence, int, int, bool, import4.Layout);
 	@Import void chooseHeight(import3.CharSequence, int, int, int, int, import5.Paint_FontMetricsInt);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "IconMarginSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/IconMarginSpan";
 }

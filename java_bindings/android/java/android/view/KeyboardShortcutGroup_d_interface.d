@@ -15,5 +15,5 @@ final class KeyboardShortcutGroup : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "KeyboardShortcutGroup");
+	public static immutable string _javaParameterString = "Landroid/view/KeyboardShortcutGroup";
 }

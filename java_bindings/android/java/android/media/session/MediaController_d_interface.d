@@ -38,5 +38,5 @@ final class MediaController : IJavaObject {
 	@Import void sendCommand(string, import8.Bundle, import13.ResultReceiver);
 	@Import string getPackageName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaController");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaController";
 }

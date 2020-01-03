@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("PopupWindow$OnDismissListener")
 interface PopupWindow_OnDismissListener : IJavaObject {
 	@Import void onDismiss();
-	mixin JavaPackageId!("android.widget", "PopupWindow$OnDismissListener");
+	public static immutable string _javaParameterString = "Landroid/widget/PopupWindow$OnDismissListener";
 }

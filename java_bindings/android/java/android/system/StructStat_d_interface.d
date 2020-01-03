@@ -8,5 +8,5 @@ final class StructStat : IJavaObject {
 	@Import this(long, long, int, long, int, int, long, long, import0.StructTimespec, import0.StructTimespec, import0.StructTimespec, long, long);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "StructStat");
+	public static immutable string _javaParameterString = "Landroid/system/StructStat";
 }

@@ -13,5 +13,5 @@ final class SearchRecentSuggestionsProvider : IJavaObject {
 	@Import import2.Cursor query(import0.Uri, string, string, string, string[][]);
 	@Import int update(import0.Uri, import1.ContentValues, string, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "SearchRecentSuggestionsProvider");
+	public static immutable string _javaParameterString = "Landroid/content/SearchRecentSuggestionsProvider";
 }

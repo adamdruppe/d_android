@@ -16,5 +16,5 @@ final class Interpolator : IJavaObject {
 	@Import import0.Interpolator_Result timeToValues(float[]);
 	@Import import0.Interpolator_Result timeToValues(int, float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Interpolator");
+	public static immutable string _javaParameterString = "Landroid/graphics/Interpolator";
 }

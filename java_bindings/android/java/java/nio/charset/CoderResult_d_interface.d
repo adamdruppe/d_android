@@ -15,5 +15,5 @@ final class CoderResult : IJavaObject {
 	@Import static import0.CoderResult unmappableForLength(int);
 	@Import void throwException();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "CoderResult");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/CoderResult";
 }

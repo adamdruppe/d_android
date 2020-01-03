@@ -9,5 +9,5 @@ final class WifiManager_LocalOnlyHotspotCallback : IJavaObject {
 	@Import void onStopped();
 	@Import void onFailed(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiManager$LocalOnlyHotspotCallback");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiManager$LocalOnlyHotspotCallback";
 }

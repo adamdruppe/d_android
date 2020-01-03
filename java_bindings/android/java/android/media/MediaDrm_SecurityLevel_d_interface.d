@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("MediaDrm$SecurityLevel")
 interface MediaDrm_SecurityLevel : IJavaObject {
-	mixin JavaPackageId!("android.media", "MediaDrm$SecurityLevel");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$SecurityLevel";
 }

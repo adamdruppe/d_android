@@ -7,5 +7,5 @@ import import0 = android.java.android.widget.AbsListView_d_interface;
 interface AbsListView_OnScrollListener : IJavaObject {
 	@Import void onScrollStateChanged(import0.AbsListView, int);
 	@Import void onScroll(import0.AbsListView, int, int, int);
-	mixin JavaPackageId!("android.widget", "AbsListView$OnScrollListener");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsListView$OnScrollListener";
 }

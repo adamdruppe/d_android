@@ -5,5 +5,5 @@ import import0 = android.java.java.lang.Class_d_interface;
 
 interface Repeatable : IJavaObject {
 	@Import import0.Class value();
-	mixin JavaPackageId!("java.lang.annotation", "Repeatable");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/Repeatable";
 }

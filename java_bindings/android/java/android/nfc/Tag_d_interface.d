@@ -10,5 +10,5 @@ final class Tag : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc", "Tag");
+	public static immutable string _javaParameterString = "Landroid/nfc/Tag";
 }

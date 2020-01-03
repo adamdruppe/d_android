@@ -12,5 +12,5 @@ final class TextSelection_Request_Builder : IJavaObject {
 	@Import import1.TextSelection_Request_Builder setDefaultLocales(import2.LocaleList);
 	@Import import3.TextSelection_Request build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextSelection$Request$Builder");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextSelection$Request$Builder";
 }

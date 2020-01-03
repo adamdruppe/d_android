@@ -10,5 +10,5 @@ final class BiometricPrompt : IJavaObject {
 	@Import void authenticate(import0.BiometricPrompt_CryptoObject, import1.CancellationSignal, import2.Executor, import3.BiometricPrompt_AuthenticationCallback);
 	@Import void authenticate(import1.CancellationSignal, import2.Executor, import3.BiometricPrompt_AuthenticationCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.biometrics", "BiometricPrompt");
+	public static immutable string _javaParameterString = "Landroid/hardware/biometrics/BiometricPrompt";
 }

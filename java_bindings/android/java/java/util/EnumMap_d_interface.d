@@ -29,5 +29,5 @@ final class EnumMap : IJavaObject {
 	@Import IJavaObject clone();
 	@Import IJavaObject put(IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "EnumMap");
+	public static immutable string _javaParameterString = "Ljava/util/EnumMap";
 }

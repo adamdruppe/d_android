@@ -61,5 +61,5 @@ final class ListView : IJavaObject {
 	@Import void setAdapter(import10.Adapter);
 	@Import import10.Adapter getAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ListView");
+	public static immutable string _javaParameterString = "Landroid/widget/ListView";
 }

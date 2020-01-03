@@ -33,5 +33,5 @@ final class LongBuffer : IJavaObject {
 	@Import IJavaObject array();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "LongBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/LongBuffer";
 }

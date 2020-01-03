@@ -49,5 +49,5 @@ final class Collator : IJavaObject {
 	@Import IJavaObject cloneAsThawed();
 	@Import IJavaObject freeze();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "Collator");
+	public static immutable string _javaParameterString = "Landroid/icu/text/Collator";
 }

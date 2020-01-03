@@ -23,5 +23,5 @@ final class BidiFormatter : IJavaObject {
 	@Import string unicodeWrap(string);
 	@Import import2.CharSequence unicodeWrap(import2.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "BidiFormatter");
+	public static immutable string _javaParameterString = "Landroid/text/BidiFormatter";
 }

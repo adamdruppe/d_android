@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class PackageManager_NameNotFoundException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageManager$NameNotFoundException");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageManager$NameNotFoundException";
 }

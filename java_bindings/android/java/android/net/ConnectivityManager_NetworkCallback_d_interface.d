@@ -14,5 +14,5 @@ final class ConnectivityManager_NetworkCallback : IJavaObject {
 	@Import void onCapabilitiesChanged(import0.Network, import1.NetworkCapabilities);
 	@Import void onLinkPropertiesChanged(import0.Network, import2.LinkProperties);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "ConnectivityManager$NetworkCallback");
+	public static immutable string _javaParameterString = "Landroid/net/ConnectivityManager$NetworkCallback";
 }

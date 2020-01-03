@@ -6,5 +6,5 @@ import import0 = android.java.android.content.res.Configuration_d_interface;
 interface ComponentCallbacks : IJavaObject {
 	@Import void onConfigurationChanged(import0.Configuration);
 	@Import void onLowMemory();
-	mixin JavaPackageId!("android.content", "ComponentCallbacks");
+	public static immutable string _javaParameterString = "Landroid/content/ComponentCallbacks";
 }

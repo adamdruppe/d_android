@@ -10,5 +10,5 @@ final class PrintDocumentAdapter_WriteResultCallback : IJavaObject {
 	@Import void onWriteFailed(import1.CharSequence);
 	@Import void onWriteCancelled();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintDocumentAdapter$WriteResultCallback");
+	public static immutable string _javaParameterString = "Landroid/print/PrintDocumentAdapter$WriteResultCallback";
 }

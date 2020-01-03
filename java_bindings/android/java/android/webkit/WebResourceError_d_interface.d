@@ -7,5 +7,5 @@ final class WebResourceError : IJavaObject {
 	@Import int getErrorCode();
 	@Import import0.CharSequence getDescription();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebResourceError");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebResourceError";
 }

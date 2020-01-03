@@ -11,5 +11,5 @@ interface Lock : IJavaObject {
 	@Import bool tryLock(long, import0.TimeUnit);
 	@Import void unlock();
 	@Import import1.Condition newCondition();
-	mixin JavaPackageId!("java.util.concurrent.locks", "Lock");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/Lock";
 }

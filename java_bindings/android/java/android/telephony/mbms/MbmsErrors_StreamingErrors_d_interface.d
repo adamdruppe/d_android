@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MbmsErrors$StreamingErrors")
 final class MbmsErrors_StreamingErrors : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "MbmsErrors$StreamingErrors");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/MbmsErrors$StreamingErrors";
 }

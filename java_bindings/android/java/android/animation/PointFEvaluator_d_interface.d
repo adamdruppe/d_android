@@ -8,5 +8,5 @@ final class PointFEvaluator : IJavaObject {
 	@Import import0.PointF evaluate(float, import0.PointF, import0.PointF);
 	@Import IJavaObject evaluate(float, IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "PointFEvaluator");
+	public static immutable string _javaParameterString = "Landroid/animation/PointFEvaluator";
 }

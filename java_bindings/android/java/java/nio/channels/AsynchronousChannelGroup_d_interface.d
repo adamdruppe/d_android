@@ -18,5 +18,5 @@ final class AsynchronousChannelGroup : IJavaObject {
 	@Import void shutdownNow();
 	@Import bool awaitTermination(long, import4.TimeUnit);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "AsynchronousChannelGroup");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/AsynchronousChannelGroup";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class NonWritableChannelException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "NonWritableChannelException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/NonWritableChannelException";
 }

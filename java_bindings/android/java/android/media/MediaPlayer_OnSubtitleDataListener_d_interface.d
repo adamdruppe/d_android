@@ -7,5 +7,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnSubtitleDataListener")
 interface MediaPlayer_OnSubtitleDataListener : IJavaObject {
 	@Import void onSubtitleData(import0.MediaPlayer, import1.SubtitleData);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnSubtitleDataListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnSubtitleDataListener";
 }

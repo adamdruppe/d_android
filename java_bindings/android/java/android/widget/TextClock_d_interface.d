@@ -19,5 +19,5 @@ final class TextClock : IJavaObject {
 	@Import void setTimeZone(string);
 	@Import void onVisibilityAggregated(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TextClock");
+	public static immutable string _javaParameterString = "Landroid/widget/TextClock";
 }

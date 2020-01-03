@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ActivityInfo_WindowLayout : IJavaObject {
 	@Import this(int, float, int, float, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ActivityInfo$WindowLayout");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ActivityInfo$WindowLayout";
 }

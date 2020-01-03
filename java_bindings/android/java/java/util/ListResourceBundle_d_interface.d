@@ -7,5 +7,5 @@ final class ListResourceBundle : IJavaObject {
 	@Import IJavaObject handleGetObject(string);
 	@Import import0.Enumeration getKeys();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ListResourceBundle");
+	public static immutable string _javaParameterString = "Ljava/util/ListResourceBundle";
 }

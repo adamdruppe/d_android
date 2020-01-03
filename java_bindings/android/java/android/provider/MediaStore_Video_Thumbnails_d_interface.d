@@ -14,5 +14,5 @@ final class MediaStore_Video_Thumbnails : IJavaObject {
 	@Import static void cancelThumbnailRequest(import0.ContentResolver, long, long);
 	@Import static import3.Uri getContentUri(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Video$Thumbnails");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Video$Thumbnails";
 }

@@ -16,5 +16,5 @@ interface Parser : IJavaObject {
 	@Import void setErrorHandler(import4.ErrorHandler);
 	@Import void parse(import5.InputSource);
 	@Import void parse(string);
-	mixin JavaPackageId!("org.xml.sax", "Parser");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/Parser";
 }

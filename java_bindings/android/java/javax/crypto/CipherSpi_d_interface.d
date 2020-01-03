@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class CipherSpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "CipherSpi");
+	public static immutable string _javaParameterString = "Ljavax/crypto/CipherSpi";
 }

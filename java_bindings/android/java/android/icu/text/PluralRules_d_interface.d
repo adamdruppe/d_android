@@ -25,5 +25,5 @@ final class PluralRules : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import bool equals(import0.PluralRules);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "PluralRules");
+	public static immutable string _javaParameterString = "Landroid/icu/text/PluralRules";
 }

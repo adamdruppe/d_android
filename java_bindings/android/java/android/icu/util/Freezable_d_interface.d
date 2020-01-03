@@ -5,5 +5,5 @@ interface Freezable : IJavaObject {
 	@Import bool isFrozen();
 	@Import IJavaObject freeze();
 	@Import IJavaObject cloneAsThawed();
-	mixin JavaPackageId!("android.icu.util", "Freezable");
+	public static immutable string _javaParameterString = "Landroid/icu/util/Freezable";
 }

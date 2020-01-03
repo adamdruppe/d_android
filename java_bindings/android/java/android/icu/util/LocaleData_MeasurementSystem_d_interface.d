@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("LocaleData$MeasurementSystem")
 final class LocaleData_MeasurementSystem : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "LocaleData$MeasurementSystem");
+	public static immutable string _javaParameterString = "Landroid/icu/util/LocaleData$MeasurementSystem";
 }

@@ -11,5 +11,5 @@ final class WebMessagePort : IJavaObject {
 	@Import void setWebMessageCallback(import1.WebMessagePort_WebMessageCallback);
 	@Import void setWebMessageCallback(import1.WebMessagePort_WebMessageCallback, import2.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebMessagePort");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebMessagePort";
 }

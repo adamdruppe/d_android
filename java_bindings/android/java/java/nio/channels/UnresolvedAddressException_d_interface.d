@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class UnresolvedAddressException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "UnresolvedAddressException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/UnresolvedAddressException";
 }

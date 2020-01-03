@@ -46,5 +46,5 @@ final class NotificationListenerService : IJavaObject {
 	@Import static void requestRebind(import8.ComponentName);
 	@Import void requestUnbind();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.notification", "NotificationListenerService");
+	public static immutable string _javaParameterString = "Landroid/service/notification/NotificationListenerService";
 }

@@ -26,5 +26,5 @@ final class WeakHashMap : IJavaObject {
 	@Import void forEach(import3.BiConsumer);
 	@Import void replaceAll(import4.BiFunction);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "WeakHashMap");
+	public static immutable string _javaParameterString = "Ljava/util/WeakHashMap";
 }

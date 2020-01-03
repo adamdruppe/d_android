@@ -34,5 +34,5 @@ final class LinkedTransferQueue : IJavaObject {
 	@Import bool contains(IJavaObject);
 	@Import int remainingCapacity();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "LinkedTransferQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/LinkedTransferQueue";
 }

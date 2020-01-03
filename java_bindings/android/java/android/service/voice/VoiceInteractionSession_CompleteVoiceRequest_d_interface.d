@@ -11,5 +11,5 @@ final class VoiceInteractionSession_CompleteVoiceRequest : IJavaObject {
 	@Import import1.CharSequence getMessage();
 	@Import void sendCompleteResult(import2.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession$CompleteVoiceRequest");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession$CompleteVoiceRequest";
 }

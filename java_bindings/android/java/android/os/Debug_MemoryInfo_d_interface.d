@@ -18,5 +18,5 @@ final class Debug_MemoryInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import void readFromParcel(import1.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Debug$MemoryInfo");
+	public static immutable string _javaParameterString = "Landroid/os/Debug$MemoryInfo";
 }

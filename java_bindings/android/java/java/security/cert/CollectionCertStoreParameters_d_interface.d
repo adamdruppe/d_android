@@ -9,5 +9,5 @@ final class CollectionCertStoreParameters : IJavaObject {
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CollectionCertStoreParameters");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CollectionCertStoreParameters";
 }

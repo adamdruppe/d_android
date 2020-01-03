@@ -9,5 +9,5 @@ final class ConsumerIrManager_CarrierFrequencyRange : IJavaObject {
 	@Import int getMinFrequency();
 	@Import int getMaxFrequency();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "ConsumerIrManager$CarrierFrequencyRange");
+	public static immutable string _javaParameterString = "Landroid/hardware/ConsumerIrManager$CarrierFrequencyRange";
 }

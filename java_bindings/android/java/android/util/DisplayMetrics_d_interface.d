@@ -11,5 +11,5 @@ final class DisplayMetrics : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "DisplayMetrics");
+	public static immutable string _javaParameterString = "Landroid/util/DisplayMetrics";
 }

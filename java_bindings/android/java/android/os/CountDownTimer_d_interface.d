@@ -10,5 +10,5 @@ final class CountDownTimer : IJavaObject {
 	@Import void onTick(long);
 	@Import void onFinish();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "CountDownTimer");
+	public static immutable string _javaParameterString = "Landroid/os/CountDownTimer";
 }

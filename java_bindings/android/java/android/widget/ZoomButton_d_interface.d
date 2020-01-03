@@ -21,5 +21,5 @@ final class ZoomButton : IJavaObject {
 	@Import bool dispatchUnhandledMove(import3.View, int);
 	@Import import5.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ZoomButton");
+	public static immutable string _javaParameterString = "Landroid/widget/ZoomButton";
 }

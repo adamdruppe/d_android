@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MutableFloat : IJavaObject {
 	@Import this(float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MutableFloat");
+	public static immutable string _javaParameterString = "Landroid/util/MutableFloat";
 }

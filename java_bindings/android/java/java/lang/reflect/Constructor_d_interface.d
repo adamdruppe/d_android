@@ -14,6 +14,7 @@ final class Constructor : IJavaObject {
 	@Import import0.Class[] getParameterTypes();
 	@Import int getParameterCount();
 	@Import import2.Type[] getGenericParameterTypes();
+	@Import import0.Class[] getExceptionTypes();
 	@Import import2.Type[] getGenericExceptionTypes();
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
@@ -26,5 +27,5 @@ final class Constructor : IJavaObject {
 	@Import import3.Annotation[] getDeclaredAnnotations();
 	@Import import3.Annotation[][] getParameterAnnotations();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "Constructor");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Constructor";
 }

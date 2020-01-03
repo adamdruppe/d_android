@@ -5,5 +5,5 @@ final class NoSuchFileException : IJavaObject {
 	@Import this(string);
 	@Import this(string, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "NoSuchFileException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/NoSuchFileException";
 }

@@ -16,5 +16,5 @@ final class MediaBrowser_MediaItem : IJavaObject {
 	@Import import0.MediaDescription getDescription();
 	@Import string getMediaId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.browse", "MediaBrowser$MediaItem");
+	public static immutable string _javaParameterString = "Landroid/media/browse/MediaBrowser$MediaItem";
 }

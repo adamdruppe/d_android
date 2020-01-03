@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ViewTreeObserver$OnGlobalLayoutListener")
 interface ViewTreeObserver_OnGlobalLayoutListener : IJavaObject {
 	@Import void onGlobalLayout();
-	mixin JavaPackageId!("android.view", "ViewTreeObserver$OnGlobalLayoutListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewTreeObserver$OnGlobalLayoutListener";
 }

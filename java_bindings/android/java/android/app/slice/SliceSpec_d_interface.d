@@ -14,5 +14,5 @@ final class SliceSpec : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.slice", "SliceSpec");
+	public static immutable string _javaParameterString = "Landroid/app/slice/SliceSpec";
 }

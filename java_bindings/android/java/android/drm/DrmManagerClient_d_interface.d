@@ -45,5 +45,5 @@ final class DrmManagerClient : IJavaObject {
 	@Import import9.DrmConvertedStatus convertData(int, byte[]);
 	@Import import9.DrmConvertedStatus closeConvertSession(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmManagerClient");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmManagerClient";
 }

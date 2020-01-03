@@ -8,5 +8,5 @@ final class CertificateParsingException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertificateParsingException");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertificateParsingException";
 }

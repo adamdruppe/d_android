@@ -23,5 +23,5 @@ final class Sensor : IJavaObject {
 	@Import bool isAdditionalInfoSupported();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "Sensor");
+	public static immutable string _javaParameterString = "Landroid/hardware/Sensor";
 }

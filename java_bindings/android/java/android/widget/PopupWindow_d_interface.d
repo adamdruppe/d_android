@@ -75,5 +75,5 @@ final class PopupWindow : IJavaObject {
 	@Import void update(import2.View, int, int);
 	@Import void update(import2.View, int, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "PopupWindow");
+	public static immutable string _javaParameterString = "Landroid/widget/PopupWindow";
 }

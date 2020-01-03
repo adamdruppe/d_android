@@ -8,5 +8,5 @@ final class ThumbnailUtils : IJavaObject {
 	@Import static import0.Bitmap extractThumbnail(import0.Bitmap, int, int);
 	@Import static import0.Bitmap extractThumbnail(import0.Bitmap, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "ThumbnailUtils");
+	public static immutable string _javaParameterString = "Landroid/media/ThumbnailUtils";
 }

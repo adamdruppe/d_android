@@ -8,5 +8,5 @@ final class SyncContext : IJavaObject {
 	@Import void onFinished(import0.SyncResult);
 	@Import import1.IBinder getSyncContextBinder();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "SyncContext");
+	public static immutable string _javaParameterString = "Landroid/content/SyncContext";
 }

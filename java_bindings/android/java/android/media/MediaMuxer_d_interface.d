@@ -17,5 +17,5 @@ final class MediaMuxer : IJavaObject {
 	@Import void writeSampleData(int, import2.ByteBuffer, import3.MediaCodec_BufferInfo);
 	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaMuxer");
+	public static immutable string _javaParameterString = "Landroid/media/MediaMuxer";
 }

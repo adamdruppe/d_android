@@ -15,5 +15,5 @@ final class NetworkRequest_Builder : IJavaObject {
 	@Import import1.NetworkRequest_Builder setNetworkSpecifier(string);
 	@Import import1.NetworkRequest_Builder setNetworkSpecifier(import2.NetworkSpecifier);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "NetworkRequest$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/NetworkRequest$Builder";
 }

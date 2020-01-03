@@ -8,5 +8,5 @@ final class ViewOverlay : IJavaObject {
 	@Import void remove(import0.Drawable);
 	@Import void clear();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewOverlay");
+	public static immutable string _javaParameterString = "Landroid/view/ViewOverlay";
 }

@@ -8,5 +8,5 @@ final class HttpRetryException : IJavaObject {
 	@Import string getReason();
 	@Import string getLocation();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "HttpRetryException");
+	public static immutable string _javaParameterString = "Ljava/net/HttpRetryException";
 }

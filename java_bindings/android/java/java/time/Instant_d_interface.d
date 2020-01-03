@@ -65,5 +65,5 @@ final class Instant : IJavaObject {
 	@Import @JavaName("with") import10.Temporal with_(import7.TemporalAdjuster);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "Instant");
+	public static immutable string _javaParameterString = "Ljava/time/Instant";
 }

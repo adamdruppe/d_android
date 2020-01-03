@@ -10,5 +10,5 @@ final class StringPrepParseException : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int getError();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "StringPrepParseException");
+	public static immutable string _javaParameterString = "Landroid/icu/text/StringPrepParseException";
 }

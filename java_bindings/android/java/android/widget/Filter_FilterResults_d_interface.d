@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Filter$FilterResults")
 final class Filter_FilterResults : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Filter$FilterResults");
+	public static immutable string _javaParameterString = "Landroid/widget/Filter$FilterResults";
 }

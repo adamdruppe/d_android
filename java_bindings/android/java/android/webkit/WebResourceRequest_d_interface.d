@@ -11,5 +11,5 @@ interface WebResourceRequest : IJavaObject {
 	@Import bool hasGesture();
 	@Import string getMethod();
 	@Import import1.Map getRequestHeaders();
-	mixin JavaPackageId!("android.webkit", "WebResourceRequest");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebResourceRequest";
 }

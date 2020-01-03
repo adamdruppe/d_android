@@ -8,5 +8,5 @@ interface LongPredicate : IJavaObject {
 	@Import import0.LongPredicate and(import0.LongPredicate);
 	@Import import0.LongPredicate negate();
 	@Import import0.LongPredicate or(import0.LongPredicate);
-	mixin JavaPackageId!("java.util.function", "LongPredicate");
+	public static immutable string _javaParameterString = "Ljava/util/function/LongPredicate";
 }

@@ -41,5 +41,5 @@ final class CompoundButton : IJavaObject {
 	@Import int getAutofillType();
 	@Import import9.AutofillValue getAutofillValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "CompoundButton");
+	public static immutable string _javaParameterString = "Landroid/widget/CompoundButton";
 }

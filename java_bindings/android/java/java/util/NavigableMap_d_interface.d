@@ -28,5 +28,5 @@ interface NavigableMap : IJavaObject {
 	@Import import3.SortedMap subMap(IJavaObject, IJavaObject);
 	@Import import3.SortedMap headMap(IJavaObject);
 	@Import import3.SortedMap tailMap(IJavaObject);
-	mixin JavaPackageId!("java.util", "NavigableMap");
+	public static immutable string _javaParameterString = "Ljava/util/NavigableMap";
 }

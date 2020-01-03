@@ -26,5 +26,5 @@ interface ConcurrentNavigableMap : IJavaObject {
 	@Import import4.NavigableMap headMap(IJavaObject, bool);
 	@Import import4.NavigableMap subMap(IJavaObject, bool, IJavaObject, bool);
 	@Import import4.NavigableMap descendingMap();
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentNavigableMap");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentNavigableMap";
 }

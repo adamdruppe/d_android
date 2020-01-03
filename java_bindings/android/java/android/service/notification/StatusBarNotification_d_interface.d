@@ -29,5 +29,5 @@ final class StatusBarNotification : IJavaObject {
 	@Import string getOverrideGroupKey();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.notification", "StatusBarNotification");
+	public static immutable string _javaParameterString = "Landroid/service/notification/StatusBarNotification";
 }

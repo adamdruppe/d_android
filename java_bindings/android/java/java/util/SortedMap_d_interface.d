@@ -16,5 +16,5 @@ interface SortedMap : IJavaObject {
 	@Import import2.Set keySet();
 	@Import import3.Collection values();
 	@Import import2.Set entrySet();
-	mixin JavaPackageId!("java.util", "SortedMap");
+	public static immutable string _javaParameterString = "Ljava/util/SortedMap";
 }

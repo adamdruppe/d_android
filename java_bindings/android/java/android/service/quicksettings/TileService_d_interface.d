@@ -25,5 +25,5 @@ final class TileService : IJavaObject {
 	@Import import4.IBinder onBind(import2.Intent);
 	@Import static void requestListeningState(import5.Context, import6.ComponentName);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.quicksettings", "TileService");
+	public static immutable string _javaParameterString = "Landroid/service/quicksettings/TileService";
 }

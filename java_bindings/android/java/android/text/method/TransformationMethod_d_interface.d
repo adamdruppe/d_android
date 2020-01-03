@@ -8,5 +8,5 @@ import import0 = android.java.java.lang.CharSequence_d_interface;
 interface TransformationMethod : IJavaObject {
 	@Import import0.CharSequence getTransformation(import0.CharSequence, import1.View);
 	@Import void onFocusChanged(import1.View, import0.CharSequence, bool, int, import2.Rect);
-	mixin JavaPackageId!("android.text.method", "TransformationMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/TransformationMethod";
 }

@@ -64,5 +64,5 @@ final class StringBuilder : IJavaObject {
 	@Import import3.Appendable append(import0.CharSequence, int, int);
 	@Import import3.Appendable append(import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "StringBuilder");
+	public static immutable string _javaParameterString = "Ljava/lang/StringBuilder";
 }

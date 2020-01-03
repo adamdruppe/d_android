@@ -11,5 +11,5 @@ final class CountDownLatch : IJavaObject {
 	@Import long getCount();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "CountDownLatch");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CountDownLatch";
 }

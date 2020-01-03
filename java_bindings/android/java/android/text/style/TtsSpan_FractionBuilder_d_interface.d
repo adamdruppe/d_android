@@ -13,5 +13,5 @@ final class TtsSpan_FractionBuilder : IJavaObject {
 	@Import import0.TtsSpan_FractionBuilder setDenominator(long);
 	@Import import0.TtsSpan_FractionBuilder setDenominator(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$FractionBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$FractionBuilder";
 }

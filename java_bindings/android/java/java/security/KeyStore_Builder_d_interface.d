@@ -15,5 +15,5 @@ final class KeyStore_Builder : IJavaObject {
 	@Import static import2.KeyStore_Builder newInstance(string, import3.Provider, import4.File, import1.KeyStore_ProtectionParameter);
 	@Import static import2.KeyStore_Builder newInstance(string, import3.Provider, import1.KeyStore_ProtectionParameter);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyStore$Builder");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$Builder";
 }

@@ -14,5 +14,5 @@ final class ServiceLoader : IJavaObject {
 	@Import static import1.ServiceLoader loadInstalled(import2.Class);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ServiceLoader");
+	public static immutable string _javaParameterString = "Ljava/util/ServiceLoader";
 }

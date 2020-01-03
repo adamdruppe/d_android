@@ -26,5 +26,5 @@ final class RemoteInput : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import6.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "RemoteInput");
+	public static immutable string _javaParameterString = "Landroid/app/RemoteInput";
 }

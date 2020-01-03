@@ -26,5 +26,5 @@ final class Connection_VideoProvider : IJavaObject {
 	@Import void changeCameraCapabilities(import3.VideoProfile_CameraCapabilities);
 	@Import void changeVideoQuality(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Connection$VideoProvider");
+	public static immutable string _javaParameterString = "Landroid/telecom/Connection$VideoProvider";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacter$WordBreak")
 interface UCharacter_WordBreak : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$WordBreak");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$WordBreak";
 }

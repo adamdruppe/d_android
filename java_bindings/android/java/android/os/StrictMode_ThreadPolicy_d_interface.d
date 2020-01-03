@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class StrictMode_ThreadPolicy : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "StrictMode$ThreadPolicy");
+	public static immutable string _javaParameterString = "Landroid/os/StrictMode$ThreadPolicy";
 }

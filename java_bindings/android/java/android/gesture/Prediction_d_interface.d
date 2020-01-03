@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Prediction : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "Prediction");
+	public static immutable string _javaParameterString = "Landroid/gesture/Prediction";
 }

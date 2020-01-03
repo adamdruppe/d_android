@@ -5,5 +5,5 @@ import import0 = android.java.java.net.URLStreamHandler_d_interface;
 
 interface URLStreamHandlerFactory : IJavaObject {
 	@Import import0.URLStreamHandler createURLStreamHandler(string);
-	mixin JavaPackageId!("java.net", "URLStreamHandlerFactory");
+	public static immutable string _javaParameterString = "Ljava/net/URLStreamHandlerFactory";
 }

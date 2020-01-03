@@ -13,5 +13,5 @@ final class ReplacementSpan : IJavaObject {
 	@Import void updateMeasureState(import4.TextPaint);
 	@Import void updateDrawState(import4.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "ReplacementSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/ReplacementSpan";
 }

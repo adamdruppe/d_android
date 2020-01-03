@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class IllegalThreadStateException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "IllegalThreadStateException");
+	public static immutable string _javaParameterString = "Ljava/lang/IllegalThreadStateException";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NoSuchPropertyException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "NoSuchPropertyException");
+	public static immutable string _javaParameterString = "Landroid/util/NoSuchPropertyException";
 }

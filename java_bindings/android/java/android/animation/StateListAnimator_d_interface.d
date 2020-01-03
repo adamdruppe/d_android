@@ -10,5 +10,5 @@ final class StateListAnimator : IJavaObject {
 	@Import void jumpToCurrentState();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "StateListAnimator");
+	public static immutable string _javaParameterString = "Landroid/animation/StateListAnimator";
 }

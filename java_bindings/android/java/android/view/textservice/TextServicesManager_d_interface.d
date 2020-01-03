@@ -9,5 +9,5 @@ import import3 = android.java.android.view.textservice.SpellCheckerSession_Spell
 final class TextServicesManager : IJavaObject {
 	@Import import0.SpellCheckerSession newSpellCheckerSession(import1.Bundle, import2.Locale, import3.SpellCheckerSession_SpellCheckerSessionListener, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textservice", "TextServicesManager");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/TextServicesManager";
 }

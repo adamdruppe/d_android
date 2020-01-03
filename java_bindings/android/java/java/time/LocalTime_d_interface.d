@@ -81,5 +81,5 @@ final class LocalTime : IJavaObject {
 	@Import @JavaName("with") import12.Temporal with_(import9.TemporalAdjuster);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "LocalTime");
+	public static immutable string _javaParameterString = "Ljava/time/LocalTime";
 }

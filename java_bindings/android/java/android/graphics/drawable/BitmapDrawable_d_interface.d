@@ -66,5 +66,5 @@ final class BitmapDrawable : IJavaObject {
 	@Import int getOpacity();
 	@Import import15.Drawable_ConstantState getConstantState();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "BitmapDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/BitmapDrawable";
 }

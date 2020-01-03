@@ -12,5 +12,5 @@ final class Touch : IJavaObject {
 	@Import static int getInitialScrollX(import0.TextView, import2.Spannable);
 	@Import static int getInitialScrollY(import0.TextView, import2.Spannable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "Touch");
+	public static immutable string _javaParameterString = "Landroid/text/method/Touch";
 }

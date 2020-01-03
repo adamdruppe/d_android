@@ -15,5 +15,5 @@ final class TextSwitcher : IJavaObject {
 	@Import void setCurrentText(import4.CharSequence);
 	@Import import4.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TextSwitcher");
+	public static immutable string _javaParameterString = "Landroid/widget/TextSwitcher";
 }

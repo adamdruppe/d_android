@@ -24,5 +24,5 @@ final class Bidi : IJavaObject {
 	@Import static void reorderVisually(byte, int, IJavaObject, int, int[][]);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "Bidi");
+	public static immutable string _javaParameterString = "Ljava/text/Bidi";
 }

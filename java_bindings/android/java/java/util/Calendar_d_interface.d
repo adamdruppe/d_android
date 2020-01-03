@@ -62,5 +62,5 @@ final class Calendar : IJavaObject {
 	@Import import6.Instant toInstant();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Calendar");
+	public static immutable string _javaParameterString = "Ljava/util/Calendar";
 }

@@ -11,5 +11,5 @@ final class IntentFilter_AuthorityEntry : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int match(import0.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "IntentFilter$AuthorityEntry");
+	public static immutable string _javaParameterString = "Landroid/content/IntentFilter$AuthorityEntry";
 }

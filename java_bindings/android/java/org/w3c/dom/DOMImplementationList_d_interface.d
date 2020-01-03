@@ -6,5 +6,5 @@ import import0 = android.java.org.w3c.dom.DOMImplementation_d_interface;
 interface DOMImplementationList : IJavaObject {
 	@Import import0.DOMImplementation item(int);
 	@Import int getLength();
-	mixin JavaPackageId!("org.w3c.dom", "DOMImplementationList");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMImplementationList";
 }

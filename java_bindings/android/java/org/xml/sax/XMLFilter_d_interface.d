@@ -6,5 +6,5 @@ import import0 = android.java.org.xml.sax.XMLReader_d_interface;
 interface XMLFilter : IJavaObject {
 	@Import void setParent(import0.XMLReader);
 	@Import import0.XMLReader getParent();
-	mixin JavaPackageId!("org.xml.sax", "XMLFilter");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/XMLFilter";
 }

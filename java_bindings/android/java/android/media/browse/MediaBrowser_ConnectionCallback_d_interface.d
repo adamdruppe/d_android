@@ -7,5 +7,5 @@ final class MediaBrowser_ConnectionCallback : IJavaObject {
 	@Import void onConnectionSuspended();
 	@Import void onConnectionFailed();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.browse", "MediaBrowser$ConnectionCallback");
+	public static immutable string _javaParameterString = "Landroid/media/browse/MediaBrowser$ConnectionCallback";
 }

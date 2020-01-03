@@ -8,5 +8,5 @@ final class Path_Op : IJavaObject {
 	@Import static import0.Path_Op[] values();
 	@Import static import0.Path_Op valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Path$Op");
+	public static immutable string _javaParameterString = "Landroid/graphics/Path$Op";
 }

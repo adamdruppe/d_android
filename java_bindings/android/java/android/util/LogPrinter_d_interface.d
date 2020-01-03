@@ -5,5 +5,5 @@ final class LogPrinter : IJavaObject {
 	@Import this(int, string);
 	@Import void println(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "LogPrinter");
+	public static immutable string _javaParameterString = "Landroid/util/LogPrinter";
 }

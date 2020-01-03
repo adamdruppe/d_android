@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class KeyFactorySpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyFactorySpi");
+	public static immutable string _javaParameterString = "Ljava/security/KeyFactorySpi";
 }

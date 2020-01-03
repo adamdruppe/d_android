@@ -6,5 +6,5 @@ import import0 = android.java.android.hardware.Camera_d_interface;
 @JavaName("Camera$ErrorCallback")
 interface Camera_ErrorCallback : IJavaObject {
 	@Import void onError(int, import0.Camera);
-	mixin JavaPackageId!("android.hardware", "Camera$ErrorCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$ErrorCallback";
 }

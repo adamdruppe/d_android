@@ -8,5 +8,5 @@ final class MediaProjectionManager : IJavaObject {
 	@Import import0.Intent createScreenCaptureIntent();
 	@Import import1.MediaProjection getMediaProjection(int, import0.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.projection", "MediaProjectionManager");
+	public static immutable string _javaParameterString = "Landroid/media/projection/MediaProjectionManager";
 }

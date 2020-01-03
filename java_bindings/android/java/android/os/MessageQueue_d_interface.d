@@ -12,5 +12,5 @@ final class MessageQueue : IJavaObject {
 	@Import void addOnFileDescriptorEventListener(import1.FileDescriptor, int, import2.MessageQueue_OnFileDescriptorEventListener);
 	@Import void removeOnFileDescriptorEventListener(import1.FileDescriptor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "MessageQueue");
+	public static immutable string _javaParameterString = "Landroid/os/MessageQueue";
 }

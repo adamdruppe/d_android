@@ -23,6 +23,7 @@ final class NinePatch : IJavaObject {
 	@Import int getHeight();
 	@Import bool hasAlpha();
 	@Import import5.Region getTransparentRegion(import4.Rect);
+	@Import static bool isNinePatchChunk(byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "NinePatch");
+	public static immutable string _javaParameterString = "Landroid/graphics/NinePatch";
 }

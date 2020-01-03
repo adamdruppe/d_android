@@ -8,5 +8,5 @@ final class CursorJoiner_Result : IJavaObject {
 	@Import static import0.CursorJoiner_Result[] values();
 	@Import static import0.CursorJoiner_Result valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "CursorJoiner$Result");
+	public static immutable string _javaParameterString = "Landroid/database/CursorJoiner$Result";
 }

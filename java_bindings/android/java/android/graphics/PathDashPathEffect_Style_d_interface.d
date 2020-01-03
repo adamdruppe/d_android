@@ -8,5 +8,5 @@ final class PathDashPathEffect_Style : IJavaObject {
 	@Import static import0.PathDashPathEffect_Style[] values();
 	@Import static import0.PathDashPathEffect_Style valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "PathDashPathEffect$Style");
+	public static immutable string _javaParameterString = "Landroid/graphics/PathDashPathEffect$Style";
 }

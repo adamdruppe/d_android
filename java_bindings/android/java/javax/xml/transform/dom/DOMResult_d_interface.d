@@ -15,5 +15,5 @@ final class DOMResult : IJavaObject {
 	@Import void setSystemId(string);
 	@Import string getSystemId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform.dom", "DOMResult");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/dom/DOMResult";
 }

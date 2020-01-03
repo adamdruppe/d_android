@@ -27,5 +27,5 @@ final class ActionBar_Tab : IJavaObject {
 	@Import import2.ActionBar_Tab setContentDescription(import1.CharSequence);
 	@Import import1.CharSequence getContentDescription();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActionBar$Tab");
+	public static immutable string _javaParameterString = "Landroid/app/ActionBar$Tab";
 }

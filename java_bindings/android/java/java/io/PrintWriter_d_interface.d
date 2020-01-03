@@ -59,5 +59,5 @@ final class PrintWriter : IJavaObject {
 	@Import import6.Appendable append(import5.CharSequence, int, int);
 	@Import import6.Appendable append(import5.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "PrintWriter");
+	public static immutable string _javaParameterString = "Ljava/io/PrintWriter";
 }

@@ -6,5 +6,5 @@ final class DatatypeConstants_Field : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int getId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.datatype", "DatatypeConstants$Field");
+	public static immutable string _javaParameterString = "Ljavax/xml/datatype/DatatypeConstants$Field";
 }

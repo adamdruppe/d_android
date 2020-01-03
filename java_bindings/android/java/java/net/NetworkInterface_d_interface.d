@@ -29,5 +29,5 @@ final class NetworkInterface : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "NetworkInterface");
+	public static immutable string _javaParameterString = "Ljava/net/NetworkInterface";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.os.strictmode.Violation_d_interface;
 @JavaName("StrictMode$OnVmViolationListener")
 interface StrictMode_OnVmViolationListener : IJavaObject {
 	@Import void onVmViolation(import0.Violation);
-	mixin JavaPackageId!("android.os", "StrictMode$OnVmViolationListener");
+	public static immutable string _javaParameterString = "Landroid/os/StrictMode$OnVmViolationListener";
 }

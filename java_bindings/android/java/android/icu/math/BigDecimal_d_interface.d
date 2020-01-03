@@ -73,5 +73,5 @@ final class BigDecimal : IJavaObject {
 	@Import static import2.BigDecimal valueOf(long, int);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.math", "BigDecimal");
+	public static immutable string _javaParameterString = "Landroid/icu/math/BigDecimal";
 }

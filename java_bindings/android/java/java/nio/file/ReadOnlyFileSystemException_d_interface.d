@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ReadOnlyFileSystemException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "ReadOnlyFileSystemException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/ReadOnlyFileSystemException";
 }

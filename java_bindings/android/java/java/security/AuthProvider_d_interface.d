@@ -9,5 +9,5 @@ final class AuthProvider : IJavaObject {
 	@Import void logout();
 	@Import void setCallbackHandler(import1.CallbackHandler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "AuthProvider");
+	public static immutable string _javaParameterString = "Ljava/security/AuthProvider";
 }

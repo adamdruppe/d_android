@@ -5,5 +5,5 @@ import import0 = android.java.java.lang.annotation.ElementType_d_interface;
 
 interface Target : IJavaObject {
 	@Import import0.ElementType[] value();
-	mixin JavaPackageId!("java.lang.annotation", "Target");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/Target";
 }

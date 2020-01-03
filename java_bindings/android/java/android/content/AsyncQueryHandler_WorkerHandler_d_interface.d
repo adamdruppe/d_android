@@ -10,5 +10,5 @@ final class AsyncQueryHandler_WorkerHandler : IJavaObject {
 	@Import this(import0.AsyncQueryHandler, import1.Looper);
 	@Import void handleMessage(import2.Message);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "AsyncQueryHandler$WorkerHandler");
+	public static immutable string _javaParameterString = "Landroid/content/AsyncQueryHandler$WorkerHandler";
 }

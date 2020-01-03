@@ -8,5 +8,5 @@ final class Canvas_EdgeType : IJavaObject {
 	@Import static import0.Canvas_EdgeType[] values();
 	@Import static import0.Canvas_EdgeType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Canvas$EdgeType");
+	public static immutable string _javaParameterString = "Landroid/graphics/Canvas$EdgeType";
 }

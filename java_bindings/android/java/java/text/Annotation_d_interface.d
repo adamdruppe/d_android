@@ -6,5 +6,5 @@ final class Annotation : IJavaObject {
 	@Import IJavaObject getValue();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "Annotation");
+	public static immutable string _javaParameterString = "Ljava/text/Annotation";
 }

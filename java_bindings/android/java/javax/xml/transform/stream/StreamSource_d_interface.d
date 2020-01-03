@@ -22,5 +22,5 @@ final class StreamSource : IJavaObject {
 	@Import string getSystemId();
 	@Import void setSystemId(import2.File);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform.stream", "StreamSource");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/stream/StreamSource";
 }

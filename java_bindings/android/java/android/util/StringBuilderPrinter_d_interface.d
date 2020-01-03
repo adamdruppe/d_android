@@ -7,5 +7,5 @@ final class StringBuilderPrinter : IJavaObject {
 	@Import this(import0.StringBuilder);
 	@Import void println(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "StringBuilderPrinter");
+	public static immutable string _javaParameterString = "Landroid/util/StringBuilderPrinter";
 }

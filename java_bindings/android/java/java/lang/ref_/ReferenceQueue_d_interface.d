@@ -8,5 +8,5 @@ final class ReferenceQueue : IJavaObject {
 	@Import import0.Reference remove(long);
 	@Import import0.Reference remove();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.ref", "ReferenceQueue");
+	public static immutable string _javaParameterString = "Ljava/lang/ref/ReferenceQueue";
 }

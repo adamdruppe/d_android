@@ -17,5 +17,5 @@ final class ExecutorCompletionService : IJavaObject {
 	@Import import2.Future poll();
 	@Import import2.Future poll(long, import5.TimeUnit);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ExecutorCompletionService");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ExecutorCompletionService";
 }

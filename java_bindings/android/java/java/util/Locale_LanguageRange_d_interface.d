@@ -16,5 +16,5 @@ final class Locale_LanguageRange : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Locale$LanguageRange");
+	public static immutable string _javaParameterString = "Ljava/util/Locale$LanguageRange";
 }

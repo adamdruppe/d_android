@@ -22,5 +22,5 @@ interface TemporalField : IJavaObject {
 	@Import import4.Temporal adjustInto(import4.Temporal, long);
 	@Import import3.TemporalAccessor resolve(import5.Map, import3.TemporalAccessor, import6.ResolverStyle);
 	@Import @JavaName("toString") string toString_();
-	mixin JavaPackageId!("java.time.temporal", "TemporalField");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalField";
 }

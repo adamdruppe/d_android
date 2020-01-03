@@ -8,5 +8,5 @@ final class NodeChangeEvent : IJavaObject {
 	@Import import0.Preferences getParent();
 	@Import import0.Preferences getChild();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.prefs", "NodeChangeEvent");
+	public static immutable string _javaParameterString = "Ljava/util/prefs/NodeChangeEvent";
 }

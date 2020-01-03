@@ -11,5 +11,5 @@ final class AuthenticationRequiredException : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AuthenticationRequiredException");
+	public static immutable string _javaParameterString = "Landroid/app/AuthenticationRequiredException";
 }

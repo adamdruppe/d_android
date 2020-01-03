@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("VoiceInteractionSession$Insets")
 final class VoiceInteractionSession_Insets : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession$Insets");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession$Insets";
 }

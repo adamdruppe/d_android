@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class KeyManagerFactorySpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "KeyManagerFactorySpi");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/KeyManagerFactorySpi";
 }

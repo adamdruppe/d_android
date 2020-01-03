@@ -32,5 +32,5 @@ final class UCharacterIterator : IJavaObject {
 	@Import int moveCodePointIndex(int);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UCharacterIterator");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UCharacterIterator";
 }

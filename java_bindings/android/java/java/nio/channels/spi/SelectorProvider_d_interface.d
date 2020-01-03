@@ -20,5 +20,5 @@ final class SelectorProvider : IJavaObject {
 	@Import import6.SocketChannel openSocketChannel();
 	@Import import7.Channel inheritedChannel();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels.spi", "SelectorProvider");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/spi/SelectorProvider";
 }

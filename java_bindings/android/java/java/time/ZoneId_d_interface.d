@@ -25,5 +25,5 @@ final class ZoneId : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "ZoneId");
+	public static immutable string _javaParameterString = "Ljava/time/ZoneId";
 }

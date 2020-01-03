@@ -15,5 +15,5 @@ final class RestrictionsManager : IJavaObject {
 	@Import import3.List getManifestRestrictions(string);
 	@Import static import0.Bundle convertRestrictionsToBundle(import3.List);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "RestrictionsManager");
+	public static immutable string _javaParameterString = "Landroid/content/RestrictionsManager";
 }

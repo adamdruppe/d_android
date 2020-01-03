@@ -9,5 +9,5 @@ import import3 = android.java.android.database.sqlite.SQLiteQuery_d_interface;
 @JavaName("SQLiteDatabase$CursorFactory")
 interface SQLiteDatabase_CursorFactory : IJavaObject {
 	@Import import0.Cursor newCursor(import1.SQLiteDatabase, import2.SQLiteCursorDriver, string, import3.SQLiteQuery);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteDatabase$CursorFactory");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteDatabase$CursorFactory";
 }

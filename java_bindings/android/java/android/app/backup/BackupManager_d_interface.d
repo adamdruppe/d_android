@@ -10,5 +10,5 @@ final class BackupManager : IJavaObject {
 	@Import static void dataChanged(string);
 	@Import int requestRestore(import1.RestoreObserver);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "BackupManager");
+	public static immutable string _javaParameterString = "Landroid/app/backup/BackupManager";
 }

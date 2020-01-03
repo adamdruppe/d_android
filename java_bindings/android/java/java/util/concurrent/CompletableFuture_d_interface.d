@@ -111,5 +111,5 @@ final class CompletableFuture : IJavaObject {
 	@Import import8.CompletionStage thenApplyAsync(import6.Function);
 	@Import import8.CompletionStage thenApply(import6.Function);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "CompletableFuture");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CompletableFuture";
 }

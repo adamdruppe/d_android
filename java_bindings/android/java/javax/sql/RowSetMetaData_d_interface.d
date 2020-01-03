@@ -19,5 +19,5 @@ interface RowSetMetaData : IJavaObject {
 	@Import void setCatalogName(int, string);
 	@Import void setColumnType(int, int);
 	@Import void setColumnTypeName(int, string);
-	mixin JavaPackageId!("javax.sql", "RowSetMetaData");
+	public static immutable string _javaParameterString = "Ljavax/sql/RowSetMetaData";
 }

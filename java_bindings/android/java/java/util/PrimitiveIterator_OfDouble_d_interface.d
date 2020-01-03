@@ -13,5 +13,5 @@ interface PrimitiveIterator_OfDouble : IJavaObject {
 	@Import void forEachRemaining(import2.Consumer);
 	@Import void forEachRemaining(IJavaObject);
 	@Import IJavaObject next();
-	mixin JavaPackageId!("java.util", "PrimitiveIterator$OfDouble");
+	public static immutable string _javaParameterString = "Ljava/util/PrimitiveIterator$OfDouble";
 }

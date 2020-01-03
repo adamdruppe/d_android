@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class JulianFields : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "JulianFields");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/JulianFields";
 }

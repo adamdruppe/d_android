@@ -5,5 +5,5 @@ import import0 = android.java.java.util.logging.LogRecord_d_interface;
 
 interface Filter : IJavaObject {
 	@Import bool isLoggable(import0.LogRecord);
-	mixin JavaPackageId!("java.util.logging", "Filter");
+	public static immutable string _javaParameterString = "Ljava/util/logging/Filter";
 }

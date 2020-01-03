@@ -7,5 +7,5 @@ import import0 = android.java.android.content.Context_d_interface;
 final class CallLog_Calls : IJavaObject {
 	@Import static string getLastOutgoingCall(import0.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "CallLog$Calls");
+	public static immutable string _javaParameterString = "Landroid/provider/CallLog$Calls";
 }

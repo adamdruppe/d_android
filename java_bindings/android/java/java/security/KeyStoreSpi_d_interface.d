@@ -35,5 +35,5 @@ final class KeyStoreSpi : IJavaObject {
 	@Import void engineSetEntry(string, import7.KeyStore_Entry, import8.KeyStore_ProtectionParameter);
 	@Import bool engineEntryInstanceOf(string, import9.Class);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyStoreSpi");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStoreSpi";
 }

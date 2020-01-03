@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface DoubleToLongFunction : IJavaObject {
 	@Import long applyAsLong(double);
-	mixin JavaPackageId!("java.util.function", "DoubleToLongFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/DoubleToLongFunction";
 }

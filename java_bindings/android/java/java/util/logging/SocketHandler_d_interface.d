@@ -8,5 +8,5 @@ final class SocketHandler : IJavaObject {
 	@Import void close();
 	@Import void publish(import0.LogRecord);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "SocketHandler");
+	public static immutable string _javaParameterString = "Ljava/util/logging/SocketHandler";
 }

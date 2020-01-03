@@ -10,5 +10,5 @@ final class Characteristics : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "Characteristics");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/Characteristics";
 }

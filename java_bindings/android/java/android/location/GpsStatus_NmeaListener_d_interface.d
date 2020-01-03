@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("GpsStatus$NmeaListener")
 interface GpsStatus_NmeaListener : IJavaObject {
 	@Import void onNmeaReceived(long, string);
-	mixin JavaPackageId!("android.location", "GpsStatus$NmeaListener");
+	public static immutable string _javaParameterString = "Landroid/location/GpsStatus$NmeaListener";
 }

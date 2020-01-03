@@ -11,5 +11,5 @@ final class ChangedPackages : IJavaObject {
 	@Import int getSequenceNumber();
 	@Import import0.List getPackageNames();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ChangedPackages");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ChangedPackages";
 }

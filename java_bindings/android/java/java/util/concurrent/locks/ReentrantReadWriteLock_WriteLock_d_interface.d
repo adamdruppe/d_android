@@ -16,5 +16,5 @@ final class ReentrantReadWriteLock_WriteLock : IJavaObject {
 	@Import bool isHeldByCurrentThread();
 	@Import int getHoldCount();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "ReentrantReadWriteLock$WriteLock");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock";
 }

@@ -8,5 +8,5 @@ final class AlwaysOnHotwordDetector_EventPayload : IJavaObject {
 	@Import import0.AudioFormat getCaptureAudioFormat();
 	@Import byte[] getTriggerAudio();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "AlwaysOnHotwordDetector$EventPayload");
+	public static immutable string _javaParameterString = "Landroid/service/voice/AlwaysOnHotwordDetector$EventPayload";
 }

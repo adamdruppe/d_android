@@ -18,5 +18,5 @@ final class FileTime : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "FileTime");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/FileTime";
 }

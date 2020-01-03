@@ -16,5 +16,5 @@ final class FileLock : IJavaObject {
 	@Import void close();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "FileLock");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/FileLock";
 }

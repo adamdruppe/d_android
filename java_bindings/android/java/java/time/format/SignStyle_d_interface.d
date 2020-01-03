@@ -7,5 +7,5 @@ final class SignStyle : IJavaObject {
 	@Import static import0.SignStyle[] values();
 	@Import static import0.SignStyle valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.format", "SignStyle");
+	public static immutable string _javaParameterString = "Ljava/time/format/SignStyle";
 }

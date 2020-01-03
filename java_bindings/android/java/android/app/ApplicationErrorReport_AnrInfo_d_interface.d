@@ -10,5 +10,5 @@ final class ApplicationErrorReport_AnrInfo : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import void dump(import1.Printer, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ApplicationErrorReport$AnrInfo");
+	public static immutable string _javaParameterString = "Landroid/app/ApplicationErrorReport$AnrInfo";
 }

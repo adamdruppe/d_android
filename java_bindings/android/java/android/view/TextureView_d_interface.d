@@ -40,5 +40,5 @@ final class TextureView : IJavaObject {
 	@Import import9.TextureView_SurfaceTextureListener getSurfaceTextureListener();
 	@Import void setSurfaceTextureListener(import9.TextureView_SurfaceTextureListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "TextureView");
+	public static immutable string _javaParameterString = "Landroid/view/TextureView";
 }

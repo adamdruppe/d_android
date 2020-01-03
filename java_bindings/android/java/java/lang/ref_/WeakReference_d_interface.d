@@ -7,5 +7,5 @@ final class WeakReference : IJavaObject {
 	@Import this(IJavaObject);
 	@Import this(IJavaObject, import0.ReferenceQueue);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.ref", "WeakReference");
+	public static immutable string _javaParameterString = "Ljava/lang/ref/WeakReference";
 }

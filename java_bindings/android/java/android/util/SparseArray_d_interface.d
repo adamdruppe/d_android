@@ -24,5 +24,5 @@ final class SparseArray : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "SparseArray");
+	public static immutable string _javaParameterString = "Landroid/util/SparseArray";
 }

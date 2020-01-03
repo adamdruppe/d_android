@@ -8,5 +8,5 @@ final class BaseObj : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "BaseObj");
+	public static immutable string _javaParameterString = "Landroid/renderscript/BaseObj";
 }

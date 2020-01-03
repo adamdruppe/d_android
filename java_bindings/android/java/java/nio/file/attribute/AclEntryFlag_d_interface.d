@@ -7,5 +7,5 @@ final class AclEntryFlag : IJavaObject {
 	@Import static import0.AclEntryFlag[] values();
 	@Import static import0.AclEntryFlag valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "AclEntryFlag");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/AclEntryFlag";
 }

@@ -15,5 +15,5 @@ final class Enum : IJavaObject {
 	@Import static import0.Enum valueOf(import1.Class, string);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Enum");
+	public static immutable string _javaParameterString = "Ljava/lang/Enum";
 }

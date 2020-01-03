@@ -45,5 +45,5 @@ interface Node : IJavaObject {
 	@Import IJavaObject getFeature(string, string);
 	@Import IJavaObject setUserData(string, IJavaObject, import4.UserDataHandler);
 	@Import IJavaObject getUserData(string);
-	mixin JavaPackageId!("org.w3c.dom", "Node");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Node";
 }

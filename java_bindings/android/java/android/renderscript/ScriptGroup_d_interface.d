@@ -11,5 +11,5 @@ final class ScriptGroup : IJavaObject {
 	@Import void execute();
 	@Import void destroy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptGroup");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptGroup";
 }

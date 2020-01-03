@@ -5,5 +5,5 @@ import import0 = android.java.org.w3c.dom.ls.LSInput_d_interface;
 
 interface LSResourceResolver : IJavaObject {
 	@Import import0.LSInput resolveResource(string, string, string, string, string);
-	mixin JavaPackageId!("org.w3c.dom.ls", "LSResourceResolver");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/LSResourceResolver";
 }

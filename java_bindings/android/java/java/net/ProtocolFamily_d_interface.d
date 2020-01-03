@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ProtocolFamily : IJavaObject {
 	@Import string name();
-	mixin JavaPackageId!("java.net", "ProtocolFamily");
+	public static immutable string _javaParameterString = "Ljava/net/ProtocolFamily";
 }

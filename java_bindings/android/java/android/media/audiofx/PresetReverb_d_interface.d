@@ -12,5 +12,5 @@ final class PresetReverb : IJavaObject {
 	@Import import1.PresetReverb_Settings getProperties();
 	@Import void setProperties(import1.PresetReverb_Settings);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "PresetReverb");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/PresetReverb";
 }

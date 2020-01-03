@@ -24,5 +24,5 @@ final class AnimationDrawable : IJavaObject {
 	@Import void inflate(import2.Resources, import3.XmlPullParser, import4.AttributeSet, import5.Resources_Theme);
 	@Import import1.Drawable mutate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "AnimationDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/AnimationDrawable";
 }

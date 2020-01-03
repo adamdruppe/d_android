@@ -21,5 +21,5 @@ final class MicrophoneInfo : IJavaObject {
 	@Import float getMinSpl();
 	@Import int getDirectionality();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MicrophoneInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MicrophoneInfo";
 }

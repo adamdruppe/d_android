@@ -20,5 +20,5 @@ final class Rating : IJavaObject {
 	@Import float getStarRating();
 	@Import float getPercentRating();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "Rating");
+	public static immutable string _javaParameterString = "Landroid/media/Rating";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MessageFormat$Field")
 final class MessageFormat_Field : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "MessageFormat$Field");
+	public static immutable string _javaParameterString = "Ljava/text/MessageFormat$Field";
 }

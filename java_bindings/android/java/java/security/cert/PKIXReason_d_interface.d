@@ -7,5 +7,5 @@ final class PKIXReason : IJavaObject {
 	@Import static import0.PKIXReason[] values();
 	@Import static import0.PKIXReason valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PKIXReason");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PKIXReason";
 }

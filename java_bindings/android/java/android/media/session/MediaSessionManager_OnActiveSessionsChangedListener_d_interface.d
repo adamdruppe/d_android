@@ -6,5 +6,5 @@ import import0 = android.java.java.util.List_d_interface;
 @JavaName("MediaSessionManager$OnActiveSessionsChangedListener")
 interface MediaSessionManager_OnActiveSessionsChangedListener : IJavaObject {
 	@Import void onActiveSessionsChanged(import0.List);
-	mixin JavaPackageId!("android.media.session", "MediaSessionManager$OnActiveSessionsChangedListener");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaSessionManager$OnActiveSessionsChangedListener";
 }

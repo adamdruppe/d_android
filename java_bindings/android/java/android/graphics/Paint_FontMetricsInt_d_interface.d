@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Paint_FontMetricsInt : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Paint$FontMetricsInt");
+	public static immutable string _javaParameterString = "Landroid/graphics/Paint$FontMetricsInt";
 }

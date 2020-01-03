@@ -15,5 +15,5 @@ final class DocumentsContract_Path : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "DocumentsContract$Path");
+	public static immutable string _javaParameterString = "Landroid/provider/DocumentsContract$Path";
 }

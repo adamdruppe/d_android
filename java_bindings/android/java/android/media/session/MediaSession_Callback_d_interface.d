@@ -30,5 +30,5 @@ final class MediaSession_Callback : IJavaObject {
 	@Import void onSetRating(import4.Rating);
 	@Import void onCustomAction(string, import0.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaSession$Callback");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaSession$Callback";
 }

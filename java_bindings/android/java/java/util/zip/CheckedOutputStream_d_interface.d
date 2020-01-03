@@ -10,5 +10,5 @@ final class CheckedOutputStream : IJavaObject {
 	@Import void write(byte, int, int[]);
 	@Import import1.Checksum getChecksum();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "CheckedOutputStream");
+	public static immutable string _javaParameterString = "Ljava/util/zip/CheckedOutputStream";
 }

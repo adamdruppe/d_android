@@ -7,5 +7,5 @@ interface TemplatesHandler : IJavaObject {
 	@Import import0.Templates getTemplates();
 	@Import void setSystemId(string);
 	@Import string getSystemId();
-	mixin JavaPackageId!("javax.xml.transform.sax", "TemplatesHandler");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/sax/TemplatesHandler";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Spannable : IJavaObject {
 	@Import void setSpan(IJavaObject, int, int, int);
 	@Import void removeSpan(IJavaObject);
-	mixin JavaPackageId!("android.text", "Spannable");
+	public static immutable string _javaParameterString = "Landroid/text/Spannable";
 }

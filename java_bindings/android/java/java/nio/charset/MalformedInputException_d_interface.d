@@ -6,5 +6,5 @@ final class MalformedInputException : IJavaObject {
 	@Import int getInputLength();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "MalformedInputException");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/MalformedInputException";
 }

@@ -10,5 +10,5 @@ final class CheckBoxPreference : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet);
 	@Import this(import0.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "CheckBoxPreference");
+	public static immutable string _javaParameterString = "Landroid/preference/CheckBoxPreference";
 }

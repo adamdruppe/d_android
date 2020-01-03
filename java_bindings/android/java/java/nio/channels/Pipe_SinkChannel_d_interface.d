@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Pipe_SinkChannel : IJavaObject {
 	@Import int validOps();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "Pipe$SinkChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/Pipe$SinkChannel";
 }

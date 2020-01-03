@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SlidingDrawer$OnDrawerOpenListener")
 interface SlidingDrawer_OnDrawerOpenListener : IJavaObject {
 	@Import void onDrawerOpened();
-	mixin JavaPackageId!("android.widget", "SlidingDrawer$OnDrawerOpenListener");
+	public static immutable string _javaParameterString = "Landroid/widget/SlidingDrawer$OnDrawerOpenListener";
 }

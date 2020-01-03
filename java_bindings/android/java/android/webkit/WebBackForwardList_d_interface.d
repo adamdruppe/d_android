@@ -9,5 +9,5 @@ final class WebBackForwardList : IJavaObject {
 	@Import import0.WebHistoryItem getItemAtIndex(int);
 	@Import int getSize();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebBackForwardList");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebBackForwardList";
 }

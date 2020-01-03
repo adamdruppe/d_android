@@ -8,5 +8,5 @@ final class BlurMaskFilter_Blur : IJavaObject {
 	@Import static import0.BlurMaskFilter_Blur[] values();
 	@Import static import0.BlurMaskFilter_Blur valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "BlurMaskFilter$Blur");
+	public static immutable string _javaParameterString = "Landroid/graphics/BlurMaskFilter$Blur";
 }

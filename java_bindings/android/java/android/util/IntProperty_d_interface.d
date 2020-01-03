@@ -9,5 +9,5 @@ final class IntProperty : IJavaObject {
 	@Import void set(IJavaObject, import0.Integer);
 	@Import void set(IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "IntProperty");
+	public static immutable string _javaParameterString = "Landroid/util/IntProperty";
 }

@@ -24,5 +24,5 @@ final class Uri_Builder : IJavaObject {
 	@Import import1.Uri build();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "Uri$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/Uri$Builder";
 }

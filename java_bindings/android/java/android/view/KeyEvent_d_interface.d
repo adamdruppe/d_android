@@ -75,5 +75,5 @@ final class KeyEvent : IJavaObject {
 	@Import static int keyCodeFromString(string);
 	@Import void writeToParcel(import5.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "KeyEvent");
+	public static immutable string _javaParameterString = "Landroid/view/KeyEvent";
 }

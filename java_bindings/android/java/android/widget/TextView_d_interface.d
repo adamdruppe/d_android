@@ -317,5 +317,5 @@ final class TextView : IJavaObject {
 	@Import bool onDragEvent(import44.DragEvent);
 	@Import void onRtlPropertiesChanged(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TextView");
+	public static immutable string _javaParameterString = "Landroid/widget/TextView";
 }

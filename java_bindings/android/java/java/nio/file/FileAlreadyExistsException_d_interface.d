@@ -5,5 +5,5 @@ final class FileAlreadyExistsException : IJavaObject {
 	@Import this(string);
 	@Import this(string, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "FileAlreadyExistsException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/FileAlreadyExistsException";
 }

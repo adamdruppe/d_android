@@ -8,5 +8,5 @@ final class NetworkSecurityPolicy : IJavaObject {
 	@Import bool isCleartextTrafficPermitted();
 	@Import bool isCleartextTrafficPermitted(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "NetworkSecurityPolicy");
+	public static immutable string _javaParameterString = "Landroid/security/NetworkSecurityPolicy";
 }

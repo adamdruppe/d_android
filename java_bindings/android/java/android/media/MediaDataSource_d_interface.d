@@ -5,5 +5,5 @@ final class MediaDataSource : IJavaObject {
 	@Import int readAt(long, byte, int, int[]);
 	@Import long getSize();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDataSource");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDataSource";
 }

@@ -26,5 +26,5 @@ final class ResourceBundle : IJavaObject {
 	@Import bool containsKey(string);
 	@Import import5.Set keySet();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ResourceBundle");
+	public static immutable string _javaParameterString = "Ljava/util/ResourceBundle";
 }

@@ -9,7 +9,11 @@ final class JavaObject : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
+	@Import void notify();
+	@Import void notifyAll();
 	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Object");
+	public static immutable string _javaParameterString = "Ljava/lang/Object";
 }

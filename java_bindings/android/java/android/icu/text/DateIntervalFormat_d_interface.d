@@ -31,5 +31,5 @@ final class DateIntervalFormat : IJavaObject {
 	@Import void setTimeZone(import9.TimeZone);
 	@Import import10.DateFormat getDateFormat();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DateIntervalFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateIntervalFormat";
 }

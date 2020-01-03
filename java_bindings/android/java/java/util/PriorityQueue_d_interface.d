@@ -29,5 +29,5 @@ final class PriorityQueue : IJavaObject {
 	@Import import0.Comparator comparator();
 	@Import import5.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "PriorityQueue");
+	public static immutable string _javaParameterString = "Ljava/util/PriorityQueue";
 }

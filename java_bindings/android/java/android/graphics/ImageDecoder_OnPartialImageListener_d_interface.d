@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.ImageDecoder_DecodeException_d_in
 @JavaName("ImageDecoder$OnPartialImageListener")
 interface ImageDecoder_OnPartialImageListener : IJavaObject {
 	@Import bool onPartialImage(import0.ImageDecoder_DecodeException);
-	mixin JavaPackageId!("android.graphics", "ImageDecoder$OnPartialImageListener");
+	public static immutable string _javaParameterString = "Landroid/graphics/ImageDecoder$OnPartialImageListener";
 }

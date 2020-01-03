@@ -12,5 +12,5 @@ final class WifiAwareManager : IJavaObject {
 	@Import void attach(import1.AttachCallback, import2.Handler);
 	@Import void attach(import1.AttachCallback, import3.IdentityChangedListener, import2.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "WifiAwareManager");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/WifiAwareManager";
 }

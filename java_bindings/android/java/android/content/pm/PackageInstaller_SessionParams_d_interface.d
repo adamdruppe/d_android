@@ -21,5 +21,5 @@ final class PackageInstaller_SessionParams : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageInstaller$SessionParams");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageInstaller$SessionParams";
 }

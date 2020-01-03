@@ -15,5 +15,5 @@ final class DrmRights : IJavaObject {
 	@Import string getAccountId();
 	@Import string getSubscriptionId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmRights");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmRights";
 }

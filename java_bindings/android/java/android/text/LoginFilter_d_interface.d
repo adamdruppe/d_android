@@ -11,5 +11,5 @@ final class LoginFilter : IJavaObject {
 	@Import void onStop();
 	@Import bool isAllowed(wchar);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "LoginFilter");
+	public static immutable string _javaParameterString = "Landroid/text/LoginFilter";
 }

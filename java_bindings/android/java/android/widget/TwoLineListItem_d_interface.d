@@ -15,5 +15,5 @@ final class TwoLineListItem : IJavaObject {
 	@Import import2.TextView getText2();
 	@Import import3.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TwoLineListItem");
+	public static immutable string _javaParameterString = "Landroid/widget/TwoLineListItem";
 }

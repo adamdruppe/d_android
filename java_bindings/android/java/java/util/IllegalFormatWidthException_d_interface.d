@@ -6,5 +6,5 @@ final class IllegalFormatWidthException : IJavaObject {
 	@Import int getWidth();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IllegalFormatWidthException");
+	public static immutable string _javaParameterString = "Ljava/util/IllegalFormatWidthException";
 }

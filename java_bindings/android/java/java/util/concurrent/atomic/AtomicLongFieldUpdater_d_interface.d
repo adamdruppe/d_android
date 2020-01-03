@@ -25,5 +25,5 @@ final class AtomicLongFieldUpdater : IJavaObject {
 	@Import long getAndAccumulate(IJavaObject, long, import3.LongBinaryOperator);
 	@Import long accumulateAndGet(IJavaObject, long, import3.LongBinaryOperator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicLongFieldUpdater");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicLongFieldUpdater";
 }

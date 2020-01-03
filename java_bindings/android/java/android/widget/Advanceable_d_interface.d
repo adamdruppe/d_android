@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Advanceable : IJavaObject {
 	@Import void advance();
 	@Import void fyiWillBeAdvancedByHostKThx();
-	mixin JavaPackageId!("android.widget", "Advanceable");
+	public static immutable string _javaParameterString = "Landroid/widget/Advanceable";
 }

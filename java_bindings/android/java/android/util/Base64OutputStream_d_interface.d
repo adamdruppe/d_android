@@ -9,5 +9,5 @@ final class Base64OutputStream : IJavaObject {
 	@Import void write(byte, int, int[]);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Base64OutputStream");
+	public static immutable string _javaParameterString = "Landroid/util/Base64OutputStream";
 }

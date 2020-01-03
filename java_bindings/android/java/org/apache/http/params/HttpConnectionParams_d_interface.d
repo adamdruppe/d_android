@@ -17,5 +17,5 @@ final class HttpConnectionParams : IJavaObject {
 	@Import static bool isStaleCheckingEnabled(import0.HttpParams);
 	@Import static void setStaleCheckingEnabled(import0.HttpParams, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.apache.http.params", "HttpConnectionParams");
+	public static immutable string _javaParameterString = "Lorg/apache/http/params/HttpConnectionParams";
 }

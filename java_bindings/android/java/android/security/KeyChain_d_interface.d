@@ -19,5 +19,5 @@ final class KeyChain : IJavaObject {
 	@Import static bool isKeyAlgorithmSupported(string);
 	@Import static bool isBoundKeyAlgorithm(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "KeyChain");
+	public static immutable string _javaParameterString = "Landroid/security/KeyChain";
 }

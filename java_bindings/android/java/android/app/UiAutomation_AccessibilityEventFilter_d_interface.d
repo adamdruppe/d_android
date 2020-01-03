@@ -6,5 +6,5 @@ import import0 = android.java.android.view.accessibility.AccessibilityEvent_d_in
 @JavaName("UiAutomation$AccessibilityEventFilter")
 interface UiAutomation_AccessibilityEventFilter : IJavaObject {
 	@Import bool accept(import0.AccessibilityEvent);
-	mixin JavaPackageId!("android.app", "UiAutomation$AccessibilityEventFilter");
+	public static immutable string _javaParameterString = "Landroid/app/UiAutomation$AccessibilityEventFilter";
 }

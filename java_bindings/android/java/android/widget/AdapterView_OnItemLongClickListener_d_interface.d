@@ -7,5 +7,5 @@ import import0 = android.java.android.widget.AdapterView_d_interface;
 @JavaName("AdapterView$OnItemLongClickListener")
 interface AdapterView_OnItemLongClickListener : IJavaObject {
 	@Import bool onItemLongClick(import0.AdapterView, import1.View, int, long);
-	mixin JavaPackageId!("android.widget", "AdapterView$OnItemLongClickListener");
+	public static immutable string _javaParameterString = "Landroid/widget/AdapterView$OnItemLongClickListener";
 }

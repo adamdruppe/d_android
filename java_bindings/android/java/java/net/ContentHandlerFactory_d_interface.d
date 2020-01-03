@@ -5,5 +5,5 @@ import import0 = android.java.java.net.ContentHandler_d_interface;
 
 interface ContentHandlerFactory : IJavaObject {
 	@Import import0.ContentHandler createContentHandler(string);
-	mixin JavaPackageId!("java.net", "ContentHandlerFactory");
+	public static immutable string _javaParameterString = "Ljava/net/ContentHandlerFactory";
 }

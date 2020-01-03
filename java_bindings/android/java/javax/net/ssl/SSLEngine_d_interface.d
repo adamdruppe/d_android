@@ -43,5 +43,5 @@ final class SSLEngine : IJavaObject {
 	@Import import5.SSLParameters getSSLParameters();
 	@Import void setSSLParameters(import5.SSLParameters);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLEngine");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLEngine";
 }

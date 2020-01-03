@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("NfcAdapter$OnTagRemovedListener")
 interface NfcAdapter_OnTagRemovedListener : IJavaObject {
 	@Import void onTagRemoved();
-	mixin JavaPackageId!("android.nfc", "NfcAdapter$OnTagRemovedListener");
+	public static immutable string _javaParameterString = "Landroid/nfc/NfcAdapter$OnTagRemovedListener";
 }

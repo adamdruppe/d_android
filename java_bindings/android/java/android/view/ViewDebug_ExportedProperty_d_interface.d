@@ -15,5 +15,5 @@ interface ViewDebug_ExportedProperty : IJavaObject {
 	@Import string category();
 	@Import bool formatToHexString();
 	@Import bool hasAdjacentMapping();
-	mixin JavaPackageId!("android.view", "ViewDebug$ExportedProperty");
+	public static immutable string _javaParameterString = "Landroid/view/ViewDebug$ExportedProperty";
 }

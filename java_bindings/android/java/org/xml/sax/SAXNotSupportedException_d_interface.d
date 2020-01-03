@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SAXNotSupportedException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax", "SAXNotSupportedException");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/SAXNotSupportedException";
 }

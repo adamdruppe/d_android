@@ -40,5 +40,5 @@ final class NotificationChannel : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "NotificationChannel");
+	public static immutable string _javaParameterString = "Landroid/app/NotificationChannel";
 }

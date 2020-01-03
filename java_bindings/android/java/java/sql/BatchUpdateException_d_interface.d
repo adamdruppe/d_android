@@ -15,5 +15,5 @@ final class BatchUpdateException : IJavaObject {
 	@Import this(string, string, int, int, import0.JavaThrowable[]);
 	@Import int[] getUpdateCounts();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "BatchUpdateException");
+	public static immutable string _javaParameterString = "Ljava/sql/BatchUpdateException";
 }

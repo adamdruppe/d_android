@@ -9,5 +9,5 @@ final class MediaStore_Audio_Playlists_Members : IJavaObject {
 	@Import static import0.Uri getContentUri(string, long);
 	@Import static bool moveItem(import1.ContentResolver, long, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Audio$Playlists$Members");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Audio$Playlists$Members";
 }

@@ -7,5 +7,5 @@ final class Exchanger : IJavaObject {
 	@Import IJavaObject exchange(IJavaObject);
 	@Import IJavaObject exchange(IJavaObject, long, import0.TimeUnit);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "Exchanger");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Exchanger";
 }

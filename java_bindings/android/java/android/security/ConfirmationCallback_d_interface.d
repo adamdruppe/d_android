@@ -9,5 +9,5 @@ final class ConfirmationCallback : IJavaObject {
 	@Import void onCanceled();
 	@Import void onError(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "ConfirmationCallback");
+	public static immutable string _javaParameterString = "Landroid/security/ConfirmationCallback";
 }

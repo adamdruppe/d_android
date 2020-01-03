@@ -10,5 +10,5 @@ final class ScriptGroup_Closure : IJavaObject {
 	@Import import0.ScriptGroup_Future getReturn();
 	@Import import0.ScriptGroup_Future getGlobal(import1.Script_FieldID);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptGroup$Closure");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptGroup$Closure";
 }

@@ -8,5 +8,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 final class Entity_NamedContentValues : IJavaObject {
 	@Import this(import0.Uri, import1.ContentValues);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Entity$NamedContentValues");
+	public static immutable string _javaParameterString = "Landroid/content/Entity$NamedContentValues";
 }

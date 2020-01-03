@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Int64Ref : IJavaObject {
 	@Import this(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "Int64Ref");
+	public static immutable string _javaParameterString = "Landroid/system/Int64Ref";
 }

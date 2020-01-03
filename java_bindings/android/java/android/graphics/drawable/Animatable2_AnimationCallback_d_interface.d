@@ -8,5 +8,5 @@ final class Animatable2_AnimationCallback : IJavaObject {
 	@Import void onAnimationStart(import0.Drawable);
 	@Import void onAnimationEnd(import0.Drawable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "Animatable2$AnimationCallback");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Animatable2$AnimationCallback";
 }

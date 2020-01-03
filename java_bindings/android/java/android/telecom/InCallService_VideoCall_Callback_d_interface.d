@@ -14,5 +14,5 @@ final class InCallService_VideoCall_Callback : IJavaObject {
 	@Import void onCallDataUsageChanged(long);
 	@Import void onCameraCapabilitiesChanged(import1.VideoProfile_CameraCapabilities);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "InCallService$VideoCall$Callback");
+	public static immutable string _javaParameterString = "Landroid/telecom/InCallService$VideoCall$Callback";
 }

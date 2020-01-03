@@ -7,5 +7,5 @@ import import0 = android.java.android.speech.tts.TextToSpeech_d_interface;
 final class TextToSpeech_Engine : IJavaObject {
 	@Import this(import0.TextToSpeech);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech.tts", "TextToSpeech$Engine");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/TextToSpeech$Engine";
 }

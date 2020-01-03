@@ -8,5 +8,5 @@ final class Fragment_SavedState : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Fragment$SavedState");
+	public static immutable string _javaParameterString = "Landroid/app/Fragment$SavedState";
 }

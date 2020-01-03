@@ -25,5 +25,5 @@ final class JavaThrowable : IJavaObject {
 	@Import void addSuppressed(import0.JavaThrowable);
 	@Import import0.JavaThrowable[] getSuppressed();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Throwable");
+	public static immutable string _javaParameterString = "Ljava/lang/Throwable";
 }

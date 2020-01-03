@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.Bitmap_d_interface;
 @JavaName("WebIconDatabase$IconListener")
 interface WebIconDatabase_IconListener : IJavaObject {
 	@Import void onReceivedIcon(string, import0.Bitmap);
-	mixin JavaPackageId!("android.webkit", "WebIconDatabase$IconListener");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebIconDatabase$IconListener";
 }

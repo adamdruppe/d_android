@@ -92,5 +92,5 @@ final class Connection : IJavaObject {
 	@Import static import10.Connection createCanceledConnection();
 	@Import void sendConnectionEvent(string, import4.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Connection");
+	public static immutable string _javaParameterString = "Landroid/telecom/Connection";
 }

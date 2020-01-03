@@ -10,5 +10,5 @@ final class GnssStatus_Callback : IJavaObject {
 	@Import void onFirstFix(int);
 	@Import void onSatelliteStatusChanged(import0.GnssStatus);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GnssStatus$Callback");
+	public static immutable string _javaParameterString = "Landroid/location/GnssStatus$Callback";
 }

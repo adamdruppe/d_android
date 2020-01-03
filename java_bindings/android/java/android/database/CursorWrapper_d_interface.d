@@ -54,5 +54,5 @@ final class CursorWrapper : IJavaObject {
 	@Import void unregisterContentObserver(import3.ContentObserver);
 	@Import void unregisterDataSetObserver(import4.DataSetObserver);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "CursorWrapper");
+	public static immutable string _javaParameterString = "Landroid/database/CursorWrapper";
 }

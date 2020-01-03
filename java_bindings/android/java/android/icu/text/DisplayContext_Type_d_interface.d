@@ -8,5 +8,5 @@ final class DisplayContext_Type : IJavaObject {
 	@Import static import0.DisplayContext_Type[] values();
 	@Import static import0.DisplayContext_Type valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DisplayContext$Type");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DisplayContext$Type";
 }

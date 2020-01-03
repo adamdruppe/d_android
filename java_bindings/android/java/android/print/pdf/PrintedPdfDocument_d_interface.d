@@ -13,5 +13,5 @@ final class PrintedPdfDocument : IJavaObject {
 	@Import int getPageHeight();
 	@Import import3.Rect getPageContentRect();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print.pdf", "PrintedPdfDocument");
+	public static immutable string _javaParameterString = "Landroid/print/pdf/PrintedPdfDocument";
 }

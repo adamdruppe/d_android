@@ -13,5 +13,5 @@ final class BufferedWriter : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "BufferedWriter");
+	public static immutable string _javaParameterString = "Ljava/io/BufferedWriter";
 }

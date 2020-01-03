@@ -5,5 +5,5 @@ final class RenderProcessGoneDetail : IJavaObject {
 	@Import bool didCrash();
 	@Import int rendererPriorityAtExit();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "RenderProcessGoneDetail");
+	public static immutable string _javaParameterString = "Landroid/webkit/RenderProcessGoneDetail";
 }

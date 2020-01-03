@@ -8,5 +8,5 @@ final class Shader_TileMode : IJavaObject {
 	@Import static import0.Shader_TileMode[] values();
 	@Import static import0.Shader_TileMode valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Shader$TileMode");
+	public static immutable string _javaParameterString = "Landroid/graphics/Shader$TileMode";
 }

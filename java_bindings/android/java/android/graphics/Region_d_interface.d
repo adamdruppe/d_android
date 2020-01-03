@@ -16,13 +16,21 @@ final class Region : IJavaObject {
 	@Import bool set(import1.Rect);
 	@Import bool set(int, int, int, int);
 	@Import bool setPath(import2.Path, import0.Region);
+	@Import bool isEmpty();
+	@Import bool isRect();
+	@Import bool isComplex();
 	@Import import1.Rect getBounds();
 	@Import bool getBounds(import1.Rect);
 	@Import import2.Path getBoundaryPath();
 	@Import bool getBoundaryPath(import2.Path);
+	@Import bool contains(int, int);
 	@Import bool quickContains(import1.Rect);
+	@Import bool quickContains(int, int, int, int);
 	@Import bool quickReject(import1.Rect);
+	@Import bool quickReject(int, int, int, int);
+	@Import bool quickReject(import0.Region);
 	@Import void translate(int, int);
+	@Import void translate(int, int, import0.Region);
 	@Import @JavaName("union") bool union_(import1.Rect);
 	@Import bool op(import1.Rect, import3.Region_Op);
 	@Import bool op(int, int, int, int, import3.Region_Op);
@@ -34,5 +42,5 @@ final class Region : IJavaObject {
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Region");
+	public static immutable string _javaParameterString = "Landroid/graphics/Region";
 }

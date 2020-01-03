@@ -8,5 +8,5 @@ interface LoggingMXBean : IJavaObject {
 	@Import string getLoggerLevel(string);
 	@Import void setLoggerLevel(string, string);
 	@Import string getParentLoggerName(string);
-	mixin JavaPackageId!("java.util.logging", "LoggingMXBean");
+	public static immutable string _javaParameterString = "Ljava/util/logging/LoggingMXBean";
 }

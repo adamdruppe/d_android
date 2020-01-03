@@ -9,5 +9,5 @@ final class InvocationTargetException : IJavaObject {
 	@Import import0.JavaThrowable getTargetException();
 	@Import import0.JavaThrowable getCause();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "InvocationTargetException");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/InvocationTargetException";
 }

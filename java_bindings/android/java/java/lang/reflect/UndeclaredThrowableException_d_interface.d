@@ -9,5 +9,5 @@ final class UndeclaredThrowableException : IJavaObject {
 	@Import import0.JavaThrowable getUndeclaredThrowable();
 	@Import import0.JavaThrowable getCause();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "UndeclaredThrowableException");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/UndeclaredThrowableException";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface Printer : IJavaObject {
 	@Import void println(string);
-	mixin JavaPackageId!("android.util", "Printer");
+	public static immutable string _javaParameterString = "Landroid/util/Printer";
 }

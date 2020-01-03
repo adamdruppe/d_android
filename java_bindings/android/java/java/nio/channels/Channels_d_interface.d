@@ -23,5 +23,5 @@ final class Channels : IJavaObject {
 	@Import static import7.Writer newWriter(import3.WritableByteChannel, import8.CharsetEncoder, int);
 	@Import static import7.Writer newWriter(import3.WritableByteChannel, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "Channels");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/Channels";
 }

@@ -33,5 +33,5 @@ final class VectorDrawable : IJavaObject {
 	@Import void setAutoMirrored(bool);
 	@Import bool isAutoMirrored();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "VectorDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/VectorDrawable";
 }

@@ -41,5 +41,5 @@ final class LauncherApps : IJavaObject {
 	@Import void unregisterCallback(import12.LauncherApps_Callback);
 	@Import import14.LauncherApps_PinItemRequest getPinItemRequest(import3.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "LauncherApps");
+	public static immutable string _javaParameterString = "Landroid/content/pm/LauncherApps";
 }

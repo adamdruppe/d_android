@@ -9,5 +9,5 @@ final class LocalSocketAddress : IJavaObject {
 	@Import string getName();
 	@Import import0.LocalSocketAddress_Namespace getNamespace();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "LocalSocketAddress");
+	public static immutable string _javaParameterString = "Landroid/net/LocalSocketAddress";
 }

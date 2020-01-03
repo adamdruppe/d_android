@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class EmbossMaskFilter : IJavaObject {
 	@Import this(float, float, float, float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "EmbossMaskFilter");
+	public static immutable string _javaParameterString = "Landroid/graphics/EmbossMaskFilter";
 }

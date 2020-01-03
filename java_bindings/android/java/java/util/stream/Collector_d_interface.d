@@ -17,5 +17,5 @@ interface Collector : IJavaObject {
 	@Import import4.Set characteristics();
 	@Import static import5.Collector of(import0.Supplier, import1.BiConsumer, import2.BinaryOperator, import6.Collector_Characteristics[]);
 	@Import static import5.Collector of(import0.Supplier, import1.BiConsumer, import2.BinaryOperator, import3.Function, import6.Collector_Characteristics[]);
-	mixin JavaPackageId!("java.util.stream", "Collector");
+	public static immutable string _javaParameterString = "Ljava/util/stream/Collector";
 }

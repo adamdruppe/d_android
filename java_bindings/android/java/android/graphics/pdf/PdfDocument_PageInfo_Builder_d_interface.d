@@ -11,5 +11,5 @@ final class PdfDocument_PageInfo_Builder : IJavaObject {
 	@Import import0.PdfDocument_PageInfo_Builder setContentRect(import1.Rect);
 	@Import import2.PdfDocument_PageInfo create();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.pdf", "PdfDocument$PageInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/graphics/pdf/PdfDocument$PageInfo$Builder";
 }

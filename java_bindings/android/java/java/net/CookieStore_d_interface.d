@@ -12,5 +12,5 @@ interface CookieStore : IJavaObject {
 	@Import import2.List getURIs();
 	@Import bool remove(import0.URI, import1.HttpCookie);
 	@Import bool removeAll();
-	mixin JavaPackageId!("java.net", "CookieStore");
+	public static immutable string _javaParameterString = "Ljava/net/CookieStore";
 }

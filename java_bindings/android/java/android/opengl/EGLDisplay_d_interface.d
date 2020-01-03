@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class EGLDisplay : IJavaObject {
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "EGLDisplay");
+	public static immutable string _javaParameterString = "Landroid/opengl/EGLDisplay";
 }

@@ -10,5 +10,5 @@ interface WatchKey : IJavaObject {
 	@Import bool reset();
 	@Import void cancel();
 	@Import import1.Watchable watchable();
-	mixin JavaPackageId!("java.nio.file", "WatchKey");
+	public static immutable string _javaParameterString = "Ljava/nio/file/WatchKey";
 }

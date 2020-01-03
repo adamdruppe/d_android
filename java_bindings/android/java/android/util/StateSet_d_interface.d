@@ -8,5 +8,5 @@ final class StateSet : IJavaObject {
 	@Import static int[] trimStateSet(int, int[]);
 	@Import static string dump(int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "StateSet");
+	public static immutable string _javaParameterString = "Landroid/util/StateSet";
 }

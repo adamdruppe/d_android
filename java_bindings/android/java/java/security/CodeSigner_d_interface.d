@@ -12,5 +12,5 @@ final class CodeSigner : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "CodeSigner");
+	public static immutable string _javaParameterString = "Ljava/security/CodeSigner";
 }

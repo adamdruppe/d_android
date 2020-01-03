@@ -7,5 +7,5 @@ import import0 = android.java.android.widget.AdapterView_d_interface;
 @JavaName("AdapterView$OnItemClickListener")
 interface AdapterView_OnItemClickListener : IJavaObject {
 	@Import void onItemClick(import0.AdapterView, import1.View, int, long);
-	mixin JavaPackageId!("android.widget", "AdapterView$OnItemClickListener");
+	public static immutable string _javaParameterString = "Landroid/widget/AdapterView$OnItemClickListener";
 }

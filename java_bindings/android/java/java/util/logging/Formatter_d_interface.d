@@ -10,5 +10,5 @@ final class Formatter : IJavaObject {
 	@Import string getTail(import1.Handler);
 	@Import string formatMessage(import0.LogRecord);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "Formatter");
+	public static immutable string _javaParameterString = "Ljava/util/logging/Formatter";
 }

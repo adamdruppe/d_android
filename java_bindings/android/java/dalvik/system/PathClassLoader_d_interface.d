@@ -7,5 +7,5 @@ final class PathClassLoader : IJavaObject {
 	@Import this(string, import0.ClassLoader);
 	@Import this(string, string, import0.ClassLoader);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("dalvik.system", "PathClassLoader");
+	public static immutable string _javaParameterString = "Ldalvik/system/PathClassLoader";
 }

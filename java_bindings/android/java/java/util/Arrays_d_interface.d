@@ -179,5 +179,5 @@ final class Arrays : IJavaObject {
 	@Import static import19.DoubleStream stream(double[]);
 	@Import static import19.DoubleStream stream(double, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Arrays");
+	public static immutable string _javaParameterString = "Ljava/util/Arrays";
 }

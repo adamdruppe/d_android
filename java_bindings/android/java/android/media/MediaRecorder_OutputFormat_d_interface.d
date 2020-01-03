@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaRecorder$OutputFormat")
 final class MediaRecorder_OutputFormat : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRecorder$OutputFormat");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRecorder$OutputFormat";
 }

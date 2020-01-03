@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class Xfermode : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Xfermode");
+	public static immutable string _javaParameterString = "Landroid/graphics/Xfermode";
 }

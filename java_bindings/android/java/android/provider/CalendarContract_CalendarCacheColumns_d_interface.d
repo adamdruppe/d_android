@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("CalendarContract$CalendarCacheColumns")
 interface CalendarContract_CalendarCacheColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "CalendarContract$CalendarCacheColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$CalendarCacheColumns";
 }

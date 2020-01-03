@@ -8,5 +8,5 @@ final class WindowAnimationFrameStats : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "WindowAnimationFrameStats");
+	public static immutable string _javaParameterString = "Landroid/view/WindowAnimationFrameStats";
 }

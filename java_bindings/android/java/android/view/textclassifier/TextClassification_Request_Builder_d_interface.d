@@ -14,5 +14,5 @@ final class TextClassification_Request_Builder : IJavaObject {
 	@Import import1.TextClassification_Request_Builder setReferenceTime(import3.ZonedDateTime);
 	@Import import4.TextClassification_Request build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassification$Request$Builder");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassification$Request$Builder";
 }

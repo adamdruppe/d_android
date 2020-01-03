@@ -21,5 +21,5 @@ final class JSONTokener : IJavaObject {
 	@Import void back();
 	@Import static int dehexchar(wchar);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.json", "JSONTokener");
+	public static immutable string _javaParameterString = "Lorg/json/JSONTokener";
 }

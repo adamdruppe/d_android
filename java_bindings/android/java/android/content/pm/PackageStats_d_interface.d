@@ -14,5 +14,5 @@ final class PackageStats : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageStats");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageStats";
 }

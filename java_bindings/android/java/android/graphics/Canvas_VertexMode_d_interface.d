@@ -8,5 +8,5 @@ final class Canvas_VertexMode : IJavaObject {
 	@Import static import0.Canvas_VertexMode[] values();
 	@Import static import0.Canvas_VertexMode valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Canvas$VertexMode");
+	public static immutable string _javaParameterString = "Landroid/graphics/Canvas$VertexMode";
 }

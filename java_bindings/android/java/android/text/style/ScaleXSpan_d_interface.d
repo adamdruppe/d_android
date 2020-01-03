@@ -14,5 +14,5 @@ final class ScaleXSpan : IJavaObject {
 	@Import void updateDrawState(import1.TextPaint);
 	@Import void updateMeasureState(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "ScaleXSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/ScaleXSpan";
 }

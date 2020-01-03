@@ -11,5 +11,5 @@ final class VoiceInteractionSession_AbortVoiceRequest : IJavaObject {
 	@Import import1.CharSequence getMessage();
 	@Import void sendAbortResult(import2.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession$AbortVoiceRequest");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession$AbortVoiceRequest";
 }

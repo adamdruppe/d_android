@@ -17,5 +17,5 @@ interface Era : IJavaObject {
 	@Import IJavaObject query(import2.TemporalQuery);
 	@Import import3.Temporal adjustInto(import3.Temporal);
 	@Import string getDisplayName(import4.TextStyle, import5.Locale);
-	mixin JavaPackageId!("java.time.chrono", "Era");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/Era";
 }

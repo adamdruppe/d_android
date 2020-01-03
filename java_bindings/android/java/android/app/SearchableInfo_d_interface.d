@@ -32,5 +32,5 @@ final class SearchableInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "SearchableInfo");
+	public static immutable string _javaParameterString = "Landroid/app/SearchableInfo";
 }

@@ -21,5 +21,5 @@ final class Collator : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "Collator");
+	public static immutable string _javaParameterString = "Ljava/text/Collator";
 }

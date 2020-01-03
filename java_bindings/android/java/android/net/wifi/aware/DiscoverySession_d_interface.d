@@ -10,5 +10,5 @@ final class DiscoverySession : IJavaObject {
 	@Import import1.NetworkSpecifier createNetworkSpecifierOpen(import0.PeerHandle);
 	@Import import1.NetworkSpecifier createNetworkSpecifierPassphrase(import0.PeerHandle, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "DiscoverySession");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/DiscoverySession";
 }

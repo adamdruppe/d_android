@@ -12,5 +12,5 @@ final class AlarmManager_AlarmClockInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AlarmManager$AlarmClockInfo");
+	public static immutable string _javaParameterString = "Landroid/app/AlarmManager$AlarmClockInfo";
 }

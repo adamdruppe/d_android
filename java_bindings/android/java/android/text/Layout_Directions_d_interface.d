@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Layout$Directions")
 final class Layout_Directions : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Layout$Directions");
+	public static immutable string _javaParameterString = "Landroid/text/Layout$Directions";
 }

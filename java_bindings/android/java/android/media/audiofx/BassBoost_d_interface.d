@@ -13,5 +13,5 @@ final class BassBoost : IJavaObject {
 	@Import import1.BassBoost_Settings getProperties();
 	@Import void setProperties(import1.BassBoost_Settings);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "BassBoost");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/BassBoost";
 }

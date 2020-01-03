@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface DoubleBinaryOperator : IJavaObject {
 	@Import double applyAsDouble(double, double);
-	mixin JavaPackageId!("java.util.function", "DoubleBinaryOperator");
+	public static immutable string _javaParameterString = "Ljava/util/function/DoubleBinaryOperator";
 }

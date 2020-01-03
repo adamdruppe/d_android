@@ -12,5 +12,5 @@ final class XmlPullParserException : IJavaObject {
 	@Import int getColumnNumber();
 	@Import void printStackTrace();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xmlpull.v1", "XmlPullParserException");
+	public static immutable string _javaParameterString = "Lorg/xmlpull/v1/XmlPullParserException";
 }

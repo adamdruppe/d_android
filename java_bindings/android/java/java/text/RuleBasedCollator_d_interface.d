@@ -16,5 +16,5 @@ final class RuleBasedCollator : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "RuleBasedCollator");
+	public static immutable string _javaParameterString = "Ljava/text/RuleBasedCollator";
 }

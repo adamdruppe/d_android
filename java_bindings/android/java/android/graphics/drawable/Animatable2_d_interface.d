@@ -7,5 +7,5 @@ interface Animatable2 : IJavaObject {
 	@Import void registerAnimationCallback(import0.Animatable2_AnimationCallback);
 	@Import bool unregisterAnimationCallback(import0.Animatable2_AnimationCallback);
 	@Import void clearAnimationCallbacks();
-	mixin JavaPackageId!("android.graphics.drawable", "Animatable2");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Animatable2";
 }

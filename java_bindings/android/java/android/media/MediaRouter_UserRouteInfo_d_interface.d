@@ -25,5 +25,5 @@ final class MediaRouter_UserRouteInfo : IJavaObject {
 	@Import void setVolumeMax(int);
 	@Import void setPlaybackStream(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRouter$UserRouteInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRouter$UserRouteInfo";
 }

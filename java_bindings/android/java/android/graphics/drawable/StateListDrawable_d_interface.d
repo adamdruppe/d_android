@@ -14,5 +14,5 @@ final class StateListDrawable : IJavaObject {
 	@Import import0.Drawable mutate();
 	@Import void applyTheme(import4.Resources_Theme);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "StateListDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/StateListDrawable";
 }

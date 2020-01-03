@@ -6,5 +6,5 @@ import import0 = android.java.android.preference.Preference_d_interface;
 @JavaName("Preference$OnPreferenceClickListener")
 interface Preference_OnPreferenceClickListener : IJavaObject {
 	@Import bool onPreferenceClick(import0.Preference);
-	mixin JavaPackageId!("android.preference", "Preference$OnPreferenceClickListener");
+	public static immutable string _javaParameterString = "Landroid/preference/Preference$OnPreferenceClickListener";
 }

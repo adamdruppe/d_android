@@ -20,5 +20,5 @@ final class Element : IJavaObject {
 	@Import void setEndTextElementListener(import5.EndTextElementListener);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.sax", "Element");
+	public static immutable string _javaParameterString = "Landroid/sax/Element";
 }

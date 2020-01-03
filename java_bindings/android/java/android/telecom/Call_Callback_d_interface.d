@@ -27,5 +27,5 @@ final class Call_Callback : IJavaObject {
 	@Import void onHandoverComplete(import0.Call);
 	@Import void onHandoverFailed(import0.Call, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Call$Callback");
+	public static immutable string _javaParameterString = "Landroid/telecom/Call$Callback";
 }

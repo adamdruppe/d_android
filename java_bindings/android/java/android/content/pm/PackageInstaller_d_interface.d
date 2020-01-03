@@ -27,5 +27,5 @@ final class PackageInstaller : IJavaObject {
 	@Import void registerSessionCallback(import8.PackageInstaller_SessionCallback, import9.Handler);
 	@Import void unregisterSessionCallback(import8.PackageInstaller_SessionCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageInstaller");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageInstaller";
 }

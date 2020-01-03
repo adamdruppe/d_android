@@ -8,5 +8,5 @@ final class RecognitionService : IJavaObject {
 	@Import import0.IBinder onBind(import1.Intent);
 	@Import void onDestroy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech", "RecognitionService");
+	public static immutable string _javaParameterString = "Landroid/speech/RecognitionService";
 }

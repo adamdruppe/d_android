@@ -8,5 +8,5 @@ final class GnssNavigationMessage_Callback : IJavaObject {
 	@Import void onGnssNavigationMessageReceived(import0.GnssNavigationMessage);
 	@Import void onStatusChanged(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GnssNavigationMessage$Callback");
+	public static immutable string _javaParameterString = "Landroid/location/GnssNavigationMessage$Callback";
 }

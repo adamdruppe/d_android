@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface SyncStatusObserver : IJavaObject {
 	@Import void onStatusChanged(int);
-	mixin JavaPackageId!("android.content", "SyncStatusObserver");
+	public static immutable string _javaParameterString = "Landroid/content/SyncStatusObserver";
 }

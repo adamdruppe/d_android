@@ -10,5 +10,5 @@ final class Intent_FilterComparison : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Intent$FilterComparison");
+	public static immutable string _javaParameterString = "Landroid/content/Intent$FilterComparison";
 }

@@ -11,5 +11,5 @@ final class AnimatorSet_Builder : IJavaObject {
 	@Import import0.AnimatorSet_Builder after(import1.Animator);
 	@Import import0.AnimatorSet_Builder after(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "AnimatorSet$Builder");
+	public static immutable string _javaParameterString = "Landroid/animation/AnimatorSet$Builder";
 }

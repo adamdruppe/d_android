@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Certificate$CertificateRep")
 final class Certificate_CertificateRep : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "Certificate$CertificateRep");
+	public static immutable string _javaParameterString = "Ljava/security/cert/Certificate$CertificateRep";
 }

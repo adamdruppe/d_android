@@ -32,5 +32,5 @@ final class ActivityOptions : IJavaObject {
 	@Import import0.ActivityOptions setAppVerificationBundle(import7.Bundle);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActivityOptions");
+	public static immutable string _javaParameterString = "Landroid/app/ActivityOptions";
 }

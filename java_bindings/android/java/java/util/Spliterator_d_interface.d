@@ -14,5 +14,5 @@ interface Spliterator : IJavaObject {
 	@Import int characteristics();
 	@Import bool hasCharacteristics(int);
 	@Import import2.Comparator getComparator();
-	mixin JavaPackageId!("java.util", "Spliterator");
+	public static immutable string _javaParameterString = "Ljava/util/Spliterator";
 }

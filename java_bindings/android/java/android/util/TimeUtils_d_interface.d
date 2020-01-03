@@ -7,5 +7,5 @@ final class TimeUtils : IJavaObject {
 	@Import static import0.TimeZone getTimeZone(int, bool, long, string);
 	@Import static string getTimeZoneDatabaseVersion();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "TimeUtils");
+	public static immutable string _javaParameterString = "Landroid/util/TimeUtils";
 }

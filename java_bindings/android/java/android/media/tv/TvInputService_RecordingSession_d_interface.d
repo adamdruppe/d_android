@@ -18,5 +18,5 @@ final class TvInputService_RecordingSession : IJavaObject {
 	@Import void onRelease();
 	@Import void onAppPrivateCommand(string, import2.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvInputService$RecordingSession");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputService$RecordingSession";
 }

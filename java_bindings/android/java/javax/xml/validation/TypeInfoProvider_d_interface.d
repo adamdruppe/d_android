@@ -9,5 +9,5 @@ final class TypeInfoProvider : IJavaObject {
 	@Import bool isIdAttribute(int);
 	@Import bool isSpecified(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.validation", "TypeInfoProvider");
+	public static immutable string _javaParameterString = "Ljavax/xml/validation/TypeInfoProvider";
 }

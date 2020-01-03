@@ -69,5 +69,5 @@ interface MenuItem : IJavaObject {
 	@Import import1.CharSequence getContentDescription();
 	@Import import0.MenuItem setTooltipText(import1.CharSequence);
 	@Import import1.CharSequence getTooltipText();
-	mixin JavaPackageId!("android.view", "MenuItem");
+	public static immutable string _javaParameterString = "Landroid/view/MenuItem";
 }

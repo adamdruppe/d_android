@@ -14,5 +14,5 @@ interface MediaController_MediaPlayerControl : IJavaObject {
 	@Import bool canSeekBackward();
 	@Import bool canSeekForward();
 	@Import int getAudioSessionId();
-	mixin JavaPackageId!("android.widget", "MediaController$MediaPlayerControl");
+	public static immutable string _javaParameterString = "Landroid/widget/MediaController$MediaPlayerControl";
 }

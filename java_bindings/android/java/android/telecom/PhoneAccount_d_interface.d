@@ -30,5 +30,5 @@ final class PhoneAccount : IJavaObject {
 	@Import void writeToParcel(import7.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "PhoneAccount");
+	public static immutable string _javaParameterString = "Landroid/telecom/PhoneAccount";
 }

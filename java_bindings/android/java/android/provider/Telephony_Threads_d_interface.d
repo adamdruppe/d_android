@@ -9,5 +9,5 @@ final class Telephony_Threads : IJavaObject {
 	@Import static long getOrCreateThreadId(import0.Context, string);
 	@Import static long getOrCreateThreadId(import0.Context, import1.Set);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Telephony$Threads");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$Threads";
 }

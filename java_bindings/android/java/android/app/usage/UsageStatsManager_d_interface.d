@@ -15,5 +15,5 @@ final class UsageStatsManager : IJavaObject {
 	@Import bool isAppInactive(string);
 	@Import int getAppStandbyBucket();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "UsageStatsManager");
+	public static immutable string _javaParameterString = "Landroid/app/usage/UsageStatsManager";
 }

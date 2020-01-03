@@ -19,5 +19,5 @@ final class BluetoothLeAdvertiser : IJavaObject {
 	@Import void startAdvertisingSet(import3.AdvertisingSetParameters, import1.AdvertiseData, import1.AdvertiseData, import4.PeriodicAdvertisingParameters, import1.AdvertiseData, int, int, import5.AdvertisingSetCallback, import6.Handler);
 	@Import void stopAdvertisingSet(import5.AdvertisingSetCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "BluetoothLeAdvertiser");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/BluetoothLeAdvertiser";
 }

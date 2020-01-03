@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SQLiteDiskIOException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteDiskIOException");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteDiskIOException";
 }

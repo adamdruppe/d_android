@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class FormatterClosedException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "FormatterClosedException");
+	public static immutable string _javaParameterString = "Ljava/util/FormatterClosedException";
 }

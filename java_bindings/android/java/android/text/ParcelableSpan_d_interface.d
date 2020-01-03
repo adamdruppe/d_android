@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ParcelableSpan : IJavaObject {
 	@Import int getSpanTypeId();
-	mixin JavaPackageId!("android.text", "ParcelableSpan");
+	public static immutable string _javaParameterString = "Landroid/text/ParcelableSpan";
 }

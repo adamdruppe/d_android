@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("InputMethodService$Insets")
 final class InputMethodService_Insets : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "InputMethodService$Insets");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/InputMethodService$Insets";
 }

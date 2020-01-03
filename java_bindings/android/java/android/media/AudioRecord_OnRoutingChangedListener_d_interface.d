@@ -8,5 +8,5 @@ import import0 = android.java.android.media.AudioRecord_d_interface;
 interface AudioRecord_OnRoutingChangedListener : IJavaObject {
 	@Import void onRoutingChanged(import0.AudioRecord);
 	@Import void onRoutingChanged(import1.AudioRouting);
-	mixin JavaPackageId!("android.media", "AudioRecord$OnRoutingChangedListener");
+	public static immutable string _javaParameterString = "Landroid/media/AudioRecord$OnRoutingChangedListener";
 }

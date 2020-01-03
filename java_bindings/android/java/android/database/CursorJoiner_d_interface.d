@@ -13,5 +13,5 @@ final class CursorJoiner : IJavaObject {
 	@Import void remove();
 	@Import IJavaObject next();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "CursorJoiner");
+	public static immutable string _javaParameterString = "Landroid/database/CursorJoiner";
 }

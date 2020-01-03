@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DataFormatException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "DataFormatException");
+	public static immutable string _javaParameterString = "Ljava/util/zip/DataFormatException";
 }

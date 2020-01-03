@@ -21,5 +21,5 @@ final class LruCache : IJavaObject {
 	@Import import0.Map snapshot();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "LruCache");
+	public static immutable string _javaParameterString = "Landroid/util/LruCache";
 }

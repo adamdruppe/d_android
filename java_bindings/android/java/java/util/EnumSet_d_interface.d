@@ -22,5 +22,5 @@ final class EnumSet : IJavaObject {
 	@Import import0.EnumSet clone();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "EnumSet");
+	public static immutable string _javaParameterString = "Ljava/util/EnumSet";
 }

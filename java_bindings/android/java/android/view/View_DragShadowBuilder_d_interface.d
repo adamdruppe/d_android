@@ -12,5 +12,5 @@ final class View_DragShadowBuilder : IJavaObject {
 	@Import void onProvideShadowMetrics(import1.Point, import1.Point);
 	@Import void onDrawShadow(import2.Canvas);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "View$DragShadowBuilder");
+	public static immutable string _javaParameterString = "Landroid/view/View$DragShadowBuilder";
 }

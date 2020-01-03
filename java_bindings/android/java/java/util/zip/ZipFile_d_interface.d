@@ -24,5 +24,5 @@ final class ZipFile : IJavaObject {
 	@Import int size();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "ZipFile");
+	public static immutable string _javaParameterString = "Ljava/util/zip/ZipFile";
 }

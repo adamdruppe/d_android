@@ -38,5 +38,5 @@ final class Spliterators : IJavaObject {
 	@Import static import7.PrimitiveIterator_OfLong iterator(import2.Spliterator_OfLong);
 	@Import static import8.PrimitiveIterator_OfDouble iterator(import3.Spliterator_OfDouble);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Spliterators");
+	public static immutable string _javaParameterString = "Ljava/util/Spliterators";
 }

@@ -5,5 +5,5 @@ interface SQLiteTransactionListener : IJavaObject {
 	@Import void onBegin();
 	@Import void onCommit();
 	@Import void onRollback();
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteTransactionListener");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteTransactionListener";
 }

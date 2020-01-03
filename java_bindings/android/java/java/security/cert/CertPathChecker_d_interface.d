@@ -4,8 +4,8 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 import import0 = android.java.java.security.cert.Certificate_d_interface;
 
 interface CertPathChecker : IJavaObject {
-	@Import void init(bool);
+	@Import @JavaName("init") void init_(bool);
 	@Import bool isForwardCheckingSupported();
 	@Import void check(import0.Certificate);
-	mixin JavaPackageId!("java.security.cert", "CertPathChecker");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathChecker";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class UnrecoverableEntryException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "UnrecoverableEntryException");
+	public static immutable string _javaParameterString = "Ljava/security/UnrecoverableEntryException";
 }

@@ -83,5 +83,5 @@ final class AudioManager : IJavaObject {
 	@Import void unregisterAudioDeviceCallback(import12.AudioDeviceCallback);
 	@Import import9.List getMicrophones();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioManager");
+	public static immutable string _javaParameterString = "Landroid/media/AudioManager";
 }

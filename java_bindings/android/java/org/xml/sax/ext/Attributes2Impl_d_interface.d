@@ -17,5 +17,5 @@ final class Attributes2Impl : IJavaObject {
 	@Import void setDeclared(int, bool);
 	@Import void setSpecified(int, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.ext", "Attributes2Impl");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ext/Attributes2Impl";
 }

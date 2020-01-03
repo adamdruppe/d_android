@@ -9,5 +9,5 @@ final class TelephonyManager_UssdResponseCallback : IJavaObject {
 	@Import void onReceiveUssdResponse(import0.TelephonyManager, string, import1.CharSequence);
 	@Import void onReceiveUssdResponseFailed(import0.TelephonyManager, string, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "TelephonyManager$UssdResponseCallback");
+	public static immutable string _javaParameterString = "Landroid/telephony/TelephonyManager$UssdResponseCallback";
 }

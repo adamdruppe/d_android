@@ -12,5 +12,5 @@ final class PreferenceCategory : IJavaObject {
 	@Import bool isEnabled();
 	@Import bool shouldDisableDependents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "PreferenceCategory");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceCategory";
 }

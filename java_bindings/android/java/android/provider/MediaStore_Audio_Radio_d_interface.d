@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaStore$Audio$Radio")
 final class MediaStore_Audio_Radio : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Audio$Radio");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Audio$Radio";
 }

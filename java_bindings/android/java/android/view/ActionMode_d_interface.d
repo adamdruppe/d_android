@@ -30,5 +30,5 @@ final class ActionMode : IJavaObject {
 	@Import import3.MenuInflater getMenuInflater();
 	@Import void onWindowFocusChanged(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ActionMode");
+	public static immutable string _javaParameterString = "Landroid/view/ActionMode";
 }

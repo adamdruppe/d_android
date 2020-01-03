@@ -12,5 +12,5 @@ final class ServerSocketFactory : IJavaObject {
 	@Import import1.ServerSocket createServerSocket(int, int);
 	@Import import1.ServerSocket createServerSocket(int, int, import2.InetAddress);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net", "ServerSocketFactory");
+	public static immutable string _javaParameterString = "Ljavax/net/ServerSocketFactory";
 }

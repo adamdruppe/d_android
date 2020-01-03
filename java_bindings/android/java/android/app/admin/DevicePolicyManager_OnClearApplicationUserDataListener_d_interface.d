@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("DevicePolicyManager$OnClearApplicationUserDataListener")
 interface DevicePolicyManager_OnClearApplicationUserDataListener : IJavaObject {
 	@Import void onApplicationUserDataCleared(string, bool);
-	mixin JavaPackageId!("android.app.admin", "DevicePolicyManager$OnClearApplicationUserDataListener");
+	public static immutable string _javaParameterString = "Landroid/app/admin/DevicePolicyManager$OnClearApplicationUserDataListener";
 }

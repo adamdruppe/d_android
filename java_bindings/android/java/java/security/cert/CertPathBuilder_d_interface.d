@@ -17,5 +17,5 @@ final class CertPathBuilder : IJavaObject {
 	@Import static string getDefaultType();
 	@Import import4.CertPathChecker getRevocationChecker();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertPathBuilder");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathBuilder";
 }

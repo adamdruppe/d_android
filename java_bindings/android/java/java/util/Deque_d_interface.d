@@ -31,5 +31,5 @@ interface Deque : IJavaObject {
 	@Import int size();
 	@Import import0.Iterator iterator();
 	@Import import0.Iterator descendingIterator();
-	mixin JavaPackageId!("java.util", "Deque");
+	public static immutable string _javaParameterString = "Ljava/util/Deque";
 }

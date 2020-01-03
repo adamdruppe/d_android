@@ -5,5 +5,5 @@ import import0 = android.java.java.io.File_d_interface;
 
 interface FilenameFilter : IJavaObject {
 	@Import bool accept(import0.File, string);
-	mixin JavaPackageId!("java.io", "FilenameFilter");
+	public static immutable string _javaParameterString = "Ljava/io/FilenameFilter";
 }

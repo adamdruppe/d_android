@@ -27,5 +27,5 @@ final class ApnSetting_Builder : IJavaObject {
 	@Import import0.ApnSetting_Builder setMvnoType(int);
 	@Import import3.ApnSetting build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.data", "ApnSetting$Builder");
+	public static immutable string _javaParameterString = "Landroid/telephony/data/ApnSetting$Builder";
 }

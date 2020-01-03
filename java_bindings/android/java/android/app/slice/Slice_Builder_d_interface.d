@@ -28,5 +28,5 @@ final class Slice_Builder : IJavaObject {
 	@Import import2.Slice_Builder addBundle(import9.Bundle, string, import3.List);
 	@Import import4.Slice build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.slice", "Slice$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/slice/Slice$Builder";
 }

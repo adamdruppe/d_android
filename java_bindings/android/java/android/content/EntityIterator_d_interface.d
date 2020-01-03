@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface EntityIterator : IJavaObject {
 	@Import void reset();
 	@Import void close();
-	mixin JavaPackageId!("android.content", "EntityIterator");
+	public static immutable string _javaParameterString = "Landroid/content/EntityIterator";
 }

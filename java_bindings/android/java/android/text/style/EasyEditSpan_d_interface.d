@@ -11,5 +11,5 @@ final class EasyEditSpan : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int getSpanTypeId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "EasyEditSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/EasyEditSpan";
 }

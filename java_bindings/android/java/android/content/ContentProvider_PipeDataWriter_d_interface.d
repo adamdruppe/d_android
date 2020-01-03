@@ -8,5 +8,5 @@ import import0 = android.java.android.os.ParcelFileDescriptor_d_interface;
 @JavaName("ContentProvider$PipeDataWriter")
 interface ContentProvider_PipeDataWriter : IJavaObject {
 	@Import void writeDataToPipe(import0.ParcelFileDescriptor, import1.Uri, string, import2.Bundle, IJavaObject);
-	mixin JavaPackageId!("android.content", "ContentProvider$PipeDataWriter");
+	public static immutable string _javaParameterString = "Landroid/content/ContentProvider$PipeDataWriter";
 }

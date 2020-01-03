@@ -7,5 +7,5 @@ final class VisualVoicemailService_VisualVoicemailTask : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "VisualVoicemailService$VisualVoicemailTask");
+	public static immutable string _javaParameterString = "Landroid/telephony/VisualVoicemailService$VisualVoicemailTask";
 }

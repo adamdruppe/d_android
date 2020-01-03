@@ -8,5 +8,5 @@ import import2 = android.java.android.view.ContextMenu_ContextMenuInfo_d_interfa
 @JavaName("View$OnCreateContextMenuListener")
 interface View_OnCreateContextMenuListener : IJavaObject {
 	@Import void onCreateContextMenu(import0.ContextMenu, import1.View, import2.ContextMenu_ContextMenuInfo);
-	mixin JavaPackageId!("android.view", "View$OnCreateContextMenuListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnCreateContextMenuListener";
 }

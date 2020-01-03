@@ -7,5 +7,5 @@ final class GuardedObject : IJavaObject {
 	@Import this(IJavaObject, import0.Guard);
 	@Import IJavaObject getObject();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "GuardedObject");
+	public static immutable string _javaParameterString = "Ljava/security/GuardedObject";
 }

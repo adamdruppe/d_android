@@ -8,5 +8,5 @@ final class EnumConstantNotPresentException : IJavaObject {
 	@Import import0.Class enumType();
 	@Import string constantName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "EnumConstantNotPresentException");
+	public static immutable string _javaParameterString = "Ljava/lang/EnumConstantNotPresentException";
 }

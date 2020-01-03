@@ -23,5 +23,5 @@ final class Notification_Action_Builder : IJavaObject {
 	@Import import4.Notification_Action_Builder extend(import7.Notification_Action_Extender);
 	@Import import3.Notification_Action build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$Action$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$Action$Builder";
 }

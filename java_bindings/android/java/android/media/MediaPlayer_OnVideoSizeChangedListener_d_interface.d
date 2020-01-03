@@ -6,5 +6,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnVideoSizeChangedListener")
 interface MediaPlayer_OnVideoSizeChangedListener : IJavaObject {
 	@Import void onVideoSizeChanged(import0.MediaPlayer, int, int);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnVideoSizeChangedListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnVideoSizeChangedListener";
 }

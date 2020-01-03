@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class AliasActivity : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AliasActivity");
+	public static immutable string _javaParameterString = "Landroid/app/AliasActivity";
 }

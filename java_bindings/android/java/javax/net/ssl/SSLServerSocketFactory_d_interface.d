@@ -8,5 +8,5 @@ final class SSLServerSocketFactory : IJavaObject {
 	@Import string[] getDefaultCipherSuites();
 	@Import string[] getSupportedCipherSuites();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLServerSocketFactory");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLServerSocketFactory";
 }

@@ -6,5 +6,5 @@ final class MediaDrm_KeyStatus : IJavaObject {
 	@Import int getStatusCode();
 	@Import byte[] getKeyId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDrm$KeyStatus");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$KeyStatus";
 }

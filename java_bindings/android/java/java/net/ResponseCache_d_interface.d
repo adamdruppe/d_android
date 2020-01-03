@@ -14,5 +14,5 @@ final class ResponseCache : IJavaObject {
 	@Import import1.CacheResponse get(import2.URI, string, import3.Map);
 	@Import import4.CacheRequest put(import2.URI, import5.URLConnection);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "ResponseCache");
+	public static immutable string _javaParameterString = "Ljava/net/ResponseCache";
 }

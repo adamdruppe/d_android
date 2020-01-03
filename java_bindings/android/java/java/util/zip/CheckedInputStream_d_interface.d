@@ -11,5 +11,5 @@ final class CheckedInputStream : IJavaObject {
 	@Import long skip(long);
 	@Import import1.Checksum getChecksum();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "CheckedInputStream");
+	public static immutable string _javaParameterString = "Ljava/util/zip/CheckedInputStream";
 }

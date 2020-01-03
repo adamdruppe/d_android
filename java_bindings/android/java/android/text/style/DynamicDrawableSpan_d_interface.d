@@ -13,5 +13,5 @@ final class DynamicDrawableSpan : IJavaObject {
 	@Import int getSize(import1.Paint, import2.CharSequence, int, int, import3.Paint_FontMetricsInt);
 	@Import void draw(import4.Canvas, import2.CharSequence, int, int, float, int, int, int, import1.Paint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "DynamicDrawableSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/DynamicDrawableSpan";
 }

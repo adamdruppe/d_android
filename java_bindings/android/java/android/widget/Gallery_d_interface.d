@@ -37,5 +37,5 @@ final class Gallery : IJavaObject {
 	@Import void setGravity(int);
 	@Import import6.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Gallery");
+	public static immutable string _javaParameterString = "Landroid/widget/Gallery";
 }

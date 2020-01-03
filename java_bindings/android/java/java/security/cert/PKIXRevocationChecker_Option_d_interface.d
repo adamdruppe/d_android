@@ -8,5 +8,5 @@ final class PKIXRevocationChecker_Option : IJavaObject {
 	@Import static import0.PKIXRevocationChecker_Option[] values();
 	@Import static import0.PKIXRevocationChecker_Option valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PKIXRevocationChecker$Option");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PKIXRevocationChecker$Option";
 }

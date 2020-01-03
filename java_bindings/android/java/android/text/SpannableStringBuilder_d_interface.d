@@ -54,5 +54,5 @@ final class SpannableStringBuilder : IJavaObject {
 	@Import import6.Appendable append(import0.CharSequence, int, int);
 	@Import import6.Appendable append(import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "SpannableStringBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/SpannableStringBuilder";
 }

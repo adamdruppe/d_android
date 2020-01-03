@@ -23,5 +23,5 @@ final class FileSystem : IJavaObject {
 	@Import import5.UserPrincipalLookupService getUserPrincipalLookupService();
 	@Import import6.WatchService newWatchService();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "FileSystem");
+	public static immutable string _javaParameterString = "Ljava/nio/file/FileSystem";
 }

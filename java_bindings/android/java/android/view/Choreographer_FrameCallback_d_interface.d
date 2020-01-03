@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Choreographer$FrameCallback")
 interface Choreographer_FrameCallback : IJavaObject {
 	@Import void doFrame(long);
-	mixin JavaPackageId!("android.view", "Choreographer$FrameCallback");
+	public static immutable string _javaParameterString = "Landroid/view/Choreographer$FrameCallback";
 }

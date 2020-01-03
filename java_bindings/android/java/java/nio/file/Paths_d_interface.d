@@ -8,5 +8,5 @@ final class Paths : IJavaObject {
 	@Import static import0.Path get(string, string[]);
 	@Import static import0.Path get(import1.URI);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "Paths");
+	public static immutable string _javaParameterString = "Ljava/nio/file/Paths";
 }

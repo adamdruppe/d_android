@@ -8,5 +8,5 @@ final class ProxyFileDescriptorCallback : IJavaObject {
 	@Import void onFsync();
 	@Import void onRelease();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ProxyFileDescriptorCallback");
+	public static immutable string _javaParameterString = "Landroid/os/ProxyFileDescriptorCallback";
 }

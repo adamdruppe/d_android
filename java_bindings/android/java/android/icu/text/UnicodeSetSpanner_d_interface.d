@@ -24,5 +24,5 @@ final class UnicodeSetSpanner : IJavaObject {
 	@Import import1.CharSequence trim(import1.CharSequence, import4.UnicodeSetSpanner_TrimOption);
 	@Import import1.CharSequence trim(import1.CharSequence, import4.UnicodeSetSpanner_TrimOption, import3.UnicodeSet_SpanCondition);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSetSpanner");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSetSpanner";
 }

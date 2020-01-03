@@ -13,5 +13,5 @@ interface KeyboardView_OnKeyboardActionListener : IJavaObject {
 	@Import void swipeRight();
 	@Import void swipeDown();
 	@Import void swipeUp();
-	mixin JavaPackageId!("android.inputmethodservice", "KeyboardView$OnKeyboardActionListener");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/KeyboardView$OnKeyboardActionListener";
 }

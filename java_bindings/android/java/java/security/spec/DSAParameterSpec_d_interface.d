@@ -9,5 +9,5 @@ final class DSAParameterSpec : IJavaObject {
 	@Import import0.BigInteger getQ();
 	@Import import0.BigInteger getG();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "DSAParameterSpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/DSAParameterSpec";
 }

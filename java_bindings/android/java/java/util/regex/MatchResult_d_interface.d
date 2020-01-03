@@ -9,5 +9,5 @@ interface MatchResult : IJavaObject {
 	@Import string group();
 	@Import string group(int);
 	@Import int groupCount();
-	mixin JavaPackageId!("java.util.regex", "MatchResult");
+	public static immutable string _javaParameterString = "Ljava/util/regex/MatchResult";
 }

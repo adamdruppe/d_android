@@ -8,5 +8,5 @@ final class BackupDataInput : IJavaObject {
 	@Import int readEntityData(byte, int, int[]);
 	@Import void skipEntityData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "BackupDataInput");
+	public static immutable string _javaParameterString = "Landroid/app/backup/BackupDataInput";
 }

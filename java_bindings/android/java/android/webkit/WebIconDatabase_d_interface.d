@@ -13,5 +13,5 @@ final class WebIconDatabase : IJavaObject {
 	@Import void releaseIconForPageUrl(string);
 	@Import static import1.WebIconDatabase getInstance();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebIconDatabase");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebIconDatabase";
 }

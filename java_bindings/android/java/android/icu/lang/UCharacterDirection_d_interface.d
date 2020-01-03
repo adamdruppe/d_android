@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class UCharacterDirection : IJavaObject {
 	@Import static @JavaName("toString") string toString_(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.lang", "UCharacterDirection");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacterDirection";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MbmsErrors$DownloadErrors")
 final class MbmsErrors_DownloadErrors : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "MbmsErrors$DownloadErrors");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/MbmsErrors$DownloadErrors";
 }

@@ -27,5 +27,5 @@ final class PreferenceManager : IJavaObject {
 	@Import static void setDefaultValues(import2.Context, int, bool);
 	@Import static void setDefaultValues(import2.Context, string, int, int, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "PreferenceManager");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceManager";
 }

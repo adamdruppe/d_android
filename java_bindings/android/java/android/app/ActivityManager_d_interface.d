@@ -50,5 +50,5 @@ final class ActivityManager : IJavaObject {
 	@Import int getLockTaskModeState();
 	@Import static void setVrThread(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActivityManager");
+	public static immutable string _javaParameterString = "Landroid/app/ActivityManager";
 }

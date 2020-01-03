@@ -17,5 +17,5 @@ final class ResourceCursorAdapter : IJavaObject {
 	@Import void setViewResource(int);
 	@Import void setDropDownViewResource(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ResourceCursorAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/ResourceCursorAdapter";
 }

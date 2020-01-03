@@ -113,5 +113,5 @@ final class Canvas : IJavaObject {
 	@Import void drawTextRun(import11.CharSequence, int, int, int, int, float, float, bool, import2.Paint);
 	@Import void drawVertices(import12.Canvas_VertexMode, int, float, int, float, int, int, int, short, int, int, import2.Paint[][][][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Canvas");
+	public static immutable string _javaParameterString = "Landroid/graphics/Canvas";
 }

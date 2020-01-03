@@ -6,5 +6,5 @@ import import0 = android.java.android.bluetooth.BluetoothDevice_d_interface;
 @JavaName("BluetoothAdapter$LeScanCallback")
 interface BluetoothAdapter_LeScanCallback : IJavaObject {
 	@Import void onLeScan(import0.BluetoothDevice, int, byte[]);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothAdapter$LeScanCallback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothAdapter$LeScanCallback";
 }

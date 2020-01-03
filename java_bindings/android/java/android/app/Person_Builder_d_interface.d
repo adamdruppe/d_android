@@ -16,5 +16,5 @@ final class Person_Builder : IJavaObject {
 	@Import import0.Person_Builder setBot(bool);
 	@Import import3.Person build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Person$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/Person$Builder";
 }

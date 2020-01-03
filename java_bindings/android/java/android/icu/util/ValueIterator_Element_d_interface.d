@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ValueIterator$Element")
 final class ValueIterator_Element : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "ValueIterator$Element");
+	public static immutable string _javaParameterString = "Landroid/icu/util/ValueIterator$Element";
 }

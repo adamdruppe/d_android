@@ -23,5 +23,5 @@ final class MediaFormat : IJavaObject {
 	@Import static import1.MediaFormat createVideoFormat(string, int, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaFormat");
+	public static immutable string _javaParameterString = "Landroid/media/MediaFormat";
 }

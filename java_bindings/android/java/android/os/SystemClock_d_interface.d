@@ -4,6 +4,10 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SystemClock : IJavaObject {
 	@Import static void sleep(long);
 	@Import static bool setCurrentTimeMillis(long);
+	@Import static long uptimeMillis();
+	@Import static long elapsedRealtime();
+	@Import static long elapsedRealtimeNanos();
+	@Import static long currentThreadTimeMillis();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "SystemClock");
+	public static immutable string _javaParameterString = "Landroid/os/SystemClock";
 }

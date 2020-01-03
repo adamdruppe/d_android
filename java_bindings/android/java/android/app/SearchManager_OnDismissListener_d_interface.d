@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SearchManager$OnDismissListener")
 interface SearchManager_OnDismissListener : IJavaObject {
 	@Import void onDismiss();
-	mixin JavaPackageId!("android.app", "SearchManager$OnDismissListener");
+	public static immutable string _javaParameterString = "Landroid/app/SearchManager$OnDismissListener";
 }

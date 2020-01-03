@@ -8,5 +8,5 @@ final class WindowId_FocusObserver : IJavaObject {
 	@Import void onFocusGained(import0.WindowId);
 	@Import void onFocusLost(import0.WindowId);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "WindowId$FocusObserver");
+	public static immutable string _javaParameterString = "Landroid/view/WindowId$FocusObserver";
 }

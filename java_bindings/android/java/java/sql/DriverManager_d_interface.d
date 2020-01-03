@@ -24,5 +24,5 @@ final class DriverManager : IJavaObject {
 	@Import static import5.PrintStream getLogStream();
 	@Import static void println(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "DriverManager");
+	public static immutable string _javaParameterString = "Ljava/sql/DriverManager";
 }

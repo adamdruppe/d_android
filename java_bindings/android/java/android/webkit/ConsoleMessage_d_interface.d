@@ -10,5 +10,5 @@ final class ConsoleMessage : IJavaObject {
 	@Import string sourceId();
 	@Import int lineNumber();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "ConsoleMessage");
+	public static immutable string _javaParameterString = "Landroid/webkit/ConsoleMessage";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("GridLayoutAnimationController$AnimationParameters")
 final class GridLayoutAnimationController_AnimationParameters : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "GridLayoutAnimationController$AnimationParameters");
+	public static immutable string _javaParameterString = "Landroid/view/animation/GridLayoutAnimationController$AnimationParameters";
 }

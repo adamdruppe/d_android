@@ -8,5 +8,5 @@ final class IDNA_Error : IJavaObject {
 	@Import static import0.IDNA_Error[] values();
 	@Import static import0.IDNA_Error valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "IDNA$Error");
+	public static immutable string _javaParameterString = "Landroid/icu/text/IDNA$Error";
 }

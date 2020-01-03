@@ -17,5 +17,5 @@ final class DeflaterOutputStream : IJavaObject {
 	@Import void close();
 	@Import void flush();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "DeflaterOutputStream");
+	public static immutable string _javaParameterString = "Ljava/util/zip/DeflaterOutputStream";
 }

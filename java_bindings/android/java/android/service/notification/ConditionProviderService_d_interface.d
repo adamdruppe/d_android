@@ -18,5 +18,5 @@ final class ConditionProviderService : IJavaObject {
 	@Import void notifyConditions(import2.Condition[]);
 	@Import import3.IBinder onBind(import4.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.notification", "ConditionProviderService");
+	public static immutable string _javaParameterString = "Landroid/service/notification/ConditionProviderService";
 }

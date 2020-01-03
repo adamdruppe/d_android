@@ -27,5 +27,5 @@ final class PrecomputedText : IJavaObject {
 	@Import import1.CharSequence subSequence(int, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "PrecomputedText");
+	public static immutable string _javaParameterString = "Landroid/text/PrecomputedText";
 }

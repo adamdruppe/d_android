@@ -7,5 +7,5 @@ import import0 = android.java.android.media.AudioTrack_d_interface;
 interface AudioTrack_OnPlaybackPositionUpdateListener : IJavaObject {
 	@Import void onMarkerReached(import0.AudioTrack);
 	@Import void onPeriodicNotification(import0.AudioTrack);
-	mixin JavaPackageId!("android.media", "AudioTrack$OnPlaybackPositionUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/media/AudioTrack$OnPlaybackPositionUpdateListener";
 }

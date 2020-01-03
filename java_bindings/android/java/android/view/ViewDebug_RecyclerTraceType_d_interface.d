@@ -8,5 +8,5 @@ final class ViewDebug_RecyclerTraceType : IJavaObject {
 	@Import static import0.ViewDebug_RecyclerTraceType[] values();
 	@Import static import0.ViewDebug_RecyclerTraceType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewDebug$RecyclerTraceType");
+	public static immutable string _javaParameterString = "Landroid/view/ViewDebug$RecyclerTraceType";
 }

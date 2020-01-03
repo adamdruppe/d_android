@@ -6,5 +6,5 @@ import import0 = android.java.android.hardware.TriggerEvent_d_interface;
 final class TriggerEventListener : IJavaObject {
 	@Import void onTrigger(import0.TriggerEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "TriggerEventListener");
+	public static immutable string _javaParameterString = "Landroid/hardware/TriggerEventListener";
 }

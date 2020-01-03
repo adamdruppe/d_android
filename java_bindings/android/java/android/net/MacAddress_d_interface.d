@@ -17,5 +17,5 @@ final class MacAddress : IJavaObject {
 	@Import static import1.MacAddress fromString(string);
 	@Import static import1.MacAddress fromBytes(byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "MacAddress");
+	public static immutable string _javaParameterString = "Landroid/net/MacAddress";
 }

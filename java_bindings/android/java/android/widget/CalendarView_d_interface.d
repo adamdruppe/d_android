@@ -45,5 +45,5 @@ final class CalendarView : IJavaObject {
 	@Import void setDate(long, bool, bool);
 	@Import import4.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "CalendarView");
+	public static immutable string _javaParameterString = "Landroid/widget/CalendarView";
 }

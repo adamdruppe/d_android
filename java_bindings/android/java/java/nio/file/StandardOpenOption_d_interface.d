@@ -7,5 +7,5 @@ final class StandardOpenOption : IJavaObject {
 	@Import static import0.StandardOpenOption[] values();
 	@Import static import0.StandardOpenOption valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "StandardOpenOption");
+	public static immutable string _javaParameterString = "Ljava/nio/file/StandardOpenOption";
 }

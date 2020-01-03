@@ -11,5 +11,5 @@ final class ConfigurationInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import string getGlEsVersion();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ConfigurationInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ConfigurationInfo";
 }

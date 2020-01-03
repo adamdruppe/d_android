@@ -10,5 +10,5 @@ final class InputFilter_LengthFilter : IJavaObject {
 	@Import import0.CharSequence filter(import0.CharSequence, int, int, import1.Spanned, int, int);
 	@Import int getMax();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "InputFilter$LengthFilter");
+	public static immutable string _javaParameterString = "Landroid/text/InputFilter$LengthFilter";
 }

@@ -12,5 +12,5 @@ final class MathContext : IJavaObject {
 	@Import int getRoundingMode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.math", "MathContext");
+	public static immutable string _javaParameterString = "Landroid/icu/math/MathContext";
 }

@@ -16,5 +16,5 @@ final class ScriptIntrinsicResize : IJavaObject {
 	@Import void forEach_bicubic(import2.Allocation, import4.Script_LaunchOptions);
 	@Import import5.Script_KernelID getKernelID_bicubic();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicResize");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicResize";
 }

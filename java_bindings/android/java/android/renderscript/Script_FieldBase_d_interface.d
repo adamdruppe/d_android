@@ -12,5 +12,5 @@ final class Script_FieldBase : IJavaObject {
 	@Import import2.Allocation getAllocation();
 	@Import void updateAllocation();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Script$FieldBase");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Script$FieldBase";
 }

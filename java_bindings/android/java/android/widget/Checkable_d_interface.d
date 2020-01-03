@@ -5,5 +5,5 @@ interface Checkable : IJavaObject {
 	@Import void setChecked(bool);
 	@Import bool isChecked();
 	@Import void toggle();
-	mixin JavaPackageId!("android.widget", "Checkable");
+	public static immutable string _javaParameterString = "Landroid/widget/Checkable";
 }

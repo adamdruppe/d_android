@@ -13,5 +13,5 @@ final class PipedReader : IJavaObject {
 	@Import bool ready();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "PipedReader");
+	public static immutable string _javaParameterString = "Ljava/io/PipedReader";
 }

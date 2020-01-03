@@ -21,5 +21,5 @@ interface SurfaceHolder : IJavaObject {
 	@Import void unlockCanvasAndPost(import1.Canvas);
 	@Import import2.Rect getSurfaceFrame();
 	@Import import3.Surface getSurface();
-	mixin JavaPackageId!("android.view", "SurfaceHolder");
+	public static immutable string _javaParameterString = "Landroid/view/SurfaceHolder";
 }

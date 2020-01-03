@@ -18,5 +18,5 @@ final class Ringtone : IJavaObject {
 	@Import void stop();
 	@Import bool isPlaying();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "Ringtone");
+	public static immutable string _javaParameterString = "Landroid/media/Ringtone";
 }

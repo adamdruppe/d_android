@@ -21,5 +21,5 @@ final class DownloadManager : IJavaObject {
 	@Import long addCompletedDownload(string, string, bool, string, string, long, bool);
 	@Import long addCompletedDownload(string, string, bool, string, string, long, bool, import4.Uri, import4.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "DownloadManager");
+	public static immutable string _javaParameterString = "Landroid/app/DownloadManager";
 }

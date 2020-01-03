@@ -5,5 +5,5 @@ final class Output : IJavaObject {
 	@Import this(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "Output");
+	public static immutable string _javaParameterString = "Landroid/icu/util/Output";
 }

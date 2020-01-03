@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaMuxer$OutputFormat")
 final class MediaMuxer_OutputFormat : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaMuxer$OutputFormat");
+	public static immutable string _javaParameterString = "Landroid/media/MediaMuxer$OutputFormat";
 }

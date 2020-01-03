@@ -30,5 +30,5 @@ final class ActionMenuView : IJavaObject {
 	@Import import7.LinearLayout_LayoutParams generateLayoutParams(import1.AttributeSet);
 	@Import import8.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ActionMenuView");
+	public static immutable string _javaParameterString = "Landroid/widget/ActionMenuView";
 }

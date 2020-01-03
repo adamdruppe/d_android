@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class OpcodeInfo : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("dalvik.bytecode", "OpcodeInfo");
+	public static immutable string _javaParameterString = "Ldalvik/bytecode/OpcodeInfo";
 }

@@ -8,5 +8,5 @@ interface TextWatcher : IJavaObject {
 	@Import void beforeTextChanged(import0.CharSequence, int, int, int);
 	@Import void onTextChanged(import0.CharSequence, int, int, int);
 	@Import void afterTextChanged(import1.Editable);
-	mixin JavaPackageId!("android.text", "TextWatcher");
+	public static immutable string _javaParameterString = "Landroid/text/TextWatcher";
 }

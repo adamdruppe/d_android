@@ -13,12 +13,12 @@ final class KeyGenerator : IJavaObject {
 	@Import static import0.KeyGenerator getInstance(string, string);
 	@Import static import0.KeyGenerator getInstance(string, import1.Provider);
 	@Import import1.Provider getProvider();
-	@Import void init(import2.SecureRandom);
-	@Import void init(import3.AlgorithmParameterSpec);
-	@Import void init(import3.AlgorithmParameterSpec, import2.SecureRandom);
-	@Import void init(int);
-	@Import void init(int, import2.SecureRandom);
+	@Import @JavaName("init") void init_(import2.SecureRandom);
+	@Import @JavaName("init") void init_(import3.AlgorithmParameterSpec);
+	@Import @JavaName("init") void init_(import3.AlgorithmParameterSpec, import2.SecureRandom);
+	@Import @JavaName("init") void init_(int);
+	@Import @JavaName("init") void init_(int, import2.SecureRandom);
 	@Import import4.SecretKey generateKey();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "KeyGenerator");
+	public static immutable string _javaParameterString = "Ljavax/crypto/KeyGenerator";
 }

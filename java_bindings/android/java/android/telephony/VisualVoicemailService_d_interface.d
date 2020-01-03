@@ -14,5 +14,5 @@ final class VisualVoicemailService : IJavaObject {
 	@Import void onSimRemoved(import2.VisualVoicemailService_VisualVoicemailTask, import3.PhoneAccountHandle);
 	@Import void onStopped(import2.VisualVoicemailService_VisualVoicemailTask);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "VisualVoicemailService");
+	public static immutable string _javaParameterString = "Landroid/telephony/VisualVoicemailService";
 }

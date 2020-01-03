@@ -21,5 +21,5 @@ interface LSInput : IJavaObject {
 	@Import void setEncoding(string);
 	@Import bool getCertifiedText();
 	@Import void setCertifiedText(bool);
-	mixin JavaPackageId!("org.w3c.dom.ls", "LSInput");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/LSInput";
 }

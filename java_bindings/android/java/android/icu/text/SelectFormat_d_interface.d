@@ -16,5 +16,5 @@ final class SelectFormat : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "SelectFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/SelectFormat";
 }

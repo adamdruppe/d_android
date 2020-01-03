@@ -5,5 +5,5 @@ final class CharArrayBuffer : IJavaObject {
 	@Import this(int);
 	@Import this(wchar[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "CharArrayBuffer");
+	public static immutable string _javaParameterString = "Landroid/database/CharArrayBuffer";
 }

@@ -11,5 +11,5 @@ final class NotificationListenerService_RankingMap : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.notification", "NotificationListenerService$RankingMap");
+	public static immutable string _javaParameterString = "Landroid/service/notification/NotificationListenerService$RankingMap";
 }

@@ -20,5 +20,5 @@ final class Manifest : IJavaObject {
 	@Import int hashCode();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "Manifest");
+	public static immutable string _javaParameterString = "Ljava/util/jar/Manifest";
 }

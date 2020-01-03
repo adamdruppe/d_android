@@ -25,5 +25,5 @@ final class MediaRouter : IJavaObject {
 	@Import import3.MediaRouter_RouteCategory createRouteCategory(import4.CharSequence, bool);
 	@Import import3.MediaRouter_RouteCategory createRouteCategory(int, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRouter");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRouter";
 }

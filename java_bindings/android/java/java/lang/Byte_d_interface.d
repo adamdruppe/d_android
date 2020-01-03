@@ -29,5 +29,5 @@ final class Byte : IJavaObject {
 	@Import static long toUnsignedLong(byte);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Byte");
+	public static immutable string _javaParameterString = "Ljava/lang/Byte";
 }

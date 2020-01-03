@@ -29,5 +29,5 @@ final class DateFormatSymbols : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "DateFormatSymbols");
+	public static immutable string _javaParameterString = "Ljava/text/DateFormatSymbols";
 }

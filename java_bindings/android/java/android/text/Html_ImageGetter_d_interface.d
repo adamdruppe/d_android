@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.drawable.Drawable_d_interface;
 @JavaName("Html$ImageGetter")
 interface Html_ImageGetter : IJavaObject {
 	@Import import0.Drawable getDrawable(string);
-	mixin JavaPackageId!("android.text", "Html$ImageGetter");
+	public static immutable string _javaParameterString = "Landroid/text/Html$ImageGetter";
 }

@@ -15,5 +15,5 @@ final class WebViewDatabase : IJavaObject {
 	@Import bool hasFormData();
 	@Import void clearFormData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebViewDatabase");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebViewDatabase";
 }

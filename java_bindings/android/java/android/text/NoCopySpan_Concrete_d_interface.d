@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("NoCopySpan$Concrete")
 final class NoCopySpan_Concrete : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "NoCopySpan$Concrete");
+	public static immutable string _javaParameterString = "Landroid/text/NoCopySpan$Concrete";
 }

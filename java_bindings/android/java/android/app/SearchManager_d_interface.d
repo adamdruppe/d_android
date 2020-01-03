@@ -21,5 +21,5 @@ final class SearchManager : IJavaObject {
 	@Import import5.SearchableInfo getSearchableInfo(import0.ComponentName);
 	@Import import6.List getSearchablesInGlobalSearch();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "SearchManager");
+	public static immutable string _javaParameterString = "Landroid/app/SearchManager";
 }

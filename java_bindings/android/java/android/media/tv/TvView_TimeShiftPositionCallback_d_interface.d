@@ -6,5 +6,5 @@ final class TvView_TimeShiftPositionCallback : IJavaObject {
 	@Import void onTimeShiftStartPositionChanged(string, long);
 	@Import void onTimeShiftCurrentPositionChanged(string, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvView$TimeShiftPositionCallback");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvView$TimeShiftPositionCallback";
 }

@@ -14,5 +14,5 @@ final class TextSelection_Request : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextSelection$Request");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextSelection$Request";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacter$DecompositionType")
 interface UCharacter_DecompositionType : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$DecompositionType");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$DecompositionType";
 }

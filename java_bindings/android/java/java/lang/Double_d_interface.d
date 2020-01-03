@@ -27,6 +27,8 @@ final class Double : IJavaObject {
 	@Import static int hashCode(double);
 	@Import bool equals(IJavaObject);
 	@Import static long doubleToLongBits(double);
+	@Import static long doubleToRawLongBits(double);
+	@Import static double longBitsToDouble(long);
 	@Import int compareTo(import0.Double);
 	@Import static int compare(double, double);
 	@Import static double sum(double, double);
@@ -34,5 +36,5 @@ final class Double : IJavaObject {
 	@Import static double min(double, double);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Double");
+	public static immutable string _javaParameterString = "Ljava/lang/Double";
 }

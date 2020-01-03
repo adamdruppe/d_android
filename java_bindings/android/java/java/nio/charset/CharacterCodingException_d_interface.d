@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class CharacterCodingException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "CharacterCodingException");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/CharacterCodingException";
 }

@@ -51,5 +51,5 @@ final class Call : IJavaObject {
 	@Import void unregisterCallback(import8.Call_Callback);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Call");
+	public static immutable string _javaParameterString = "Landroid/telecom/Call";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.java.util.Set_d_interface;
 @JavaName("KeyStore$Entry")
 interface KeyStore_Entry : IJavaObject {
 	@Import import0.Set getAttributes();
-	mixin JavaPackageId!("java.security", "KeyStore$Entry");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$Entry";
 }

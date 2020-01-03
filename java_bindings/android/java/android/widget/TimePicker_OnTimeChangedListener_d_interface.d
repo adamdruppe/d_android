@@ -6,5 +6,5 @@ import import0 = android.java.android.widget.TimePicker_d_interface;
 @JavaName("TimePicker$OnTimeChangedListener")
 interface TimePicker_OnTimeChangedListener : IJavaObject {
 	@Import void onTimeChanged(import0.TimePicker, int, int);
-	mixin JavaPackageId!("android.widget", "TimePicker$OnTimeChangedListener");
+	public static immutable string _javaParameterString = "Landroid/widget/TimePicker$OnTimeChangedListener";
 }

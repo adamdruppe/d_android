@@ -6,5 +6,5 @@ final class MediaCodecInfo_CodecProfileLevel : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodecInfo$CodecProfileLevel");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodecInfo$CodecProfileLevel";
 }

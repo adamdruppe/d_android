@@ -8,5 +8,5 @@ final class Resources_NotFoundException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "Resources$NotFoundException");
+	public static immutable string _javaParameterString = "Landroid/content/res/Resources$NotFoundException";
 }

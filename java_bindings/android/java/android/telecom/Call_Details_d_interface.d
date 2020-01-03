@@ -35,5 +35,5 @@ final class Call_Details : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Call$Details");
+	public static immutable string _javaParameterString = "Landroid/telecom/Call$Details";
 }

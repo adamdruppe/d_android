@@ -15,5 +15,5 @@ final class CustomDescription_Builder : IJavaObject {
 	@Import import1.CustomDescription_Builder batchUpdate(import3.Validator, import4.BatchUpdates);
 	@Import import5.CustomDescription build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "CustomDescription$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/CustomDescription$Builder";
 }

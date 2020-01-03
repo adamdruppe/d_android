@@ -29,5 +29,5 @@ final class CameraCaptureSession : IJavaObject {
 	@Import void updateOutputConfiguration(import7.OutputConfiguration);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraCaptureSession");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraCaptureSession";
 }

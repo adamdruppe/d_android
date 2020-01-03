@@ -6,5 +6,5 @@ interface InputManager_InputDeviceListener : IJavaObject {
 	@Import void onInputDeviceAdded(int);
 	@Import void onInputDeviceRemoved(int);
 	@Import void onInputDeviceChanged(int);
-	mixin JavaPackageId!("android.hardware.input", "InputManager$InputDeviceListener");
+	public static immutable string _javaParameterString = "Landroid/hardware/input/InputManager$InputDeviceListener";
 }

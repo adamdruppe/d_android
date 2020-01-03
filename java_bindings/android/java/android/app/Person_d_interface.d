@@ -17,5 +17,5 @@ final class Person : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Person");
+	public static immutable string _javaParameterString = "Landroid/app/Person";
 }

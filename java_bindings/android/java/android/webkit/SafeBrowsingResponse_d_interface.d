@@ -6,5 +6,5 @@ final class SafeBrowsingResponse : IJavaObject {
 	@Import void proceed(bool);
 	@Import void backToSafety(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "SafeBrowsingResponse");
+	public static immutable string _javaParameterString = "Landroid/webkit/SafeBrowsingResponse";
 }

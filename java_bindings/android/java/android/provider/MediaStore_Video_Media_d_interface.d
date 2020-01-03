@@ -7,5 +7,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 final class MediaStore_Video_Media : IJavaObject {
 	@Import static import0.Uri getContentUri(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Video$Media");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Video$Media";
 }

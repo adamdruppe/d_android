@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class OptionalDataException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "OptionalDataException");
+	public static immutable string _javaParameterString = "Ljava/io/OptionalDataException";
 }

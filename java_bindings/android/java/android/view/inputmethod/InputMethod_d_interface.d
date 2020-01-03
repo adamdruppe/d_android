@@ -22,5 +22,5 @@ interface InputMethod : IJavaObject {
 	@Import void showSoftInput(int, import6.ResultReceiver);
 	@Import void hideSoftInput(int, import6.ResultReceiver);
 	@Import void changeInputMethodSubtype(import7.InputMethodSubtype);
-	mixin JavaPackageId!("android.view.inputmethod", "InputMethod");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethod";
 }

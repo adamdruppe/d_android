@@ -8,5 +8,5 @@ final class Telephony_ServiceStateTable : IJavaObject {
 	@Import static import0.Uri getUriForSubscriptionIdAndField(int, string);
 	@Import static import0.Uri getUriForSubscriptionId(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Telephony$ServiceStateTable");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$ServiceStateTable";
 }

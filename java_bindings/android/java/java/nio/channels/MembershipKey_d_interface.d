@@ -16,5 +16,5 @@ final class MembershipKey : IJavaObject {
 	@Import import3.NetworkInterface networkInterface();
 	@Import import1.InetAddress sourceAddress();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "MembershipKey");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/MembershipKey";
 }

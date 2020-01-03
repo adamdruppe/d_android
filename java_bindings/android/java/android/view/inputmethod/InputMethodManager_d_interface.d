@@ -55,5 +55,5 @@ final class InputMethodManager : IJavaObject {
 	@Import void setAdditionalInputMethodSubtypes(string, import9.InputMethodSubtype[]);
 	@Import import9.InputMethodSubtype getLastInputMethodSubtype();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "InputMethodManager");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethodManager";
 }

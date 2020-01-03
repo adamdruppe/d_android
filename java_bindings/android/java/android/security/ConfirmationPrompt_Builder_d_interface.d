@@ -13,5 +13,5 @@ final class ConfirmationPrompt_Builder : IJavaObject {
 	@Import import1.ConfirmationPrompt_Builder setExtraData(byte[]);
 	@Import import3.ConfirmationPrompt build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "ConfirmationPrompt$Builder");
+	public static immutable string _javaParameterString = "Landroid/security/ConfirmationPrompt$Builder";
 }

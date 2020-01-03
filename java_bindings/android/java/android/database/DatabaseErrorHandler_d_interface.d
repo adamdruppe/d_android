@@ -5,5 +5,5 @@ import import0 = android.java.android.database.sqlite.SQLiteDatabase_d_interface
 
 interface DatabaseErrorHandler : IJavaObject {
 	@Import void onCorruption(import0.SQLiteDatabase);
-	mixin JavaPackageId!("android.database", "DatabaseErrorHandler");
+	public static immutable string _javaParameterString = "Landroid/database/DatabaseErrorHandler";
 }

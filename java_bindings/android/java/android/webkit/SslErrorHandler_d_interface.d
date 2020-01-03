@@ -5,5 +5,5 @@ final class SslErrorHandler : IJavaObject {
 	@Import void proceed();
 	@Import void cancel();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "SslErrorHandler");
+	public static immutable string _javaParameterString = "Landroid/webkit/SslErrorHandler";
 }

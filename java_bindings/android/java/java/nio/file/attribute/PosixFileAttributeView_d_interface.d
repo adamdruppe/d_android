@@ -12,5 +12,5 @@ interface PosixFileAttributeView : IJavaObject {
 	@Import void setPermissions(import1.Set);
 	@Import void setGroup(import2.GroupPrincipal);
 	@Import import3.BasicFileAttributes readAttributes();
-	mixin JavaPackageId!("java.nio.file.attribute", "PosixFileAttributeView");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/PosixFileAttributeView";
 }

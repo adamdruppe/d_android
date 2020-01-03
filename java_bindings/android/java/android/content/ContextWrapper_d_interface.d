@@ -144,5 +144,5 @@ final class ContextWrapper : IJavaObject {
 	@Import import0.Context createDeviceProtectedStorageContext();
 	@Import bool isDeviceProtectedStorage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContextWrapper");
+	public static immutable string _javaParameterString = "Landroid/content/ContextWrapper";
 }

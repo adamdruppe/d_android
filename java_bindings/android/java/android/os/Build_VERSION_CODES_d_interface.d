@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Build$VERSION_CODES")
 final class Build_VERSION_CODES : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Build$VERSION_CODES");
+	public static immutable string _javaParameterString = "Landroid/os/Build$VERSION_CODES";
 }

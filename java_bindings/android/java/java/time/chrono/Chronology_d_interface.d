@@ -52,5 +52,5 @@ interface Chronology : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	@Import int compareTo(IJavaObject);
-	mixin JavaPackageId!("java.time.chrono", "Chronology");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/Chronology";
 }

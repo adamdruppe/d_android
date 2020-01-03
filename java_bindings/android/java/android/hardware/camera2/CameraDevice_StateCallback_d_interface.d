@@ -10,5 +10,5 @@ final class CameraDevice_StateCallback : IJavaObject {
 	@Import void onDisconnected(import0.CameraDevice);
 	@Import void onError(import0.CameraDevice, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraDevice$StateCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraDevice$StateCallback";
 }

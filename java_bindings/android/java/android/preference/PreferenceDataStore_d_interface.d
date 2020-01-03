@@ -16,5 +16,5 @@ interface PreferenceDataStore : IJavaObject {
 	@Import long getLong(string, long);
 	@Import float getFloat(string, float);
 	@Import bool getBoolean(string, bool);
-	mixin JavaPackageId!("android.preference", "PreferenceDataStore");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceDataStore";
 }

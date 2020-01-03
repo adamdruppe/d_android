@@ -13,5 +13,5 @@ final class WebStorage : IJavaObject {
 	@Import void deleteAllData();
 	@Import static import1.WebStorage getInstance();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebStorage");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebStorage";
 }

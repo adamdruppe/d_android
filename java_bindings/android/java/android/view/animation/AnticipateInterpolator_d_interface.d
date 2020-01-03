@@ -9,5 +9,5 @@ final class AnticipateInterpolator : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet);
 	@Import float getInterpolation(float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "AnticipateInterpolator");
+	public static immutable string _javaParameterString = "Landroid/view/animation/AnticipateInterpolator";
 }

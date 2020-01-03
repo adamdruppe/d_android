@@ -21,5 +21,5 @@ final class FrameLayout : IJavaObject {
 	@Import import3.CharSequence getAccessibilityClassName();
 	@Import import4.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "FrameLayout");
+	public static immutable string _javaParameterString = "Landroid/widget/FrameLayout";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("CalendarContract$CalendarAlerts")
 final class CalendarContract_CalendarAlerts : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "CalendarContract$CalendarAlerts");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$CalendarAlerts";
 }

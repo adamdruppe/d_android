@@ -11,5 +11,5 @@ final class MimeTypeMap : IJavaObject {
 	@Import string getExtensionFromMimeType(string);
 	@Import static import0.MimeTypeMap getSingleton();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "MimeTypeMap");
+	public static immutable string _javaParameterString = "Landroid/webkit/MimeTypeMap";
 }

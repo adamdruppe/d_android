@@ -50,5 +50,5 @@ final class Spinner : IJavaObject {
 	@Import import10.PointerIcon onResolvePointerIcon(import6.MotionEvent, int);
 	@Import void setAdapter(import11.Adapter);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Spinner");
+	public static immutable string _javaParameterString = "Landroid/widget/Spinner";
 }

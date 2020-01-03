@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaRecorder$AudioEncoder")
 final class MediaRecorder_AudioEncoder : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRecorder$AudioEncoder");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRecorder$AudioEncoder";
 }

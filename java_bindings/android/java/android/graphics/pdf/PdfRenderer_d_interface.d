@@ -11,5 +11,5 @@ final class PdfRenderer : IJavaObject {
 	@Import bool shouldScaleForPrinting();
 	@Import import1.PdfRenderer_Page openPage(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.pdf", "PdfRenderer");
+	public static immutable string _javaParameterString = "Landroid/graphics/pdf/PdfRenderer";
 }

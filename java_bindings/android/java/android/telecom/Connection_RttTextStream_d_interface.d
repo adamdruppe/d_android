@@ -7,5 +7,5 @@ final class Connection_RttTextStream : IJavaObject {
 	@Import string read();
 	@Import string readImmediately();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Connection$RttTextStream");
+	public static immutable string _javaParameterString = "Landroid/telecom/Connection$RttTextStream";
 }

@@ -18,5 +18,5 @@ final class RemoteCallbackList : IJavaObject {
 	@Import import0.IInterface getRegisteredCallbackItem(int);
 	@Import IJavaObject getRegisteredCallbackCookie(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "RemoteCallbackList");
+	public static immutable string _javaParameterString = "Landroid/os/RemoteCallbackList";
 }

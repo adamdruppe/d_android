@@ -11,5 +11,5 @@ final class PrintService : IJavaObject {
 	@Import import1.PrinterId generatePrinterId(string);
 	@Import import2.IBinder onBind(import3.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.printservice", "PrintService");
+	public static immutable string _javaParameterString = "Landroid/printservice/PrintService";
 }

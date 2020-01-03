@@ -24,5 +24,5 @@ final class CookieManager : IJavaObject {
 	@Import static bool allowFileSchemeCookies();
 	@Import static void setAcceptFileSchemeCookies(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "CookieManager");
+	public static immutable string _javaParameterString = "Landroid/webkit/CookieManager";
 }

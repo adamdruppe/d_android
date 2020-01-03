@@ -8,5 +8,5 @@ final class Type_CubemapFace : IJavaObject {
 	@Import static import0.Type_CubemapFace[] values();
 	@Import static import0.Type_CubemapFace valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Type$CubemapFace");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Type$CubemapFace";
 }

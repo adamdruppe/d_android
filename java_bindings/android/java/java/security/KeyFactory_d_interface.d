@@ -20,5 +20,5 @@ final class KeyFactory : IJavaObject {
 	@Import import3.KeySpec getKeySpec(import5.Key, import6.Class);
 	@Import import5.Key translateKey(import5.Key);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyFactory");
+	public static immutable string _javaParameterString = "Ljava/security/KeyFactory";
 }

@@ -13,5 +13,5 @@ final class LauncherApps_ShortcutQuery : IJavaObject {
 	@Import import0.LauncherApps_ShortcutQuery setActivity(import2.ComponentName);
 	@Import import0.LauncherApps_ShortcutQuery setQueryFlags(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "LauncherApps$ShortcutQuery");
+	public static immutable string _javaParameterString = "Landroid/content/pm/LauncherApps$ShortcutQuery";
 }

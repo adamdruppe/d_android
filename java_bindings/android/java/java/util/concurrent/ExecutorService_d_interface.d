@@ -21,5 +21,5 @@ interface ExecutorService : IJavaObject {
 	@Import import0.List invokeAll(import5.Collection, long, import1.TimeUnit);
 	@Import IJavaObject invokeAny(import5.Collection);
 	@Import IJavaObject invokeAny(import5.Collection, long, import1.TimeUnit);
-	mixin JavaPackageId!("java.util.concurrent", "ExecutorService");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ExecutorService";
 }

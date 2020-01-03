@@ -23,5 +23,5 @@ final class Keyframe : IJavaObject {
 	@Import import0.Keyframe clone();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "Keyframe");
+	public static immutable string _javaParameterString = "Landroid/animation/Keyframe";
 }

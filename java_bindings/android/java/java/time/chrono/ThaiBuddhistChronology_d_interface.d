@@ -50,5 +50,5 @@ final class ThaiBuddhistChronology : IJavaObject {
 	@Import import14.ChronoLocalDate date(int, int, int);
 	@Import import14.ChronoLocalDate date(import1.Era, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "ThaiBuddhistChronology");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/ThaiBuddhistChronology";
 }

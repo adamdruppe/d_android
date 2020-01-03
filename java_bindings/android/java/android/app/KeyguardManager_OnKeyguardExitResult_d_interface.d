@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("KeyguardManager$OnKeyguardExitResult")
 interface KeyguardManager_OnKeyguardExitResult : IJavaObject {
 	@Import void onKeyguardExitResult(bool);
-	mixin JavaPackageId!("android.app", "KeyguardManager$OnKeyguardExitResult");
+	public static immutable string _javaParameterString = "Landroid/app/KeyguardManager$OnKeyguardExitResult";
 }

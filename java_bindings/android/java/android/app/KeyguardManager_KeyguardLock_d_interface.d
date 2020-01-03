@@ -6,5 +6,5 @@ final class KeyguardManager_KeyguardLock : IJavaObject {
 	@Import void disableKeyguard();
 	@Import void reenableKeyguard();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "KeyguardManager$KeyguardLock");
+	public static immutable string _javaParameterString = "Landroid/app/KeyguardManager$KeyguardLock";
 }

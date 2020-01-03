@@ -39,5 +39,5 @@ final class BreakIterator : IJavaObject {
 	@Import static import1.BreakIterator getTitleInstance(import3.ULocale);
 	@Import static import2.Locale[] getAvailableLocales();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "BreakIterator");
+	public static immutable string _javaParameterString = "Landroid/icu/text/BreakIterator";
 }

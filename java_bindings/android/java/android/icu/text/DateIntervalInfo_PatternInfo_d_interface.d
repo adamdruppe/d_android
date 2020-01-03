@@ -11,5 +11,5 @@ final class DateIntervalInfo_PatternInfo : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DateIntervalInfo$PatternInfo");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateIntervalInfo$PatternInfo";
 }

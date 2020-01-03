@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class StandardSocketOptions : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "StandardSocketOptions");
+	public static immutable string _javaParameterString = "Ljava/net/StandardSocketOptions";
 }

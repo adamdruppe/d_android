@@ -18,5 +18,5 @@ final class InputMethodSubtype_InputMethodSubtypeBuilder : IJavaObject {
 	@Import import0.InputMethodSubtype_InputMethodSubtypeBuilder setSubtypeExtraValue(string);
 	@Import import1.InputMethodSubtype build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "InputMethodSubtype$InputMethodSubtypeBuilder");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethodSubtype$InputMethodSubtypeBuilder";
 }

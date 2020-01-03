@@ -8,5 +8,5 @@ final class MediaExtractor_CasInfo : IJavaObject {
 	@Import int getSystemId();
 	@Import import0.MediaCas_Session getSession();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaExtractor$CasInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaExtractor$CasInfo";
 }

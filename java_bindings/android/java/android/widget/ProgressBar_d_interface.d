@@ -63,5 +63,5 @@ final class ProgressBar : IJavaObject {
 	@Import import7.CharSequence getAccessibilityClassName();
 	@Import bool isAnimating();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ProgressBar");
+	public static immutable string _javaParameterString = "Landroid/widget/ProgressBar";
 }

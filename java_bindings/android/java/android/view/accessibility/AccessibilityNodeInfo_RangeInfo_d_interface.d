@@ -11,5 +11,5 @@ final class AccessibilityNodeInfo_RangeInfo : IJavaObject {
 	@Import float getMax();
 	@Import float getCurrent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityNodeInfo$RangeInfo");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityNodeInfo$RangeInfo";
 }

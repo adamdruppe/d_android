@@ -12,5 +12,5 @@ final class JobServiceEngine : IJavaObject {
 	@Import bool onStopJob(import2.JobParameters);
 	@Import void jobFinished(import2.JobParameters, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.job", "JobServiceEngine");
+	public static immutable string _javaParameterString = "Landroid/app/job/JobServiceEngine";
 }

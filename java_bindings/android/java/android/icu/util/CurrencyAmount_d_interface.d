@@ -9,5 +9,5 @@ final class CurrencyAmount : IJavaObject {
 	@Import this(double, import1.Currency);
 	@Import import1.Currency getCurrency();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "CurrencyAmount");
+	public static immutable string _javaParameterString = "Landroid/icu/util/CurrencyAmount";
 }

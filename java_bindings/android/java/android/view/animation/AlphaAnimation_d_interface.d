@@ -10,5 +10,5 @@ final class AlphaAnimation : IJavaObject {
 	@Import bool willChangeTransformationMatrix();
 	@Import bool willChangeBounds();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "AlphaAnimation");
+	public static immutable string _javaParameterString = "Landroid/view/animation/AlphaAnimation";
 }

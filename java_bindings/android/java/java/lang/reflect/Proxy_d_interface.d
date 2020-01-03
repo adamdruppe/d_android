@@ -11,5 +11,5 @@ final class Proxy : IJavaObject {
 	@Import static bool isProxyClass(import0.Class);
 	@Import static import2.InvocationHandler getInvocationHandler(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "Proxy");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Proxy";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface Callable : IJavaObject {
 	@Import IJavaObject call();
-	mixin JavaPackageId!("java.util.concurrent", "Callable");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Callable";
 }

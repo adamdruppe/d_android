@@ -7,5 +7,5 @@ import import0 = android.java.android.bluetooth.BluetoothProfile_d_interface;
 interface BluetoothProfile_ServiceListener : IJavaObject {
 	@Import void onServiceConnected(int, import0.BluetoothProfile);
 	@Import void onServiceDisconnected(int);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothProfile$ServiceListener");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothProfile$ServiceListener";
 }

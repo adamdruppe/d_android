@@ -5,5 +5,5 @@ import import0 = android.java.java.util.Iterator_d_interface;
 
 interface DirectoryStream : IJavaObject {
 	@Import import0.Iterator iterator();
-	mixin JavaPackageId!("java.nio.file", "DirectoryStream");
+	public static immutable string _javaParameterString = "Ljava/nio/file/DirectoryStream";
 }

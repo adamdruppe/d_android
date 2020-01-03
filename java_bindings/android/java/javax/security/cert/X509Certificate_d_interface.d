@@ -22,5 +22,5 @@ final class X509Certificate : IJavaObject {
 	@Import string getSigAlgOID();
 	@Import byte[] getSigAlgParams();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.cert", "X509Certificate");
+	public static immutable string _javaParameterString = "Ljavax/security/cert/X509Certificate";
 }

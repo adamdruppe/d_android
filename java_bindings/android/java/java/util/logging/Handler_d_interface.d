@@ -23,5 +23,5 @@ final class Handler : IJavaObject {
 	@Import import4.Level getLevel();
 	@Import bool isLoggable(import0.LogRecord);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "Handler");
+	public static immutable string _javaParameterString = "Ljava/util/logging/Handler";
 }

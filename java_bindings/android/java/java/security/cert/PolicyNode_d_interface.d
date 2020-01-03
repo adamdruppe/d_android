@@ -13,5 +13,5 @@ interface PolicyNode : IJavaObject {
 	@Import import2.Set getPolicyQualifiers();
 	@Import import2.Set getExpectedPolicies();
 	@Import bool isCritical();
-	mixin JavaPackageId!("java.security.cert", "PolicyNode");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PolicyNode";
 }

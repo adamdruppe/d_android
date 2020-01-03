@@ -11,5 +11,5 @@ final class TtsSpan_SemioticClassBuilder : IJavaObject {
 	@Import import0.TtsSpan_SemioticClassBuilder setMultiplicity(string);
 	@Import import0.TtsSpan_SemioticClassBuilder setCase(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$SemioticClassBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$SemioticClassBuilder";
 }

@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class WebView_VisualStateCallback : IJavaObject {
 	@Import void onComplete(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebView$VisualStateCallback");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebView$VisualStateCallback";
 }

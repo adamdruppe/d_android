@@ -9,5 +9,5 @@ interface LocationListener : IJavaObject {
 	@Import void onStatusChanged(string, int, import1.Bundle);
 	@Import void onProviderEnabled(string);
 	@Import void onProviderDisabled(string);
-	mixin JavaPackageId!("android.location", "LocationListener");
+	public static immutable string _javaParameterString = "Landroid/location/LocationListener";
 }

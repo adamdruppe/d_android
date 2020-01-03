@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Surface_OutOfResourcesException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Surface$OutOfResourcesException");
+	public static immutable string _javaParameterString = "Landroid/view/Surface$OutOfResourcesException";
 }

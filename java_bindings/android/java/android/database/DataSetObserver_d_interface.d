@@ -5,5 +5,5 @@ final class DataSetObserver : IJavaObject {
 	@Import void onChanged();
 	@Import void onInvalidated();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "DataSetObserver");
+	public static immutable string _javaParameterString = "Landroid/database/DataSetObserver";
 }

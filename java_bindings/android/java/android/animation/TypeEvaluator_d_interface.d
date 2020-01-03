@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface TypeEvaluator : IJavaObject {
 	@Import IJavaObject evaluate(float, IJavaObject, IJavaObject);
-	mixin JavaPackageId!("android.animation", "TypeEvaluator");
+	public static immutable string _javaParameterString = "Landroid/animation/TypeEvaluator";
 }

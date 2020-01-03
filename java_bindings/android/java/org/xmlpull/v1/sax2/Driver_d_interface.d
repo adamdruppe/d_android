@@ -42,5 +42,5 @@ final class Driver : IJavaObject {
 	@Import void parse(string);
 	@Import void parseSubTree(import0.XmlPullParser);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xmlpull.v1.sax2", "Driver");
+	public static immutable string _javaParameterString = "Lorg/xmlpull/v1/sax2/Driver";
 }

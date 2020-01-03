@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class MalformedParameterizedTypeException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "MalformedParameterizedTypeException");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/MalformedParameterizedTypeException";
 }

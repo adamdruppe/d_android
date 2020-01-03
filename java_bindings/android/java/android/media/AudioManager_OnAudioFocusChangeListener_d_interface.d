@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AudioManager$OnAudioFocusChangeListener")
 interface AudioManager_OnAudioFocusChangeListener : IJavaObject {
 	@Import void onAudioFocusChange(int);
-	mixin JavaPackageId!("android.media", "AudioManager$OnAudioFocusChangeListener");
+	public static immutable string _javaParameterString = "Landroid/media/AudioManager$OnAudioFocusChangeListener";
 }

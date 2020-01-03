@@ -12,5 +12,5 @@ final class Observable : IJavaObject {
 	@Import bool hasChanged();
 	@Import int countObservers();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Observable");
+	public static immutable string _javaParameterString = "Ljava/util/Observable";
 }

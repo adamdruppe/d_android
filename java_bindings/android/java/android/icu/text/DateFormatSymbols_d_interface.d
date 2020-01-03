@@ -53,5 +53,5 @@ final class DateFormatSymbols : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DateFormatSymbols");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateFormatSymbols";
 }

@@ -7,5 +7,5 @@ final class StandardProtocolFamily : IJavaObject {
 	@Import static import0.StandardProtocolFamily[] values();
 	@Import static import0.StandardProtocolFamily valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "StandardProtocolFamily");
+	public static immutable string _javaParameterString = "Ljava/net/StandardProtocolFamily";
 }

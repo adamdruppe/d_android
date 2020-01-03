@@ -15,5 +15,5 @@ final class TtsSpan_ElectronicBuilder : IJavaObject {
 	@Import import0.TtsSpan_ElectronicBuilder setQueryString(string);
 	@Import import0.TtsSpan_ElectronicBuilder setFragmentId(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$ElectronicBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$ElectronicBuilder";
 }

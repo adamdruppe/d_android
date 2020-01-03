@@ -9,5 +9,5 @@ final class ECPublicKeySpec : IJavaObject {
 	@Import import0.ECPoint getW();
 	@Import import1.ECParameterSpec getParams();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "ECPublicKeySpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/ECPublicKeySpec";
 }

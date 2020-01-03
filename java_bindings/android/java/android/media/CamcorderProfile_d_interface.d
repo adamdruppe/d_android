@@ -9,5 +9,5 @@ final class CamcorderProfile : IJavaObject {
 	@Import static bool hasProfile(int);
 	@Import static bool hasProfile(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "CamcorderProfile");
+	public static immutable string _javaParameterString = "Landroid/media/CamcorderProfile";
 }

@@ -7,5 +7,5 @@ import import0 = android.java.android.hardware.biometrics.BiometricPrompt_Crypto
 final class BiometricPrompt_AuthenticationResult : IJavaObject {
 	@Import import0.BiometricPrompt_CryptoObject getCryptoObject();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.biometrics", "BiometricPrompt$AuthenticationResult");
+	public static immutable string _javaParameterString = "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationResult";
 }

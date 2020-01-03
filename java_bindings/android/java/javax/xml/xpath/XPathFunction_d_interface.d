@@ -5,5 +5,5 @@ import import0 = android.java.java.util.List_d_interface;
 
 interface XPathFunction : IJavaObject {
 	@Import IJavaObject evaluate(import0.List);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathFunction");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathFunction";
 }

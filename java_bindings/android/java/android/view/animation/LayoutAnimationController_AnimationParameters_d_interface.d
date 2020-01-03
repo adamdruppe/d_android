@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("LayoutAnimationController$AnimationParameters")
 final class LayoutAnimationController_AnimationParameters : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "LayoutAnimationController$AnimationParameters");
+	public static immutable string _javaParameterString = "Landroid/view/animation/LayoutAnimationController$AnimationParameters";
 }

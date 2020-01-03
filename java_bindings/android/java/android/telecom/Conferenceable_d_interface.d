@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class Conferenceable : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Conferenceable");
+	public static immutable string _javaParameterString = "Landroid/telecom/Conferenceable";
 }

@@ -84,5 +84,5 @@ final class ContentResolver : IJavaObject {
 	@Import static IJavaObject addStatusChangeListener(int, import19.SyncStatusObserver);
 	@Import static void removeStatusChangeListener(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentResolver");
+	public static immutable string _javaParameterString = "Landroid/content/ContentResolver";
 }

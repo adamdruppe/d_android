@@ -56,5 +56,5 @@ final class Period : IJavaObject {
 	@Import import8.ChronoPeriod plus(import1.TemporalAmount);
 	@Import import9.Chronology getChronology();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "Period");
+	public static immutable string _javaParameterString = "Ljava/time/Period";
 }

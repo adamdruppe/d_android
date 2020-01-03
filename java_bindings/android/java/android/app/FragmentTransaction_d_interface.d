@@ -39,5 +39,5 @@ final class FragmentTransaction : IJavaObject {
 	@Import void commitNow();
 	@Import void commitNowAllowingStateLoss();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentTransaction");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentTransaction";
 }

@@ -16,5 +16,5 @@ interface MovementMethod : IJavaObject {
 	@Import bool onTouchEvent(import0.TextView, import1.Spannable, import3.MotionEvent);
 	@Import bool onGenericMotionEvent(import0.TextView, import1.Spannable, import3.MotionEvent);
 	@Import bool canSelectArbitrarily();
-	mixin JavaPackageId!("android.text.method", "MovementMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/MovementMethod";
 }

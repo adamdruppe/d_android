@@ -33,5 +33,5 @@ final class WallpaperService_Engine : IJavaObject {
 	@Import void notifyColorsChanged();
 	@Import import5.WallpaperColors onComputeColors();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.wallpaper", "WallpaperService$Engine");
+	public static immutable string _javaParameterString = "Landroid/service/wallpaper/WallpaperService$Engine";
 }

@@ -19,5 +19,5 @@ final class NotificationListenerService_Ranking : IJavaObject {
 	@Import bool canShowBadge();
 	@Import bool isSuspended();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.notification", "NotificationListenerService$Ranking");
+	public static immutable string _javaParameterString = "Landroid/service/notification/NotificationListenerService$Ranking";
 }

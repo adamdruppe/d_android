@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NotDirectoryException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "NotDirectoryException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/NotDirectoryException";
 }

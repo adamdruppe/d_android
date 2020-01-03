@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AccessibilityManager$AccessibilityStateChangeListener")
 interface AccessibilityManager_AccessibilityStateChangeListener : IJavaObject {
 	@Import void onAccessibilityStateChanged(bool);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityManager$AccessibilityStateChangeListener");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityManager$AccessibilityStateChangeListener";
 }

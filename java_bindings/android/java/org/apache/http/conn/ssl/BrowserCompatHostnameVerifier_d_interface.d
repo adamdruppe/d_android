@@ -5,5 +5,5 @@ final class BrowserCompatHostnameVerifier : IJavaObject {
 	@Import void verify(string, string, string[][]);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.apache.http.conn.ssl", "BrowserCompatHostnameVerifier");
+	public static immutable string _javaParameterString = "Lorg/apache/http/conn/ssl/BrowserCompatHostnameVerifier";
 }

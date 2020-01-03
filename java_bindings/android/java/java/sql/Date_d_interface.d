@@ -16,5 +16,5 @@ final class Date : IJavaObject {
 	@Import void setMinutes(int);
 	@Import void setSeconds(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "Date");
+	public static immutable string _javaParameterString = "Ljava/sql/Date";
 }

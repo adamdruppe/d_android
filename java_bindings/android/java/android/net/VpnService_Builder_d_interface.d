@@ -29,5 +29,5 @@ final class VpnService_Builder : IJavaObject {
 	@Import import1.VpnService_Builder setUnderlyingNetworks(import4.Network[]);
 	@Import import5.ParcelFileDescriptor establish();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "VpnService$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/VpnService$Builder";
 }

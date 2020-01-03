@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Telephony$MmsSms$PendingMessages")
 final class Telephony_MmsSms_PendingMessages : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Telephony$MmsSms$PendingMessages");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$MmsSms$PendingMessages";
 }

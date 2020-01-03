@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface ForkJoinPool_ManagedBlocker : IJavaObject {
 	@Import bool block();
 	@Import bool isReleasable();
-	mixin JavaPackageId!("java.util.concurrent", "ForkJoinPool$ManagedBlocker");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ForkJoinPool$ManagedBlocker";
 }

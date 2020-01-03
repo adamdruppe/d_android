@@ -33,5 +33,5 @@ final class AccessibilityEvent : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import static string eventTypeToString(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityEvent");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityEvent";
 }

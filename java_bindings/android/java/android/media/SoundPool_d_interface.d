@@ -13,9 +13,18 @@ final class SoundPool : IJavaObject {
 	@Import int load(import0.Context, int, int);
 	@Import int load(import1.AssetFileDescriptor, int);
 	@Import int load(import2.FileDescriptor, long, long, int);
+	@Import bool unload(int);
 	@Import int play(int, float, float, int, int, float);
+	@Import void pause(int);
+	@Import void resume(int);
+	@Import void autoPause();
+	@Import void autoResume();
+	@Import void stop(int);
 	@Import void setVolume(int, float, float);
+	@Import void setPriority(int, int);
+	@Import void setLoop(int, int);
+	@Import void setRate(int, float);
 	@Import void setOnLoadCompleteListener(import3.SoundPool_OnLoadCompleteListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "SoundPool");
+	public static immutable string _javaParameterString = "Landroid/media/SoundPool";
 }

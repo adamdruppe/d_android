@@ -35,5 +35,5 @@ final class NfcAdapter : IJavaObject {
 	@Import bool isNdefPushEnabled();
 	@Import bool ignore(import12.Tag, int, import13.NfcAdapter_OnTagRemovedListener, import14.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc", "NfcAdapter");
+	public static immutable string _javaParameterString = "Landroid/nfc/NfcAdapter";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacter$JoiningType")
 interface UCharacter_JoiningType : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$JoiningType");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$JoiningType";
 }

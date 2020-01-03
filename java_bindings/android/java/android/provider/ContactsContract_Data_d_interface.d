@@ -8,5 +8,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 final class ContactsContract_Data : IJavaObject {
 	@Import static import0.Uri getContactLookupUri(import1.ContentResolver, import0.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$Data");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$Data";
 }

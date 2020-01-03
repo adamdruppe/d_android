@@ -75,5 +75,5 @@ final class VoiceInteractionSession : IJavaObject {
 	@Import void onCancelRequest(import19.VoiceInteractionSession_Request);
 	@Import void dump(string, import20.FileDescriptor, import21.PrintWriter, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession";
 }

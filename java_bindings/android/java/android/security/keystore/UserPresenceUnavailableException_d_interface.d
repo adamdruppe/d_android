@@ -7,5 +7,5 @@ final class UserPresenceUnavailableException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "UserPresenceUnavailableException");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/UserPresenceUnavailableException";
 }

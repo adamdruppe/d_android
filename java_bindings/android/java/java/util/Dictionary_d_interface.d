@@ -12,5 +12,5 @@ final class Dictionary : IJavaObject {
 	@Import IJavaObject put(IJavaObject, IJavaObject);
 	@Import IJavaObject remove(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Dictionary");
+	public static immutable string _javaParameterString = "Ljava/util/Dictionary";
 }

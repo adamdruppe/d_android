@@ -7,5 +7,5 @@ final class NoiseSuppressor : IJavaObject {
 	@Import static bool isAvailable();
 	@Import static import0.NoiseSuppressor create(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "NoiseSuppressor");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/NoiseSuppressor";
 }

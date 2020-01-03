@@ -21,5 +21,5 @@ final class RemoteControlClient : IJavaObject {
 	@Import void setPlaybackPositionUpdateListener(import5.RemoteControlClient_OnPlaybackPositionUpdateListener);
 	@Import void setOnGetPlaybackPositionListener(import6.RemoteControlClient_OnGetPlaybackPositionListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "RemoteControlClient");
+	public static immutable string _javaParameterString = "Landroid/media/RemoteControlClient";
 }

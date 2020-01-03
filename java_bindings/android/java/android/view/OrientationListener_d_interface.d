@@ -12,5 +12,5 @@ final class OrientationListener : IJavaObject {
 	@Import void onSensorChanged(int, float[]);
 	@Import void onOrientationChanged(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "OrientationListener");
+	public static immutable string _javaParameterString = "Landroid/view/OrientationListener";
 }

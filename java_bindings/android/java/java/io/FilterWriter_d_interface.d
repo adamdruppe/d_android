@@ -8,5 +8,5 @@ final class FilterWriter : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FilterWriter");
+	public static immutable string _javaParameterString = "Ljava/io/FilterWriter";
 }

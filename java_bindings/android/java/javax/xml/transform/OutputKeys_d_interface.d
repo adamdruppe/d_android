@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class OutputKeys : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform", "OutputKeys");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/OutputKeys";
 }

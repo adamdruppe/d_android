@@ -60,5 +60,5 @@ final class ExpandableListView : IJavaObject {
 	@Import void setAdapter(import13.Adapter);
 	@Import import13.Adapter getAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ExpandableListView");
+	public static immutable string _javaParameterString = "Landroid/widget/ExpandableListView";
 }

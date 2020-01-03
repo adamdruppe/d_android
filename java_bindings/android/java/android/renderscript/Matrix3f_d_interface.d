@@ -24,5 +24,5 @@ final class Matrix3f : IJavaObject {
 	@Import void translate(float, float);
 	@Import void transpose();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Matrix3f");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Matrix3f";
 }

@@ -18,5 +18,5 @@ final class HandshakeCompletedEvent : IJavaObject {
 	@Import import4.Principal getLocalPrincipal();
 	@Import import0.SSLSocket getSocket();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "HandshakeCompletedEvent");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/HandshakeCompletedEvent";
 }

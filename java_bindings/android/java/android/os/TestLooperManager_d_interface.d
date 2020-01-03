@@ -15,5 +15,5 @@ final class TestLooperManager : IJavaObject {
 	@Import bool hasMessages(import2.Handler, IJavaObject, int);
 	@Import bool hasMessages(import2.Handler, IJavaObject, import3.Runnable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "TestLooperManager");
+	public static immutable string _javaParameterString = "Landroid/os/TestLooperManager";
 }

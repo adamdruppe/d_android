@@ -11,5 +11,5 @@ final class RecoverySystem : IJavaObject {
 	@Import static void rebootWipeUserData(import2.Context);
 	@Import static void rebootWipeCache(import2.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "RecoverySystem");
+	public static immutable string _javaParameterString = "Landroid/os/RecoverySystem";
 }

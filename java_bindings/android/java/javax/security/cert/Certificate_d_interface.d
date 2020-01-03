@@ -12,5 +12,5 @@ final class Certificate : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import import0.PublicKey getPublicKey();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.cert", "Certificate");
+	public static immutable string _javaParameterString = "Ljavax/security/cert/Certificate";
 }

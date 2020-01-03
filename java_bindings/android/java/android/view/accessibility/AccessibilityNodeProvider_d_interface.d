@@ -12,5 +12,5 @@ final class AccessibilityNodeProvider : IJavaObject {
 	@Import import2.List findAccessibilityNodeInfosByText(string, int);
 	@Import import0.AccessibilityNodeInfo findFocus(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityNodeProvider");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityNodeProvider";
 }

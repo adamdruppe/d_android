@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class MaskFilter : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "MaskFilter");
+	public static immutable string _javaParameterString = "Landroid/graphics/MaskFilter";
 }

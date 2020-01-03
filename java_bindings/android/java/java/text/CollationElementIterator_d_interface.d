@@ -16,5 +16,5 @@ final class CollationElementIterator : IJavaObject {
 	@Import void setText(string);
 	@Import void setText(import0.CharacterIterator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "CollationElementIterator");
+	public static immutable string _javaParameterString = "Ljava/text/CollationElementIterator";
 }

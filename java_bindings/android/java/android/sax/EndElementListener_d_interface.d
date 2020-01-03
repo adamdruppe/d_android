@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface EndElementListener : IJavaObject {
 	@Import void end();
-	mixin JavaPackageId!("android.sax", "EndElementListener");
+	public static immutable string _javaParameterString = "Landroid/sax/EndElementListener";
 }

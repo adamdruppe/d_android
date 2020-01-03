@@ -7,5 +7,5 @@ final class RowIdLifetime : IJavaObject {
 	@Import static import0.RowIdLifetime[] values();
 	@Import static import0.RowIdLifetime valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "RowIdLifetime");
+	public static immutable string _javaParameterString = "Ljava/sql/RowIdLifetime";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class IllegalAccessException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "IllegalAccessException");
+	public static immutable string _javaParameterString = "Ljava/lang/IllegalAccessException";
 }

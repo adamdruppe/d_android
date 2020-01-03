@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class JsPromptResult : IJavaObject {
 	@Import void confirm(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "JsPromptResult");
+	public static immutable string _javaParameterString = "Landroid/webkit/JsPromptResult";
 }

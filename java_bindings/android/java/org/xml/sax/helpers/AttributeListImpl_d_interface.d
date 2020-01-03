@@ -16,5 +16,5 @@ final class AttributeListImpl : IJavaObject {
 	@Import string getType(string);
 	@Import string getValue(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "AttributeListImpl");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/AttributeListImpl";
 }

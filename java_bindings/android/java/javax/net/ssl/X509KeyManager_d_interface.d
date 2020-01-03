@@ -13,5 +13,5 @@ interface X509KeyManager : IJavaObject {
 	@Import string chooseServerAlias(string, import0.Principal, import1.Socket[]);
 	@Import import2.X509Certificate[] getCertificateChain(string);
 	@Import import3.PrivateKey getPrivateKey(string);
-	mixin JavaPackageId!("javax.net.ssl", "X509KeyManager");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/X509KeyManager";
 }

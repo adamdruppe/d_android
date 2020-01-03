@@ -14,5 +14,5 @@ final class TextLinks_TextLink : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextLinks$TextLink");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextLinks$TextLink";
 }

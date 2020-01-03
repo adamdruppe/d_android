@@ -14,5 +14,5 @@ final class LongSummaryStatistics : IJavaObject {
 	@Import double getAverage();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "LongSummaryStatistics");
+	public static immutable string _javaParameterString = "Ljava/util/LongSummaryStatistics";
 }

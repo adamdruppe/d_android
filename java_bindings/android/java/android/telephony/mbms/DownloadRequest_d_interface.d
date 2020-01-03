@@ -17,5 +17,5 @@ final class DownloadRequest : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "DownloadRequest");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/DownloadRequest";
 }

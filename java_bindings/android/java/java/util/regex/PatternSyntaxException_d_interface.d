@@ -8,5 +8,5 @@ final class PatternSyntaxException : IJavaObject {
 	@Import string getPattern();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.regex", "PatternSyntaxException");
+	public static immutable string _javaParameterString = "Ljava/util/regex/PatternSyntaxException";
 }

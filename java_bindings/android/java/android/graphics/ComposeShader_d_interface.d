@@ -9,5 +9,5 @@ final class ComposeShader : IJavaObject {
 	@Import this(import0.Shader, import0.Shader, import1.Xfermode);
 	@Import this(import0.Shader, import0.Shader, import2.PorterDuff_Mode);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ComposeShader");
+	public static immutable string _javaParameterString = "Landroid/graphics/ComposeShader";
 }

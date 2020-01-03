@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DeadObjectException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "DeadObjectException");
+	public static immutable string _javaParameterString = "Landroid/os/DeadObjectException";
 }

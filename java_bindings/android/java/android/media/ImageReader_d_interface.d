@@ -20,5 +20,5 @@ final class ImageReader : IJavaObject {
 	@Import void close();
 	@Import void discardFreeBuffers();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "ImageReader");
+	public static immutable string _javaParameterString = "Landroid/media/ImageReader";
 }

@@ -8,5 +8,5 @@ interface Entity : IJavaObject {
 	@Import string getInputEncoding();
 	@Import string getXmlEncoding();
 	@Import string getXmlVersion();
-	mixin JavaPackageId!("org.w3c.dom", "Entity");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Entity";
 }

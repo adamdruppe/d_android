@@ -9,5 +9,5 @@ final class ConstantCallSite : IJavaObject {
 	@Import void setTarget(import0.MethodHandle);
 	@Import import0.MethodHandle dynamicInvoker();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.invoke", "ConstantCallSite");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/ConstantCallSite";
 }

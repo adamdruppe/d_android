@@ -20,5 +20,5 @@ final class SurfaceTexture : IJavaObject {
 	@Import void release();
 	@Import bool isReleased();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "SurfaceTexture");
+	public static immutable string _javaParameterString = "Landroid/graphics/SurfaceTexture";
 }

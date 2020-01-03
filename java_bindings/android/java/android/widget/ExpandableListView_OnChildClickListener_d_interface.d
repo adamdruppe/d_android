@@ -7,5 +7,5 @@ import import1 = android.java.android.view.View_d_interface;
 @JavaName("ExpandableListView$OnChildClickListener")
 interface ExpandableListView_OnChildClickListener : IJavaObject {
 	@Import bool onChildClick(import0.ExpandableListView, import1.View, int, int, long);
-	mixin JavaPackageId!("android.widget", "ExpandableListView$OnChildClickListener");
+	public static immutable string _javaParameterString = "Landroid/widget/ExpandableListView$OnChildClickListener";
 }

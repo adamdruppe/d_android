@@ -19,5 +19,5 @@ final class OptionalDouble : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "OptionalDouble");
+	public static immutable string _javaParameterString = "Ljava/util/OptionalDouble";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.view.MenuItem_d_interface;
 @JavaName("MenuItem$OnMenuItemClickListener")
 interface MenuItem_OnMenuItemClickListener : IJavaObject {
 	@Import bool onMenuItemClick(import0.MenuItem);
-	mixin JavaPackageId!("android.view", "MenuItem$OnMenuItemClickListener");
+	public static immutable string _javaParameterString = "Landroid/view/MenuItem$OnMenuItemClickListener";
 }

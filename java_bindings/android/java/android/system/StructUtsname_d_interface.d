@@ -5,5 +5,5 @@ final class StructUtsname : IJavaObject {
 	@Import this(string, string, string, string, string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "StructUtsname");
+	public static immutable string _javaParameterString = "Landroid/system/StructUtsname";
 }

@@ -8,5 +8,5 @@ final class SmsMessage_MessageClass : IJavaObject {
 	@Import static import0.SmsMessage_MessageClass[] values();
 	@Import static import0.SmsMessage_MessageClass valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.gsm", "SmsMessage$MessageClass");
+	public static immutable string _javaParameterString = "Landroid/telephony/gsm/SmsMessage$MessageClass";
 }

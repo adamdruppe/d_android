@@ -6,5 +6,5 @@ final class ContactsContract_StatusUpdates : IJavaObject {
 	@Import static int getPresenceIconResourceId(int);
 	@Import static int getPresencePrecedence(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$StatusUpdates");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$StatusUpdates";
 }

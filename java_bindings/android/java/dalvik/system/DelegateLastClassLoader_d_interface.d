@@ -11,5 +11,5 @@ final class DelegateLastClassLoader : IJavaObject {
 	@Import import1.URL getResource(string);
 	@Import import2.Enumeration getResources(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("dalvik.system", "DelegateLastClassLoader");
+	public static immutable string _javaParameterString = "Ldalvik/system/DelegateLastClassLoader";
 }

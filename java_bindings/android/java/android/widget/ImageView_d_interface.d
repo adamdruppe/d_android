@@ -67,5 +67,5 @@ final class ImageView : IJavaObject {
 	@Import void setVisibility(int);
 	@Import import11.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ImageView");
+	public static immutable string _javaParameterString = "Landroid/widget/ImageView";
 }

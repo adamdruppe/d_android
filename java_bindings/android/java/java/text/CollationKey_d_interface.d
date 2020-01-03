@@ -9,5 +9,5 @@ final class CollationKey : IJavaObject {
 	@Import byte[] toByteArray();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "CollationKey");
+	public static immutable string _javaParameterString = "Ljava/text/CollationKey";
 }

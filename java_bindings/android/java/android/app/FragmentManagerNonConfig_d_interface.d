@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class FragmentManagerNonConfig : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentManagerNonConfig");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentManagerNonConfig";
 }

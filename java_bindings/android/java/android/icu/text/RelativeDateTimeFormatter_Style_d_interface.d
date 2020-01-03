@@ -8,5 +8,5 @@ final class RelativeDateTimeFormatter_Style : IJavaObject {
 	@Import static import0.RelativeDateTimeFormatter_Style[] values();
 	@Import static import0.RelativeDateTimeFormatter_Style valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "RelativeDateTimeFormatter$Style");
+	public static immutable string _javaParameterString = "Landroid/icu/text/RelativeDateTimeFormatter$Style";
 }

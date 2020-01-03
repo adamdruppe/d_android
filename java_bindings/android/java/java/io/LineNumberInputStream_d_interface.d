@@ -14,5 +14,5 @@ final class LineNumberInputStream : IJavaObject {
 	@Import void mark(int);
 	@Import void reset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "LineNumberInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/LineNumberInputStream";
 }

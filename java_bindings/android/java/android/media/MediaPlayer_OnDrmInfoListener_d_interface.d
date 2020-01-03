@@ -7,5 +7,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnDrmInfoListener")
 interface MediaPlayer_OnDrmInfoListener : IJavaObject {
 	@Import void onDrmInfo(import0.MediaPlayer, import1.MediaPlayer_DrmInfo);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnDrmInfoListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnDrmInfoListener";
 }

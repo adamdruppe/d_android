@@ -10,5 +10,5 @@ final class SecretKeySpec : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "SecretKeySpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/SecretKeySpec";
 }

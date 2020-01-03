@@ -12,5 +12,5 @@ final class AudioRecord_Builder : IJavaObject {
 	@Import import0.AudioRecord_Builder setBufferSizeInBytes(int);
 	@Import import2.AudioRecord build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioRecord$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/AudioRecord$Builder";
 }

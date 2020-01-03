@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SoundEffectConstants : IJavaObject {
 	@Import static int getContantForFocusDirection(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "SoundEffectConstants");
+	public static immutable string _javaParameterString = "Landroid/view/SoundEffectConstants";
 }

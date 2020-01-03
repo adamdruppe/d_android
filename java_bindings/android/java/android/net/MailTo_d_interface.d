@@ -14,5 +14,5 @@ final class MailTo : IJavaObject {
 	@Import import1.Map getHeaders();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "MailTo");
+	public static immutable string _javaParameterString = "Landroid/net/MailTo";
 }

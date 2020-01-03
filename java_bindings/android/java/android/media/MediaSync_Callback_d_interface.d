@@ -8,5 +8,5 @@ import import0 = android.java.android.media.MediaSync_d_interface;
 final class MediaSync_Callback : IJavaObject {
 	@Import void onAudioBufferConsumed(import0.MediaSync, import1.ByteBuffer, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaSync$Callback");
+	public static immutable string _javaParameterString = "Landroid/media/MediaSync$Callback";
 }

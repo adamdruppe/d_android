@@ -13,5 +13,5 @@ final class Face : IJavaObject {
 	@Import import1.Point getMouthPosition();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2.params", "Face");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/params/Face";
 }

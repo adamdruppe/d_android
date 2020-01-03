@@ -9,5 +9,5 @@ final class ReplacementTransformationMethod : IJavaObject {
 	@Import import0.CharSequence getTransformation(import0.CharSequence, import1.View);
 	@Import void onFocusChanged(import1.View, import0.CharSequence, bool, int, import2.Rect);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "ReplacementTransformationMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/ReplacementTransformationMethod";
 }

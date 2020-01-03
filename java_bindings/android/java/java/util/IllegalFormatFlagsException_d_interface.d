@@ -6,5 +6,5 @@ final class IllegalFormatFlagsException : IJavaObject {
 	@Import string getFlags();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IllegalFormatFlagsException");
+	public static immutable string _javaParameterString = "Ljava/util/IllegalFormatFlagsException";
 }

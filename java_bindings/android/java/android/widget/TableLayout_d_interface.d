@@ -34,5 +34,5 @@ final class TableLayout : IJavaObject {
 	@Import import7.LinearLayout_LayoutParams generateLayoutParams(import1.AttributeSet);
 	@Import import4.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TableLayout");
+	public static immutable string _javaParameterString = "Landroid/widget/TableLayout";
 }

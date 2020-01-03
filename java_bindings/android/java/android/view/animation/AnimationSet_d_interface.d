@@ -29,5 +29,5 @@ final class AnimationSet : IJavaObject {
 	@Import bool willChangeTransformationMatrix();
 	@Import bool willChangeBounds();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "AnimationSet");
+	public static immutable string _javaParameterString = "Landroid/view/animation/AnimationSet";
 }

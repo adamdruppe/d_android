@@ -8,5 +8,5 @@ interface Text : IJavaObject {
 	@Import bool isElementContentWhitespace();
 	@Import string getWholeText();
 	@Import import0.Text replaceWholeText(string);
-	mixin JavaPackageId!("org.w3c.dom", "Text");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Text";
 }

@@ -64,5 +64,5 @@ interface Connection : IJavaObject {
 	@Import import11.Properties getClientInfo();
 	@Import import12.Array createArrayOf(string, IJavaObject[]);
 	@Import import13.Struct createStruct(string, IJavaObject[]);
-	mixin JavaPackageId!("java.sql", "Connection");
+	public static immutable string _javaParameterString = "Ljava/sql/Connection";
 }

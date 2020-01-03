@@ -7,5 +7,5 @@ import import0 = android.java.android.content.Context_d_interface;
 final class MbmsDownloadReceiver : IJavaObject {
 	@Import void onReceive(import0.Context, import1.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "MbmsDownloadReceiver");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/MbmsDownloadReceiver";
 }

@@ -228,5 +228,5 @@ final class DevicePolicyManager : IJavaObject {
 	@Import bool isOverrideApnEnabled(import0.ComponentName);
 	@Import import10.PersistableBundle getTransferOwnershipBundle();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "DevicePolicyManager");
+	public static immutable string _javaParameterString = "Landroid/app/admin/DevicePolicyManager";
 }

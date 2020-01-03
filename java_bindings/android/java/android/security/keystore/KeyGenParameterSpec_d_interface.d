@@ -34,5 +34,5 @@ final class KeyGenParameterSpec : IJavaObject {
 	@Import bool isStrongBoxBacked();
 	@Import bool isUnlockedDeviceRequired();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "KeyGenParameterSpec");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/KeyGenParameterSpec";
 }

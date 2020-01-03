@@ -36,5 +36,5 @@ final class LocalSocket : IJavaObject {
 	@Import import4.Credentials getPeerCredentials();
 	@Import import3.FileDescriptor getFileDescriptor();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "LocalSocket");
+	public static immutable string _javaParameterString = "Landroid/net/LocalSocket";
 }

@@ -14,5 +14,5 @@ interface Map_Entry : IJavaObject {
 	@Import static import0.Comparator comparingByValue();
 	@Import static import0.Comparator comparingByKey(import0.Comparator);
 	@Import static import0.Comparator comparingByValue(import0.Comparator);
-	mixin JavaPackageId!("java.util", "Map$Entry");
+	public static immutable string _javaParameterString = "Ljava/util/Map$Entry";
 }

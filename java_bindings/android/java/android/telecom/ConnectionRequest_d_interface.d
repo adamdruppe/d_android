@@ -20,5 +20,5 @@ final class ConnectionRequest : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import4.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "ConnectionRequest");
+	public static immutable string _javaParameterString = "Landroid/telecom/ConnectionRequest";
 }

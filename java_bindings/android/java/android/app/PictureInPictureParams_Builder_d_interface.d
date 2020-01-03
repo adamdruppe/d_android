@@ -14,5 +14,5 @@ final class PictureInPictureParams_Builder : IJavaObject {
 	@Import import0.PictureInPictureParams_Builder setSourceRectHint(import3.Rect);
 	@Import import4.PictureInPictureParams build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "PictureInPictureParams$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/PictureInPictureParams$Builder";
 }

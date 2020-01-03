@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class PaintFlagsDrawFilter : IJavaObject {
 	@Import this(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "PaintFlagsDrawFilter");
+	public static immutable string _javaParameterString = "Landroid/graphics/PaintFlagsDrawFilter";
 }

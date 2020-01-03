@@ -14,5 +14,5 @@ final class AdvertisingSet : IJavaObject {
 	@Import void setPeriodicAdvertisingData(import0.AdvertiseData);
 	@Import void setPeriodicAdvertisingEnabled(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertisingSet");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertisingSet";
 }

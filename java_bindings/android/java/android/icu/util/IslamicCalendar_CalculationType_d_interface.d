@@ -8,5 +8,5 @@ final class IslamicCalendar_CalculationType : IJavaObject {
 	@Import static import0.IslamicCalendar_CalculationType[] values();
 	@Import static import0.IslamicCalendar_CalculationType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "IslamicCalendar$CalculationType");
+	public static immutable string _javaParameterString = "Landroid/icu/util/IslamicCalendar$CalculationType";
 }

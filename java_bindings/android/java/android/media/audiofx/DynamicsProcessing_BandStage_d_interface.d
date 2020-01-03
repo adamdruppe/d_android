@@ -7,5 +7,5 @@ final class DynamicsProcessing_BandStage : IJavaObject {
 	@Import int getBandCount();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "DynamicsProcessing$BandStage");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/DynamicsProcessing$BandStage";
 }

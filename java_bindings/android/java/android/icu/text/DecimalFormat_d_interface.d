@@ -112,5 +112,5 @@ final class DecimalFormat : IJavaObject {
 	@Import string toPattern();
 	@Import string toLocalizedPattern();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DecimalFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DecimalFormat";
 }

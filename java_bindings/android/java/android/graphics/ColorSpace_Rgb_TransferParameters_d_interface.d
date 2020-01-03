@@ -8,5 +8,5 @@ final class ColorSpace_Rgb_TransferParameters : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorSpace$Rgb$TransferParameters");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorSpace$Rgb$TransferParameters";
 }

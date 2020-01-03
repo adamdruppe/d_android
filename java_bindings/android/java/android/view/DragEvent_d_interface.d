@@ -17,5 +17,5 @@ final class DragEvent : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "DragEvent");
+	public static immutable string _javaParameterString = "Landroid/view/DragEvent";
 }

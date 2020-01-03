@@ -11,5 +11,5 @@ final class AsyncPlayer : IJavaObject {
 	@Import void play(import0.Context, import1.Uri, bool, import2.AudioAttributes);
 	@Import void stop();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AsyncPlayer");
+	public static immutable string _javaParameterString = "Landroid/media/AsyncPlayer";
 }

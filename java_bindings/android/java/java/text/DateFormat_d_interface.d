@@ -41,5 +41,5 @@ final class DateFormat : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "DateFormat");
+	public static immutable string _javaParameterString = "Ljava/text/DateFormat";
 }

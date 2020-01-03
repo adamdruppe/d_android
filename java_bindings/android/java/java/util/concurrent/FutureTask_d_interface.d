@@ -15,5 +15,5 @@ final class FutureTask : IJavaObject {
 	@Import IJavaObject get(long, import2.TimeUnit);
 	@Import void run();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "FutureTask");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/FutureTask";
 }

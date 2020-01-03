@@ -6,5 +6,5 @@ import import0 = android.java.android.view.inputmethod.InputMethodSession_d_inte
 @JavaName("InputMethod$SessionCallback")
 interface InputMethod_SessionCallback : IJavaObject {
 	@Import void sessionCreated(import0.InputMethodSession);
-	mixin JavaPackageId!("android.view.inputmethod", "InputMethod$SessionCallback");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethod$SessionCallback";
 }

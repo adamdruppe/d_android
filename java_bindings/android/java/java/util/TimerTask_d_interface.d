@@ -6,5 +6,5 @@ final class TimerTask : IJavaObject {
 	@Import bool cancel();
 	@Import long scheduledExecutionTime();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "TimerTask");
+	public static immutable string _javaParameterString = "Ljava/util/TimerTask";
 }

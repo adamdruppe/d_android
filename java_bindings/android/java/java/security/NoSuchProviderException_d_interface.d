@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NoSuchProviderException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "NoSuchProviderException");
+	public static immutable string _javaParameterString = "Ljava/security/NoSuchProviderException";
 }

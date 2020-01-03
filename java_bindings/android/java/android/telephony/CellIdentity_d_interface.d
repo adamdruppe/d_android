@@ -12,5 +12,5 @@ final class CellIdentity : IJavaObject {
 	@Import int hashCode();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CellIdentity");
+	public static immutable string _javaParameterString = "Landroid/telephony/CellIdentity";
 }

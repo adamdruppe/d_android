@@ -5,5 +5,5 @@ import import0 = android.java.java.math.BigInteger_d_interface;
 
 interface ECPrivateKey : IJavaObject {
 	@Import import0.BigInteger getS();
-	mixin JavaPackageId!("java.security.interfaces", "ECPrivateKey");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/ECPrivateKey";
 }

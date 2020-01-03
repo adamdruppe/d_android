@@ -17,5 +17,5 @@ final class LocaleData : IJavaObject {
 	@Import static import3.LocaleData_PaperSize getPaperSize(import1.ULocale);
 	@Import static import4.VersionInfo getCLDRVersion();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "LocaleData");
+	public static immutable string _javaParameterString = "Landroid/icu/util/LocaleData";
 }

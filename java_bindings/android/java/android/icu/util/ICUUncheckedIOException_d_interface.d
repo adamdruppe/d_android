@@ -8,5 +8,5 @@ final class ICUUncheckedIOException : IJavaObject {
 	@Import this(import0.JavaThrowable);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "ICUUncheckedIOException");
+	public static immutable string _javaParameterString = "Landroid/icu/util/ICUUncheckedIOException";
 }

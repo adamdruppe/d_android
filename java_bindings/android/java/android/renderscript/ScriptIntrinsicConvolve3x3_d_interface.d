@@ -18,5 +18,5 @@ final class ScriptIntrinsicConvolve3x3 : IJavaObject {
 	@Import import5.Script_KernelID getKernelID();
 	@Import import6.Script_FieldID getFieldID_Input();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicConvolve3x3");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicConvolve3x3";
 }

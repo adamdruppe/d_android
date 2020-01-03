@@ -20,5 +20,5 @@ final class TextClassification_Builder : IJavaObject {
 	@Import import0.TextClassification_Builder setId(string);
 	@Import import5.TextClassification build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassification$Builder");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassification$Builder";
 }

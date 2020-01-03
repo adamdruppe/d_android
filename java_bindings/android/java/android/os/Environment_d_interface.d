@@ -17,5 +17,5 @@ final class Environment : IJavaObject {
 	@Import static bool isExternalStorageEmulated();
 	@Import static bool isExternalStorageEmulated(import0.File);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Environment");
+	public static immutable string _javaParameterString = "Landroid/os/Environment";
 }

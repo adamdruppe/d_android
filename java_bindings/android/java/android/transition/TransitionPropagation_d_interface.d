@@ -10,5 +10,5 @@ final class TransitionPropagation : IJavaObject {
 	@Import void captureValues(import2.TransitionValues);
 	@Import string[] getPropagationProperties();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "TransitionPropagation");
+	public static immutable string _javaParameterString = "Landroid/transition/TransitionPropagation";
 }

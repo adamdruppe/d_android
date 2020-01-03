@@ -16,5 +16,5 @@ final class TextInfo : IJavaObject {
 	@Import int getSequence();
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textservice", "TextInfo");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/TextInfo";
 }

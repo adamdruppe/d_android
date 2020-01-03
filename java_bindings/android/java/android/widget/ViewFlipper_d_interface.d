@@ -16,5 +16,5 @@ final class ViewFlipper : IJavaObject {
 	@Import void setAutoStart(bool);
 	@Import bool isAutoStart();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ViewFlipper");
+	public static immutable string _javaParameterString = "Landroid/widget/ViewFlipper";
 }

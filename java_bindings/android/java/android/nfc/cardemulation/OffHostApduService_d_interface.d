@@ -7,5 +7,5 @@ import import0 = android.java.android.os.IBinder_d_interface;
 final class OffHostApduService : IJavaObject {
 	@Import import0.IBinder onBind(import1.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc.cardemulation", "OffHostApduService");
+	public static immutable string _javaParameterString = "Landroid/nfc/cardemulation/OffHostApduService";
 }

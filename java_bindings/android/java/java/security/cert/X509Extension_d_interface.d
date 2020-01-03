@@ -8,5 +8,5 @@ interface X509Extension : IJavaObject {
 	@Import import0.Set getCriticalExtensionOIDs();
 	@Import import0.Set getNonCriticalExtensionOIDs();
 	@Import byte[] getExtensionValue(string);
-	mixin JavaPackageId!("java.security.cert", "X509Extension");
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509Extension";
 }

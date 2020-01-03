@@ -12,5 +12,5 @@ final class HijrahEra : IJavaObject {
 	@Import int getValue();
 	@Import import1.ValueRange range(import2.TemporalField);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "HijrahEra");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/HijrahEra";
 }

@@ -5,5 +5,5 @@ interface Key : IJavaObject {
 	@Import string getAlgorithm();
 	@Import string getFormat();
 	@Import byte[] getEncoded();
-	mixin JavaPackageId!("java.security", "Key");
+	public static immutable string _javaParameterString = "Ljava/security/Key";
 }

@@ -24,5 +24,5 @@ final class RemoteAction : IJavaObject {
 	@Import void dump(string, import5.PrintWriter);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "RemoteAction");
+	public static immutable string _javaParameterString = "Landroid/app/RemoteAction";
 }

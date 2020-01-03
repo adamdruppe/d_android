@@ -24,5 +24,5 @@ final class KeyInfo : IJavaObject {
 	@Import bool isInvalidatedByBiometricEnrollment();
 	@Import bool isTrustedUserPresenceRequired();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "KeyInfo");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/KeyInfo";
 }

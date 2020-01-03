@@ -17,5 +17,5 @@ final class DownloadRequest_Builder : IJavaObject {
 	@Import import1.DownloadRequest_Builder setAppIntent(import4.Intent);
 	@Import import2.DownloadRequest build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "DownloadRequest$Builder");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/DownloadRequest$Builder";
 }

@@ -16,5 +16,5 @@ final class ProtectionDomain : IJavaObject {
 	@Import import1.PermissionCollection getPermissions();
 	@Import bool implies(import4.Permission);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "ProtectionDomain");
+	public static immutable string _javaParameterString = "Ljava/security/ProtectionDomain";
 }

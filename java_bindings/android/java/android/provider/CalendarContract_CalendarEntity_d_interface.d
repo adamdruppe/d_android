@@ -8,5 +8,5 @@ import import1 = android.java.android.database.Cursor_d_interface;
 final class CalendarContract_CalendarEntity : IJavaObject {
 	@Import static import0.EntityIterator newEntityIterator(import1.Cursor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "CalendarContract$CalendarEntity");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$CalendarEntity";
 }

@@ -22,14 +22,14 @@ final class Cipher : IJavaObject {
 	@Import byte[] getIV();
 	@Import import2.AlgorithmParameters getParameters();
 	@Import import3.ExemptionMechanism getExemptionMechanism();
-	@Import void init(int, import4.Key);
-	@Import void init(int, import4.Key, import5.SecureRandom);
-	@Import void init(int, import4.Key, import6.AlgorithmParameterSpec);
-	@Import void init(int, import4.Key, import6.AlgorithmParameterSpec, import5.SecureRandom);
-	@Import void init(int, import4.Key, import2.AlgorithmParameters);
-	@Import void init(int, import4.Key, import2.AlgorithmParameters, import5.SecureRandom);
-	@Import void init(int, import7.Certificate);
-	@Import void init(int, import7.Certificate, import5.SecureRandom);
+	@Import @JavaName("init") void init_(int, import4.Key);
+	@Import @JavaName("init") void init_(int, import4.Key, import5.SecureRandom);
+	@Import @JavaName("init") void init_(int, import4.Key, import6.AlgorithmParameterSpec);
+	@Import @JavaName("init") void init_(int, import4.Key, import6.AlgorithmParameterSpec, import5.SecureRandom);
+	@Import @JavaName("init") void init_(int, import4.Key, import2.AlgorithmParameters);
+	@Import @JavaName("init") void init_(int, import4.Key, import2.AlgorithmParameters, import5.SecureRandom);
+	@Import @JavaName("init") void init_(int, import7.Certificate);
+	@Import @JavaName("init") void init_(int, import7.Certificate, import5.SecureRandom);
 	@Import byte[] update(byte[]);
 	@Import byte[] update(byte, int, int[]);
 	@Import int update(byte, int, int, byte[][]);
@@ -50,5 +50,5 @@ final class Cipher : IJavaObject {
 	@Import void updateAAD(byte, int, int[]);
 	@Import void updateAAD(import8.ByteBuffer);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "Cipher");
+	public static immutable string _javaParameterString = "Ljavax/crypto/Cipher";
 }

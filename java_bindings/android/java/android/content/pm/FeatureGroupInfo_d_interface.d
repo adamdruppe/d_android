@@ -9,5 +9,5 @@ final class FeatureGroupInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "FeatureGroupInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/FeatureGroupInfo";
 }

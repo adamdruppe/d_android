@@ -31,5 +31,5 @@ final class DocumentBuilderFactory : IJavaObject {
 	@Import void setXIncludeAware(bool);
 	@Import bool isXIncludeAware();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.parsers", "DocumentBuilderFactory");
+	public static immutable string _javaParameterString = "Ljavax/xml/parsers/DocumentBuilderFactory";
 }

@@ -21,5 +21,5 @@ final class HttpsURLConnection : IJavaObject {
 	@Import void setSSLSocketFactory(import3.SSLSocketFactory);
 	@Import import3.SSLSocketFactory getSSLSocketFactory();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "HttpsURLConnection");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/HttpsURLConnection";
 }

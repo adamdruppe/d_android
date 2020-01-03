@@ -13,5 +13,5 @@ interface BasicFileAttributes : IJavaObject {
 	@Import bool isOther();
 	@Import long size();
 	@Import IJavaObject fileKey();
-	mixin JavaPackageId!("java.nio.file.attribute", "BasicFileAttributes");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/BasicFileAttributes";
 }

@@ -8,5 +8,5 @@ final class MenuInflater : IJavaObject {
 	@Import this(import0.Context);
 	@Import void inflate(int, import1.Menu);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "MenuInflater");
+	public static immutable string _javaParameterString = "Landroid/view/MenuInflater";
 }

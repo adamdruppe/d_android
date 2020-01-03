@@ -12,5 +12,5 @@ final class StackTraceElement : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "StackTraceElement");
+	public static immutable string _javaParameterString = "Ljava/lang/StackTraceElement";
 }

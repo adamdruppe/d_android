@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface BooleanSupplier : IJavaObject {
 	@Import bool getAsBoolean();
-	mixin JavaPackageId!("java.util.function", "BooleanSupplier");
+	public static immutable string _javaParameterString = "Ljava/util/function/BooleanSupplier";
 }

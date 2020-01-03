@@ -8,5 +8,5 @@ final class AbstractSelector : IJavaObject {
 	@Import bool isOpen();
 	@Import import0.SelectorProvider provider();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels.spi", "AbstractSelector");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/spi/AbstractSelector";
 }

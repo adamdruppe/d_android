@@ -12,5 +12,5 @@ final class PlaybackState_CustomAction_Builder : IJavaObject {
 	@Import import1.PlaybackState_CustomAction_Builder setExtras(import2.Bundle);
 	@Import import3.PlaybackState_CustomAction build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "PlaybackState$CustomAction$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/session/PlaybackState$CustomAction$Builder";
 }

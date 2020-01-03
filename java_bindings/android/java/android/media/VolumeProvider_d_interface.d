@@ -10,5 +10,5 @@ final class VolumeProvider : IJavaObject {
 	@Import void onSetVolumeTo(int);
 	@Import void onAdjustVolume(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "VolumeProvider");
+	public static immutable string _javaParameterString = "Landroid/media/VolumeProvider";
 }

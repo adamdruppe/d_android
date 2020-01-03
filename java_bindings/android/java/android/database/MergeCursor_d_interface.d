@@ -27,5 +27,5 @@ final class MergeCursor : IJavaObject {
 	@Import void unregisterDataSetObserver(import2.DataSetObserver);
 	@Import bool requery();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "MergeCursor");
+	public static immutable string _javaParameterString = "Landroid/database/MergeCursor";
 }

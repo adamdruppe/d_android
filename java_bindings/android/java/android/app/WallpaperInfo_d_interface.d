@@ -32,5 +32,5 @@ final class WallpaperInfo : IJavaObject {
 	@Import void writeToParcel(import9.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "WallpaperInfo");
+	public static immutable string _javaParameterString = "Landroid/app/WallpaperInfo";
 }

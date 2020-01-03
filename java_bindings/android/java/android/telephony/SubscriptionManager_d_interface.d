@@ -28,5 +28,5 @@ final class SubscriptionManager : IJavaObject {
 	@Import void setSubscriptionOverrideCongested(int, bool, long);
 	@Import bool canManageSubscription(import3.SubscriptionInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SubscriptionManager");
+	public static immutable string _javaParameterString = "Landroid/telephony/SubscriptionManager";
 }

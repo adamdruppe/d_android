@@ -1,7 +1,7 @@
 module android.java.java.lang.Thread_d_interface;
 import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
 
-import import3 = android.java.java.lang.Thread_d_interface;
+import import2 = android.java.java.lang.Thread_d_interface;
 import import5 = android.java.java.lang.StackTraceElement_d_interface;
 import import1 = android.java.java.lang.ThreadGroup_d_interface;
 import import4 = android.java.java.lang.ClassLoader_d_interface;
@@ -9,7 +9,7 @@ import import7 = android.java.java.lang.Thread_State_d_interface;
 import import6 = android.java.java.util.Map_d_interface;
 import import8 = android.java.java.lang.Thread_UncaughtExceptionHandler_d_interface;
 import import0 = android.java.java.lang.Runnable_d_interface;
-import import2 = android.java.java.lang.JavaThrowable_d_interface;
+import import3 = android.java.java.lang.JavaThrowable_d_interface;
 
 final class Thread : IJavaObject {
 	@Import this(import0.Runnable);
@@ -19,13 +19,17 @@ final class Thread : IJavaObject {
 	@Import this(import0.Runnable, string);
 	@Import this(import1.ThreadGroup, import0.Runnable, string);
 	@Import this(import1.ThreadGroup, import0.Runnable, string, long);
+	@Import static import2.Thread currentThread();
+	@Import static void yield();
 	@Import static void sleep(long);
 	@Import static void sleep(long, int);
 	@Import void start();
 	@Import void run();
 	@Import void stop();
-	@Import void stop(import2.JavaThrowable);
+	@Import void stop(import3.JavaThrowable);
 	@Import void interrupt();
+	@Import static bool interrupted();
+	@Import bool isInterrupted();
 	@Import void destroy();
 	@Import bool isAlive();
 	@Import void suspend();
@@ -36,7 +40,7 @@ final class Thread : IJavaObject {
 	@Import string getName();
 	@Import import1.ThreadGroup getThreadGroup();
 	@Import static int activeCount();
-	@Import static int enumerate(import3.Thread[]);
+	@Import static int enumerate(import2.Thread[]);
 	@Import int countStackFrames();
 	@Import void join(long);
 	@Import void join(long, int);
@@ -58,5 +62,5 @@ final class Thread : IJavaObject {
 	@Import import8.Thread_UncaughtExceptionHandler getUncaughtExceptionHandler();
 	@Import void setUncaughtExceptionHandler(import8.Thread_UncaughtExceptionHandler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Thread");
+	public static immutable string _javaParameterString = "Ljava/lang/Thread";
 }

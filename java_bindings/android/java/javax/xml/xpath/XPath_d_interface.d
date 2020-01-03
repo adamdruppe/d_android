@@ -21,5 +21,5 @@ interface XPath : IJavaObject {
 	@Import string evaluate(string, IJavaObject);
 	@Import IJavaObject evaluate(string, import5.InputSource, import4.QName);
 	@Import string evaluate(string, import5.InputSource);
-	mixin JavaPackageId!("javax.xml.xpath", "XPath");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPath";
 }

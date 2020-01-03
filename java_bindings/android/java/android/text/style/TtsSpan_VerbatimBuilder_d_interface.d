@@ -8,5 +8,5 @@ final class TtsSpan_VerbatimBuilder : IJavaObject {
 	@Import this(string);
 	@Import import0.TtsSpan_VerbatimBuilder setVerbatim(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$VerbatimBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$VerbatimBuilder";
 }

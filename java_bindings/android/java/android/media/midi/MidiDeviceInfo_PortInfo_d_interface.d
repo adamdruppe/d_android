@@ -7,5 +7,5 @@ final class MidiDeviceInfo_PortInfo : IJavaObject {
 	@Import int getPortNumber();
 	@Import string getName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiDeviceInfo$PortInfo");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiDeviceInfo$PortInfo";
 }

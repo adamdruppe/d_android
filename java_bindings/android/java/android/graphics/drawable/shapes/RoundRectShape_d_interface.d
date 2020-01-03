@@ -18,5 +18,5 @@ final class RoundRectShape : IJavaObject {
 	@Import import6.Shape clone();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable.shapes", "RoundRectShape");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/shapes/RoundRectShape";
 }

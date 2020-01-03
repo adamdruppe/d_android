@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacter$HangulSyllableType")
 interface UCharacter_HangulSyllableType : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$HangulSyllableType");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$HangulSyllableType";
 }

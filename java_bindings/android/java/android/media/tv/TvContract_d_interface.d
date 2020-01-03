@@ -29,5 +29,5 @@ final class TvContract : IJavaObject {
 	@Import static bool isRecordedProgramUri(import1.Uri);
 	@Import static void requestChannelBrowsable(import2.Context, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvContract");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvContract";
 }

@@ -7,5 +7,5 @@ final class SQLiteException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteException");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteException";
 }

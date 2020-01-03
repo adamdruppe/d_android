@@ -7,5 +7,5 @@ final class LinkOption : IJavaObject {
 	@Import static import0.LinkOption[] values();
 	@Import static import0.LinkOption valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "LinkOption");
+	public static immutable string _javaParameterString = "Ljava/nio/file/LinkOption";
 }

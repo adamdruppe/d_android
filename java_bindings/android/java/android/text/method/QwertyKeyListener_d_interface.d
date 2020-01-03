@@ -16,5 +16,5 @@ final class QwertyKeyListener : IJavaObject {
 	@Import bool onKeyDown(import2.View, import3.Editable, int, import4.KeyEvent);
 	@Import static void markAsReplaced(import5.Spannable, int, int, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "QwertyKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/QwertyKeyListener";
 }

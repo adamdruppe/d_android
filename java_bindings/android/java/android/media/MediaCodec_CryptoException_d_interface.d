@@ -6,5 +6,5 @@ final class MediaCodec_CryptoException : IJavaObject {
 	@Import this(int, string);
 	@Import int getErrorCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodec$CryptoException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodec$CryptoException";
 }

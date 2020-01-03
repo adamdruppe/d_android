@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Notification$DecoratedMediaCustomViewStyle")
 final class Notification_DecoratedMediaCustomViewStyle : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$DecoratedMediaCustomViewStyle");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$DecoratedMediaCustomViewStyle";
 }

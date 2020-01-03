@@ -32,5 +32,5 @@ final class SliceProvider : IJavaObject {
 	@Import string getType(import3.Uri);
 	@Import import11.Bundle call(string, string, import11.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.slice", "SliceProvider");
+	public static immutable string _javaParameterString = "Landroid/app/slice/SliceProvider";
 }

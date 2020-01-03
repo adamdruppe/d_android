@@ -70,5 +70,5 @@ final class AssistStructure_ViewNode : IJavaObject {
 	@Import int getMaxTextLength();
 	@Import int getImportantForAutofill();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.assist", "AssistStructure$ViewNode");
+	public static immutable string _javaParameterString = "Landroid/app/assist/AssistStructure$ViewNode";
 }

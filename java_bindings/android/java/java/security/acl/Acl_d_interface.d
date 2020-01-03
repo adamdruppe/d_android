@@ -15,5 +15,5 @@ interface Acl : IJavaObject {
 	@Import import2.Enumeration entries();
 	@Import bool checkPermission(import0.Principal, import3.Permission);
 	@Import @JavaName("toString") string toString_();
-	mixin JavaPackageId!("java.security.acl", "Acl");
+	public static immutable string _javaParameterString = "Ljava/security/acl/Acl";
 }

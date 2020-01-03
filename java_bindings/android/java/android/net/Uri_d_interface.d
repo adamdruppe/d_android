@@ -50,5 +50,5 @@ final class Uri : IJavaObject {
 	@Import static import1.Uri withAppendedPath(import1.Uri, string);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "Uri");
+	public static immutable string _javaParameterString = "Landroid/net/Uri";
 }

@@ -7,5 +7,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnMediaTimeDiscontinuityListener")
 interface MediaPlayer_OnMediaTimeDiscontinuityListener : IJavaObject {
 	@Import void onMediaTimeDiscontinuity(import0.MediaPlayer, import1.MediaTimestamp);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnMediaTimeDiscontinuityListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnMediaTimeDiscontinuityListener";
 }

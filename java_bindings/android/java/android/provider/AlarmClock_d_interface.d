@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class AlarmClock : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "AlarmClock");
+	public static immutable string _javaParameterString = "Landroid/provider/AlarmClock";
 }

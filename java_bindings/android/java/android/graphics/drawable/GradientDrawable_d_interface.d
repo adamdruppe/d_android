@@ -65,5 +65,5 @@ final class GradientDrawable : IJavaObject {
 	@Import void getOutline(import11.Outline);
 	@Import import12.Drawable mutate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "GradientDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/GradientDrawable";
 }

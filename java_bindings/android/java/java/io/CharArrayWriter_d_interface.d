@@ -28,5 +28,5 @@ final class CharArrayWriter : IJavaObject {
 	@Import import3.Appendable append(import2.CharSequence, int, int);
 	@Import import3.Appendable append(import2.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "CharArrayWriter");
+	public static immutable string _javaParameterString = "Ljava/io/CharArrayWriter";
 }

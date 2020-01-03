@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface PrivilegedExceptionAction : IJavaObject {
 	@Import IJavaObject run();
-	mixin JavaPackageId!("java.security", "PrivilegedExceptionAction");
+	public static immutable string _javaParameterString = "Ljava/security/PrivilegedExceptionAction";
 }

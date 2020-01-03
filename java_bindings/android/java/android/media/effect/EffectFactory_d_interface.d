@@ -7,5 +7,5 @@ final class EffectFactory : IJavaObject {
 	@Import import0.Effect createEffect(string);
 	@Import static bool isEffectSupported(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.effect", "EffectFactory");
+	public static immutable string _javaParameterString = "Landroid/media/effect/EffectFactory";
 }

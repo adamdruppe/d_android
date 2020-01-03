@@ -14,5 +14,5 @@ final class GestureDescription_StrokeDescription : IJavaObject {
 	@Import import1.GestureDescription_StrokeDescription continueStroke(import0.Path, long, long, bool);
 	@Import bool willContinue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "GestureDescription$StrokeDescription");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/GestureDescription$StrokeDescription";
 }

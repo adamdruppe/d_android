@@ -7,5 +7,5 @@ import import1 = android.java.android.view.KeyEvent_d_interface;
 @JavaName("DialogInterface$OnKeyListener")
 interface DialogInterface_OnKeyListener : IJavaObject {
 	@Import bool onKey(import0.DialogInterface, int, import1.KeyEvent);
-	mixin JavaPackageId!("android.content", "DialogInterface$OnKeyListener");
+	public static immutable string _javaParameterString = "Landroid/content/DialogInterface$OnKeyListener";
 }

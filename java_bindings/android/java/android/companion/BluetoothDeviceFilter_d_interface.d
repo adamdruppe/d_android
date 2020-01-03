@@ -9,5 +9,5 @@ final class BluetoothDeviceFilter : IJavaObject {
 	@Import int hashCode();
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "BluetoothDeviceFilter");
+	public static immutable string _javaParameterString = "Landroid/companion/BluetoothDeviceFilter";
 }

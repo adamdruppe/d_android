@@ -32,5 +32,5 @@ final class StrictMode_ThreadPolicy_Builder : IJavaObject {
 	@Import import1.StrictMode_ThreadPolicy_Builder penaltyListener(import2.Executor, import3.StrictMode_OnThreadViolationListener);
 	@Import import0.StrictMode_ThreadPolicy build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "StrictMode$ThreadPolicy$Builder");
+	public static immutable string _javaParameterString = "Landroid/os/StrictMode$ThreadPolicy$Builder";
 }

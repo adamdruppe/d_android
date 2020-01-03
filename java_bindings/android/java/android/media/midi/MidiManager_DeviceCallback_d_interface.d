@@ -10,5 +10,5 @@ final class MidiManager_DeviceCallback : IJavaObject {
 	@Import void onDeviceRemoved(import0.MidiDeviceInfo);
 	@Import void onDeviceStatusChanged(import1.MidiDeviceStatus);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiManager$DeviceCallback");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiManager$DeviceCallback";
 }

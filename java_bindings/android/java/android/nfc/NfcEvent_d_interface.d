@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class NfcEvent : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc", "NfcEvent");
+	public static immutable string _javaParameterString = "Landroid/nfc/NfcEvent";
 }

@@ -8,5 +8,5 @@ interface Annotation : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	@Import import0.Class annotationType();
-	mixin JavaPackageId!("java.lang.annotation", "Annotation");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/Annotation";
 }

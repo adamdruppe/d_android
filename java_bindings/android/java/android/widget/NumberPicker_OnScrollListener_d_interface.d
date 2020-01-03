@@ -6,5 +6,5 @@ import import0 = android.java.android.widget.NumberPicker_d_interface;
 @JavaName("NumberPicker$OnScrollListener")
 interface NumberPicker_OnScrollListener : IJavaObject {
 	@Import void onScrollStateChange(import0.NumberPicker, int);
-	mixin JavaPackageId!("android.widget", "NumberPicker$OnScrollListener");
+	public static immutable string _javaParameterString = "Landroid/widget/NumberPicker$OnScrollListener";
 }

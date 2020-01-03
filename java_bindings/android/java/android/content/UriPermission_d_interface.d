@@ -13,5 +13,5 @@ final class UriPermission : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "UriPermission");
+	public static immutable string _javaParameterString = "Landroid/content/UriPermission";
 }

@@ -12,5 +12,5 @@ final class TracingController : IJavaObject {
 	@Import bool stop(import2.OutputStream, import3.Executor);
 	@Import bool isTracing();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "TracingController");
+	public static immutable string _javaParameterString = "Landroid/webkit/TracingController";
 }

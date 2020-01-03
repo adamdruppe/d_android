@@ -11,5 +11,5 @@ final class GZIPOutputStream : IJavaObject {
 	@Import void write(byte, int, int[]);
 	@Import void finish();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "GZIPOutputStream");
+	public static immutable string _javaParameterString = "Ljava/util/zip/GZIPOutputStream";
 }

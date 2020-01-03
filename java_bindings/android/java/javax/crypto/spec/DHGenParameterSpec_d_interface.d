@@ -6,5 +6,5 @@ final class DHGenParameterSpec : IJavaObject {
 	@Import int getPrimeSize();
 	@Import int getExponentSize();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "DHGenParameterSpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/DHGenParameterSpec";
 }

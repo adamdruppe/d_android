@@ -130,5 +130,5 @@ interface CallableStatement : IJavaObject {
 	@Import void setClob(string, import12.Reader);
 	@Import void setBlob(string, import11.InputStream);
 	@Import void setNClob(string, import12.Reader);
-	mixin JavaPackageId!("java.sql", "CallableStatement");
+	public static immutable string _javaParameterString = "Ljava/sql/CallableStatement";
 }

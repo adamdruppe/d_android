@@ -20,5 +20,5 @@ final class DisconnectCause : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "DisconnectCause");
+	public static immutable string _javaParameterString = "Landroid/telecom/DisconnectCause";
 }

@@ -85,5 +85,5 @@ final class BigDecimal : IJavaObject {
 	@Import import2.BigDecimal ulp();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.math", "BigDecimal");
+	public static immutable string _javaParameterString = "Ljava/math/BigDecimal";
 }

@@ -14,5 +14,5 @@ final class LocatorImpl : IJavaObject {
 	@Import void setLineNumber(int);
 	@Import void setColumnNumber(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "LocatorImpl");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/LocatorImpl";
 }

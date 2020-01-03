@@ -9,5 +9,5 @@ final class SystemUpdatePolicy_ValidationFailedException : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "SystemUpdatePolicy$ValidationFailedException");
+	public static immutable string _javaParameterString = "Landroid/app/admin/SystemUpdatePolicy$ValidationFailedException";
 }

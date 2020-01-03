@@ -9,5 +9,5 @@ final class KeyStoreBuilderParameters : IJavaObject {
 	@Import this(import1.List);
 	@Import import1.List getParameters();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "KeyStoreBuilderParameters");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/KeyStoreBuilderParameters";
 }

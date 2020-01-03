@@ -15,5 +15,5 @@ final class CollationKey : IJavaObject {
 	@Import import0.CollationKey merge(import0.CollationKey);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "CollationKey");
+	public static immutable string _javaParameterString = "Landroid/icu/text/CollationKey";
 }

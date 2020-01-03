@@ -17,5 +17,5 @@ final class MediaMetadata_Builder : IJavaObject {
 	@Import import1.MediaMetadata_Builder putBitmap(string, import4.Bitmap);
 	@Import import0.MediaMetadata build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaMetadata$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/MediaMetadata$Builder";
 }

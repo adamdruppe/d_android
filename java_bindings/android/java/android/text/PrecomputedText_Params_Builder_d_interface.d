@@ -14,5 +14,5 @@ final class PrecomputedText_Params_Builder : IJavaObject {
 	@Import import1.PrecomputedText_Params_Builder setTextDirection(import2.TextDirectionHeuristic);
 	@Import import3.PrecomputedText_Params build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "PrecomputedText$Params$Builder");
+	public static immutable string _javaParameterString = "Landroid/text/PrecomputedText$Params$Builder";
 }

@@ -5,5 +5,5 @@ interface SectionIndexer : IJavaObject {
 	@Import IJavaObject[] getSections();
 	@Import int getPositionForSection(int);
 	@Import int getSectionForPosition(int);
-	mixin JavaPackageId!("android.widget", "SectionIndexer");
+	public static immutable string _javaParameterString = "Landroid/widget/SectionIndexer";
 }

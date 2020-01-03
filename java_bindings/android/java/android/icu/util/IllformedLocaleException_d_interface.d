@@ -6,5 +6,5 @@ final class IllformedLocaleException : IJavaObject {
 	@Import this(string, int);
 	@Import int getErrorIndex();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "IllformedLocaleException");
+	public static immutable string _javaParameterString = "Landroid/icu/util/IllformedLocaleException";
 }

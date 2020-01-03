@@ -11,5 +11,5 @@ final class CRC32 : IJavaObject {
 	@Import void reset();
 	@Import long getValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "CRC32");
+	public static immutable string _javaParameterString = "Ljava/util/zip/CRC32";
 }

@@ -94,5 +94,5 @@ final class Character : IJavaObject {
 	@Import static string getName(int);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Character");
+	public static immutable string _javaParameterString = "Ljava/lang/Character";
 }

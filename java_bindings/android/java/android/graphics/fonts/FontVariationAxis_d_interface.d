@@ -11,5 +11,5 @@ final class FontVariationAxis : IJavaObject {
 	@Import static import0.FontVariationAxis[] fromFontVariationSettings(string);
 	@Import static string toFontVariationSettings(import0.FontVariationAxis[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.fonts", "FontVariationAxis");
+	public static immutable string _javaParameterString = "Landroid/graphics/fonts/FontVariationAxis";
 }

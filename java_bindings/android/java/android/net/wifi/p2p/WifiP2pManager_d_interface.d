@@ -39,5 +39,5 @@ final class WifiP2pManager : IJavaObject {
 	@Import void requestConnectionInfo(import0.WifiP2pManager_Channel, import13.WifiP2pManager_ConnectionInfoListener);
 	@Import void requestGroupInfo(import0.WifiP2pManager_Channel, import14.WifiP2pManager_GroupInfoListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.p2p", "WifiP2pManager");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/p2p/WifiP2pManager";
 }

@@ -13,5 +13,5 @@ final class SAXResult : IJavaObject {
 	@Import void setSystemId(string);
 	@Import string getSystemId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform.sax", "SAXResult");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/sax/SAXResult";
 }

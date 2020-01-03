@@ -21,5 +21,5 @@ final class Pattern : IJavaObject {
 	@Import import3.Predicate asPredicate();
 	@Import import4.Stream splitAsStream(import2.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.regex", "Pattern");
+	public static immutable string _javaParameterString = "Ljava/util/regex/Pattern";
 }

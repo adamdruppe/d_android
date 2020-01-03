@@ -9,5 +9,5 @@ interface Drawable_Callback : IJavaObject {
 	@Import void invalidateDrawable(import0.Drawable);
 	@Import void scheduleDrawable(import0.Drawable, import1.Runnable, long);
 	@Import void unscheduleDrawable(import0.Drawable, import1.Runnable);
-	mixin JavaPackageId!("android.graphics.drawable", "Drawable$Callback");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Drawable$Callback";
 }

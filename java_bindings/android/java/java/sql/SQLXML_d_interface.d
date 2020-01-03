@@ -19,5 +19,5 @@ interface SQLXML : IJavaObject {
 	@Import void setString(string);
 	@Import import4.Source getSource(import5.Class);
 	@Import import6.Result setResult(import5.Class);
-	mixin JavaPackageId!("java.sql", "SQLXML");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLXML";
 }

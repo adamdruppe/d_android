@@ -15,5 +15,5 @@ final class Notification_CarExtender_Builder : IJavaObject {
 	@Import import0.Notification_CarExtender_Builder setLatestTimestamp(long);
 	@Import import3.Notification_CarExtender_UnreadConversation build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$CarExtender$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$CarExtender$Builder";
 }

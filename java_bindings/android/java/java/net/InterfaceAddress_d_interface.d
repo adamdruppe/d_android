@@ -11,5 +11,5 @@ final class InterfaceAddress : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "InterfaceAddress");
+	public static immutable string _javaParameterString = "Ljava/net/InterfaceAddress";
 }

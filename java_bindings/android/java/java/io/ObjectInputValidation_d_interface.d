@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ObjectInputValidation : IJavaObject {
 	@Import void validateObject();
-	mixin JavaPackageId!("java.io", "ObjectInputValidation");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectInputValidation";
 }

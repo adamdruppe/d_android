@@ -23,5 +23,5 @@ final class ClipData_Item : IJavaObject {
 	@Import string coerceToHtmlText(import3.Context);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ClipData$Item");
+	public static immutable string _javaParameterString = "Landroid/content/ClipData$Item";
 }

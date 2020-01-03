@@ -12,5 +12,5 @@ final class AlteredCharSequence : IJavaObject {
 	@Import void getChars(int, int, wchar, int[]);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "AlteredCharSequence");
+	public static immutable string _javaParameterString = "Landroid/text/AlteredCharSequence";
 }

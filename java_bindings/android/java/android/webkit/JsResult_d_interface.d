@@ -5,5 +5,5 @@ final class JsResult : IJavaObject {
 	@Import void cancel();
 	@Import void confirm();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "JsResult");
+	public static immutable string _javaParameterString = "Landroid/webkit/JsResult";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.java.util.function_.Consumer_d_interface;
 interface Consumer : IJavaObject {
 	@Import void accept(IJavaObject);
 	@Import import0.Consumer andThen(import0.Consumer);
-	mixin JavaPackageId!("java.util.function", "Consumer");
+	public static immutable string _javaParameterString = "Ljava/util/function/Consumer";
 }

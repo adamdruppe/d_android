@@ -16,5 +16,5 @@ final class PublishConfig_Builder : IJavaObject {
 	@Import import0.PublishConfig_Builder setRangingEnabled(bool);
 	@Import import2.PublishConfig build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "PublishConfig$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/PublishConfig$Builder";
 }

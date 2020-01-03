@@ -9,5 +9,5 @@ final class WebMessage : IJavaObject {
 	@Import string getData();
 	@Import import0.WebMessagePort[] getPorts();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebMessage");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebMessage";
 }

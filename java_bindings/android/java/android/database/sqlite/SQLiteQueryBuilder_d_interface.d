@@ -30,5 +30,5 @@ final class SQLiteQueryBuilder : IJavaObject {
 	@Import string buildUnionSubQuery(string, string, import7.Set, int, string, string, string, string, string[][]);
 	@Import string buildUnionQuery(string, string, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteQueryBuilder");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteQueryBuilder";
 }

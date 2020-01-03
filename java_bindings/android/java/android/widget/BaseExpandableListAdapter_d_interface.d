@@ -19,5 +19,5 @@ final class BaseExpandableListAdapter : IJavaObject {
 	@Import int getGroupType(int);
 	@Import int getGroupTypeCount();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "BaseExpandableListAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/BaseExpandableListAdapter";
 }

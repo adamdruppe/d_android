@@ -15,5 +15,5 @@ final class SAXTransformerFactory : IJavaObject {
 	@Import import4.XMLFilter newXMLFilter(import1.Source);
 	@Import import4.XMLFilter newXMLFilter(import2.Templates);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform.sax", "SAXTransformerFactory");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/sax/SAXTransformerFactory";
 }

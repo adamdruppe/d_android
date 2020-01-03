@@ -26,5 +26,5 @@ final class MediaBrowserService : IJavaObject {
 	@Import void notifyChildrenChanged(string);
 	@Import void notifyChildrenChanged(string, import5.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.media", "MediaBrowserService");
+	public static immutable string _javaParameterString = "Landroid/service/media/MediaBrowserService";
 }

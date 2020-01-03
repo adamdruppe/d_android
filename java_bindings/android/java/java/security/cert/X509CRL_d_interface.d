@@ -32,5 +32,5 @@ final class X509CRL : IJavaObject {
 	@Import string getSigAlgOID();
 	@Import byte[] getSigAlgParams();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "X509CRL");
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509CRL";
 }

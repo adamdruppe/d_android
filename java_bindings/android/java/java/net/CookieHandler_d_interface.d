@@ -11,5 +11,5 @@ final class CookieHandler : IJavaObject {
 	@Import import1.Map get(import2.URI, import1.Map);
 	@Import void put(import2.URI, import1.Map);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "CookieHandler");
+	public static immutable string _javaParameterString = "Ljava/net/CookieHandler";
 }

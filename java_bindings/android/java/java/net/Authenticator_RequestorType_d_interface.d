@@ -8,5 +8,5 @@ final class Authenticator_RequestorType : IJavaObject {
 	@Import static import0.Authenticator_RequestorType[] values();
 	@Import static import0.Authenticator_RequestorType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "Authenticator$RequestorType");
+	public static immutable string _javaParameterString = "Ljava/net/Authenticator$RequestorType";
 }

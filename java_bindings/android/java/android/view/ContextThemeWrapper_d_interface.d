@@ -17,5 +17,5 @@ final class ContextThemeWrapper : IJavaObject {
 	@Import import1.Resources_Theme getTheme();
 	@Import IJavaObject getSystemService(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ContextThemeWrapper");
+	public static immutable string _javaParameterString = "Landroid/view/ContextThemeWrapper";
 }

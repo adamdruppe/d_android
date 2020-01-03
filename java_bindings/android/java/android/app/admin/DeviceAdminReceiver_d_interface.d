@@ -44,5 +44,5 @@ final class DeviceAdminReceiver : IJavaObject {
 	@Import void onTransferAffiliatedProfileOwnershipComplete(import1.Context, import5.UserHandle);
 	@Import void onReceive(import1.Context, import3.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "DeviceAdminReceiver");
+	public static immutable string _javaParameterString = "Landroid/app/admin/DeviceAdminReceiver";
 }

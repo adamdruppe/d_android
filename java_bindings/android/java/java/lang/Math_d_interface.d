@@ -2,8 +2,25 @@ module android.java.java.lang.Math_d_interface;
 import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
 
 final class Math : IJavaObject {
+	@Import static double sin(double);
+	@Import static double cos(double);
+	@Import static double tan(double);
+	@Import static double asin(double);
+	@Import static double acos(double);
+	@Import static double atan(double);
 	@Import static double toRadians(double);
 	@Import static double toDegrees(double);
+	@Import static double exp(double);
+	@Import static double log(double);
+	@Import static double log10(double);
+	@Import static double sqrt(double);
+	@Import static double cbrt(double);
+	@Import static double IEEEremainder(double, double);
+	@Import static double ceil(double);
+	@Import static double floor(double);
+	@Import static double rint(double);
+	@Import static double atan2(double, double);
+	@Import static double pow(double, double);
 	@Import static int round(float);
 	@Import static long round(double);
 	@Import static double random();
@@ -40,6 +57,12 @@ final class Math : IJavaObject {
 	@Import static float ulp(float);
 	@Import static double signum(double);
 	@Import static float signum(float);
+	@Import static double sinh(double);
+	@Import static double cosh(double);
+	@Import static double tanh(double);
+	@Import static double hypot(double, double);
+	@Import static double expm1(double);
+	@Import static double log1p(double);
 	@Import static double copySign(double, double);
 	@Import static float copySign(float, float);
 	@Import static int getExponent(float);
@@ -53,5 +76,5 @@ final class Math : IJavaObject {
 	@Import static double scalb(double, int);
 	@Import static float scalb(float, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Math");
+	public static immutable string _javaParameterString = "Ljava/lang/Math";
 }

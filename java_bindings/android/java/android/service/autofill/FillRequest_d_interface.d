@@ -14,5 +14,5 @@ final class FillRequest : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "FillRequest");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/FillRequest";
 }

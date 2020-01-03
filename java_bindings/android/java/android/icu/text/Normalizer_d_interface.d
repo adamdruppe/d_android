@@ -9,5 +9,5 @@ final class Normalizer : IJavaObject {
 	@Import static int compare(int, int, int);
 	@Import static int compare(int, string, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "Normalizer");
+	public static immutable string _javaParameterString = "Landroid/icu/text/Normalizer";
 }

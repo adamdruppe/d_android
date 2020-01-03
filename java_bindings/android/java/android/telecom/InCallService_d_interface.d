@@ -26,5 +26,5 @@ final class InCallService : IJavaObject {
 	@Import void onSilenceRinger();
 	@Import void onConnectionEvent(import5.Call, string, import6.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "InCallService");
+	public static immutable string _javaParameterString = "Landroid/telecom/InCallService";
 }

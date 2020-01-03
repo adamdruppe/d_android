@@ -33,5 +33,5 @@ final class InputDevice : IJavaObject {
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "InputDevice");
+	public static immutable string _javaParameterString = "Landroid/view/InputDevice";
 }

@@ -70,5 +70,5 @@ interface DoubleStream : IJavaObject {
 	@Import import20.BaseStream sequential();
 	@Import import21.Spliterator spliterator();
 	@Import import22.Iterator iterator();
-	mixin JavaPackageId!("java.util.stream", "DoubleStream");
+	public static immutable string _javaParameterString = "Ljava/util/stream/DoubleStream";
 }

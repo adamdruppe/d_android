@@ -30,5 +30,5 @@ final class RemoteConference : IJavaObject {
 	@Import void registerCallback(import5.RemoteConference_Callback, import6.Handler);
 	@Import void unregisterCallback(import5.RemoteConference_Callback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "RemoteConference");
+	public static immutable string _javaParameterString = "Landroid/telecom/RemoteConference";
 }

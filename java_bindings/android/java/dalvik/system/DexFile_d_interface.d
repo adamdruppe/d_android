@@ -16,6 +16,7 @@ final class DexFile : IJavaObject {
 	@Import void close();
 	@Import import2.Class loadClass(string, import3.ClassLoader);
 	@Import import4.Enumeration entries();
+	@Import static bool isDexOptNeeded(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("dalvik.system", "DexFile");
+	public static immutable string _javaParameterString = "Ldalvik/system/DexFile";
 }

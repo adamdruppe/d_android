@@ -23,5 +23,5 @@ final class Semaphore : IJavaObject {
 	@Import int getQueueLength();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "Semaphore");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Semaphore";
 }

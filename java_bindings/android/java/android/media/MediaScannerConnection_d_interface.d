@@ -17,5 +17,5 @@ final class MediaScannerConnection : IJavaObject {
 	@Import void onServiceConnected(import3.ComponentName, import4.IBinder);
 	@Import void onServiceDisconnected(import3.ComponentName);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaScannerConnection");
+	public static immutable string _javaParameterString = "Landroid/media/MediaScannerConnection";
 }

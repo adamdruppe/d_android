@@ -12,5 +12,5 @@ final class SSLEngineResult : IJavaObject {
 	@Import int bytesProduced();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLEngineResult");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLEngineResult";
 }

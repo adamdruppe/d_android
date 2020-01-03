@@ -5,5 +5,5 @@ final class UnsupportedCharsetException : IJavaObject {
 	@Import this(string);
 	@Import string getCharsetName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "UnsupportedCharsetException");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/UnsupportedCharsetException";
 }

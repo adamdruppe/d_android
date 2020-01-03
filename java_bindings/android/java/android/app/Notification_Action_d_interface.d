@@ -23,5 +23,5 @@ final class Notification_Action : IJavaObject {
 	@Import void writeToParcel(import6.Parcel, int);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$Action");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$Action";
 }

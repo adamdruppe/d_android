@@ -29,5 +29,5 @@ final class UsbDevice : IJavaObject {
 	@Import static int getDeviceId(string);
 	@Import static string getDeviceName(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.usb", "UsbDevice");
+	public static immutable string _javaParameterString = "Landroid/hardware/usb/UsbDevice";
 }

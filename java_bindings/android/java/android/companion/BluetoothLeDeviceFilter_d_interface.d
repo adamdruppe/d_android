@@ -11,5 +11,5 @@ final class BluetoothLeDeviceFilter : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import static int getRenamePrefixLengthLimit();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "BluetoothLeDeviceFilter");
+	public static immutable string _javaParameterString = "Landroid/companion/BluetoothLeDeviceFilter";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("SyncStateContract$Columns")
 interface SyncStateContract_Columns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "SyncStateContract$Columns");
+	public static immutable string _javaParameterString = "Landroid/provider/SyncStateContract$Columns";
 }

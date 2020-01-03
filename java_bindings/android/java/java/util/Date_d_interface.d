@@ -41,5 +41,5 @@ final class Date : IJavaObject {
 	@Import import1.Instant toInstant();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Date");
+	public static immutable string _javaParameterString = "Ljava/util/Date";
 }

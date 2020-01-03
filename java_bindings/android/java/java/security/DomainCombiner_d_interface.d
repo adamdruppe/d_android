@@ -5,5 +5,5 @@ import import0 = android.java.java.security.ProtectionDomain_d_interface;
 
 interface DomainCombiner : IJavaObject {
 	@Import import0.ProtectionDomain[] combine(import0.ProtectionDomain, import0.ProtectionDomain[][]);
-	mixin JavaPackageId!("java.security", "DomainCombiner");
+	public static immutable string _javaParameterString = "Ljava/security/DomainCombiner";
 }

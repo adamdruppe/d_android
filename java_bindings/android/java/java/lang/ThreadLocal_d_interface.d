@@ -10,5 +10,5 @@ final class ThreadLocal : IJavaObject {
 	@Import void set(IJavaObject);
 	@Import void remove();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ThreadLocal");
+	public static immutable string _javaParameterString = "Ljava/lang/ThreadLocal";
 }

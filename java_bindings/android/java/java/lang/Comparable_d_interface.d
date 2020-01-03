@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface Comparable : IJavaObject {
 	@Import int compareTo(IJavaObject);
-	mixin JavaPackageId!("java.lang", "Comparable");
+	public static immutable string _javaParameterString = "Ljava/lang/Comparable";
 }

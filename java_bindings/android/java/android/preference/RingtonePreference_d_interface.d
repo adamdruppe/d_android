@@ -18,5 +18,5 @@ final class RingtonePreference : IJavaObject {
 	@Import void setShowSilent(bool);
 	@Import bool onActivityResult(int, int, import2.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "RingtonePreference");
+	public static immutable string _javaParameterString = "Landroid/preference/RingtonePreference";
 }

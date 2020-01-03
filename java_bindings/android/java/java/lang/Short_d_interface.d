@@ -30,5 +30,5 @@ final class Short : IJavaObject {
 	@Import static long toUnsignedLong(short);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Short");
+	public static immutable string _javaParameterString = "Ljava/lang/Short";
 }

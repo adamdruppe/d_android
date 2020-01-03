@@ -106,5 +106,5 @@ final class Allocation : IJavaObject {
 	@Import void setOnBufferAvailableListener(import11.Allocation_OnBufferAvailableListener);
 	@Import void destroy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Allocation");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Allocation";
 }

@@ -18,5 +18,5 @@ final class ApplicationInfo : IJavaObject {
 	@Import import1.CharSequence loadDescription(import5.PackageManager);
 	@Import bool isVirtualPreload();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ApplicationInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ApplicationInfo";
 }

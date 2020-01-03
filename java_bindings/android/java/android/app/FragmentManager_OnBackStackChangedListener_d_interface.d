@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("FragmentManager$OnBackStackChangedListener")
 interface FragmentManager_OnBackStackChangedListener : IJavaObject {
 	@Import void onBackStackChanged();
-	mixin JavaPackageId!("android.app", "FragmentManager$OnBackStackChangedListener");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentManager$OnBackStackChangedListener";
 }

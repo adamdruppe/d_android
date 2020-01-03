@@ -14,5 +14,5 @@ final class StrictMode : IJavaObject {
 	@Import static void enableDefaults();
 	@Import static void noteSlowCall(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "StrictMode");
+	public static immutable string _javaParameterString = "Landroid/os/StrictMode";
 }

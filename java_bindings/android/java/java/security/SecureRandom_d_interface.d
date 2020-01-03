@@ -18,5 +18,5 @@ final class SecureRandom : IJavaObject {
 	@Import byte[] generateSeed(int);
 	@Import static import0.SecureRandom getInstanceStrong();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "SecureRandom");
+	public static immutable string _javaParameterString = "Ljava/security/SecureRandom";
 }

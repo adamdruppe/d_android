@@ -13,5 +13,5 @@ final class BluetoothDeviceFilter_Builder : IJavaObject {
 	@Import import0.BluetoothDeviceFilter_Builder addServiceUuid(import2.ParcelUuid, import2.ParcelUuid);
 	@Import import3.BluetoothDeviceFilter build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "BluetoothDeviceFilter$Builder");
+	public static immutable string _javaParameterString = "Landroid/companion/BluetoothDeviceFilter$Builder";
 }

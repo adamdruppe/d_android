@@ -23,5 +23,5 @@ final class DatabaseUtils_InsertHelper : IJavaObject {
 	@Import long replace(import1.ContentValues);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "DatabaseUtils$InsertHelper");
+	public static immutable string _javaParameterString = "Landroid/database/DatabaseUtils$InsertHelper";
 }

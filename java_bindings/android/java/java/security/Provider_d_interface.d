@@ -42,5 +42,5 @@ final class Provider : IJavaObject {
 	@Import import8.Provider_Service getService(string, string);
 	@Import import2.Set getServices();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Provider");
+	public static immutable string _javaParameterString = "Ljava/security/Provider";
 }

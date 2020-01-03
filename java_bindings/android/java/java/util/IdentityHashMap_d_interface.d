@@ -28,5 +28,5 @@ final class IdentityHashMap : IJavaObject {
 	@Import void forEach(import3.BiConsumer);
 	@Import void replaceAll(import4.BiFunction);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IdentityHashMap");
+	public static immutable string _javaParameterString = "Ljava/util/IdentityHashMap";
 }

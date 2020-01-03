@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ToDoubleBiFunction : IJavaObject {
 	@Import double applyAsDouble(IJavaObject, IJavaObject);
-	mixin JavaPackageId!("java.util.function", "ToDoubleBiFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/ToDoubleBiFunction";
 }

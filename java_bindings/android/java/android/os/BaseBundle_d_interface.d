@@ -39,5 +39,5 @@ final class BaseBundle : IJavaObject {
 	@Import double[] getDoubleArray(string);
 	@Import string[] getStringArray(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "BaseBundle");
+	public static immutable string _javaParameterString = "Landroid/os/BaseBundle";
 }

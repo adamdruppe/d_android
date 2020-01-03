@@ -8,5 +8,5 @@ final class Matrix_ScaleToFit : IJavaObject {
 	@Import static import0.Matrix_ScaleToFit[] values();
 	@Import static import0.Matrix_ScaleToFit valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Matrix$ScaleToFit");
+	public static immutable string _javaParameterString = "Landroid/graphics/Matrix$ScaleToFit";
 }

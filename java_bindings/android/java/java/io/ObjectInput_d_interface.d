@@ -9,5 +9,5 @@ interface ObjectInput : IJavaObject {
 	@Import long skip(long);
 	@Import int available();
 	@Import void close();
-	mixin JavaPackageId!("java.io", "ObjectInput");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectInput";
 }

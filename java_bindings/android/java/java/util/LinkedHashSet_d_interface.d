@@ -10,5 +10,5 @@ final class LinkedHashSet : IJavaObject {
 	@Import this(import0.Collection);
 	@Import import1.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "LinkedHashSet");
+	public static immutable string _javaParameterString = "Ljava/util/LinkedHashSet";
 }

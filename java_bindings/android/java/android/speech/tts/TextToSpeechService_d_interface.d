@@ -14,5 +14,5 @@ final class TextToSpeechService : IJavaObject {
 	@Import int onIsValidVoiceName(string);
 	@Import import1.IBinder onBind(import2.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech.tts", "TextToSpeechService");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/TextToSpeechService";
 }

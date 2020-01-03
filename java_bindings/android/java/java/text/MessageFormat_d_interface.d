@@ -32,5 +32,5 @@ final class MessageFormat : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "MessageFormat");
+	public static immutable string _javaParameterString = "Ljava/text/MessageFormat";
 }

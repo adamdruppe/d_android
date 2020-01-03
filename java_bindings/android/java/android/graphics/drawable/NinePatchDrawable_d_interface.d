@@ -53,5 +53,5 @@ final class NinePatchDrawable : IJavaObject {
 	@Import import16.Drawable mutate();
 	@Import bool isStateful();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "NinePatchDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/NinePatchDrawable";
 }

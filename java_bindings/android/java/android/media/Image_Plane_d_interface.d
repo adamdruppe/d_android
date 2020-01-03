@@ -9,5 +9,5 @@ final class Image_Plane : IJavaObject {
 	@Import int getPixelStride();
 	@Import import0.ByteBuffer getBuffer();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "Image$Plane");
+	public static immutable string _javaParameterString = "Landroid/media/Image$Plane";
 }

@@ -11,5 +11,5 @@ final class ScrollingMovementMethod : IJavaObject {
 	@Import void onTakeFocus(import0.TextView, import1.Spannable, int);
 	@Import static import3.MovementMethod getInstance();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "ScrollingMovementMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/ScrollingMovementMethod";
 }

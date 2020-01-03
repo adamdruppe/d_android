@@ -5,5 +5,5 @@ import import0 = android.java.java.security.interfaces.DSAParams_d_interface;
 
 interface DSAKey : IJavaObject {
 	@Import import0.DSAParams getParams();
-	mixin JavaPackageId!("java.security.interfaces", "DSAKey");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/DSAKey";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.view.View_d_interface;
 @JavaName("View$OnFocusChangeListener")
 interface View_OnFocusChangeListener : IJavaObject {
 	@Import void onFocusChange(import0.View, bool);
-	mixin JavaPackageId!("android.view", "View$OnFocusChangeListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnFocusChangeListener";
 }

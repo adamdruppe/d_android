@@ -10,5 +10,5 @@ final class SidePropagation : IJavaObject {
 	@Import void setPropagationSpeed(float);
 	@Import long getStartDelay(import0.ViewGroup, import1.Transition, import2.TransitionValues, import2.TransitionValues);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "SidePropagation");
+	public static immutable string _javaParameterString = "Landroid/transition/SidePropagation";
 }

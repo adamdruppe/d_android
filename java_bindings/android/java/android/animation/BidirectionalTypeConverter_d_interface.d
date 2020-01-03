@@ -9,5 +9,5 @@ final class BidirectionalTypeConverter : IJavaObject {
 	@Import IJavaObject convertBack(IJavaObject);
 	@Import import1.BidirectionalTypeConverter invert();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "BidirectionalTypeConverter");
+	public static immutable string _javaParameterString = "Landroid/animation/BidirectionalTypeConverter";
 }

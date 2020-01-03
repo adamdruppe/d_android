@@ -7,5 +7,5 @@ final class DESedeKeySpec : IJavaObject {
 	@Import byte[] getKey();
 	@Import static bool isParityAdjusted(byte, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "DESedeKeySpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/DESedeKeySpec";
 }

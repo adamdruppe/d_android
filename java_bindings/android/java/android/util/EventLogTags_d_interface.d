@@ -9,5 +9,5 @@ final class EventLogTags : IJavaObject {
 	@Import import1.EventLogTags_Description get(string);
 	@Import import1.EventLogTags_Description get(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "EventLogTags");
+	public static immutable string _javaParameterString = "Landroid/util/EventLogTags";
 }

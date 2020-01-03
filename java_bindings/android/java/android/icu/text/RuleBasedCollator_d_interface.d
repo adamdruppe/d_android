@@ -62,5 +62,5 @@ final class RuleBasedCollator : IJavaObject {
 	@Import IJavaObject cloneAsThawed();
 	@Import IJavaObject freeze();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "RuleBasedCollator");
+	public static immutable string _javaParameterString = "Landroid/icu/text/RuleBasedCollator";
 }

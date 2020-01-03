@@ -7,5 +7,5 @@ final class MidiInputPort : IJavaObject {
 	@Import void onFlush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiInputPort");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiInputPort";
 }

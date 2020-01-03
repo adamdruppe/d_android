@@ -20,5 +20,5 @@ final class PhoneStateListener : IJavaObject {
 	@Import void onCellInfoChanged(import3.List);
 	@Import void onUserMobileDataStateChanged(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "PhoneStateListener");
+	public static immutable string _javaParameterString = "Landroid/telephony/PhoneStateListener";
 }

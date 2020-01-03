@@ -48,5 +48,5 @@ final class BaseInputConnection : IJavaObject {
 	@Import bool reportFullscreenMode(bool);
 	@Import bool commitContent(import11.InputContentInfo, int, import8.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "BaseInputConnection");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/BaseInputConnection";
 }

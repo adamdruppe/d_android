@@ -26,5 +26,5 @@ final class Selection : IJavaObject {
 	@Import static bool moveToLeftEdge(import1.Spannable, import2.Layout);
 	@Import static bool moveToRightEdge(import1.Spannable, import2.Layout);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Selection");
+	public static immutable string _javaParameterString = "Landroid/text/Selection";
 }

@@ -7,5 +7,5 @@ final class PosixFilePermission : IJavaObject {
 	@Import static import0.PosixFilePermission[] values();
 	@Import static import0.PosixFilePermission valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "PosixFilePermission");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/PosixFilePermission";
 }

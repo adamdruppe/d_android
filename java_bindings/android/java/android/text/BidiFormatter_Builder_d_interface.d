@@ -14,5 +14,5 @@ final class BidiFormatter_Builder : IJavaObject {
 	@Import import1.BidiFormatter_Builder setTextDirectionHeuristic(import2.TextDirectionHeuristic);
 	@Import import3.BidiFormatter build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "BidiFormatter$Builder");
+	public static immutable string _javaParameterString = "Landroid/text/BidiFormatter$Builder";
 }

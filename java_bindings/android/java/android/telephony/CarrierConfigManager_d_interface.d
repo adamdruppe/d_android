@@ -9,5 +9,5 @@ final class CarrierConfigManager : IJavaObject {
 	@Import static bool isConfigForIdentifiedCarrier(import0.PersistableBundle);
 	@Import void notifyConfigChangedForSubId(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CarrierConfigManager");
+	public static immutable string _javaParameterString = "Landroid/telephony/CarrierConfigManager";
 }

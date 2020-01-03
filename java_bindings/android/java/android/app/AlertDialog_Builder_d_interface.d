@@ -57,5 +57,5 @@ final class AlertDialog_Builder : IJavaObject {
 	@Import import13.AlertDialog create();
 	@Import import13.AlertDialog show();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AlertDialog$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/AlertDialog$Builder";
 }

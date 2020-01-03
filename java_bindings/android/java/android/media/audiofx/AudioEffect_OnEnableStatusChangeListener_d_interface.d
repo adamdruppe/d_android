@@ -6,5 +6,5 @@ import import0 = android.java.android.media.audiofx.AudioEffect_d_interface;
 @JavaName("AudioEffect$OnEnableStatusChangeListener")
 interface AudioEffect_OnEnableStatusChangeListener : IJavaObject {
 	@Import void onEnableStatusChange(import0.AudioEffect, bool);
-	mixin JavaPackageId!("android.media.audiofx", "AudioEffect$OnEnableStatusChangeListener");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/AudioEffect$OnEnableStatusChangeListener";
 }

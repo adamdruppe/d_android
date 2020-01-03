@@ -21,5 +21,5 @@ final class CarrierMessagingService : IJavaObject {
 	@Import void onDownloadMms(import3.Uri, int, import3.Uri, import1.CarrierMessagingService_ResultCallback);
 	@Import import4.IBinder onBind(import5.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.carrier", "CarrierMessagingService");
+	public static immutable string _javaParameterString = "Landroid/service/carrier/CarrierMessagingService";
 }

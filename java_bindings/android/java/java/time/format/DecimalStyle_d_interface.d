@@ -21,5 +21,5 @@ final class DecimalStyle : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.format", "DecimalStyle");
+	public static immutable string _javaParameterString = "Ljava/time/format/DecimalStyle";
 }

@@ -7,5 +7,5 @@ interface CrossProcessCursor : IJavaObject {
 	@Import import0.CursorWindow getWindow();
 	@Import void fillWindow(int, import0.CursorWindow);
 	@Import bool onMove(int, int);
-	mixin JavaPackageId!("android.database", "CrossProcessCursor");
+	public static immutable string _javaParameterString = "Landroid/database/CrossProcessCursor";
 }

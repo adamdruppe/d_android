@@ -6,5 +6,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnErrorListener")
 interface MediaPlayer_OnErrorListener : IJavaObject {
 	@Import bool onError(import0.MediaPlayer, int, int);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnErrorListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnErrorListener";
 }

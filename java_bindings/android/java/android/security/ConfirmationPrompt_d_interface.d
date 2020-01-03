@@ -10,5 +10,5 @@ final class ConfirmationPrompt : IJavaObject {
 	@Import void cancelPrompt();
 	@Import static bool isSupported(import2.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "ConfirmationPrompt");
+	public static immutable string _javaParameterString = "Landroid/security/ConfirmationPrompt";
 }

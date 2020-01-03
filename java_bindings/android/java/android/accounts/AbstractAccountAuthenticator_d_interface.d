@@ -25,5 +25,5 @@ final class AbstractAccountAuthenticator : IJavaObject {
 	@Import import2.Bundle finishSession(import3.AccountAuthenticatorResponse, string, import2.Bundle);
 	@Import import2.Bundle isCredentialsUpdateSuggested(import3.AccountAuthenticatorResponse, import4.Account, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accounts", "AbstractAccountAuthenticator");
+	public static immutable string _javaParameterString = "Landroid/accounts/AbstractAccountAuthenticator";
 }

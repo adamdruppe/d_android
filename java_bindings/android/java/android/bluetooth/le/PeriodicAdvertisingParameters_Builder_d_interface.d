@@ -10,5 +10,5 @@ final class PeriodicAdvertisingParameters_Builder : IJavaObject {
 	@Import import0.PeriodicAdvertisingParameters_Builder setInterval(int);
 	@Import import1.PeriodicAdvertisingParameters build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "PeriodicAdvertisingParameters$Builder");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/PeriodicAdvertisingParameters$Builder";
 }

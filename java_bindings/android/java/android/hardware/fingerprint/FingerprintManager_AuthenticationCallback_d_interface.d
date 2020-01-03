@@ -11,5 +11,5 @@ final class FingerprintManager_AuthenticationCallback : IJavaObject {
 	@Import void onAuthenticationSucceeded(import1.FingerprintManager_AuthenticationResult);
 	@Import void onAuthenticationFailed();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.fingerprint", "FingerprintManager$AuthenticationCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/fingerprint/FingerprintManager$AuthenticationCallback";
 }

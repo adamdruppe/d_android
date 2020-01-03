@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("CalendarContract$Colors")
 final class CalendarContract_Colors : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "CalendarContract$Colors");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$Colors";
 }

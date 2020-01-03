@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class UntaggedSocketViolation : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.strictmode", "UntaggedSocketViolation");
+	public static immutable string _javaParameterString = "Landroid/os/strictmode/UntaggedSocketViolation";
 }

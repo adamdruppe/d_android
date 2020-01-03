@@ -5,5 +5,5 @@ interface PBEKey : IJavaObject {
 	@Import wchar[] getPassword();
 	@Import byte[] getSalt();
 	@Import int getIterationCount();
-	mixin JavaPackageId!("javax.crypto.interfaces", "PBEKey");
+	public static immutable string _javaParameterString = "Ljavax/crypto/interfaces/PBEKey";
 }

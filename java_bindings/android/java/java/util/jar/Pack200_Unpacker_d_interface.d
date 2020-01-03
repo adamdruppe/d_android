@@ -14,5 +14,5 @@ interface Pack200_Unpacker : IJavaObject {
 	@Import void unpack(import3.File, import2.JarOutputStream);
 	@Import void addPropertyChangeListener(import4.PropertyChangeListener);
 	@Import void removePropertyChangeListener(import4.PropertyChangeListener);
-	mixin JavaPackageId!("java.util.jar", "Pack200$Unpacker");
+	public static immutable string _javaParameterString = "Ljava/util/jar/Pack200$Unpacker";
 }

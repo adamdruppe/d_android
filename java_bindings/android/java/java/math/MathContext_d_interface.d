@@ -13,5 +13,5 @@ final class MathContext : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.math", "MathContext");
+	public static immutable string _javaParameterString = "Ljava/math/MathContext";
 }

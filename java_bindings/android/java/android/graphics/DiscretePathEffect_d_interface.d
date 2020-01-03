@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DiscretePathEffect : IJavaObject {
 	@Import this(float, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "DiscretePathEffect");
+	public static immutable string _javaParameterString = "Landroid/graphics/DiscretePathEffect";
 }

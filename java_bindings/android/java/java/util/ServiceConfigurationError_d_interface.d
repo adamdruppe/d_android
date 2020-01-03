@@ -7,5 +7,5 @@ final class ServiceConfigurationError : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ServiceConfigurationError");
+	public static immutable string _javaParameterString = "Ljava/util/ServiceConfigurationError";
 }

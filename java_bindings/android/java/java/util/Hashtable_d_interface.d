@@ -44,5 +44,5 @@ final class Hashtable : IJavaObject {
 	@Import IJavaObject compute(IJavaObject, import5.BiFunction);
 	@Import IJavaObject merge(IJavaObject, IJavaObject, import5.BiFunction);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Hashtable");
+	public static immutable string _javaParameterString = "Ljava/util/Hashtable";
 }

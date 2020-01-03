@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Connection$RttModifyStatus")
 final class Connection_RttModifyStatus : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Connection$RttModifyStatus");
+	public static immutable string _javaParameterString = "Landroid/telecom/Connection$RttModifyStatus";
 }

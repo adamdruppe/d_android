@@ -57,5 +57,5 @@ final class TextToSpeech : IJavaObject {
 	@Import import12.List getEngines();
 	@Import static int getMaxSpeechInputLength();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech.tts", "TextToSpeech");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/TextToSpeech";
 }

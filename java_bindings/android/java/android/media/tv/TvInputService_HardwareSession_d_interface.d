@@ -12,5 +12,5 @@ final class TvInputService_HardwareSession : IJavaObject {
 	@Import void onHardwareVideoAvailable();
 	@Import void onHardwareVideoUnavailable(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvInputService$HardwareSession");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputService$HardwareSession";
 }

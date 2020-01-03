@@ -16,5 +16,5 @@ interface BlockingQueue : IJavaObject {
 	@Import bool contains(IJavaObject);
 	@Import int drainTo(import1.Collection);
 	@Import int drainTo(import1.Collection, int);
-	mixin JavaPackageId!("java.util.concurrent", "BlockingQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/BlockingQueue";
 }

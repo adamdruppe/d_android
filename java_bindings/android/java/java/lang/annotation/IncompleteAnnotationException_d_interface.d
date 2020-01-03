@@ -8,5 +8,5 @@ final class IncompleteAnnotationException : IJavaObject {
 	@Import import0.Class annotationType();
 	@Import string elementName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.annotation", "IncompleteAnnotationException");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/IncompleteAnnotationException";
 }

@@ -5,5 +5,5 @@ final class AbstractInterruptibleChannel : IJavaObject {
 	@Import void close();
 	@Import bool isOpen();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels.spi", "AbstractInterruptibleChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/spi/AbstractInterruptibleChannel";
 }

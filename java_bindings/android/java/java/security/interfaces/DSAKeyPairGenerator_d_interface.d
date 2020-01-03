@@ -7,5 +7,5 @@ import import1 = android.java.java.security.SecureRandom_d_interface;
 interface DSAKeyPairGenerator : IJavaObject {
 	@Import void initialize(import0.DSAParams, import1.SecureRandom);
 	@Import void initialize(int, bool, import1.SecureRandom);
-	mixin JavaPackageId!("java.security.interfaces", "DSAKeyPairGenerator");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/DSAKeyPairGenerator";
 }

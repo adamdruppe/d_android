@@ -20,5 +20,5 @@ final class DatePickerDialog : IJavaObject {
 	@Import import4.Bundle onSaveInstanceState();
 	@Import void onRestoreInstanceState(import4.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "DatePickerDialog");
+	public static immutable string _javaParameterString = "Landroid/app/DatePickerDialog";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class SensorEvent : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "SensorEvent");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorEvent";
 }

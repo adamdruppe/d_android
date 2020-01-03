@@ -6,5 +6,5 @@ final class UnknownFormatConversionException : IJavaObject {
 	@Import string getConversion();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "UnknownFormatConversionException");
+	public static immutable string _javaParameterString = "Ljava/util/UnknownFormatConversionException";
 }

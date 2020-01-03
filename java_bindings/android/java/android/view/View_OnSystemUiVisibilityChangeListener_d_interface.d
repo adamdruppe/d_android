@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("View$OnSystemUiVisibilityChangeListener")
 interface View_OnSystemUiVisibilityChangeListener : IJavaObject {
 	@Import void onSystemUiVisibilityChange(int);
-	mixin JavaPackageId!("android.view", "View$OnSystemUiVisibilityChangeListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnSystemUiVisibilityChangeListener";
 }

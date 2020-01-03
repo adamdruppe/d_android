@@ -26,5 +26,5 @@ final class ScanResult : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "ScanResult");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/ScanResult";
 }

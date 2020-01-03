@@ -15,5 +15,5 @@ final class PasswordTransformationMethod : IJavaObject {
 	@Import void afterTextChanged(import3.Editable);
 	@Import void onFocusChanged(import1.View, import0.CharSequence, bool, int, import4.Rect);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "PasswordTransformationMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/PasswordTransformationMethod";
 }

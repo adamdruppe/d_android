@@ -18,5 +18,5 @@ final class Objects : IJavaObject {
 	@Import static bool nonNull(IJavaObject);
 	@Import static IJavaObject requireNonNull(IJavaObject, import1.Supplier);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Objects");
+	public static immutable string _javaParameterString = "Ljava/util/Objects";
 }

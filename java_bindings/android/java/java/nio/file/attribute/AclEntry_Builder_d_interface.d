@@ -19,5 +19,5 @@ final class AclEntry_Builder : IJavaObject {
 	@Import import1.AclEntry_Builder setFlags(import4.Set);
 	@Import import1.AclEntry_Builder setFlags(import6.AclEntryFlag[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "AclEntry$Builder");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/AclEntry$Builder";
 }

@@ -6,5 +6,5 @@ final class MissingResourceException : IJavaObject {
 	@Import string getClassName();
 	@Import string getKey();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "MissingResourceException");
+	public static immutable string _javaParameterString = "Ljava/util/MissingResourceException";
 }

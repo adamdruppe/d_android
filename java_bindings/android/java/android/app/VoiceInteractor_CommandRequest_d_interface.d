@@ -8,5 +8,5 @@ final class VoiceInteractor_CommandRequest : IJavaObject {
 	@Import this(string, import0.Bundle);
 	@Import void onCommandResult(bool, import0.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "VoiceInteractor$CommandRequest");
+	public static immutable string _javaParameterString = "Landroid/app/VoiceInteractor$CommandRequest";
 }

@@ -81,5 +81,5 @@ final class Toolbar : IJavaObject {
 	@Import import8.Toolbar_LayoutParams generateLayoutParams(import1.AttributeSet);
 	@Import import9.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Toolbar");
+	public static immutable string _javaParameterString = "Landroid/widget/Toolbar";
 }

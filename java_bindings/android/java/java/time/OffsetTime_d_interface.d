@@ -82,5 +82,5 @@ final class OffsetTime : IJavaObject {
 	@Import @JavaName("with") import15.Temporal with_(import12.TemporalAdjuster);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "OffsetTime");
+	public static immutable string _javaParameterString = "Ljava/time/OffsetTime";
 }

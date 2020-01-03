@@ -11,5 +11,5 @@ final class MotionEvent_PointerProperties : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "MotionEvent$PointerProperties");
+	public static immutable string _javaParameterString = "Landroid/view/MotionEvent$PointerProperties";
 }

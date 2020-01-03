@@ -19,5 +19,5 @@ final class BackupAgent : IJavaObject {
 	@Import void onRestoreFile(import0.ParcelFileDescriptor, long, import4.File, int, long, long);
 	@Import void onRestoreFinished();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "BackupAgent");
+	public static immutable string _javaParameterString = "Landroid/app/backup/BackupAgent";
 }

@@ -48,5 +48,5 @@ final class RandomAccessFile : IJavaObject {
 	@Import void writeChars(string);
 	@Import void writeUTF(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "RandomAccessFile");
+	public static immutable string _javaParameterString = "Ljava/io/RandomAccessFile";
 }

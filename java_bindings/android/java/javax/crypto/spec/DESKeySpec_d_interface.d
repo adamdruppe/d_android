@@ -8,5 +8,5 @@ final class DESKeySpec : IJavaObject {
 	@Import static bool isParityAdjusted(byte, int[]);
 	@Import static bool isWeak(byte, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "DESKeySpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/DESKeySpec";
 }

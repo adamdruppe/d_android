@@ -17,5 +17,5 @@ final class PixelCopy : IJavaObject {
 	@Import static void request(import6.Window, import1.Bitmap, import2.PixelCopy_OnPixelCopyFinishedListener, import3.Handler);
 	@Import static void request(import6.Window, import4.Rect, import1.Bitmap, import2.PixelCopy_OnPixelCopyFinishedListener, import3.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "PixelCopy");
+	public static immutable string _javaParameterString = "Landroid/view/PixelCopy";
 }

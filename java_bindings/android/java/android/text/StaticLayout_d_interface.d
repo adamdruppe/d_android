@@ -25,5 +25,5 @@ final class StaticLayout : IJavaObject {
 	@Import int getEllipsisStart(int);
 	@Import int getEllipsizedWidth();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "StaticLayout");
+	public static immutable string _javaParameterString = "Landroid/text/StaticLayout";
 }

@@ -124,5 +124,5 @@ final class Paint : IJavaObject {
 	@Import int getOffsetForAdvance(import16.CharSequence, int, int, int, int, bool, float);
 	@Import bool equalsForTextMeasurement(import0.Paint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Paint");
+	public static immutable string _javaParameterString = "Landroid/graphics/Paint";
 }

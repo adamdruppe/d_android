@@ -16,5 +16,5 @@ final class Rfc822Token : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.util", "Rfc822Token");
+	public static immutable string _javaParameterString = "Landroid/text/util/Rfc822Token";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DrmConvertedStatus : IJavaObject {
 	@Import this(int, byte, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmConvertedStatus");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmConvertedStatus";
 }

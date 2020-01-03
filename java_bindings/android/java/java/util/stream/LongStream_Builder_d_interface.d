@@ -9,5 +9,5 @@ interface LongStream_Builder : IJavaObject {
 	@Import void accept(long);
 	@Import import0.LongStream_Builder add(long);
 	@Import import1.LongStream build();
-	mixin JavaPackageId!("java.util.stream", "LongStream$Builder");
+	public static immutable string _javaParameterString = "Ljava/util/stream/LongStream$Builder";
 }

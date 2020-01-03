@@ -26,5 +26,5 @@ final class ReentrantReadWriteLock : IJavaObject {
 	@Import import4.Lock writeLock();
 	@Import import4.Lock readLock();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "ReentrantReadWriteLock");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/ReentrantReadWriteLock";
 }

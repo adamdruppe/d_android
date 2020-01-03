@@ -13,5 +13,5 @@ final class AlphabetIndexer : IJavaObject {
 	@Import void onChanged();
 	@Import void onInvalidated();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AlphabetIndexer");
+	public static immutable string _javaParameterString = "Landroid/widget/AlphabetIndexer";
 }

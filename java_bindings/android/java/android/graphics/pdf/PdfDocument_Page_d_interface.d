@@ -9,5 +9,5 @@ final class PdfDocument_Page : IJavaObject {
 	@Import import0.Canvas getCanvas();
 	@Import import1.PdfDocument_PageInfo getInfo();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.pdf", "PdfDocument$Page");
+	public static immutable string _javaParameterString = "Landroid/graphics/pdf/PdfDocument$Page";
 }

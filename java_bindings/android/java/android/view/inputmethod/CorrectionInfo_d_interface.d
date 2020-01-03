@@ -13,5 +13,5 @@ final class CorrectionInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "CorrectionInfo");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/CorrectionInfo";
 }

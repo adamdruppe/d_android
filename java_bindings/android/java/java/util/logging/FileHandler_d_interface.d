@@ -11,5 +11,5 @@ final class FileHandler : IJavaObject {
 	@Import void publish(import0.LogRecord);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "FileHandler");
+	public static immutable string _javaParameterString = "Ljava/util/logging/FileHandler";
 }

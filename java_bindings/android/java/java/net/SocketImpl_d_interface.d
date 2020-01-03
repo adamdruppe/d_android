@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SocketImpl : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "SocketImpl");
+	public static immutable string _javaParameterString = "Ljava/net/SocketImpl";
 }

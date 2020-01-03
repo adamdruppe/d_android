@@ -23,5 +23,5 @@ final class ScanFilter : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "ScanFilter");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/ScanFilter";
 }

@@ -12,5 +12,5 @@ final class ApplicationErrorReport_CrashInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import void dump(import2.Printer, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ApplicationErrorReport$CrashInfo");
+	public static immutable string _javaParameterString = "Landroid/app/ApplicationErrorReport$CrashInfo";
 }

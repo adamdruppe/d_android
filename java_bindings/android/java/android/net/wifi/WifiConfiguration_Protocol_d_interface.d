@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WifiConfiguration$Protocol")
 final class WifiConfiguration_Protocol : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiConfiguration$Protocol");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiConfiguration$Protocol";
 }

@@ -13,5 +13,5 @@ final class AssetManager_AssetInputStream : IJavaObject {
 	@Import void reset();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "AssetManager$AssetInputStream");
+	public static immutable string _javaParameterString = "Landroid/content/res/AssetManager$AssetInputStream";
 }

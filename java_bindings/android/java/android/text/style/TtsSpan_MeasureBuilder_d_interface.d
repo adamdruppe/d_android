@@ -16,5 +16,5 @@ final class TtsSpan_MeasureBuilder : IJavaObject {
 	@Import import0.TtsSpan_MeasureBuilder setDenominator(string);
 	@Import import0.TtsSpan_MeasureBuilder setUnit(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$MeasureBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$MeasureBuilder";
 }

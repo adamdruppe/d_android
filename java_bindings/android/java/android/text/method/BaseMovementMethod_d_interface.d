@@ -17,5 +17,5 @@ final class BaseMovementMethod : IJavaObject {
 	@Import bool onTrackballEvent(import0.TextView, import1.Spannable, import3.MotionEvent);
 	@Import bool onGenericMotionEvent(import0.TextView, import1.Spannable, import3.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "BaseMovementMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/BaseMovementMethod";
 }

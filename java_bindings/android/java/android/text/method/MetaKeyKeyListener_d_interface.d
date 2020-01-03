@@ -28,5 +28,5 @@ final class MetaKeyKeyListener : IJavaObject {
 	@Import static long handleKeyUp(long, int, import2.KeyEvent);
 	@Import long clearMetaKeyState(long, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "MetaKeyKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/MetaKeyKeyListener";
 }

@@ -8,5 +8,5 @@ final class InternalError : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "InternalError");
+	public static immutable string _javaParameterString = "Ljava/lang/InternalError";
 }

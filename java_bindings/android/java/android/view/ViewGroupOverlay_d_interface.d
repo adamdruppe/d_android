@@ -7,5 +7,5 @@ final class ViewGroupOverlay : IJavaObject {
 	@Import void add(import0.View);
 	@Import void remove(import0.View);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewGroupOverlay");
+	public static immutable string _javaParameterString = "Landroid/view/ViewGroupOverlay";
 }

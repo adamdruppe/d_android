@@ -13,5 +13,5 @@ final class GestureUtils : IJavaObject {
 	@Import static import2.OrientedBoundingBox computeOrientedBoundingBox(import3.ArrayList);
 	@Import static import2.OrientedBoundingBox computeOrientedBoundingBox(float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "GestureUtils");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureUtils";
 }

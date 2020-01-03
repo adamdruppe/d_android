@@ -8,5 +8,5 @@ final class Bitmap_Config : IJavaObject {
 	@Import static import0.Bitmap_Config[] values();
 	@Import static import0.Bitmap_Config valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Bitmap$Config");
+	public static immutable string _javaParameterString = "Landroid/graphics/Bitmap$Config";
 }

@@ -14,5 +14,5 @@ interface Certificate : IJavaObject {
 	@Import void decode(import3.InputStream);
 	@Import string getFormat();
 	@Import @JavaName("toString") string toString_(bool);
-	mixin JavaPackageId!("java.security", "Certificate");
+	public static immutable string _javaParameterString = "Ljava/security/Certificate";
 }

@@ -11,5 +11,5 @@ final class X509ExtendedTrustManager : IJavaObject {
 	@Import void checkClientTrusted(import0.X509Certificate, string, import2.SSLEngine[]);
 	@Import void checkServerTrusted(import0.X509Certificate, string, import2.SSLEngine[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "X509ExtendedTrustManager");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/X509ExtendedTrustManager";
 }

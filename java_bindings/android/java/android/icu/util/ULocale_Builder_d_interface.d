@@ -20,5 +20,5 @@ final class ULocale_Builder : IJavaObject {
 	@Import import0.ULocale_Builder clearExtensions();
 	@Import import1.ULocale build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "ULocale$Builder");
+	public static immutable string _javaParameterString = "Landroid/icu/util/ULocale$Builder";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("KeyStore$ProtectionParameter")
 interface KeyStore_ProtectionParameter : IJavaObject {
-	mixin JavaPackageId!("java.security", "KeyStore$ProtectionParameter");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$ProtectionParameter";
 }

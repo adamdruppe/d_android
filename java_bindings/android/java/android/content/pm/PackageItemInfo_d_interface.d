@@ -18,5 +18,5 @@ final class PackageItemInfo : IJavaObject {
 	@Import import4.XmlResourceParser loadXmlMetaData(import2.PackageManager, string);
 	@Import void writeToParcel(import5.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageItemInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageItemInfo";
 }

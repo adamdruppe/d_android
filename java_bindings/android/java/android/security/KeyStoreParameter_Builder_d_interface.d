@@ -11,5 +11,5 @@ final class KeyStoreParameter_Builder : IJavaObject {
 	@Import import1.KeyStoreParameter_Builder setEncryptionRequired(bool);
 	@Import import2.KeyStoreParameter build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "KeyStoreParameter$Builder");
+	public static immutable string _javaParameterString = "Landroid/security/KeyStoreParameter$Builder";
 }

@@ -24,5 +24,5 @@ final class PopupMenu : IJavaObject {
 	@Import void setOnMenuItemClickListener(import5.PopupMenu_OnMenuItemClickListener);
 	@Import void setOnDismissListener(import6.PopupMenu_OnDismissListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "PopupMenu");
+	public static immutable string _javaParameterString = "Landroid/widget/PopupMenu";
 }

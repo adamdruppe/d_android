@@ -16,5 +16,5 @@ interface Temporal : IJavaObject {
 	@Import import1.Temporal minus(import4.TemporalAmount);
 	@Import import1.Temporal minus(long, import0.TemporalUnit);
 	@Import long until(import1.Temporal, import0.TemporalUnit);
-	mixin JavaPackageId!("java.time.temporal", "Temporal");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/Temporal";
 }

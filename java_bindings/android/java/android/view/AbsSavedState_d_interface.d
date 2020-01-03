@@ -9,5 +9,5 @@ final class AbsSavedState : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "AbsSavedState");
+	public static immutable string _javaParameterString = "Landroid/view/AbsSavedState";
 }

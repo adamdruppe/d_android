@@ -9,5 +9,5 @@ final class TelephonyScanManager_NetworkScanCallback : IJavaObject {
 	@Import void onComplete();
 	@Import void onError(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "TelephonyScanManager$NetworkScanCallback");
+	public static immutable string _javaParameterString = "Landroid/telephony/TelephonyScanManager$NetworkScanCallback";
 }

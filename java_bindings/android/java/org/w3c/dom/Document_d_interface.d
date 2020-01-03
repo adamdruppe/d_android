@@ -47,5 +47,5 @@ interface Document : IJavaObject {
 	@Import import12.DOMConfiguration getDomConfig();
 	@Import void normalizeDocument();
 	@Import import11.Node renameNode(import11.Node, string, string);
-	mixin JavaPackageId!("org.w3c.dom", "Document");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Document";
 }

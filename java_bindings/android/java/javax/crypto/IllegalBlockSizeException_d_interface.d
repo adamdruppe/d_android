@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class IllegalBlockSizeException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "IllegalBlockSizeException");
+	public static immutable string _javaParameterString = "Ljavax/crypto/IllegalBlockSizeException";
 }

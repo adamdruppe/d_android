@@ -9,5 +9,5 @@ final class DateInterval : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "DateInterval");
+	public static immutable string _javaParameterString = "Landroid/icu/util/DateInterval";
 }

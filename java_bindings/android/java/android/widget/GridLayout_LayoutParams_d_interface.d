@@ -19,5 +19,5 @@ final class GridLayout_LayoutParams : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "GridLayout$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/GridLayout$LayoutParams";
 }

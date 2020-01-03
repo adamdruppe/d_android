@@ -25,5 +25,5 @@ final class Gesture : IJavaObject {
 	@Import void writeToParcel(import5.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "Gesture");
+	public static immutable string _javaParameterString = "Landroid/gesture/Gesture";
 }

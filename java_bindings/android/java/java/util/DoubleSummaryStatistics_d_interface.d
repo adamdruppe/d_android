@@ -13,5 +13,5 @@ final class DoubleSummaryStatistics : IJavaObject {
 	@Import double getAverage();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "DoubleSummaryStatistics");
+	public static immutable string _javaParameterString = "Ljava/util/DoubleSummaryStatistics";
 }

@@ -9,5 +9,5 @@ final class AudioFocusRequest : IJavaObject {
 	@Import bool willPauseWhenDucked();
 	@Import bool acceptsDelayedFocusGain();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioFocusRequest");
+	public static immutable string _javaParameterString = "Landroid/media/AudioFocusRequest";
 }

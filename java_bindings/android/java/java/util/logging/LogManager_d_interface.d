@@ -22,5 +22,5 @@ final class LogManager : IJavaObject {
 	@Import void checkAccess();
 	@Import static import5.LoggingMXBean getLoggingMXBean();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "LogManager");
+	public static immutable string _javaParameterString = "Ljava/util/logging/LogManager";
 }

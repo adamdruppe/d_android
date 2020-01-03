@@ -15,5 +15,5 @@ final class AudioStream : IJavaObject {
 	@Import int getDtmfType();
 	@Import void setDtmfType(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.rtp", "AudioStream");
+	public static immutable string _javaParameterString = "Landroid/net/rtp/AudioStream";
 }

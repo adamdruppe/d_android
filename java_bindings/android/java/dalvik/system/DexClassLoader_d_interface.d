@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.ClassLoader_d_interface;
 final class DexClassLoader : IJavaObject {
 	@Import this(string, string, string, import0.ClassLoader);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("dalvik.system", "DexClassLoader");
+	public static immutable string _javaParameterString = "Ldalvik/system/DexClassLoader";
 }

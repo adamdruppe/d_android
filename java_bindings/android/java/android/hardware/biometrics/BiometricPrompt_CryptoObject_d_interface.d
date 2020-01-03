@@ -14,5 +14,5 @@ final class BiometricPrompt_CryptoObject : IJavaObject {
 	@Import import1.Cipher getCipher();
 	@Import import2.Mac getMac();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.biometrics", "BiometricPrompt$CryptoObject");
+	public static immutable string _javaParameterString = "Landroid/hardware/biometrics/BiometricPrompt$CryptoObject";
 }

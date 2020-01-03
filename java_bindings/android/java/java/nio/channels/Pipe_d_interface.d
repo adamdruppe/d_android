@@ -10,5 +10,5 @@ final class Pipe : IJavaObject {
 	@Import import1.Pipe_SinkChannel sink();
 	@Import static import2.Pipe open();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "Pipe");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/Pipe";
 }

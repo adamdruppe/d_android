@@ -22,5 +22,5 @@ final class PointF : IJavaObject {
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import void readFromParcel(import2.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "PointF");
+	public static immutable string _javaParameterString = "Landroid/graphics/PointF";
 }

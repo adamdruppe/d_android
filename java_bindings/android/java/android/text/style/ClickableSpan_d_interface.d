@@ -8,5 +8,5 @@ final class ClickableSpan : IJavaObject {
 	@Import void onClick(import0.View);
 	@Import void updateDrawState(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "ClickableSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/ClickableSpan";
 }

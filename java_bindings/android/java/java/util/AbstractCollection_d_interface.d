@@ -20,5 +20,5 @@ final class AbstractCollection : IJavaObject {
 	@Import void clear();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "AbstractCollection");
+	public static immutable string _javaParameterString = "Ljava/util/AbstractCollection";
 }

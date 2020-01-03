@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Result : IJavaObject {
 	@Import void setSystemId(string);
 	@Import string getSystemId();
-	mixin JavaPackageId!("javax.xml.transform", "Result");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/Result";
 }

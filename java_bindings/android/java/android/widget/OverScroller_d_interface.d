@@ -30,5 +30,5 @@ final class OverScroller : IJavaObject {
 	@Import bool isOverScrolled();
 	@Import void abortAnimation();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "OverScroller");
+	public static immutable string _javaParameterString = "Landroid/widget/OverScroller";
 }

@@ -6,5 +6,5 @@ final class GridLayout_Spec : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "GridLayout$Spec");
+	public static immutable string _javaParameterString = "Landroid/widget/GridLayout$Spec";
 }

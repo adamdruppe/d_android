@@ -42,5 +42,5 @@ final class ConcurrentLinkedDeque : IJavaObject {
 	@Import import1.Iterator descendingIterator();
 	@Import import2.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentLinkedDeque");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentLinkedDeque";
 }

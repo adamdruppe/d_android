@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaRecorder$MetricsConstants")
 final class MediaRecorder_MetricsConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRecorder$MetricsConstants");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRecorder$MetricsConstants";
 }

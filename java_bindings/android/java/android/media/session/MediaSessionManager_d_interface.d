@@ -14,5 +14,5 @@ final class MediaSessionManager : IJavaObject {
 	@Import void removeOnActiveSessionsChangedListener(import2.MediaSessionManager_OnActiveSessionsChangedListener);
 	@Import bool isTrustedForMediaControl(import4.MediaSessionManager_RemoteUserInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaSessionManager");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaSessionManager";
 }

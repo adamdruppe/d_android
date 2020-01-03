@@ -17,5 +17,5 @@ final class ContentProviderOperation_Builder : IJavaObject {
 	@Import import1.ContentProviderOperation_Builder withExpectedCount(int);
 	@Import import1.ContentProviderOperation_Builder withYieldAllowed(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentProviderOperation$Builder");
+	public static immutable string _javaParameterString = "Landroid/content/ContentProviderOperation$Builder";
 }

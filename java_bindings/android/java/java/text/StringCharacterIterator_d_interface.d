@@ -19,5 +19,5 @@ final class StringCharacterIterator : IJavaObject {
 	@Import int hashCode();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "StringCharacterIterator");
+	public static immutable string _javaParameterString = "Ljava/text/StringCharacterIterator";
 }

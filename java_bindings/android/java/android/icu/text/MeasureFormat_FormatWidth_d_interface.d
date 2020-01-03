@@ -8,5 +8,5 @@ final class MeasureFormat_FormatWidth : IJavaObject {
 	@Import static import0.MeasureFormat_FormatWidth[] values();
 	@Import static import0.MeasureFormat_FormatWidth valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MeasureFormat$FormatWidth");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MeasureFormat$FormatWidth";
 }

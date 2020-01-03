@@ -17,5 +17,5 @@ final class Picture : IJavaObject {
 	@Import static import0.Picture createFromStream(import2.InputStream);
 	@Import void writeToStream(import3.OutputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Picture");
+	public static immutable string _javaParameterString = "Landroid/graphics/Picture";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class SocketAddress : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "SocketAddress");
+	public static immutable string _javaParameterString = "Ljava/net/SocketAddress";
 }

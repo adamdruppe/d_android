@@ -7,5 +7,5 @@ final class AdvertiseCallback : IJavaObject {
 	@Import void onStartSuccess(import0.AdvertiseSettings);
 	@Import void onStartFailure(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertiseCallback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertiseCallback";
 }

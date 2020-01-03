@@ -10,5 +10,5 @@ final class AssetFileDescriptor_AutoCloseOutputStream : IJavaObject {
 	@Import void write(byte[]);
 	@Import void write(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "AssetFileDescriptor$AutoCloseOutputStream");
+	public static immutable string _javaParameterString = "Landroid/content/res/AssetFileDescriptor$AutoCloseOutputStream";
 }

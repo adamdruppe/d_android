@@ -25,5 +25,5 @@ final class DataInputStream : IJavaObject {
 	@Import string readUTF();
 	@Import static string readUTF(import1.DataInput);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "DataInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/DataInputStream";
 }

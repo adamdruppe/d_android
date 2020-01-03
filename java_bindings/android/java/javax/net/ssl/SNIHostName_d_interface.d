@@ -12,5 +12,5 @@ final class SNIHostName : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import static import0.SNIMatcher createSNIMatcher(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SNIHostName");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SNIHostName";
 }

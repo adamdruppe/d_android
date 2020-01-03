@@ -33,5 +33,5 @@ final class ShortBuffer : IJavaObject {
 	@Import IJavaObject array();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "ShortBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/ShortBuffer";
 }

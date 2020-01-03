@@ -55,5 +55,5 @@ final class VideoView : IJavaObject {
 	@Import int getAudioSessionId();
 	@Import void draw(import15.Canvas);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "VideoView");
+	public static immutable string _javaParameterString = "Landroid/widget/VideoView";
 }

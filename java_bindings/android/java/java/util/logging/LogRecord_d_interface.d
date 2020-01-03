@@ -32,5 +32,5 @@ final class LogRecord : IJavaObject {
 	@Import import2.JavaThrowable getThrown();
 	@Import void setThrown(import2.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "LogRecord");
+	public static immutable string _javaParameterString = "Ljava/util/logging/LogRecord";
 }

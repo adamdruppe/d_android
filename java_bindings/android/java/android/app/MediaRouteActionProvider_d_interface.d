@@ -16,5 +16,5 @@ final class MediaRouteActionProvider : IJavaObject {
 	@Import bool overridesItemVisibility();
 	@Import bool isVisible();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "MediaRouteActionProvider");
+	public static immutable string _javaParameterString = "Landroid/app/MediaRouteActionProvider";
 }

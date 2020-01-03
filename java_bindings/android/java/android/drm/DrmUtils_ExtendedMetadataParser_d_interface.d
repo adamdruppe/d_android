@@ -9,5 +9,5 @@ final class DrmUtils_ExtendedMetadataParser : IJavaObject {
 	@Import import0.Iterator keyIterator();
 	@Import string get(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmUtils$ExtendedMetadataParser");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmUtils$ExtendedMetadataParser";
 }

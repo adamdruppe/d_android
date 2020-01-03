@@ -31,5 +31,5 @@ final class AnimatedImageDrawable : IJavaObject {
 	@Import bool unregisterAnimationCallback(import6.Animatable2_AnimationCallback);
 	@Import void clearAnimationCallbacks();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "AnimatedImageDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/AnimatedImageDrawable";
 }

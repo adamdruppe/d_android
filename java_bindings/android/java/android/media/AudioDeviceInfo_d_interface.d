@@ -18,5 +18,5 @@ final class AudioDeviceInfo : IJavaObject {
 	@Import int[] getEncodings();
 	@Import int getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioDeviceInfo");
+	public static immutable string _javaParameterString = "Landroid/media/AudioDeviceInfo";
 }

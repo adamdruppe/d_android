@@ -17,5 +17,5 @@ final class RemoteInput_Builder : IJavaObject {
 	@Import import2.Bundle getExtras();
 	@Import import3.RemoteInput build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "RemoteInput$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/RemoteInput$Builder";
 }

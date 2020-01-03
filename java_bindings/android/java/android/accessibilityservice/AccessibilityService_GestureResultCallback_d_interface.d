@@ -8,5 +8,5 @@ final class AccessibilityService_GestureResultCallback : IJavaObject {
 	@Import void onCompleted(import0.GestureDescription);
 	@Import void onCancelled(import0.GestureDescription);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityService$GestureResultCallback");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityService$GestureResultCallback";
 }

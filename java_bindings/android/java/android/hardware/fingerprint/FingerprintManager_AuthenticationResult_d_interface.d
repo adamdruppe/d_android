@@ -7,5 +7,5 @@ import import0 = android.java.android.hardware.fingerprint.FingerprintManager_Cr
 final class FingerprintManager_AuthenticationResult : IJavaObject {
 	@Import import0.FingerprintManager_CryptoObject getCryptoObject();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.fingerprint", "FingerprintManager$AuthenticationResult");
+	public static immutable string _javaParameterString = "Landroid/hardware/fingerprint/FingerprintManager$AuthenticationResult";
 }

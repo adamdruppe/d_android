@@ -7,5 +7,5 @@ interface AclFileAttributeView : IJavaObject {
 	@Import string name();
 	@Import import0.List getAcl();
 	@Import void setAcl(import0.List);
-	mixin JavaPackageId!("java.nio.file.attribute", "AclFileAttributeView");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/AclFileAttributeView";
 }

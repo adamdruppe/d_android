@@ -6,5 +6,5 @@ final class IllegalFormatPrecisionException : IJavaObject {
 	@Import int getPrecision();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IllegalFormatPrecisionException");
+	public static immutable string _javaParameterString = "Ljava/util/IllegalFormatPrecisionException";
 }

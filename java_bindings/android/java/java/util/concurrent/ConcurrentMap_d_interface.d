@@ -17,5 +17,5 @@ interface ConcurrentMap : IJavaObject {
 	@Import IJavaObject computeIfPresent(IJavaObject, import1.BiFunction);
 	@Import IJavaObject compute(IJavaObject, import1.BiFunction);
 	@Import IJavaObject merge(IJavaObject, IJavaObject, import1.BiFunction);
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentMap");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentMap";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class NotOwnerException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.acl", "NotOwnerException");
+	public static immutable string _javaParameterString = "Ljava/security/acl/NotOwnerException";
 }

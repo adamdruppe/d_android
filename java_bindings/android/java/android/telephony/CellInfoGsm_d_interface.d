@@ -14,5 +14,5 @@ final class CellInfoGsm : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CellInfoGsm");
+	public static immutable string _javaParameterString = "Landroid/telephony/CellInfoGsm";
 }

@@ -15,5 +15,5 @@ final class Display_Mode : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Display$Mode");
+	public static immutable string _javaParameterString = "Landroid/view/Display$Mode";
 }

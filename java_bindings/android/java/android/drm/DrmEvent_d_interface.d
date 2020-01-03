@@ -7,5 +7,5 @@ final class DrmEvent : IJavaObject {
 	@Import string getMessage();
 	@Import IJavaObject getAttribute(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmEvent");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmEvent";
 }

@@ -6,5 +6,5 @@ final class LoudnessEnhancer : IJavaObject {
 	@Import void setTargetGain(int);
 	@Import float getTargetGain();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "LoudnessEnhancer");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/LoudnessEnhancer";
 }

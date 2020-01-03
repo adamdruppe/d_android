@@ -8,5 +8,5 @@ interface ViewManager : IJavaObject {
 	@Import void addView(import0.View, import1.ViewGroup_LayoutParams);
 	@Import void updateViewLayout(import0.View, import1.ViewGroup_LayoutParams);
 	@Import void removeView(import0.View);
-	mixin JavaPackageId!("android.view", "ViewManager");
+	public static immutable string _javaParameterString = "Landroid/view/ViewManager";
 }

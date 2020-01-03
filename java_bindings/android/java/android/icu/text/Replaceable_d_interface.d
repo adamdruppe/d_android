@@ -10,5 +10,5 @@ interface Replaceable : IJavaObject {
 	@Import void replace(int, int, wchar, int, int[]);
 	@Import void copy(int, int, int);
 	@Import bool hasMetaData();
-	mixin JavaPackageId!("android.icu.text", "Replaceable");
+	public static immutable string _javaParameterString = "Landroid/icu/text/Replaceable";
 }

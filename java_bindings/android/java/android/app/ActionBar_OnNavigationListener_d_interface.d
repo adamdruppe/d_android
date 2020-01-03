@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ActionBar$OnNavigationListener")
 interface ActionBar_OnNavigationListener : IJavaObject {
 	@Import bool onNavigationItemSelected(int, long);
-	mixin JavaPackageId!("android.app", "ActionBar$OnNavigationListener");
+	public static immutable string _javaParameterString = "Landroid/app/ActionBar$OnNavigationListener";
 }

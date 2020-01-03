@@ -36,5 +36,5 @@ final class Icon : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import10.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "Icon");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Icon";
 }

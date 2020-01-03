@@ -91,5 +91,5 @@ final class ConcurrentHashMap : IJavaObject {
 	@Import long reduceEntriesToLong(long, import16.ToLongFunction, long, import12.LongBinaryOperator);
 	@Import int reduceEntriesToInt(long, import17.ToIntFunction, int, import14.IntBinaryOperator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentHashMap");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentHashMap";
 }

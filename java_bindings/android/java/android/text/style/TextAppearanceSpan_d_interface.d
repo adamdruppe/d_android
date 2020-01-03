@@ -22,5 +22,5 @@ final class TextAppearanceSpan : IJavaObject {
 	@Import void updateDrawState(import3.TextPaint);
 	@Import void updateMeasureState(import3.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TextAppearanceSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/TextAppearanceSpan";
 }

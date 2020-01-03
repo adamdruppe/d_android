@@ -30,5 +30,5 @@ final class ConcurrentHashMap_KeySetView : IJavaObject {
 	@Import import4.ConcurrentHashMap getMap();
 	@Import bool retainAll(import1.Collection);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentHashMap$KeySetView");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentHashMap$KeySetView";
 }

@@ -8,5 +8,5 @@ import import2 = android.java.android.os.Bundle_d_interface;
 @JavaName("IntentSender$OnFinished")
 interface IntentSender_OnFinished : IJavaObject {
 	@Import void onSendFinished(import0.IntentSender, import1.Intent, int, string, import2.Bundle);
-	mixin JavaPackageId!("android.content", "IntentSender$OnFinished");
+	public static immutable string _javaParameterString = "Landroid/content/IntentSender$OnFinished";
 }

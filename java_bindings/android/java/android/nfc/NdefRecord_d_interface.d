@@ -27,5 +27,5 @@ final class NdefRecord : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc", "NdefRecord");
+	public static immutable string _javaParameterString = "Landroid/nfc/NdefRecord";
 }

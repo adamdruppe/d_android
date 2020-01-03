@@ -47,5 +47,5 @@ final class DrawableWrapper : IJavaObject {
 	@Import import12.Drawable_ConstantState getConstantState();
 	@Import import0.Drawable mutate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "DrawableWrapper");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/DrawableWrapper";
 }

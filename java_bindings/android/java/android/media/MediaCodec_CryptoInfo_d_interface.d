@@ -9,5 +9,5 @@ final class MediaCodec_CryptoInfo : IJavaObject {
 	@Import void setPattern(import0.MediaCodec_CryptoInfo_Pattern);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodec$CryptoInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodec$CryptoInfo";
 }

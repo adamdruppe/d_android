@@ -6,5 +6,5 @@ import import0 = android.java.android.widget.RadioGroup_d_interface;
 @JavaName("RadioGroup$OnCheckedChangeListener")
 interface RadioGroup_OnCheckedChangeListener : IJavaObject {
 	@Import void onCheckedChanged(import0.RadioGroup, int);
-	mixin JavaPackageId!("android.widget", "RadioGroup$OnCheckedChangeListener");
+	public static immutable string _javaParameterString = "Landroid/widget/RadioGroup$OnCheckedChangeListener";
 }

@@ -39,5 +39,5 @@ final class MethodType : IJavaObject {
 	@Import static import0.MethodType fromMethodDescriptorString(string, import3.ClassLoader);
 	@Import string toMethodDescriptorString();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.invoke", "MethodType");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/MethodType";
 }

@@ -10,5 +10,5 @@ interface X509HostnameVerifier : IJavaObject {
 	@Import void verify(string, import1.SSLSocket);
 	@Import void verify(string, import2.X509Certificate);
 	@Import void verify(string, string, string[][]);
-	mixin JavaPackageId!("org.apache.http.conn.ssl", "X509HostnameVerifier");
+	public static immutable string _javaParameterString = "Lorg/apache/http/conn/ssl/X509HostnameVerifier";
 }

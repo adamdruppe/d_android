@@ -22,5 +22,5 @@ final class ClipDescription : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ClipDescription");
+	public static immutable string _javaParameterString = "Landroid/content/ClipDescription";
 }

@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class AudioEffect_Descriptor : IJavaObject {
 	@Import this(string, string, string, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "AudioEffect$Descriptor");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/AudioEffect$Descriptor";
 }

@@ -15,5 +15,5 @@ final class CompletionInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "CompletionInfo");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/CompletionInfo";
 }

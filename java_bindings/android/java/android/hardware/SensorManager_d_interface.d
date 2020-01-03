@@ -46,5 +46,5 @@ final class SensorManager : IJavaObject {
 	@Import bool requestTriggerSensor(import9.TriggerEventListener, import1.Sensor);
 	@Import bool cancelTriggerSensor(import9.TriggerEventListener, import1.Sensor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "SensorManager");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorManager";
 }

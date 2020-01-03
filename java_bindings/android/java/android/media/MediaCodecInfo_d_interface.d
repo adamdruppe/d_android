@@ -9,5 +9,5 @@ final class MediaCodecInfo : IJavaObject {
 	@Import string[] getSupportedTypes();
 	@Import import0.MediaCodecInfo_CodecCapabilities getCapabilitiesForType(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodecInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodecInfo";
 }

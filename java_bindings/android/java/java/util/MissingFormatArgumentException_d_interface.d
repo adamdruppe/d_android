@@ -6,5 +6,5 @@ final class MissingFormatArgumentException : IJavaObject {
 	@Import string getFormatSpecifier();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "MissingFormatArgumentException");
+	public static immutable string _javaParameterString = "Ljava/util/MissingFormatArgumentException";
 }

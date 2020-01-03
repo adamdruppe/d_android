@@ -10,5 +10,5 @@ final class VisibilityPropagation : IJavaObject {
 	@Import int getViewX(import0.TransitionValues);
 	@Import int getViewY(import0.TransitionValues);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "VisibilityPropagation");
+	public static immutable string _javaParameterString = "Landroid/transition/VisibilityPropagation";
 }

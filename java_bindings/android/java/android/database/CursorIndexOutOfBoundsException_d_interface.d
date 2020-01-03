@@ -5,5 +5,5 @@ final class CursorIndexOutOfBoundsException : IJavaObject {
 	@Import this(int, int);
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "CursorIndexOutOfBoundsException");
+	public static immutable string _javaParameterString = "Landroid/database/CursorIndexOutOfBoundsException";
 }

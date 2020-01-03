@@ -28,5 +28,5 @@ final class SimpleAdapter : IJavaObject {
 	@Import void setViewText(import7.TextView, string);
 	@Import import8.Filter getFilter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "SimpleAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/SimpleAdapter";
 }

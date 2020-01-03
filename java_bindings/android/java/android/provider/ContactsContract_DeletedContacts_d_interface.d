@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ContactsContract$DeletedContacts")
 final class ContactsContract_DeletedContacts : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$DeletedContacts");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$DeletedContacts";
 }

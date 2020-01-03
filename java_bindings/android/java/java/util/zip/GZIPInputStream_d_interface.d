@@ -9,5 +9,5 @@ final class GZIPInputStream : IJavaObject {
 	@Import int read(byte, int, int[]);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "GZIPInputStream");
+	public static immutable string _javaParameterString = "Ljava/util/zip/GZIPInputStream";
 }

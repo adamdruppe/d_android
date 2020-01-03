@@ -6,5 +6,5 @@ import import0 = android.java.android.hardware.Camera_d_interface;
 @JavaName("Camera$PreviewCallback")
 interface Camera_PreviewCallback : IJavaObject {
 	@Import void onPreviewFrame(byte, import0.Camera[]);
-	mixin JavaPackageId!("android.hardware", "Camera$PreviewCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$PreviewCallback";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("DrmStore$ConstraintsColumns")
 interface DrmStore_ConstraintsColumns : IJavaObject {
-	mixin JavaPackageId!("android.drm", "DrmStore$ConstraintsColumns");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmStore$ConstraintsColumns";
 }

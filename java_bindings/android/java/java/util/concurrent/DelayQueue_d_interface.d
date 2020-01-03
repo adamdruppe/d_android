@@ -34,5 +34,5 @@ final class DelayQueue : IJavaObject {
 	@Import bool offer(IJavaObject, long, import2.TimeUnit);
 	@Import void put(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "DelayQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/DelayQueue";
 }

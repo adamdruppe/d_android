@@ -41,5 +41,5 @@ final class SimpleDateFormat : IJavaObject {
 	@Import void setNumberFormat(string, import8.NumberFormat);
 	@Import import8.NumberFormat getNumberFormat(wchar);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "SimpleDateFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/SimpleDateFormat";
 }

@@ -19,5 +19,5 @@ final class SipSession : IJavaObject {
 	@Import void endCall();
 	@Import void changeCall(string, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipSession");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipSession";
 }

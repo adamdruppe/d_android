@@ -23,5 +23,5 @@ final class AbstractWindowedCursor : IJavaObject {
 	@Import void setWindow(import1.CursorWindow);
 	@Import bool hasWindow();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "AbstractWindowedCursor");
+	public static immutable string _javaParameterString = "Landroid/database/AbstractWindowedCursor";
 }

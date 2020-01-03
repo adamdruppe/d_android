@@ -12,5 +12,5 @@ final class Base64_Decoder : IJavaObject {
 	@Import import0.ByteBuffer decode(import0.ByteBuffer);
 	@Import import1.InputStream wrap(import1.InputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Base64$Decoder");
+	public static immutable string _javaParameterString = "Ljava/util/Base64$Decoder";
 }

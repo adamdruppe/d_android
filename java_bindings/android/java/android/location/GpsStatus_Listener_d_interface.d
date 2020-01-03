@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("GpsStatus$Listener")
 interface GpsStatus_Listener : IJavaObject {
 	@Import void onGpsStatusChanged(int);
-	mixin JavaPackageId!("android.location", "GpsStatus$Listener");
+	public static immutable string _javaParameterString = "Landroid/location/GpsStatus$Listener";
 }

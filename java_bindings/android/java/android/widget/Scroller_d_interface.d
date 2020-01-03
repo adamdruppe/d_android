@@ -29,5 +29,5 @@ final class Scroller : IJavaObject {
 	@Import void setFinalX(int);
 	@Import void setFinalY(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Scroller");
+	public static immutable string _javaParameterString = "Landroid/widget/Scroller";
 }

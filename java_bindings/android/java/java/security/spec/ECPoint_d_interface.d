@@ -10,5 +10,5 @@ final class ECPoint : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "ECPoint");
+	public static immutable string _javaParameterString = "Ljava/security/spec/ECPoint";
 }

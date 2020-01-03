@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface FileAttribute : IJavaObject {
 	@Import string name();
 	@Import IJavaObject value();
-	mixin JavaPackageId!("java.nio.file.attribute", "FileAttribute");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/FileAttribute";
 }

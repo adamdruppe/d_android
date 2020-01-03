@@ -17,5 +17,5 @@ final class Image : IJavaObject {
 	@Import import2.Image_Plane[] getPlanes();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "Image");
+	public static immutable string _javaParameterString = "Landroid/media/Image";
 }

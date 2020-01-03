@@ -6,5 +6,5 @@ import import0 = android.java.android.view.View_d_interface;
 @JavaName("View$OnContextClickListener")
 interface View_OnContextClickListener : IJavaObject {
 	@Import bool onContextClick(import0.View);
-	mixin JavaPackageId!("android.view", "View$OnContextClickListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnContextClickListener";
 }

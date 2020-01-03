@@ -24,5 +24,5 @@ final class JsonWriter : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "JsonWriter");
+	public static immutable string _javaParameterString = "Landroid/util/JsonWriter";
 }

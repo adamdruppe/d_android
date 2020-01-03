@@ -6,5 +6,5 @@ import import0 = android.java.java.util.regex.Matcher_d_interface;
 @JavaName("Linkify$TransformFilter")
 interface Linkify_TransformFilter : IJavaObject {
 	@Import string transformUrl(import0.Matcher, string);
-	mixin JavaPackageId!("android.text.util", "Linkify$TransformFilter");
+	public static immutable string _javaParameterString = "Landroid/text/util/Linkify$TransformFilter";
 }

@@ -11,5 +11,5 @@ final class TransformerConfigurationException : IJavaObject {
 	@Import this(string, import1.SourceLocator);
 	@Import this(string, import1.SourceLocator, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform", "TransformerConfigurationException");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/TransformerConfigurationException";
 }

@@ -13,5 +13,5 @@ final class GatewayInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "GatewayInfo");
+	public static immutable string _javaParameterString = "Landroid/telecom/GatewayInfo";
 }

@@ -10,5 +10,5 @@ final class DSAPrivateKeySpec : IJavaObject {
 	@Import import0.BigInteger getQ();
 	@Import import0.BigInteger getG();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "DSAPrivateKeySpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/DSAPrivateKeySpec";
 }

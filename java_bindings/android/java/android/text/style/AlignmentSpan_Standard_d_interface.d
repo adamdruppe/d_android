@@ -13,5 +13,5 @@ final class AlignmentSpan_Standard : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import import0.Layout_Alignment getAlignment();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "AlignmentSpan$Standard");
+	public static immutable string _javaParameterString = "Landroid/text/style/AlignmentSpan$Standard";
 }

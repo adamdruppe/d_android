@@ -12,5 +12,5 @@ final class CaptureResult : IJavaObject {
 	@Import long getFrameNumber();
 	@Import int getSequenceId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CaptureResult");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CaptureResult";
 }

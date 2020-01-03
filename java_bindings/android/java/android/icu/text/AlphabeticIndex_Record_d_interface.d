@@ -9,5 +9,5 @@ final class AlphabeticIndex_Record : IJavaObject {
 	@Import IJavaObject getData();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "AlphabeticIndex$Record");
+	public static immutable string _javaParameterString = "Landroid/icu/text/AlphabeticIndex$Record";
 }

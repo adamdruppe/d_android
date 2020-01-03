@@ -31,5 +31,5 @@ final class RadioGroup : IJavaObject {
 	@Import import10.LinearLayout_LayoutParams generateLayoutParams(import1.AttributeSet);
 	@Import import4.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RadioGroup");
+	public static immutable string _javaParameterString = "Landroid/widget/RadioGroup";
 }

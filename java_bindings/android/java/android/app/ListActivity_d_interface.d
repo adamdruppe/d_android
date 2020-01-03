@@ -13,5 +13,5 @@ final class ListActivity : IJavaObject {
 	@Import import1.ListView getListView();
 	@Import import0.ListAdapter getListAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ListActivity");
+	public static immutable string _javaParameterString = "Landroid/app/ListActivity";
 }

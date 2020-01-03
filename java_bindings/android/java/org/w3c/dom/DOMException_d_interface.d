@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DOMException : IJavaObject {
 	@Import this(short, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.w3c.dom", "DOMException");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMException";
 }

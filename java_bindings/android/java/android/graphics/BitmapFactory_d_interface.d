@@ -22,5 +22,5 @@ final class BitmapFactory : IJavaObject {
 	@Import static import0.Bitmap decodeFileDescriptor(import6.FileDescriptor, import5.Rect, import1.BitmapFactory_Options);
 	@Import static import0.Bitmap decodeFileDescriptor(import6.FileDescriptor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "BitmapFactory");
+	public static immutable string _javaParameterString = "Landroid/graphics/BitmapFactory";
 }

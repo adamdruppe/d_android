@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class FileChannel_MapMode : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "FileChannel$MapMode");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/FileChannel$MapMode";
 }

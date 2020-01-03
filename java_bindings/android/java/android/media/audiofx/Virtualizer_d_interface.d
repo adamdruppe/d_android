@@ -17,5 +17,5 @@ final class Virtualizer : IJavaObject {
 	@Import import1.Virtualizer_Settings getProperties();
 	@Import void setProperties(import1.Virtualizer_Settings);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "Virtualizer");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/Virtualizer";
 }

@@ -22,5 +22,5 @@ final class Timestamp : IJavaObject {
 	@Import int hashCode();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "Timestamp");
+	public static immutable string _javaParameterString = "Ljava/sql/Timestamp";
 }

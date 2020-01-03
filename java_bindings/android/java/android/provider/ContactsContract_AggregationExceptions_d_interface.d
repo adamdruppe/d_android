@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ContactsContract$AggregationExceptions")
 final class ContactsContract_AggregationExceptions : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$AggregationExceptions");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$AggregationExceptions";
 }

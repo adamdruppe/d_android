@@ -21,5 +21,5 @@ final class RemoteConnection_VideoProvider : IJavaObject {
 	@Import void requestCallDataUsage();
 	@Import void setPauseImage(import3.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "RemoteConnection$VideoProvider");
+	public static immutable string _javaParameterString = "Landroid/telecom/RemoteConnection$VideoProvider";
 }

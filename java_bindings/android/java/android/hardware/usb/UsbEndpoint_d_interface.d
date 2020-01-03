@@ -15,5 +15,5 @@ final class UsbEndpoint : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.usb", "UsbEndpoint");
+	public static immutable string _javaParameterString = "Landroid/hardware/usb/UsbEndpoint";
 }

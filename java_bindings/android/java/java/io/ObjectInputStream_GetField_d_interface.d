@@ -17,5 +17,5 @@ final class ObjectInputStream_GetField : IJavaObject {
 	@Import double get(string, double);
 	@Import IJavaObject get(string, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "ObjectInputStream$GetField");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectInputStream$GetField";
 }

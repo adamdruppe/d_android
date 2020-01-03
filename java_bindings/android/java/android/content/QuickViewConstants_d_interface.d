@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class QuickViewConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "QuickViewConstants");
+	public static immutable string _javaParameterString = "Landroid/content/QuickViewConstants";
 }

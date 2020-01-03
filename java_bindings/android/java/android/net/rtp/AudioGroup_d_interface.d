@@ -10,5 +10,5 @@ final class AudioGroup : IJavaObject {
 	@Import void sendDtmf(int);
 	@Import void clear();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.rtp", "AudioGroup");
+	public static immutable string _javaParameterString = "Landroid/net/rtp/AudioGroup";
 }

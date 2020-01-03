@@ -11,5 +11,5 @@ final class PBEKeySpec : IJavaObject {
 	@Import int getIterationCount();
 	@Import int getKeyLength();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "PBEKeySpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/PBEKeySpec";
 }

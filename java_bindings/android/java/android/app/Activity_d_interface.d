@@ -288,5 +288,5 @@ final class Activity : IJavaObject {
 	@Import void setShowWhenLocked(bool);
 	@Import void setTurnScreenOn(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Activity");
+	public static immutable string _javaParameterString = "Landroid/app/Activity";
 }

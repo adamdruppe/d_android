@@ -15,5 +15,5 @@ final class WebChromeClient_FileChooserParams : IJavaObject {
 	@Import string getFilenameHint();
 	@Import import1.Intent createIntent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebChromeClient$FileChooserParams");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebChromeClient$FileChooserParams";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AccessNetworkConstants$AccessNetworkType")
 final class AccessNetworkConstants_AccessNetworkType : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "AccessNetworkConstants$AccessNetworkType");
+	public static immutable string _javaParameterString = "Landroid/telephony/AccessNetworkConstants$AccessNetworkType";
 }

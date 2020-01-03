@@ -13,5 +13,5 @@ final class XPathException : IJavaObject {
 	@Import void printStackTrace();
 	@Import void printStackTrace(import2.PrintWriter);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathException");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathException";
 }

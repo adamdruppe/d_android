@@ -6,5 +6,5 @@ import import0 = android.java.android.animation.TimeAnimator_d_interface;
 @JavaName("TimeAnimator$TimeListener")
 interface TimeAnimator_TimeListener : IJavaObject {
 	@Import void onTimeUpdate(import0.TimeAnimator, long, long);
-	mixin JavaPackageId!("android.animation", "TimeAnimator$TimeListener");
+	public static immutable string _javaParameterString = "Landroid/animation/TimeAnimator$TimeListener";
 }

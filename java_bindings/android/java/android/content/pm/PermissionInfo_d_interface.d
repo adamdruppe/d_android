@@ -15,5 +15,5 @@ final class PermissionInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PermissionInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PermissionInfo";
 }

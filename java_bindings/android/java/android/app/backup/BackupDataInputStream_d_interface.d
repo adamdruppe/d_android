@@ -8,5 +8,5 @@ final class BackupDataInputStream : IJavaObject {
 	@Import string getKey();
 	@Import int size();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "BackupDataInputStream");
+	public static immutable string _javaParameterString = "Landroid/app/backup/BackupDataInputStream";
 }

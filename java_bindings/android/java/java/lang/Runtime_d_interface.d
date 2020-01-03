@@ -22,6 +22,10 @@ final class Runtime : IJavaObject {
 	@Import import2.Process exec(string, string[][]);
 	@Import import2.Process exec(string, string, import3.File[][]);
 	@Import int availableProcessors();
+	@Import long freeMemory();
+	@Import long totalMemory();
+	@Import long maxMemory();
+	@Import void gc();
 	@Import void runFinalization();
 	@Import void traceInstructions(bool);
 	@Import void traceMethodCalls(bool);
@@ -30,5 +34,5 @@ final class Runtime : IJavaObject {
 	@Import import4.InputStream getLocalizedInputStream(import4.InputStream);
 	@Import import5.OutputStream getLocalizedOutputStream(import5.OutputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Runtime");
+	public static immutable string _javaParameterString = "Ljava/lang/Runtime";
 }

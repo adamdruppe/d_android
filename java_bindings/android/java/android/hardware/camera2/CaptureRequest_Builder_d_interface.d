@@ -17,5 +17,5 @@ final class CaptureRequest_Builder : IJavaObject {
 	@Import void setTag(IJavaObject);
 	@Import import3.CaptureRequest build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CaptureRequest$Builder");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CaptureRequest$Builder";
 }

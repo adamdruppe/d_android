@@ -16,5 +16,5 @@ final class AbstractQueuedLongSynchronizer_ConditionObject : IJavaObject {
 	@Import bool awaitUntil(import1.Date);
 	@Import bool await(long, import2.TimeUnit);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "AbstractQueuedLongSynchronizer$ConditionObject");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/AbstractQueuedLongSynchronizer$ConditionObject";
 }

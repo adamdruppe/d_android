@@ -13,5 +13,5 @@ final class AssertionError : IJavaObject {
 	@Import this(double);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "AssertionError");
+	public static immutable string _javaParameterString = "Ljava/lang/AssertionError";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class KeyStoreParameter : IJavaObject {
 	@Import bool isEncryptionRequired();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "KeyStoreParameter");
+	public static immutable string _javaParameterString = "Landroid/security/KeyStoreParameter";
 }

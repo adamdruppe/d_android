@@ -6,5 +6,5 @@ final class PaintDrawable : IJavaObject {
 	@Import void setCornerRadius(float);
 	@Import void setCornerRadii(float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "PaintDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/PaintDrawable";
 }

@@ -31,5 +31,5 @@ final class InetAddress : IJavaObject {
 	@Import static import1.InetAddress getByAddress(byte[]);
 	@Import static import1.InetAddress getLocalHost();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "InetAddress");
+	public static immutable string _javaParameterString = "Ljava/net/InetAddress";
 }

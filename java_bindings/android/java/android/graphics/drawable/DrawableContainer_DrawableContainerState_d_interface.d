@@ -29,5 +29,5 @@ final class DrawableContainer_DrawableContainerState : IJavaObject {
 	@Import void growArray(int, int);
 	@Import bool canConstantState();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "DrawableContainer$DrawableContainerState");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/DrawableContainer$DrawableContainerState";
 }

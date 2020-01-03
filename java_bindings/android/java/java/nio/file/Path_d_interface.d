@@ -43,5 +43,5 @@ interface Path : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	@Import int compareTo(IJavaObject);
-	mixin JavaPackageId!("java.nio.file", "Path");
+	public static immutable string _javaParameterString = "Ljava/nio/file/Path";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ReceiverCallNotAllowedException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ReceiverCallNotAllowedException");
+	public static immutable string _javaParameterString = "Landroid/content/ReceiverCallNotAllowedException";
 }

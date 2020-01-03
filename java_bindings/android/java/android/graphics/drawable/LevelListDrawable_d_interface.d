@@ -12,5 +12,5 @@ final class LevelListDrawable : IJavaObject {
 	@Import void inflate(import1.Resources, import2.XmlPullParser, import3.AttributeSet, import4.Resources_Theme);
 	@Import import0.Drawable mutate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "LevelListDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/LevelListDrawable";
 }

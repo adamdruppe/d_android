@@ -36,5 +36,5 @@ final class TimePicker : IJavaObject {
 	@Import int getAutofillType();
 	@Import import7.AutofillValue getAutofillValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TimePicker");
+	public static immutable string _javaParameterString = "Landroid/widget/TimePicker";
 }

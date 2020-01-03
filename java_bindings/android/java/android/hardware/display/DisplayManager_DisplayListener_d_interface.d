@@ -6,5 +6,5 @@ interface DisplayManager_DisplayListener : IJavaObject {
 	@Import void onDisplayAdded(int);
 	@Import void onDisplayRemoved(int);
 	@Import void onDisplayChanged(int);
-	mixin JavaPackageId!("android.hardware.display", "DisplayManager$DisplayListener");
+	public static immutable string _javaParameterString = "Landroid/hardware/display/DisplayManager$DisplayListener";
 }

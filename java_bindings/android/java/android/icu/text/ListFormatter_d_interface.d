@@ -14,5 +14,5 @@ final class ListFormatter : IJavaObject {
 	@Import string format(import3.Collection);
 	@Import string getPatternForNumItems(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "ListFormatter");
+	public static immutable string _javaParameterString = "Landroid/icu/text/ListFormatter";
 }

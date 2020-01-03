@@ -24,5 +24,5 @@ final class FragmentManager_FragmentLifecycleCallbacks : IJavaObject {
 	@Import void onFragmentDestroyed(import0.FragmentManager, import1.Fragment);
 	@Import void onFragmentDetached(import0.FragmentManager, import1.Fragment);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentManager$FragmentLifecycleCallbacks");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentManager$FragmentLifecycleCallbacks";
 }

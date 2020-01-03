@@ -6,5 +6,5 @@ final class X509EncodedKeySpec : IJavaObject {
 	@Import byte[] getEncoded();
 	@Import string getFormat();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "X509EncodedKeySpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/X509EncodedKeySpec";
 }

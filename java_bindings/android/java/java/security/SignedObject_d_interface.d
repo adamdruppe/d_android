@@ -13,5 +13,5 @@ final class SignedObject : IJavaObject {
 	@Import string getAlgorithm();
 	@Import bool verify(import3.PublicKey, import2.Signature);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "SignedObject");
+	public static immutable string _javaParameterString = "Ljava/security/SignedObject";
 }

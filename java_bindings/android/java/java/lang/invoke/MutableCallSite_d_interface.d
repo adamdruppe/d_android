@@ -11,5 +11,5 @@ final class MutableCallSite : IJavaObject {
 	@Import void setTarget(import1.MethodHandle);
 	@Import import1.MethodHandle dynamicInvoker();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.invoke", "MutableCallSite");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/MutableCallSite";
 }

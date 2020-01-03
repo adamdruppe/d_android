@@ -12,5 +12,5 @@ final class Rfc822Tokenizer : IJavaObject {
 	@Import int findTokenEnd(import0.CharSequence, int);
 	@Import import0.CharSequence terminateToken(import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.util", "Rfc822Tokenizer");
+	public static immutable string _javaParameterString = "Landroid/text/util/Rfc822Tokenizer";
 }

@@ -16,5 +16,5 @@ interface DataOutput : IJavaObject {
 	@Import void writeBytes(string);
 	@Import void writeChars(string);
 	@Import void writeUTF(string);
-	mixin JavaPackageId!("java.io", "DataOutput");
+	public static immutable string _javaParameterString = "Ljava/io/DataOutput";
 }

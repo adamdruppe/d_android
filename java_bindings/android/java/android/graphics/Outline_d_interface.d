@@ -24,5 +24,5 @@ final class Outline : IJavaObject {
 	@Import void setConvexPath(import2.Path);
 	@Import void offset(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Outline");
+	public static immutable string _javaParameterString = "Landroid/graphics/Outline";
 }

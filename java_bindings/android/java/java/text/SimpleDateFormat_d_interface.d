@@ -28,5 +28,5 @@ final class SimpleDateFormat : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "SimpleDateFormat");
+	public static immutable string _javaParameterString = "Ljava/text/SimpleDateFormat";
 }

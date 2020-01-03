@@ -5,5 +5,5 @@ final class IndexedPropertyChangeEvent : IJavaObject {
 	@Import this(IJavaObject, string, IJavaObject, IJavaObject, int);
 	@Import int getIndex();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.beans", "IndexedPropertyChangeEvent");
+	public static immutable string _javaParameterString = "Ljava/beans/IndexedPropertyChangeEvent";
 }

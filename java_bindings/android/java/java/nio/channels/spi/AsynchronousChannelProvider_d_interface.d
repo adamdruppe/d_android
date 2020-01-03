@@ -15,5 +15,5 @@ final class AsynchronousChannelProvider : IJavaObject {
 	@Import import4.AsynchronousServerSocketChannel openAsynchronousServerSocketChannel(import1.AsynchronousChannelGroup);
 	@Import import5.AsynchronousSocketChannel openAsynchronousSocketChannel(import1.AsynchronousChannelGroup);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels.spi", "AsynchronousChannelProvider");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/spi/AsynchronousChannelProvider";
 }

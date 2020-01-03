@@ -13,5 +13,5 @@ final class Spliterators_AbstractDoubleSpliterator : IJavaObject {
 	@Import import1.Spliterator_OfPrimitive trySplit();
 	@Import import2.Spliterator trySplit();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Spliterators$AbstractDoubleSpliterator");
+	public static immutable string _javaParameterString = "Ljava/util/Spliterators$AbstractDoubleSpliterator";
 }

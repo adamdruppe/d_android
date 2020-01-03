@@ -5,5 +5,5 @@ final class MGF1ParameterSpec : IJavaObject {
 	@Import this(string);
 	@Import string getDigestAlgorithm();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "MGF1ParameterSpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/MGF1ParameterSpec";
 }

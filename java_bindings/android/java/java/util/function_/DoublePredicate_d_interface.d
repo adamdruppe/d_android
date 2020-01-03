@@ -8,5 +8,5 @@ interface DoublePredicate : IJavaObject {
 	@Import import0.DoublePredicate and(import0.DoublePredicate);
 	@Import import0.DoublePredicate negate();
 	@Import import0.DoublePredicate or(import0.DoublePredicate);
-	mixin JavaPackageId!("java.util.function", "DoublePredicate");
+	public static immutable string _javaParameterString = "Ljava/util/function/DoublePredicate";
 }

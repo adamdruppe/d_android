@@ -7,5 +7,5 @@ import import1 = android.java.android.view.MotionEvent_d_interface;
 @JavaName("View$OnGenericMotionListener")
 interface View_OnGenericMotionListener : IJavaObject {
 	@Import bool onGenericMotion(import0.View, import1.MotionEvent);
-	mixin JavaPackageId!("android.view", "View$OnGenericMotionListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnGenericMotionListener";
 }

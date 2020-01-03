@@ -14,5 +14,5 @@ final class CodeSource : IJavaObject {
 	@Import import2.CodeSigner[] getCodeSigners();
 	@Import bool implies(import3.CodeSource);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "CodeSource");
+	public static immutable string _javaParameterString = "Ljava/security/CodeSource";
 }

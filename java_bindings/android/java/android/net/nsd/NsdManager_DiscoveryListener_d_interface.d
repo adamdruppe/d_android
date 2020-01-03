@@ -11,5 +11,5 @@ interface NsdManager_DiscoveryListener : IJavaObject {
 	@Import void onDiscoveryStopped(string);
 	@Import void onServiceFound(import0.NsdServiceInfo);
 	@Import void onServiceLost(import0.NsdServiceInfo);
-	mixin JavaPackageId!("android.net.nsd", "NsdManager$DiscoveryListener");
+	public static immutable string _javaParameterString = "Landroid/net/nsd/NsdManager$DiscoveryListener";
 }

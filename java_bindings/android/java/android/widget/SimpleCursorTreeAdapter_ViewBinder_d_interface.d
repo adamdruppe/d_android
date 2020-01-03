@@ -7,5 +7,5 @@ import import1 = android.java.android.database.Cursor_d_interface;
 @JavaName("SimpleCursorTreeAdapter$ViewBinder")
 interface SimpleCursorTreeAdapter_ViewBinder : IJavaObject {
 	@Import bool setViewValue(import0.View, import1.Cursor, int);
-	mixin JavaPackageId!("android.widget", "SimpleCursorTreeAdapter$ViewBinder");
+	public static immutable string _javaParameterString = "Landroid/widget/SimpleCursorTreeAdapter$ViewBinder";
 }

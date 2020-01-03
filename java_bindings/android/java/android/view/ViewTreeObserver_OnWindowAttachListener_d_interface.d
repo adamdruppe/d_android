@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface ViewTreeObserver_OnWindowAttachListener : IJavaObject {
 	@Import void onWindowAttached();
 	@Import void onWindowDetached();
-	mixin JavaPackageId!("android.view", "ViewTreeObserver$OnWindowAttachListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewTreeObserver$OnWindowAttachListener";
 }

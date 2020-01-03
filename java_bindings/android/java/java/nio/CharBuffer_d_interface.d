@@ -52,5 +52,5 @@ final class CharBuffer : IJavaObject {
 	@Import import4.Appendable append(import1.CharSequence);
 	@Import import1.CharSequence subSequence(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "CharBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/CharBuffer";
 }

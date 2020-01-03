@@ -596,5 +596,5 @@ final class View : IJavaObject {
 	@Import void addOnUnhandledKeyEventListener(import70.View_OnUnhandledKeyEventListener);
 	@Import void removeOnUnhandledKeyEventListener(import70.View_OnUnhandledKeyEventListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "View");
+	public static immutable string _javaParameterString = "Landroid/view/View";
 }

@@ -15,5 +15,5 @@ final class LoaderManager : IJavaObject {
 	@Import void dump(string, import3.FileDescriptor, import4.PrintWriter, string[]);
 	@Import static void enableDebugLogging(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "LoaderManager");
+	public static immutable string _javaParameterString = "Landroid/app/LoaderManager";
 }

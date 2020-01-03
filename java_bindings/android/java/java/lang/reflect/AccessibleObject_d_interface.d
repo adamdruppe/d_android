@@ -17,5 +17,5 @@ final class AccessibleObject : IJavaObject {
 	@Import import1.Annotation[] getDeclaredAnnotationsByType(import2.Class);
 	@Import import1.Annotation[] getDeclaredAnnotations();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "AccessibleObject");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/AccessibleObject";
 }

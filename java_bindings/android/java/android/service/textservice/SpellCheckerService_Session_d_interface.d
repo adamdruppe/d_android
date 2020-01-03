@@ -17,5 +17,5 @@ final class SpellCheckerService_Session : IJavaObject {
 	@Import string getLocale();
 	@Import import3.Bundle getBundle();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.textservice", "SpellCheckerService$Session");
+	public static immutable string _javaParameterString = "Landroid/service/textservice/SpellCheckerService$Session";
 }

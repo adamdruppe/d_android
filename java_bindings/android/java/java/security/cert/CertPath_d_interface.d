@@ -14,5 +14,5 @@ final class CertPath : IJavaObject {
 	@Import byte[] getEncoded(string);
 	@Import import1.List getCertificates();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertPath");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPath";
 }

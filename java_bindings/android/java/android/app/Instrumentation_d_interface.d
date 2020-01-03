@@ -93,5 +93,5 @@ final class Instrumentation : IJavaObject {
 	@Import import19.UiAutomation getUiAutomation(int);
 	@Import import20.TestLooperManager acquireLooperManager(import21.Looper);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Instrumentation");
+	public static immutable string _javaParameterString = "Landroid/app/Instrumentation";
 }

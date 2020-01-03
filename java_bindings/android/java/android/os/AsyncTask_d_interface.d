@@ -17,5 +17,5 @@ final class AsyncTask : IJavaObject {
 	@Import import2.AsyncTask executeOnExecutor(import3.Executor, IJavaObject[]);
 	@Import static void execute(import4.Runnable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "AsyncTask");
+	public static immutable string _javaParameterString = "Landroid/os/AsyncTask";
 }

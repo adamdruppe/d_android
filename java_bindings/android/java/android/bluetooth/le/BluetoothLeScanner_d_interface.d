@@ -14,5 +14,5 @@ final class BluetoothLeScanner : IJavaObject {
 	@Import void stopScan(import3.PendingIntent);
 	@Import void flushPendingScanResults(import0.ScanCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "BluetoothLeScanner");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/BluetoothLeScanner";
 }

@@ -74,5 +74,5 @@ final class Resources : IJavaObject {
 	@Import void flushLayoutCache();
 	@Import void finishPreloading();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "Resources");
+	public static immutable string _javaParameterString = "Landroid/content/res/Resources";
 }

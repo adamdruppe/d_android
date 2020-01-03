@@ -10,5 +10,5 @@ final class VoiceInteractor : IJavaObject {
 	@Import import0.VoiceInteractor_Request getActiveRequest(string);
 	@Import bool[] supportsCommands(string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "VoiceInteractor");
+	public static immutable string _javaParameterString = "Landroid/app/VoiceInteractor";
 }

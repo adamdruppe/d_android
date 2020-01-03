@@ -9,5 +9,5 @@ final class VoiceInteractor_CompleteVoiceRequest : IJavaObject {
 	@Import this(import0.VoiceInteractor_Prompt, import1.Bundle);
 	@Import void onCompleteResult(import1.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "VoiceInteractor$CompleteVoiceRequest");
+	public static immutable string _javaParameterString = "Landroid/app/VoiceInteractor$CompleteVoiceRequest";
 }

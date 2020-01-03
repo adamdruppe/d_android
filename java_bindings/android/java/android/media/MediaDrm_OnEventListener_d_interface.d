@@ -6,5 +6,5 @@ import import0 = android.java.android.media.MediaDrm_d_interface;
 @JavaName("MediaDrm$OnEventListener")
 interface MediaDrm_OnEventListener : IJavaObject {
 	@Import void onEvent(import0.MediaDrm, byte, int, int, byte[][]);
-	mixin JavaPackageId!("android.media", "MediaDrm$OnEventListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$OnEventListener";
 }

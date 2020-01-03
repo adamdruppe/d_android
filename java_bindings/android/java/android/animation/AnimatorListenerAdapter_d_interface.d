@@ -11,5 +11,5 @@ final class AnimatorListenerAdapter : IJavaObject {
 	@Import void onAnimationPause(import0.Animator);
 	@Import void onAnimationResume(import0.Animator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "AnimatorListenerAdapter");
+	public static immutable string _javaParameterString = "Landroid/animation/AnimatorListenerAdapter";
 }

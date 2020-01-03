@@ -8,5 +8,5 @@ final class UnicodeSet_ComparisonStyle : IJavaObject {
 	@Import static import0.UnicodeSet_ComparisonStyle[] values();
 	@Import static import0.UnicodeSet_ComparisonStyle valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSet$ComparisonStyle");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSet$ComparisonStyle";
 }

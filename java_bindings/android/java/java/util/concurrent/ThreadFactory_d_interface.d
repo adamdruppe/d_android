@@ -6,5 +6,5 @@ import import1 = android.java.java.lang.Runnable_d_interface;
 
 interface ThreadFactory : IJavaObject {
 	@Import import0.Thread newThread(import1.Runnable);
-	mixin JavaPackageId!("java.util.concurrent", "ThreadFactory");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ThreadFactory";
 }

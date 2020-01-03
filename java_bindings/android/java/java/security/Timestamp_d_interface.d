@@ -12,5 +12,5 @@ final class Timestamp : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Timestamp");
+	public static immutable string _javaParameterString = "Ljava/security/Timestamp";
 }

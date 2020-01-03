@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface ViewDebug_IntToString : IJavaObject {
 	@Import int from();
 	@Import string to();
-	mixin JavaPackageId!("android.view", "ViewDebug$IntToString");
+	public static immutable string _javaParameterString = "Landroid/view/ViewDebug$IntToString";
 }

@@ -40,5 +40,5 @@ final class WifiEnterpriseConfig : IJavaObject {
 	@Import string getPlmn();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiEnterpriseConfig");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiEnterpriseConfig";
 }

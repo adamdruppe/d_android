@@ -49,5 +49,5 @@ interface CompletionStage : IJavaObject {
 	@Import import0.CompletionStage whenCompleteAsync(import6.BiConsumer, import2.Executor);
 	@Import import0.CompletionStage exceptionally(import1.Function);
 	@Import import7.CompletableFuture toCompletableFuture();
-	mixin JavaPackageId!("java.util.concurrent", "CompletionStage");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CompletionStage";
 }

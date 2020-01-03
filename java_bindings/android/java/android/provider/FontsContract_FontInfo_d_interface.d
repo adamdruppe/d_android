@@ -13,5 +13,5 @@ final class FontsContract_FontInfo : IJavaObject {
 	@Import bool isItalic();
 	@Import int getResultCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "FontsContract$FontInfo");
+	public static immutable string _javaParameterString = "Landroid/provider/FontsContract$FontInfo";
 }

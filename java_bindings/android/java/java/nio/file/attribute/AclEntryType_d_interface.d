@@ -7,5 +7,5 @@ final class AclEntryType : IJavaObject {
 	@Import static import0.AclEntryType[] values();
 	@Import static import0.AclEntryType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "AclEntryType");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/AclEntryType";
 }

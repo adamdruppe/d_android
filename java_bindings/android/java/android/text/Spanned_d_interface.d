@@ -9,5 +9,5 @@ interface Spanned : IJavaObject {
 	@Import int getSpanEnd(IJavaObject);
 	@Import int getSpanFlags(IJavaObject);
 	@Import int nextSpanTransition(int, int, import0.Class);
-	mixin JavaPackageId!("android.text", "Spanned");
+	public static immutable string _javaParameterString = "Landroid/text/Spanned";
 }

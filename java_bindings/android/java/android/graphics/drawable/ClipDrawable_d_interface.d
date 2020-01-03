@@ -15,5 +15,5 @@ final class ClipDrawable : IJavaObject {
 	@Import int getOpacity();
 	@Import void draw(import5.Canvas);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "ClipDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/ClipDrawable";
 }

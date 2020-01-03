@@ -11,5 +11,5 @@ final class FillContext : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "FillContext");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/FillContext";
 }

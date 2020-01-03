@@ -25,5 +25,5 @@ final class Notification_Action_WearableExtender : IJavaObject {
 	@Import bool getHintDisplayActionInline();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$Action$WearableExtender");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$Action$WearableExtender";
 }

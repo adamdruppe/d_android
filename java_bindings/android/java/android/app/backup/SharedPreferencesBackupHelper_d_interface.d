@@ -12,5 +12,5 @@ final class SharedPreferencesBackupHelper : IJavaObject {
 	@Import void restoreEntity(import3.BackupDataInputStream);
 	@Import void writeNewStateDescription(import1.ParcelFileDescriptor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "SharedPreferencesBackupHelper");
+	public static immutable string _javaParameterString = "Landroid/app/backup/SharedPreferencesBackupHelper";
 }

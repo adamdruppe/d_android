@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class UCharacterEnums : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.lang", "UCharacterEnums");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacterEnums";
 }

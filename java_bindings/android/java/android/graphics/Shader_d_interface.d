@@ -7,5 +7,5 @@ final class Shader : IJavaObject {
 	@Import bool getLocalMatrix(import0.Matrix);
 	@Import void setLocalMatrix(import0.Matrix);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Shader");
+	public static immutable string _javaParameterString = "Landroid/graphics/Shader";
 }

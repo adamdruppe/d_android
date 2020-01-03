@@ -12,5 +12,5 @@ final class StringReader : IJavaObject {
 	@Import void reset();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "StringReader");
+	public static immutable string _javaParameterString = "Ljava/io/StringReader";
 }

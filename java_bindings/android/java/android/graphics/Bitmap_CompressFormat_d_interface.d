@@ -8,5 +8,5 @@ final class Bitmap_CompressFormat : IJavaObject {
 	@Import static import0.Bitmap_CompressFormat[] values();
 	@Import static import0.Bitmap_CompressFormat valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Bitmap$CompressFormat");
+	public static immutable string _javaParameterString = "Landroid/graphics/Bitmap$CompressFormat";
 }

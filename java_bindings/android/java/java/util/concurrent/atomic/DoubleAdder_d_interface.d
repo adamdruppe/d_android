@@ -12,5 +12,5 @@ final class DoubleAdder : IJavaObject {
 	@Import int intValue();
 	@Import float floatValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "DoubleAdder");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/DoubleAdder";
 }

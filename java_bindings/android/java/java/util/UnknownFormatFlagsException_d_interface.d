@@ -6,5 +6,5 @@ final class UnknownFormatFlagsException : IJavaObject {
 	@Import string getFlags();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "UnknownFormatFlagsException");
+	public static immutable string _javaParameterString = "Ljava/util/UnknownFormatFlagsException";
 }

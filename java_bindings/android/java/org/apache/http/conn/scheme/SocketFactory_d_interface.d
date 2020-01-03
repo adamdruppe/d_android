@@ -9,5 +9,5 @@ interface SocketFactory : IJavaObject {
 	@Import import0.Socket createSocket();
 	@Import import0.Socket connectSocket(import0.Socket, string, int, import1.InetAddress, int, import2.HttpParams);
 	@Import bool isSecure(import0.Socket);
-	mixin JavaPackageId!("org.apache.http.conn.scheme", "SocketFactory");
+	public static immutable string _javaParameterString = "Lorg/apache/http/conn/scheme/SocketFactory";
 }

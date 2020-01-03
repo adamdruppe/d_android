@@ -44,5 +44,5 @@ final class ThreadPoolExecutor : IJavaObject {
 	@Import long getCompletedTaskCount();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ThreadPoolExecutor");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ThreadPoolExecutor";
 }

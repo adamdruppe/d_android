@@ -24,5 +24,5 @@ final class SaveInfo_Builder : IJavaObject {
 	@Import import1.SaveInfo_Builder setTriggerId(import0.AutofillId);
 	@Import import7.SaveInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "SaveInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/SaveInfo$Builder";
 }

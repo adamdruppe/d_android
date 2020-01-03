@@ -10,5 +10,5 @@ final class MediaSession_Token : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaSession$Token");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaSession$Token";
 }

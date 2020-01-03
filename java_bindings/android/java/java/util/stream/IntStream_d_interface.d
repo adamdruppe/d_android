@@ -75,5 +75,5 @@ interface IntStream : IJavaObject {
 	@Import import21.BaseStream sequential();
 	@Import import22.Spliterator spliterator();
 	@Import import23.Iterator iterator();
-	mixin JavaPackageId!("java.util.stream", "IntStream");
+	public static immutable string _javaParameterString = "Ljava/util/stream/IntStream";
 }

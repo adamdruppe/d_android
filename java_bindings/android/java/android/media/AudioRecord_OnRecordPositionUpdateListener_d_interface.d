@@ -7,5 +7,5 @@ import import0 = android.java.android.media.AudioRecord_d_interface;
 interface AudioRecord_OnRecordPositionUpdateListener : IJavaObject {
 	@Import void onMarkerReached(import0.AudioRecord);
 	@Import void onPeriodicNotification(import0.AudioRecord);
-	mixin JavaPackageId!("android.media", "AudioRecord$OnRecordPositionUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/media/AudioRecord$OnRecordPositionUpdateListener";
 }

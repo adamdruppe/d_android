@@ -8,5 +8,5 @@ final class WebSettings_LayoutAlgorithm : IJavaObject {
 	@Import static import0.WebSettings_LayoutAlgorithm[] values();
 	@Import static import0.WebSettings_LayoutAlgorithm valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebSettings$LayoutAlgorithm");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebSettings$LayoutAlgorithm";
 }

@@ -8,5 +8,5 @@ final class ColorSpace_Adaptation : IJavaObject {
 	@Import static import0.ColorSpace_Adaptation[] values();
 	@Import static import0.ColorSpace_Adaptation valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorSpace$Adaptation");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorSpace$Adaptation";
 }

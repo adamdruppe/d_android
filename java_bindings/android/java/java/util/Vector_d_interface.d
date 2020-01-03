@@ -66,5 +66,5 @@ final class Vector : IJavaObject {
 	@Import void sort(import8.Comparator);
 	@Import import9.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Vector");
+	public static immutable string _javaParameterString = "Ljava/util/Vector";
 }

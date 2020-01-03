@@ -21,5 +21,5 @@ final class ZoomButtonsController : IJavaObject {
 	@Import import0.View getZoomControls();
 	@Import bool onTouch(import0.View, import3.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ZoomButtonsController");
+	public static immutable string _javaParameterString = "Landroid/widget/ZoomButtonsController";
 }

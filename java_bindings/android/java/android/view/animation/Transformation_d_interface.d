@@ -16,5 +16,5 @@ final class Transformation : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import string toShortString();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "Transformation");
+	public static immutable string _javaParameterString = "Landroid/view/animation/Transformation";
 }

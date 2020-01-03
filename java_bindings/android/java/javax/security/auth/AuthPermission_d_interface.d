@@ -5,5 +5,5 @@ final class AuthPermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth", "AuthPermission");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/AuthPermission";
 }

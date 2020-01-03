@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class NetworkSpecifier : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "NetworkSpecifier");
+	public static immutable string _javaParameterString = "Landroid/net/NetworkSpecifier";
 }

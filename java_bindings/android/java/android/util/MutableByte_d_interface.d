@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MutableByte : IJavaObject {
 	@Import this(byte);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MutableByte");
+	public static immutable string _javaParameterString = "Landroid/util/MutableByte";
 }

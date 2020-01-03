@@ -28,5 +28,5 @@ final class AtomicLong : IJavaObject {
 	@Import float floatValue();
 	@Import double doubleValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicLong");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicLong";
 }

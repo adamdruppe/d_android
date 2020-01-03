@@ -8,5 +8,5 @@ final class SSLEngineResult_Status : IJavaObject {
 	@Import static import0.SSLEngineResult_Status[] values();
 	@Import static import0.SSLEngineResult_Status valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLEngineResult$Status");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLEngineResult$Status";
 }

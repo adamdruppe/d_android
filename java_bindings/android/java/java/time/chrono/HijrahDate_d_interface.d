@@ -62,5 +62,5 @@ final class HijrahDate : IJavaObject {
 	@Import @JavaName("with") import15.Temporal with_(import7.TemporalField, long);
 	@Import @JavaName("with") import15.Temporal with_(import8.TemporalAdjuster);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "HijrahDate");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/HijrahDate";
 }

@@ -9,5 +9,5 @@ final class ContentUris : IJavaObject {
 	@Import static import1.Uri_Builder appendId(import1.Uri_Builder, long);
 	@Import static import0.Uri withAppendedId(import0.Uri, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentUris");
+	public static immutable string _javaParameterString = "Landroid/content/ContentUris";
 }

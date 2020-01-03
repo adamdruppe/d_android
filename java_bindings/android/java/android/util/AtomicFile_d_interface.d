@@ -15,5 +15,5 @@ final class AtomicFile : IJavaObject {
 	@Import import2.FileInputStream openRead();
 	@Import byte[] readFully();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "AtomicFile");
+	public static immutable string _javaParameterString = "Landroid/util/AtomicFile";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SearchManager$OnCancelListener")
 interface SearchManager_OnCancelListener : IJavaObject {
 	@Import void onCancel();
-	mixin JavaPackageId!("android.app", "SearchManager$OnCancelListener");
+	public static immutable string _javaParameterString = "Landroid/app/SearchManager$OnCancelListener";
 }

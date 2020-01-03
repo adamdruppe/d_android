@@ -6,5 +6,5 @@ import import0 = android.java.android.media.MediaDrm_d_interface;
 @JavaName("MediaDrm$OnExpirationUpdateListener")
 interface MediaDrm_OnExpirationUpdateListener : IJavaObject {
 	@Import void onExpirationUpdate(import0.MediaDrm, byte, long[]);
-	mixin JavaPackageId!("android.media", "MediaDrm$OnExpirationUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$OnExpirationUpdateListener";
 }

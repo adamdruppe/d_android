@@ -23,5 +23,5 @@ final class Policy : IJavaObject {
 	@Import bool implies(import5.ProtectionDomain, import6.Permission);
 	@Import void refresh();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Policy");
+	public static immutable string _javaParameterString = "Ljava/security/Policy";
 }

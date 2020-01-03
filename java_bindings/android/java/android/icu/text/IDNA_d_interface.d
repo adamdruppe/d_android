@@ -13,5 +13,5 @@ final class IDNA : IJavaObject {
 	@Import import1.StringBuilder nameToASCII(import2.CharSequence, import1.StringBuilder, import3.IDNA_Info);
 	@Import import1.StringBuilder nameToUnicode(import2.CharSequence, import1.StringBuilder, import3.IDNA_Info);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "IDNA");
+	public static immutable string _javaParameterString = "Landroid/icu/text/IDNA";
 }

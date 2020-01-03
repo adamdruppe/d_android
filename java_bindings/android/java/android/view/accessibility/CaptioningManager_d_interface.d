@@ -13,5 +13,5 @@ final class CaptioningManager : IJavaObject {
 	@Import void addCaptioningChangeListener(import2.CaptioningManager_CaptioningChangeListener);
 	@Import void removeCaptioningChangeListener(import2.CaptioningManager_CaptioningChangeListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "CaptioningManager");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/CaptioningManager";
 }

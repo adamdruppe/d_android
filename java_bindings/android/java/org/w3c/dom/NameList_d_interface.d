@@ -7,5 +7,5 @@ interface NameList : IJavaObject {
 	@Import int getLength();
 	@Import bool contains(string);
 	@Import bool containsNS(string, string);
-	mixin JavaPackageId!("org.w3c.dom", "NameList");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/NameList";
 }

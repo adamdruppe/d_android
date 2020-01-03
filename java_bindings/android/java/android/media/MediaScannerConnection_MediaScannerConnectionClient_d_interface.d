@@ -7,5 +7,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 interface MediaScannerConnection_MediaScannerConnectionClient : IJavaObject {
 	@Import void onMediaScannerConnected();
 	@Import void onScanCompleted(string, import0.Uri);
-	mixin JavaPackageId!("android.media", "MediaScannerConnection$MediaScannerConnectionClient");
+	public static immutable string _javaParameterString = "Landroid/media/MediaScannerConnection$MediaScannerConnectionClient";
 }

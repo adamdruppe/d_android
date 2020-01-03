@@ -18,5 +18,5 @@ final class PrinterCapabilitiesInfo_Builder : IJavaObject {
 	@Import import1.PrinterCapabilitiesInfo_Builder setDuplexModes(int, int);
 	@Import import5.PrinterCapabilitiesInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrinterCapabilitiesInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/print/PrinterCapabilitiesInfo$Builder";
 }

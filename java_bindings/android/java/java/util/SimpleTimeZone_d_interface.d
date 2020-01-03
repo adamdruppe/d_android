@@ -31,5 +31,5 @@ final class SimpleTimeZone : IJavaObject {
 	@Import bool hasSameRules(import1.TimeZone);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "SimpleTimeZone");
+	public static immutable string _javaParameterString = "Ljava/util/SimpleTimeZone";
 }

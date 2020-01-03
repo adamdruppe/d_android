@@ -20,5 +20,5 @@ final class SpellCheckerSubtype : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textservice", "SpellCheckerSubtype");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/SpellCheckerSubtype";
 }

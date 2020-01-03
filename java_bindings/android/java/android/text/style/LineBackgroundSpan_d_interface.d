@@ -7,5 +7,5 @@ import import0 = android.java.android.graphics.Canvas_d_interface;
 
 interface LineBackgroundSpan : IJavaObject {
 	@Import void drawBackground(import0.Canvas, import1.Paint, int, int, int, int, int, import2.CharSequence, int, int, int);
-	mixin JavaPackageId!("android.text.style", "LineBackgroundSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/LineBackgroundSpan";
 }

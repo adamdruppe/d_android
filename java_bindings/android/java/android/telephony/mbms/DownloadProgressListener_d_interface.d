@@ -7,5 +7,5 @@ import import1 = android.java.android.telephony.mbms.FileInfo_d_interface;
 final class DownloadProgressListener : IJavaObject {
 	@Import void onProgressUpdated(import0.DownloadRequest, import1.FileInfo, int, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "DownloadProgressListener");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/DownloadProgressListener";
 }

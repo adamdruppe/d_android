@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class AtomicMoveNotSupportedException : IJavaObject {
 	@Import this(string, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "AtomicMoveNotSupportedException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/AtomicMoveNotSupportedException";
 }

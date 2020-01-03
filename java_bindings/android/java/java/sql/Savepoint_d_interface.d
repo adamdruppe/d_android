@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Savepoint : IJavaObject {
 	@Import int getSavepointId();
 	@Import string getSavepointName();
-	mixin JavaPackageId!("java.sql", "Savepoint");
+	public static immutable string _javaParameterString = "Ljava/sql/Savepoint";
 }

@@ -8,5 +8,5 @@ final class ImageView_ScaleType : IJavaObject {
 	@Import static import0.ImageView_ScaleType[] values();
 	@Import static import0.ImageView_ScaleType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ImageView$ScaleType");
+	public static immutable string _javaParameterString = "Landroid/widget/ImageView$ScaleType";
 }

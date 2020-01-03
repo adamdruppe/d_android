@@ -25,5 +25,5 @@ interface AttributeSet : IJavaObject {
 	@Import string getClassAttribute();
 	@Import int getIdAttributeResourceValue(int);
 	@Import int getStyleAttribute();
-	mixin JavaPackageId!("android.util", "AttributeSet");
+	public static immutable string _javaParameterString = "Landroid/util/AttributeSet";
 }

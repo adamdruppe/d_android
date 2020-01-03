@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("MediaStore$MediaColumns")
 interface MediaStore_MediaColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "MediaStore$MediaColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$MediaColumns";
 }

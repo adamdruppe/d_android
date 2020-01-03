@@ -29,5 +29,5 @@ final class ApnSetting : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.data", "ApnSetting");
+	public static immutable string _javaParameterString = "Landroid/telephony/data/ApnSetting";
 }

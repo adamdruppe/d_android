@@ -40,5 +40,5 @@ final class LinearLayout : IJavaObject {
 	@Import import4.CharSequence getAccessibilityClassName();
 	@Import import5.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "LinearLayout");
+	public static immutable string _javaParameterString = "Landroid/widget/LinearLayout";
 }

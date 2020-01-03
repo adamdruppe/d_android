@@ -11,5 +11,5 @@ final class TextClassificationManager : IJavaObject {
 	@Import import0.TextClassifier createTextClassificationSession(import1.TextClassificationContext);
 	@Import void setTextClassificationSessionFactory(import2.TextClassificationSessionFactory);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassificationManager");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassificationManager";
 }

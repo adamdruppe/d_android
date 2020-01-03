@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class LoggingPermission : IJavaObject {
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "LoggingPermission");
+	public static immutable string _javaParameterString = "Ljava/util/logging/LoggingPermission";
 }

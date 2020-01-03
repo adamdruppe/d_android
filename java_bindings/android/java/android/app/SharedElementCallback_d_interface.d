@@ -19,5 +19,5 @@ final class SharedElementCallback : IJavaObject {
 	@Import import3.View onCreateSnapshotView(import6.Context, import2.Parcelable);
 	@Import void onSharedElementsArrived(import0.List, import0.List, import7.SharedElementCallback_OnSharedElementsReadyListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "SharedElementCallback");
+	public static immutable string _javaParameterString = "Landroid/app/SharedElementCallback";
 }

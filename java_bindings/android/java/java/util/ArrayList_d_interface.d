@@ -45,5 +45,5 @@ final class ArrayList : IJavaObject {
 	@Import void replaceAll(import7.UnaryOperator);
 	@Import void sort(import8.Comparator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ArrayList");
+	public static immutable string _javaParameterString = "Ljava/util/ArrayList";
 }

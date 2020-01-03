@@ -14,5 +14,5 @@ final class AccessibilityNodeInfo_CollectionItemInfo : IJavaObject {
 	@Import bool isHeading();
 	@Import bool isSelected();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityNodeInfo$CollectionItemInfo");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityNodeInfo$CollectionItemInfo";
 }

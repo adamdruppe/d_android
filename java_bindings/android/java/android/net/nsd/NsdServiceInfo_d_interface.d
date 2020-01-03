@@ -21,5 +21,5 @@ final class NsdServiceInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.nsd", "NsdServiceInfo");
+	public static immutable string _javaParameterString = "Landroid/net/nsd/NsdServiceInfo";
 }

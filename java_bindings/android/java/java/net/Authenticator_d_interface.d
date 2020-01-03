@@ -13,5 +13,5 @@ final class Authenticator : IJavaObject {
 	@Import static import1.PasswordAuthentication requestPasswordAuthentication(string, import2.InetAddress, int, string, string, string);
 	@Import static import1.PasswordAuthentication requestPasswordAuthentication(string, import2.InetAddress, int, string, string, string, import3.URL, import4.Authenticator_RequestorType);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "Authenticator");
+	public static immutable string _javaParameterString = "Ljava/net/Authenticator";
 }

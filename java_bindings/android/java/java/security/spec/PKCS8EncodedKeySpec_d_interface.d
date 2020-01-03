@@ -6,5 +6,5 @@ final class PKCS8EncodedKeySpec : IJavaObject {
 	@Import byte[] getEncoded();
 	@Import string getFormat();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "PKCS8EncodedKeySpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/PKCS8EncodedKeySpec";
 }

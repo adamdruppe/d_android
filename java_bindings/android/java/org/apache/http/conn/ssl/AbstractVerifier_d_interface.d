@@ -15,5 +15,5 @@ final class AbstractVerifier : IJavaObject {
 	@Import static string[] getDNSSubjectAlts(import2.X509Certificate);
 	@Import static int countDots(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.apache.http.conn.ssl", "AbstractVerifier");
+	public static immutable string _javaParameterString = "Lorg/apache/http/conn/ssl/AbstractVerifier";
 }

@@ -8,5 +8,5 @@ final class CallScreeningService_CallResponse : IJavaObject {
 	@Import bool getSkipCallLog();
 	@Import bool getSkipNotification();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "CallScreeningService$CallResponse");
+	public static immutable string _javaParameterString = "Landroid/telecom/CallScreeningService$CallResponse";
 }

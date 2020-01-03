@@ -7,5 +7,5 @@ final class UnicodeFilter : IJavaObject {
 	@Import bool contains(int);
 	@Import int matches(import0.Replaceable, int, int, bool[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeFilter");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeFilter";
 }

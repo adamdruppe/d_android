@@ -50,5 +50,5 @@ interface Cursor : IJavaObject {
 	@Import void setExtras(import5.Bundle);
 	@Import import5.Bundle getExtras();
 	@Import import5.Bundle respond(import5.Bundle);
-	mixin JavaPackageId!("android.database", "Cursor");
+	public static immutable string _javaParameterString = "Landroid/database/Cursor";
 }

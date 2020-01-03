@@ -40,5 +40,5 @@ final class URL : IJavaObject {
 	@Import IJavaObject getContent(import6.Class[]);
 	@Import static void setURLStreamHandlerFactory(import7.URLStreamHandlerFactory);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "URL");
+	public static immutable string _javaParameterString = "Ljava/net/URL";
 }

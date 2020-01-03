@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class EGLSurface : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.microedition.khronos.egl", "EGLSurface");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/egl/EGLSurface";
 }

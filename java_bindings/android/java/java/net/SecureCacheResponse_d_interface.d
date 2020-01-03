@@ -11,5 +11,5 @@ final class SecureCacheResponse : IJavaObject {
 	@Import import1.Principal getPeerPrincipal();
 	@Import import1.Principal getLocalPrincipal();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "SecureCacheResponse");
+	public static immutable string _javaParameterString = "Ljava/net/SecureCacheResponse";
 }

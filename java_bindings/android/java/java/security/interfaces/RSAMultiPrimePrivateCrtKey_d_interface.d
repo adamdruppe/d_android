@@ -12,5 +12,5 @@ interface RSAMultiPrimePrivateCrtKey : IJavaObject {
 	@Import import0.BigInteger getPrimeExponentQ();
 	@Import import0.BigInteger getCrtCoefficient();
 	@Import import1.RSAOtherPrimeInfo[] getOtherPrimeInfo();
-	mixin JavaPackageId!("java.security.interfaces", "RSAMultiPrimePrivateCrtKey");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/RSAMultiPrimePrivateCrtKey";
 }

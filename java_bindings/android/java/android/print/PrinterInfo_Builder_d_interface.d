@@ -20,5 +20,5 @@ final class PrinterInfo_Builder : IJavaObject {
 	@Import import2.PrinterInfo_Builder setCapabilities(import4.PrinterCapabilitiesInfo);
 	@Import import1.PrinterInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrinterInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/print/PrinterInfo$Builder";
 }

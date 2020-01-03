@@ -11,5 +11,5 @@ final class OAEPParameterSpec : IJavaObject {
 	@Import import0.AlgorithmParameterSpec getMGFParameters();
 	@Import import1.PSource getPSource();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "OAEPParameterSpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/OAEPParameterSpec";
 }

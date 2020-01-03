@@ -11,5 +11,5 @@ final class TabActivity : IJavaObject {
 	@Import import0.TabHost getTabHost();
 	@Import import1.TabWidget getTabWidget();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "TabActivity");
+	public static immutable string _javaParameterString = "Landroid/app/TabActivity";
 }

@@ -9,5 +9,5 @@ final class RemoteViewsService : IJavaObject {
 	@Import import0.IBinder onBind(import1.Intent);
 	@Import import2.RemoteViewsService_RemoteViewsFactory onGetViewFactory(import1.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RemoteViewsService");
+	public static immutable string _javaParameterString = "Landroid/widget/RemoteViewsService";
 }

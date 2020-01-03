@@ -9,5 +9,5 @@ final class MultiAutoCompleteTextView_CommaTokenizer : IJavaObject {
 	@Import int findTokenEnd(import0.CharSequence, int);
 	@Import import0.CharSequence terminateToken(import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "MultiAutoCompleteTextView$CommaTokenizer");
+	public static immutable string _javaParameterString = "Landroid/widget/MultiAutoCompleteTextView$CommaTokenizer";
 }

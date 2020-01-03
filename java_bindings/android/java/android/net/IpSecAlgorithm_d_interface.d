@@ -13,5 +13,5 @@ final class IpSecAlgorithm : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "IpSecAlgorithm");
+	public static immutable string _javaParameterString = "Landroid/net/IpSecAlgorithm";
 }

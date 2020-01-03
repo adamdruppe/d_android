@@ -17,5 +17,5 @@ final class AdvertisingSetParameters : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertisingSetParameters");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertisingSetParameters";
 }

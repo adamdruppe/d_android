@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface SuppressLint : IJavaObject {
 	@Import string[] value();
-	mixin JavaPackageId!("android.annotation", "SuppressLint");
+	public static immutable string _javaParameterString = "Landroid/annotation/SuppressLint";
 }

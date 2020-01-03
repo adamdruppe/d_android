@@ -33,5 +33,5 @@ final class PriorityBlockingQueue : IJavaObject {
 	@Import import3.Iterator iterator();
 	@Import import4.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "PriorityBlockingQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/PriorityBlockingQueue";
 }

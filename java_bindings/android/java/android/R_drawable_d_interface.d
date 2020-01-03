@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("R$drawable")
 final class R_drawable : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "R$drawable");
+	public static immutable string _javaParameterString = "Landroid/R$drawable";
 }

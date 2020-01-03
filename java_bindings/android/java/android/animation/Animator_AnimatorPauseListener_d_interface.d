@@ -7,5 +7,5 @@ import import0 = android.java.android.animation.Animator_d_interface;
 interface Animator_AnimatorPauseListener : IJavaObject {
 	@Import void onAnimationPause(import0.Animator);
 	@Import void onAnimationResume(import0.Animator);
-	mixin JavaPackageId!("android.animation", "Animator$AnimatorPauseListener");
+	public static immutable string _javaParameterString = "Landroid/animation/Animator$AnimatorPauseListener";
 }

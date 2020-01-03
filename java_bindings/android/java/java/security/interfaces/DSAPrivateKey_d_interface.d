@@ -5,5 +5,5 @@ import import0 = android.java.java.math.BigInteger_d_interface;
 
 interface DSAPrivateKey : IJavaObject {
 	@Import import0.BigInteger getX();
-	mixin JavaPackageId!("java.security.interfaces", "DSAPrivateKey");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/DSAPrivateKey";
 }

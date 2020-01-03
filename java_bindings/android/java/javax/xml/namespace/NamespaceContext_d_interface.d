@@ -7,5 +7,5 @@ interface NamespaceContext : IJavaObject {
 	@Import string getNamespaceURI(string);
 	@Import string getPrefix(string);
 	@Import import0.Iterator getPrefixes(string);
-	mixin JavaPackageId!("javax.xml.namespace", "NamespaceContext");
+	public static immutable string _javaParameterString = "Ljavax/xml/namespace/NamespaceContext";
 }

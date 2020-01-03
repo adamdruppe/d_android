@@ -8,5 +8,5 @@ interface IntPredicate : IJavaObject {
 	@Import import0.IntPredicate and(import0.IntPredicate);
 	@Import import0.IntPredicate negate();
 	@Import import0.IntPredicate or(import0.IntPredicate);
-	mixin JavaPackageId!("java.util.function", "IntPredicate");
+	public static immutable string _javaParameterString = "Ljava/util/function/IntPredicate";
 }

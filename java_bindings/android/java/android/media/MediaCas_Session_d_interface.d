@@ -8,5 +8,5 @@ final class MediaCas_Session : IJavaObject {
 	@Import void processEcm(byte[]);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCas$Session");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCas$Session";
 }

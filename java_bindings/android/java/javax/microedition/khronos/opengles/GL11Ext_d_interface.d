@@ -28,5 +28,5 @@ interface GL11Ext : IJavaObject {
 	@Import void glMatrixIndexPointerOES(int, int, int, int);
 	@Import void glWeightPointerOES(int, int, int, import3.Buffer);
 	@Import void glWeightPointerOES(int, int, int, int);
-	mixin JavaPackageId!("javax.microedition.khronos.opengles", "GL11Ext");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/opengles/GL11Ext";
 }

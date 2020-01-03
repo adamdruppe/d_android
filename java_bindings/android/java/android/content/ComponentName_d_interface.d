@@ -32,5 +32,5 @@ final class ComponentName : IJavaObject {
 	@Import IJavaObject clone();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ComponentName");
+	public static immutable string _javaParameterString = "Landroid/content/ComponentName";
 }

@@ -24,5 +24,5 @@ final class Calendar_Builder : IJavaObject {
 	@Import import0.Calendar_Builder setWeekDefinition(int, int);
 	@Import import4.Calendar build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Calendar$Builder");
+	public static immutable string _javaParameterString = "Ljava/util/Calendar$Builder";
 }

@@ -8,5 +8,5 @@ final class UserPrincipalLookupService : IJavaObject {
 	@Import import0.UserPrincipal lookupPrincipalByName(string);
 	@Import import1.GroupPrincipal lookupPrincipalByGroupName(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "UserPrincipalLookupService");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/UserPrincipalLookupService";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class XMLConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml", "XMLConstants");
+	public static immutable string _javaParameterString = "Ljavax/xml/XMLConstants";
 }

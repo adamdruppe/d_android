@@ -12,5 +12,5 @@ final class ViewGroup_LayoutParams : IJavaObject {
 	@Import this(import2.ViewGroup_LayoutParams);
 	@Import void resolveLayoutDirection(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewGroup$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/view/ViewGroup$LayoutParams";
 }

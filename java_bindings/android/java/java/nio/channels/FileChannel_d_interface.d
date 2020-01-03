@@ -40,5 +40,5 @@ final class FileChannel : IJavaObject {
 	@Import import11.SeekableByteChannel truncate(long);
 	@Import import11.SeekableByteChannel position(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "FileChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/FileChannel";
 }

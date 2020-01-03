@@ -13,5 +13,5 @@ final class BluetoothClass : IJavaObject {
 	@Import int getMajorDeviceClass();
 	@Import int getDeviceClass();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothClass");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothClass";
 }

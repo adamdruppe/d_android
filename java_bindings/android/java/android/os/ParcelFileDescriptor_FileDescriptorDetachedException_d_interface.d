@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ParcelFileDescriptor$FileDescriptorDetachedException")
 final class ParcelFileDescriptor_FileDescriptorDetachedException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ParcelFileDescriptor$FileDescriptorDetachedException");
+	public static immutable string _javaParameterString = "Landroid/os/ParcelFileDescriptor$FileDescriptorDetachedException";
 }

@@ -13,5 +13,5 @@ final class IntentService : IJavaObject {
 	@Import void onDestroy();
 	@Import import1.IBinder onBind(import0.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "IntentService");
+	public static immutable string _javaParameterString = "Landroid/app/IntentService";
 }

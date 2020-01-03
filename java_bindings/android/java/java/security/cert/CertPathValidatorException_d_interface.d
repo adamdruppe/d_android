@@ -15,5 +15,5 @@ final class CertPathValidatorException : IJavaObject {
 	@Import int getIndex();
 	@Import import2.CertPathValidatorException_Reason getReason();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertPathValidatorException");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathValidatorException";
 }

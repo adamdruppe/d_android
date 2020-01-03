@@ -14,5 +14,5 @@ final class Presentation : IJavaObject {
 	@Import void onDisplayRemoved();
 	@Import void onDisplayChanged();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Presentation");
+	public static immutable string _javaParameterString = "Landroid/app/Presentation";
 }

@@ -24,5 +24,5 @@ final class TextKeyListener : IJavaObject {
 	@Import void onSpanChanged(import6.Spannable, IJavaObject, int, int, int, int);
 	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "TextKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/TextKeyListener";
 }

@@ -7,5 +7,5 @@ final class UnsupportedTemporalTypeException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "UnsupportedTemporalTypeException");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/UnsupportedTemporalTypeException";
 }

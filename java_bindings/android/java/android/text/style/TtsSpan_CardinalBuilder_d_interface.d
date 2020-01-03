@@ -10,5 +10,5 @@ final class TtsSpan_CardinalBuilder : IJavaObject {
 	@Import import0.TtsSpan_CardinalBuilder setNumber(long);
 	@Import import0.TtsSpan_CardinalBuilder setNumber(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$CardinalBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$CardinalBuilder";
 }

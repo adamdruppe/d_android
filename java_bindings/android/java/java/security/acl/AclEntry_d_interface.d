@@ -16,5 +16,5 @@ interface AclEntry : IJavaObject {
 	@Import import2.Enumeration permissions();
 	@Import @JavaName("toString") string toString_();
 	@Import IJavaObject clone();
-	mixin JavaPackageId!("java.security.acl", "AclEntry");
+	public static immutable string _javaParameterString = "Ljava/security/acl/AclEntry";
 }

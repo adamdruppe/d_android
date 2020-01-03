@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AccessNetworkConstants$EutranBand")
 final class AccessNetworkConstants_EutranBand : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "AccessNetworkConstants$EutranBand");
+	public static immutable string _javaParameterString = "Landroid/telephony/AccessNetworkConstants$EutranBand";
 }

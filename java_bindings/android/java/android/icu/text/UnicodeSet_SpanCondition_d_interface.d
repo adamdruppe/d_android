@@ -8,5 +8,5 @@ final class UnicodeSet_SpanCondition : IJavaObject {
 	@Import static import0.UnicodeSet_SpanCondition[] values();
 	@Import static import0.UnicodeSet_SpanCondition valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSet$SpanCondition");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSet$SpanCondition";
 }

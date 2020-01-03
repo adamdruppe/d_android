@@ -7,5 +7,5 @@ final class RecursiveAction : IJavaObject {
 	@Import import0.Void getRawResult();
 	@Import IJavaObject getRawResult();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "RecursiveAction");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/RecursiveAction";
 }

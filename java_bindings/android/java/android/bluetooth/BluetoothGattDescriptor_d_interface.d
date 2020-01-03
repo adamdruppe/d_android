@@ -15,5 +15,5 @@ final class BluetoothGattDescriptor : IJavaObject {
 	@Import byte[] getValue();
 	@Import bool setValue(byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothGattDescriptor");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothGattDescriptor";
 }

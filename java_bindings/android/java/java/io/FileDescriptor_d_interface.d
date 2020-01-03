@@ -3,6 +3,7 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class FileDescriptor : IJavaObject {
 	@Import bool valid();
+	@Import void sync();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FileDescriptor");
+	public static immutable string _javaParameterString = "Ljava/io/FileDescriptor";
 }

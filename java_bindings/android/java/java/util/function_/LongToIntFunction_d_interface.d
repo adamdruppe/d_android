@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface LongToIntFunction : IJavaObject {
 	@Import int applyAsInt(long);
-	mixin JavaPackageId!("java.util.function", "LongToIntFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/LongToIntFunction";
 }

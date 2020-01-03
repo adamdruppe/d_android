@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MediaPlayer_NoDrmSchemeException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaPlayer$NoDrmSchemeException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$NoDrmSchemeException";
 }

@@ -8,5 +8,5 @@ final class AbstractSet : IJavaObject {
 	@Import int hashCode();
 	@Import bool removeAll(import0.Collection);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "AbstractSet");
+	public static immutable string _javaParameterString = "Ljava/util/AbstractSet";
 }

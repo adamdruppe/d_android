@@ -29,5 +29,5 @@ final class HeaderViewListAdapter : IJavaObject {
 	@Import import5.Filter getFilter();
 	@Import import1.ListAdapter getWrappedAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "HeaderViewListAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/HeaderViewListAdapter";
 }

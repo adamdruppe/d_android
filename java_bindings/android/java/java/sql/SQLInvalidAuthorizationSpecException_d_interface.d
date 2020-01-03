@@ -12,5 +12,5 @@ final class SQLInvalidAuthorizationSpecException : IJavaObject {
 	@Import this(string, string, import0.JavaThrowable);
 	@Import this(string, string, int, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLInvalidAuthorizationSpecException");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLInvalidAuthorizationSpecException";
 }

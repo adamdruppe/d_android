@@ -46,5 +46,5 @@ final class ViewPropertyAnimator : IJavaObject {
 	@Import import0.ViewPropertyAnimator withStartAction(import4.Runnable);
 	@Import import0.ViewPropertyAnimator withEndAction(import4.Runnable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewPropertyAnimator");
+	public static immutable string _javaParameterString = "Landroid/view/ViewPropertyAnimator";
 }

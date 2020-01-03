@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("DrmStore$DrmObjectType")
 final class DrmStore_DrmObjectType : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmStore$DrmObjectType");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmStore$DrmObjectType";
 }

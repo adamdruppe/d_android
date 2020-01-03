@@ -14,5 +14,5 @@ final class CyclicBarrier : IJavaObject {
 	@Import void reset();
 	@Import int getNumberWaiting();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "CyclicBarrier");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CyclicBarrier";
 }

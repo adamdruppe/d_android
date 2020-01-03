@@ -8,5 +8,5 @@ final class UScript_ScriptUsage : IJavaObject {
 	@Import static import0.UScript_ScriptUsage[] values();
 	@Import static import0.UScript_ScriptUsage valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.lang", "UScript$ScriptUsage");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UScript$ScriptUsage";
 }

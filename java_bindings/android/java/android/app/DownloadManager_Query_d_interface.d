@@ -8,5 +8,5 @@ final class DownloadManager_Query : IJavaObject {
 	@Import import0.DownloadManager_Query setFilterById(long[]);
 	@Import import0.DownloadManager_Query setFilterByStatus(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "DownloadManager$Query");
+	public static immutable string _javaParameterString = "Landroid/app/DownloadManager$Query";
 }

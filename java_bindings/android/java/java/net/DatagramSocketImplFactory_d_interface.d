@@ -5,5 +5,5 @@ import import0 = android.java.java.net.DatagramSocketImpl_d_interface;
 
 interface DatagramSocketImplFactory : IJavaObject {
 	@Import import0.DatagramSocketImpl createDatagramSocketImpl();
-	mixin JavaPackageId!("java.net", "DatagramSocketImplFactory");
+	public static immutable string _javaParameterString = "Ljava/net/DatagramSocketImplFactory";
 }

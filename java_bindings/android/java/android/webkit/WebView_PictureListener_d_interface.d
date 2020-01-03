@@ -7,5 +7,5 @@ import import1 = android.java.android.graphics.Picture_d_interface;
 @JavaName("WebView$PictureListener")
 interface WebView_PictureListener : IJavaObject {
 	@Import void onNewPicture(import0.WebView, import1.Picture);
-	mixin JavaPackageId!("android.webkit", "WebView$PictureListener");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebView$PictureListener";
 }

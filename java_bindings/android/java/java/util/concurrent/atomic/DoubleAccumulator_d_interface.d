@@ -15,5 +15,5 @@ final class DoubleAccumulator : IJavaObject {
 	@Import int intValue();
 	@Import float floatValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "DoubleAccumulator");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/DoubleAccumulator";
 }

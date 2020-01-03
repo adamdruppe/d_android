@@ -9,5 +9,5 @@ final class Instrumentation_ActivityResult : IJavaObject {
 	@Import int getResultCode();
 	@Import import0.Intent getResultData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Instrumentation$ActivityResult");
+	public static immutable string _javaParameterString = "Landroid/app/Instrumentation$ActivityResult";
 }

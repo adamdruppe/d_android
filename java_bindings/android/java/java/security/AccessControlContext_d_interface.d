@@ -12,5 +12,5 @@ final class AccessControlContext : IJavaObject {
 	@Import import2.DomainCombiner getDomainCombiner();
 	@Import void checkPermission(import3.Permission);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "AccessControlContext");
+	public static immutable string _javaParameterString = "Ljava/security/AccessControlContext";
 }

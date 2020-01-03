@@ -6,5 +6,5 @@ import import0 = android.java.java.security.KeyStore_ProtectionParameter_d_inter
 @JavaName("KeyStore$LoadStoreParameter")
 interface KeyStore_LoadStoreParameter : IJavaObject {
 	@Import import0.KeyStore_ProtectionParameter getProtectionParameter();
-	mixin JavaPackageId!("java.security", "KeyStore$LoadStoreParameter");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$LoadStoreParameter";
 }

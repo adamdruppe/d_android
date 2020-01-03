@@ -12,5 +12,5 @@ final class Entity : IJavaObject {
 	@Import void addSubValue(import2.Uri, import0.ContentValues);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Entity");
+	public static immutable string _javaParameterString = "Landroid/content/Entity";
 }

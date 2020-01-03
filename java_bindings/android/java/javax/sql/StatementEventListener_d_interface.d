@@ -6,5 +6,5 @@ import import0 = android.java.javax.sql.StatementEvent_d_interface;
 interface StatementEventListener : IJavaObject {
 	@Import void statementClosed(import0.StatementEvent);
 	@Import void statementErrorOccurred(import0.StatementEvent);
-	mixin JavaPackageId!("javax.sql", "StatementEventListener");
+	public static immutable string _javaParameterString = "Ljavax/sql/StatementEventListener";
 }

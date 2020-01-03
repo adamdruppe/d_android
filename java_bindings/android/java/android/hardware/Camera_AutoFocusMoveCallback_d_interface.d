@@ -6,5 +6,5 @@ import import0 = android.java.android.hardware.Camera_d_interface;
 @JavaName("Camera$AutoFocusMoveCallback")
 interface Camera_AutoFocusMoveCallback : IJavaObject {
 	@Import void onAutoFocusMoving(bool, import0.Camera);
-	mixin JavaPackageId!("android.hardware", "Camera$AutoFocusMoveCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$AutoFocusMoveCallback";
 }

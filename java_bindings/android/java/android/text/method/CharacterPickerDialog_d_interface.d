@@ -11,5 +11,5 @@ final class CharacterPickerDialog : IJavaObject {
 	@Import void onItemClick(import3.AdapterView, import1.View, int, long);
 	@Import void onClick(import1.View);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "CharacterPickerDialog");
+	public static immutable string _javaParameterString = "Landroid/text/method/CharacterPickerDialog";
 }

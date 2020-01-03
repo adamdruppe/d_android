@@ -11,5 +11,5 @@ interface RowSetInternal : IJavaObject {
 	@Import void setMetaData(import1.RowSetMetaData);
 	@Import import2.ResultSet getOriginal();
 	@Import import2.ResultSet getOriginalRow();
-	mixin JavaPackageId!("javax.sql", "RowSetInternal");
+	public static immutable string _javaParameterString = "Ljavax/sql/RowSetInternal";
 }

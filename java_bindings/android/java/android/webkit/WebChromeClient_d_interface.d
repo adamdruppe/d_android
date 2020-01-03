@@ -44,5 +44,5 @@ final class WebChromeClient : IJavaObject {
 	@Import void getVisitedHistory(import11.ValueCallback);
 	@Import bool onShowFileChooser(import0.WebView, import11.ValueCallback, import12.WebChromeClient_FileChooserParams);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebChromeClient");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebChromeClient";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.media.ImageReader_d_interface;
 @JavaName("ImageReader$OnImageAvailableListener")
 interface ImageReader_OnImageAvailableListener : IJavaObject {
 	@Import void onImageAvailable(import0.ImageReader);
-	mixin JavaPackageId!("android.media", "ImageReader$OnImageAvailableListener");
+	public static immutable string _javaParameterString = "Landroid/media/ImageReader$OnImageAvailableListener";
 }

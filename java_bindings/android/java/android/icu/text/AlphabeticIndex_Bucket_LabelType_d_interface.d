@@ -8,5 +8,5 @@ final class AlphabeticIndex_Bucket_LabelType : IJavaObject {
 	@Import static import0.AlphabeticIndex_Bucket_LabelType[] values();
 	@Import static import0.AlphabeticIndex_Bucket_LabelType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "AlphabeticIndex$Bucket$LabelType");
+	public static immutable string _javaParameterString = "Landroid/icu/text/AlphabeticIndex$Bucket$LabelType";
 }

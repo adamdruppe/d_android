@@ -106,5 +106,5 @@ final class ULocale : IJavaObject {
 	@Import static string toLegacyType(string, string);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "ULocale");
+	public static immutable string _javaParameterString = "Landroid/icu/util/ULocale";
 }

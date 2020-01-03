@@ -9,5 +9,5 @@ final class ConnectionEvent : IJavaObject {
 	@Import this(import0.PooledConnection, import1.SQLException);
 	@Import import1.SQLException getSQLException();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.sql", "ConnectionEvent");
+	public static immutable string _javaParameterString = "Ljavax/sql/ConnectionEvent";
 }

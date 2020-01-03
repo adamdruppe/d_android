@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class WrongMethodTypeException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.invoke", "WrongMethodTypeException");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/WrongMethodTypeException";
 }

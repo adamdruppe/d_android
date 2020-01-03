@@ -5,5 +5,5 @@ import import0 = android.java.java.lang.Runnable_d_interface;
 
 interface Executor : IJavaObject {
 	@Import void execute(import0.Runnable);
-	mixin JavaPackageId!("java.util.concurrent", "Executor");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Executor";
 }

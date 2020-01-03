@@ -12,5 +12,5 @@ final class DnsEvent : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "DnsEvent");
+	public static immutable string _javaParameterString = "Landroid/app/admin/DnsEvent";
 }

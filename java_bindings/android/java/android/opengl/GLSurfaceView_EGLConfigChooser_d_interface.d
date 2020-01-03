@@ -8,5 +8,5 @@ import import0 = android.java.javax.microedition.khronos.egl.EGLConfig_d_interfa
 @JavaName("GLSurfaceView$EGLConfigChooser")
 interface GLSurfaceView_EGLConfigChooser : IJavaObject {
 	@Import import0.EGLConfig chooseConfig(import1.EGL10, import2.EGLDisplay);
-	mixin JavaPackageId!("android.opengl", "GLSurfaceView$EGLConfigChooser");
+	public static immutable string _javaParameterString = "Landroid/opengl/GLSurfaceView$EGLConfigChooser";
 }

@@ -18,5 +18,5 @@ interface Spliterator_OfLong : IJavaObject {
 	@Import bool tryAdvance(IJavaObject);
 	@Import import3.Spliterator_OfPrimitive trySplit();
 	@Import import4.Spliterator trySplit();
-	mixin JavaPackageId!("java.util", "Spliterator$OfLong");
+	public static immutable string _javaParameterString = "Ljava/util/Spliterator$OfLong";
 }

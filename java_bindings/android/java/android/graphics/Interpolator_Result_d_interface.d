@@ -8,5 +8,5 @@ final class Interpolator_Result : IJavaObject {
 	@Import static import0.Interpolator_Result[] values();
 	@Import static import0.Interpolator_Result valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Interpolator$Result");
+	public static immutable string _javaParameterString = "Landroid/graphics/Interpolator$Result";
 }

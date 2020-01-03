@@ -21,5 +21,5 @@ final class BaseAdapter : IJavaObject {
 	@Import import3.CharSequence[] getAutofillOptions();
 	@Import void setAutofillOptions(import3.CharSequence[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "BaseAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/BaseAdapter";
 }

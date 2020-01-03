@@ -27,5 +27,5 @@ interface Collection : IJavaObject {
 	@Import import3.Spliterator spliterator();
 	@Import import4.Stream stream();
 	@Import import4.Stream parallelStream();
-	mixin JavaPackageId!("java.util", "Collection");
+	public static immutable string _javaParameterString = "Ljava/util/Collection";
 }

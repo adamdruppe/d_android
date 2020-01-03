@@ -11,5 +11,5 @@ final class ImageDecoder_ImageInfo : IJavaObject {
 	@Import bool isAnimated();
 	@Import import1.ColorSpace getColorSpace();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ImageDecoder$ImageInfo");
+	public static immutable string _javaParameterString = "Landroid/graphics/ImageDecoder$ImageInfo";
 }

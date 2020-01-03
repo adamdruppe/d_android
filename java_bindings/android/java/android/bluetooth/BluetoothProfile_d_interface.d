@@ -8,5 +8,5 @@ interface BluetoothProfile : IJavaObject {
 	@Import import0.List getConnectedDevices();
 	@Import import0.List getDevicesMatchingConnectionStates(int[]);
 	@Import int getConnectionState(import1.BluetoothDevice);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothProfile");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothProfile";
 }

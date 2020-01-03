@@ -6,5 +6,5 @@ import import0 = android.java.android.media.ImageWriter_d_interface;
 @JavaName("ImageWriter$OnImageReleasedListener")
 interface ImageWriter_OnImageReleasedListener : IJavaObject {
 	@Import void onImageReleased(import0.ImageWriter);
-	mixin JavaPackageId!("android.media", "ImageWriter$OnImageReleasedListener");
+	public static immutable string _javaParameterString = "Landroid/media/ImageWriter$OnImageReleasedListener";
 }

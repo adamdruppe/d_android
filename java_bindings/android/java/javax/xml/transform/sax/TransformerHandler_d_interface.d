@@ -9,5 +9,5 @@ interface TransformerHandler : IJavaObject {
 	@Import void setSystemId(string);
 	@Import string getSystemId();
 	@Import import1.Transformer getTransformer();
-	mixin JavaPackageId!("javax.xml.transform.sax", "TransformerHandler");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/sax/TransformerHandler";
 }

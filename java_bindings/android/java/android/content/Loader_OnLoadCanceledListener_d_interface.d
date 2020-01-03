@@ -6,5 +6,5 @@ import import0 = android.java.android.content.Loader_d_interface;
 @JavaName("Loader$OnLoadCanceledListener")
 interface Loader_OnLoadCanceledListener : IJavaObject {
 	@Import void onLoadCanceled(import0.Loader);
-	mixin JavaPackageId!("android.content", "Loader$OnLoadCanceledListener");
+	public static immutable string _javaParameterString = "Landroid/content/Loader$OnLoadCanceledListener";
 }

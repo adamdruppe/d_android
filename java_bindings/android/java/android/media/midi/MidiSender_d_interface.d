@@ -9,5 +9,5 @@ final class MidiSender : IJavaObject {
 	@Import void onConnect(import0.MidiReceiver);
 	@Import void onDisconnect(import0.MidiReceiver);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiSender");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiSender";
 }

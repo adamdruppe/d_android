@@ -13,5 +13,5 @@ final class Level : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "Level");
+	public static immutable string _javaParameterString = "Ljava/util/logging/Level";
 }

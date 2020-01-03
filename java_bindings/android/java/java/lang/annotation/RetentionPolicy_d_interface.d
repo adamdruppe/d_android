@@ -7,5 +7,5 @@ final class RetentionPolicy : IJavaObject {
 	@Import static import0.RetentionPolicy[] values();
 	@Import static import0.RetentionPolicy valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.annotation", "RetentionPolicy");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/RetentionPolicy";
 }

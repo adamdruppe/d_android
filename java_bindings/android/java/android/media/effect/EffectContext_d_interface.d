@@ -9,5 +9,5 @@ final class EffectContext : IJavaObject {
 	@Import import1.EffectFactory getFactory();
 	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.effect", "EffectContext");
+	public static immutable string _javaParameterString = "Landroid/media/effect/EffectContext";
 }

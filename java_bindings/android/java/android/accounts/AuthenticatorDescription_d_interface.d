@@ -14,5 +14,5 @@ final class AuthenticatorDescription : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accounts", "AuthenticatorDescription");
+	public static immutable string _javaParameterString = "Landroid/accounts/AuthenticatorDescription";
 }

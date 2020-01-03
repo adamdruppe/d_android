@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ProviderNotFoundException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "ProviderNotFoundException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/ProviderNotFoundException";
 }

@@ -10,5 +10,5 @@ final class SliceMetrics : IJavaObject {
 	@Import void logHidden();
 	@Import void logTouch(int, import1.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.slice", "SliceMetrics");
+	public static immutable string _javaParameterString = "Landroid/app/slice/SliceMetrics";
 }

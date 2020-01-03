@@ -30,5 +30,5 @@ final class PreferenceFragment : IJavaObject {
 	@Import bool onPreferenceTreeClick(import6.PreferenceScreen, import7.Preference);
 	@Import import7.Preference findPreference(import8.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "PreferenceFragment");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceFragment";
 }

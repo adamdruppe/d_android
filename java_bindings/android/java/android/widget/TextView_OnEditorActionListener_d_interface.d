@@ -7,5 +7,5 @@ import import1 = android.java.android.view.KeyEvent_d_interface;
 @JavaName("TextView$OnEditorActionListener")
 interface TextView_OnEditorActionListener : IJavaObject {
 	@Import bool onEditorAction(import0.TextView, int, import1.KeyEvent);
-	mixin JavaPackageId!("android.widget", "TextView$OnEditorActionListener");
+	public static immutable string _javaParameterString = "Landroid/widget/TextView$OnEditorActionListener";
 }

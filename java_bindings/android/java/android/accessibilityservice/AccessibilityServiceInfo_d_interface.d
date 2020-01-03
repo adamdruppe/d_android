@@ -24,5 +24,5 @@ final class AccessibilityServiceInfo : IJavaObject {
 	@Import static string flagToString(int);
 	@Import static string capabilityToString(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityServiceInfo");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityServiceInfo";
 }

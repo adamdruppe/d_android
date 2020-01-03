@@ -8,5 +8,5 @@ final class ContentHandler : IJavaObject {
 	@Import IJavaObject getContent(import0.URLConnection);
 	@Import IJavaObject getContent(import0.URLConnection, import1.Class[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "ContentHandler");
+	public static immutable string _javaParameterString = "Ljava/net/ContentHandler";
 }

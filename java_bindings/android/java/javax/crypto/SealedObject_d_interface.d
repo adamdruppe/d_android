@@ -12,5 +12,5 @@ final class SealedObject : IJavaObject {
 	@Import IJavaObject getObject(import1.Cipher);
 	@Import IJavaObject getObject(import2.Key, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "SealedObject");
+	public static immutable string _javaParameterString = "Ljavax/crypto/SealedObject";
 }

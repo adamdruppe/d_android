@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Channel : IJavaObject {
 	@Import bool isOpen();
 	@Import void close();
-	mixin JavaPackageId!("java.nio.channels", "Channel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/Channel";
 }

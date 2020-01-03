@@ -18,5 +18,5 @@ final class LocaleSpan : IJavaObject {
 	@Import void updateDrawState(import3.TextPaint);
 	@Import void updateMeasureState(import3.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "LocaleSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/LocaleSpan";
 }

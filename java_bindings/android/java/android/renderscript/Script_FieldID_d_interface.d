@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Script$FieldID")
 final class Script_FieldID : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Script$FieldID");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Script$FieldID";
 }

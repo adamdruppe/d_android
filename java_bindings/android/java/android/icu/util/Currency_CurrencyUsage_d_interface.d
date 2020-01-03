@@ -8,5 +8,5 @@ final class Currency_CurrencyUsage : IJavaObject {
 	@Import static import0.Currency_CurrencyUsage[] values();
 	@Import static import0.Currency_CurrencyUsage valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "Currency$CurrencyUsage");
+	public static immutable string _javaParameterString = "Landroid/icu/util/Currency$CurrencyUsage";
 }

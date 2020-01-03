@@ -17,5 +17,5 @@ interface SecureDirectoryStream : IJavaObject {
 	@Import void move(IJavaObject, import0.SecureDirectoryStream, IJavaObject);
 	@Import import5.FileAttributeView getFileAttributeView(import6.Class);
 	@Import import5.FileAttributeView getFileAttributeView(IJavaObject, import6.Class, import1.LinkOption[]);
-	mixin JavaPackageId!("java.nio.file", "SecureDirectoryStream");
+	public static immutable string _javaParameterString = "Ljava/nio/file/SecureDirectoryStream";
 }

@@ -14,5 +14,5 @@ final class CellInfoCdma : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CellInfoCdma");
+	public static immutable string _javaParameterString = "Landroid/telephony/CellInfoCdma";
 }

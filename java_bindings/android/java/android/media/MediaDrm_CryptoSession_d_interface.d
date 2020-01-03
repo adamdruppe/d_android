@@ -8,5 +8,5 @@ final class MediaDrm_CryptoSession : IJavaObject {
 	@Import byte[] sign(byte, byte[][]);
 	@Import bool verify(byte, byte, byte[][][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDrm$CryptoSession");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$CryptoSession";
 }

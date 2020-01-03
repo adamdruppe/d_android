@@ -12,5 +12,5 @@ final class ColorSpace_Connector : IJavaObject {
 	@Import float[] transform(float, float, float);
 	@Import float[] transform(float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorSpace$Connector");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorSpace$Connector";
 }

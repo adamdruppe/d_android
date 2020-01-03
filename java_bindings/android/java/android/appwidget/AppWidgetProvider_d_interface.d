@@ -15,5 +15,5 @@ final class AppWidgetProvider : IJavaObject {
 	@Import void onDisabled(import0.Context);
 	@Import void onRestored(import0.Context, int, int[][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.appwidget", "AppWidgetProvider");
+	public static immutable string _javaParameterString = "Landroid/appwidget/AppWidgetProvider";
 }

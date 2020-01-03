@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ScriptGroup$Future")
 final class ScriptGroup_Future : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptGroup$Future");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptGroup$Future";
 }

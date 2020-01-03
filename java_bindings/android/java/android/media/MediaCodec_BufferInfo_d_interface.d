@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MediaCodec_BufferInfo : IJavaObject {
 	@Import void set(int, int, long, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodec$BufferInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodec$BufferInfo";
 }

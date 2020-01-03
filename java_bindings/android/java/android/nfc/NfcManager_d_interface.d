@@ -6,5 +6,5 @@ import import0 = android.java.android.nfc.NfcAdapter_d_interface;
 final class NfcManager : IJavaObject {
 	@Import import0.NfcAdapter getDefaultAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc", "NfcManager");
+	public static immutable string _javaParameterString = "Landroid/nfc/NfcManager";
 }

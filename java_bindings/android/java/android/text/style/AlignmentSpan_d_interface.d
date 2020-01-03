@@ -5,5 +5,5 @@ import import0 = android.java.android.text.Layout_Alignment_d_interface;
 
 interface AlignmentSpan : IJavaObject {
 	@Import import0.Layout_Alignment getAlignment();
-	mixin JavaPackageId!("android.text.style", "AlignmentSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/AlignmentSpan";
 }

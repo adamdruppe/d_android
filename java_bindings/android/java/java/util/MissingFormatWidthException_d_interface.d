@@ -6,5 +6,5 @@ final class MissingFormatWidthException : IJavaObject {
 	@Import string getFormatSpecifier();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "MissingFormatWidthException");
+	public static immutable string _javaParameterString = "Ljava/util/MissingFormatWidthException";
 }

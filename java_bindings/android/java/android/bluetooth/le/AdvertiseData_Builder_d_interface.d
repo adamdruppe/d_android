@@ -14,5 +14,5 @@ final class AdvertiseData_Builder : IJavaObject {
 	@Import import0.AdvertiseData_Builder setIncludeDeviceName(bool);
 	@Import import2.AdvertiseData build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertiseData$Builder");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertiseData$Builder";
 }

@@ -8,5 +8,5 @@ final class UnicodeSetSpanner_CountMethod : IJavaObject {
 	@Import static import0.UnicodeSetSpanner_CountMethod[] values();
 	@Import static import0.UnicodeSetSpanner_CountMethod valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSetSpanner$CountMethod");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSetSpanner$CountMethod";
 }

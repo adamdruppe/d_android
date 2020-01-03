@@ -16,5 +16,5 @@ final class PictureDrawable : IJavaObject {
 	@Import void setColorFilter(import2.ColorFilter);
 	@Import void setAlpha(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "PictureDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/PictureDrawable";
 }

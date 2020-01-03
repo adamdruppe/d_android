@@ -29,5 +29,5 @@ final class Network : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "Network");
+	public static immutable string _javaParameterString = "Landroid/net/Network";
 }

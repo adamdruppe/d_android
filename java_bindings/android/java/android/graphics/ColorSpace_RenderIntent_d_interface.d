@@ -8,5 +8,5 @@ final class ColorSpace_RenderIntent : IJavaObject {
 	@Import static import0.ColorSpace_RenderIntent[] values();
 	@Import static import0.ColorSpace_RenderIntent valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorSpace$RenderIntent");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorSpace$RenderIntent";
 }

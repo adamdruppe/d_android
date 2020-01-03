@@ -8,5 +8,5 @@ final class LocaleDisplayNames_DialectHandling : IJavaObject {
 	@Import static import0.LocaleDisplayNames_DialectHandling[] values();
 	@Import static import0.LocaleDisplayNames_DialectHandling valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "LocaleDisplayNames$DialectHandling");
+	public static immutable string _javaParameterString = "Landroid/icu/text/LocaleDisplayNames$DialectHandling";
 }

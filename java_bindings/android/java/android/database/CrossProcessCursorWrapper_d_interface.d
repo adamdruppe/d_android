@@ -10,5 +10,5 @@ final class CrossProcessCursorWrapper : IJavaObject {
 	@Import import1.CursorWindow getWindow();
 	@Import bool onMove(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "CrossProcessCursorWrapper");
+	public static immutable string _javaParameterString = "Landroid/database/CrossProcessCursorWrapper";
 }

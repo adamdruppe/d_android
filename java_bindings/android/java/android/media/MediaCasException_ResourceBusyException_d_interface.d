@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaCasException$ResourceBusyException")
 final class MediaCasException_ResourceBusyException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCasException$ResourceBusyException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCasException$ResourceBusyException";
 }

@@ -5,5 +5,5 @@ import import0 = android.java.org.w3c.dom.Node_d_interface;
 
 interface UserDataHandler : IJavaObject {
 	@Import void handle(short, string, IJavaObject, import0.Node, import0.Node);
-	mixin JavaPackageId!("org.w3c.dom", "UserDataHandler");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/UserDataHandler";
 }

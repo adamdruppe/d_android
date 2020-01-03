@@ -10,5 +10,5 @@ final class DigitalClock : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet);
 	@Import import2.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "DigitalClock");
+	public static immutable string _javaParameterString = "Landroid/widget/DigitalClock";
 }

@@ -80,5 +80,5 @@ final class DecimalFormatSymbols : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DecimalFormatSymbols");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DecimalFormatSymbols";
 }

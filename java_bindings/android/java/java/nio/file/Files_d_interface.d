@@ -96,5 +96,5 @@ final class Files : IJavaObject {
 	@Import static import24.Stream lines(import1.Path, import20.Charset);
 	@Import static import24.Stream lines(import1.Path);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "Files");
+	public static immutable string _javaParameterString = "Ljava/nio/file/Files";
 }

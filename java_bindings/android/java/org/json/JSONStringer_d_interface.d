@@ -15,5 +15,5 @@ final class JSONStringer : IJavaObject {
 	@Import import0.JSONStringer key(string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.json", "JSONStringer");
+	public static immutable string _javaParameterString = "Lorg/json/JSONStringer";
 }

@@ -21,5 +21,5 @@ final class PreferenceGroup : IJavaObject {
 	@Import import2.Preference findPreference(import3.CharSequence);
 	@Import void notifyDependencyChange(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "PreferenceGroup");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceGroup";
 }

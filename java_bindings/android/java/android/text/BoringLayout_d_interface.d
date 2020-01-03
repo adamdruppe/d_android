@@ -39,5 +39,5 @@ final class BoringLayout : IJavaObject {
 	@Import void draw(import7.Canvas, import8.Path, import9.Paint, int);
 	@Import void ellipsized(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "BoringLayout");
+	public static immutable string _javaParameterString = "Landroid/text/BoringLayout";
 }

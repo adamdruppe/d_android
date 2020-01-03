@@ -42,5 +42,5 @@ final class TrafficStats : IJavaObject {
 	@Import static long getUidUdpTxPackets(int);
 	@Import static long getUidUdpRxPackets(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "TrafficStats");
+	public static immutable string _javaParameterString = "Landroid/net/TrafficStats";
 }

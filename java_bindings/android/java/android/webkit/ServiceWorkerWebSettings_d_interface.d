@@ -11,5 +11,5 @@ final class ServiceWorkerWebSettings : IJavaObject {
 	@Import void setBlockNetworkLoads(bool);
 	@Import bool getBlockNetworkLoads();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "ServiceWorkerWebSettings");
+	public static immutable string _javaParameterString = "Landroid/webkit/ServiceWorkerWebSettings";
 }

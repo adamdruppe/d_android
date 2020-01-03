@@ -15,5 +15,5 @@ final class TransitionManager : IJavaObject {
 	@Import static void beginDelayedTransition(import2.ViewGroup, import1.Transition);
 	@Import static void endTransitions(import2.ViewGroup);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "TransitionManager");
+	public static immutable string _javaParameterString = "Landroid/transition/TransitionManager";
 }

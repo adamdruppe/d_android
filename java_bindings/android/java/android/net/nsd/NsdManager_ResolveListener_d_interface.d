@@ -7,5 +7,5 @@ import import0 = android.java.android.net.nsd.NsdServiceInfo_d_interface;
 interface NsdManager_ResolveListener : IJavaObject {
 	@Import void onResolveFailed(import0.NsdServiceInfo, int);
 	@Import void onServiceResolved(import0.NsdServiceInfo);
-	mixin JavaPackageId!("android.net.nsd", "NsdManager$ResolveListener");
+	public static immutable string _javaParameterString = "Landroid/net/nsd/NsdManager$ResolveListener";
 }

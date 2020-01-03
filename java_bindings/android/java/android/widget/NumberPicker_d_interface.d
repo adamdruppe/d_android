@@ -43,5 +43,5 @@ final class NumberPicker : IJavaObject {
 	@Import void jumpDrawablesToCurrentState();
 	@Import import7.AccessibilityNodeProvider getAccessibilityNodeProvider();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "NumberPicker");
+	public static immutable string _javaParameterString = "Landroid/widget/NumberPicker";
 }

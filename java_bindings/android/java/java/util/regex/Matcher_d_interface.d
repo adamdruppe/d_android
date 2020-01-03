@@ -43,5 +43,5 @@ final class Matcher : IJavaObject {
 	@Import int start(int);
 	@Import int start(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.regex", "Matcher");
+	public static immutable string _javaParameterString = "Ljava/util/regex/Matcher";
 }

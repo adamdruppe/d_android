@@ -15,5 +15,5 @@ final class MemoryHandler : IJavaObject {
 	@Import import1.Level getPushLevel();
 	@Import bool isLoggable(import2.LogRecord);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "MemoryHandler");
+	public static immutable string _javaParameterString = "Ljava/util/logging/MemoryHandler";
 }

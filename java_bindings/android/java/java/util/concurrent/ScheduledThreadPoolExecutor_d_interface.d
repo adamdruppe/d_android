@@ -34,5 +34,5 @@ final class ScheduledThreadPoolExecutor : IJavaObject {
 	@Import import7.List shutdownNow();
 	@Import import8.BlockingQueue getQueue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ScheduledThreadPoolExecutor");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ScheduledThreadPoolExecutor";
 }

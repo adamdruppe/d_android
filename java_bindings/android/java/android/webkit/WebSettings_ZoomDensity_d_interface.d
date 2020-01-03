@@ -8,5 +8,5 @@ final class WebSettings_ZoomDensity : IJavaObject {
 	@Import static import0.WebSettings_ZoomDensity[] values();
 	@Import static import0.WebSettings_ZoomDensity valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebSettings$ZoomDensity");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebSettings$ZoomDensity";
 }

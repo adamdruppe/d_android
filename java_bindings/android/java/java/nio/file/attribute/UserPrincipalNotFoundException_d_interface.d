@@ -5,5 +5,5 @@ final class UserPrincipalNotFoundException : IJavaObject {
 	@Import this(string);
 	@Import string getName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "UserPrincipalNotFoundException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/UserPrincipalNotFoundException";
 }

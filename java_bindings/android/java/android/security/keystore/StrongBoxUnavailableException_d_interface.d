@@ -8,5 +8,5 @@ final class StrongBoxUnavailableException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "StrongBoxUnavailableException");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/StrongBoxUnavailableException";
 }

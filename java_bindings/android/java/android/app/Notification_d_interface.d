@@ -25,5 +25,5 @@ final class Notification : IJavaObject {
 	@Import import3.Icon getLargeIcon();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification");
+	public static immutable string _javaParameterString = "Landroid/app/Notification";
 }

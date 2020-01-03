@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.Class_d_interface;
 interface SocketOption : IJavaObject {
 	@Import string name();
 	@Import import0.Class type();
-	mixin JavaPackageId!("java.net", "SocketOption");
+	public static immutable string _javaParameterString = "Ljava/net/SocketOption";
 }

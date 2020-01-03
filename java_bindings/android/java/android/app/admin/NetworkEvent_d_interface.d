@@ -10,5 +10,5 @@ final class NetworkEvent : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "NetworkEvent");
+	public static immutable string _javaParameterString = "Landroid/app/admin/NetworkEvent";
 }

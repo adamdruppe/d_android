@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ExemptionMechanismSpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "ExemptionMechanismSpi");
+	public static immutable string _javaParameterString = "Ljavax/crypto/ExemptionMechanismSpi";
 }

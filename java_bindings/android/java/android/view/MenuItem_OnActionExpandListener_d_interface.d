@@ -7,5 +7,5 @@ import import0 = android.java.android.view.MenuItem_d_interface;
 interface MenuItem_OnActionExpandListener : IJavaObject {
 	@Import bool onMenuItemActionExpand(import0.MenuItem);
 	@Import bool onMenuItemActionCollapse(import0.MenuItem);
-	mixin JavaPackageId!("android.view", "MenuItem$OnActionExpandListener");
+	public static immutable string _javaParameterString = "Landroid/view/MenuItem$OnActionExpandListener";
 }

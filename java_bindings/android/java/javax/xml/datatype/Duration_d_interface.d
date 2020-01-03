@@ -37,5 +37,5 @@ final class Duration : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.datatype", "Duration");
+	public static immutable string _javaParameterString = "Ljavax/xml/datatype/Duration";
 }

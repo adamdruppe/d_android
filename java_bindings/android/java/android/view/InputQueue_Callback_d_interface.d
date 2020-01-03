@@ -7,5 +7,5 @@ import import0 = android.java.android.view.InputQueue_d_interface;
 interface InputQueue_Callback : IJavaObject {
 	@Import void onInputQueueCreated(import0.InputQueue);
 	@Import void onInputQueueDestroyed(import0.InputQueue);
-	mixin JavaPackageId!("android.view", "InputQueue$Callback");
+	public static immutable string _javaParameterString = "Landroid/view/InputQueue$Callback";
 }

@@ -37,5 +37,5 @@ final class ContentProviderClient : IJavaObject {
 	@Import bool release();
 	@Import import9.ContentProvider getLocalContentProvider();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentProviderClient");
+	public static immutable string _javaParameterString = "Landroid/content/ContentProviderClient";
 }

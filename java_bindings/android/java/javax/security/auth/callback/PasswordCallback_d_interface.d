@@ -9,5 +9,5 @@ final class PasswordCallback : IJavaObject {
 	@Import wchar[] getPassword();
 	@Import void clearPassword();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth.callback", "PasswordCallback");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/callback/PasswordCallback";
 }

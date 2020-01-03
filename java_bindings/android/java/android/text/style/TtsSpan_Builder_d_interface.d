@@ -12,5 +12,5 @@ final class TtsSpan_Builder : IJavaObject {
 	@Import import1.TtsSpan_Builder setIntArgument(string, int);
 	@Import import1.TtsSpan_Builder setLongArgument(string, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$Builder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$Builder";
 }

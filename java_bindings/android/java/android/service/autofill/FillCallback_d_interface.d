@@ -8,5 +8,5 @@ final class FillCallback : IJavaObject {
 	@Import void onSuccess(import0.FillResponse);
 	@Import void onFailure(import1.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "FillCallback");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/FillCallback";
 }

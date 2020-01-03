@@ -25,5 +25,5 @@ final class DynamicLayout_Builder : IJavaObject {
 	@Import import0.DynamicLayout_Builder setJustificationMode(int);
 	@Import import6.DynamicLayout build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "DynamicLayout$Builder");
+	public static immutable string _javaParameterString = "Landroid/text/DynamicLayout$Builder";
 }

@@ -21,5 +21,5 @@ final class SliceManager : IJavaObject {
 	@Import void grantSlicePermission(string, import0.Uri);
 	@Import void revokeSlicePermission(string, import0.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.slice", "SliceManager");
+	public static immutable string _javaParameterString = "Landroid/app/slice/SliceManager";
 }

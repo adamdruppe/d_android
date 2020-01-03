@@ -10,5 +10,5 @@ final class MidiReceiver : IJavaObject {
 	@Import void send(byte, int, int[]);
 	@Import void send(byte, int, int, long[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiReceiver");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiReceiver";
 }

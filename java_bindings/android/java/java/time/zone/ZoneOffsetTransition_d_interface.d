@@ -25,5 +25,5 @@ final class ZoneOffsetTransition : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.zone", "ZoneOffsetTransition");
+	public static immutable string _javaParameterString = "Ljava/time/zone/ZoneOffsetTransition";
 }

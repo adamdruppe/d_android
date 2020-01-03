@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class KeyAgreementSpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "KeyAgreementSpi");
+	public static immutable string _javaParameterString = "Ljavax/crypto/KeyAgreementSpi";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface SuppressWarnings : IJavaObject {
 	@Import string[] value();
-	mixin JavaPackageId!("java.lang", "SuppressWarnings");
+	public static immutable string _javaParameterString = "Ljava/lang/SuppressWarnings";
 }

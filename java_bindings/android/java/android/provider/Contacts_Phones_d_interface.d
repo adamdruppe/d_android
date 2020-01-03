@@ -9,5 +9,5 @@ final class Contacts_Phones : IJavaObject {
 	@Import static import0.CharSequence getDisplayLabel(import1.Context, int, import0.CharSequence, import0.CharSequence[]);
 	@Import static import0.CharSequence getDisplayLabel(import1.Context, int, import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Contacts$Phones");
+	public static immutable string _javaParameterString = "Landroid/provider/Contacts$Phones";
 }

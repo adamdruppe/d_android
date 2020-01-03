@@ -33,5 +33,5 @@ final class AlertDialog : IJavaObject {
 	@Import bool onKeyDown(int, import7.KeyEvent);
 	@Import bool onKeyUp(int, import7.KeyEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AlertDialog");
+	public static immutable string _javaParameterString = "Landroid/app/AlertDialog";
 }

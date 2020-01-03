@@ -13,5 +13,5 @@ final class DigestInputStream : IJavaObject {
 	@Import void on(bool);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "DigestInputStream");
+	public static immutable string _javaParameterString = "Ljava/security/DigestInputStream";
 }

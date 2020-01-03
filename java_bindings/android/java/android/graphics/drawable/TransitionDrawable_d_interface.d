@@ -13,5 +13,5 @@ final class TransitionDrawable : IJavaObject {
 	@Import void setCrossFadeEnabled(bool);
 	@Import bool isCrossFadeEnabled();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "TransitionDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/TransitionDrawable";
 }

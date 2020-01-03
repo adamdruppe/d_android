@@ -19,5 +19,5 @@ final class AtomicReferenceFieldUpdater : IJavaObject {
 	@Import IJavaObject getAndAccumulate(IJavaObject, IJavaObject, import3.BinaryOperator);
 	@Import IJavaObject accumulateAndGet(IJavaObject, IJavaObject, import3.BinaryOperator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicReferenceFieldUpdater");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater";
 }

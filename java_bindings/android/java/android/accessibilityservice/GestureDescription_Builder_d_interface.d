@@ -10,5 +10,5 @@ final class GestureDescription_Builder : IJavaObject {
 	@Import import0.GestureDescription_Builder addStroke(import1.GestureDescription_StrokeDescription);
 	@Import import2.GestureDescription build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "GestureDescription$Builder");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/GestureDescription$Builder";
 }

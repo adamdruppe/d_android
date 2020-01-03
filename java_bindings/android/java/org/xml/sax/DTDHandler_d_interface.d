@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface DTDHandler : IJavaObject {
 	@Import void notationDecl(string, string, string);
 	@Import void unparsedEntityDecl(string, string, string, string);
-	mixin JavaPackageId!("org.xml.sax", "DTDHandler");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/DTDHandler";
 }

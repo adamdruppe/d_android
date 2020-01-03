@@ -8,5 +8,5 @@ final class RuntimeException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "RuntimeException");
+	public static immutable string _javaParameterString = "Ljava/lang/RuntimeException";
 }

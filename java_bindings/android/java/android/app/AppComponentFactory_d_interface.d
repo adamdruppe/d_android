@@ -16,5 +16,5 @@ final class AppComponentFactory : IJavaObject {
 	@Import import5.Service instantiateService(import1.ClassLoader, string, import3.Intent);
 	@Import import6.ContentProvider instantiateProvider(import1.ClassLoader, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AppComponentFactory");
+	public static immutable string _javaParameterString = "Landroid/app/AppComponentFactory";
 }

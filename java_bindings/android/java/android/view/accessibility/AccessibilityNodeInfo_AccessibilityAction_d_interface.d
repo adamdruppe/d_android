@@ -12,5 +12,5 @@ final class AccessibilityNodeInfo_AccessibilityAction : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityNodeInfo$AccessibilityAction");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction";
 }

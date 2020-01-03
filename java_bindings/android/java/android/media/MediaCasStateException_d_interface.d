@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MediaCasStateException : IJavaObject {
 	@Import string getDiagnosticInfo();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCasStateException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCasStateException";
 }

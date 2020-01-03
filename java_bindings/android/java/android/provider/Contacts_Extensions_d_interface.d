@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Contacts$Extensions")
 final class Contacts_Extensions : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Contacts$Extensions");
+	public static immutable string _javaParameterString = "Landroid/provider/Contacts$Extensions";
 }

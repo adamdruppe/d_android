@@ -7,5 +7,5 @@ final class Patterns : IJavaObject {
 	@Import static string concatGroups(import0.Matcher);
 	@Import static string digitsAndPlusOnly(import0.Matcher);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Patterns");
+	public static immutable string _javaParameterString = "Landroid/util/Patterns";
 }

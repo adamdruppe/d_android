@@ -19,5 +19,5 @@ final class AppWidgetHost : IJavaObject {
 	@Import static void deleteAllHosts();
 	@Import import3.AppWidgetHostView createView(import0.Context, int, import4.AppWidgetProviderInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.appwidget", "AppWidgetHost");
+	public static immutable string _javaParameterString = "Landroid/appwidget/AppWidgetHost";
 }

@@ -34,5 +34,5 @@ final class ColorSpace : IJavaObject {
 	@Import static import2.ColorSpace get(import5.ColorSpace_Named);
 	@Import static import2.ColorSpace match(float, import6.ColorSpace_Rgb_TransferParameters[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorSpace");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorSpace";
 }

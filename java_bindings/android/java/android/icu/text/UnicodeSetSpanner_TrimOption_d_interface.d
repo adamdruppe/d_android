@@ -8,5 +8,5 @@ final class UnicodeSetSpanner_TrimOption : IJavaObject {
 	@Import static import0.UnicodeSetSpanner_TrimOption[] values();
 	@Import static import0.UnicodeSetSpanner_TrimOption valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSetSpanner$TrimOption");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSetSpanner$TrimOption";
 }

@@ -8,5 +8,5 @@ final class Attributes_Name : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "Attributes$Name");
+	public static immutable string _javaParameterString = "Ljava/util/jar/Attributes$Name";
 }

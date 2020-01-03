@@ -11,5 +11,5 @@ final class FileWriter : IJavaObject {
 	@Import this(import0.File, bool);
 	@Import this(import1.FileDescriptor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FileWriter");
+	public static immutable string _javaParameterString = "Ljava/io/FileWriter";
 }

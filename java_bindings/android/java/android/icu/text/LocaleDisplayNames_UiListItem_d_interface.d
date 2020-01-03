@@ -12,5 +12,5 @@ final class LocaleDisplayNames_UiListItem : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import static import1.Comparator getComparator(import1.Comparator, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "LocaleDisplayNames$UiListItem");
+	public static immutable string _javaParameterString = "Landroid/icu/text/LocaleDisplayNames$UiListItem";
 }

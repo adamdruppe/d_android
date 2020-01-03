@@ -13,5 +13,5 @@ final class GestureStroke : IJavaObject {
 	@Import void clearPath();
 	@Import import2.OrientedBoundingBox computeOrientedBoundingBox();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "GestureStroke");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureStroke";
 }

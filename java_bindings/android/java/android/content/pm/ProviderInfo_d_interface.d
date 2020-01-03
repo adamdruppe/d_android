@@ -12,5 +12,5 @@ final class ProviderInfo : IJavaObject {
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ProviderInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ProviderInfo";
 }

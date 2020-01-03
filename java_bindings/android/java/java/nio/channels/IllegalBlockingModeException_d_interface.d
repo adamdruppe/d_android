@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class IllegalBlockingModeException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "IllegalBlockingModeException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/IllegalBlockingModeException";
 }

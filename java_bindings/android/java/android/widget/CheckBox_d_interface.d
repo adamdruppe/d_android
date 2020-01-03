@@ -12,5 +12,5 @@ final class CheckBox : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet, int, int);
 	@Import import2.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "CheckBox");
+	public static immutable string _javaParameterString = "Landroid/widget/CheckBox";
 }

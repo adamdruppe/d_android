@@ -17,5 +17,5 @@ final class BroadcastReceiver_PendingResult : IJavaObject {
 	@Import void clearAbortBroadcast();
 	@Import void finish();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "BroadcastReceiver$PendingResult");
+	public static immutable string _javaParameterString = "Landroid/content/BroadcastReceiver$PendingResult";
 }

@@ -7,5 +7,5 @@ final class MediaDrm_KeyRequest : IJavaObject {
 	@Import string getDefaultUrl();
 	@Import int getRequestType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDrm$KeyRequest");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$KeyRequest";
 }

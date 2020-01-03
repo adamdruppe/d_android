@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class FileLockInterruptionException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "FileLockInterruptionException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/FileLockInterruptionException";
 }

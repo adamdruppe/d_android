@@ -7,5 +7,5 @@ interface ParameterizedType : IJavaObject {
 	@Import import0.Type[] getActualTypeArguments();
 	@Import import0.Type getRawType();
 	@Import import0.Type getOwnerType();
-	mixin JavaPackageId!("java.lang.reflect", "ParameterizedType");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/ParameterizedType";
 }

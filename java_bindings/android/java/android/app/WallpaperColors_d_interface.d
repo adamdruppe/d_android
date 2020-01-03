@@ -21,5 +21,5 @@ final class WallpaperColors : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "WallpaperColors");
+	public static immutable string _javaParameterString = "Landroid/app/WallpaperColors";
 }

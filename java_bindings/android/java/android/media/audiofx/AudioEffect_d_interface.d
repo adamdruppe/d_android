@@ -16,5 +16,5 @@ final class AudioEffect : IJavaObject {
 	@Import void setEnableStatusListener(import1.AudioEffect_OnEnableStatusChangeListener);
 	@Import void setControlStatusListener(import2.AudioEffect_OnControlStatusChangeListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "AudioEffect");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/AudioEffect";
 }

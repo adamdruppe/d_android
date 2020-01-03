@@ -7,5 +7,5 @@ final class JsonToken : IJavaObject {
 	@Import static import0.JsonToken[] values();
 	@Import static import0.JsonToken valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "JsonToken");
+	public static immutable string _javaParameterString = "Landroid/util/JsonToken";
 }

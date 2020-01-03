@@ -16,5 +16,5 @@ interface ContentHandler : IJavaObject {
 	@Import void ignorableWhitespace(wchar, int, int[]);
 	@Import void processingInstruction(string, string);
 	@Import void skippedEntity(string);
-	mixin JavaPackageId!("org.xml.sax", "ContentHandler");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ContentHandler";
 }

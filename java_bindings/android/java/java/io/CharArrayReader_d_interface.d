@@ -13,5 +13,5 @@ final class CharArrayReader : IJavaObject {
 	@Import void reset();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "CharArrayReader");
+	public static immutable string _javaParameterString = "Ljava/io/CharArrayReader";
 }

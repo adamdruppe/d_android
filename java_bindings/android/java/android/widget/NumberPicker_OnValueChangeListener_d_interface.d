@@ -6,5 +6,5 @@ import import0 = android.java.android.widget.NumberPicker_d_interface;
 @JavaName("NumberPicker$OnValueChangeListener")
 interface NumberPicker_OnValueChangeListener : IJavaObject {
 	@Import void onValueChange(import0.NumberPicker, int, int);
-	mixin JavaPackageId!("android.widget", "NumberPicker$OnValueChangeListener");
+	public static immutable string _javaParameterString = "Landroid/widget/NumberPicker$OnValueChangeListener";
 }

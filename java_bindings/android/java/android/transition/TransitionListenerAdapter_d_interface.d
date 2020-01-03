@@ -10,5 +10,5 @@ final class TransitionListenerAdapter : IJavaObject {
 	@Import void onTransitionPause(import0.Transition);
 	@Import void onTransitionResume(import0.Transition);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "TransitionListenerAdapter");
+	public static immutable string _javaParameterString = "Landroid/transition/TransitionListenerAdapter";
 }

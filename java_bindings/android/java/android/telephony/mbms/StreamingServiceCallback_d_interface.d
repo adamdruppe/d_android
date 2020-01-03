@@ -8,5 +8,5 @@ final class StreamingServiceCallback : IJavaObject {
 	@Import void onBroadcastSignalStrengthUpdated(int);
 	@Import void onStreamMethodUpdated(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "StreamingServiceCallback");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/StreamingServiceCallback";
 }

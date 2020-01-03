@@ -29,5 +29,5 @@ final class RingtoneManager : IJavaObject {
 	@Import static int getDefaultType(import4.Uri);
 	@Import static import4.Uri getDefaultUri(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "RingtoneManager");
+	public static immutable string _javaParameterString = "Landroid/media/RingtoneManager";
 }

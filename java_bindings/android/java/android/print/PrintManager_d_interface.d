@@ -10,5 +10,5 @@ final class PrintManager : IJavaObject {
 	@Import import0.List getPrintJobs();
 	@Import import1.PrintJob print(string, import2.PrintDocumentAdapter, import3.PrintAttributes);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintManager");
+	public static immutable string _javaParameterString = "Landroid/print/PrintManager";
 }

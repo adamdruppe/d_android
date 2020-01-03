@@ -33,5 +33,5 @@ final class DoubleBuffer : IJavaObject {
 	@Import IJavaObject array();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "DoubleBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/DoubleBuffer";
 }

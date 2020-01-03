@@ -10,5 +10,5 @@ final class ServiceWorkerController : IJavaObject {
 	@Import import1.ServiceWorkerWebSettings getServiceWorkerWebSettings();
 	@Import void setServiceWorkerClient(import2.ServiceWorkerClient);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "ServiceWorkerController");
+	public static immutable string _javaParameterString = "Landroid/webkit/ServiceWorkerController";
 }

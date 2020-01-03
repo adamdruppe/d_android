@@ -7,5 +7,5 @@ final class SQLiteClosable : IJavaObject {
 	@Import void releaseReferenceFromContainer();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteClosable");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteClosable";
 }

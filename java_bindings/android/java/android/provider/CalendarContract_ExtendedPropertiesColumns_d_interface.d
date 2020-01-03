@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("CalendarContract$ExtendedPropertiesColumns")
 interface CalendarContract_ExtendedPropertiesColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "CalendarContract$ExtendedPropertiesColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$ExtendedPropertiesColumns";
 }

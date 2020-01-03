@@ -19,5 +19,5 @@ final class HebrewCalendar : IJavaObject {
 	@Import void roll(int, int);
 	@Import string getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "HebrewCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/HebrewCalendar";
 }

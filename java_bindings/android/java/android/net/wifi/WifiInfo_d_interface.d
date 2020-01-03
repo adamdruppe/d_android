@@ -21,5 +21,5 @@ final class WifiInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiInfo");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiInfo";
 }

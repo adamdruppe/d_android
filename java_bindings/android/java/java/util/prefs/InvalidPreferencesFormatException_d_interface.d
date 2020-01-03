@@ -8,5 +8,5 @@ final class InvalidPreferencesFormatException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.prefs", "InvalidPreferencesFormatException");
+	public static immutable string _javaParameterString = "Ljava/util/prefs/InvalidPreferencesFormatException";
 }

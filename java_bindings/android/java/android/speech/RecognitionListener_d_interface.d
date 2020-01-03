@@ -13,5 +13,5 @@ interface RecognitionListener : IJavaObject {
 	@Import void onResults(import0.Bundle);
 	@Import void onPartialResults(import0.Bundle);
 	@Import void onEvent(int, import0.Bundle);
-	mixin JavaPackageId!("android.speech", "RecognitionListener");
+	public static immutable string _javaParameterString = "Landroid/speech/RecognitionListener";
 }

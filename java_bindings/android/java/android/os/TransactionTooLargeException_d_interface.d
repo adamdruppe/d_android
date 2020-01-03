@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class TransactionTooLargeException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "TransactionTooLargeException");
+	public static immutable string _javaParameterString = "Landroid/os/TransactionTooLargeException";
 }

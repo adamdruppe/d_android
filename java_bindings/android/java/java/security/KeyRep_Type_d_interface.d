@@ -8,5 +8,5 @@ final class KeyRep_Type : IJavaObject {
 	@Import static import0.KeyRep_Type[] values();
 	@Import static import0.KeyRep_Type valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyRep$Type");
+	public static immutable string _javaParameterString = "Ljava/security/KeyRep$Type";
 }

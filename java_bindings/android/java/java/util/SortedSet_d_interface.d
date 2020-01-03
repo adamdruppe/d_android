@@ -13,5 +13,5 @@ interface SortedSet : IJavaObject {
 	@Import IJavaObject first();
 	@Import IJavaObject last();
 	@Import import2.Spliterator spliterator();
-	mixin JavaPackageId!("java.util", "SortedSet");
+	public static immutable string _javaParameterString = "Ljava/util/SortedSet";
 }

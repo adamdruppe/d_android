@@ -34,5 +34,5 @@ final class BluetoothGatt : IJavaObject {
 	@Import import1.List getConnectedDevices();
 	@Import import1.List getDevicesMatchingConnectionStates(int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothGatt");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothGatt";
 }

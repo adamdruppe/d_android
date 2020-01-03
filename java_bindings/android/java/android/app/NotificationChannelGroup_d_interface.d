@@ -22,5 +22,5 @@ final class NotificationChannelGroup : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "NotificationChannelGroup");
+	public static immutable string _javaParameterString = "Landroid/app/NotificationChannelGroup";
 }

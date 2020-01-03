@@ -14,5 +14,5 @@ final class MidiManager : IJavaObject {
 	@Import void openDevice(import2.MidiDeviceInfo, import3.MidiManager_OnDeviceOpenedListener, import1.Handler);
 	@Import void openBluetoothDevice(import4.BluetoothDevice, import3.MidiManager_OnDeviceOpenedListener, import1.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiManager");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiManager";
 }

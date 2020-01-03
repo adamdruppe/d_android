@@ -13,5 +13,5 @@ final class StringJoiner : IJavaObject {
 	@Import import1.StringJoiner merge(import1.StringJoiner);
 	@Import int length();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "StringJoiner");
+	public static immutable string _javaParameterString = "Ljava/util/StringJoiner";
 }

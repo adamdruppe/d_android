@@ -7,5 +7,5 @@ import import0 = android.java.java.util.List_d_interface;
 final class CameraConstrainedHighSpeedCaptureSession : IJavaObject {
 	@Import import0.List createHighSpeedRequestList(import1.CaptureRequest);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraConstrainedHighSpeedCaptureSession");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraConstrainedHighSpeedCaptureSession";
 }

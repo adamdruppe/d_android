@@ -24,5 +24,5 @@ final class Script : IJavaObject {
 	@Import void getVarV(int, import2.FieldPacker);
 	@Import void setTimeZone(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Script");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Script";
 }

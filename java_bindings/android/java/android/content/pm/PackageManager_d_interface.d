@@ -127,5 +127,5 @@ final class PackageManager : IJavaObject {
 	@Import bool hasSigningCertificate(string, byte, int[]);
 	@Import bool hasSigningCertificate(int, byte, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageManager");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageManager";
 }

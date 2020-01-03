@@ -34,5 +34,5 @@ final class MeasureFormat : IJavaObject {
 	@Import static import0.MeasureFormat getCurrencyFormat();
 	@Import IJavaObject parseObject(string, import8.ParsePosition);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MeasureFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MeasureFormat";
 }

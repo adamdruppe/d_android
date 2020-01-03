@@ -9,5 +9,5 @@ final class MessagePattern_ArgType : IJavaObject {
 	@Import static import0.MessagePattern_ArgType valueOf(string);
 	@Import bool hasPluralStyle();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MessagePattern$ArgType");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MessagePattern$ArgType";
 }

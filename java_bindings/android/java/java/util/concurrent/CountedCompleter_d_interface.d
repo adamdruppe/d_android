@@ -24,5 +24,5 @@ final class CountedCompleter : IJavaObject {
 	@Import void helpComplete(int);
 	@Import IJavaObject getRawResult();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "CountedCompleter");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CountedCompleter";
 }

@@ -9,5 +9,5 @@ interface TextureView_SurfaceTextureListener : IJavaObject {
 	@Import void onSurfaceTextureSizeChanged(import0.SurfaceTexture, int, int);
 	@Import bool onSurfaceTextureDestroyed(import0.SurfaceTexture);
 	@Import void onSurfaceTextureUpdated(import0.SurfaceTexture);
-	mixin JavaPackageId!("android.view", "TextureView$SurfaceTextureListener");
+	public static immutable string _javaParameterString = "Landroid/view/TextureView$SurfaceTextureListener";
 }

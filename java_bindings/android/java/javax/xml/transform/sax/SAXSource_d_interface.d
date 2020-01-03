@@ -16,5 +16,5 @@ final class SAXSource : IJavaObject {
 	@Import string getSystemId();
 	@Import static import1.InputSource sourceToInputSource(import2.Source);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform.sax", "SAXSource");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/sax/SAXSource";
 }

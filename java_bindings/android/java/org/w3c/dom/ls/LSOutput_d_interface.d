@@ -13,5 +13,5 @@ interface LSOutput : IJavaObject {
 	@Import void setSystemId(string);
 	@Import string getEncoding();
 	@Import void setEncoding(string);
-	mixin JavaPackageId!("org.w3c.dom.ls", "LSOutput");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/LSOutput";
 }

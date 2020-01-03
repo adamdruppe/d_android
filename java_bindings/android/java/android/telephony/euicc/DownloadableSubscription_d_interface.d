@@ -11,5 +11,5 @@ final class DownloadableSubscription : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.euicc", "DownloadableSubscription");
+	public static immutable string _javaParameterString = "Landroid/telephony/euicc/DownloadableSubscription";
 }

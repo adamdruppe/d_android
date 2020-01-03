@@ -14,5 +14,5 @@ final class CellInfoLte : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CellInfoLte");
+	public static immutable string _javaParameterString = "Landroid/telephony/CellInfoLte";
 }

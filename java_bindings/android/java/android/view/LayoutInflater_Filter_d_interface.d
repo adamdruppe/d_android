@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.Class_d_interface;
 @JavaName("LayoutInflater$Filter")
 interface LayoutInflater_Filter : IJavaObject {
 	@Import bool onLoadClass(import0.Class);
-	mixin JavaPackageId!("android.view", "LayoutInflater$Filter");
+	public static immutable string _javaParameterString = "Landroid/view/LayoutInflater$Filter";
 }

@@ -28,5 +28,5 @@ final class ContentProviderOperation : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentProviderOperation");
+	public static immutable string _javaParameterString = "Landroid/content/ContentProviderOperation";
 }

@@ -18,5 +18,5 @@ final class CarrierIdentifier : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.carrier", "CarrierIdentifier");
+	public static immutable string _javaParameterString = "Landroid/service/carrier/CarrierIdentifier";
 }

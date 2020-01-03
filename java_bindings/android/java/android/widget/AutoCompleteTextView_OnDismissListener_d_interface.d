@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AutoCompleteTextView$OnDismissListener")
 interface AutoCompleteTextView_OnDismissListener : IJavaObject {
 	@Import void onDismiss();
-	mixin JavaPackageId!("android.widget", "AutoCompleteTextView$OnDismissListener");
+	public static immutable string _javaParameterString = "Landroid/widget/AutoCompleteTextView$OnDismissListener";
 }

@@ -14,9 +14,9 @@ final class TrustManagerFactory : IJavaObject {
 	@Import static import0.TrustManagerFactory getInstance(string, string);
 	@Import static import0.TrustManagerFactory getInstance(string, import1.Provider);
 	@Import import1.Provider getProvider();
-	@Import void init(import2.KeyStore);
-	@Import void init(import3.ManagerFactoryParameters);
+	@Import @JavaName("init") void init_(import2.KeyStore);
+	@Import @JavaName("init") void init_(import3.ManagerFactoryParameters);
 	@Import import4.TrustManager[] getTrustManagers();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "TrustManagerFactory");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/TrustManagerFactory";
 }

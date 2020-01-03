@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class SecureClassLoader : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "SecureClassLoader");
+	public static immutable string _javaParameterString = "Ljava/security/SecureClassLoader";
 }

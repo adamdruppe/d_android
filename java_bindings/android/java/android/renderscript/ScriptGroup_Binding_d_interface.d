@@ -7,5 +7,5 @@ import import0 = android.java.android.renderscript.Script_FieldID_d_interface;
 final class ScriptGroup_Binding : IJavaObject {
 	@Import this(import0.Script_FieldID, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptGroup$Binding");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptGroup$Binding";
 }

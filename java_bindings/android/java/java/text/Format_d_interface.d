@@ -14,5 +14,5 @@ final class Format : IJavaObject {
 	@Import IJavaObject parseObject(string);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "Format");
+	public static immutable string _javaParameterString = "Ljava/text/Format";
 }

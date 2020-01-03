@@ -19,5 +19,5 @@ final class StorageVolume : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.storage", "StorageVolume");
+	public static immutable string _javaParameterString = "Landroid/os/storage/StorageVolume";
 }

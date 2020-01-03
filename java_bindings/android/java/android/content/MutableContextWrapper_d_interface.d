@@ -7,5 +7,5 @@ final class MutableContextWrapper : IJavaObject {
 	@Import this(import0.Context);
 	@Import void setBaseContext(import0.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "MutableContextWrapper");
+	public static immutable string _javaParameterString = "Landroid/content/MutableContextWrapper";
 }

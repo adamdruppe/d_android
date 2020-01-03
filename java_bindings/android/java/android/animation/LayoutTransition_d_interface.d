@@ -36,5 +36,5 @@ final class LayoutTransition : IJavaObject {
 	@Import void removeTransitionListener(import4.LayoutTransition_TransitionListener);
 	@Import import5.List getTransitionListeners();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "LayoutTransition");
+	public static immutable string _javaParameterString = "Landroid/animation/LayoutTransition";
 }

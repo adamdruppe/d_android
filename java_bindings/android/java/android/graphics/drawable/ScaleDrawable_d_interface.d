@@ -15,5 +15,5 @@ final class ScaleDrawable : IJavaObject {
 	@Import void draw(import5.Canvas);
 	@Import int getOpacity();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "ScaleDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/ScaleDrawable";
 }

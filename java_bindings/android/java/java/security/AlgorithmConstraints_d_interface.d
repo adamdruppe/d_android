@@ -9,5 +9,5 @@ interface AlgorithmConstraints : IJavaObject {
 	@Import bool permits(import0.Set, string, import1.AlgorithmParameters);
 	@Import bool permits(import0.Set, import2.Key);
 	@Import bool permits(import0.Set, string, import2.Key, import1.AlgorithmParameters);
-	mixin JavaPackageId!("java.security", "AlgorithmConstraints");
+	public static immutable string _javaParameterString = "Ljava/security/AlgorithmConstraints";
 }

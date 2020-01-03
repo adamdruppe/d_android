@@ -12,5 +12,5 @@ final class Signer : IJavaObject {
 	@Import void setKeyPair(import2.KeyPair);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Signer");
+	public static immutable string _javaParameterString = "Ljava/security/Signer";
 }

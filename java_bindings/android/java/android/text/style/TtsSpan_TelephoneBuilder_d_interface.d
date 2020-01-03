@@ -10,5 +10,5 @@ final class TtsSpan_TelephoneBuilder : IJavaObject {
 	@Import import0.TtsSpan_TelephoneBuilder setNumberParts(string);
 	@Import import0.TtsSpan_TelephoneBuilder setExtension(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$TelephoneBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$TelephoneBuilder";
 }

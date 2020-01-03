@@ -18,5 +18,5 @@ final class SynthesisRequest : IJavaObject {
 	@Import import0.Bundle getParams();
 	@Import int getCallerUid();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech.tts", "SynthesisRequest");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/SynthesisRequest";
 }

@@ -59,5 +59,5 @@ final class Location : IJavaObject {
 	@Import void writeToParcel(import3.Parcel, int);
 	@Import bool isFromMockProvider();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "Location");
+	public static immutable string _javaParameterString = "Landroid/location/Location";
 }

@@ -11,5 +11,5 @@ final class PipedWriter : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "PipedWriter");
+	public static immutable string _javaParameterString = "Ljava/io/PipedWriter";
 }

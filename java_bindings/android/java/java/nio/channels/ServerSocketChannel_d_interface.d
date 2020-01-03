@@ -20,5 +20,5 @@ final class ServerSocketChannel : IJavaObject {
 	@Import import5.NetworkChannel setOption(import2.SocketOption, IJavaObject);
 	@Import import5.NetworkChannel bind(import1.SocketAddress);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "ServerSocketChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/ServerSocketChannel";
 }

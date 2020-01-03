@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ActivityNotFoundException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ActivityNotFoundException");
+	public static immutable string _javaParameterString = "Landroid/content/ActivityNotFoundException";
 }

@@ -19,5 +19,5 @@ final class InputSource : IJavaObject {
 	@Import void setCharacterStream(import1.Reader);
 	@Import import1.Reader getCharacterStream();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax", "InputSource");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/InputSource";
 }

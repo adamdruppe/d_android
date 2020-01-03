@@ -22,5 +22,5 @@ final class Condition : IJavaObject {
 	@Import static import3.Uri_Builder newId(import4.Context);
 	@Import static bool isValidId(import0.Uri, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.notification", "Condition");
+	public static immutable string _javaParameterString = "Landroid/service/notification/Condition";
 }

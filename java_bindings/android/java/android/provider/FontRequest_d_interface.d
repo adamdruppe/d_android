@@ -12,5 +12,5 @@ final class FontRequest : IJavaObject {
 	@Import import0.List getCertificates();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "FontRequest");
+	public static immutable string _javaParameterString = "Landroid/provider/FontRequest";
 }

@@ -19,5 +19,5 @@ final class MediaController_Callback : IJavaObject {
 	@Import void onExtrasChanged(import0.Bundle);
 	@Import void onAudioInfoChanged(import5.MediaController_PlaybackInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaController$Callback");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaController$Callback";
 }

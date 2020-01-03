@@ -32,5 +32,5 @@ final class Formatter : IJavaObject {
 	@Import import6.Formatter format(string, IJavaObject[]);
 	@Import import6.Formatter format(import1.Locale, string, IJavaObject[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Formatter");
+	public static immutable string _javaParameterString = "Ljava/util/Formatter";
 }

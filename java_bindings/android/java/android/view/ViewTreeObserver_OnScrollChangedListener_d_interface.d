@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ViewTreeObserver$OnScrollChangedListener")
 interface ViewTreeObserver_OnScrollChangedListener : IJavaObject {
 	@Import void onScrollChanged();
-	mixin JavaPackageId!("android.view", "ViewTreeObserver$OnScrollChangedListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewTreeObserver$OnScrollChangedListener";
 }

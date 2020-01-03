@@ -11,5 +11,5 @@ final class BiometricPrompt_AuthenticationCallback : IJavaObject {
 	@Import void onAuthenticationSucceeded(import1.BiometricPrompt_AuthenticationResult);
 	@Import void onAuthenticationFailed();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.biometrics", "BiometricPrompt$AuthenticationCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/biometrics/BiometricPrompt$AuthenticationCallback";
 }

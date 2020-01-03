@@ -15,5 +15,5 @@ final class ImageSwitcher : IJavaObject {
 	@Import void setImageDrawable(import3.Drawable);
 	@Import import4.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ImageSwitcher");
+	public static immutable string _javaParameterString = "Landroid/widget/ImageSwitcher";
 }

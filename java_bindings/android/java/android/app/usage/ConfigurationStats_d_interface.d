@@ -16,5 +16,5 @@ final class ConfigurationStats : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "ConfigurationStats");
+	public static immutable string _javaParameterString = "Landroid/app/usage/ConfigurationStats";
 }

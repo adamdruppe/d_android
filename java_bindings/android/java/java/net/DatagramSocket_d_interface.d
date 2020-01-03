@@ -42,5 +42,5 @@ final class DatagramSocket : IJavaObject {
 	@Import import3.DatagramChannel getChannel();
 	@Import static void setDatagramSocketImplFactory(import4.DatagramSocketImplFactory);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "DatagramSocket");
+	public static immutable string _javaParameterString = "Ljava/net/DatagramSocket";
 }

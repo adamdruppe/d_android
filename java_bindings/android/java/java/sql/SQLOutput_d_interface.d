@@ -46,5 +46,5 @@ interface SQLOutput : IJavaObject {
 	@Import void writeNClob(import13.NClob);
 	@Import void writeRowId(import14.RowId);
 	@Import void writeSQLXML(import15.SQLXML);
-	mixin JavaPackageId!("java.sql", "SQLOutput");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLOutput";
 }

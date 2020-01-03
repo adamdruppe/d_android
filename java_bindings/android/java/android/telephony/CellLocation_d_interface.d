@@ -7,5 +7,5 @@ final class CellLocation : IJavaObject {
 	@Import static void requestLocationUpdate();
 	@Import static import0.CellLocation getEmpty();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CellLocation");
+	public static immutable string _javaParameterString = "Landroid/telephony/CellLocation";
 }

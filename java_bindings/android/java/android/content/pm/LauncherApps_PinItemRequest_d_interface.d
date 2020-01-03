@@ -19,5 +19,5 @@ final class LauncherApps_PinItemRequest : IJavaObject {
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "LauncherApps$PinItemRequest");
+	public static immutable string _javaParameterString = "Landroid/content/pm/LauncherApps$PinItemRequest";
 }

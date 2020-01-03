@@ -16,5 +16,5 @@ final class TrustAnchor : IJavaObject {
 	@Import byte[] getNameConstraints();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "TrustAnchor");
+	public static immutable string _javaParameterString = "Ljava/security/cert/TrustAnchor";
 }

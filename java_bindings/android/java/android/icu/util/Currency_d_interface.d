@@ -36,5 +36,5 @@ final class Currency : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import static bool isAvailable(string, import3.Date, import3.Date);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "Currency");
+	public static immutable string _javaParameterString = "Landroid/icu/util/Currency";
 }

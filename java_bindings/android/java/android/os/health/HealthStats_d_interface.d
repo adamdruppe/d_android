@@ -29,5 +29,5 @@ final class HealthStats : IJavaObject {
 	@Import int getMeasurementsKeyCount();
 	@Import int getMeasurementsKeyAt(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.health", "HealthStats");
+	public static immutable string _javaParameterString = "Landroid/os/health/HealthStats";
 }

@@ -7,5 +7,5 @@ import import0 = android.java.android.view.View_d_interface;
 interface ViewGroup_OnHierarchyChangeListener : IJavaObject {
 	@Import void onChildViewAdded(import0.View, import0.View);
 	@Import void onChildViewRemoved(import0.View, import0.View);
-	mixin JavaPackageId!("android.view", "ViewGroup$OnHierarchyChangeListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewGroup$OnHierarchyChangeListener";
 }

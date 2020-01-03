@@ -12,5 +12,5 @@ interface Driver : IJavaObject {
 	@Import int getMajorVersion();
 	@Import int getMinorVersion();
 	@Import bool jdbcCompliant();
-	mixin JavaPackageId!("java.sql", "Driver");
+	public static immutable string _javaParameterString = "Ljava/sql/Driver";
 }

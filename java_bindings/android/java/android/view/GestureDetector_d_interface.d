@@ -21,5 +21,5 @@ final class GestureDetector : IJavaObject {
 	@Import bool onTouchEvent(import5.MotionEvent);
 	@Import bool onGenericMotionEvent(import5.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "GestureDetector");
+	public static immutable string _javaParameterString = "Landroid/view/GestureDetector";
 }

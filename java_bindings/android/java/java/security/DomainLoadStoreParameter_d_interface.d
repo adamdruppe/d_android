@@ -11,5 +11,5 @@ final class DomainLoadStoreParameter : IJavaObject {
 	@Import import1.Map getProtectionParams();
 	@Import import2.KeyStore_ProtectionParameter getProtectionParameter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "DomainLoadStoreParameter");
+	public static immutable string _javaParameterString = "Ljava/security/DomainLoadStoreParameter";
 }

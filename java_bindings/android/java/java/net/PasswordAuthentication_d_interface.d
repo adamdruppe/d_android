@@ -6,5 +6,5 @@ final class PasswordAuthentication : IJavaObject {
 	@Import string getUserName();
 	@Import wchar[] getPassword();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "PasswordAuthentication");
+	public static immutable string _javaParameterString = "Ljava/net/PasswordAuthentication";
 }

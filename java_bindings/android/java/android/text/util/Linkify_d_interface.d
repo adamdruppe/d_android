@@ -17,5 +17,5 @@ final class Linkify : IJavaObject {
 	@Import static bool addLinks(import0.Spannable, import2.Pattern, string, import3.Linkify_MatchFilter, import4.Linkify_TransformFilter);
 	@Import static bool addLinks(import0.Spannable, import2.Pattern, string, string, import3.Linkify_MatchFilter, import4.Linkify_TransformFilter[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.util", "Linkify");
+	public static immutable string _javaParameterString = "Landroid/text/util/Linkify";
 }

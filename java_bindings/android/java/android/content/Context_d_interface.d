@@ -160,5 +160,5 @@ final class Context : IJavaObject {
 	@Import bool isRestricted();
 	@Import bool isDeviceProtectedStorage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Context");
+	public static immutable string _javaParameterString = "Landroid/content/Context";
 }

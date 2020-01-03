@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ActionProvider$VisibilityListener")
 interface ActionProvider_VisibilityListener : IJavaObject {
 	@Import void onActionProviderVisibilityChanged(bool);
-	mixin JavaPackageId!("android.view", "ActionProvider$VisibilityListener");
+	public static immutable string _javaParameterString = "Landroid/view/ActionProvider$VisibilityListener";
 }

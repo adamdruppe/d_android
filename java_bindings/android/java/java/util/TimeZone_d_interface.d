@@ -31,5 +31,5 @@ final class TimeZone : IJavaObject {
 	@Import bool hasSameRules(import2.TimeZone);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "TimeZone");
+	public static immutable string _javaParameterString = "Ljava/util/TimeZone";
 }

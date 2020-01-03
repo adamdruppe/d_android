@@ -17,5 +17,5 @@ final class TypefaceSpan : IJavaObject {
 	@Import void updateDrawState(import2.TextPaint);
 	@Import void updateMeasureState(import2.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TypefaceSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/TypefaceSpan";
 }

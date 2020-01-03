@@ -53,5 +53,5 @@ final class SearchView : IJavaObject {
 	@Import void onActionViewExpanded();
 	@Import import9.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "SearchView");
+	public static immutable string _javaParameterString = "Landroid/widget/SearchView";
 }

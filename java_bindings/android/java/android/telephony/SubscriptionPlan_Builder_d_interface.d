@@ -17,5 +17,5 @@ final class SubscriptionPlan_Builder : IJavaObject {
 	@Import import0.SubscriptionPlan_Builder setDataLimit(long, int);
 	@Import import0.SubscriptionPlan_Builder setDataUsage(long, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SubscriptionPlan$Builder");
+	public static immutable string _javaParameterString = "Landroid/telephony/SubscriptionPlan$Builder";
 }

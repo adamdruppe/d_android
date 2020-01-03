@@ -87,5 +87,5 @@ final class Collections : IJavaObject {
 	@Import static import4.Set newSetFromMap(import7.Map);
 	@Import static import11.Queue asLifoQueue(import16.Deque);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Collections");
+	public static immutable string _javaParameterString = "Ljava/util/Collections";
 }

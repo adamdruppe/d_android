@@ -17,5 +17,5 @@ final class TaiwanCalendar : IJavaObject {
 	@Import this(int, int, int, int, int, int);
 	@Import string getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "TaiwanCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/TaiwanCalendar";
 }

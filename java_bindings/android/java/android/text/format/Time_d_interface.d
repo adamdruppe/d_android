@@ -33,5 +33,5 @@ final class Time : IJavaObject {
 	@Import static int getWeeksSinceEpochFromJulianDay(int, int);
 	@Import static int getJulianMondayFromWeeksSinceEpoch(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.format", "Time");
+	public static immutable string _javaParameterString = "Landroid/text/format/Time";
 }

@@ -6,5 +6,5 @@ final class EGLObjectHandle : IJavaObject {
 	@Import long getNativeHandle();
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "EGLObjectHandle");
+	public static immutable string _javaParameterString = "Landroid/opengl/EGLObjectHandle";
 }

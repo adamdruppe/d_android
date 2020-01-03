@@ -10,5 +10,5 @@ final class TextClassificationContext_Builder : IJavaObject {
 	@Import import0.TextClassificationContext_Builder setWidgetVersion(string);
 	@Import import1.TextClassificationContext build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassificationContext$Builder");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassificationContext$Builder";
 }

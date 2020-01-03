@@ -16,5 +16,5 @@ final class LocationProvider : IJavaObject {
 	@Import int getPowerRequirement();
 	@Import int getAccuracy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "LocationProvider");
+	public static immutable string _javaParameterString = "Landroid/location/LocationProvider";
 }

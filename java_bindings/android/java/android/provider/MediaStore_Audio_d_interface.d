@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MediaStore_Audio : IJavaObject {
 	@Import static string keyFor(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Audio");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Audio";
 }

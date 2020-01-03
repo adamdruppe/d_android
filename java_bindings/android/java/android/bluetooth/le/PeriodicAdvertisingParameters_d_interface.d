@@ -9,5 +9,5 @@ final class PeriodicAdvertisingParameters : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "PeriodicAdvertisingParameters");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/PeriodicAdvertisingParameters";
 }

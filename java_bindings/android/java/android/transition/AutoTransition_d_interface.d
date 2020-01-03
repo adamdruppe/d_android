@@ -7,5 +7,5 @@ import import0 = android.java.android.content.Context_d_interface;
 final class AutoTransition : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "AutoTransition");
+	public static immutable string _javaParameterString = "Landroid/transition/AutoTransition";
 }

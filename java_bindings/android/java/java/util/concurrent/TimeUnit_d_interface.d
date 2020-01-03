@@ -19,5 +19,5 @@ final class TimeUnit : IJavaObject {
 	@Import void timedJoin(import1.Thread, long);
 	@Import void sleep(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "TimeUnit");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/TimeUnit";
 }

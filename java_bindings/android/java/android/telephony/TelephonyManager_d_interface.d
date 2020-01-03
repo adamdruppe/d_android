@@ -104,5 +104,5 @@ final class TelephonyManager : IJavaObject {
 	@Import import17.CharSequence getSimCarrierIdName();
 	@Import import18.SignalStrength getSignalStrength();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "TelephonyManager");
+	public static immutable string _javaParameterString = "Landroid/telephony/TelephonyManager";
 }

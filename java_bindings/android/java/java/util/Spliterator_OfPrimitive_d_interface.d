@@ -10,5 +10,5 @@ interface Spliterator_OfPrimitive : IJavaObject {
 	@Import bool tryAdvance(IJavaObject);
 	@Import void forEachRemaining(IJavaObject);
 	@Import import1.Spliterator trySplit();
-	mixin JavaPackageId!("java.util", "Spliterator$OfPrimitive");
+	public static immutable string _javaParameterString = "Ljava/util/Spliterator$OfPrimitive";
 }

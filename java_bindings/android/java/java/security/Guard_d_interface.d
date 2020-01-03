@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface Guard : IJavaObject {
 	@Import void checkGuard(IJavaObject);
-	mixin JavaPackageId!("java.security", "Guard");
+	public static immutable string _javaParameterString = "Ljava/security/Guard";
 }

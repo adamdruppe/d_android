@@ -7,5 +7,5 @@ import import1 = android.java.android.content.Context_d_interface;
 final class RecognizerIntent : IJavaObject {
 	@Import static import0.Intent getVoiceDetailsIntent(import1.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech", "RecognizerIntent");
+	public static immutable string _javaParameterString = "Landroid/speech/RecognizerIntent";
 }

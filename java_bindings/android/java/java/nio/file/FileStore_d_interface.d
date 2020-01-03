@@ -16,5 +16,5 @@ final class FileStore : IJavaObject {
 	@Import import1.FileStoreAttributeView getFileStoreAttributeView(import0.Class);
 	@Import IJavaObject getAttribute(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "FileStore");
+	public static immutable string _javaParameterString = "Ljava/nio/file/FileStore";
 }

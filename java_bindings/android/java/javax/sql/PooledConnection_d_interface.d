@@ -12,5 +12,5 @@ interface PooledConnection : IJavaObject {
 	@Import void removeConnectionEventListener(import1.ConnectionEventListener);
 	@Import void addStatementEventListener(import2.StatementEventListener);
 	@Import void removeStatementEventListener(import2.StatementEventListener);
-	mixin JavaPackageId!("javax.sql", "PooledConnection");
+	public static immutable string _javaParameterString = "Ljavax/sql/PooledConnection";
 }

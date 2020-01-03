@@ -16,5 +16,5 @@ final class InputStreamReader : IJavaObject {
 	@Import bool ready();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "InputStreamReader");
+	public static immutable string _javaParameterString = "Ljava/io/InputStreamReader";
 }

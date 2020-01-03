@@ -7,5 +7,5 @@ import import1 = android.java.android.net.wifi.p2p.WifiP2pDevice_d_interface;
 @JavaName("WifiP2pManager$UpnpServiceResponseListener")
 interface WifiP2pManager_UpnpServiceResponseListener : IJavaObject {
 	@Import void onUpnpServiceAvailable(import0.List, import1.WifiP2pDevice);
-	mixin JavaPackageId!("android.net.wifi.p2p", "WifiP2pManager$UpnpServiceResponseListener");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/p2p/WifiP2pManager$UpnpServiceResponseListener";
 }

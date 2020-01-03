@@ -24,5 +24,5 @@ final class SuggestionSpan : IJavaObject {
 	@Import int hashCode();
 	@Import void updateDrawState(import4.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "SuggestionSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/SuggestionSpan";
 }

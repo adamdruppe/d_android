@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ToIntBiFunction : IJavaObject {
 	@Import int applyAsInt(IJavaObject, IJavaObject);
-	mixin JavaPackageId!("java.util.function", "ToIntBiFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/ToIntBiFunction";
 }

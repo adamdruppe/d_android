@@ -6,5 +6,5 @@ final class EnvironmentalReverb_Settings : IJavaObject {
 	@Import this(string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "EnvironmentalReverb$Settings");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/EnvironmentalReverb$Settings";
 }

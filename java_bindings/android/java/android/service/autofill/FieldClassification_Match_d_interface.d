@@ -7,5 +7,5 @@ final class FieldClassification_Match : IJavaObject {
 	@Import float getScore();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "FieldClassification$Match");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/FieldClassification$Match";
 }

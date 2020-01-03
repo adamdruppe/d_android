@@ -18,5 +18,5 @@ final class IpSecTransform_Builder : IJavaObject {
 	@Import import1.IpSecTransform_Builder setIpv4Encapsulation(import3.IpSecManager_UdpEncapsulationSocket, int);
 	@Import import4.IpSecTransform buildTransportModeTransform(import5.InetAddress, import6.IpSecManager_SecurityParameterIndex);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "IpSecTransform$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/IpSecTransform$Builder";
 }

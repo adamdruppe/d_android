@@ -6,5 +6,5 @@ interface Checksum : IJavaObject {
 	@Import void update(byte, int, int[]);
 	@Import long getValue();
 	@Import void reset();
-	mixin JavaPackageId!("java.util.zip", "Checksum");
+	public static immutable string _javaParameterString = "Ljava/util/zip/Checksum";
 }

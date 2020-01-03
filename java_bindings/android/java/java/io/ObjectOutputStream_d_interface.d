@@ -30,5 +30,5 @@ final class ObjectOutputStream : IJavaObject {
 	@Import void writeChars(string);
 	@Import void writeUTF(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "ObjectOutputStream");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectOutputStream";
 }

@@ -10,5 +10,5 @@ final class DynamicsProcessing_BandBase : IJavaObject {
 	@Import float getCutoffFrequency();
 	@Import void setCutoffFrequency(float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "DynamicsProcessing$BandBase");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/DynamicsProcessing$BandBase";
 }

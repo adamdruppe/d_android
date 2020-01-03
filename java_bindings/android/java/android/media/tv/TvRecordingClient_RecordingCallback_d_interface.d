@@ -11,5 +11,5 @@ final class TvRecordingClient_RecordingCallback : IJavaObject {
 	@Import void onRecordingStopped(import0.Uri);
 	@Import void onError(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvRecordingClient$RecordingCallback");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvRecordingClient$RecordingCallback";
 }

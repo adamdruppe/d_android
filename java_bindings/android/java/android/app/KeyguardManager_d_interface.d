@@ -19,5 +19,5 @@ final class KeyguardManager : IJavaObject {
 	@Import void requestDismissKeyguard(import3.Activity, import4.KeyguardManager_KeyguardDismissCallback);
 	@Import void exitKeyguardSecurely(import5.KeyguardManager_OnKeyguardExitResult);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "KeyguardManager");
+	public static immutable string _javaParameterString = "Landroid/app/KeyguardManager";
 }

@@ -5,5 +5,5 @@ interface Animatable : IJavaObject {
 	@Import void start();
 	@Import void stop();
 	@Import bool isRunning();
-	mixin JavaPackageId!("android.graphics.drawable", "Animatable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Animatable";
 }

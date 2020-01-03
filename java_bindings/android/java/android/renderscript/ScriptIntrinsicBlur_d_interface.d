@@ -18,5 +18,5 @@ final class ScriptIntrinsicBlur : IJavaObject {
 	@Import import5.Script_KernelID getKernelID();
 	@Import import6.Script_FieldID getFieldID_Input();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicBlur");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicBlur";
 }

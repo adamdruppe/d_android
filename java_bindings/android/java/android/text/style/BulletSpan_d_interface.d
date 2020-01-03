@@ -21,5 +21,5 @@ final class BulletSpan : IJavaObject {
 	@Import int getColor();
 	@Import void drawLeadingMargin(import1.Canvas, import2.Paint, int, int, int, int, int, import3.CharSequence, int, int, bool, import4.Layout);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "BulletSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/BulletSpan";
 }

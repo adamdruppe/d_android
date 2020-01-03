@@ -5,5 +5,5 @@ import import0 = android.java.java.security.spec.ECParameterSpec_d_interface;
 
 interface ECKey : IJavaObject {
 	@Import import0.ECParameterSpec getParams();
-	mixin JavaPackageId!("java.security.interfaces", "ECKey");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/ECKey";
 }

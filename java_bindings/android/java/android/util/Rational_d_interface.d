@@ -23,5 +23,5 @@ final class Rational : IJavaObject {
 	@Import static import0.Rational parseRational(string);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Rational");
+	public static immutable string _javaParameterString = "Landroid/util/Rational";
 }

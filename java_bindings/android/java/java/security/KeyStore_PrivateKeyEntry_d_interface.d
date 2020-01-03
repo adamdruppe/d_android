@@ -15,5 +15,5 @@ final class KeyStore_PrivateKeyEntry : IJavaObject {
 	@Import import2.Set getAttributes();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyStore$PrivateKeyEntry");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$PrivateKeyEntry";
 }

@@ -15,5 +15,5 @@ final class PointerIcon : IJavaObject {
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "PointerIcon");
+	public static immutable string _javaParameterString = "Landroid/view/PointerIcon";
 }

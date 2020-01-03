@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("CertPathValidatorException$Reason")
 interface CertPathValidatorException_Reason : IJavaObject {
-	mixin JavaPackageId!("java.security.cert", "CertPathValidatorException$Reason");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathValidatorException$Reason";
 }

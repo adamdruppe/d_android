@@ -11,5 +11,5 @@ final class InputEvent : IJavaObject {
 	@Import long getEventTime();
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "InputEvent");
+	public static immutable string _javaParameterString = "Landroid/view/InputEvent";
 }

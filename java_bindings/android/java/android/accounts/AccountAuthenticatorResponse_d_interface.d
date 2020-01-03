@@ -12,5 +12,5 @@ final class AccountAuthenticatorResponse : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accounts", "AccountAuthenticatorResponse");
+	public static immutable string _javaParameterString = "Landroid/accounts/AccountAuthenticatorResponse";
 }

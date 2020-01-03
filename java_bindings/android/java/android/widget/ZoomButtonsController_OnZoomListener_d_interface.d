@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface ZoomButtonsController_OnZoomListener : IJavaObject {
 	@Import void onVisibilityChanged(bool);
 	@Import void onZoom(bool);
-	mixin JavaPackageId!("android.widget", "ZoomButtonsController$OnZoomListener");
+	public static immutable string _javaParameterString = "Landroid/widget/ZoomButtonsController$OnZoomListener";
 }

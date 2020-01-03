@@ -30,5 +30,5 @@ final class SipAudioCall : IJavaObject {
 	@Import void sendDtmf(int, import4.Message);
 	@Import void startAudio();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipAudioCall");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipAudioCall";
 }

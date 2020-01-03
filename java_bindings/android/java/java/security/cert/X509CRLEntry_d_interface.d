@@ -17,5 +17,5 @@ final class X509CRLEntry : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import import3.CRLReason getRevocationReason();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "X509CRLEntry");
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509CRLEntry";
 }

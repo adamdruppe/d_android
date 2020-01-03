@@ -15,5 +15,5 @@ final class JarEntry : IJavaObject {
 	@Import import3.Certificate[] getCertificates();
 	@Import import4.CodeSigner[] getCodeSigners();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "JarEntry");
+	public static immutable string _javaParameterString = "Ljava/util/jar/JarEntry";
 }

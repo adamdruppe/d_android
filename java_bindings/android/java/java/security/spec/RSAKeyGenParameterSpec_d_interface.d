@@ -8,5 +8,5 @@ final class RSAKeyGenParameterSpec : IJavaObject {
 	@Import int getKeysize();
 	@Import import0.BigInteger getPublicExponent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "RSAKeyGenParameterSpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/RSAKeyGenParameterSpec";
 }

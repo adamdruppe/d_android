@@ -14,5 +14,5 @@ final class AssistStructure_WindowNode : IJavaObject {
 	@Import int getDisplayId();
 	@Import import1.AssistStructure_ViewNode getRootViewNode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.assist", "AssistStructure$WindowNode");
+	public static immutable string _javaParameterString = "Landroid/app/assist/AssistStructure$WindowNode";
 }

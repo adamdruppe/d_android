@@ -15,5 +15,5 @@ final class BufferedInputStream : IJavaObject {
 	@Import bool markSupported();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "BufferedInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/BufferedInputStream";
 }

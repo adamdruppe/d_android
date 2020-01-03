@@ -13,5 +13,5 @@ final class TracingConfig_Builder : IJavaObject {
 	@Import import1.TracingConfig_Builder addCategories(import2.Collection);
 	@Import import1.TracingConfig_Builder setTracingMode(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "TracingConfig$Builder");
+	public static immutable string _javaParameterString = "Landroid/webkit/TracingConfig$Builder";
 }

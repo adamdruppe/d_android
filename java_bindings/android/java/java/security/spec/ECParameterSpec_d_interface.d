@@ -12,5 +12,5 @@ final class ECParameterSpec : IJavaObject {
 	@Import import2.BigInteger getOrder();
 	@Import int getCofactor();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "ECParameterSpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/ECParameterSpec";
 }

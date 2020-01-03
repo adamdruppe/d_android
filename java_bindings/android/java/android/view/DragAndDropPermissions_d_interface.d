@@ -8,5 +8,5 @@ final class DragAndDropPermissions : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "DragAndDropPermissions");
+	public static immutable string _javaParameterString = "Landroid/view/DragAndDropPermissions";
 }

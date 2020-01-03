@@ -68,5 +68,5 @@ final class AutoCompleteTextView : IJavaObject {
 	@Import import12.AutoCompleteTextView_Validator getValidator();
 	@Import void performValidation();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AutoCompleteTextView");
+	public static immutable string _javaParameterString = "Landroid/widget/AutoCompleteTextView";
 }

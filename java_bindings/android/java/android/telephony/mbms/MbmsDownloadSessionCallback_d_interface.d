@@ -8,5 +8,5 @@ final class MbmsDownloadSessionCallback : IJavaObject {
 	@Import void onFileServicesUpdated(import0.List);
 	@Import void onMiddlewareReady();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "MbmsDownloadSessionCallback");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/MbmsDownloadSessionCallback";
 }

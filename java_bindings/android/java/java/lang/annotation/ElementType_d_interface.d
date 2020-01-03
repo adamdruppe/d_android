@@ -7,5 +7,5 @@ final class ElementType : IJavaObject {
 	@Import static import0.ElementType[] values();
 	@Import static import0.ElementType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.annotation", "ElementType");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/ElementType";
 }

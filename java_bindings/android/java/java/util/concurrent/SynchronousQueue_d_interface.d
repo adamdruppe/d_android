@@ -32,5 +32,5 @@ final class SynchronousQueue : IJavaObject {
 	@Import int drainTo(import1.Collection);
 	@Import int drainTo(import1.Collection, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "SynchronousQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/SynchronousQueue";
 }

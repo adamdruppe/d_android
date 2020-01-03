@@ -6,5 +6,5 @@ import import0 = android.java.android.view.View_d_interface;
 @JavaName("SimpleAdapter$ViewBinder")
 interface SimpleAdapter_ViewBinder : IJavaObject {
 	@Import bool setViewValue(import0.View, IJavaObject, string);
-	mixin JavaPackageId!("android.widget", "SimpleAdapter$ViewBinder");
+	public static immutable string _javaParameterString = "Landroid/widget/SimpleAdapter$ViewBinder";
 }

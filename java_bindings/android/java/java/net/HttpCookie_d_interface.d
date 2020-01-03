@@ -36,5 +36,5 @@ final class HttpCookie : IJavaObject {
 	@Import int hashCode();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "HttpCookie");
+	public static immutable string _javaParameterString = "Ljava/net/HttpCookie";
 }

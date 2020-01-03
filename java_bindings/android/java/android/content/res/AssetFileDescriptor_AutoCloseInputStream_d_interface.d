@@ -15,5 +15,5 @@ final class AssetFileDescriptor_AutoCloseInputStream : IJavaObject {
 	@Import bool markSupported();
 	@Import void reset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "AssetFileDescriptor$AutoCloseInputStream");
+	public static immutable string _javaParameterString = "Landroid/content/res/AssetFileDescriptor$AutoCloseInputStream";
 }

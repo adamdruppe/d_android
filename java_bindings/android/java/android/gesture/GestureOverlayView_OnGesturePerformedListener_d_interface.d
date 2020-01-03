@@ -7,5 +7,5 @@ import import0 = android.java.android.gesture.GestureOverlayView_d_interface;
 @JavaName("GestureOverlayView$OnGesturePerformedListener")
 interface GestureOverlayView_OnGesturePerformedListener : IJavaObject {
 	@Import void onGesturePerformed(import0.GestureOverlayView, import1.Gesture);
-	mixin JavaPackageId!("android.gesture", "GestureOverlayView$OnGesturePerformedListener");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureOverlayView$OnGesturePerformedListener";
 }

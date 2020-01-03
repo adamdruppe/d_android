@@ -8,5 +8,5 @@ interface BasicFileAttributeView : IJavaObject {
 	@Import string name();
 	@Import import0.BasicFileAttributes readAttributes();
 	@Import void setTimes(import1.FileTime, import1.FileTime, import1.FileTime);
-	mixin JavaPackageId!("java.nio.file.attribute", "BasicFileAttributeView");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/BasicFileAttributeView";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("GLES32$DebugProc")
 interface GLES32_DebugProc : IJavaObject {
 	@Import void onMessage(int, int, int, int, string);
-	mixin JavaPackageId!("android.opengl", "GLES32$DebugProc");
+	public static immutable string _javaParameterString = "Landroid/opengl/GLES32$DebugProc";
 }

@@ -89,5 +89,5 @@ final class Notification_Builder : IJavaObject {
 	@Import import13.Notification getNotification();
 	@Import import13.Notification build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$Builder";
 }

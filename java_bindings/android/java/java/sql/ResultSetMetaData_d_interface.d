@@ -23,5 +23,5 @@ interface ResultSetMetaData : IJavaObject {
 	@Import bool isWritable(int);
 	@Import bool isDefinitelyWritable(int);
 	@Import string getColumnClassName(int);
-	mixin JavaPackageId!("java.sql", "ResultSetMetaData");
+	public static immutable string _javaParameterString = "Ljava/sql/ResultSetMetaData";
 }

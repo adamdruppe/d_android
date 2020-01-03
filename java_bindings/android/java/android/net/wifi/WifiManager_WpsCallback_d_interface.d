@@ -7,5 +7,5 @@ final class WifiManager_WpsCallback : IJavaObject {
 	@Import void onSucceeded();
 	@Import void onFailed(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiManager$WpsCallback");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiManager$WpsCallback";
 }

@@ -18,5 +18,5 @@ final class StreamResult : IJavaObject {
 	@Import void setSystemId(import2.File);
 	@Import string getSystemId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform.stream", "StreamResult");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/stream/StreamResult";
 }

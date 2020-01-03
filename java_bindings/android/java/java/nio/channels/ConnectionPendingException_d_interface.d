@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ConnectionPendingException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "ConnectionPendingException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/ConnectionPendingException";
 }

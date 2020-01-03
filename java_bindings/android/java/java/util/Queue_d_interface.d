@@ -8,5 +8,5 @@ interface Queue : IJavaObject {
 	@Import IJavaObject poll();
 	@Import IJavaObject element();
 	@Import IJavaObject peek();
-	mixin JavaPackageId!("java.util", "Queue");
+	public static immutable string _javaParameterString = "Ljava/util/Queue";
 }

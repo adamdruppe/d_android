@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MutableBoolean : IJavaObject {
 	@Import this(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MutableBoolean");
+	public static immutable string _javaParameterString = "Landroid/util/MutableBoolean";
 }

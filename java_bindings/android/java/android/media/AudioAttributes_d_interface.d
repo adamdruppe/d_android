@@ -14,5 +14,5 @@ final class AudioAttributes : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int getVolumeControlStream();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioAttributes");
+	public static immutable string _javaParameterString = "Landroid/media/AudioAttributes";
 }

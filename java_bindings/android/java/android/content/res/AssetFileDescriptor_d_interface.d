@@ -24,5 +24,5 @@ final class AssetFileDescriptor : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import5.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "AssetFileDescriptor");
+	public static immutable string _javaParameterString = "Landroid/content/res/AssetFileDescriptor";
 }

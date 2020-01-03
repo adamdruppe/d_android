@@ -37,5 +37,5 @@ final class SelectionEvent : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "SelectionEvent");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/SelectionEvent";
 }

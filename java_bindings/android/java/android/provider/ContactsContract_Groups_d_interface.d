@@ -8,5 +8,5 @@ import import1 = android.java.android.database.Cursor_d_interface;
 final class ContactsContract_Groups : IJavaObject {
 	@Import static import0.EntityIterator newEntityIterator(import1.Cursor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$Groups");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$Groups";
 }

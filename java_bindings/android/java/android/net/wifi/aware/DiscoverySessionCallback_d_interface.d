@@ -18,5 +18,5 @@ final class DiscoverySessionCallback : IJavaObject {
 	@Import void onMessageSendFailed(int);
 	@Import void onMessageReceived(import2.PeerHandle, byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "DiscoverySessionCallback");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/DiscoverySessionCallback";
 }

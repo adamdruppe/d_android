@@ -15,5 +15,5 @@ final class AudioFormat : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioFormat");
+	public static immutable string _javaParameterString = "Landroid/media/AudioFormat";
 }

@@ -10,5 +10,5 @@ import import3 = android.java.javax.microedition.khronos.egl.EGLConfig_d_interfa
 interface GLSurfaceView_EGLWindowSurfaceFactory : IJavaObject {
 	@Import import0.EGLSurface createWindowSurface(import1.EGL10, import2.EGLDisplay, import3.EGLConfig, IJavaObject);
 	@Import void destroySurface(import1.EGL10, import2.EGLDisplay, import0.EGLSurface);
-	mixin JavaPackageId!("android.opengl", "GLSurfaceView$EGLWindowSurfaceFactory");
+	public static immutable string _javaParameterString = "Landroid/opengl/GLSurfaceView$EGLWindowSurfaceFactory";
 }

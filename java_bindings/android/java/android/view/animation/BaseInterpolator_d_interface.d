@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class BaseInterpolator : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "BaseInterpolator");
+	public static immutable string _javaParameterString = "Landroid/view/animation/BaseInterpolator";
 }

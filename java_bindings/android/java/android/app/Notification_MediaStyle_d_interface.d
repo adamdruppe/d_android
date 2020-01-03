@@ -11,5 +11,5 @@ final class Notification_MediaStyle : IJavaObject {
 	@Import import1.Notification_MediaStyle setShowActionsInCompactView(int[]);
 	@Import import1.Notification_MediaStyle setMediaSession(import2.MediaSession_Token);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$MediaStyle");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$MediaStyle";
 }

@@ -11,5 +11,5 @@ interface ScheduledExecutorService : IJavaObject {
 	@Import import0.ScheduledFuture schedule(import3.Callable, long, import2.TimeUnit);
 	@Import import0.ScheduledFuture scheduleAtFixedRate(import1.Runnable, long, long, import2.TimeUnit);
 	@Import import0.ScheduledFuture scheduleWithFixedDelay(import1.Runnable, long, long, import2.TimeUnit);
-	mixin JavaPackageId!("java.util.concurrent", "ScheduledExecutorService");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ScheduledExecutorService";
 }

@@ -25,5 +25,5 @@ final class ChronoField : IJavaObject {
 	@Import import5.Temporal adjustInto(import5.Temporal, long);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "ChronoField");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/ChronoField";
 }

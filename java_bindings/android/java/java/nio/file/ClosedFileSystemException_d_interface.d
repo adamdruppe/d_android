@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ClosedFileSystemException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "ClosedFileSystemException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/ClosedFileSystemException";
 }

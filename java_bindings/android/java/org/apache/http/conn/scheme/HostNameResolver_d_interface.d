@@ -5,5 +5,5 @@ import import0 = android.java.java.net.InetAddress_d_interface;
 
 interface HostNameResolver : IJavaObject {
 	@Import import0.InetAddress resolve(string);
-	mixin JavaPackageId!("org.apache.http.conn.scheme", "HostNameResolver");
+	public static immutable string _javaParameterString = "Lorg/apache/http/conn/scheme/HostNameResolver";
 }

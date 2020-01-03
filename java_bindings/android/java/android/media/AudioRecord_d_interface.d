@@ -54,5 +54,5 @@ final class AudioRecord : IJavaObject {
 	@Import import7.AudioDeviceInfo getPreferredDevice();
 	@Import import10.List getActiveMicrophones();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioRecord");
+	public static immutable string _javaParameterString = "Landroid/media/AudioRecord";
 }

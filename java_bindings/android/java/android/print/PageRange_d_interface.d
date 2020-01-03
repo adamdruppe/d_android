@@ -13,5 +13,5 @@ final class PageRange : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PageRange");
+	public static immutable string _javaParameterString = "Landroid/print/PageRange";
 }

@@ -11,5 +11,5 @@ interface DOMImplementationLS : IJavaObject {
 	@Import import1.LSSerializer createLSSerializer();
 	@Import import2.LSInput createLSInput();
 	@Import import3.LSOutput createLSOutput();
-	mixin JavaPackageId!("org.w3c.dom.ls", "DOMImplementationLS");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/DOMImplementationLS";
 }

@@ -34,5 +34,5 @@ final class UrlQuerySanitizer : IJavaObject {
 	@Import import0.UrlQuerySanitizer_ValueSanitizer getEffectiveValueSanitizer(string);
 	@Import string unescape(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "UrlQuerySanitizer");
+	public static immutable string _javaParameterString = "Landroid/net/UrlQuerySanitizer";
 }

@@ -8,5 +8,5 @@ final class MediaCodec_CodecException : IJavaObject {
 	@Import int getErrorCode();
 	@Import string getDiagnosticInfo();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodec$CodecException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodec$CodecException";
 }

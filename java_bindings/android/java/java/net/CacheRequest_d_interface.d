@@ -7,5 +7,5 @@ final class CacheRequest : IJavaObject {
 	@Import import0.OutputStream getBody();
 	@Import void abort();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "CacheRequest");
+	public static immutable string _javaParameterString = "Ljava/net/CacheRequest";
 }

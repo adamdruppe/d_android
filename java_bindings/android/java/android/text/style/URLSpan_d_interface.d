@@ -13,5 +13,5 @@ final class URLSpan : IJavaObject {
 	@Import string getURL();
 	@Import void onClick(import1.View);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "URLSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/URLSpan";
 }

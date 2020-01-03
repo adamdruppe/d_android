@@ -13,5 +13,5 @@ interface PrimitiveIterator_OfInt : IJavaObject {
 	@Import void forEachRemaining(import2.Consumer);
 	@Import void forEachRemaining(IJavaObject);
 	@Import IJavaObject next();
-	mixin JavaPackageId!("java.util", "PrimitiveIterator$OfInt");
+	public static immutable string _javaParameterString = "Ljava/util/PrimitiveIterator$OfInt";
 }

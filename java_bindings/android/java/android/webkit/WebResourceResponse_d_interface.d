@@ -19,5 +19,5 @@ final class WebResourceResponse : IJavaObject {
 	@Import void setData(import0.InputStream);
 	@Import import0.InputStream getData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebResourceResponse");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebResourceResponse";
 }

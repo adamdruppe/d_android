@@ -32,5 +32,5 @@ final class DatagramChannel : IJavaObject {
 	@Import import6.NetworkChannel setOption(import3.SocketOption, IJavaObject);
 	@Import import6.NetworkChannel bind(import2.SocketAddress);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "DatagramChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/DatagramChannel";
 }

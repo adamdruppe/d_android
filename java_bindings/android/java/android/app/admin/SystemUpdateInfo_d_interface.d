@@ -12,5 +12,5 @@ final class SystemUpdateInfo : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "SystemUpdateInfo");
+	public static immutable string _javaParameterString = "Landroid/app/admin/SystemUpdateInfo";
 }

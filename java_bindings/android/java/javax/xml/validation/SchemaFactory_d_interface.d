@@ -28,5 +28,5 @@ final class SchemaFactory : IJavaObject {
 	@Import import4.Schema newSchema(import5.Source[]);
 	@Import import4.Schema newSchema();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.validation", "SchemaFactory");
+	public static immutable string _javaParameterString = "Ljavax/xml/validation/SchemaFactory";
 }

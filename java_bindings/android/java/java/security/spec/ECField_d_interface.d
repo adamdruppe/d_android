@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ECField : IJavaObject {
 	@Import int getFieldSize();
-	mixin JavaPackageId!("java.security.spec", "ECField");
+	public static immutable string _javaParameterString = "Ljava/security/spec/ECField";
 }

@@ -9,5 +9,5 @@ final class AndroidRuntimeException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import1.JavaException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "AndroidRuntimeException");
+	public static immutable string _javaParameterString = "Landroid/util/AndroidRuntimeException";
 }

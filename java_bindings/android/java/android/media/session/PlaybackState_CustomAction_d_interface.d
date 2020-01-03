@@ -15,5 +15,5 @@ final class PlaybackState_CustomAction : IJavaObject {
 	@Import import2.Bundle getExtras();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "PlaybackState$CustomAction");
+	public static immutable string _javaParameterString = "Landroid/media/session/PlaybackState$CustomAction";
 }

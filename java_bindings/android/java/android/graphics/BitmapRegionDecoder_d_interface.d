@@ -19,5 +19,5 @@ final class BitmapRegionDecoder : IJavaObject {
 	@Import void recycle();
 	@Import bool isRecycled();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "BitmapRegionDecoder");
+	public static immutable string _javaParameterString = "Landroid/graphics/BitmapRegionDecoder";
 }

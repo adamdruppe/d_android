@@ -13,5 +13,5 @@ final class NfcBarcode : IJavaObject {
 	@Import void close();
 	@Import void connect();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc.tech", "NfcBarcode");
+	public static immutable string _javaParameterString = "Landroid/nfc/tech/NfcBarcode";
 }

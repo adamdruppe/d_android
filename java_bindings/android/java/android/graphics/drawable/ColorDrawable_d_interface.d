@@ -33,5 +33,5 @@ final class ColorDrawable : IJavaObject {
 	@Import void applyTheme(import9.Resources_Theme);
 	@Import import10.Drawable_ConstantState getConstantState();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "ColorDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/ColorDrawable";
 }

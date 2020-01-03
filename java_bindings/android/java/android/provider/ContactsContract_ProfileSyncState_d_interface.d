@@ -13,5 +13,5 @@ final class ContactsContract_ProfileSyncState : IJavaObject {
 	@Import static void set(import0.ContentProviderClient, import1.Account, byte[]);
 	@Import static import3.ContentProviderOperation newSetOperation(import1.Account, byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$ProfileSyncState");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$ProfileSyncState";
 }

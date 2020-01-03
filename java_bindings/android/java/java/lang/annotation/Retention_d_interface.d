@@ -5,5 +5,5 @@ import import0 = android.java.java.lang.annotation.RetentionPolicy_d_interface;
 
 interface Retention : IJavaObject {
 	@Import import0.RetentionPolicy value();
-	mixin JavaPackageId!("java.lang.annotation", "Retention");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/Retention";
 }

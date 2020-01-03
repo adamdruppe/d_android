@@ -6,5 +6,5 @@ import import0 = android.java.android.media.MediaCodec_d_interface;
 @JavaName("MediaCodec$OnFrameRenderedListener")
 interface MediaCodec_OnFrameRenderedListener : IJavaObject {
 	@Import void onFrameRendered(import0.MediaCodec, long, long);
-	mixin JavaPackageId!("android.media", "MediaCodec$OnFrameRenderedListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodec$OnFrameRenderedListener";
 }

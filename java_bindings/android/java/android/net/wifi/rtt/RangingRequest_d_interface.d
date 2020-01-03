@@ -11,5 +11,5 @@ final class RangingRequest : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.rtt", "RangingRequest");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/rtt/RangingRequest";
 }

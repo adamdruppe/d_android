@@ -26,5 +26,5 @@ final class SimpleCursorAdapter : IJavaObject {
 	@Import import1.Cursor swapCursor(import1.Cursor);
 	@Import void changeCursorAndColumns(import1.Cursor, string, int[][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "SimpleCursorAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/SimpleCursorAdapter";
 }

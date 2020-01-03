@@ -8,5 +8,5 @@ final class MediaStore_Audio_Genres : IJavaObject {
 	@Import static import0.Uri getContentUri(string);
 	@Import static import0.Uri getContentUriForAudioId(string, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Audio$Genres");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Audio$Genres";
 }

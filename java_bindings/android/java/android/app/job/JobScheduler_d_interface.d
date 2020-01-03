@@ -13,5 +13,5 @@ final class JobScheduler : IJavaObject {
 	@Import import2.List getAllPendingJobs();
 	@Import import0.JobInfo getPendingJob(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.job", "JobScheduler");
+	public static immutable string _javaParameterString = "Landroid/app/job/JobScheduler";
 }

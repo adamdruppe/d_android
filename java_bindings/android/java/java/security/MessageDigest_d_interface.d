@@ -24,5 +24,5 @@ final class MessageDigest : IJavaObject {
 	@Import int getDigestLength();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "MessageDigest");
+	public static immutable string _javaParameterString = "Ljava/security/MessageDigest";
 }

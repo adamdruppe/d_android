@@ -51,5 +51,5 @@ final class ForkJoinPool : IJavaObject {
 	@Import import10.Future submit(import4.Runnable, IJavaObject);
 	@Import import10.Future submit(import4.Runnable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ForkJoinPool");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ForkJoinPool";
 }

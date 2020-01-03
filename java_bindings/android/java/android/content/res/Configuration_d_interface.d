@@ -32,5 +32,5 @@ final class Configuration : IJavaObject {
 	@Import bool isScreenHdr();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "Configuration");
+	public static immutable string _javaParameterString = "Landroid/content/res/Configuration";
 }

@@ -13,5 +13,5 @@ final class CookieSyncManager : IJavaObject {
 	@Import void stopSync();
 	@Import void run();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "CookieSyncManager");
+	public static immutable string _javaParameterString = "Landroid/webkit/CookieSyncManager";
 }

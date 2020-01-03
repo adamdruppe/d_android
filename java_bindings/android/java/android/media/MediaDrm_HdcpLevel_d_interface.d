@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("MediaDrm$HdcpLevel")
 interface MediaDrm_HdcpLevel : IJavaObject {
-	mixin JavaPackageId!("android.media", "MediaDrm$HdcpLevel");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$HdcpLevel";
 }

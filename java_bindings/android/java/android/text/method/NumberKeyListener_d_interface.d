@@ -11,5 +11,5 @@ final class NumberKeyListener : IJavaObject {
 	@Import import0.CharSequence filter(import0.CharSequence, int, int, import1.Spanned, int, int);
 	@Import bool onKeyDown(import2.View, import3.Editable, int, import4.KeyEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "NumberKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/NumberKeyListener";
 }

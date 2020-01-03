@@ -24,5 +24,5 @@ final class FillResponse_Builder : IJavaObject {
 	@Import import0.FillResponse_Builder setFooter(import3.RemoteViews);
 	@Import import7.FillResponse build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "FillResponse$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/FillResponse$Builder";
 }

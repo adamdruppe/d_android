@@ -22,5 +22,5 @@ final class ConcurrentLinkedQueue : IJavaObject {
 	@Import import1.Iterator iterator();
 	@Import import2.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentLinkedQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentLinkedQueue";
 }

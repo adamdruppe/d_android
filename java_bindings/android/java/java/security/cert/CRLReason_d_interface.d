@@ -7,5 +7,5 @@ final class CRLReason : IJavaObject {
 	@Import static import0.CRLReason[] values();
 	@Import static import0.CRLReason valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CRLReason");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CRLReason";
 }

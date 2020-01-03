@@ -7,5 +7,5 @@ import import1 = android.java.android.hardware.Sensor_d_interface;
 interface SensorEventListener : IJavaObject {
 	@Import void onSensorChanged(import0.SensorEvent);
 	@Import void onAccuracyChanged(import1.Sensor, int);
-	mixin JavaPackageId!("android.hardware", "SensorEventListener");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorEventListener";
 }

@@ -5,5 +5,5 @@ interface SipRegistrationListener : IJavaObject {
 	@Import void onRegistering(string);
 	@Import void onRegistrationDone(string, long);
 	@Import void onRegistrationFailed(string, int, string);
-	mixin JavaPackageId!("android.net.sip", "SipRegistrationListener");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipRegistrationListener";
 }

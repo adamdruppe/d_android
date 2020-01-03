@@ -14,5 +14,5 @@ final class LongAdder : IJavaObject {
 	@Import float floatValue();
 	@Import double doubleValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "LongAdder");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/LongAdder";
 }

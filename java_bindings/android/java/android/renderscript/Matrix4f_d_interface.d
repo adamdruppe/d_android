@@ -27,5 +27,5 @@ final class Matrix4f : IJavaObject {
 	@Import bool inverseTranspose();
 	@Import void transpose();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Matrix4f");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Matrix4f";
 }

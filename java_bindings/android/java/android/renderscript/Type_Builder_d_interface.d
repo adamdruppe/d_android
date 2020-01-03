@@ -17,5 +17,5 @@ final class Type_Builder : IJavaObject {
 	@Import import2.Type_Builder setYuvFormat(int);
 	@Import import3.Type create();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Type$Builder");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Type$Builder";
 }

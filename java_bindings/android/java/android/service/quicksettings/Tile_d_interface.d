@@ -18,5 +18,5 @@ final class Tile : IJavaObject {
 	@Import void updateTile();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.quicksettings", "Tile");
+	public static immutable string _javaParameterString = "Landroid/service/quicksettings/Tile";
 }

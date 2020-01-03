@@ -12,5 +12,5 @@ final class MidiDeviceStatus : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiDeviceStatus");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiDeviceStatus";
 }

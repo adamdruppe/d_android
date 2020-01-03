@@ -8,5 +8,5 @@ final class TimeZoneFormat_GMTOffsetPatternType : IJavaObject {
 	@Import static import0.TimeZoneFormat_GMTOffsetPatternType[] values();
 	@Import static import0.TimeZoneFormat_GMTOffsetPatternType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "TimeZoneFormat$GMTOffsetPatternType");
+	public static immutable string _javaParameterString = "Landroid/icu/text/TimeZoneFormat$GMTOffsetPatternType";
 }

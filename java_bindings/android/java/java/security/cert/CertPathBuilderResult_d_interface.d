@@ -6,5 +6,5 @@ import import0 = android.java.java.security.cert.CertPath_d_interface;
 interface CertPathBuilderResult : IJavaObject {
 	@Import import0.CertPath getCertPath();
 	@Import IJavaObject clone();
-	mixin JavaPackageId!("java.security.cert", "CertPathBuilderResult");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathBuilderResult";
 }

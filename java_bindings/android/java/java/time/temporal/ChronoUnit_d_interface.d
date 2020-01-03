@@ -17,5 +17,5 @@ final class ChronoUnit : IJavaObject {
 	@Import long between(import2.Temporal, import2.Temporal);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "ChronoUnit");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/ChronoUnit";
 }

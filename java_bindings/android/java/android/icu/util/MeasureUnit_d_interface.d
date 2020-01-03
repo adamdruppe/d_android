@@ -13,5 +13,5 @@ final class MeasureUnit : IJavaObject {
 	@Import static import0.Set getAvailable(string);
 	@Import static import0.Set getAvailable();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "MeasureUnit");
+	public static immutable string _javaParameterString = "Landroid/icu/util/MeasureUnit";
 }

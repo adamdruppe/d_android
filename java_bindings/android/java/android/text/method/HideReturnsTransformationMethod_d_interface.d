@@ -6,5 +6,5 @@ import import0 = android.java.android.text.method.HideReturnsTransformationMetho
 final class HideReturnsTransformationMethod : IJavaObject {
 	@Import static import0.HideReturnsTransformationMethod getInstance();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "HideReturnsTransformationMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/HideReturnsTransformationMethod";
 }

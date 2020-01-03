@@ -8,5 +8,5 @@ interface SQLData : IJavaObject {
 	@Import string getSQLTypeName();
 	@Import void readSQL(import0.SQLInput, string);
 	@Import void writeSQL(import1.SQLOutput);
-	mixin JavaPackageId!("java.sql", "SQLData");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLData";
 }

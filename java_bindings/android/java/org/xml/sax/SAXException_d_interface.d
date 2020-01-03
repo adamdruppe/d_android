@@ -11,5 +11,5 @@ final class SAXException : IJavaObject {
 	@Import import0.JavaException getException();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax", "SAXException");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/SAXException";
 }

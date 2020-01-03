@@ -10,5 +10,5 @@ final class KeyPairGeneratorSpi : IJavaObject {
 	@Import void initialize(import1.AlgorithmParameterSpec, import0.SecureRandom);
 	@Import import2.KeyPair generateKeyPair();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyPairGeneratorSpi");
+	public static immutable string _javaParameterString = "Ljava/security/KeyPairGeneratorSpi";
 }

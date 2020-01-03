@@ -8,5 +8,5 @@ final class CharsetProvider : IJavaObject {
 	@Import import0.Iterator charsets();
 	@Import import1.Charset charsetForName(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset.spi", "CharsetProvider");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/spi/CharsetProvider";
 }

@@ -21,5 +21,5 @@ final class UUID : IJavaObject {
 	@Import int compareTo(import0.UUID);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "UUID");
+	public static immutable string _javaParameterString = "Ljava/util/UUID";
 }

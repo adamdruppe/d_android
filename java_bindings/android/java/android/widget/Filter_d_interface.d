@@ -9,5 +9,5 @@ final class Filter : IJavaObject {
 	@Import void filter(import0.CharSequence, import1.Filter_FilterListener);
 	@Import import0.CharSequence convertResultToString(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Filter");
+	public static immutable string _javaParameterString = "Landroid/widget/Filter";
 }

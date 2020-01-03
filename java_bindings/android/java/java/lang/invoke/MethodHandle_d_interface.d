@@ -8,6 +8,8 @@ import import0 = android.java.java.lang.invoke.MethodType_d_interface;
 
 final class MethodHandle : IJavaObject {
 	@Import import0.MethodType type();
+	@Import IJavaObject invokeExact(IJavaObject[]);
+	@Import IJavaObject invoke(IJavaObject[]);
 	@Import IJavaObject invokeWithArguments(IJavaObject[]);
 	@Import IJavaObject invokeWithArguments(import1.List);
 	@Import import2.MethodHandle asType(import0.MethodType);
@@ -19,5 +21,5 @@ final class MethodHandle : IJavaObject {
 	@Import import2.MethodHandle bindTo(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.invoke", "MethodHandle");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/MethodHandle";
 }

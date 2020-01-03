@@ -6,5 +6,5 @@ interface SourceLocator : IJavaObject {
 	@Import string getSystemId();
 	@Import int getLineNumber();
 	@Import int getColumnNumber();
-	mixin JavaPackageId!("javax.xml.transform", "SourceLocator");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/SourceLocator";
 }

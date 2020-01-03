@@ -17,5 +17,5 @@ final class LauncherApps_Callback : IJavaObject {
 	@Import void onPackagesUnsuspended(string, import0.UserHandle[]);
 	@Import void onShortcutsChanged(string, import2.List, import0.UserHandle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "LauncherApps$Callback");
+	public static immutable string _javaParameterString = "Landroid/content/pm/LauncherApps$Callback";
 }

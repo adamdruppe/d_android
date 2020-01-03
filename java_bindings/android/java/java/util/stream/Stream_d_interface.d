@@ -62,5 +62,5 @@ interface Stream : IJavaObject {
 	@Import static import0.Stream iterate(IJavaObject, import19.UnaryOperator);
 	@Import static import0.Stream generate(import15.Supplier);
 	@Import static import0.Stream concat(import0.Stream, import0.Stream);
-	mixin JavaPackageId!("java.util.stream", "Stream");
+	public static immutable string _javaParameterString = "Ljava/util/stream/Stream";
 }

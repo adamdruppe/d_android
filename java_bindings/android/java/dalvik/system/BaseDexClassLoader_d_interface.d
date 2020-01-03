@@ -9,5 +9,5 @@ final class BaseDexClassLoader : IJavaObject {
 	@Import string findLibrary(string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("dalvik.system", "BaseDexClassLoader");
+	public static immutable string _javaParameterString = "Ldalvik/system/BaseDexClassLoader";
 }

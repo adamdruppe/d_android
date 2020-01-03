@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class TriggerEvent : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "TriggerEvent");
+	public static immutable string _javaParameterString = "Landroid/hardware/TriggerEvent";
 }

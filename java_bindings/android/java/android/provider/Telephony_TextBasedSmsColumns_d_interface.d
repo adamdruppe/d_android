@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("Telephony$TextBasedSmsColumns")
 interface Telephony_TextBasedSmsColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "Telephony$TextBasedSmsColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$TextBasedSmsColumns";
 }

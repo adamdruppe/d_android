@@ -24,5 +24,5 @@ final class IntentSender : IJavaObject {
 	@Import static void writeIntentSenderOrNullToParcel(import6.IntentSender, import5.Parcel);
 	@Import static import6.IntentSender readIntentSenderOrNullFromParcel(import5.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "IntentSender");
+	public static immutable string _javaParameterString = "Landroid/content/IntentSender";
 }

@@ -9,5 +9,5 @@ final class MinguoEra : IJavaObject {
 	@Import static import0.MinguoEra of(int);
 	@Import int getValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "MinguoEra");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/MinguoEra";
 }

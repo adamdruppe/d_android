@@ -8,5 +8,5 @@ final class DhcpInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "DhcpInfo");
+	public static immutable string _javaParameterString = "Landroid/net/DhcpInfo";
 }

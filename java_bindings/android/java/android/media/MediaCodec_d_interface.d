@@ -28,6 +28,7 @@ final class MediaCodec : IJavaObject {
 	@Import void setOutputSurface(import2.Surface);
 	@Import static import2.Surface createPersistentInputSurface();
 	@Import void setInputSurface(import2.Surface);
+	@Import import2.Surface createInputSurface();
 	@Import void start();
 	@Import void stop();
 	@Import void flush();
@@ -37,6 +38,7 @@ final class MediaCodec : IJavaObject {
 	@Import int dequeueOutputBuffer(import6.MediaCodec_BufferInfo, long);
 	@Import void releaseOutputBuffer(int, bool);
 	@Import void releaseOutputBuffer(int, long);
+	@Import void signalEndOfInputStream();
 	@Import import1.MediaFormat getOutputFormat();
 	@Import import1.MediaFormat getInputFormat();
 	@Import import1.MediaFormat getOutputFormat(int);
@@ -46,6 +48,8 @@ final class MediaCodec : IJavaObject {
 	@Import import8.Image getInputImage(int);
 	@Import import7.ByteBuffer getOutputBuffer(int);
 	@Import import8.Image getOutputImage(int);
+	@Import void setVideoScalingMode(int);
+	@Import string getName();
 	@Import import9.PersistableBundle getMetrics();
 	@Import void setParameters(import10.Bundle);
 	@Import void setCallback(import11.MediaCodec_Callback, import12.Handler);
@@ -53,5 +57,5 @@ final class MediaCodec : IJavaObject {
 	@Import void setOnFrameRenderedListener(import13.MediaCodec_OnFrameRenderedListener, import12.Handler);
 	@Import import14.MediaCodecInfo getCodecInfo();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodec");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodec";
 }

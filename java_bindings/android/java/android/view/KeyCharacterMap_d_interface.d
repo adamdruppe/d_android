@@ -24,5 +24,5 @@ final class KeyCharacterMap : IJavaObject {
 	@Import void writeToParcel(import3.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "KeyCharacterMap");
+	public static immutable string _javaParameterString = "Landroid/view/KeyCharacterMap";
 }

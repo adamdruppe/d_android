@@ -209,5 +209,5 @@ interface ResultSet : IJavaObject {
 	@Import void updateClob(string, import7.Reader);
 	@Import void updateNClob(int, import7.Reader);
 	@Import void updateNClob(string, import7.Reader);
-	mixin JavaPackageId!("java.sql", "ResultSet");
+	public static immutable string _javaParameterString = "Ljava/sql/ResultSet";
 }

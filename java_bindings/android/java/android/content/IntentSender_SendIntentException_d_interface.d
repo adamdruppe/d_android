@@ -8,5 +8,5 @@ final class IntentSender_SendIntentException : IJavaObject {
 	@Import this(string);
 	@Import this(import0.JavaException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "IntentSender$SendIntentException");
+	public static immutable string _javaParameterString = "Landroid/content/IntentSender$SendIntentException";
 }

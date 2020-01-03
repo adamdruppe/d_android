@@ -7,5 +7,5 @@ final class SubtitleData : IJavaObject {
 	@Import long getDurationUs();
 	@Import byte[] getData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "SubtitleData");
+	public static immutable string _javaParameterString = "Landroid/media/SubtitleData";
 }

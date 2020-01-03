@@ -7,5 +7,5 @@ import import1 = android.java.android.view.MotionEvent_d_interface;
 @JavaName("View$OnHoverListener")
 interface View_OnHoverListener : IJavaObject {
 	@Import bool onHover(import0.View, import1.MotionEvent);
-	mixin JavaPackageId!("android.view", "View$OnHoverListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnHoverListener";
 }

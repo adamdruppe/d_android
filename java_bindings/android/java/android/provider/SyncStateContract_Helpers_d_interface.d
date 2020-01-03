@@ -17,5 +17,5 @@ final class SyncStateContract_Helpers : IJavaObject {
 	@Import static import4.ContentProviderOperation newSetOperation(import1.Uri, import2.Account, byte[]);
 	@Import static import4.ContentProviderOperation newUpdateOperation(import1.Uri, byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "SyncStateContract$Helpers");
+	public static immutable string _javaParameterString = "Landroid/provider/SyncStateContract$Helpers";
 }

@@ -9,5 +9,5 @@ final class InvalidPathException : IJavaObject {
 	@Import int getIndex();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "InvalidPathException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/InvalidPathException";
 }

@@ -7,5 +7,5 @@ final class Character_Subset : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Character$Subset");
+	public static immutable string _javaParameterString = "Ljava/lang/Character$Subset";
 }

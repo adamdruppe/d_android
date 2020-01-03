@@ -19,5 +19,5 @@ final class BluetoothGattCallback : IJavaObject {
 	@Import void onReadRemoteRssi(import0.BluetoothGatt, int, int);
 	@Import void onMtuChanged(import0.BluetoothGatt, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothGattCallback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothGattCallback";
 }

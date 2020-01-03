@@ -12,5 +12,5 @@ final class AlphabeticIndex_Bucket : IJavaObject {
 	@Import import1.Iterator iterator();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "AlphabeticIndex$Bucket");
+	public static immutable string _javaParameterString = "Landroid/icu/text/AlphabeticIndex$Bucket";
 }

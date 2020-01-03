@@ -8,5 +8,5 @@ final class FilePermission : IJavaObject {
 	@Import bool implies(import0.Permission);
 	@Import string getActions();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FilePermission");
+	public static immutable string _javaParameterString = "Ljava/io/FilePermission";
 }

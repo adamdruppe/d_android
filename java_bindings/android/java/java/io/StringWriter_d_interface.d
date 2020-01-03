@@ -27,5 +27,5 @@ final class StringWriter : IJavaObject {
 	@Import import4.Appendable append(import1.CharSequence, int, int);
 	@Import import4.Appendable append(import1.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "StringWriter");
+	public static immutable string _javaParameterString = "Ljava/io/StringWriter";
 }

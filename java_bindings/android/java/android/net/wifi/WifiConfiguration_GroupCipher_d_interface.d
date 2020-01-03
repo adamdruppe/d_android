@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WifiConfiguration$GroupCipher")
 final class WifiConfiguration_GroupCipher : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiConfiguration$GroupCipher");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiConfiguration$GroupCipher";
 }

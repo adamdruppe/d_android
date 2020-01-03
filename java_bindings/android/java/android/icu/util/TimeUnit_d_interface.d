@@ -6,5 +6,5 @@ import import0 = android.java.android.icu.util.TimeUnit_d_interface;
 final class TimeUnit : IJavaObject {
 	@Import static import0.TimeUnit[] values();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "TimeUnit");
+	public static immutable string _javaParameterString = "Landroid/icu/util/TimeUnit";
 }

@@ -7,5 +7,5 @@ final class AttributedCharacterIterator_Attribute : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "AttributedCharacterIterator$Attribute");
+	public static immutable string _javaParameterString = "Ljava/text/AttributedCharacterIterator$Attribute";
 }

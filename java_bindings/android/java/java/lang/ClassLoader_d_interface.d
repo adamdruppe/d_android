@@ -22,5 +22,5 @@ final class ClassLoader : IJavaObject {
 	@Import void setClassAssertionStatus(string, bool);
 	@Import void clearAssertionStatus();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ClassLoader");
+	public static immutable string _javaParameterString = "Ljava/lang/ClassLoader";
 }

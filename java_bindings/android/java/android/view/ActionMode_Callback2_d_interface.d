@@ -9,5 +9,5 @@ import import0 = android.java.android.view.ActionMode_d_interface;
 final class ActionMode_Callback2 : IJavaObject {
 	@Import void onGetContentRect(import0.ActionMode, import1.View, import2.Rect);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ActionMode$Callback2");
+	public static immutable string _javaParameterString = "Landroid/view/ActionMode$Callback2";
 }

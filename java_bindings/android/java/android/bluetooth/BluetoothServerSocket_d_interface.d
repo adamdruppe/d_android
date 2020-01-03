@@ -9,5 +9,5 @@ final class BluetoothServerSocket : IJavaObject {
 	@Import void close();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothServerSocket");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothServerSocket";
 }

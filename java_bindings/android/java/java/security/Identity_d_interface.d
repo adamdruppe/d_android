@@ -22,5 +22,5 @@ final class Identity : IJavaObject {
 	@Import @JavaName("toString") string toString_(bool);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Identity");
+	public static immutable string _javaParameterString = "Ljava/security/Identity";
 }

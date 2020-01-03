@@ -26,5 +26,5 @@ final class Toast : IJavaObject {
 	@Import void setText(int);
 	@Import void setText(import3.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Toast");
+	public static immutable string _javaParameterString = "Landroid/widget/Toast";
 }

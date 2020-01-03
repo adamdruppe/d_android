@@ -14,5 +14,5 @@ final class CompanionDeviceManager : IJavaObject {
 	@Import void requestNotificationAccess(import4.ComponentName);
 	@Import bool hasNotificationAccess(import4.ComponentName);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "CompanionDeviceManager");
+	public static immutable string _javaParameterString = "Landroid/companion/CompanionDeviceManager";
 }

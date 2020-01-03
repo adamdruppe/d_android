@@ -21,5 +21,5 @@ interface NavigableSet : IJavaObject {
 	@Import import2.SortedSet subSet(IJavaObject, IJavaObject);
 	@Import import2.SortedSet headSet(IJavaObject);
 	@Import import2.SortedSet tailSet(IJavaObject);
-	mixin JavaPackageId!("java.util", "NavigableSet");
+	public static immutable string _javaParameterString = "Ljava/util/NavigableSet";
 }

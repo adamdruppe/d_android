@@ -17,5 +17,5 @@ final class LauncherActivityInfo : IJavaObject {
 	@Import string getName();
 	@Import import3.Drawable getBadgedIcon(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "LauncherActivityInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/LauncherActivityInfo";
 }

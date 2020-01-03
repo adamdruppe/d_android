@@ -112,5 +112,5 @@ final class UnicodeSet : IJavaObject {
 	@Import IJavaObject cloneAsThawed();
 	@Import IJavaObject freeze();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSet");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSet";
 }

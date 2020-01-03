@@ -10,5 +10,5 @@ interface Transition_TransitionListener : IJavaObject {
 	@Import void onTransitionCancel(import0.Transition);
 	@Import void onTransitionPause(import0.Transition);
 	@Import void onTransitionResume(import0.Transition);
-	mixin JavaPackageId!("android.transition", "Transition$TransitionListener");
+	public static immutable string _javaParameterString = "Landroid/transition/Transition$TransitionListener";
 }

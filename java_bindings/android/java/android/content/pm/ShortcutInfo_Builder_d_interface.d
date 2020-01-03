@@ -26,5 +26,5 @@ final class ShortcutInfo_Builder : IJavaObject {
 	@Import import1.ShortcutInfo_Builder setExtras(import7.PersistableBundle);
 	@Import import8.ShortcutInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ShortcutInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ShortcutInfo$Builder";
 }

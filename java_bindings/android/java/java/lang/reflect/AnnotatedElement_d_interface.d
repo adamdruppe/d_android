@@ -12,5 +12,5 @@ interface AnnotatedElement : IJavaObject {
 	@Import import1.Annotation getDeclaredAnnotation(import0.Class);
 	@Import import1.Annotation[] getDeclaredAnnotationsByType(import0.Class);
 	@Import import1.Annotation[] getDeclaredAnnotations();
-	mixin JavaPackageId!("java.lang.reflect", "AnnotatedElement");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/AnnotatedElement";
 }

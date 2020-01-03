@@ -5,5 +5,5 @@ final class TimedMetaData : IJavaObject {
 	@Import long getTimestamp();
 	@Import byte[] getMetaData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "TimedMetaData");
+	public static immutable string _javaParameterString = "Landroid/media/TimedMetaData";
 }

@@ -16,5 +16,5 @@ final class EuiccManager : IJavaObject {
 	@Import void deleteSubscription(int, import1.PendingIntent);
 	@Import void switchToSubscription(int, import1.PendingIntent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.euicc", "EuiccManager");
+	public static immutable string _javaParameterString = "Landroid/telephony/euicc/EuiccManager";
 }

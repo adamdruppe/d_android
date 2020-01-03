@@ -17,6 +17,9 @@ final class System : IJavaObject {
 	@Import static import3.Channel inheritedChannel();
 	@Import static void setSecurityManager(import4.SecurityManager);
 	@Import static import4.SecurityManager getSecurityManager();
+	@Import static long currentTimeMillis();
+	@Import static long nanoTime();
+	@Import static void arraycopy(IJavaObject, int, IJavaObject, int, int);
 	@Import static int identityHashCode(IJavaObject);
 	@Import static import5.Properties getProperties();
 	@Import static string lineSeparator();
@@ -33,6 +36,7 @@ final class System : IJavaObject {
 	@Import static void runFinalizersOnExit(bool);
 	@Import static void load(string);
 	@Import static void loadLibrary(string);
+	@Import static string mapLibraryName(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "System");
+	public static immutable string _javaParameterString = "Ljava/lang/System";
 }

@@ -16,5 +16,5 @@ final class NotificationManager_Policy : IJavaObject {
 	@Import static string priorityCategoriesToString(int);
 	@Import static string prioritySendersToString(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "NotificationManager$Policy");
+	public static immutable string _javaParameterString = "Landroid/app/NotificationManager$Policy";
 }

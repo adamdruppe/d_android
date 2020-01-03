@@ -10,5 +10,5 @@ final class EditorInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "EditorInfo");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/EditorInfo";
 }

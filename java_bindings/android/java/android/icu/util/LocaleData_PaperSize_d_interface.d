@@ -6,5 +6,5 @@ final class LocaleData_PaperSize : IJavaObject {
 	@Import int getHeight();
 	@Import int getWidth();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "LocaleData$PaperSize");
+	public static immutable string _javaParameterString = "Landroid/icu/util/LocaleData$PaperSize";
 }

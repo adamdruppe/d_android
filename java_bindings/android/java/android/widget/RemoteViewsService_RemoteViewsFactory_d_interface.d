@@ -14,5 +14,5 @@ interface RemoteViewsService_RemoteViewsFactory : IJavaObject {
 	@Import int getViewTypeCount();
 	@Import long getItemId(int);
 	@Import bool hasStableIds();
-	mixin JavaPackageId!("android.widget", "RemoteViewsService$RemoteViewsFactory");
+	public static immutable string _javaParameterString = "Landroid/widget/RemoteViewsService$RemoteViewsFactory";
 }

@@ -6,5 +6,5 @@ final class CameraManager_TorchCallback : IJavaObject {
 	@Import void onTorchModeUnavailable(string);
 	@Import void onTorchModeChanged(string, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraManager$TorchCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraManager$TorchCallback";
 }

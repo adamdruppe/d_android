@@ -36,5 +36,5 @@ final class JobInfo_Builder : IJavaObject {
 	@Import import1.JobInfo_Builder setPersisted(bool);
 	@Import import7.JobInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.job", "JobInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/app/job/JobInfo$Builder";
 }

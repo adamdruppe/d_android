@@ -5,5 +5,5 @@ final class StringIndexOutOfBoundsException : IJavaObject {
 	@Import this(string);
 	@Import this(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "StringIndexOutOfBoundsException");
+	public static immutable string _javaParameterString = "Ljava/lang/StringIndexOutOfBoundsException";
 }

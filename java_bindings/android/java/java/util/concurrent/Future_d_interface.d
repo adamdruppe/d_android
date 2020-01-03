@@ -9,5 +9,5 @@ interface Future : IJavaObject {
 	@Import bool isDone();
 	@Import IJavaObject get();
 	@Import IJavaObject get(long, import0.TimeUnit);
-	mixin JavaPackageId!("java.util.concurrent", "Future");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Future";
 }

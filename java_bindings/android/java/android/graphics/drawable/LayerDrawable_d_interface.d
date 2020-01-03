@@ -89,5 +89,5 @@ final class LayerDrawable : IJavaObject {
 	@Import import0.Drawable mutate();
 	@Import bool onLayoutDirectionChanged(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "LayerDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/LayerDrawable";
 }

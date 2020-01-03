@@ -9,5 +9,5 @@ interface Group : IJavaObject {
 	@Import bool removeMember(import0.Principal);
 	@Import bool isMember(import0.Principal);
 	@Import import1.Enumeration members();
-	mixin JavaPackageId!("java.security.acl", "Group");
+	public static immutable string _javaParameterString = "Ljava/security/acl/Group";
 }

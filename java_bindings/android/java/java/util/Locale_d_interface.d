@@ -55,5 +55,5 @@ final class Locale : IJavaObject {
 	@Import static import0.Locale lookup(import3.List, import4.Collection);
 	@Import static string lookupTag(import3.List, import4.Collection);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Locale");
+	public static immutable string _javaParameterString = "Ljava/util/Locale";
 }

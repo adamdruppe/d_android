@@ -15,5 +15,5 @@ final class PersistableBundle : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "PersistableBundle");
+	public static immutable string _javaParameterString = "Landroid/os/PersistableBundle";
 }

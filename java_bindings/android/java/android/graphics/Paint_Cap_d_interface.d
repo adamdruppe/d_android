@@ -8,5 +8,5 @@ final class Paint_Cap : IJavaObject {
 	@Import static import0.Paint_Cap[] values();
 	@Import static import0.Paint_Cap valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Paint$Cap");
+	public static immutable string _javaParameterString = "Landroid/graphics/Paint$Cap";
 }

@@ -32,5 +32,5 @@ final class AbsSpinner : IJavaObject {
 	@Import void setAdapter(import7.Adapter);
 	@Import import7.Adapter getAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AbsSpinner");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsSpinner";
 }

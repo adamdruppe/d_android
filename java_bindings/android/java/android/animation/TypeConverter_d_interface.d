@@ -7,5 +7,5 @@ final class TypeConverter : IJavaObject {
 	@Import this(import0.Class, import0.Class);
 	@Import IJavaObject convert(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "TypeConverter");
+	public static immutable string _javaParameterString = "Landroid/animation/TypeConverter";
 }

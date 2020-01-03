@@ -8,5 +8,5 @@ final class TextKeyListener_Capitalize : IJavaObject {
 	@Import static import0.TextKeyListener_Capitalize[] values();
 	@Import static import0.TextKeyListener_Capitalize valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "TextKeyListener$Capitalize");
+	public static immutable string _javaParameterString = "Landroid/text/method/TextKeyListener$Capitalize";
 }

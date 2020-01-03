@@ -6,5 +6,5 @@ final class InvalidClassException : IJavaObject {
 	@Import this(string, string);
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "InvalidClassException");
+	public static immutable string _javaParameterString = "Ljava/io/InvalidClassException";
 }

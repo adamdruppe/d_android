@@ -16,5 +16,5 @@ interface Array : IJavaObject {
 	@Import import1.ResultSet getResultSet(long, int);
 	@Import import1.ResultSet getResultSet(long, int, import0.Map);
 	@Import void free();
-	mixin JavaPackageId!("java.sql", "Array");
+	public static immutable string _javaParameterString = "Ljava/sql/Array";
 }

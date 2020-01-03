@@ -7,5 +7,5 @@ final class CompletionException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "CompletionException");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CompletionException";
 }

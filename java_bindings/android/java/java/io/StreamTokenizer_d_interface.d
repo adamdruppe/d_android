@@ -24,5 +24,5 @@ final class StreamTokenizer : IJavaObject {
 	@Import int lineno();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "StreamTokenizer");
+	public static immutable string _javaParameterString = "Ljava/io/StreamTokenizer";
 }

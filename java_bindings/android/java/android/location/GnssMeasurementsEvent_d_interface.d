@@ -12,5 +12,5 @@ final class GnssMeasurementsEvent : IJavaObject {
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GnssMeasurementsEvent");
+	public static immutable string _javaParameterString = "Landroid/location/GnssMeasurementsEvent";
 }

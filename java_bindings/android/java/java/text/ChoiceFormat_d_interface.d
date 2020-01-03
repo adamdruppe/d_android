@@ -24,5 +24,5 @@ final class ChoiceFormat : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import static double nextDouble(double, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "ChoiceFormat");
+	public static immutable string _javaParameterString = "Ljava/text/ChoiceFormat";
 }

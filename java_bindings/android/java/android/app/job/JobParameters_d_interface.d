@@ -24,5 +24,5 @@ final class JobParameters : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import6.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.job", "JobParameters");
+	public static immutable string _javaParameterString = "Landroid/app/job/JobParameters";
 }

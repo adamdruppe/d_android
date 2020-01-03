@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ContactsContract$CommonDataKinds")
 final class ContactsContract_CommonDataKinds : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$CommonDataKinds");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$CommonDataKinds";
 }

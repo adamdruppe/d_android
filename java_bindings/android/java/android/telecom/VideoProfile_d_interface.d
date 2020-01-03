@@ -19,5 +19,5 @@ final class VideoProfile : IJavaObject {
 	@Import static bool isBidirectional(int);
 	@Import static bool isPaused(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "VideoProfile");
+	public static immutable string _javaParameterString = "Landroid/telecom/VideoProfile";
 }

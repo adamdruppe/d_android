@@ -8,5 +8,5 @@ final class SensorManager_DynamicSensorCallback : IJavaObject {
 	@Import void onDynamicSensorConnected(import0.Sensor);
 	@Import void onDynamicSensorDisconnected(import0.Sensor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "SensorManager$DynamicSensorCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorManager$DynamicSensorCallback";
 }

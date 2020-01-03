@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface Closeable : IJavaObject {
 	@Import void close();
-	mixin JavaPackageId!("java.io", "Closeable");
+	public static immutable string _javaParameterString = "Ljava/io/Closeable";
 }

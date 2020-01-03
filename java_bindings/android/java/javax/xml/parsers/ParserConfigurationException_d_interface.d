@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ParserConfigurationException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.parsers", "ParserConfigurationException");
+	public static immutable string _javaParameterString = "Ljavax/xml/parsers/ParserConfigurationException";
 }

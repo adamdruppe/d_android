@@ -7,5 +7,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 final class Settings_NameValueTable : IJavaObject {
 	@Import static import0.Uri getUriFor(import0.Uri, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Settings$NameValueTable");
+	public static immutable string _javaParameterString = "Landroid/provider/Settings$NameValueTable";
 }

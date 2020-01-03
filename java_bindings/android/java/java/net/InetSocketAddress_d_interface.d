@@ -18,5 +18,5 @@ final class InetSocketAddress : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "InetSocketAddress");
+	public static immutable string _javaParameterString = "Ljava/net/InetSocketAddress";
 }

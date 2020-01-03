@@ -24,5 +24,5 @@ final class EditText : IJavaObject {
 	@Import import3.CharSequence getAccessibilityClassName();
 	@Import import3.CharSequence getText();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "EditText");
+	public static immutable string _javaParameterString = "Landroid/widget/EditText";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class TimeFormatException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "TimeFormatException");
+	public static immutable string _javaParameterString = "Landroid/util/TimeFormatException";
 }

@@ -13,5 +13,5 @@ final class ApplicationErrorReport : IJavaObject {
 	@Import int describeContents();
 	@Import void dump(import3.Printer, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ApplicationErrorReport");
+	public static immutable string _javaParameterString = "Landroid/app/ApplicationErrorReport";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaCasException$NotProvisionedException")
 final class MediaCasException_NotProvisionedException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCasException$NotProvisionedException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCasException$NotProvisionedException";
 }

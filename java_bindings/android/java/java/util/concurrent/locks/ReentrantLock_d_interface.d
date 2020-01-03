@@ -24,5 +24,5 @@ final class ReentrantLock : IJavaObject {
 	@Import int getWaitQueueLength(import1.Condition);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "ReentrantLock");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/ReentrantLock";
 }

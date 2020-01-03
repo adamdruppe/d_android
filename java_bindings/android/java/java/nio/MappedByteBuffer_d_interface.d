@@ -8,5 +8,5 @@ final class MappedByteBuffer : IJavaObject {
 	@Import import0.MappedByteBuffer load();
 	@Import import0.MappedByteBuffer force();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "MappedByteBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/MappedByteBuffer";
 }

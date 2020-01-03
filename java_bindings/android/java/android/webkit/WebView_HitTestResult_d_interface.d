@@ -6,5 +6,5 @@ final class WebView_HitTestResult : IJavaObject {
 	@Import int getType();
 	@Import string getExtra();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebView$HitTestResult");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebView$HitTestResult";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SQLiteReadOnlyDatabaseException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteReadOnlyDatabaseException");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteReadOnlyDatabaseException";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.CharSequence_d_interface;
 
 interface LineHeightSpan : IJavaObject {
 	@Import void chooseHeight(import0.CharSequence, int, int, int, int, import1.Paint_FontMetricsInt);
-	mixin JavaPackageId!("android.text.style", "LineHeightSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/LineHeightSpan";
 }

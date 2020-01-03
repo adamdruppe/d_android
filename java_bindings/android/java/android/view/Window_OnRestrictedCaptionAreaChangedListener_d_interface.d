@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.Rect_d_interface;
 @JavaName("Window$OnRestrictedCaptionAreaChangedListener")
 interface Window_OnRestrictedCaptionAreaChangedListener : IJavaObject {
 	@Import void onRestrictedCaptionAreaChanged(import0.Rect);
-	mixin JavaPackageId!("android.view", "Window$OnRestrictedCaptionAreaChangedListener");
+	public static immutable string _javaParameterString = "Landroid/view/Window$OnRestrictedCaptionAreaChangedListener";
 }

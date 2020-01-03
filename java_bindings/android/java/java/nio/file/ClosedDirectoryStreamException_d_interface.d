@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ClosedDirectoryStreamException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "ClosedDirectoryStreamException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/ClosedDirectoryStreamException";
 }

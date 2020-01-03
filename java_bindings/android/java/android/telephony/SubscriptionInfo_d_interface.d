@@ -24,5 +24,5 @@ final class SubscriptionInfo : IJavaObject {
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SubscriptionInfo");
+	public static immutable string _javaParameterString = "Landroid/telephony/SubscriptionInfo";
 }

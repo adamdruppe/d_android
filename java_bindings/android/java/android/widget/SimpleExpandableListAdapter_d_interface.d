@@ -23,5 +23,5 @@ final class SimpleExpandableListAdapter : IJavaObject {
 	@Import bool isChildSelectable(int, int);
 	@Import bool hasStableIds();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "SimpleExpandableListAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/SimpleExpandableListAdapter";
 }

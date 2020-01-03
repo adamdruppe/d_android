@@ -82,5 +82,5 @@ final class Bundle : IJavaObject {
 	@Import void readFromParcel(import12.Parcel);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Bundle");
+	public static immutable string _javaParameterString = "Landroid/os/Bundle";
 }

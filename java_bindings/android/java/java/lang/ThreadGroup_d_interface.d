@@ -33,5 +33,5 @@ final class ThreadGroup : IJavaObject {
 	@Import bool allowThreadSuspension(bool);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ThreadGroup");
+	public static immutable string _javaParameterString = "Ljava/lang/ThreadGroup";
 }

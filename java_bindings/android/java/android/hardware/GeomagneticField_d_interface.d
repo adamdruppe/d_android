@@ -11,5 +11,5 @@ final class GeomagneticField : IJavaObject {
 	@Import float getHorizontalStrength();
 	@Import float getFieldStrength();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "GeomagneticField");
+	public static immutable string _javaParameterString = "Landroid/hardware/GeomagneticField";
 }

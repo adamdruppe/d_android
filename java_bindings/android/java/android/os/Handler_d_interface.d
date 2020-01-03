@@ -46,5 +46,5 @@ final class Handler : IJavaObject {
 	@Import void dump(import5.Printer, string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Handler");
+	public static immutable string _javaParameterString = "Landroid/os/Handler";
 }

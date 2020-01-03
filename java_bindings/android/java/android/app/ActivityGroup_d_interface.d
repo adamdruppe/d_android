@@ -9,5 +9,5 @@ final class ActivityGroup : IJavaObject {
 	@Import import0.Activity getCurrentActivity();
 	@Import import1.LocalActivityManager getLocalActivityManager();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActivityGroup");
+	public static immutable string _javaParameterString = "Landroid/app/ActivityGroup";
 }

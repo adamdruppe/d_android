@@ -11,5 +11,5 @@ interface ActionMode_Callback : IJavaObject {
 	@Import bool onPrepareActionMode(import0.ActionMode, import1.Menu);
 	@Import bool onActionItemClicked(import0.ActionMode, import2.MenuItem);
 	@Import void onDestroyActionMode(import0.ActionMode);
-	mixin JavaPackageId!("android.view", "ActionMode$Callback");
+	public static immutable string _javaParameterString = "Landroid/view/ActionMode$Callback";
 }

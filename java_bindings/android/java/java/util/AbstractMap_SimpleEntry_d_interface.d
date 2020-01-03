@@ -14,5 +14,5 @@ final class AbstractMap_SimpleEntry : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "AbstractMap$SimpleEntry");
+	public static immutable string _javaParameterString = "Ljava/util/AbstractMap$SimpleEntry";
 }

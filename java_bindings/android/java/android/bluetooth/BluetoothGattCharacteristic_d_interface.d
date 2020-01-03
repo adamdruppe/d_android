@@ -32,5 +32,5 @@ final class BluetoothGattCharacteristic : IJavaObject {
 	@Import bool setValue(int, int, int, int);
 	@Import bool setValue(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothGattCharacteristic");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothGattCharacteristic";
 }

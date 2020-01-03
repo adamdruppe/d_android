@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MediaProjection_Callback : IJavaObject {
 	@Import void onStop();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.projection", "MediaProjection$Callback");
+	public static immutable string _javaParameterString = "Landroid/media/projection/MediaProjection$Callback";
 }

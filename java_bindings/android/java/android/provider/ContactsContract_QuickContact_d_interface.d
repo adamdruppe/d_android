@@ -13,5 +13,5 @@ final class ContactsContract_QuickContact : IJavaObject {
 	@Import static void showQuickContact(import0.Context, import1.View, import2.Uri, string, string[]);
 	@Import static void showQuickContact(import0.Context, import3.Rect, import2.Uri, string, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$QuickContact");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$QuickContact";
 }

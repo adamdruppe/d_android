@@ -34,5 +34,5 @@ interface BlockingDeque : IJavaObject {
 	@Import int size();
 	@Import import1.Iterator iterator();
 	@Import void push(IJavaObject);
-	mixin JavaPackageId!("java.util.concurrent", "BlockingDeque");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/BlockingDeque";
 }

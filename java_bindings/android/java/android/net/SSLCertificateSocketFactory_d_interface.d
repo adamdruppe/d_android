@@ -29,5 +29,5 @@ final class SSLCertificateSocketFactory : IJavaObject {
 	@Import string[] getDefaultCipherSuites();
 	@Import string[] getSupportedCipherSuites();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "SSLCertificateSocketFactory");
+	public static immutable string _javaParameterString = "Landroid/net/SSLCertificateSocketFactory";
 }

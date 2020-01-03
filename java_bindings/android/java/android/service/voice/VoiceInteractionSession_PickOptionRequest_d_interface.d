@@ -14,5 +14,5 @@ final class VoiceInteractionSession_PickOptionRequest : IJavaObject {
 	@Import void sendIntermediatePickOptionResult(import2.VoiceInteractor_PickOptionRequest_Option, import3.Bundle[]);
 	@Import void sendPickOptionResult(import2.VoiceInteractor_PickOptionRequest_Option, import3.Bundle[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession$PickOptionRequest");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession$PickOptionRequest";
 }

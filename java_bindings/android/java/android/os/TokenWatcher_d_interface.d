@@ -16,5 +16,5 @@ final class TokenWatcher : IJavaObject {
 	@Import void dump();
 	@Import void dump(import2.PrintWriter);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "TokenWatcher");
+	public static immutable string _javaParameterString = "Landroid/os/TokenWatcher";
 }

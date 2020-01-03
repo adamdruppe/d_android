@@ -10,5 +10,5 @@ final class UCharacter_UnicodeBlock : IJavaObject {
 	@Import static import0.UCharacter_UnicodeBlock forName(string);
 	@Import int getID();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$UnicodeBlock");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$UnicodeBlock";
 }

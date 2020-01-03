@@ -6,5 +6,5 @@ final class MediaBrowserService_Result : IJavaObject {
 	@Import void sendResult(IJavaObject);
 	@Import void detach();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.media", "MediaBrowserService$Result");
+	public static immutable string _javaParameterString = "Landroid/service/media/MediaBrowserService$Result";
 }

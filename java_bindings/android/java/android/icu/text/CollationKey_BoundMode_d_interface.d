@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("CollationKey$BoundMode")
 final class CollationKey_BoundMode : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "CollationKey$BoundMode");
+	public static immutable string _javaParameterString = "Landroid/icu/text/CollationKey$BoundMode";
 }

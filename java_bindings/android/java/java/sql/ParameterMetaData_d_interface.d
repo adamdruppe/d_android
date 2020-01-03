@@ -11,5 +11,5 @@ interface ParameterMetaData : IJavaObject {
 	@Import string getParameterTypeName(int);
 	@Import string getParameterClassName(int);
 	@Import int getParameterMode(int);
-	mixin JavaPackageId!("java.sql", "ParameterMetaData");
+	public static immutable string _javaParameterString = "Ljava/sql/ParameterMetaData";
 }

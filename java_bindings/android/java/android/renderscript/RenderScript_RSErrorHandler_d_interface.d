@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class RenderScript_RSErrorHandler : IJavaObject {
 	@Import void run();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "RenderScript$RSErrorHandler");
+	public static immutable string _javaParameterString = "Landroid/renderscript/RenderScript$RSErrorHandler";
 }

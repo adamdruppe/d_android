@@ -67,5 +67,5 @@ final class Year : IJavaObject {
 	@Import @JavaName("with") import13.Temporal with_(import10.TemporalAdjuster);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "Year");
+	public static immutable string _javaParameterString = "Ljava/time/Year";
 }

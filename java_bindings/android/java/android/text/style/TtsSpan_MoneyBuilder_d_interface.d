@@ -11,5 +11,5 @@ final class TtsSpan_MoneyBuilder : IJavaObject {
 	@Import import0.TtsSpan_MoneyBuilder setCurrency(string);
 	@Import import0.TtsSpan_MoneyBuilder setQuantity(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$MoneyBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$MoneyBuilder";
 }

@@ -23,5 +23,5 @@ final class HttpResponseCache : IJavaObject {
 	@Import void close();
 	@Import @JavaName("delete") void delete_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.http", "HttpResponseCache");
+	public static immutable string _javaParameterString = "Landroid/net/http/HttpResponseCache";
 }

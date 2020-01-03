@@ -14,5 +14,5 @@ final class SyncParams : IJavaObject {
 	@Import import0.SyncParams setFrameRate(float);
 	@Import float getFrameRate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "SyncParams");
+	public static immutable string _javaParameterString = "Landroid/media/SyncParams";
 }

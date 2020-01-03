@@ -11,5 +11,5 @@ final class HostNfcFService : IJavaObject {
 	@Import byte[] processNfcFPacket(byte, import2.Bundle[]);
 	@Import void onDeactivated(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc.cardemulation", "HostNfcFService");
+	public static immutable string _javaParameterString = "Landroid/nfc/cardemulation/HostNfcFService";
 }

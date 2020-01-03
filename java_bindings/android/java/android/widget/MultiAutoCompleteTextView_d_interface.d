@@ -16,5 +16,5 @@ final class MultiAutoCompleteTextView : IJavaObject {
 	@Import void performValidation();
 	@Import import3.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "MultiAutoCompleteTextView");
+	public static immutable string _javaParameterString = "Landroid/widget/MultiAutoCompleteTextView";
 }

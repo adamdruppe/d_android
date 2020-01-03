@@ -13,5 +13,5 @@ final class InputDevice_MotionRange : IJavaObject {
 	@Import float getFuzz();
 	@Import float getResolution();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "InputDevice$MotionRange");
+	public static immutable string _javaParameterString = "Landroid/view/InputDevice$MotionRange";
 }

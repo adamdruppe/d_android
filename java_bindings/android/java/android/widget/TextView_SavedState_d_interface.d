@@ -8,5 +8,5 @@ final class TextView_SavedState : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TextView$SavedState");
+	public static immutable string _javaParameterString = "Landroid/widget/TextView$SavedState";
 }

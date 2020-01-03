@@ -8,5 +8,5 @@ final class TextUtils_TruncateAt : IJavaObject {
 	@Import static import0.TextUtils_TruncateAt[] values();
 	@Import static import0.TextUtils_TruncateAt valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "TextUtils$TruncateAt");
+	public static immutable string _javaParameterString = "Landroid/text/TextUtils$TruncateAt";
 }

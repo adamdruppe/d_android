@@ -20,5 +20,5 @@ final class Locale_Builder : IJavaObject {
 	@Import import0.Locale_Builder clearExtensions();
 	@Import import1.Locale build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Locale$Builder");
+	public static immutable string _javaParameterString = "Ljava/util/Locale$Builder";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class AudioTimestamp : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioTimestamp");
+	public static immutable string _javaParameterString = "Landroid/media/AudioTimestamp";
 }

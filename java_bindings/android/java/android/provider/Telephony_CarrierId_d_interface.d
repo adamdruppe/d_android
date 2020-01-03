@@ -7,5 +7,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 final class Telephony_CarrierId : IJavaObject {
 	@Import static import0.Uri getUriForSubscriptionId(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Telephony$CarrierId");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$CarrierId";
 }

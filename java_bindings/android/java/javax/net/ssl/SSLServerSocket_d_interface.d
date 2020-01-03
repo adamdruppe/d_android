@@ -22,5 +22,5 @@ final class SSLServerSocket : IJavaObject {
 	@Import void setSSLParameters(import0.SSLParameters);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLServerSocket");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLServerSocket";
 }

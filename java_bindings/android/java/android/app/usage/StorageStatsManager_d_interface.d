@@ -14,5 +14,5 @@ final class StorageStatsManager : IJavaObject {
 	@Import import1.StorageStats queryStatsForUser(import0.UUID, import2.UserHandle);
 	@Import import3.ExternalStorageStats queryExternalStatsForUser(import0.UUID, import2.UserHandle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "StorageStatsManager");
+	public static immutable string _javaParameterString = "Landroid/app/usage/StorageStatsManager";
 }

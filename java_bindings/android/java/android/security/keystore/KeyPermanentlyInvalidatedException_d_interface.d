@@ -7,5 +7,5 @@ final class KeyPermanentlyInvalidatedException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "KeyPermanentlyInvalidatedException");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/KeyPermanentlyInvalidatedException";
 }

@@ -22,5 +22,5 @@ interface Set : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import2.Spliterator spliterator();
-	mixin JavaPackageId!("java.util", "Set");
+	public static immutable string _javaParameterString = "Ljava/util/Set";
 }

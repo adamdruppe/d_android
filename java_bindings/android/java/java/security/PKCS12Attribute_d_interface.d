@@ -11,5 +11,5 @@ final class PKCS12Attribute : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "PKCS12Attribute");
+	public static immutable string _javaParameterString = "Ljava/security/PKCS12Attribute";
 }

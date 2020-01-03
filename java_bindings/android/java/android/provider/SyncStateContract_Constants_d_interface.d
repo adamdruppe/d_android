@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SyncStateContract$Constants")
 final class SyncStateContract_Constants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "SyncStateContract$Constants");
+	public static immutable string _javaParameterString = "Landroid/provider/SyncStateContract$Constants";
 }

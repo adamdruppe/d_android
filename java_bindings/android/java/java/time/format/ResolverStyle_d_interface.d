@@ -7,5 +7,5 @@ final class ResolverStyle : IJavaObject {
 	@Import static import0.ResolverStyle[] values();
 	@Import static import0.ResolverStyle valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.format", "ResolverStyle");
+	public static immutable string _javaParameterString = "Ljava/time/format/ResolverStyle";
 }

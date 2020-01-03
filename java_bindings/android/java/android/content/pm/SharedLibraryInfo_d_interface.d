@@ -16,5 +16,5 @@ final class SharedLibraryInfo : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "SharedLibraryInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/SharedLibraryInfo";
 }

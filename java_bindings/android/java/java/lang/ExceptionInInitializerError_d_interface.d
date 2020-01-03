@@ -9,5 +9,5 @@ final class ExceptionInInitializerError : IJavaObject {
 	@Import import0.JavaThrowable getException();
 	@Import import0.JavaThrowable getCause();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ExceptionInInitializerError");
+	public static immutable string _javaParameterString = "Ljava/lang/ExceptionInInitializerError";
 }

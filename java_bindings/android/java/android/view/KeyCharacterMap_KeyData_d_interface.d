@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("KeyCharacterMap$KeyData")
 final class KeyCharacterMap_KeyData : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "KeyCharacterMap$KeyData");
+	public static immutable string _javaParameterString = "Landroid/view/KeyCharacterMap$KeyData";
 }

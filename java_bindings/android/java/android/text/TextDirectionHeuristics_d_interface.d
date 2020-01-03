@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class TextDirectionHeuristics : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "TextDirectionHeuristics");
+	public static immutable string _javaParameterString = "Landroid/text/TextDirectionHeuristics";
 }

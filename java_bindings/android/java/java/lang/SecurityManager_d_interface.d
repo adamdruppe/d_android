@@ -44,5 +44,5 @@ final class SecurityManager : IJavaObject {
 	@Import void checkSecurityAccess(string);
 	@Import import2.ThreadGroup getThreadGroup();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "SecurityManager");
+	public static immutable string _javaParameterString = "Ljava/lang/SecurityManager";
 }

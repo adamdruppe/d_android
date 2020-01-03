@@ -44,5 +44,5 @@ final class GridView : IJavaObject {
 	@Import void setAdapter(import8.Adapter);
 	@Import import8.Adapter getAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "GridView");
+	public static immutable string _javaParameterString = "Landroid/widget/GridView";
 }

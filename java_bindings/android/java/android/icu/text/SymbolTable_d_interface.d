@@ -8,5 +8,5 @@ interface SymbolTable : IJavaObject {
 	@Import wchar[] lookup(string);
 	@Import import0.UnicodeMatcher lookupMatcher(int);
 	@Import string parseReference(string, import1.ParsePosition, int);
-	mixin JavaPackageId!("android.icu.text", "SymbolTable");
+	public static immutable string _javaParameterString = "Landroid/icu/text/SymbolTable";
 }

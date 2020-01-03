@@ -15,5 +15,5 @@ final class BluetoothManager : IJavaObject {
 	@Import import2.List getDevicesMatchingConnectionStates(int, int[]);
 	@Import import3.BluetoothGattServer openGattServer(import4.Context, import5.BluetoothGattServerCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothManager");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothManager";
 }

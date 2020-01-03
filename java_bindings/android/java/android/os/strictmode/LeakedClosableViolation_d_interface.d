@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class LeakedClosableViolation : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.strictmode", "LeakedClosableViolation");
+	public static immutable string _javaParameterString = "Landroid/os/strictmode/LeakedClosableViolation";
 }

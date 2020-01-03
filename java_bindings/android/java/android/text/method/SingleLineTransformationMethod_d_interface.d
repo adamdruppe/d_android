@@ -6,5 +6,5 @@ import import0 = android.java.android.text.method.SingleLineTransformationMethod
 final class SingleLineTransformationMethod : IJavaObject {
 	@Import static import0.SingleLineTransformationMethod getInstance();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "SingleLineTransformationMethod");
+	public static immutable string _javaParameterString = "Landroid/text/method/SingleLineTransformationMethod";
 }

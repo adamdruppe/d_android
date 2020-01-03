@@ -6,5 +6,5 @@ final class EventObject : IJavaObject {
 	@Import IJavaObject getSource();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "EventObject");
+	public static immutable string _javaParameterString = "Ljava/util/EventObject";
 }

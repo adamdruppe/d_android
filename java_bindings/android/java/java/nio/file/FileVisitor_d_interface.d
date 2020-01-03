@@ -10,5 +10,5 @@ interface FileVisitor : IJavaObject {
 	@Import import0.FileVisitResult visitFile(IJavaObject, import1.BasicFileAttributes);
 	@Import import0.FileVisitResult visitFileFailed(IJavaObject, import2.IOException);
 	@Import import0.FileVisitResult postVisitDirectory(IJavaObject, import2.IOException);
-	mixin JavaPackageId!("java.nio.file", "FileVisitor");
+	public static immutable string _javaParameterString = "Ljava/nio/file/FileVisitor";
 }

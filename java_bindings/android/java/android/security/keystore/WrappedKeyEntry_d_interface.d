@@ -10,5 +10,5 @@ final class WrappedKeyEntry : IJavaObject {
 	@Import string getTransformation();
 	@Import import0.AlgorithmParameterSpec getAlgorithmParameterSpec();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "WrappedKeyEntry");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/WrappedKeyEntry";
 }

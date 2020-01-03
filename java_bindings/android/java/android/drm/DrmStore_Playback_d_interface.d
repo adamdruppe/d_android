@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("DrmStore$Playback")
 final class DrmStore_Playback : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmStore$Playback");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmStore$Playback";
 }

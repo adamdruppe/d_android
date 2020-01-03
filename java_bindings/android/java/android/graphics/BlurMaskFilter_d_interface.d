@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.BlurMaskFilter_Blur_d_interface;
 final class BlurMaskFilter : IJavaObject {
 	@Import this(float, import0.BlurMaskFilter_Blur);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "BlurMaskFilter");
+	public static immutable string _javaParameterString = "Landroid/graphics/BlurMaskFilter";
 }

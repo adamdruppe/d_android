@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class StandardCharsets : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "StandardCharsets");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/StandardCharsets";
 }

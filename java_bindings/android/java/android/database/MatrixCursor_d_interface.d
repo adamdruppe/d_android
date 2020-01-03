@@ -22,5 +22,5 @@ final class MatrixCursor : IJavaObject {
 	@Import int getType(int);
 	@Import bool isNull(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "MatrixCursor");
+	public static immutable string _javaParameterString = "Landroid/database/MatrixCursor";
 }

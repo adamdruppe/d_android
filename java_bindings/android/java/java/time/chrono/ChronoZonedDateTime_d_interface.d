@@ -62,5 +62,5 @@ interface ChronoZonedDateTime : IJavaObject {
 	@Import @JavaName("with") import17.Temporal with_(import4.TemporalField, long);
 	@Import @JavaName("with") import17.Temporal with_(import12.TemporalAdjuster);
 	@Import int compareTo(IJavaObject);
-	mixin JavaPackageId!("java.time.chrono", "ChronoZonedDateTime");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/ChronoZonedDateTime";
 }

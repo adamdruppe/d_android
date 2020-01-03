@@ -21,5 +21,5 @@ final class SpannedString : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import wchar charAt(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "SpannedString");
+	public static immutable string _javaParameterString = "Landroid/text/SpannedString";
 }

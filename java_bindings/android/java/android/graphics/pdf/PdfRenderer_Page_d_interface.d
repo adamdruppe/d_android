@@ -13,5 +13,5 @@ final class PdfRenderer_Page : IJavaObject {
 	@Import void render(import0.Bitmap, import1.Rect, import2.Matrix, int);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.pdf", "PdfRenderer$Page");
+	public static immutable string _javaParameterString = "Landroid/graphics/pdf/PdfRenderer$Page";
 }

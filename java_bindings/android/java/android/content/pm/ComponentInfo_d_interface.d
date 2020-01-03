@@ -12,5 +12,5 @@ final class ComponentInfo : IJavaObject {
 	@Import int getBannerResource();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ComponentInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ComponentInfo";
 }

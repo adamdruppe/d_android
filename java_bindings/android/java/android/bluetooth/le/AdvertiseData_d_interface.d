@@ -18,5 +18,5 @@ final class AdvertiseData : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertiseData");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertiseData";
 }

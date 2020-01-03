@@ -9,5 +9,5 @@ final class BluetoothHealthCallback : IJavaObject {
 	@Import void onHealthAppConfigurationStatusChange(import0.BluetoothHealthAppConfiguration, int);
 	@Import void onHealthChannelStateChange(import0.BluetoothHealthAppConfiguration, import1.BluetoothDevice, int, int, import2.ParcelFileDescriptor, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothHealthCallback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothHealthCallback";
 }

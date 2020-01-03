@@ -22,5 +22,5 @@ final class Clock : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "Clock");
+	public static immutable string _javaParameterString = "Ljava/time/Clock";
 }

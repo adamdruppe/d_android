@@ -17,5 +17,5 @@ final class AssetManager : IJavaObject {
 	@Import import2.XmlResourceParser openXmlResourceParser(int, string);
 	@Import string[] getLocales();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "AssetManager");
+	public static immutable string _javaParameterString = "Landroid/content/res/AssetManager";
 }

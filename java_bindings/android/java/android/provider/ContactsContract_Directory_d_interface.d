@@ -9,5 +9,5 @@ final class ContactsContract_Directory : IJavaObject {
 	@Import static bool isEnterpriseDirectoryId(long);
 	@Import static void notifyDirectoryChange(import0.ContentResolver);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$Directory");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$Directory";
 }

@@ -11,5 +11,5 @@ final class CertStoreSpi : IJavaObject {
 	@Import import1.Collection engineGetCertificates(import2.CertSelector);
 	@Import import1.Collection engineGetCRLs(import3.CRLSelector);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertStoreSpi");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertStoreSpi";
 }

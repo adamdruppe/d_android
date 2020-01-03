@@ -8,5 +8,5 @@ interface Extension : IJavaObject {
 	@Import bool isCritical();
 	@Import byte[] getValue();
 	@Import void encode(import0.OutputStream);
-	mixin JavaPackageId!("java.security.cert", "Extension");
+	public static immutable string _javaParameterString = "Ljava/security/cert/Extension";
 }

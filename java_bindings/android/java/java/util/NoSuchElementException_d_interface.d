@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NoSuchElementException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "NoSuchElementException");
+	public static immutable string _javaParameterString = "Ljava/util/NoSuchElementException";
 }

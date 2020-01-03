@@ -15,5 +15,5 @@ final class PrintDocumentAdapter : IJavaObject {
 	@Import void onWrite(import4.PageRange, import5.ParcelFileDescriptor, import1.CancellationSignal, import6.PrintDocumentAdapter_WriteResultCallback[]);
 	@Import void onFinish();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintDocumentAdapter");
+	public static immutable string _javaParameterString = "Landroid/print/PrintDocumentAdapter";
 }

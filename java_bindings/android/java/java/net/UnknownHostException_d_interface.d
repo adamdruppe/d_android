@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class UnknownHostException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "UnknownHostException");
+	public static immutable string _javaParameterString = "Ljava/net/UnknownHostException";
 }

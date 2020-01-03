@@ -21,5 +21,5 @@ final class InputMethodService_InputMethodSessionImpl : IJavaObject {
 	@Import void toggleSoftInput(int, int);
 	@Import void updateCursorAnchorInfo(import5.CursorAnchorInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "InputMethodService$InputMethodSessionImpl");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/InputMethodService$InputMethodSessionImpl";
 }

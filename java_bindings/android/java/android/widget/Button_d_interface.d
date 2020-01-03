@@ -15,5 +15,5 @@ final class Button : IJavaObject {
 	@Import import2.CharSequence getAccessibilityClassName();
 	@Import import3.PointerIcon onResolvePointerIcon(import4.MotionEvent, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Button");
+	public static immutable string _javaParameterString = "Landroid/widget/Button";
 }

@@ -15,5 +15,5 @@ final class VoiceInteractionSessionService : IJavaObject {
 	@Import void onLowMemory();
 	@Import void onTrimMemory(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSessionService");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSessionService";
 }

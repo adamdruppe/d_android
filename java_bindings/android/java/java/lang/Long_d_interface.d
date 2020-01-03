@@ -54,5 +54,5 @@ final class Long : IJavaObject {
 	@Import static long min(long, long);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Long");
+	public static immutable string _javaParameterString = "Ljava/lang/Long";
 }

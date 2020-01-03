@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MalformedParametersException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "MalformedParametersException");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/MalformedParametersException";
 }

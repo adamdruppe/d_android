@@ -10,5 +10,5 @@ final class DateValueSanitizer : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "DateValueSanitizer");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/DateValueSanitizer";
 }

@@ -12,5 +12,5 @@ final class CipherOutputStream : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "CipherOutputStream");
+	public static immutable string _javaParameterString = "Ljavax/crypto/CipherOutputStream";
 }

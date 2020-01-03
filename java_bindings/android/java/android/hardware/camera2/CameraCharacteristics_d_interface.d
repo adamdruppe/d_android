@@ -14,5 +14,5 @@ final class CameraCharacteristics : IJavaObject {
 	@Import import1.List getAvailableCaptureResultKeys();
 	@Import import2.Set getPhysicalCameraIds();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraCharacteristics");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraCharacteristics";
 }

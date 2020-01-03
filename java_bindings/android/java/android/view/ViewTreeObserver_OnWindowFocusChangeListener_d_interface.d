@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ViewTreeObserver$OnWindowFocusChangeListener")
 interface ViewTreeObserver_OnWindowFocusChangeListener : IJavaObject {
 	@Import void onWindowFocusChanged(bool);
-	mixin JavaPackageId!("android.view", "ViewTreeObserver$OnWindowFocusChangeListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewTreeObserver$OnWindowFocusChangeListener";
 }

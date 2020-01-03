@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MessageDigestSpi : IJavaObject {
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "MessageDigestSpi");
+	public static immutable string _javaParameterString = "Ljava/security/MessageDigestSpi";
 }

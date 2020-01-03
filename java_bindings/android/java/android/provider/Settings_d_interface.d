@@ -6,5 +6,5 @@ import import0 = android.java.android.content.Context_d_interface;
 final class Settings : IJavaObject {
 	@Import static bool canDrawOverlays(import0.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Settings");
+	public static immutable string _javaParameterString = "Landroid/provider/Settings";
 }

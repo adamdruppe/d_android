@@ -59,5 +59,5 @@ interface GL11ExtensionPack : IJavaObject {
 	@Import void glTexGenxv(int, int, int, int[]);
 	@Import void glTexGenxv(int, int, import1.IntBuffer);
 	@Import void glTexParameterf(int, int, float);
-	mixin JavaPackageId!("javax.microedition.khronos.opengles", "GL11ExtensionPack");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/opengles/GL11ExtensionPack";
 }

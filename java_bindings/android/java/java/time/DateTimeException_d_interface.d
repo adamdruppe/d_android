@@ -7,5 +7,5 @@ final class DateTimeException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "DateTimeException");
+	public static immutable string _javaParameterString = "Ljava/time/DateTimeException";
 }

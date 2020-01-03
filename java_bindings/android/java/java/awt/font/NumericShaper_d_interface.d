@@ -22,5 +22,5 @@ final class NumericShaper : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.awt.font", "NumericShaper");
+	public static immutable string _javaParameterString = "Ljava/awt/font/NumericShaper";
 }

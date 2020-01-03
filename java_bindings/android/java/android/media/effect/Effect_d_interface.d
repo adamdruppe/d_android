@@ -10,5 +10,5 @@ final class Effect : IJavaObject {
 	@Import void setUpdateListener(import0.EffectUpdateListener);
 	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.effect", "Effect");
+	public static immutable string _javaParameterString = "Landroid/media/effect/Effect";
 }

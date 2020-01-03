@@ -7,5 +7,5 @@ final class LinkageError : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "LinkageError");
+	public static immutable string _javaParameterString = "Ljava/lang/LinkageError";
 }

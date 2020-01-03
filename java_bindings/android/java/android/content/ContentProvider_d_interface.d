@@ -53,5 +53,5 @@ final class ContentProvider : IJavaObject {
 	@Import void shutdown();
 	@Import void dump(import14.FileDescriptor, import15.PrintWriter, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentProvider");
+	public static immutable string _javaParameterString = "Landroid/content/ContentProvider";
 }

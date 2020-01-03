@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.drawable.Drawable_d_interface;
 @JavaName("Icon$OnDrawableLoadedListener")
 interface Icon_OnDrawableLoadedListener : IJavaObject {
 	@Import void onDrawableLoaded(import0.Drawable);
-	mixin JavaPackageId!("android.graphics.drawable", "Icon$OnDrawableLoadedListener");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Icon$OnDrawableLoadedListener";
 }

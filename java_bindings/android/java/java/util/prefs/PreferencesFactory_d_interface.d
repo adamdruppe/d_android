@@ -6,5 +6,5 @@ import import0 = android.java.java.util.prefs.Preferences_d_interface;
 interface PreferencesFactory : IJavaObject {
 	@Import import0.Preferences systemRoot();
 	@Import import0.Preferences userRoot();
-	mixin JavaPackageId!("java.util.prefs", "PreferencesFactory");
+	public static immutable string _javaParameterString = "Ljava/util/prefs/PreferencesFactory";
 }

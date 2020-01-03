@@ -40,5 +40,5 @@ final class TreeSet : IJavaObject {
 	@Import IJavaObject clone();
 	@Import import5.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "TreeSet");
+	public static immutable string _javaParameterString = "Ljava/util/TreeSet";
 }

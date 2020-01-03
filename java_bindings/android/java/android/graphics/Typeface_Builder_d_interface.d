@@ -22,5 +22,5 @@ final class Typeface_Builder : IJavaObject {
 	@Import import3.Typeface_Builder setFallback(string);
 	@Import import5.Typeface build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Typeface$Builder");
+	public static immutable string _javaParameterString = "Landroid/graphics/Typeface$Builder";
 }

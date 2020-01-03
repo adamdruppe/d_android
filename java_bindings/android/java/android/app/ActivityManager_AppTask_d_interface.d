@@ -14,5 +14,5 @@ final class ActivityManager_AppTask : IJavaObject {
 	@Import void startActivity(import1.Context, import2.Intent, import3.Bundle);
 	@Import void setExcludeFromRecents(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActivityManager$AppTask");
+	public static immutable string _javaParameterString = "Landroid/app/ActivityManager$AppTask";
 }

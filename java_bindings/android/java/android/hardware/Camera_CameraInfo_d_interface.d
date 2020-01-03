@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Camera$CameraInfo")
 final class Camera_CameraInfo : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "Camera$CameraInfo");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$CameraInfo";
 }

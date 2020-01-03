@@ -9,5 +9,5 @@ final class MediaBrowserService_BrowserRoot : IJavaObject {
 	@Import string getRootId();
 	@Import import0.Bundle getExtras();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.media", "MediaBrowserService$BrowserRoot");
+	public static immutable string _javaParameterString = "Landroid/service/media/MediaBrowserService$BrowserRoot";
 }

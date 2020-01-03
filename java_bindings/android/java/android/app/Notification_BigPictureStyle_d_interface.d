@@ -16,5 +16,5 @@ final class Notification_BigPictureStyle : IJavaObject {
 	@Import import1.Notification_BigPictureStyle bigLargeIcon(import3.Bitmap);
 	@Import import1.Notification_BigPictureStyle bigLargeIcon(import4.Icon);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$BigPictureStyle");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$BigPictureStyle";
 }

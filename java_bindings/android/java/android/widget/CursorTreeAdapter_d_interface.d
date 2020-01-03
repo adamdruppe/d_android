@@ -38,5 +38,5 @@ final class CursorTreeAdapter : IJavaObject {
 	@Import IJavaObject getChild(int, int);
 	@Import IJavaObject getGroup(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "CursorTreeAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/CursorTreeAdapter";
 }

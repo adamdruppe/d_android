@@ -6,5 +6,5 @@ import import0 = android.java.android.media.audiofx.EnvironmentalReverb_d_interf
 @JavaName("EnvironmentalReverb$OnParameterChangeListener")
 interface EnvironmentalReverb_OnParameterChangeListener : IJavaObject {
 	@Import void onParameterChange(import0.EnvironmentalReverb, int, int, int);
-	mixin JavaPackageId!("android.media.audiofx", "EnvironmentalReverb$OnParameterChangeListener");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/EnvironmentalReverb$OnParameterChangeListener";
 }

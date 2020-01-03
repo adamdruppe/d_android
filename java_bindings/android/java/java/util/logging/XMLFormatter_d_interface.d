@@ -9,5 +9,5 @@ final class XMLFormatter : IJavaObject {
 	@Import string getHead(import1.Handler);
 	@Import string getTail(import1.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "XMLFormatter");
+	public static immutable string _javaParameterString = "Ljava/util/logging/XMLFormatter";
 }

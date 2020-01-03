@@ -9,5 +9,5 @@ final class ScanCallback : IJavaObject {
 	@Import void onBatchScanResults(import1.List);
 	@Import void onScanFailed(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "ScanCallback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/ScanCallback";
 }

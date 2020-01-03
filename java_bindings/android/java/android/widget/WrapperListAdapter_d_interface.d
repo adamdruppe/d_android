@@ -5,5 +5,5 @@ import import0 = android.java.android.widget.ListAdapter_d_interface;
 
 interface WrapperListAdapter : IJavaObject {
 	@Import import0.ListAdapter getWrappedAdapter();
-	mixin JavaPackageId!("android.widget", "WrapperListAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/WrapperListAdapter";
 }

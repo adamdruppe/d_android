@@ -11,5 +11,5 @@ final class DropBoxManager : IJavaObject {
 	@Import bool isTagEnabled(string);
 	@Import import1.DropBoxManager_Entry getNextEntry(string, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "DropBoxManager");
+	public static immutable string _javaParameterString = "Landroid/os/DropBoxManager";
 }

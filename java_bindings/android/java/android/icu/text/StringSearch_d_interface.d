@@ -24,5 +24,5 @@ final class StringSearch : IJavaObject {
 	@Import void setIndex(int);
 	@Import void reset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "StringSearch");
+	public static immutable string _javaParameterString = "Landroid/icu/text/StringSearch";
 }

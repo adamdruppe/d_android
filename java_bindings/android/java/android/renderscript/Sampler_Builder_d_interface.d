@@ -15,5 +15,5 @@ final class Sampler_Builder : IJavaObject {
 	@Import void setAnisotropy(float);
 	@Import import2.Sampler create();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Sampler$Builder");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Sampler$Builder";
 }

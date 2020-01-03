@@ -13,5 +13,5 @@ final class BackgroundColorSpan : IJavaObject {
 	@Import int getBackgroundColor();
 	@Import void updateDrawState(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "BackgroundColorSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/BackgroundColorSpan";
 }

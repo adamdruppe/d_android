@@ -8,5 +8,5 @@ interface Animation_AnimationListener : IJavaObject {
 	@Import void onAnimationStart(import0.Animation);
 	@Import void onAnimationEnd(import0.Animation);
 	@Import void onAnimationRepeat(import0.Animation);
-	mixin JavaPackageId!("android.view.animation", "Animation$AnimationListener");
+	public static immutable string _javaParameterString = "Landroid/view/animation/Animation$AnimationListener";
 }

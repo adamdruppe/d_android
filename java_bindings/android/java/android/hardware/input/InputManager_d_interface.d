@@ -11,5 +11,5 @@ final class InputManager : IJavaObject {
 	@Import void registerInputDeviceListener(import1.InputManager_InputDeviceListener, import2.Handler);
 	@Import void unregisterInputDeviceListener(import1.InputManager_InputDeviceListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.input", "InputManager");
+	public static immutable string _javaParameterString = "Landroid/hardware/input/InputManager";
 }

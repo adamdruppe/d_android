@@ -27,5 +27,5 @@ final class SearchIterator : IJavaObject {
 	@Import void setElementComparisonType(import2.SearchIterator_ElementComparisonType);
 	@Import import2.SearchIterator_ElementComparisonType getElementComparisonType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "SearchIterator");
+	public static immutable string _javaParameterString = "Landroid/icu/text/SearchIterator";
 }

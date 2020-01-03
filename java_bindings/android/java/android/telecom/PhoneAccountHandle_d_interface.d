@@ -17,5 +17,5 @@ final class PhoneAccountHandle : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "PhoneAccountHandle");
+	public static immutable string _javaParameterString = "Landroid/telecom/PhoneAccountHandle";
 }

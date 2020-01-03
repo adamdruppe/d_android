@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface DialogInterface : IJavaObject {
 	@Import void cancel();
 	@Import void dismiss();
-	mixin JavaPackageId!("android.content", "DialogInterface");
+	public static immutable string _javaParameterString = "Landroid/content/DialogInterface";
 }

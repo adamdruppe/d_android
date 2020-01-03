@@ -16,5 +16,5 @@ final class VelocityTracker : IJavaObject {
 	@Import float getXVelocity(int);
 	@Import float getYVelocity(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "VelocityTracker");
+	public static immutable string _javaParameterString = "Landroid/view/VelocityTracker";
 }

@@ -32,5 +32,5 @@ final class Normalizer2 : IJavaObject {
 	@Import bool hasBoundaryAfter(int);
 	@Import bool isInert(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "Normalizer2");
+	public static immutable string _javaParameterString = "Landroid/icu/text/Normalizer2";
 }

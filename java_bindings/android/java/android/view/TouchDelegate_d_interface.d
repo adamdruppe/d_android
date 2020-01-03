@@ -9,5 +9,5 @@ final class TouchDelegate : IJavaObject {
 	@Import this(import0.Rect, import1.View);
 	@Import bool onTouchEvent(import2.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "TouchDelegate");
+	public static immutable string _javaParameterString = "Landroid/view/TouchDelegate";
 }

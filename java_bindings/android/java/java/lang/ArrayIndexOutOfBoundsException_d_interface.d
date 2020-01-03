@@ -5,5 +5,5 @@ final class ArrayIndexOutOfBoundsException : IJavaObject {
 	@Import this(int);
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ArrayIndexOutOfBoundsException");
+	public static immutable string _javaParameterString = "Ljava/lang/ArrayIndexOutOfBoundsException";
 }

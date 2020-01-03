@@ -16,5 +16,5 @@ final class AbstractInputMethodService : IJavaObject {
 	@Import bool onTrackballEvent(import5.MotionEvent);
 	@Import bool onGenericMotionEvent(import5.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "AbstractInputMethodService");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/AbstractInputMethodService";
 }

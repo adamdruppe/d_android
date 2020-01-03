@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NetworkStatsManager_UsageCallback : IJavaObject {
 	@Import void onThresholdReached(int, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "NetworkStatsManager$UsageCallback");
+	public static immutable string _javaParameterString = "Landroid/app/usage/NetworkStatsManager$UsageCallback";
 }

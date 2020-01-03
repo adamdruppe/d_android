@@ -12,5 +12,5 @@ final class GeolocationPermissions : IJavaObject {
 	@Import void allow(string);
 	@Import void clearAll();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "GeolocationPermissions");
+	public static immutable string _javaParameterString = "Landroid/webkit/GeolocationPermissions";
 }

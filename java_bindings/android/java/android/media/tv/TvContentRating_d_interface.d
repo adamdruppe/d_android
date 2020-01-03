@@ -16,5 +16,5 @@ final class TvContentRating : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvContentRating");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvContentRating";
 }

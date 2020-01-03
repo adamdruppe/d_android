@@ -29,5 +29,5 @@ final class Package : IJavaObject {
 	@Import import2.Annotation[] getDeclaredAnnotationsByType(import3.Class);
 	@Import import2.Annotation[] getDeclaredAnnotations();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Package");
+	public static immutable string _javaParameterString = "Ljava/lang/Package";
 }

@@ -10,5 +10,5 @@ interface CommonDataSource : IJavaObject {
 	@Import void setLoginTimeout(int);
 	@Import int getLoginTimeout();
 	@Import import1.Logger getParentLogger();
-	mixin JavaPackageId!("javax.sql", "CommonDataSource");
+	public static immutable string _javaParameterString = "Ljavax/sql/CommonDataSource";
 }

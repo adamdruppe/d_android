@@ -31,5 +31,5 @@ final class Month : IJavaObject {
 	@Import IJavaObject query(import6.TemporalQuery);
 	@Import import7.Temporal adjustInto(import7.Temporal);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "Month");
+	public static immutable string _javaParameterString = "Ljava/time/Month";
 }

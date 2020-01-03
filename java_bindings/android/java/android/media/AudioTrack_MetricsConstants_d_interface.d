@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AudioTrack$MetricsConstants")
 final class AudioTrack_MetricsConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioTrack$MetricsConstants");
+	public static immutable string _javaParameterString = "Landroid/media/AudioTrack$MetricsConstants";
 }

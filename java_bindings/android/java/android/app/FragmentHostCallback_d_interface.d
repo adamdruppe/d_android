@@ -29,5 +29,5 @@ final class FragmentHostCallback : IJavaObject {
 	@Import import9.View onFindViewById(int);
 	@Import bool onHasView();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentHostCallback");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentHostCallback";
 }

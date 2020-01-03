@@ -39,5 +39,5 @@ final class GregorianCalendar : IJavaObject {
 	@Import import3.ZonedDateTime toZonedDateTime();
 	@Import static import4.GregorianCalendar from(import3.ZonedDateTime);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "GregorianCalendar");
+	public static immutable string _javaParameterString = "Ljava/util/GregorianCalendar";
 }

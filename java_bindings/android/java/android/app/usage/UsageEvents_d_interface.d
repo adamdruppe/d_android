@@ -10,5 +10,5 @@ final class UsageEvents : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "UsageEvents");
+	public static immutable string _javaParameterString = "Landroid/app/usage/UsageEvents";
 }

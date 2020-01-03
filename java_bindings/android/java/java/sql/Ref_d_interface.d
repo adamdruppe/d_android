@@ -8,5 +8,5 @@ interface Ref : IJavaObject {
 	@Import IJavaObject getObject(import0.Map);
 	@Import IJavaObject getObject();
 	@Import void setObject(IJavaObject);
-	mixin JavaPackageId!("java.sql", "Ref");
+	public static immutable string _javaParameterString = "Ljava/sql/Ref";
 }

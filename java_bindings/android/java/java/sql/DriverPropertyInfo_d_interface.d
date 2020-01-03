@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DriverPropertyInfo : IJavaObject {
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "DriverPropertyInfo");
+	public static immutable string _javaParameterString = "Ljava/sql/DriverPropertyInfo";
 }

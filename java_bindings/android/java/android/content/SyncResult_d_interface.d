@@ -14,5 +14,5 @@ final class SyncResult : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import string toDebugString();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "SyncResult");
+	public static immutable string _javaParameterString = "Landroid/content/SyncResult";
 }

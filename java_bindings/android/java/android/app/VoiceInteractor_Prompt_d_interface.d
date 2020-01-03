@@ -15,5 +15,5 @@ final class VoiceInteractor_Prompt : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "VoiceInteractor$Prompt");
+	public static immutable string _javaParameterString = "Landroid/app/VoiceInteractor$Prompt";
 }

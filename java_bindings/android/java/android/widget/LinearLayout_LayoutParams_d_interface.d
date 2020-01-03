@@ -17,5 +17,5 @@ final class LinearLayout_LayoutParams : IJavaObject {
 	@Import this(import4.LinearLayout_LayoutParams);
 	@Import @JavaName("debug") string debug_(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "LinearLayout$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/LinearLayout$LayoutParams";
 }

@@ -12,5 +12,5 @@ final class SmsManager : IJavaObject {
 	@Import void sendMultipartTextMessage(string, string, import2.ArrayList, import2.ArrayList, import2.ArrayList);
 	@Import void sendDataMessage(string, string, short, byte, import1.PendingIntent, import1.PendingIntent[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.gsm", "SmsManager");
+	public static immutable string _javaParameterString = "Landroid/telephony/gsm/SmsManager";
 }

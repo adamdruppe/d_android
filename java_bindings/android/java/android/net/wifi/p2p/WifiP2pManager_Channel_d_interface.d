@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class WifiP2pManager_Channel : IJavaObject {
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.p2p", "WifiP2pManager$Channel");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/p2p/WifiP2pManager$Channel";
 }

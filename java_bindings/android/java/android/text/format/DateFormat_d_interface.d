@@ -20,5 +20,5 @@ final class DateFormat : IJavaObject {
 	@Import static import3.CharSequence format(import3.CharSequence, import4.Date);
 	@Import static import3.CharSequence format(import3.CharSequence, import5.Calendar);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.format", "DateFormat");
+	public static immutable string _javaParameterString = "Landroid/text/format/DateFormat";
 }

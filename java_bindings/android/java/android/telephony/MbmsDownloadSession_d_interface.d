@@ -29,5 +29,5 @@ final class MbmsDownloadSession : IJavaObject {
 	@Import void resetDownloadKnowledge(import6.DownloadRequest);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "MbmsDownloadSession");
+	public static immutable string _javaParameterString = "Landroid/telephony/MbmsDownloadSession";
 }

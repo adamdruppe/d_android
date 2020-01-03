@@ -60,5 +60,5 @@ final class Socket : IJavaObject {
 	@Import static void setSocketImplFactory(import6.SocketImplFactory);
 	@Import void setPerformancePreferences(int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "Socket");
+	public static immutable string _javaParameterString = "Ljava/net/Socket";
 }

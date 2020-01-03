@@ -7,5 +7,5 @@ interface Owner : IJavaObject {
 	@Import bool addOwner(import0.Principal, import0.Principal);
 	@Import bool deleteOwner(import0.Principal, import0.Principal);
 	@Import bool isOwner(import0.Principal);
-	mixin JavaPackageId!("java.security.acl", "Owner");
+	public static immutable string _javaParameterString = "Ljava/security/acl/Owner";
 }

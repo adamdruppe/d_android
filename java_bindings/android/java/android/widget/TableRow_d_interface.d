@@ -21,5 +21,5 @@ final class TableRow : IJavaObject {
 	@Import import6.LinearLayout_LayoutParams generateLayoutParams(import1.AttributeSet);
 	@Import import7.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TableRow");
+	public static immutable string _javaParameterString = "Landroid/widget/TableRow";
 }

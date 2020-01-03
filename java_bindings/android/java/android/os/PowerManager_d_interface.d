@@ -15,5 +15,5 @@ final class PowerManager : IJavaObject {
 	@Import bool isIgnoringBatteryOptimizations(string);
 	@Import bool isSustainedPerformanceModeSupported();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "PowerManager");
+	public static immutable string _javaParameterString = "Landroid/os/PowerManager";
 }

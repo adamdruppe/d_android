@@ -23,5 +23,5 @@ final class AsynchronousServerSocketChannel : IJavaObject {
 	@Import import7.NetworkChannel setOption(import4.SocketOption, IJavaObject);
 	@Import import7.NetworkChannel bind(import3.SocketAddress);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "AsynchronousServerSocketChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/AsynchronousServerSocketChannel";
 }

@@ -9,5 +9,5 @@ final class UserDictionary_Words : IJavaObject {
 	@Import static void addWord(import0.Context, string, int, int);
 	@Import static void addWord(import0.Context, string, int, string, import1.Locale);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "UserDictionary$Words");
+	public static immutable string _javaParameterString = "Landroid/provider/UserDictionary$Words";
 }

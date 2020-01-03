@@ -19,5 +19,5 @@ final class StackView : IJavaObject {
 	@Import void advance();
 	@Import import3.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "StackView");
+	public static immutable string _javaParameterString = "Landroid/widget/StackView";
 }

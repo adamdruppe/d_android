@@ -21,5 +21,5 @@ final class PlaybackState : IJavaObject {
 	@Import long getActiveQueueItemId();
 	@Import import3.Bundle getExtras();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "PlaybackState");
+	public static immutable string _javaParameterString = "Landroid/media/session/PlaybackState";
 }

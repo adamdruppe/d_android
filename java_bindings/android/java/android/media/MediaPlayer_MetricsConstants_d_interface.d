@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaPlayer$MetricsConstants")
 final class MediaPlayer_MetricsConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaPlayer$MetricsConstants");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$MetricsConstants";
 }

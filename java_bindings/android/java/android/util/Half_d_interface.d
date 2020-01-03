@@ -55,5 +55,5 @@ final class Half : IJavaObject {
 	@Import static string toHexString(short);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Half");
+	public static immutable string _javaParameterString = "Landroid/util/Half";
 }

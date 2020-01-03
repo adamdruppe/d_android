@@ -53,5 +53,5 @@ final class AdapterView : IJavaObject {
 	@Import import9.CharSequence getAccessibilityClassName();
 	@Import void onProvideAutofillStructure(import10.ViewStructure, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AdapterView");
+	public static immutable string _javaParameterString = "Landroid/widget/AdapterView";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ContactsContract$Contacts$AggregationSuggestions")
 final class ContactsContract_Contacts_AggregationSuggestions : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$Contacts$AggregationSuggestions");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$Contacts$AggregationSuggestions";
 }

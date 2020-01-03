@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class CertificateParsingException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.cert", "CertificateParsingException");
+	public static immutable string _javaParameterString = "Ljavax/security/cert/CertificateParsingException";
 }

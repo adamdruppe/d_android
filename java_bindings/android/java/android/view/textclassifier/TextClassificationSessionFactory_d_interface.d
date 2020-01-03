@@ -6,5 +6,5 @@ import import1 = android.java.android.view.textclassifier.TextClassificationCont
 
 interface TextClassificationSessionFactory : IJavaObject {
 	@Import import0.TextClassifier createTextClassificationSession(import1.TextClassificationContext);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassificationSessionFactory");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassificationSessionFactory";
 }

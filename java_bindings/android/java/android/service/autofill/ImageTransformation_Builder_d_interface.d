@@ -15,5 +15,5 @@ final class ImageTransformation_Builder : IJavaObject {
 	@Import import3.ImageTransformation_Builder addOption(import1.Pattern, int, import2.CharSequence);
 	@Import import4.ImageTransformation build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "ImageTransformation$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/ImageTransformation$Builder";
 }

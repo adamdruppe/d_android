@@ -7,5 +7,5 @@ final class AccessMode : IJavaObject {
 	@Import static import0.AccessMode[] values();
 	@Import static import0.AccessMode valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "AccessMode");
+	public static immutable string _javaParameterString = "Ljava/nio/file/AccessMode";
 }

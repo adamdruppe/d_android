@@ -8,5 +8,5 @@ final class Schema : IJavaObject {
 	@Import import0.Validator newValidator();
 	@Import import1.ValidatorHandler newValidatorHandler();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.validation", "Schema");
+	public static immutable string _javaParameterString = "Ljavax/xml/validation/Schema";
 }

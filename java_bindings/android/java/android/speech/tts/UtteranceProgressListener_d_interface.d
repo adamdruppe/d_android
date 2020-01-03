@@ -11,5 +11,5 @@ final class UtteranceProgressListener : IJavaObject {
 	@Import void onAudioAvailable(string, byte[]);
 	@Import void onRangeStart(string, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech.tts", "UtteranceProgressListener");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/UtteranceProgressListener";
 }

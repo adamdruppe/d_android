@@ -9,5 +9,5 @@ interface DOMImplementation : IJavaObject {
 	@Import import0.DocumentType createDocumentType(string, string, string);
 	@Import import1.Document createDocument(string, string, import0.DocumentType);
 	@Import IJavaObject getFeature(string, string);
-	mixin JavaPackageId!("org.w3c.dom", "DOMImplementation");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMImplementation";
 }

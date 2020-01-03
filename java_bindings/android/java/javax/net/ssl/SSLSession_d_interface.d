@@ -28,5 +28,5 @@ interface SSLSession : IJavaObject {
 	@Import int getPeerPort();
 	@Import int getPacketBufferSize();
 	@Import int getApplicationBufferSize();
-	mixin JavaPackageId!("javax.net.ssl", "SSLSession");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLSession";
 }

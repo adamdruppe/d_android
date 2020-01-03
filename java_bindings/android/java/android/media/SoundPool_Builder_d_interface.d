@@ -11,5 +11,5 @@ final class SoundPool_Builder : IJavaObject {
 	@Import import0.SoundPool_Builder setAudioAttributes(import1.AudioAttributes);
 	@Import import2.SoundPool build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "SoundPool$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/SoundPool$Builder";
 }

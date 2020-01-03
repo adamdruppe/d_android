@@ -32,5 +32,5 @@ final class ObjectInputStream : IJavaObject {
 	@Import string readLine();
 	@Import string readUTF();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "ObjectInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectInputStream";
 }

@@ -20,5 +20,5 @@ final class WeekFields : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "WeekFields");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/WeekFields";
 }

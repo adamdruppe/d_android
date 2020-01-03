@@ -9,5 +9,5 @@ interface IntStream_Builder : IJavaObject {
 	@Import void accept(int);
 	@Import import0.IntStream_Builder add(int);
 	@Import import1.IntStream build();
-	mixin JavaPackageId!("java.util.stream", "IntStream$Builder");
+	public static immutable string _javaParameterString = "Ljava/util/stream/IntStream$Builder";
 }

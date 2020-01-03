@@ -17,5 +17,5 @@ final class CopticCalendar : IJavaObject {
 	@Import this(int, int, int, int, int, int);
 	@Import string getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "CopticCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/CopticCalendar";
 }

@@ -20,5 +20,5 @@ final class GestureLibrary : IJavaObject {
 	@Import void removeEntry(string);
 	@Import import1.ArrayList getGestures(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "GestureLibrary");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureLibrary";
 }

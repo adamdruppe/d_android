@@ -16,18 +16,21 @@ final class Method : IJavaObject {
 	@Import import0.Class[] getParameterTypes();
 	@Import int getParameterCount();
 	@Import import2.Type[] getGenericParameterTypes();
+	@Import import0.Class[] getExceptionTypes();
 	@Import import2.Type[] getGenericExceptionTypes();
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	@Import string toGenericString();
+	@Import IJavaObject invoke(IJavaObject, IJavaObject[]);
 	@Import bool isBridge();
 	@Import bool isVarArgs();
 	@Import bool isSynthetic();
 	@Import bool isDefault();
+	@Import IJavaObject getDefaultValue();
 	@Import import3.Annotation getAnnotation(import0.Class);
 	@Import import3.Annotation[] getDeclaredAnnotations();
 	@Import import3.Annotation[][] getParameterAnnotations();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "Method");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Method";
 }

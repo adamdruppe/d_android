@@ -10,5 +10,5 @@ final class UncheckedIOException : IJavaObject {
 	@Import import0.IOException getCause();
 	@Import import1.JavaThrowable getCause();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "UncheckedIOException");
+	public static immutable string _javaParameterString = "Ljava/io/UncheckedIOException";
 }

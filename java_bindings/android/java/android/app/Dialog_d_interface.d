@@ -118,5 +118,5 @@ final class Dialog : IJavaObject {
 	@Import int getVolumeControlStream();
 	@Import void setOnKeyListener(import26.DialogInterface_OnKeyListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Dialog");
+	public static immutable string _javaParameterString = "Landroid/app/Dialog";
 }

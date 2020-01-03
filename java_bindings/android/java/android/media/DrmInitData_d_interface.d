@@ -7,5 +7,5 @@ import import0 = android.java.android.media.DrmInitData_SchemeInitData_d_interfa
 final class DrmInitData : IJavaObject {
 	@Import import0.DrmInitData_SchemeInitData get(import1.UUID);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "DrmInitData");
+	public static immutable string _javaParameterString = "Landroid/media/DrmInitData";
 }

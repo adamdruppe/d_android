@@ -10,5 +10,5 @@ final class IpSecManager_UdpEncapsulationSocket : IJavaObject {
 	@Import void close();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "IpSecManager$UdpEncapsulationSocket");
+	public static immutable string _javaParameterString = "Landroid/net/IpSecManager$UdpEncapsulationSocket";
 }

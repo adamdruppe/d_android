@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("GeolocationPermissions$Callback")
 interface GeolocationPermissions_Callback : IJavaObject {
 	@Import void invoke(string, bool, bool);
-	mixin JavaPackageId!("android.webkit", "GeolocationPermissions$Callback");
+	public static immutable string _javaParameterString = "Landroid/webkit/GeolocationPermissions$Callback";
 }

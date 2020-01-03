@@ -178,5 +178,5 @@ interface DatabaseMetaData : IJavaObject {
 	@Import import0.ResultSet getClientInfoProperties();
 	@Import import0.ResultSet getFunctions(string, string, string);
 	@Import import0.ResultSet getFunctionColumns(string, string, string, string);
-	mixin JavaPackageId!("java.sql", "DatabaseMetaData");
+	public static immutable string _javaParameterString = "Ljava/sql/DatabaseMetaData";
 }

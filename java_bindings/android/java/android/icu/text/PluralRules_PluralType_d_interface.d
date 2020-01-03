@@ -8,5 +8,5 @@ final class PluralRules_PluralType : IJavaObject {
 	@Import static import0.PluralRules_PluralType[] values();
 	@Import static import0.PluralRules_PluralType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "PluralRules$PluralType");
+	public static immutable string _javaParameterString = "Landroid/icu/text/PluralRules$PluralType";
 }

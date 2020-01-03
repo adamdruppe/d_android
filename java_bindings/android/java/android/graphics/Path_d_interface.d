@@ -57,5 +57,5 @@ final class Path : IJavaObject {
 	@Import void transform(import5.Matrix);
 	@Import float[] approximate(float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Path");
+	public static immutable string _javaParameterString = "Landroid/graphics/Path";
 }

@@ -12,5 +12,5 @@ final class Intent_ShortcutIconResource : IJavaObject {
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Intent$ShortcutIconResource");
+	public static immutable string _javaParameterString = "Landroid/content/Intent$ShortcutIconResource";
 }

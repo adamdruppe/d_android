@@ -21,5 +21,5 @@ final class SyncRequest_Builder : IJavaObject {
 	@Import import0.SyncRequest_Builder setExpedited(bool);
 	@Import import3.SyncRequest build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "SyncRequest$Builder");
+	public static immutable string _javaParameterString = "Landroid/content/SyncRequest$Builder";
 }

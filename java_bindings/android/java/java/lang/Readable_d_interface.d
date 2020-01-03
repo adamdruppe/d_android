@@ -5,5 +5,5 @@ import import0 = android.java.java.nio.CharBuffer_d_interface;
 
 interface Readable : IJavaObject {
 	@Import int read(import0.CharBuffer);
-	mixin JavaPackageId!("java.lang", "Readable");
+	public static immutable string _javaParameterString = "Ljava/lang/Readable";
 }

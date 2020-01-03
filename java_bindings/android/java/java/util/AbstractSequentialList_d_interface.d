@@ -14,5 +14,5 @@ final class AbstractSequentialList : IJavaObject {
 	@Import import1.Iterator iterator();
 	@Import import2.ListIterator listIterator(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "AbstractSequentialList");
+	public static immutable string _javaParameterString = "Ljava/util/AbstractSequentialList";
 }

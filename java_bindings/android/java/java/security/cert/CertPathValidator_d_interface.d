@@ -18,5 +18,5 @@ final class CertPathValidator : IJavaObject {
 	@Import static string getDefaultType();
 	@Import import5.CertPathChecker getRevocationChecker();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertPathValidator");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathValidator";
 }

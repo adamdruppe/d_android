@@ -10,5 +10,5 @@ final class CameraAccessException : IJavaObject {
 	@Import this(int, import0.JavaThrowable);
 	@Import int getReason();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraAccessException");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraAccessException";
 }

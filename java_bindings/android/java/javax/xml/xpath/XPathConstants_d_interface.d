@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class XPathConstants : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathConstants");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathConstants";
 }

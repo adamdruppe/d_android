@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class TrustManagerFactorySpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "TrustManagerFactorySpi");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/TrustManagerFactorySpi";
 }

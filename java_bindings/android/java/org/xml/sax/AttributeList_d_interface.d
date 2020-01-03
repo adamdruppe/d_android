@@ -8,5 +8,5 @@ interface AttributeList : IJavaObject {
 	@Import string getValue(int);
 	@Import string getType(string);
 	@Import string getValue(string);
-	mixin JavaPackageId!("org.xml.sax", "AttributeList");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/AttributeList";
 }

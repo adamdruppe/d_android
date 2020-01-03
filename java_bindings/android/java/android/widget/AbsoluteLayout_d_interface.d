@@ -13,5 +13,5 @@ final class AbsoluteLayout : IJavaObject {
 	@Import import2.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	@Import bool shouldDelayChildPressedState();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AbsoluteLayout");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsoluteLayout";
 }

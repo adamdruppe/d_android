@@ -42,5 +42,5 @@ final class ArrayAdapter : IJavaObject {
 	@Import import8.Filter getFilter();
 	@Import import9.CharSequence[] getAutofillOptions();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ArrayAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/ArrayAdapter";
 }

@@ -10,5 +10,5 @@ final class JarOutputStream : IJavaObject {
 	@Import this(import0.OutputStream);
 	@Import void putNextEntry(import2.ZipEntry);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "JarOutputStream");
+	public static immutable string _javaParameterString = "Ljava/util/jar/JarOutputStream";
 }

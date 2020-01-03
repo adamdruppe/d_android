@@ -34,5 +34,5 @@ final class ViewAnimator : IJavaObject {
 	@Import int getBaseline();
 	@Import import5.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ViewAnimator");
+	public static immutable string _javaParameterString = "Landroid/widget/ViewAnimator";
 }

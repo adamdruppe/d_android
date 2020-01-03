@@ -59,5 +59,5 @@ final class Layout : IJavaObject {
 	@Import int getEllipsisStart(int);
 	@Import int getEllipsisCount(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Layout");
+	public static immutable string _javaParameterString = "Landroid/text/Layout";
 }

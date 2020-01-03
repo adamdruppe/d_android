@@ -11,5 +11,5 @@ interface SynthesisCallback : IJavaObject {
 	@Import bool hasStarted();
 	@Import bool hasFinished();
 	@Import void rangeStart(int, int, int);
-	mixin JavaPackageId!("android.speech.tts", "SynthesisCallback");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/SynthesisCallback";
 }

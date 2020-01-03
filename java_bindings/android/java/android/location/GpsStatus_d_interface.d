@@ -8,5 +8,5 @@ final class GpsStatus : IJavaObject {
 	@Import import0.Iterable getSatellites();
 	@Import int getMaxSatellites();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GpsStatus");
+	public static immutable string _javaParameterString = "Landroid/location/GpsStatus";
 }

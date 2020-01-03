@@ -57,5 +57,5 @@ final class LinkedBlockingDeque : IJavaObject {
 	@Import import2.Iterator descendingIterator();
 	@Import import3.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "LinkedBlockingDeque");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/LinkedBlockingDeque";
 }

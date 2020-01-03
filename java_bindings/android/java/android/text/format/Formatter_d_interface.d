@@ -8,5 +8,5 @@ final class Formatter : IJavaObject {
 	@Import static string formatShortFileSize(import0.Context, long);
 	@Import static string formatIpAddress(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.format", "Formatter");
+	public static immutable string _javaParameterString = "Landroid/text/format/Formatter";
 }

@@ -5,5 +5,5 @@ import import0 = android.java.java.util.concurrent.TimeUnit_d_interface;
 
 interface Delayed : IJavaObject {
 	@Import long getDelay(import0.TimeUnit);
-	mixin JavaPackageId!("java.util.concurrent", "Delayed");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Delayed";
 }

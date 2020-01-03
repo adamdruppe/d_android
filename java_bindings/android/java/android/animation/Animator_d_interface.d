@@ -35,5 +35,5 @@ final class Animator : IJavaObject {
 	@Import void setTarget(IJavaObject);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "Animator");
+	public static immutable string _javaParameterString = "Landroid/animation/Animator";
 }

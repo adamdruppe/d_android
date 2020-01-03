@@ -69,5 +69,5 @@ final class LocationManager : IJavaObject {
 	@Import string getGnssHardwareModelName();
 	@Import bool sendExtraCommand(string, string, import7.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "LocationManager");
+	public static immutable string _javaParameterString = "Landroid/location/LocationManager";
 }

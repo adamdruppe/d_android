@@ -16,5 +16,5 @@ final class BluetoothLeDeviceFilter_Builder : IJavaObject {
 	@Import import0.BluetoothLeDeviceFilter_Builder setRenameFromName(string, string, int, int);
 	@Import import4.BluetoothLeDeviceFilter build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "BluetoothLeDeviceFilter$Builder");
+	public static immutable string _javaParameterString = "Landroid/companion/BluetoothLeDeviceFilter$Builder";
 }

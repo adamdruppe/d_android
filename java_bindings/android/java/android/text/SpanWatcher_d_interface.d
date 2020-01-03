@@ -7,5 +7,5 @@ interface SpanWatcher : IJavaObject {
 	@Import void onSpanAdded(import0.Spannable, IJavaObject, int, int);
 	@Import void onSpanRemoved(import0.Spannable, IJavaObject, int, int);
 	@Import void onSpanChanged(import0.Spannable, IJavaObject, int, int, int, int);
-	mixin JavaPackageId!("android.text", "SpanWatcher");
+	public static immutable string _javaParameterString = "Landroid/text/SpanWatcher";
 }

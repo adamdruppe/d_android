@@ -12,5 +12,5 @@ final class DynamicsProcessing_Eq : IJavaObject {
 	@Import void setBand(int, import1.DynamicsProcessing_EqBand);
 	@Import import1.DynamicsProcessing_EqBand getBand(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "DynamicsProcessing$Eq");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/DynamicsProcessing$Eq";
 }

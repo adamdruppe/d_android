@@ -22,5 +22,5 @@ final class Modifier : IJavaObject {
 	@Import static int fieldModifiers();
 	@Import static int parameterModifiers();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "Modifier");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Modifier";
 }

@@ -6,5 +6,5 @@ final class DrmInitData_SchemeInitData : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "DrmInitData$SchemeInitData");
+	public static immutable string _javaParameterString = "Landroid/media/DrmInitData$SchemeInitData";
 }

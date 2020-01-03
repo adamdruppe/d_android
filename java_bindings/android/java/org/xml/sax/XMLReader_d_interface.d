@@ -22,5 +22,5 @@ interface XMLReader : IJavaObject {
 	@Import import3.ErrorHandler getErrorHandler();
 	@Import void parse(import4.InputSource);
 	@Import void parse(string);
-	mixin JavaPackageId!("org.xml.sax", "XMLReader");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/XMLReader";
 }

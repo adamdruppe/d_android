@@ -9,5 +9,5 @@ final class MaskFilterSpan : IJavaObject {
 	@Import import0.MaskFilter getMaskFilter();
 	@Import void updateDrawState(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "MaskFilterSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/MaskFilterSpan";
 }

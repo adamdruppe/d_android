@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface DoubleFunction : IJavaObject {
 	@Import IJavaObject apply(double);
-	mixin JavaPackageId!("java.util.function", "DoubleFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/DoubleFunction";
 }

@@ -10,5 +10,5 @@ final class Compiler : IJavaObject {
 	@Import static void enable();
 	@Import static void disable();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Compiler");
+	public static immutable string _javaParameterString = "Ljava/lang/Compiler";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("NumberFormat$Field")
 final class NumberFormat_Field : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "NumberFormat$Field");
+	public static immutable string _javaParameterString = "Landroid/icu/text/NumberFormat$Field";
 }

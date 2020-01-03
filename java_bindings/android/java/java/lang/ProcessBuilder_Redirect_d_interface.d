@@ -15,5 +15,5 @@ final class ProcessBuilder_Redirect : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ProcessBuilder$Redirect");
+	public static immutable string _javaParameterString = "Ljava/lang/ProcessBuilder$Redirect";
 }

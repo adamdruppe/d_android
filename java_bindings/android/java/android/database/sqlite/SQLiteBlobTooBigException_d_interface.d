@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SQLiteBlobTooBigException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteBlobTooBigException");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteBlobTooBigException";
 }

@@ -16,5 +16,5 @@ final class AudioTrack_Builder : IJavaObject {
 	@Import import0.AudioTrack_Builder setPerformanceMode(int);
 	@Import import3.AudioTrack build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioTrack$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/AudioTrack$Builder";
 }

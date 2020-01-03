@@ -11,5 +11,5 @@ final class ContactsContract_Contacts_AggregationSuggestions_Builder : IJavaObje
 	@Import import0.ContactsContract_Contacts_AggregationSuggestions_Builder setLimit(int);
 	@Import import1.Uri build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$Contacts$AggregationSuggestions$Builder");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$Contacts$AggregationSuggestions$Builder";
 }

@@ -14,5 +14,5 @@ final class ClientCertRequest : IJavaObject {
 	@Import void ignore();
 	@Import void cancel();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "ClientCertRequest");
+	public static immutable string _javaParameterString = "Landroid/webkit/ClientCertRequest";
 }

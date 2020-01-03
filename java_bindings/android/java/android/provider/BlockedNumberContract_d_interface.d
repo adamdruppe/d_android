@@ -8,5 +8,5 @@ final class BlockedNumberContract : IJavaObject {
 	@Import static int unblock(import0.Context, string);
 	@Import static bool canCurrentUserBlockNumbers(import0.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "BlockedNumberContract");
+	public static immutable string _javaParameterString = "Landroid/provider/BlockedNumberContract";
 }

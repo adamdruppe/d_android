@@ -16,5 +16,5 @@ final class BluetoothSocket : IJavaObject {
 	@Import int getMaxReceivePacketSize();
 	@Import int getConnectionType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothSocket");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothSocket";
 }

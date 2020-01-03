@@ -9,5 +9,5 @@ final class MediaCodecInfo_EncoderCapabilities : IJavaObject {
 	@Import import0.Range getComplexityRange();
 	@Import bool isBitrateModeSupported(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodecInfo$EncoderCapabilities");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodecInfo$EncoderCapabilities";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class UserDictionary : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "UserDictionary");
+	public static immutable string _javaParameterString = "Landroid/provider/UserDictionary";
 }

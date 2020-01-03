@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("ContactsContract$PhoneticNameStyle")
 interface ContactsContract_PhoneticNameStyle : IJavaObject {
-	mixin JavaPackageId!("android.provider", "ContactsContract$PhoneticNameStyle");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$PhoneticNameStyle";
 }

@@ -11,5 +11,5 @@ final class SslCertificate_DName : IJavaObject {
 	@Import string getOName();
 	@Import string getUName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.http", "SslCertificate$DName");
+	public static immutable string _javaParameterString = "Landroid/net/http/SslCertificate$DName";
 }

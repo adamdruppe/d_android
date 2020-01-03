@@ -14,5 +14,5 @@ final class JarInputStream : IJavaObject {
 	@Import import3.JarEntry getNextJarEntry();
 	@Import int read(byte, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "JarInputStream");
+	public static immutable string _javaParameterString = "Ljava/util/jar/JarInputStream";
 }

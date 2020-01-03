@@ -7,5 +7,5 @@ final class CryptoPrimitive : IJavaObject {
 	@Import static import0.CryptoPrimitive[] values();
 	@Import static import0.CryptoPrimitive valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "CryptoPrimitive");
+	public static immutable string _javaParameterString = "Ljava/security/CryptoPrimitive";
 }

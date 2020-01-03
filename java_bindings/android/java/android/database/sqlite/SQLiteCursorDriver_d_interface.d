@@ -10,5 +10,5 @@ interface SQLiteCursorDriver : IJavaObject {
 	@Import void cursorRequeried(import0.Cursor);
 	@Import void cursorClosed();
 	@Import void setBindArguments(string[]);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteCursorDriver");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteCursorDriver";
 }

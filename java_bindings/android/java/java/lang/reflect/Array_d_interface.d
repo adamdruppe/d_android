@@ -26,5 +26,5 @@ final class Array : IJavaObject {
 	@Import static void setFloat(IJavaObject, int, float);
 	@Import static void setDouble(IJavaObject, int, double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "Array");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Array";
 }

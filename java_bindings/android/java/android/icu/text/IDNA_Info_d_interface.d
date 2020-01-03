@@ -9,5 +9,5 @@ final class IDNA_Info : IJavaObject {
 	@Import import0.Set getErrors();
 	@Import bool isTransitionalDifferent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "IDNA$Info");
+	public static immutable string _javaParameterString = "Landroid/icu/text/IDNA$Info";
 }

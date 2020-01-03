@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ObjLongConsumer : IJavaObject {
 	@Import void accept(IJavaObject, long);
-	mixin JavaPackageId!("java.util.function", "ObjLongConsumer");
+	public static immutable string _javaParameterString = "Ljava/util/function/ObjLongConsumer";
 }

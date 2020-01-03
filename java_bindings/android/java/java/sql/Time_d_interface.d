@@ -17,5 +17,5 @@ final class Time : IJavaObject {
 	@Import void setMonth(int);
 	@Import void setDate(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "Time");
+	public static immutable string _javaParameterString = "Ljava/sql/Time";
 }

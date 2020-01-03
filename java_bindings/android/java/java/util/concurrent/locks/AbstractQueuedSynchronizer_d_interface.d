@@ -29,5 +29,5 @@ final class AbstractQueuedSynchronizer : IJavaObject {
 	@Import int getWaitQueueLength(import2.AbstractQueuedSynchronizer_ConditionObject);
 	@Import import1.Collection getWaitingThreads(import2.AbstractQueuedSynchronizer_ConditionObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "AbstractQueuedSynchronizer");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/AbstractQueuedSynchronizer";
 }

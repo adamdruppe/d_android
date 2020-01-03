@@ -20,5 +20,5 @@ final class MediaCas : IJavaObject {
 	@Import void refreshEntitlements(int, byte[]);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCas");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCas";
 }

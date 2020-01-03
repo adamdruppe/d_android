@@ -9,5 +9,5 @@ final class SaveCallback : IJavaObject {
 	@Import void onSuccess(import0.IntentSender);
 	@Import void onFailure(import1.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "SaveCallback");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/SaveCallback";
 }

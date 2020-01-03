@@ -8,5 +8,5 @@ final class Normalizer2_Mode : IJavaObject {
 	@Import static import0.Normalizer2_Mode[] values();
 	@Import static import0.Normalizer2_Mode valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "Normalizer2$Mode");
+	public static immutable string _javaParameterString = "Landroid/icu/text/Normalizer2$Mode";
 }

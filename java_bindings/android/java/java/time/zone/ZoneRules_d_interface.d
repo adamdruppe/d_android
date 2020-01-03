@@ -29,5 +29,5 @@ final class ZoneRules : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.zone", "ZoneRules");
+	public static immutable string _javaParameterString = "Ljava/time/zone/ZoneRules";
 }

@@ -11,5 +11,5 @@ final class ParsePosition : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "ParsePosition");
+	public static immutable string _javaParameterString = "Ljava/text/ParsePosition";
 }

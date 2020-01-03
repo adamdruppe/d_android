@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface IntSupplier : IJavaObject {
 	@Import int getAsInt();
-	mixin JavaPackageId!("java.util.function", "IntSupplier");
+	public static immutable string _javaParameterString = "Ljava/util/function/IntSupplier";
 }

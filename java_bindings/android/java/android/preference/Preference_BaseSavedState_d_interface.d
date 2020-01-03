@@ -9,5 +9,5 @@ final class Preference_BaseSavedState : IJavaObject {
 	@Import this(import0.Parcel);
 	@Import this(import1.Parcelable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "Preference$BaseSavedState");
+	public static immutable string _javaParameterString = "Landroid/preference/Preference$BaseSavedState";
 }

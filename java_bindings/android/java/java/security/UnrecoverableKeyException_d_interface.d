@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class UnrecoverableKeyException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "UnrecoverableKeyException");
+	public static immutable string _javaParameterString = "Ljava/security/UnrecoverableKeyException";
 }

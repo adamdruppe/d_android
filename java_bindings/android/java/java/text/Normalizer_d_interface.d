@@ -8,5 +8,5 @@ final class Normalizer : IJavaObject {
 	@Import static string normalize(import0.CharSequence, import1.Normalizer_Form);
 	@Import static bool isNormalized(import0.CharSequence, import1.Normalizer_Form);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "Normalizer");
+	public static immutable string _javaParameterString = "Ljava/text/Normalizer";
 }

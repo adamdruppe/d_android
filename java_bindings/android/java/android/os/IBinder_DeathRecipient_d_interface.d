@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("IBinder$DeathRecipient")
 interface IBinder_DeathRecipient : IJavaObject {
 	@Import void binderDied();
-	mixin JavaPackageId!("android.os", "IBinder$DeathRecipient");
+	public static immutable string _javaParameterString = "Landroid/os/IBinder$DeathRecipient";
 }

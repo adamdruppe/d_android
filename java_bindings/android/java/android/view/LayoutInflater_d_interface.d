@@ -27,5 +27,5 @@ final class LayoutInflater : IJavaObject {
 	@Import import5.View inflate(import7.XmlPullParser, import6.ViewGroup, bool);
 	@Import import5.View createView(string, string, import8.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "LayoutInflater");
+	public static immutable string _javaParameterString = "Landroid/view/LayoutInflater";
 }

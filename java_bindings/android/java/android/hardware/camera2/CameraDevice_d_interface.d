@@ -23,5 +23,5 @@ final class CameraDevice : IJavaObject {
 	@Import import5.CaptureRequest_Builder createReprocessCaptureRequest(import7.TotalCaptureResult);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraDevice");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraDevice";
 }

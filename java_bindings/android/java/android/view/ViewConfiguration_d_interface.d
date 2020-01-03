@@ -45,5 +45,5 @@ final class ViewConfiguration : IJavaObject {
 	@Import bool hasPermanentMenuKey();
 	@Import bool shouldShowMenuShortcutsWhenKeyboardPresent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewConfiguration");
+	public static immutable string _javaParameterString = "Landroid/view/ViewConfiguration";
 }

@@ -19,5 +19,5 @@ final class SipProfile : IJavaObject {
 	@Import bool getSendKeepAlive();
 	@Import bool getAutoRegistration();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipProfile");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipProfile";
 }

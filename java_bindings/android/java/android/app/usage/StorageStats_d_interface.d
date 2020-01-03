@@ -10,5 +10,5 @@ final class StorageStats : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "StorageStats");
+	public static immutable string _javaParameterString = "Landroid/app/usage/StorageStats";
 }

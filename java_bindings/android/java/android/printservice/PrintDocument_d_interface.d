@@ -8,5 +8,5 @@ final class PrintDocument : IJavaObject {
 	@Import import0.PrintDocumentInfo getInfo();
 	@Import import1.ParcelFileDescriptor getData();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.printservice", "PrintDocument");
+	public static immutable string _javaParameterString = "Landroid/printservice/PrintDocument";
 }

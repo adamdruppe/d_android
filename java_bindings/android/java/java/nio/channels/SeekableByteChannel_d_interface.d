@@ -11,5 +11,5 @@ interface SeekableByteChannel : IJavaObject {
 	@Import import1.SeekableByteChannel position(long);
 	@Import long size();
 	@Import import1.SeekableByteChannel truncate(long);
-	mixin JavaPackageId!("java.nio.channels", "SeekableByteChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/SeekableByteChannel";
 }

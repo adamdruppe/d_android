@@ -8,5 +8,5 @@ final class Collector_Characteristics : IJavaObject {
 	@Import static import0.Collector_Characteristics[] values();
 	@Import static import0.Collector_Characteristics valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.stream", "Collector$Characteristics");
+	public static immutable string _javaParameterString = "Ljava/util/stream/Collector$Characteristics";
 }

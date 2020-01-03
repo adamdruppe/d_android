@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface TabStopSpan : IJavaObject {
 	@Import int getTabStop();
-	mixin JavaPackageId!("android.text.style", "TabStopSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/TabStopSpan";
 }

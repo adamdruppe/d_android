@@ -22,5 +22,5 @@ final class HandlerBase : IJavaObject {
 	@Import void error(import3.SAXParseException);
 	@Import void fatalError(import3.SAXParseException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax", "HandlerBase");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/HandlerBase";
 }

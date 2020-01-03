@@ -16,5 +16,5 @@ final class CompactDecimalFormat : IJavaObject {
 	@Import import4.Number parse(string, import5.ParsePosition);
 	@Import import6.CurrencyAmount parseCurrency(import7.CharSequence, import5.ParsePosition);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "CompactDecimalFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/CompactDecimalFormat";
 }

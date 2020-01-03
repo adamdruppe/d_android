@@ -11,5 +11,5 @@ interface UserDefinedFileAttributeView : IJavaObject {
 	@Import int read(string, import1.ByteBuffer);
 	@Import int write(string, import1.ByteBuffer);
 	@Import @JavaName("delete") void delete_(string);
-	mixin JavaPackageId!("java.nio.file.attribute", "UserDefinedFileAttributeView");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/UserDefinedFileAttributeView";
 }

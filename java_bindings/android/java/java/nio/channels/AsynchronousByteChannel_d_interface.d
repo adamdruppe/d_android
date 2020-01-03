@@ -10,5 +10,5 @@ interface AsynchronousByteChannel : IJavaObject {
 	@Import import2.Future read(import0.ByteBuffer);
 	@Import void write(import0.ByteBuffer, IJavaObject, import1.CompletionHandler);
 	@Import import2.Future write(import0.ByteBuffer);
-	mixin JavaPackageId!("java.nio.channels", "AsynchronousByteChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/AsynchronousByteChannel";
 }

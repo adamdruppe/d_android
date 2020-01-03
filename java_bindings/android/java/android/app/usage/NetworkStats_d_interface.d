@@ -8,5 +8,5 @@ final class NetworkStats : IJavaObject {
 	@Import bool hasNextBucket();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "NetworkStats");
+	public static immutable string _javaParameterString = "Landroid/app/usage/NetworkStats";
 }

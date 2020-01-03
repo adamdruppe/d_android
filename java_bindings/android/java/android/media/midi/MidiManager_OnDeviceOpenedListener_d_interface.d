@@ -6,5 +6,5 @@ import import0 = android.java.android.media.midi.MidiDevice_d_interface;
 @JavaName("MidiManager$OnDeviceOpenedListener")
 interface MidiManager_OnDeviceOpenedListener : IJavaObject {
 	@Import void onDeviceOpened(import0.MidiDevice);
-	mixin JavaPackageId!("android.media.midi", "MidiManager$OnDeviceOpenedListener");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiManager$OnDeviceOpenedListener";
 }

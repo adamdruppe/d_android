@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class UnbufferedIoViolation : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.strictmode", "UnbufferedIoViolation");
+	public static immutable string _javaParameterString = "Landroid/os/strictmode/UnbufferedIoViolation";
 }

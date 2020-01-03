@@ -6,5 +6,5 @@ import import0 = android.java.android.view.MenuItem_d_interface;
 @JavaName("Toolbar$OnMenuItemClickListener")
 interface Toolbar_OnMenuItemClickListener : IJavaObject {
 	@Import bool onMenuItemClick(import0.MenuItem);
-	mixin JavaPackageId!("android.widget", "Toolbar$OnMenuItemClickListener");
+	public static immutable string _javaParameterString = "Landroid/widget/Toolbar$OnMenuItemClickListener";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("TabHost$OnTabChangeListener")
 interface TabHost_OnTabChangeListener : IJavaObject {
 	@Import void onTabChanged(string);
-	mixin JavaPackageId!("android.widget", "TabHost$OnTabChangeListener");
+	public static immutable string _javaParameterString = "Landroid/widget/TabHost$OnTabChangeListener";
 }

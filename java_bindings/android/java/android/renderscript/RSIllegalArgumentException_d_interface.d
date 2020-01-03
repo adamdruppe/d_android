@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class RSIllegalArgumentException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "RSIllegalArgumentException");
+	public static immutable string _javaParameterString = "Landroid/renderscript/RSIllegalArgumentException";
 }

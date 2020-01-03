@@ -14,14 +14,14 @@ final class KeyAgreement : IJavaObject {
 	@Import static import0.KeyAgreement getInstance(string, string);
 	@Import static import0.KeyAgreement getInstance(string, import1.Provider);
 	@Import import1.Provider getProvider();
-	@Import void init(import2.Key);
-	@Import void init(import2.Key, import3.SecureRandom);
-	@Import void init(import2.Key, import4.AlgorithmParameterSpec);
-	@Import void init(import2.Key, import4.AlgorithmParameterSpec, import3.SecureRandom);
+	@Import @JavaName("init") void init_(import2.Key);
+	@Import @JavaName("init") void init_(import2.Key, import3.SecureRandom);
+	@Import @JavaName("init") void init_(import2.Key, import4.AlgorithmParameterSpec);
+	@Import @JavaName("init") void init_(import2.Key, import4.AlgorithmParameterSpec, import3.SecureRandom);
 	@Import import2.Key doPhase(import2.Key, bool);
 	@Import byte[] generateSecret();
 	@Import int generateSecret(byte, int[]);
 	@Import import5.SecretKey generateSecret(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "KeyAgreement");
+	public static immutable string _javaParameterString = "Ljavax/crypto/KeyAgreement";
 }

@@ -14,5 +14,5 @@ final class Base64_Encoder : IJavaObject {
 	@Import import1.OutputStream wrap(import1.OutputStream);
 	@Import import2.Base64_Encoder withoutPadding();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Base64$Encoder");
+	public static immutable string _javaParameterString = "Ljava/util/Base64$Encoder";
 }

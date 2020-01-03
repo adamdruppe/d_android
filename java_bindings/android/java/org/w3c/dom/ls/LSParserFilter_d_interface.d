@@ -8,5 +8,5 @@ interface LSParserFilter : IJavaObject {
 	@Import short startElement(import0.Element);
 	@Import short acceptNode(import1.Node);
 	@Import int getWhatToShow();
-	mixin JavaPackageId!("org.w3c.dom.ls", "LSParserFilter");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/LSParserFilter";
 }

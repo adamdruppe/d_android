@@ -64,5 +64,5 @@ final class X509CertSelector : IJavaObject {
 	@Import bool match(import7.Certificate);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "X509CertSelector");
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509CertSelector";
 }

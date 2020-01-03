@@ -53,5 +53,5 @@ interface ChronoLocalDateTime : IJavaObject {
 	@Import @JavaName("with") import11.Temporal with_(import6.TemporalField, long);
 	@Import @JavaName("with") import11.Temporal with_(import8.TemporalAdjuster);
 	@Import int compareTo(IJavaObject);
-	mixin JavaPackageId!("java.time.chrono", "ChronoLocalDateTime");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/ChronoLocalDateTime";
 }

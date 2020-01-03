@@ -9,5 +9,5 @@ interface BackupHelper : IJavaObject {
 	@Import void performBackup(import0.ParcelFileDescriptor, import1.BackupDataOutput, import0.ParcelFileDescriptor);
 	@Import void restoreEntity(import2.BackupDataInputStream);
 	@Import void writeNewStateDescription(import0.ParcelFileDescriptor);
-	mixin JavaPackageId!("android.app.backup", "BackupHelper");
+	public static immutable string _javaParameterString = "Landroid/app/backup/BackupHelper";
 }

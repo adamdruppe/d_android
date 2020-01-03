@@ -8,5 +8,5 @@ final class SensorDirectChannel : IJavaObject {
 	@Import void close();
 	@Import int configure(import0.Sensor, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "SensorDirectChannel");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorDirectChannel";
 }

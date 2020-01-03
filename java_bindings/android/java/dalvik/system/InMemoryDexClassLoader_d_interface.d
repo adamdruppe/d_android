@@ -8,5 +8,5 @@ final class InMemoryDexClassLoader : IJavaObject {
 	@Import this(import0.ByteBuffer, import1.ClassLoader[]);
 	@Import this(import0.ByteBuffer, import1.ClassLoader);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("dalvik.system", "InMemoryDexClassLoader");
+	public static immutable string _javaParameterString = "Ldalvik/system/InMemoryDexClassLoader";
 }

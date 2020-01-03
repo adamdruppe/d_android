@@ -22,5 +22,5 @@ final class ColorStateList : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import4.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "ColorStateList");
+	public static immutable string _javaParameterString = "Landroid/content/res/ColorStateList";
 }

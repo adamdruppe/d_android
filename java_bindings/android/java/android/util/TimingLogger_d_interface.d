@@ -8,5 +8,5 @@ final class TimingLogger : IJavaObject {
 	@Import void addSplit(string);
 	@Import void dumpToLog();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "TimingLogger");
+	public static immutable string _javaParameterString = "Landroid/util/TimingLogger";
 }

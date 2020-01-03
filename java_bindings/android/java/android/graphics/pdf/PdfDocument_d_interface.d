@@ -13,5 +13,5 @@ final class PdfDocument : IJavaObject {
 	@Import import3.List getPages();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.pdf", "PdfDocument");
+	public static immutable string _javaParameterString = "Landroid/graphics/pdf/PdfDocument";
 }

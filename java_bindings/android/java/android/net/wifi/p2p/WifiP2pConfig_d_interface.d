@@ -10,5 +10,5 @@ final class WifiP2pConfig : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.p2p", "WifiP2pConfig");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/p2p/WifiP2pConfig";
 }

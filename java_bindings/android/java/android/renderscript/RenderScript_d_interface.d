@@ -26,5 +26,5 @@ final class RenderScript : IJavaObject {
 	@Import void finish();
 	@Import void destroy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "RenderScript");
+	public static immutable string _javaParameterString = "Landroid/renderscript/RenderScript";
 }

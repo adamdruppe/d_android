@@ -5,5 +5,5 @@ import import0 = android.java.java.beans.PropertyChangeEvent_d_interface;
 
 interface PropertyChangeListener : IJavaObject {
 	@Import void propertyChange(import0.PropertyChangeEvent);
-	mixin JavaPackageId!("java.beans", "PropertyChangeListener");
+	public static immutable string _javaParameterString = "Ljava/beans/PropertyChangeListener";
 }

@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class IpSecManager_SpiUnavailableException : IJavaObject {
 	@Import int getSpi();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "IpSecManager$SpiUnavailableException");
+	public static immutable string _javaParameterString = "Landroid/net/IpSecManager$SpiUnavailableException";
 }

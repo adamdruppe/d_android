@@ -9,5 +9,5 @@ final class LauncherActivity : IJavaObject {
 	@Import void setTitle(int);
 	@Import import1.List makeListItems();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "LauncherActivity");
+	public static immutable string _javaParameterString = "Landroid/app/LauncherActivity";
 }

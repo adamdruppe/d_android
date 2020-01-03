@@ -6,5 +6,5 @@ interface DosFileAttributes : IJavaObject {
 	@Import bool isHidden();
 	@Import bool isArchive();
 	@Import bool isSystem();
-	mixin JavaPackageId!("java.nio.file.attribute", "DosFileAttributes");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/DosFileAttributes";
 }

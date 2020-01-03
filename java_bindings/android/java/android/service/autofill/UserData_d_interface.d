@@ -15,5 +15,5 @@ final class UserData : IJavaObject {
 	@Import static int getMinValueLength();
 	@Import static int getMaxValueLength();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "UserData");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/UserData";
 }

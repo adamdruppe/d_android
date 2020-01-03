@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface FileNameMap : IJavaObject {
 	@Import string getContentTypeFor(string);
-	mixin JavaPackageId!("java.net", "FileNameMap");
+	public static immutable string _javaParameterString = "Ljava/net/FileNameMap";
 }

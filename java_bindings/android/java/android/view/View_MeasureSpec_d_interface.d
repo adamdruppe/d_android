@@ -8,5 +8,5 @@ final class View_MeasureSpec : IJavaObject {
 	@Import static int getSize(int);
 	@Import static @JavaName("toString") string toString_(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "View$MeasureSpec");
+	public static immutable string _javaParameterString = "Landroid/view/View$MeasureSpec";
 }

@@ -17,5 +17,5 @@ final class Process : IJavaObject {
 	@Import import3.Process destroyForcibly();
 	@Import bool isAlive();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Process");
+	public static immutable string _javaParameterString = "Ljava/lang/Process";
 }

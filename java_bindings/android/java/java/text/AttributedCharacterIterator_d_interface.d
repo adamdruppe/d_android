@@ -15,5 +15,5 @@ interface AttributedCharacterIterator : IJavaObject {
 	@Import import2.Map getAttributes();
 	@Import IJavaObject getAttribute(import0.AttributedCharacterIterator_Attribute);
 	@Import import1.Set getAllAttributeKeys();
-	mixin JavaPackageId!("java.text", "AttributedCharacterIterator");
+	public static immutable string _javaParameterString = "Ljava/text/AttributedCharacterIterator";
 }

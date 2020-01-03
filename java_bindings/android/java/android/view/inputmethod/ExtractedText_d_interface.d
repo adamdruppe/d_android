@@ -7,5 +7,5 @@ final class ExtractedText : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "ExtractedText");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/ExtractedText";
 }

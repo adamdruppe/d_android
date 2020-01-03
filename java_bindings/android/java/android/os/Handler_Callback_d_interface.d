@@ -6,5 +6,5 @@ import import0 = android.java.android.os.Message_d_interface;
 @JavaName("Handler$Callback")
 interface Handler_Callback : IJavaObject {
 	@Import bool handleMessage(import0.Message);
-	mixin JavaPackageId!("android.os", "Handler$Callback");
+	public static immutable string _javaParameterString = "Landroid/os/Handler$Callback";
 }

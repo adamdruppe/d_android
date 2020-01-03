@@ -23,5 +23,5 @@ final class TextClassification : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import5.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassification");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassification";
 }

@@ -8,5 +8,5 @@ final class ViewDebug_HierarchyTraceType : IJavaObject {
 	@Import static import0.ViewDebug_HierarchyTraceType[] values();
 	@Import static import0.ViewDebug_HierarchyTraceType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewDebug$HierarchyTraceType");
+	public static immutable string _javaParameterString = "Landroid/view/ViewDebug$HierarchyTraceType";
 }

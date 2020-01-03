@@ -11,5 +11,5 @@ final class X509TrustManagerExtensions : IJavaObject {
 	@Import bool isUserAddedCertificate(import2.X509Certificate);
 	@Import bool isSameTrustConfiguration(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.http", "X509TrustManagerExtensions");
+	public static immutable string _javaParameterString = "Landroid/net/http/X509TrustManagerExtensions";
 }

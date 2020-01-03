@@ -16,5 +16,5 @@ final class Console : IJavaObject {
 	@Import wchar[] readPassword();
 	@Import void flush();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "Console");
+	public static immutable string _javaParameterString = "Ljava/io/Console";
 }

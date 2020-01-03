@@ -10,5 +10,5 @@ final class AccessibilityRequestPreparer : IJavaObject {
 	@Import void onPrepareExtraData(int, string, import1.Bundle, import2.Message);
 	@Import import0.View getView();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityRequestPreparer");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityRequestPreparer";
 }

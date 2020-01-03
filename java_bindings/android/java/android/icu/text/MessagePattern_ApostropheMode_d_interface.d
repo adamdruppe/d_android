@@ -8,5 +8,5 @@ final class MessagePattern_ApostropheMode : IJavaObject {
 	@Import static import0.MessagePattern_ApostropheMode[] values();
 	@Import static import0.MessagePattern_ApostropheMode valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MessagePattern$ApostropheMode");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MessagePattern$ApostropheMode";
 }

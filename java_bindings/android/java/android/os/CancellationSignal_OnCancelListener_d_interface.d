@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("CancellationSignal$OnCancelListener")
 interface CancellationSignal_OnCancelListener : IJavaObject {
 	@Import void onCancel();
-	mixin JavaPackageId!("android.os", "CancellationSignal$OnCancelListener");
+	public static immutable string _javaParameterString = "Landroid/os/CancellationSignal$OnCancelListener";
 }

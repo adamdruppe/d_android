@@ -20,5 +20,5 @@ final class AbstractThreadedSyncAdapter : IJavaObject {
 	@Import void onSyncCanceled();
 	@Import void onSyncCanceled(import6.Thread);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "AbstractThreadedSyncAdapter");
+	public static immutable string _javaParameterString = "Landroid/content/AbstractThreadedSyncAdapter";
 }

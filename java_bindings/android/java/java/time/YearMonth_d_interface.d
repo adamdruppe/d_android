@@ -70,5 +70,5 @@ final class YearMonth : IJavaObject {
 	@Import @JavaName("with") import13.Temporal with_(import10.TemporalAdjuster);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "YearMonth");
+	public static immutable string _javaParameterString = "Ljava/time/YearMonth";
 }

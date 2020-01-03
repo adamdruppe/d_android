@@ -7,5 +7,5 @@ final class PrintStreamPrinter : IJavaObject {
 	@Import this(import0.PrintStream);
 	@Import void println(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "PrintStreamPrinter");
+	public static immutable string _javaParameterString = "Landroid/util/PrintStreamPrinter";
 }

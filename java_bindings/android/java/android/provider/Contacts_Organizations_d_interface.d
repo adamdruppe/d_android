@@ -8,5 +8,5 @@ import import1 = android.java.android.content.Context_d_interface;
 final class Contacts_Organizations : IJavaObject {
 	@Import static import0.CharSequence getDisplayLabel(import1.Context, int, import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Contacts$Organizations");
+	public static immutable string _javaParameterString = "Landroid/provider/Contacts$Organizations";
 }

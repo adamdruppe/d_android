@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("TextUtils$EllipsizeCallback")
 interface TextUtils_EllipsizeCallback : IJavaObject {
 	@Import void ellipsized(int, int);
-	mixin JavaPackageId!("android.text", "TextUtils$EllipsizeCallback");
+	public static immutable string _javaParameterString = "Landroid/text/TextUtils$EllipsizeCallback";
 }

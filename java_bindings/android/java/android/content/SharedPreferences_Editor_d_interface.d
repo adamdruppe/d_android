@@ -16,5 +16,5 @@ interface SharedPreferences_Editor : IJavaObject {
 	@Import import0.SharedPreferences_Editor clear();
 	@Import bool commit();
 	@Import void apply();
-	mixin JavaPackageId!("android.content", "SharedPreferences$Editor");
+	public static immutable string _javaParameterString = "Landroid/content/SharedPreferences$Editor";
 }

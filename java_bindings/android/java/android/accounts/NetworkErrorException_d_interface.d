@@ -8,5 +8,5 @@ final class NetworkErrorException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accounts", "NetworkErrorException");
+	public static immutable string _javaParameterString = "Landroid/accounts/NetworkErrorException";
 }

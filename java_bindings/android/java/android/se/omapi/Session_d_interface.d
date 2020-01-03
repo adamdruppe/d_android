@@ -15,5 +15,5 @@ final class Session : IJavaObject {
 	@Import import1.Channel openLogicalChannel(byte, byte[]);
 	@Import import1.Channel openLogicalChannel(byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.se.omapi", "Session");
+	public static immutable string _javaParameterString = "Landroid/se/omapi/Session";
 }

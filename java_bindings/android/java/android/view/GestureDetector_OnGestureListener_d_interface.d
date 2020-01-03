@@ -11,5 +11,5 @@ interface GestureDetector_OnGestureListener : IJavaObject {
 	@Import bool onScroll(import0.MotionEvent, import0.MotionEvent, float, float);
 	@Import void onLongPress(import0.MotionEvent);
 	@Import bool onFling(import0.MotionEvent, import0.MotionEvent, float, float);
-	mixin JavaPackageId!("android.view", "GestureDetector$OnGestureListener");
+	public static immutable string _javaParameterString = "Landroid/view/GestureDetector$OnGestureListener";
 }

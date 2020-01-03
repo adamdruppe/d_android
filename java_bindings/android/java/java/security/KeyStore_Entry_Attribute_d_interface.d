@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface KeyStore_Entry_Attribute : IJavaObject {
 	@Import string getName();
 	@Import string getValue();
-	mixin JavaPackageId!("java.security", "KeyStore$Entry$Attribute");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$Entry$Attribute";
 }

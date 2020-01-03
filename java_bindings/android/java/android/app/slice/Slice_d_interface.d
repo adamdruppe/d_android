@@ -16,5 +16,5 @@ final class Slice : IJavaObject {
 	@Import bool isCallerNeeded();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.slice", "Slice");
+	public static immutable string _javaParameterString = "Landroid/app/slice/Slice";
 }

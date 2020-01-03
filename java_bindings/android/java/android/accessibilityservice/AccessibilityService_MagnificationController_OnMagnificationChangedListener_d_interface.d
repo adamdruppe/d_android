@@ -7,5 +7,5 @@ import import1 = android.java.android.graphics.Region_d_interface;
 @JavaName("AccessibilityService$MagnificationController$OnMagnificationChangedListener")
 interface AccessibilityService_MagnificationController_OnMagnificationChangedListener : IJavaObject {
 	@Import void onMagnificationChanged(import0.AccessibilityService_MagnificationController, import1.Region, float, float, float);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityService$MagnificationController$OnMagnificationChangedListener");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityService$MagnificationController$OnMagnificationChangedListener";
 }

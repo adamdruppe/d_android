@@ -8,5 +8,5 @@ final class SearchIterator_ElementComparisonType : IJavaObject {
 	@Import static import0.SearchIterator_ElementComparisonType[] values();
 	@Import static import0.SearchIterator_ElementComparisonType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "SearchIterator$ElementComparisonType");
+	public static immutable string _javaParameterString = "Landroid/icu/text/SearchIterator$ElementComparisonType";
 }

@@ -19,5 +19,5 @@ final class ValidatorHandler : IJavaObject {
 	@Import void setProperty(string, IJavaObject);
 	@Import IJavaObject getProperty(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.validation", "ValidatorHandler");
+	public static immutable string _javaParameterString = "Ljavax/xml/validation/ValidatorHandler";
 }

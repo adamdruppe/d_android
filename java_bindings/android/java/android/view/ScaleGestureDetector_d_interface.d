@@ -27,5 +27,5 @@ final class ScaleGestureDetector : IJavaObject {
 	@Import long getTimeDelta();
 	@Import long getEventTime();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ScaleGestureDetector");
+	public static immutable string _javaParameterString = "Landroid/view/ScaleGestureDetector";
 }

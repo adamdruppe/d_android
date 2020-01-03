@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("R$interpolator")
 final class R_interpolator : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "R$interpolator");
+	public static immutable string _javaParameterString = "Landroid/R$interpolator";
 }

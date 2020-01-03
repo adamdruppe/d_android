@@ -10,5 +10,5 @@ final class InputFilter_AllCaps : IJavaObject {
 	@Import this(import0.Locale);
 	@Import import1.CharSequence filter(import1.CharSequence, int, int, import2.Spanned, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "InputFilter$AllCaps");
+	public static immutable string _javaParameterString = "Landroid/text/InputFilter$AllCaps";
 }

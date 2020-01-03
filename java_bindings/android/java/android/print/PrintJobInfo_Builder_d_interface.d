@@ -15,5 +15,5 @@ final class PrintJobInfo_Builder : IJavaObject {
 	@Import void putAdvancedOption(string, int);
 	@Import import0.PrintJobInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintJobInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/print/PrintJobInfo$Builder";
 }

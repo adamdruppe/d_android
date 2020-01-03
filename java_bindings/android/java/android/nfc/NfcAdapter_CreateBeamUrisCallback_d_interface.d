@@ -7,5 +7,5 @@ import import1 = android.java.android.nfc.NfcEvent_d_interface;
 @JavaName("NfcAdapter$CreateBeamUrisCallback")
 interface NfcAdapter_CreateBeamUrisCallback : IJavaObject {
 	@Import import0.Uri[] createBeamUris(import1.NfcEvent);
-	mixin JavaPackageId!("android.nfc", "NfcAdapter$CreateBeamUrisCallback");
+	public static immutable string _javaParameterString = "Landroid/nfc/NfcAdapter$CreateBeamUrisCallback";
 }

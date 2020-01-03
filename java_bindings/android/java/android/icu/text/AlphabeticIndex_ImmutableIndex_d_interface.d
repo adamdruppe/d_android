@@ -12,5 +12,5 @@ final class AlphabeticIndex_ImmutableIndex : IJavaObject {
 	@Import import1.AlphabeticIndex_Bucket getBucket(int);
 	@Import import2.Iterator iterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "AlphabeticIndex$ImmutableIndex");
+	public static immutable string _javaParameterString = "Landroid/icu/text/AlphabeticIndex$ImmutableIndex";
 }

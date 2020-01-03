@@ -10,5 +10,5 @@ final class DHParameterSpec : IJavaObject {
 	@Import import0.BigInteger getG();
 	@Import int getL();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "DHParameterSpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/DHParameterSpec";
 }

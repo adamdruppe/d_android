@@ -8,5 +8,5 @@ final class KeyStore_CallbackHandlerProtection : IJavaObject {
 	@Import this(import0.CallbackHandler);
 	@Import import0.CallbackHandler getCallbackHandler();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyStore$CallbackHandlerProtection");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore$CallbackHandlerProtection";
 }

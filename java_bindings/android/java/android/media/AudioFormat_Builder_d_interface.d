@@ -13,5 +13,5 @@ final class AudioFormat_Builder : IJavaObject {
 	@Import import1.AudioFormat_Builder setChannelIndexMask(int);
 	@Import import1.AudioFormat_Builder setSampleRate(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioFormat$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/AudioFormat$Builder";
 }

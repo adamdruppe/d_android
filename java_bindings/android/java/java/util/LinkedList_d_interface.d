@@ -49,5 +49,5 @@ final class LinkedList : IJavaObject {
 	@Import IJavaObject[] toArray(IJavaObject[]);
 	@Import import3.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "LinkedList");
+	public static immutable string _javaParameterString = "Ljava/util/LinkedList";
 }

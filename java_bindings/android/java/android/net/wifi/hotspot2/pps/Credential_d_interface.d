@@ -31,5 +31,5 @@ final class Credential : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.hotspot2.pps", "Credential");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/hotspot2/pps/Credential";
 }

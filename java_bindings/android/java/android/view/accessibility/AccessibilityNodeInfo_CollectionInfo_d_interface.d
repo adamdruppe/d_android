@@ -12,5 +12,5 @@ final class AccessibilityNodeInfo_CollectionInfo : IJavaObject {
 	@Import bool isHierarchical();
 	@Import int getSelectionMode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityNodeInfo$CollectionInfo");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityNodeInfo$CollectionInfo";
 }

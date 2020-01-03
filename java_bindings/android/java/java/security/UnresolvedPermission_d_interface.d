@@ -13,5 +13,5 @@ final class UnresolvedPermission : IJavaObject {
 	@Import string getUnresolvedActions();
 	@Import import0.Certificate[] getUnresolvedCerts();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "UnresolvedPermission");
+	public static immutable string _javaParameterString = "Ljava/security/UnresolvedPermission";
 }

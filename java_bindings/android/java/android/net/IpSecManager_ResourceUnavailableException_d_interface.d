@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("IpSecManager$ResourceUnavailableException")
 final class IpSecManager_ResourceUnavailableException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "IpSecManager$ResourceUnavailableException");
+	public static immutable string _javaParameterString = "Landroid/net/IpSecManager$ResourceUnavailableException";
 }

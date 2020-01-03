@@ -18,5 +18,5 @@ final class AttributedString : IJavaObject {
 	@Import import1.AttributedCharacterIterator getIterator(import2.AttributedCharacterIterator_Attribute[]);
 	@Import import1.AttributedCharacterIterator getIterator(import2.AttributedCharacterIterator_Attribute, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "AttributedString");
+	public static immutable string _javaParameterString = "Ljava/text/AttributedString";
 }

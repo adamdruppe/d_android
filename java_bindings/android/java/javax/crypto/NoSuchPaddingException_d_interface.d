@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NoSuchPaddingException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "NoSuchPaddingException");
+	public static immutable string _javaParameterString = "Ljavax/crypto/NoSuchPaddingException";
 }

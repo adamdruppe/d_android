@@ -29,5 +29,5 @@ final class MtpObjectInfo_Builder : IJavaObject {
 	@Import import1.MtpObjectInfo_Builder setThumbPixWidth(long);
 	@Import import0.MtpObjectInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.mtp", "MtpObjectInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpObjectInfo$Builder";
 }

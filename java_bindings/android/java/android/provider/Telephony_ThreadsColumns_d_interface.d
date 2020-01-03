@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("Telephony$ThreadsColumns")
 interface Telephony_ThreadsColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "Telephony$ThreadsColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$ThreadsColumns";
 }

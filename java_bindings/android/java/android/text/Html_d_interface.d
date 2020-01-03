@@ -15,5 +15,5 @@ final class Html : IJavaObject {
 	@Import static string toHtml(import0.Spanned, int);
 	@Import static string escapeHtml(import3.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Html");
+	public static immutable string _javaParameterString = "Landroid/text/Html";
 }

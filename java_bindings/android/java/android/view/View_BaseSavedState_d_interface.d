@@ -12,5 +12,5 @@ final class View_BaseSavedState : IJavaObject {
 	@Import this(import2.Parcelable);
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "View$BaseSavedState");
+	public static immutable string _javaParameterString = "Landroid/view/View$BaseSavedState";
 }

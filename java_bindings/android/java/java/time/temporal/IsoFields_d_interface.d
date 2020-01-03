@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class IsoFields : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "IsoFields");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/IsoFields";
 }

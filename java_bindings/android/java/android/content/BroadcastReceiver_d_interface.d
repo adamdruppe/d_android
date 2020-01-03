@@ -27,5 +27,5 @@ final class BroadcastReceiver : IJavaObject {
 	@Import void setDebugUnregister(bool);
 	@Import bool getDebugUnregister();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "BroadcastReceiver");
+	public static immutable string _javaParameterString = "Landroid/content/BroadcastReceiver";
 }

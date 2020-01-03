@@ -8,5 +8,5 @@ interface ScaleGestureDetector_OnScaleGestureListener : IJavaObject {
 	@Import bool onScale(import0.ScaleGestureDetector);
 	@Import bool onScaleBegin(import0.ScaleGestureDetector);
 	@Import void onScaleEnd(import0.ScaleGestureDetector);
-	mixin JavaPackageId!("android.view", "ScaleGestureDetector$OnScaleGestureListener");
+	public static immutable string _javaParameterString = "Landroid/view/ScaleGestureDetector$OnScaleGestureListener";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface IntFunction : IJavaObject {
 	@Import IJavaObject apply(int);
-	mixin JavaPackageId!("java.util.function", "IntFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/IntFunction";
 }

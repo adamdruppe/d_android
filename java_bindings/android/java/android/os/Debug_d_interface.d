@@ -1,9 +1,10 @@
 module android.java.android.os.Debug_d_interface;
 import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
 
+import import1 = android.java.android.os.Debug_MemoryInfo_d_interface;
 import import0 = android.java.java.util.Map_d_interface;
-import import1 = android.java.java.io.FileDescriptor_d_interface;
-import import2 = android.java.java.lang.ClassLoader_d_interface;
+import import2 = android.java.java.io.FileDescriptor_d_interface;
+import import3 = android.java.java.lang.ClassLoader_d_interface;
 
 final class Debug : IJavaObject {
 	@Import static void waitForDebugger();
@@ -57,13 +58,23 @@ final class Debug : IJavaObject {
 	@Import static void resetAllCounts();
 	@Import static string getRuntimeStat(string);
 	@Import static import0.Map getRuntimeStats();
+	@Import static long getNativeHeapSize();
+	@Import static long getNativeHeapAllocatedSize();
+	@Import static long getNativeHeapFreeSize();
+	@Import static void getMemoryInfo(import1.Debug_MemoryInfo);
+	@Import static long getPss();
 	@Import static int setAllocationLimit(int);
 	@Import static int setGlobalAllocationLimit(int);
 	@Import static void printLoadedClasses(int);
 	@Import static int getLoadedClassCount();
 	@Import static void dumpHprofData(string);
-	@Import static bool dumpService(string, import1.FileDescriptor, string[]);
-	@Import static void attachJvmtiAgent(string, string, import2.ClassLoader);
+	@Import static int getBinderSentTransactions();
+	@Import static int getBinderReceivedTransactions();
+	@Import static int getBinderLocalObjectCount();
+	@Import static int getBinderProxyObjectCount();
+	@Import static int getBinderDeathObjectCount();
+	@Import static bool dumpService(string, import2.FileDescriptor, string[]);
+	@Import static void attachJvmtiAgent(string, string, import3.ClassLoader);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Debug");
+	public static immutable string _javaParameterString = "Landroid/os/Debug";
 }

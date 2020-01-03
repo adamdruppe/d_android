@@ -56,5 +56,5 @@ final class ScriptIntrinsicBlend : IJavaObject {
 	@Import void forEachSubtract(import3.Allocation, import3.Allocation, import4.Script_LaunchOptions);
 	@Import import5.Script_KernelID getKernelIDSubtract();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicBlend");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicBlend";
 }

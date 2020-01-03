@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface OnNmeaMessageListener : IJavaObject {
 	@Import void onNmeaMessage(string, long);
-	mixin JavaPackageId!("android.location", "OnNmeaMessageListener");
+	public static immutable string _javaParameterString = "Landroid/location/OnNmeaMessageListener";
 }

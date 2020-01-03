@@ -20,5 +20,5 @@ final class SipProfile_Builder : IJavaObject {
 	@Import import1.SipProfile_Builder setAutoRegistration(bool);
 	@Import import0.SipProfile build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipProfile$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipProfile$Builder";
 }

@@ -37,5 +37,5 @@ final class ParcelFileDescriptor : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import7.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ParcelFileDescriptor");
+	public static immutable string _javaParameterString = "Landroid/os/ParcelFileDescriptor";
 }

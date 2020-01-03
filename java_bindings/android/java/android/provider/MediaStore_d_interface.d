@@ -9,5 +9,5 @@ final class MediaStore : IJavaObject {
 	@Import static string getVersion(import1.Context);
 	@Import static import0.Uri getDocumentUri(import1.Context, import0.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore";
 }

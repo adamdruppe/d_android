@@ -11,5 +11,5 @@ final class DOMSource : IJavaObject {
 	@Import void setSystemId(string);
 	@Import string getSystemId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform.dom", "DOMSource");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/dom/DOMSource";
 }

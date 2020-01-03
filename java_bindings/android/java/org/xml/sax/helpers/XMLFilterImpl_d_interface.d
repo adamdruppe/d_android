@@ -47,5 +47,5 @@ final class XMLFilterImpl : IJavaObject {
 	@Import void error(import8.SAXParseException);
 	@Import void fatalError(import8.SAXParseException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "XMLFilterImpl");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/XMLFilterImpl";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WifiConfiguration$AuthAlgorithm")
 final class WifiConfiguration_AuthAlgorithm : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiConfiguration$AuthAlgorithm");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiConfiguration$AuthAlgorithm";
 }

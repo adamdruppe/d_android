@@ -8,5 +8,5 @@ final class NetworkInfo_State : IJavaObject {
 	@Import static import0.NetworkInfo_State[] values();
 	@Import static import0.NetworkInfo_State valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "NetworkInfo$State");
+	public static immutable string _javaParameterString = "Landroid/net/NetworkInfo$State";
 }

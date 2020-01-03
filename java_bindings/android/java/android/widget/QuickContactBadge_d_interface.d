@@ -28,5 +28,5 @@ final class QuickContactBadge : IJavaObject {
 	@Import import6.CharSequence getAccessibilityClassName();
 	@Import void setExcludeMimes(string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "QuickContactBadge");
+	public static immutable string _javaParameterString = "Landroid/widget/QuickContactBadge";
 }

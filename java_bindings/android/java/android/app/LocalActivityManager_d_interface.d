@@ -21,5 +21,5 @@ final class LocalActivityManager : IJavaObject {
 	@Import void removeAllActivities();
 	@Import void dispatchDestroy(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "LocalActivityManager");
+	public static immutable string _javaParameterString = "Landroid/app/LocalActivityManager";
 }

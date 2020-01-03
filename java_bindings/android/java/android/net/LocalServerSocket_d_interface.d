@@ -13,5 +13,5 @@ final class LocalServerSocket : IJavaObject {
 	@Import import0.FileDescriptor getFileDescriptor();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "LocalServerSocket");
+	public static immutable string _javaParameterString = "Landroid/net/LocalServerSocket";
 }

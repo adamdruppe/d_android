@@ -20,5 +20,5 @@ final class Dataset_Builder : IJavaObject {
 	@Import import1.Dataset_Builder setValue(import3.AutofillId, import4.AutofillValue, import5.Pattern, import0.RemoteViews);
 	@Import import6.Dataset build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "Dataset$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/Dataset$Builder";
 }

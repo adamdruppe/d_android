@@ -14,5 +14,5 @@ final class WifiAwareSession : IJavaObject {
 	@Import import4.NetworkSpecifier createNetworkSpecifierOpen(int, byte[]);
 	@Import import4.NetworkSpecifier createNetworkSpecifierPassphrase(int, byte, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "WifiAwareSession");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/WifiAwareSession";
 }

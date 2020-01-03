@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SignatureSpi : IJavaObject {
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "SignatureSpi");
+	public static immutable string _javaParameterString = "Ljava/security/SignatureSpi";
 }

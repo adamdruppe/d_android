@@ -107,5 +107,5 @@ final class InputMethodService : IJavaObject {
 	@Import void onExtractingInputChanged(import7.EditorInfo);
 	@Import int getInputMethodWindowRecommendedHeight();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "InputMethodService");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/InputMethodService";
 }

@@ -5,5 +5,5 @@ final class SerializablePermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "SerializablePermission");
+	public static immutable string _javaParameterString = "Ljava/io/SerializablePermission";
 }

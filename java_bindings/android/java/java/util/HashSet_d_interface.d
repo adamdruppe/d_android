@@ -19,5 +19,5 @@ final class HashSet : IJavaObject {
 	@Import IJavaObject clone();
 	@Import import2.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "HashSet");
+	public static immutable string _javaParameterString = "Ljava/util/HashSet";
 }

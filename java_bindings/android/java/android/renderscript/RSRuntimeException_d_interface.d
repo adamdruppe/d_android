@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class RSRuntimeException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "RSRuntimeException");
+	public static immutable string _javaParameterString = "Landroid/renderscript/RSRuntimeException";
 }

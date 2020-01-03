@@ -6,12 +6,12 @@ import import2 = android.java.java.util.Collection_d_interface;
 import import0 = android.java.java.util.Set_d_interface;
 
 final class PKIXCertPathChecker : IJavaObject {
-	@Import void init(bool);
+	@Import @JavaName("init") void init_(bool);
 	@Import bool isForwardCheckingSupported();
 	@Import import0.Set getSupportedExtensions();
 	@Import void check(import1.Certificate, import2.Collection);
 	@Import void check(import1.Certificate);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PKIXCertPathChecker");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PKIXCertPathChecker";
 }

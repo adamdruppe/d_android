@@ -11,5 +11,5 @@ final class UnicodeSetIterator : IJavaObject {
 	@Import void reset();
 	@Import string getString();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSetIterator");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSetIterator";
 }

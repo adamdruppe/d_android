@@ -12,5 +12,5 @@ final class VoiceInteractionSession_Request : IJavaObject {
 	@Import void cancel();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession$Request");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession$Request";
 }

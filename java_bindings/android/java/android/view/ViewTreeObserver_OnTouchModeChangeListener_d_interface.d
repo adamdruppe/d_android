@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ViewTreeObserver$OnTouchModeChangeListener")
 interface ViewTreeObserver_OnTouchModeChangeListener : IJavaObject {
 	@Import void onTouchModeChanged(bool);
-	mixin JavaPackageId!("android.view", "ViewTreeObserver$OnTouchModeChangeListener");
+	public static immutable string _javaParameterString = "Landroid/view/ViewTreeObserver$OnTouchModeChangeListener";
 }

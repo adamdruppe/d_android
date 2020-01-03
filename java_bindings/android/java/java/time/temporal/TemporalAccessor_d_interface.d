@@ -11,5 +11,5 @@ interface TemporalAccessor : IJavaObject {
 	@Import int get(import0.TemporalField);
 	@Import long getLong(import0.TemporalField);
 	@Import IJavaObject query(import2.TemporalQuery);
-	mixin JavaPackageId!("java.time.temporal", "TemporalAccessor");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalAccessor";
 }

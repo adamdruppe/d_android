@@ -12,5 +12,5 @@ final class Notification_BigTextStyle : IJavaObject {
 	@Import import1.Notification_BigTextStyle setSummaryText(import2.CharSequence);
 	@Import import1.Notification_BigTextStyle bigText(import2.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$BigTextStyle");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$BigTextStyle";
 }

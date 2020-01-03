@@ -108,5 +108,5 @@ final class WebSettings : IJavaObject {
 	@Import void setDisabledActionModeMenuItems(int);
 	@Import int getDisabledActionModeMenuItems();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebSettings");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebSettings";
 }

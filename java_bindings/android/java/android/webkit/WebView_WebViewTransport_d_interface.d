@@ -9,5 +9,5 @@ final class WebView_WebViewTransport : IJavaObject {
 	@Import void setWebView(import0.WebView);
 	@Import import0.WebView getWebView();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebView$WebViewTransport");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebView$WebViewTransport";
 }

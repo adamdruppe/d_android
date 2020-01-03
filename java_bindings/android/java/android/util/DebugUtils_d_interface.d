@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DebugUtils : IJavaObject {
 	@Import static bool isObjectSelected(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "DebugUtils");
+	public static immutable string _javaParameterString = "Landroid/util/DebugUtils";
 }

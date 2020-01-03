@@ -8,5 +8,5 @@ interface DoubleUnaryOperator : IJavaObject {
 	@Import import0.DoubleUnaryOperator compose(import0.DoubleUnaryOperator);
 	@Import import0.DoubleUnaryOperator andThen(import0.DoubleUnaryOperator);
 	@Import static import0.DoubleUnaryOperator identity();
-	mixin JavaPackageId!("java.util.function", "DoubleUnaryOperator");
+	public static immutable string _javaParameterString = "Ljava/util/function/DoubleUnaryOperator";
 }

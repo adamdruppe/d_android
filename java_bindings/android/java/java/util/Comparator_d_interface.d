@@ -26,5 +26,5 @@ interface Comparator : IJavaObject {
 	@Import static import0.Comparator comparingInt(import2.ToIntFunction);
 	@Import static import0.Comparator comparingLong(import3.ToLongFunction);
 	@Import static import0.Comparator comparingDouble(import4.ToDoubleFunction);
-	mixin JavaPackageId!("java.util", "Comparator");
+	public static immutable string _javaParameterString = "Ljava/util/Comparator";
 }

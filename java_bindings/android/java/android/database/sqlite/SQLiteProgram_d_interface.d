@@ -11,5 +11,5 @@ final class SQLiteProgram : IJavaObject {
 	@Import void clearBindings();
 	@Import void bindAllArgsAsStrings(string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteProgram");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteProgram";
 }

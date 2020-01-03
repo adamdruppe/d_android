@@ -8,5 +8,5 @@ final class HardwarePropertiesManager : IJavaObject {
 	@Import import0.CpuUsageInfo[] getCpuUsages();
 	@Import float[] getFanSpeeds();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "HardwarePropertiesManager");
+	public static immutable string _javaParameterString = "Landroid/os/HardwarePropertiesManager";
 }

@@ -8,5 +8,5 @@ final class DateFormat_BooleanAttribute : IJavaObject {
 	@Import static import0.DateFormat_BooleanAttribute[] values();
 	@Import static import0.DateFormat_BooleanAttribute valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DateFormat$BooleanAttribute");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateFormat$BooleanAttribute";
 }

@@ -7,5 +7,5 @@ interface FileOwnerAttributeView : IJavaObject {
 	@Import string name();
 	@Import import0.UserPrincipal getOwner();
 	@Import void setOwner(import0.UserPrincipal);
-	mixin JavaPackageId!("java.nio.file.attribute", "FileOwnerAttributeView");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/FileOwnerAttributeView";
 }

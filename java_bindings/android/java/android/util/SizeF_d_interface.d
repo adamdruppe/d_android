@@ -12,5 +12,5 @@ final class SizeF : IJavaObject {
 	@Import static import0.SizeF parseSizeF(string);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "SizeF");
+	public static immutable string _javaParameterString = "Landroid/util/SizeF";
 }

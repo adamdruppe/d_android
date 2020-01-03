@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ConnectivityManager$OnNetworkActiveListener")
 interface ConnectivityManager_OnNetworkActiveListener : IJavaObject {
 	@Import void onNetworkActive();
-	mixin JavaPackageId!("android.net", "ConnectivityManager$OnNetworkActiveListener");
+	public static immutable string _javaParameterString = "Landroid/net/ConnectivityManager$OnNetworkActiveListener";
 }

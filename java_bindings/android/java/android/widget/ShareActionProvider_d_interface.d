@@ -16,5 +16,5 @@ final class ShareActionProvider : IJavaObject {
 	@Import void setShareHistoryFileName(string);
 	@Import void setShareIntent(import4.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ShareActionProvider");
+	public static immutable string _javaParameterString = "Landroid/widget/ShareActionProvider";
 }

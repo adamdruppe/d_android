@@ -8,5 +8,5 @@ interface GestureDetector_OnDoubleTapListener : IJavaObject {
 	@Import bool onSingleTapConfirmed(import0.MotionEvent);
 	@Import bool onDoubleTap(import0.MotionEvent);
 	@Import bool onDoubleTapEvent(import0.MotionEvent);
-	mixin JavaPackageId!("android.view", "GestureDetector$OnDoubleTapListener");
+	public static immutable string _javaParameterString = "Landroid/view/GestureDetector$OnDoubleTapListener";
 }

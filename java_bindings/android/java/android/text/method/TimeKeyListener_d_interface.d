@@ -10,5 +10,5 @@ final class TimeKeyListener : IJavaObject {
 	@Import static import1.TimeKeyListener getInstance();
 	@Import static import1.TimeKeyListener getInstance(import0.Locale);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "TimeKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/TimeKeyListener";
 }

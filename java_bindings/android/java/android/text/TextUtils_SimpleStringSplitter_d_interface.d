@@ -13,5 +13,5 @@ final class TextUtils_SimpleStringSplitter : IJavaObject {
 	@Import void remove();
 	@Import IJavaObject next();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "TextUtils$SimpleStringSplitter");
+	public static immutable string _javaParameterString = "Landroid/text/TextUtils$SimpleStringSplitter";
 }

@@ -7,5 +7,5 @@ final class XMLReaderFactory : IJavaObject {
 	@Import static import0.XMLReader createXMLReader();
 	@Import static import0.XMLReader createXMLReader(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "XMLReaderFactory");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/XMLReaderFactory";
 }

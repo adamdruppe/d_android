@@ -27,5 +27,5 @@ final class CharsetEncoder : IJavaObject {
 	@Import bool canEncode(wchar);
 	@Import bool canEncode(import6.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "CharsetEncoder");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/CharsetEncoder";
 }

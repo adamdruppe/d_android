@@ -21,5 +21,5 @@ final class MultiSelectListPreference : IJavaObject {
 	@Import import3.Set getValues();
 	@Import int findIndexOfValue(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "MultiSelectListPreference");
+	public static immutable string _javaParameterString = "Landroid/preference/MultiSelectListPreference";
 }

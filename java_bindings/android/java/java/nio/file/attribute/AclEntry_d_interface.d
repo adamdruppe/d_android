@@ -18,5 +18,5 @@ final class AclEntry : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.attribute", "AclEntry");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/AclEntry";
 }

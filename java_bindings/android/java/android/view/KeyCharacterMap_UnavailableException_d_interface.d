@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class KeyCharacterMap_UnavailableException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "KeyCharacterMap$UnavailableException");
+	public static immutable string _javaParameterString = "Landroid/view/KeyCharacterMap$UnavailableException";
 }

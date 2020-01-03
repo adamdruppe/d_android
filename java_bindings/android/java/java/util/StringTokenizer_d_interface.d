@@ -12,5 +12,5 @@ final class StringTokenizer : IJavaObject {
 	@Import IJavaObject nextElement();
 	@Import int countTokens();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "StringTokenizer");
+	public static immutable string _javaParameterString = "Ljava/util/StringTokenizer";
 }

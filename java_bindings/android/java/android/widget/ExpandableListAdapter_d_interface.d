@@ -24,5 +24,5 @@ interface ExpandableListAdapter : IJavaObject {
 	@Import void onGroupCollapsed(int);
 	@Import long getCombinedChildId(long, long);
 	@Import long getCombinedGroupId(long);
-	mixin JavaPackageId!("android.widget", "ExpandableListAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/ExpandableListAdapter";
 }

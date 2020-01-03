@@ -5,5 +5,5 @@ interface DOMStringList : IJavaObject {
 	@Import string item(int);
 	@Import int getLength();
 	@Import bool contains(string);
-	mixin JavaPackageId!("org.w3c.dom", "DOMStringList");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMStringList";
 }

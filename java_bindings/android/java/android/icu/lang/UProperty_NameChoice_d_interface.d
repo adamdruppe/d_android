@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UProperty$NameChoice")
 interface UProperty_NameChoice : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UProperty$NameChoice");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UProperty$NameChoice";
 }

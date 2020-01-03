@@ -32,5 +32,5 @@ final class MethodHandles_Lookup : IJavaObject {
 	@Import import2.MethodHandle unreflectSetter(import6.Field);
 	@Import import7.MethodHandleInfo revealDirect(import2.MethodHandle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.invoke", "MethodHandles$Lookup");
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/MethodHandles$Lookup";
 }

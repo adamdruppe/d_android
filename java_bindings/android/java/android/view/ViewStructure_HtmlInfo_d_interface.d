@@ -8,5 +8,5 @@ final class ViewStructure_HtmlInfo : IJavaObject {
 	@Import string getTag();
 	@Import import0.List getAttributes();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewStructure$HtmlInfo");
+	public static immutable string _javaParameterString = "Landroid/view/ViewStructure$HtmlInfo";
 }

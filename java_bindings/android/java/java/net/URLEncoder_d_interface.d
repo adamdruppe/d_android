@@ -5,5 +5,5 @@ final class URLEncoder : IJavaObject {
 	@Import static string encode(string);
 	@Import static string encode(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "URLEncoder");
+	public static immutable string _javaParameterString = "Ljava/net/URLEncoder";
 }

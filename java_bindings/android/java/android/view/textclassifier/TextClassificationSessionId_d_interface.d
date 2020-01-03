@@ -10,5 +10,5 @@ final class TextClassificationSessionId : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassificationSessionId");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassificationSessionId";
 }

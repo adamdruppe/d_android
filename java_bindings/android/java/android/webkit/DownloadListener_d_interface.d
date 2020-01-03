@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface DownloadListener : IJavaObject {
 	@Import void onDownloadStart(string, string, string, string, long);
-	mixin JavaPackageId!("android.webkit", "DownloadListener");
+	public static immutable string _javaParameterString = "Landroid/webkit/DownloadListener";
 }

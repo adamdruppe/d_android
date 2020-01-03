@@ -15,5 +15,5 @@ final class EditTextPreference : IJavaObject {
 	@Import bool shouldDisableDependents();
 	@Import import2.EditText getEditText();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "EditTextPreference");
+	public static immutable string _javaParameterString = "Landroid/preference/EditTextPreference";
 }

@@ -8,5 +8,5 @@ final class ConsumerIrManager : IJavaObject {
 	@Import void transmit(int, int[]);
 	@Import import0.ConsumerIrManager_CarrierFrequencyRange[] getCarrierFrequencies();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "ConsumerIrManager");
+	public static immutable string _javaParameterString = "Landroid/hardware/ConsumerIrManager";
 }

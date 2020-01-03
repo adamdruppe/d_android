@@ -14,5 +14,5 @@ final class ETC1Util : IJavaObject {
 	@Import static import1.ETC1Util_ETC1Texture compressTexture(import2.Buffer, int, int, int, int);
 	@Import static void writeTexture(import1.ETC1Util_ETC1Texture, import3.OutputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "ETC1Util");
+	public static immutable string _javaParameterString = "Landroid/opengl/ETC1Util";
 }

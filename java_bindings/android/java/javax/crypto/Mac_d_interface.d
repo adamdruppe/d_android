@@ -14,8 +14,8 @@ final class Mac : IJavaObject {
 	@Import static import0.Mac getInstance(string, import1.Provider);
 	@Import import1.Provider getProvider();
 	@Import int getMacLength();
-	@Import void init(import2.Key);
-	@Import void init(import2.Key, import3.AlgorithmParameterSpec);
+	@Import @JavaName("init") void init_(import2.Key);
+	@Import @JavaName("init") void init_(import2.Key, import3.AlgorithmParameterSpec);
 	@Import void update(byte);
 	@Import void update(byte[]);
 	@Import void update(byte, int, int[]);
@@ -26,5 +26,5 @@ final class Mac : IJavaObject {
 	@Import void reset();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "Mac");
+	public static immutable string _javaParameterString = "Ljavax/crypto/Mac";
 }

@@ -7,5 +7,5 @@ final class WebStorage_Origin : IJavaObject {
 	@Import long getQuota();
 	@Import long getUsage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebStorage$Origin");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebStorage$Origin";
 }

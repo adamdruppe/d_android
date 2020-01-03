@@ -7,5 +7,5 @@ import import1 = android.java.java.io.ObjectInput_d_interface;
 interface Externalizable : IJavaObject {
 	@Import void writeExternal(import0.ObjectOutput);
 	@Import void readExternal(import1.ObjectInput);
-	mixin JavaPackageId!("java.io", "Externalizable");
+	public static immutable string _javaParameterString = "Ljava/io/Externalizable";
 }

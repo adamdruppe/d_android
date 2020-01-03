@@ -63,5 +63,5 @@ final class AccountManager : IJavaObject {
 	@Import import4.AccountManagerFuture finishSession(import7.Bundle, import9.Activity, import5.AccountManagerCallback, import6.Handler);
 	@Import import4.AccountManagerFuture isCredentialsUpdateSuggested(import2.Account, string, import5.AccountManagerCallback, import6.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accounts", "AccountManager");
+	public static immutable string _javaParameterString = "Landroid/accounts/AccountManager";
 }

@@ -19,5 +19,5 @@ final class ArcShape : IJavaObject {
 	@Import import5.Shape clone();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable.shapes", "ArcShape");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/shapes/ArcShape";
 }

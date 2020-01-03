@@ -8,5 +8,5 @@ final class AutoText : IJavaObject {
 	@Import static string get(import0.CharSequence, int, int, import1.View);
 	@Import static int getSize(import1.View);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "AutoText");
+	public static immutable string _javaParameterString = "Landroid/text/AutoText";
 }

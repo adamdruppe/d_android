@@ -6,5 +6,5 @@ import import0 = android.java.android.net.wifi.p2p.WifiP2pDevice_d_interface;
 @JavaName("WifiP2pManager$DnsSdServiceResponseListener")
 interface WifiP2pManager_DnsSdServiceResponseListener : IJavaObject {
 	@Import void onDnsSdServiceAvailable(string, string, import0.WifiP2pDevice);
-	mixin JavaPackageId!("android.net.wifi.p2p", "WifiP2pManager$DnsSdServiceResponseListener");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/p2p/WifiP2pManager$DnsSdServiceResponseListener";
 }

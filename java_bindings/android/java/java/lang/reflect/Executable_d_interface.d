@@ -27,5 +27,5 @@ final class Executable : IJavaObject {
 	@Import import4.Annotation[] getDeclaredAnnotations();
 	@Import bool isAnnotationPresent(import0.Class);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "Executable");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Executable";
 }

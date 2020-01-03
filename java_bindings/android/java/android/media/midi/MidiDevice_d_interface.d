@@ -14,5 +14,5 @@ final class MidiDevice : IJavaObject {
 	@Import void close();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiDevice");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiDevice";
 }

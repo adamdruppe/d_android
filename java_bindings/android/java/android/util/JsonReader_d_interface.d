@@ -25,5 +25,5 @@ final class JsonReader : IJavaObject {
 	@Import void skipValue();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "JsonReader");
+	public static immutable string _javaParameterString = "Landroid/util/JsonReader";
 }

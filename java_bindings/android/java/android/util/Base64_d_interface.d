@@ -10,5 +10,5 @@ final class Base64 : IJavaObject {
 	@Import static byte[] encode(byte, int[]);
 	@Import static byte[] encode(byte, int, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Base64");
+	public static immutable string _javaParameterString = "Landroid/util/Base64";
 }

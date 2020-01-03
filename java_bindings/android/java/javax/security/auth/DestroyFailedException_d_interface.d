@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DestroyFailedException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth", "DestroyFailedException");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/DestroyFailedException";
 }

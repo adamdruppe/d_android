@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("GridLayout$Alignment")
 final class GridLayout_Alignment : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "GridLayout$Alignment");
+	public static immutable string _javaParameterString = "Landroid/widget/GridLayout$Alignment";
 }

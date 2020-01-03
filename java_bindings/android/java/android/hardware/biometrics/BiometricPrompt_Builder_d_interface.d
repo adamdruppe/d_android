@@ -17,5 +17,5 @@ final class BiometricPrompt_Builder : IJavaObject {
 	@Import import1.BiometricPrompt_Builder setNegativeButton(import2.CharSequence, import3.Executor, import4.DialogInterface_OnClickListener);
 	@Import import5.BiometricPrompt build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.biometrics", "BiometricPrompt$Builder");
+	public static immutable string _javaParameterString = "Landroid/hardware/biometrics/BiometricPrompt$Builder";
 }

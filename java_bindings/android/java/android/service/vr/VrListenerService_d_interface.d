@@ -11,5 +11,5 @@ final class VrListenerService : IJavaObject {
 	@Import void onCurrentVrActivityChanged(import2.ComponentName);
 	@Import static bool isVrModePackageEnabled(import3.Context, import2.ComponentName);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.vr", "VrListenerService");
+	public static immutable string _javaParameterString = "Landroid/service/vr/VrListenerService";
 }

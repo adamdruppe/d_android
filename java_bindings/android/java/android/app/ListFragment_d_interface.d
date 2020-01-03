@@ -24,5 +24,5 @@ final class ListFragment : IJavaObject {
 	@Import void setListShownNoAnimation(bool);
 	@Import import5.ListAdapter getListAdapter();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ListFragment");
+	public static immutable string _javaParameterString = "Landroid/app/ListFragment";
 }

@@ -18,5 +18,5 @@ final class EdgeEffect : IJavaObject {
 	@Import bool draw(import1.Canvas);
 	@Import int getMaxHeight();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "EdgeEffect");
+	public static immutable string _javaParameterString = "Landroid/widget/EdgeEffect";
 }

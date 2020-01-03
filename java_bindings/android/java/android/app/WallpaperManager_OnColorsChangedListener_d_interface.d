@@ -6,5 +6,5 @@ import import0 = android.java.android.app.WallpaperColors_d_interface;
 @JavaName("WallpaperManager$OnColorsChangedListener")
 interface WallpaperManager_OnColorsChangedListener : IJavaObject {
 	@Import void onColorsChanged(import0.WallpaperColors, int);
-	mixin JavaPackageId!("android.app", "WallpaperManager$OnColorsChangedListener");
+	public static immutable string _javaParameterString = "Landroid/app/WallpaperManager$OnColorsChangedListener";
 }

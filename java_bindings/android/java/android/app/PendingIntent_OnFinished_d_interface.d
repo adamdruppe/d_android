@@ -8,5 +8,5 @@ import import0 = android.java.android.app.PendingIntent_d_interface;
 @JavaName("PendingIntent$OnFinished")
 interface PendingIntent_OnFinished : IJavaObject {
 	@Import void onSendFinished(import0.PendingIntent, import1.Intent, int, string, import2.Bundle);
-	mixin JavaPackageId!("android.app", "PendingIntent$OnFinished");
+	public static immutable string _javaParameterString = "Landroid/app/PendingIntent$OnFinished";
 }

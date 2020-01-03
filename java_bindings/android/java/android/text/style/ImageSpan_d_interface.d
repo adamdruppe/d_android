@@ -22,5 +22,5 @@ final class ImageSpan : IJavaObject {
 	@Import import2.Drawable getDrawable();
 	@Import string getSource();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "ImageSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/ImageSpan";
 }

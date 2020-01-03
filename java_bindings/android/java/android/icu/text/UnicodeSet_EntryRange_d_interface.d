@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class UnicodeSet_EntryRange : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "UnicodeSet$EntryRange");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSet$EntryRange";
 }

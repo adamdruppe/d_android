@@ -10,5 +10,5 @@ final class PBEParameterSpec : IJavaObject {
 	@Import int getIterationCount();
 	@Import import0.AlgorithmParameterSpec getParameterSpec();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "PBEParameterSpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/PBEParameterSpec";
 }

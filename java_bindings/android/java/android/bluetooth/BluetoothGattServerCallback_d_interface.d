@@ -19,5 +19,5 @@ final class BluetoothGattServerCallback : IJavaObject {
 	@Import void onPhyUpdate(import0.BluetoothDevice, int, int, int);
 	@Import void onPhyRead(import0.BluetoothDevice, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothGattServerCallback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothGattServerCallback";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.hardware.Camera_d_interface;
 @JavaName("Camera$OnZoomChangeListener")
 interface Camera_OnZoomChangeListener : IJavaObject {
 	@Import void onZoomChange(int, bool, import0.Camera);
-	mixin JavaPackageId!("android.hardware", "Camera$OnZoomChangeListener");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$OnZoomChangeListener";
 }

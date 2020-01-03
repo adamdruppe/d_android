@@ -42,5 +42,5 @@ final class InputConnectionWrapper : IJavaObject {
 	@Import void closeConnection();
 	@Import bool commitContent(import9.InputContentInfo, int, import7.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "InputConnectionWrapper");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputConnectionWrapper";
 }

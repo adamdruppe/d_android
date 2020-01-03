@@ -15,5 +15,5 @@ final class SQLWarning : IJavaObject {
 	@Import import1.SQLWarning getNextWarning();
 	@Import void setNextWarning(import1.SQLWarning);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLWarning");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLWarning";
 }

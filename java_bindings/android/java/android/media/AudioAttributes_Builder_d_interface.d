@@ -13,5 +13,5 @@ final class AudioAttributes_Builder : IJavaObject {
 	@Import import1.AudioAttributes_Builder setFlags(int);
 	@Import import1.AudioAttributes_Builder setLegacyStreamType(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioAttributes$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/AudioAttributes$Builder";
 }

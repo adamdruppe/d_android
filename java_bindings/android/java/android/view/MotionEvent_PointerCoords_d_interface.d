@@ -11,5 +11,5 @@ final class MotionEvent_PointerCoords : IJavaObject {
 	@Import float getAxisValue(int);
 	@Import void setAxisValue(int, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "MotionEvent$PointerCoords");
+	public static immutable string _javaParameterString = "Landroid/view/MotionEvent$PointerCoords";
 }

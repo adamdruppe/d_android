@@ -7,5 +7,5 @@ final class FileVisitOption : IJavaObject {
 	@Import static import0.FileVisitOption[] values();
 	@Import static import0.FileVisitOption valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "FileVisitOption");
+	public static immutable string _javaParameterString = "Ljava/nio/file/FileVisitOption";
 }

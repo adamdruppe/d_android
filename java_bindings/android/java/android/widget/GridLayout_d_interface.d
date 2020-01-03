@@ -44,5 +44,5 @@ final class GridLayout : IJavaObject {
 	@Import static import5.GridLayout_Spec spec(int);
 	@Import import7.ViewGroup_LayoutParams generateLayoutParams(import1.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "GridLayout");
+	public static immutable string _javaParameterString = "Landroid/widget/GridLayout";
 }

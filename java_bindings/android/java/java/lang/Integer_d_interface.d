@@ -55,5 +55,5 @@ final class Integer : IJavaObject {
 	@Import static int min(int, int);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Integer");
+	public static immutable string _javaParameterString = "Ljava/lang/Integer";
 }

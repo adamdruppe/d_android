@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class FloatMath : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "FloatMath");
+	public static immutable string _javaParameterString = "Landroid/util/FloatMath";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Destroyable : IJavaObject {
 	@Import void destroy();
 	@Import bool isDestroyed();
-	mixin JavaPackageId!("javax.security.auth", "Destroyable");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/Destroyable";
 }

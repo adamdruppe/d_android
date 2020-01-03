@@ -12,6 +12,7 @@ final class Log : IJavaObject {
 	@Import static int i(string, string, import0.JavaThrowable);
 	@Import static int w(string, string);
 	@Import static int w(string, string, import0.JavaThrowable);
+	@Import static bool isLoggable(string, int);
 	@Import static int w(string, import0.JavaThrowable);
 	@Import static int e(string, string);
 	@Import static int e(string, string, import0.JavaThrowable);
@@ -21,5 +22,5 @@ final class Log : IJavaObject {
 	@Import static string getStackTraceString(import0.JavaThrowable);
 	@Import static int println(int, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Log");
+	public static immutable string _javaParameterString = "Landroid/util/Log";
 }

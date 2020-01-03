@@ -18,5 +18,5 @@ final class ResolveInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import5.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ResolveInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ResolveInfo";
 }

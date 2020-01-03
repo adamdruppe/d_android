@@ -10,5 +10,5 @@ final class ContactsContract_CommonDataKinds_Event : IJavaObject {
 	@Import static int getTypeResource(import0.Integer);
 	@Import static import1.CharSequence getTypeLabel(import2.Resources, int, import1.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$CommonDataKinds$Event");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$CommonDataKinds$Event";
 }

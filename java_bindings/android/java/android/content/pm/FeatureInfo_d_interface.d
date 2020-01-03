@@ -11,5 +11,5 @@ final class FeatureInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import string getGlEsVersion();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "FeatureInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/FeatureInfo";
 }

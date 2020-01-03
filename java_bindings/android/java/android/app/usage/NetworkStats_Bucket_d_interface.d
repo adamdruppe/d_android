@@ -16,5 +16,5 @@ final class NetworkStats_Bucket : IJavaObject {
 	@Import long getRxPackets();
 	@Import long getTxPackets();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "NetworkStats$Bucket");
+	public static immutable string _javaParameterString = "Landroid/app/usage/NetworkStats$Bucket";
 }

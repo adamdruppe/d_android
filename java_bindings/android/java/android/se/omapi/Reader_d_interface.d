@@ -11,5 +11,5 @@ final class Reader : IJavaObject {
 	@Import import1.SEService getSEService();
 	@Import void closeSessions();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.se.omapi", "Reader");
+	public static immutable string _javaParameterString = "Landroid/se/omapi/Reader";
 }

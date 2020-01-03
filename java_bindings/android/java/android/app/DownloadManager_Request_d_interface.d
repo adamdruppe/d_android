@@ -26,5 +26,5 @@ final class DownloadManager_Request : IJavaObject {
 	@Import import1.DownloadManager_Request setRequiresDeviceIdle(bool);
 	@Import import1.DownloadManager_Request setVisibleInDownloadsUi(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "DownloadManager$Request");
+	public static immutable string _javaParameterString = "Landroid/app/DownloadManager$Request";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class DiskWriteViolation : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.strictmode", "DiskWriteViolation");
+	public static immutable string _javaParameterString = "Landroid/os/strictmode/DiskWriteViolation";
 }

@@ -9,5 +9,5 @@ interface Principal : IJavaObject {
 	@Import int hashCode();
 	@Import string getName();
 	@Import bool implies(import0.Subject);
-	mixin JavaPackageId!("java.security", "Principal");
+	public static immutable string _javaParameterString = "Ljava/security/Principal";
 }

@@ -107,5 +107,5 @@ final class ScriptIntrinsicBLAS : IJavaObject {
 	@Import void ZHER2K(int, int, import4.Double2, import2.Allocation, import2.Allocation, double, import2.Allocation);
 	@Import void BNNM(import2.Allocation, int, import2.Allocation, int, import2.Allocation, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "ScriptIntrinsicBLAS");
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicBLAS";
 }

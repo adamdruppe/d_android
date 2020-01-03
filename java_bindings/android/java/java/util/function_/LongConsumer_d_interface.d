@@ -6,5 +6,5 @@ import import0 = android.java.java.util.function_.LongConsumer_d_interface;
 interface LongConsumer : IJavaObject {
 	@Import void accept(long);
 	@Import import0.LongConsumer andThen(import0.LongConsumer);
-	mixin JavaPackageId!("java.util.function", "LongConsumer");
+	public static immutable string _javaParameterString = "Ljava/util/function/LongConsumer";
 }

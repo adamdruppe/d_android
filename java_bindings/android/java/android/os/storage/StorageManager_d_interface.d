@@ -33,5 +33,5 @@ final class StorageManager : IJavaObject {
 	@Import void setCacheBehaviorTombstone(import2.File, bool);
 	@Import bool isCacheBehaviorTombstone(import2.File);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.storage", "StorageManager");
+	public static immutable string _javaParameterString = "Landroid/os/storage/StorageManager";
 }

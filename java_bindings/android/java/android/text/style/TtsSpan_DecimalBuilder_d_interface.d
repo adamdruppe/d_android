@@ -12,5 +12,5 @@ final class TtsSpan_DecimalBuilder : IJavaObject {
 	@Import import0.TtsSpan_DecimalBuilder setIntegerPart(string);
 	@Import import0.TtsSpan_DecimalBuilder setFractionalPart(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$DecimalBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$DecimalBuilder";
 }

@@ -35,5 +35,5 @@ final class ConnectionService : IJavaObject {
 	@Import void onConnectionServiceFocusLost();
 	@Import void onConnectionServiceFocusGained();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "ConnectionService");
+	public static immutable string _javaParameterString = "Landroid/telecom/ConnectionService";
 }

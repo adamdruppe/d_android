@@ -17,5 +17,5 @@ final class VpnService : IJavaObject {
 	@Import import5.IBinder onBind(import0.Intent);
 	@Import void onRevoke();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "VpnService");
+	public static immutable string _javaParameterString = "Landroid/net/VpnService";
 }

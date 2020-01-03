@@ -53,5 +53,5 @@ final class TimeZone : IJavaObject {
 	@Import IJavaObject cloneAsThawed();
 	@Import IJavaObject freeze();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "TimeZone");
+	public static immutable string _javaParameterString = "Landroid/icu/util/TimeZone";
 }

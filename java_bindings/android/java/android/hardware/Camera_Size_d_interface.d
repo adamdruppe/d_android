@@ -9,5 +9,5 @@ final class Camera_Size : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "Camera$Size");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$Size";
 }

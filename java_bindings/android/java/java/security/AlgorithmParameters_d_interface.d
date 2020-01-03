@@ -12,13 +12,13 @@ final class AlgorithmParameters : IJavaObject {
 	@Import static import0.AlgorithmParameters getInstance(string, string);
 	@Import static import0.AlgorithmParameters getInstance(string, import1.Provider);
 	@Import import1.Provider getProvider();
-	@Import void init(import2.AlgorithmParameterSpec);
-	@Import void init(byte[]);
-	@Import void init(byte, string[]);
+	@Import @JavaName("init") void init_(import2.AlgorithmParameterSpec);
+	@Import @JavaName("init") void init_(byte[]);
+	@Import @JavaName("init") void init_(byte, string[]);
 	@Import import2.AlgorithmParameterSpec getParameterSpec(import3.Class);
 	@Import byte[] getEncoded();
 	@Import byte[] getEncoded(string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "AlgorithmParameters");
+	public static immutable string _javaParameterString = "Ljava/security/AlgorithmParameters";
 }

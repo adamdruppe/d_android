@@ -7,5 +7,5 @@ import import0 = android.java.java.lang.CharSequence_d_interface;
 interface AutoCompleteTextView_Validator : IJavaObject {
 	@Import bool isValid(import0.CharSequence);
 	@Import import0.CharSequence fixText(import0.CharSequence);
-	mixin JavaPackageId!("android.widget", "AutoCompleteTextView$Validator");
+	public static immutable string _javaParameterString = "Landroid/widget/AutoCompleteTextView$Validator";
 }

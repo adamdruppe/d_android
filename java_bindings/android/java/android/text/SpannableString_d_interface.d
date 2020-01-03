@@ -23,5 +23,5 @@ final class SpannableString : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import wchar charAt(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "SpannableString");
+	public static immutable string _javaParameterString = "Landroid/text/SpannableString";
 }

@@ -19,5 +19,5 @@ final class OsConstants : IJavaObject {
 	@Import static string gaiName(int);
 	@Import static string errnoName(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "OsConstants");
+	public static immutable string _javaParameterString = "Landroid/system/OsConstants";
 }

@@ -8,5 +8,5 @@ final class Xml_Encoding : IJavaObject {
 	@Import static import0.Xml_Encoding[] values();
 	@Import static import0.Xml_Encoding valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Xml$Encoding");
+	public static immutable string _javaParameterString = "Landroid/util/Xml$Encoding";
 }

@@ -9,5 +9,5 @@ interface ActionBar_TabListener : IJavaObject {
 	@Import void onTabSelected(import0.ActionBar_Tab, import1.FragmentTransaction);
 	@Import void onTabUnselected(import0.ActionBar_Tab, import1.FragmentTransaction);
 	@Import void onTabReselected(import0.ActionBar_Tab, import1.FragmentTransaction);
-	mixin JavaPackageId!("android.app", "ActionBar$TabListener");
+	public static immutable string _javaParameterString = "Landroid/app/ActionBar$TabListener";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class LiveFolders : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "LiveFolders");
+	public static immutable string _javaParameterString = "Landroid/provider/LiveFolders";
 }

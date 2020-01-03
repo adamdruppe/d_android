@@ -11,5 +11,5 @@ final class CalendarContract_EventsEntity : IJavaObject {
 	@Import static import0.EntityIterator newEntityIterator(import1.Cursor, import2.ContentResolver);
 	@Import static import0.EntityIterator newEntityIterator(import1.Cursor, import3.ContentProviderClient);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "CalendarContract$EventsEntity");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$EventsEntity";
 }

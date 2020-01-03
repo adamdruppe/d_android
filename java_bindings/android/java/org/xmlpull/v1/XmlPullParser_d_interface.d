@@ -42,5 +42,5 @@ interface XmlPullParser : IJavaObject {
 	@Import void require(int, string, string);
 	@Import string nextText();
 	@Import int nextTag();
-	mixin JavaPackageId!("org.xmlpull.v1", "XmlPullParser");
+	public static immutable string _javaParameterString = "Lorg/xmlpull/v1/XmlPullParser";
 }

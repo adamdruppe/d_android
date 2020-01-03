@@ -9,5 +9,5 @@ final class Call_RttCall : IJavaObject {
 	@Import string read();
 	@Import string readImmediately();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Call$RttCall");
+	public static immutable string _javaParameterString = "Landroid/telecom/Call$RttCall";
 }

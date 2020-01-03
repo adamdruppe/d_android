@@ -8,5 +8,5 @@ final class FloatEvaluator : IJavaObject {
 	@Import import0.Float evaluate(float, import1.Number, import1.Number);
 	@Import IJavaObject evaluate(float, IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "FloatEvaluator");
+	public static immutable string _javaParameterString = "Landroid/animation/FloatEvaluator";
 }

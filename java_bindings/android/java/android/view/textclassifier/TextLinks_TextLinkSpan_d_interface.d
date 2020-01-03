@@ -10,5 +10,5 @@ final class TextLinks_TextLinkSpan : IJavaObject {
 	@Import void onClick(import1.View);
 	@Import import0.TextLinks_TextLink getTextLink();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextLinks$TextLinkSpan");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextLinks$TextLinkSpan";
 }

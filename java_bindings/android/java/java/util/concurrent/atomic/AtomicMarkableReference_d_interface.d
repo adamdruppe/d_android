@@ -11,5 +11,5 @@ final class AtomicMarkableReference : IJavaObject {
 	@Import void set(IJavaObject, bool);
 	@Import bool attemptMark(IJavaObject, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicMarkableReference");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicMarkableReference";
 }

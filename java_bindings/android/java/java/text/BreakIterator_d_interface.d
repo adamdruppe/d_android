@@ -29,5 +29,5 @@ final class BreakIterator : IJavaObject {
 	@Import static import1.BreakIterator getSentenceInstance(import2.Locale);
 	@Import static import2.Locale[] getAvailableLocales();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "BreakIterator");
+	public static immutable string _javaParameterString = "Ljava/text/BreakIterator";
 }

@@ -9,5 +9,5 @@ final class ThaiBuddhistEra : IJavaObject {
 	@Import static import0.ThaiBuddhistEra of(int);
 	@Import int getValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "ThaiBuddhistEra");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/ThaiBuddhistEra";
 }

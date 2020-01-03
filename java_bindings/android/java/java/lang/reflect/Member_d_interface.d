@@ -8,5 +8,5 @@ interface Member : IJavaObject {
 	@Import string getName();
 	@Import int getModifiers();
 	@Import bool isSynthetic();
-	mixin JavaPackageId!("java.lang.reflect", "Member");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Member";
 }

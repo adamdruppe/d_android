@@ -8,5 +8,5 @@ final class CustomDescription : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "CustomDescription");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/CustomDescription";
 }

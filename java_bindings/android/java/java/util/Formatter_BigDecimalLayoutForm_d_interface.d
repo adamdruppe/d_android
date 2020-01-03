@@ -8,5 +8,5 @@ final class Formatter_BigDecimalLayoutForm : IJavaObject {
 	@Import static import0.Formatter_BigDecimalLayoutForm[] values();
 	@Import static import0.Formatter_BigDecimalLayoutForm valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Formatter$BigDecimalLayoutForm");
+	public static immutable string _javaParameterString = "Ljava/util/Formatter$BigDecimalLayoutForm";
 }

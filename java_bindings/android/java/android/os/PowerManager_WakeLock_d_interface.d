@@ -14,5 +14,5 @@ final class PowerManager_WakeLock : IJavaObject {
 	@Import void setWorkSource(import0.WorkSource);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "PowerManager$WakeLock");
+	public static immutable string _javaParameterString = "Landroid/os/PowerManager$WakeLock";
 }

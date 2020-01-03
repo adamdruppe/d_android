@@ -8,5 +8,5 @@ final class SSLSessionBindingEvent : IJavaObject {
 	@Import string getName();
 	@Import import0.SSLSession getSession();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLSessionBindingEvent");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLSessionBindingEvent";
 }

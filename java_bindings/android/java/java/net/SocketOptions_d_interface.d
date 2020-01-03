@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface SocketOptions : IJavaObject {
 	@Import void setOption(int, IJavaObject);
 	@Import IJavaObject getOption(int);
-	mixin JavaPackageId!("java.net", "SocketOptions");
+	public static immutable string _javaParameterString = "Ljava/net/SocketOptions";
 }

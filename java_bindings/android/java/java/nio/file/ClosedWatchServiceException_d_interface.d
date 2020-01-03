@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ClosedWatchServiceException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "ClosedWatchServiceException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/ClosedWatchServiceException";
 }

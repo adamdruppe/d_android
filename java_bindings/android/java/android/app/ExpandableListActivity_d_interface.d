@@ -21,5 +21,5 @@ final class ExpandableListActivity : IJavaObject {
 	@Import bool setSelectedChild(int, int, bool);
 	@Import void setSelectedGroup(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ExpandableListActivity");
+	public static immutable string _javaParameterString = "Landroid/app/ExpandableListActivity";
 }

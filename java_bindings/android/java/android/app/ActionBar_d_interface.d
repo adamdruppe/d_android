@@ -74,5 +74,5 @@ final class ActionBar : IJavaObject {
 	@Import void setElevation(float);
 	@Import float getElevation();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActionBar");
+	public static immutable string _javaParameterString = "Landroid/app/ActionBar";
 }

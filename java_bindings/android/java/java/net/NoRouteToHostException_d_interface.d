@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class NoRouteToHostException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "NoRouteToHostException");
+	public static immutable string _javaParameterString = "Ljava/net/NoRouteToHostException";
 }

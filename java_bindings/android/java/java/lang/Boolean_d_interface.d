@@ -23,5 +23,5 @@ final class Boolean : IJavaObject {
 	@Import static bool logicalXor(bool, bool);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Boolean");
+	public static immutable string _javaParameterString = "Ljava/lang/Boolean";
 }

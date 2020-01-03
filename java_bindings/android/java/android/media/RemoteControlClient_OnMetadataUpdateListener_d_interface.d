@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("RemoteControlClient$OnMetadataUpdateListener")
 interface RemoteControlClient_OnMetadataUpdateListener : IJavaObject {
 	@Import void onMetadataUpdate(int, IJavaObject);
-	mixin JavaPackageId!("android.media", "RemoteControlClient$OnMetadataUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/media/RemoteControlClient$OnMetadataUpdateListener";
 }

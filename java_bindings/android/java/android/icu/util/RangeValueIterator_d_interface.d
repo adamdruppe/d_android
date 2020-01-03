@@ -6,5 +6,5 @@ import import0 = android.java.android.icu.util.RangeValueIterator_Element_d_inte
 interface RangeValueIterator : IJavaObject {
 	@Import bool next(import0.RangeValueIterator_Element);
 	@Import void reset();
-	mixin JavaPackageId!("android.icu.util", "RangeValueIterator");
+	public static immutable string _javaParameterString = "Landroid/icu/util/RangeValueIterator";
 }

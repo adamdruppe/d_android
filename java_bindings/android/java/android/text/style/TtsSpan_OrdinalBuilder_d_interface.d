@@ -10,5 +10,5 @@ final class TtsSpan_OrdinalBuilder : IJavaObject {
 	@Import import0.TtsSpan_OrdinalBuilder setNumber(long);
 	@Import import0.TtsSpan_OrdinalBuilder setNumber(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$OrdinalBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$OrdinalBuilder";
 }

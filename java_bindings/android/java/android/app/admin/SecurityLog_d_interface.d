@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class SecurityLog : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "SecurityLog");
+	public static immutable string _javaParameterString = "Landroid/app/admin/SecurityLog";
 }

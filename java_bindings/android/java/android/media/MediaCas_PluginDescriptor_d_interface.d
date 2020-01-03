@@ -7,5 +7,5 @@ final class MediaCas_PluginDescriptor : IJavaObject {
 	@Import string getName();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCas$PluginDescriptor");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCas$PluginDescriptor";
 }

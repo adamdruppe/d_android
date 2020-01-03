@@ -19,5 +19,5 @@ final class SubscriptionPlan : IJavaObject {
 	@Import long getDataUsageTime();
 	@Import import2.Iterator cycleIterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SubscriptionPlan");
+	public static immutable string _javaParameterString = "Landroid/telephony/SubscriptionPlan";
 }

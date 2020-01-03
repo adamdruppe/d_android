@@ -20,5 +20,5 @@ final class ColorMatrix : IJavaObject {
 	@Import void setYUV2RGB();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorMatrix");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorMatrix";
 }

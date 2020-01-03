@@ -18,5 +18,5 @@ final class NetworkStatsManager : IJavaObject {
 	@Import void registerUsageCallback(int, string, long, import2.NetworkStatsManager_UsageCallback, import3.Handler);
 	@Import void unregisterUsageCallback(import2.NetworkStatsManager_UsageCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "NetworkStatsManager");
+	public static immutable string _javaParameterString = "Landroid/app/usage/NetworkStatsManager";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ParcelFormatException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ParcelFormatException");
+	public static immutable string _javaParameterString = "Landroid/os/ParcelFormatException";
 }

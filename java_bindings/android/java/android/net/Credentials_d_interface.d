@@ -7,5 +7,5 @@ final class Credentials : IJavaObject {
 	@Import int getUid();
 	@Import int getGid();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "Credentials");
+	public static immutable string _javaParameterString = "Landroid/net/Credentials";
 }

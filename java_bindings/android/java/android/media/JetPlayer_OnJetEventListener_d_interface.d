@@ -9,5 +9,5 @@ interface JetPlayer_OnJetEventListener : IJavaObject {
 	@Import void onJetUserIdUpdate(import0.JetPlayer, int, int);
 	@Import void onJetNumQueuedSegmentUpdate(import0.JetPlayer, int);
 	@Import void onJetPauseUpdate(import0.JetPlayer, int);
-	mixin JavaPackageId!("android.media", "JetPlayer$OnJetEventListener");
+	public static immutable string _javaParameterString = "Landroid/media/JetPlayer$OnJetEventListener";
 }

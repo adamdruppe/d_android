@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class URLStreamHandler : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "URLStreamHandler");
+	public static immutable string _javaParameterString = "Ljava/net/URLStreamHandler";
 }

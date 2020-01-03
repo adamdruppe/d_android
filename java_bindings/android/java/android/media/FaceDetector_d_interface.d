@@ -8,5 +8,5 @@ final class FaceDetector : IJavaObject {
 	@Import this(int, int, int);
 	@Import int findFaces(import0.Bitmap, import1.FaceDetector_Face[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "FaceDetector");
+	public static immutable string _javaParameterString = "Landroid/media/FaceDetector";
 }

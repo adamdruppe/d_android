@@ -15,5 +15,5 @@ final class ArcMotion : IJavaObject {
 	@Import float getMaximumAngle();
 	@Import import2.Path getPath(float, float, float, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "ArcMotion");
+	public static immutable string _javaParameterString = "Landroid/transition/ArcMotion";
 }

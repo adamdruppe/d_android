@@ -8,5 +8,5 @@ final class ConcurrentModificationException : IJavaObject {
 	@Import this(import0.JavaThrowable);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "ConcurrentModificationException");
+	public static immutable string _javaParameterString = "Ljava/util/ConcurrentModificationException";
 }

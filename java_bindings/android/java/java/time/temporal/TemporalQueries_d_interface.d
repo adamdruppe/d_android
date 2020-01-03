@@ -12,5 +12,5 @@ final class TemporalQueries : IJavaObject {
 	@Import static import0.TemporalQuery localDate();
 	@Import static import0.TemporalQuery localTime();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.temporal", "TemporalQueries");
+	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalQueries";
 }

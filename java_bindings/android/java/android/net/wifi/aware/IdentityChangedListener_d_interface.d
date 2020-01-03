@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class IdentityChangedListener : IJavaObject {
 	@Import void onIdentityChanged(byte[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "IdentityChangedListener");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/IdentityChangedListener";
 }

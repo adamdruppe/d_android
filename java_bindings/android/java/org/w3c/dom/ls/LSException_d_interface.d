@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class LSException : IJavaObject {
 	@Import this(short, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.w3c.dom.ls", "LSException");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ls/LSException";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface LongBinaryOperator : IJavaObject {
 	@Import long applyAsLong(long, long);
-	mixin JavaPackageId!("java.util.function", "LongBinaryOperator");
+	public static immutable string _javaParameterString = "Ljava/util/function/LongBinaryOperator";
 }

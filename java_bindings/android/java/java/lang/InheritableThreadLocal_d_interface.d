@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class InheritableThreadLocal : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "InheritableThreadLocal");
+	public static immutable string _javaParameterString = "Ljava/lang/InheritableThreadLocal";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SocketTimeoutException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "SocketTimeoutException");
+	public static immutable string _javaParameterString = "Ljava/net/SocketTimeoutException";
 }

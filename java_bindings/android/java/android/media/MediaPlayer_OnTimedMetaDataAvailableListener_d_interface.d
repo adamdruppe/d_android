@@ -7,5 +7,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnTimedMetaDataAvailableListener")
 interface MediaPlayer_OnTimedMetaDataAvailableListener : IJavaObject {
 	@Import void onTimedMetaDataAvailable(import0.MediaPlayer, import1.TimedMetaData);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnTimedMetaDataAvailableListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnTimedMetaDataAvailableListener";
 }

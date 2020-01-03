@@ -6,5 +6,5 @@ import import0 = android.java.android.content.DialogInterface_d_interface;
 @JavaName("DialogInterface$OnMultiChoiceClickListener")
 interface DialogInterface_OnMultiChoiceClickListener : IJavaObject {
 	@Import void onClick(import0.DialogInterface, int, bool);
-	mixin JavaPackageId!("android.content", "DialogInterface$OnMultiChoiceClickListener");
+	public static immutable string _javaParameterString = "Landroid/content/DialogInterface$OnMultiChoiceClickListener";
 }

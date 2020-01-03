@@ -22,5 +22,5 @@ final class MediaRouteButton : IJavaObject {
 	@Import void onAttachedToWindow();
 	@Import void onDetachedFromWindow();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "MediaRouteButton");
+	public static immutable string _javaParameterString = "Landroid/app/MediaRouteButton";
 }

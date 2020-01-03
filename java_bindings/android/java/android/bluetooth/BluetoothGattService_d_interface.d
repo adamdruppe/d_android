@@ -20,5 +20,5 @@ final class BluetoothGattService : IJavaObject {
 	@Import import4.List getCharacteristics();
 	@Import import3.BluetoothGattCharacteristic getCharacteristic(import0.UUID);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothGattService");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothGattService";
 }

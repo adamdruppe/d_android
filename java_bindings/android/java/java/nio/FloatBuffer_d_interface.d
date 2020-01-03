@@ -33,5 +33,5 @@ final class FloatBuffer : IJavaObject {
 	@Import IJavaObject array();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "FloatBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/FloatBuffer";
 }

@@ -16,5 +16,5 @@ final class GestureDetector_SimpleOnGestureListener : IJavaObject {
 	@Import bool onSingleTapConfirmed(import0.MotionEvent);
 	@Import bool onContextClick(import0.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "GestureDetector$SimpleOnGestureListener");
+	public static immutable string _javaParameterString = "Landroid/view/GestureDetector$SimpleOnGestureListener";
 }

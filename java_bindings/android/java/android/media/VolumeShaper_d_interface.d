@@ -10,5 +10,5 @@ final class VolumeShaper : IJavaObject {
 	@Import float getVolume();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "VolumeShaper");
+	public static immutable string _javaParameterString = "Landroid/media/VolumeShaper";
 }

@@ -21,5 +21,5 @@ final class InputMethodService_InputMethodImpl : IJavaObject {
 	@Import void showSoftInput(int, import5.ResultReceiver);
 	@Import void changeInputMethodSubtype(import6.InputMethodSubtype);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "InputMethodService$InputMethodImpl");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/InputMethodService$InputMethodImpl";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ToLongBiFunction : IJavaObject {
 	@Import long applyAsLong(IJavaObject, IJavaObject);
-	mixin JavaPackageId!("java.util.function", "ToLongBiFunction");
+	public static immutable string _javaParameterString = "Ljava/util/function/ToLongBiFunction";
 }

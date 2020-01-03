@@ -10,5 +10,5 @@ final class Keyboard_Row : IJavaObject {
 	@Import this(import0.Keyboard);
 	@Import this(import1.Resources, import0.Keyboard, import2.XmlResourceParser);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "Keyboard$Row");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/Keyboard$Row";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ValueCallback : IJavaObject {
 	@Import void onReceiveValue(IJavaObject);
-	mixin JavaPackageId!("android.webkit", "ValueCallback");
+	public static immutable string _javaParameterString = "Landroid/webkit/ValueCallback";
 }

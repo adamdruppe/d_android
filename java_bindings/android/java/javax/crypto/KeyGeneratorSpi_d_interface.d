@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class KeyGeneratorSpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "KeyGeneratorSpi");
+	public static immutable string _javaParameterString = "Ljavax/crypto/KeyGeneratorSpi";
 }

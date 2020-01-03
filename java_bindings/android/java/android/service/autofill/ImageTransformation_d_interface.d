@@ -8,5 +8,5 @@ final class ImageTransformation : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "ImageTransformation");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/ImageTransformation";
 }

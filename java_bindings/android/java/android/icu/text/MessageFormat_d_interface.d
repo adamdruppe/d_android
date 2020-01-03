@@ -51,5 +51,5 @@ final class MessageFormat : IJavaObject {
 	@Import int hashCode();
 	@Import static string autoQuoteApostrophe(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MessageFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MessageFormat";
 }

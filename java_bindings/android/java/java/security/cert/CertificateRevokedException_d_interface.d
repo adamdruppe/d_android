@@ -15,5 +15,5 @@ final class CertificateRevokedException : IJavaObject {
 	@Import import3.Map getExtensions();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertificateRevokedException");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertificateRevokedException";
 }

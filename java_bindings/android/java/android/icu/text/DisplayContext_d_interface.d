@@ -10,5 +10,5 @@ final class DisplayContext : IJavaObject {
 	@Import import1.DisplayContext_Type type();
 	@Import int value();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "DisplayContext");
+	public static immutable string _javaParameterString = "Landroid/icu/text/DisplayContext";
 }

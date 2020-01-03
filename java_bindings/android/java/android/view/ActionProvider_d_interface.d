@@ -19,5 +19,5 @@ final class ActionProvider : IJavaObject {
 	@Import void onPrepareSubMenu(import3.SubMenu);
 	@Import void setVisibilityListener(import4.ActionProvider_VisibilityListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ActionProvider");
+	public static immutable string _javaParameterString = "Landroid/view/ActionProvider";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Double3 : IJavaObject {
 	@Import this(double, double, double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Double3");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Double3";
 }

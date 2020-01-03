@@ -7,5 +7,5 @@ final class DialerKeyListener : IJavaObject {
 	@Import static import0.DialerKeyListener getInstance();
 	@Import int getInputType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "DialerKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/DialerKeyListener";
 }

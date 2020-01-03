@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaStore$Images")
 final class MediaStore_Images : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Images");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Images";
 }

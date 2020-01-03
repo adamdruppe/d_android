@@ -14,7 +14,7 @@ final class DatePicker : IJavaObject {
 	@Import this(import0.Context, import1.AttributeSet);
 	@Import this(import0.Context, import1.AttributeSet, int);
 	@Import this(import0.Context, import1.AttributeSet, int, int);
-	@Import void init(int, int, int, import2.DatePicker_OnDateChangedListener);
+	@Import @JavaName("init") void init_(int, int, int, import2.DatePicker_OnDateChangedListener);
 	@Import void setOnDateChangedListener(import2.DatePicker_OnDateChangedListener);
 	@Import void updateDate(int, int, int);
 	@Import int getYear();
@@ -39,5 +39,5 @@ final class DatePicker : IJavaObject {
 	@Import int getAutofillType();
 	@Import import6.AutofillValue getAutofillValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "DatePicker");
+	public static immutable string _javaParameterString = "Landroid/widget/DatePicker";
 }

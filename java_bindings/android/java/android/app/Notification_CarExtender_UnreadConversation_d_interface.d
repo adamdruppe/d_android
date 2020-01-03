@@ -14,5 +14,5 @@ final class Notification_CarExtender_UnreadConversation : IJavaObject {
 	@Import string getParticipant();
 	@Import long getLatestTimestamp();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$CarExtender$UnreadConversation");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$CarExtender$UnreadConversation";
 }

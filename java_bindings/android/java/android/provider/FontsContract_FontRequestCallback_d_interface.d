@@ -8,5 +8,5 @@ final class FontsContract_FontRequestCallback : IJavaObject {
 	@Import void onTypefaceRetrieved(import0.Typeface);
 	@Import void onTypefaceRequestFailed(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "FontsContract$FontRequestCallback");
+	public static immutable string _javaParameterString = "Landroid/provider/FontsContract$FontRequestCallback";
 }

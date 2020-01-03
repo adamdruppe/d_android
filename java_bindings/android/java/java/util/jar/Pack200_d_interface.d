@@ -8,5 +8,5 @@ final class Pack200 : IJavaObject {
 	@Import static import0.Pack200_Packer newPacker();
 	@Import static import1.Pack200_Unpacker newUnpacker();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.jar", "Pack200");
+	public static immutable string _javaParameterString = "Ljava/util/jar/Pack200";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class FormattableFlags : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "FormattableFlags");
+	public static immutable string _javaParameterString = "Ljava/util/FormattableFlags";
 }

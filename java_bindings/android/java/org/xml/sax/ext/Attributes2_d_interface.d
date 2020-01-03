@@ -8,5 +8,5 @@ interface Attributes2 : IJavaObject {
 	@Import bool isSpecified(int);
 	@Import bool isSpecified(string, string);
 	@Import bool isSpecified(string);
-	mixin JavaPackageId!("org.xml.sax.ext", "Attributes2");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ext/Attributes2";
 }

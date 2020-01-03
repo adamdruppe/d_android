@@ -8,5 +8,5 @@ final class InflateException : IJavaObject {
 	@Import this(string);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "InflateException");
+	public static immutable string _javaParameterString = "Landroid/view/InflateException";
 }

@@ -16,5 +16,5 @@ final class SslError : IJavaObject {
 	@Import int getPrimaryError();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.http", "SslError");
+	public static immutable string _javaParameterString = "Landroid/net/http/SslError";
 }

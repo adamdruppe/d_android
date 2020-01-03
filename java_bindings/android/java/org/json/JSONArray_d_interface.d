@@ -52,5 +52,5 @@ final class JSONArray : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.json", "JSONArray");
+	public static immutable string _javaParameterString = "Lorg/json/JSONArray";
 }

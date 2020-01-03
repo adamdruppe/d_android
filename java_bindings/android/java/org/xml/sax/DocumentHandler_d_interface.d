@@ -13,5 +13,5 @@ interface DocumentHandler : IJavaObject {
 	@Import void characters(wchar, int, int[]);
 	@Import void ignorableWhitespace(wchar, int, int[]);
 	@Import void processingInstruction(string, string);
-	mixin JavaPackageId!("org.xml.sax", "DocumentHandler");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/DocumentHandler";
 }

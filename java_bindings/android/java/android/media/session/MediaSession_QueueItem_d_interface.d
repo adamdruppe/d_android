@@ -14,5 +14,5 @@ final class MediaSession_QueueItem : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaSession$QueueItem");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaSession$QueueItem";
 }

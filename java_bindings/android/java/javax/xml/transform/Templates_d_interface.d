@@ -7,5 +7,5 @@ import import1 = android.java.java.util.Properties_d_interface;
 interface Templates : IJavaObject {
 	@Import import0.Transformer newTransformer();
 	@Import import1.Properties getOutputProperties();
-	mixin JavaPackageId!("javax.xml.transform", "Templates");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/Templates";
 }

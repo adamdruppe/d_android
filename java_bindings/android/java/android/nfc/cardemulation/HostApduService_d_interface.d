@@ -12,5 +12,5 @@ final class HostApduService : IJavaObject {
 	@Import byte[] processCommandApdu(byte, import2.Bundle[]);
 	@Import void onDeactivated(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc.cardemulation", "HostApduService");
+	public static immutable string _javaParameterString = "Landroid/nfc/cardemulation/HostApduService";
 }

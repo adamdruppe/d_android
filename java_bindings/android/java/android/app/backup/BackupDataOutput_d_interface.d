@@ -7,5 +7,5 @@ final class BackupDataOutput : IJavaObject {
 	@Import int writeEntityHeader(string, int);
 	@Import int writeEntityData(byte, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "BackupDataOutput");
+	public static immutable string _javaParameterString = "Landroid/app/backup/BackupDataOutput";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.java.sql.Connection_d_interface;
 interface DataSource : IJavaObject {
 	@Import import0.Connection getConnection();
 	@Import import0.Connection getConnection(string, string);
-	mixin JavaPackageId!("javax.sql", "DataSource");
+	public static immutable string _javaParameterString = "Ljavax/sql/DataSource";
 }

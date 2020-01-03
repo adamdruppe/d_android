@@ -7,5 +7,5 @@ final class EventListenerProxy : IJavaObject {
 	@Import this(import0.EventListener);
 	@Import import0.EventListener getListener();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "EventListenerProxy");
+	public static immutable string _javaParameterString = "Ljava/util/EventListenerProxy";
 }

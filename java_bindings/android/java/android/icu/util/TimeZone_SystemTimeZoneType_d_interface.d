@@ -8,5 +8,5 @@ final class TimeZone_SystemTimeZoneType : IJavaObject {
 	@Import static import0.TimeZone_SystemTimeZoneType[] values();
 	@Import static import0.TimeZone_SystemTimeZoneType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "TimeZone$SystemTimeZoneType");
+	public static immutable string _javaParameterString = "Landroid/icu/util/TimeZone$SystemTimeZoneType";
 }

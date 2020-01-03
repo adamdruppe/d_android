@@ -11,5 +11,5 @@ final class GLU : IJavaObject {
 	@Import static int gluProject(float, float, float, float, int, float, int, int, int, float, int[][][][]);
 	@Import static int gluUnProject(float, float, float, float, int, float, int, int, int, float, int[][][][]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.opengl", "GLU");
+	public static immutable string _javaParameterString = "Landroid/opengl/GLU";
 }

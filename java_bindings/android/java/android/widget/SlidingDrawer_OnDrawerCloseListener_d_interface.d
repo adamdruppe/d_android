@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("SlidingDrawer$OnDrawerCloseListener")
 interface SlidingDrawer_OnDrawerCloseListener : IJavaObject {
 	@Import void onDrawerClosed();
-	mixin JavaPackageId!("android.widget", "SlidingDrawer$OnDrawerCloseListener");
+	public static immutable string _javaParameterString = "Landroid/widget/SlidingDrawer$OnDrawerCloseListener";
 }

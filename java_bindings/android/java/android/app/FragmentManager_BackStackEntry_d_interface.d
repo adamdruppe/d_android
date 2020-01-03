@@ -11,5 +11,5 @@ interface FragmentManager_BackStackEntry : IJavaObject {
 	@Import int getBreadCrumbShortTitleRes();
 	@Import import0.CharSequence getBreadCrumbTitle();
 	@Import import0.CharSequence getBreadCrumbShortTitle();
-	mixin JavaPackageId!("android.app", "FragmentManager$BackStackEntry");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentManager$BackStackEntry";
 }

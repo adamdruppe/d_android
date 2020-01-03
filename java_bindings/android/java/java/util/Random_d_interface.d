@@ -29,5 +29,5 @@ final class Random : IJavaObject {
 	@Import import2.DoubleStream doubles(long, double, double);
 	@Import import2.DoubleStream doubles(double, double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Random");
+	public static immutable string _javaParameterString = "Ljava/util/Random";
 }

@@ -6,5 +6,5 @@ final class CameraManager_AvailabilityCallback : IJavaObject {
 	@Import void onCameraAvailable(string);
 	@Import void onCameraUnavailable(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraManager$AvailabilityCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraManager$AvailabilityCallback";
 }

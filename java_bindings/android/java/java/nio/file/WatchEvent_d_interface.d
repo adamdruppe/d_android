@@ -7,5 +7,5 @@ interface WatchEvent : IJavaObject {
 	@Import import0.WatchEvent_Kind kind();
 	@Import int count();
 	@Import IJavaObject context();
-	mixin JavaPackageId!("java.nio.file", "WatchEvent");
+	public static immutable string _javaParameterString = "Ljava/nio/file/WatchEvent";
 }

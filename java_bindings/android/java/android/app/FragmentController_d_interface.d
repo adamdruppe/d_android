@@ -62,5 +62,5 @@ final class FragmentController : IJavaObject {
 	@Import void restoreLoaderNonConfig(import15.ArrayMap);
 	@Import void dumpLoaders(string, import16.FileDescriptor, import17.PrintWriter, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentController");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentController";
 }

@@ -8,5 +8,5 @@ final class CacheResponse : IJavaObject {
 	@Import import0.Map getHeaders();
 	@Import import1.InputStream getBody();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "CacheResponse");
+	public static immutable string _javaParameterString = "Ljava/net/CacheResponse";
 }

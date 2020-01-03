@@ -5,5 +5,5 @@ interface ProcessingInstruction : IJavaObject {
 	@Import string getTarget();
 	@Import string getData();
 	@Import void setData(string);
-	mixin JavaPackageId!("org.w3c.dom", "ProcessingInstruction");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/ProcessingInstruction";
 }

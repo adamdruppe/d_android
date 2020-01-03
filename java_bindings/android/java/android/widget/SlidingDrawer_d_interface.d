@@ -33,5 +33,5 @@ final class SlidingDrawer : IJavaObject {
 	@Import bool isOpened();
 	@Import bool isMoving();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "SlidingDrawer");
+	public static immutable string _javaParameterString = "Landroid/widget/SlidingDrawer";
 }

@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SmsMessage_SubmitPdu : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SmsMessage$SubmitPdu");
+	public static immutable string _javaParameterString = "Landroid/telephony/SmsMessage$SubmitPdu";
 }

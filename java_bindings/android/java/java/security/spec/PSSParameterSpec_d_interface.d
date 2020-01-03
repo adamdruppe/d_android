@@ -12,5 +12,5 @@ final class PSSParameterSpec : IJavaObject {
 	@Import int getSaltLength();
 	@Import int getTrailerField();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "PSSParameterSpec");
+	public static immutable string _javaParameterString = "Ljava/security/spec/PSSParameterSpec";
 }

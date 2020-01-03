@@ -26,5 +26,5 @@ final class DynamicsProcessing_Config_Builder : IJavaObject {
 	@Import import0.DynamicsProcessing_Config_Builder setLimiterAllChannelsTo(import4.DynamicsProcessing_Limiter);
 	@Import import5.DynamicsProcessing_Config build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "DynamicsProcessing$Config$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/DynamicsProcessing$Config$Builder";
 }

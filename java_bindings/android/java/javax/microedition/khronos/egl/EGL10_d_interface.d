@@ -31,5 +31,5 @@ interface EGL10 : IJavaObject {
 	@Import bool eglTerminate(import0.EGLDisplay);
 	@Import bool eglWaitGL();
 	@Import bool eglWaitNative(int, IJavaObject);
-	mixin JavaPackageId!("javax.microedition.khronos.egl", "EGL10");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/egl/EGL10";
 }

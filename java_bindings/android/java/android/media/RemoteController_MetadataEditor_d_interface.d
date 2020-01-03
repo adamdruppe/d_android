@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class RemoteController_MetadataEditor : IJavaObject {
 	@Import void apply();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "RemoteController$MetadataEditor");
+	public static immutable string _javaParameterString = "Landroid/media/RemoteController$MetadataEditor";
 }

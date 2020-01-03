@@ -11,5 +11,5 @@ final class PrinterId : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrinterId");
+	public static immutable string _javaParameterString = "Landroid/print/PrinterId";
 }

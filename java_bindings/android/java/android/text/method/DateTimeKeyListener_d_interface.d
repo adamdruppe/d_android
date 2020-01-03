@@ -10,5 +10,5 @@ final class DateTimeKeyListener : IJavaObject {
 	@Import static import1.DateTimeKeyListener getInstance();
 	@Import static import1.DateTimeKeyListener getInstance(import0.Locale);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "DateTimeKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/DateTimeKeyListener";
 }

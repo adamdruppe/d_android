@@ -37,5 +37,5 @@ final class PluralFormat : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "PluralFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/PluralFormat";
 }

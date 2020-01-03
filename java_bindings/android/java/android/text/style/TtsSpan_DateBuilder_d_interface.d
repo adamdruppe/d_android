@@ -12,5 +12,5 @@ final class TtsSpan_DateBuilder : IJavaObject {
 	@Import import1.TtsSpan_DateBuilder setMonth(int);
 	@Import import1.TtsSpan_DateBuilder setYear(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$DateBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$DateBuilder";
 }

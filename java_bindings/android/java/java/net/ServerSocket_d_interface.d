@@ -31,5 +31,5 @@ final class ServerSocket : IJavaObject {
 	@Import int getReceiveBufferSize();
 	@Import void setPerformancePreferences(int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "ServerSocket");
+	public static immutable string _javaParameterString = "Ljava/net/ServerSocket";
 }

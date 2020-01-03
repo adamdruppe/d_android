@@ -7,5 +7,5 @@ import import1 = android.java.android.content.Context_d_interface;
 interface PluginStub : IJavaObject {
 	@Import import0.View getEmbeddedView(int, import1.Context);
 	@Import import0.View getFullScreenView(int, import1.Context);
-	mixin JavaPackageId!("android.webkit", "PluginStub");
+	public static immutable string _javaParameterString = "Landroid/webkit/PluginStub";
 }

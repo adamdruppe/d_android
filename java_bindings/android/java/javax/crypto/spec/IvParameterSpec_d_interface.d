@@ -6,5 +6,5 @@ final class IvParameterSpec : IJavaObject {
 	@Import this(byte, int, int[]);
 	@Import byte[] getIV();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "IvParameterSpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/IvParameterSpec";
 }

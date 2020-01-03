@@ -15,5 +15,5 @@ final class TvInputInfo_Builder : IJavaObject {
 	@Import import2.TvInputInfo_Builder setExtras(import3.Bundle);
 	@Import import4.TvInputInfo build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvInputInfo$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputInfo$Builder";
 }

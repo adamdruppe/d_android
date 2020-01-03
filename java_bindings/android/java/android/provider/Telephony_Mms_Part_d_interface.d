@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Telephony$Mms$Part")
 final class Telephony_Mms_Part : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Telephony$Mms$Part");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$Mms$Part";
 }

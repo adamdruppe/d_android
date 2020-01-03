@@ -9,5 +9,5 @@ final class VoiceInteractor_AbortVoiceRequest : IJavaObject {
 	@Import this(import0.VoiceInteractor_Prompt, import1.Bundle);
 	@Import void onAbortResult(import1.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "VoiceInteractor$AbortVoiceRequest");
+	public static immutable string _javaParameterString = "Landroid/app/VoiceInteractor$AbortVoiceRequest";
 }

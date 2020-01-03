@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class EGLConfig : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.microedition.khronos.egl", "EGLConfig");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/egl/EGLConfig";
 }

@@ -23,5 +23,5 @@ final class MediaMetadata : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaMetadata");
+	public static immutable string _javaParameterString = "Landroid/media/MediaMetadata";
 }

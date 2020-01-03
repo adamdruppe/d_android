@@ -17,5 +17,5 @@ final class WorkSource : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "WorkSource");
+	public static immutable string _javaParameterString = "Landroid/os/WorkSource";
 }

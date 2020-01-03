@@ -5,5 +5,5 @@ final class NetPermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "NetPermission");
+	public static immutable string _javaParameterString = "Ljava/net/NetPermission";
 }

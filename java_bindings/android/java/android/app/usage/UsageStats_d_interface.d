@@ -15,5 +15,5 @@ final class UsageStats : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.usage", "UsageStats");
+	public static immutable string _javaParameterString = "Landroid/app/usage/UsageStats";
 }

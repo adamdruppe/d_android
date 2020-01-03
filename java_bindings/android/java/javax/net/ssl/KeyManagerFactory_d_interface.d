@@ -14,9 +14,9 @@ final class KeyManagerFactory : IJavaObject {
 	@Import static import0.KeyManagerFactory getInstance(string, string);
 	@Import static import0.KeyManagerFactory getInstance(string, import1.Provider);
 	@Import import1.Provider getProvider();
-	@Import void init(import2.KeyStore, wchar[]);
-	@Import void init(import3.ManagerFactoryParameters);
+	@Import @JavaName("init") void init_(import2.KeyStore, wchar[]);
+	@Import @JavaName("init") void init_(import3.ManagerFactoryParameters);
 	@Import import4.KeyManager[] getKeyManagers();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "KeyManagerFactory");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/KeyManagerFactory";
 }

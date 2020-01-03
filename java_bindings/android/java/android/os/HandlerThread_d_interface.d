@@ -12,5 +12,5 @@ final class HandlerThread : IJavaObject {
 	@Import bool quitSafely();
 	@Import int getThreadId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "HandlerThread");
+	public static immutable string _javaParameterString = "Landroid/os/HandlerThread";
 }

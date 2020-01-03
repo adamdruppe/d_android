@@ -18,5 +18,5 @@ final class Scene : IJavaObject {
 	@Import void setEnterAction(import4.Runnable);
 	@Import void setExitAction(import4.Runnable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "Scene");
+	public static immutable string _javaParameterString = "Landroid/transition/Scene";
 }

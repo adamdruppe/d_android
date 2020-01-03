@@ -19,5 +19,5 @@ final class Messenger : IJavaObject {
 	@Import static void writeMessengerOrNullToParcel(import4.Messenger, import3.Parcel);
 	@Import static import4.Messenger readMessengerOrNullFromParcel(import3.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Messenger");
+	public static immutable string _javaParameterString = "Landroid/os/Messenger";
 }

@@ -14,5 +14,5 @@ final class AbstractMap_SimpleImmutableEntry : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "AbstractMap$SimpleImmutableEntry");
+	public static immutable string _javaParameterString = "Ljava/util/AbstractMap$SimpleImmutableEntry";
 }

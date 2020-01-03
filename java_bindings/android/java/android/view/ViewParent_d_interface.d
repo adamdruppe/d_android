@@ -57,5 +57,5 @@ interface ViewParent : IJavaObject {
 	@Import bool onNestedFling(import0.View, float, float, bool);
 	@Import bool onNestedPreFling(import0.View, float, float);
 	@Import bool onNestedPrePerformAccessibilityAction(import0.View, int, import8.Bundle);
-	mixin JavaPackageId!("android.view", "ViewParent");
+	public static immutable string _javaParameterString = "Landroid/view/ViewParent";
 }

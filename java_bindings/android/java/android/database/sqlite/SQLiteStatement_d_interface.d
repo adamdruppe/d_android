@@ -12,5 +12,5 @@ final class SQLiteStatement : IJavaObject {
 	@Import import0.ParcelFileDescriptor simpleQueryForBlobFileDescriptor();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteStatement");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteStatement";
 }

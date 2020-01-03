@@ -5,5 +5,5 @@ final class SweepGradient : IJavaObject {
 	@Import this(float, float, int, float[][]);
 	@Import this(float, float, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "SweepGradient");
+	public static immutable string _javaParameterString = "Landroid/graphics/SweepGradient";
 }

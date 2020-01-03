@@ -15,5 +15,5 @@ final class Vibrator : IJavaObject {
 	@Import void vibrate(import1.VibrationEffect, import0.AudioAttributes);
 	@Import void cancel();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Vibrator");
+	public static immutable string _javaParameterString = "Landroid/os/Vibrator";
 }

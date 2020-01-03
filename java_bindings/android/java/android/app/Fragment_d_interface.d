@@ -138,5 +138,5 @@ final class Fragment : IJavaObject {
 	@Import void startPostponedEnterTransition();
 	@Import void dump(string, import24.FileDescriptor, import25.PrintWriter, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Fragment");
+	public static immutable string _javaParameterString = "Landroid/app/Fragment";
 }

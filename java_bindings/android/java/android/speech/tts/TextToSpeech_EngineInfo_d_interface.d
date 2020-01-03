@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class TextToSpeech_EngineInfo : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech.tts", "TextToSpeech$EngineInfo");
+	public static immutable string _javaParameterString = "Landroid/speech/tts/TextToSpeech$EngineInfo";
 }

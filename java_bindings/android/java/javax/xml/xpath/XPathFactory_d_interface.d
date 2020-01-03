@@ -18,5 +18,5 @@ final class XPathFactory : IJavaObject {
 	@Import void setXPathFunctionResolver(import3.XPathFunctionResolver);
 	@Import import4.XPath newXPath();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathFactory");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathFactory";
 }

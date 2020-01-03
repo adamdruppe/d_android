@@ -9,5 +9,5 @@ final class Proxy : IJavaObject {
 	@Import static string getDefaultHost();
 	@Import static int getDefaultPort();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "Proxy");
+	public static immutable string _javaParameterString = "Landroid/net/Proxy";
 }

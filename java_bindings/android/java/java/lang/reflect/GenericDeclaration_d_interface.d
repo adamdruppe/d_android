@@ -5,5 +5,5 @@ import import0 = android.java.java.lang.reflect.TypeVariable_d_interface;
 
 interface GenericDeclaration : IJavaObject {
 	@Import import0.TypeVariable[] getTypeParameters();
-	mixin JavaPackageId!("java.lang.reflect", "GenericDeclaration");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/GenericDeclaration";
 }

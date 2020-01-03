@@ -18,5 +18,5 @@ final class PushbackReader : IJavaObject {
 	@Import void close();
 	@Import long skip(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "PushbackReader");
+	public static immutable string _javaParameterString = "Ljava/io/PushbackReader";
 }

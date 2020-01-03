@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class InputQueue : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "InputQueue");
+	public static immutable string _javaParameterString = "Landroid/view/InputQueue";
 }

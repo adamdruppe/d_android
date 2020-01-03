@@ -14,5 +14,5 @@ final class AdvertisingSetCallback : IJavaObject {
 	@Import void onPeriodicAdvertisingDataSet(import0.AdvertisingSet, int);
 	@Import void onPeriodicAdvertisingEnabled(import0.AdvertisingSet, bool, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertisingSetCallback");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertisingSetCallback";
 }

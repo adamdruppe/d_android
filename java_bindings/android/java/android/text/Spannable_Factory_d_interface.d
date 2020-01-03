@@ -10,5 +10,5 @@ final class Spannable_Factory : IJavaObject {
 	@Import static import0.Spannable_Factory getInstance();
 	@Import import1.Spannable newSpannable(import2.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Spannable$Factory");
+	public static immutable string _javaParameterString = "Landroid/text/Spannable$Factory";
 }

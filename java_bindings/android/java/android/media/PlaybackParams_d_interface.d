@@ -15,5 +15,5 @@ final class PlaybackParams : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "PlaybackParams");
+	public static immutable string _javaParameterString = "Landroid/media/PlaybackParams";
 }

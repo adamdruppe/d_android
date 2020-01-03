@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Notation : IJavaObject {
 	@Import string getPublicId();
 	@Import string getSystemId();
-	mixin JavaPackageId!("org.w3c.dom", "Notation");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Notation";
 }

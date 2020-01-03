@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("TvContract$BaseTvColumns")
 interface TvContract_BaseTvColumns : IJavaObject {
-	mixin JavaPackageId!("android.media.tv", "TvContract$BaseTvColumns");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvContract$BaseTvColumns";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.content.DialogInterface_d_interface;
 @JavaName("DialogInterface$OnCancelListener")
 interface DialogInterface_OnCancelListener : IJavaObject {
 	@Import void onCancel(import0.DialogInterface);
-	mixin JavaPackageId!("android.content", "DialogInterface$OnCancelListener");
+	public static immutable string _javaParameterString = "Landroid/content/DialogInterface$OnCancelListener";
 }

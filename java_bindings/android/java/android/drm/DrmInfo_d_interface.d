@@ -14,5 +14,5 @@ final class DrmInfo : IJavaObject {
 	@Import string getMimeType();
 	@Import int getInfoType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "DrmInfo");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmInfo";
 }

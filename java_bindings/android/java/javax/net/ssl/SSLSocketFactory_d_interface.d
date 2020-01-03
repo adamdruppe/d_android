@@ -10,5 +10,5 @@ final class SSLSocketFactory : IJavaObject {
 	@Import string[] getSupportedCipherSuites();
 	@Import import1.Socket createSocket(import1.Socket, string, int, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLSocketFactory");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLSocketFactory";
 }

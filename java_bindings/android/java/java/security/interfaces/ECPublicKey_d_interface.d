@@ -5,5 +5,5 @@ import import0 = android.java.java.security.spec.ECPoint_d_interface;
 
 interface ECPublicKey : IJavaObject {
 	@Import import0.ECPoint getW();
-	mixin JavaPackageId!("java.security.interfaces", "ECPublicKey");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/ECPublicKey";
 }

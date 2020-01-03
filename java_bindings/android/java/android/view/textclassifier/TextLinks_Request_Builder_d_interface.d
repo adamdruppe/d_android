@@ -14,5 +14,5 @@ final class TextLinks_Request_Builder : IJavaObject {
 	@Import import1.TextLinks_Request_Builder setEntityConfig(import3.TextClassifier_EntityConfig);
 	@Import import4.TextLinks_Request build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textclassifier", "TextLinks$Request$Builder");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextLinks$Request$Builder";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class SecretKeyFactorySpi : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "SecretKeyFactorySpi");
+	public static immutable string _javaParameterString = "Ljavax/crypto/SecretKeyFactorySpi";
 }

@@ -5,5 +5,5 @@ import import0 = android.java.java.math.BigInteger_d_interface;
 
 interface RSAKey : IJavaObject {
 	@Import import0.BigInteger getModulus();
-	mixin JavaPackageId!("java.security.interfaces", "RSAKey");
+	public static immutable string _javaParameterString = "Ljava/security/interfaces/RSAKey";
 }

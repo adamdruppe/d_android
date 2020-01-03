@@ -25,5 +25,5 @@ final class DefaultHandler : IJavaObject {
 	@Import void error(import3.SAXParseException);
 	@Import void fatalError(import3.SAXParseException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "DefaultHandler");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/DefaultHandler";
 }

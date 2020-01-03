@@ -25,5 +25,5 @@ final class DialerFilter : IJavaObject {
 	@Import void setFilterWatcher(import4.TextWatcher);
 	@Import void removeFilterWatcher(import4.TextWatcher);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "DialerFilter");
+	public static immutable string _javaParameterString = "Landroid/widget/DialerFilter";
 }

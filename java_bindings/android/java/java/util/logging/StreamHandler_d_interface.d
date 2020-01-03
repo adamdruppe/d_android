@@ -13,5 +13,5 @@ final class StreamHandler : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "StreamHandler");
+	public static immutable string _javaParameterString = "Ljava/util/logging/StreamHandler";
 }

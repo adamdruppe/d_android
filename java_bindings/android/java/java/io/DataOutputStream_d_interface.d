@@ -21,5 +21,5 @@ final class DataOutputStream : IJavaObject {
 	@Import void writeUTF(string);
 	@Import int size();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "DataOutputStream");
+	public static immutable string _javaParameterString = "Ljava/io/DataOutputStream";
 }

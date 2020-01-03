@@ -17,5 +17,5 @@ final class Timer : IJavaObject {
 	@Import void cancel();
 	@Import int purge();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Timer");
+	public static immutable string _javaParameterString = "Ljava/util/Timer";
 }

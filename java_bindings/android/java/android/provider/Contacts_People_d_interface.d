@@ -22,5 +22,5 @@ final class Contacts_People : IJavaObject {
 	@Import static import4.InputStream openContactPhotoInputStream(import0.ContentResolver, import1.Uri);
 	@Import static import5.Bitmap loadContactPhoto(import6.Context, import1.Uri, int, import7.BitmapFactory_Options);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Contacts$People");
+	public static immutable string _javaParameterString = "Landroid/provider/Contacts$People";
 }

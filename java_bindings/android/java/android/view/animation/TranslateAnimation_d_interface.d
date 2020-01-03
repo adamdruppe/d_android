@@ -10,5 +10,5 @@ final class TranslateAnimation : IJavaObject {
 	@Import this(int, float, int, float, int, float, int, float);
 	@Import void initialize(int, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "TranslateAnimation");
+	public static immutable string _javaParameterString = "Landroid/view/animation/TranslateAnimation";
 }

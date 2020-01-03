@@ -21,5 +21,5 @@ final class IpSecManager : IJavaObject {
 	@Import import6.IpSecManager_UdpEncapsulationSocket openUdpEncapsulationSocket(int);
 	@Import import6.IpSecManager_UdpEncapsulationSocket openUdpEncapsulationSocket();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "IpSecManager");
+	public static immutable string _javaParameterString = "Landroid/net/IpSecManager";
 }

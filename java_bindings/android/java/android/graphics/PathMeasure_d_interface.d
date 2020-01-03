@@ -14,5 +14,5 @@ final class PathMeasure : IJavaObject {
 	@Import bool isClosed();
 	@Import bool nextContour();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "PathMeasure");
+	public static immutable string _javaParameterString = "Landroid/graphics/PathMeasure";
 }

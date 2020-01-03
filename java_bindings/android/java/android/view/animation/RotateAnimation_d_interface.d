@@ -11,5 +11,5 @@ final class RotateAnimation : IJavaObject {
 	@Import this(float, float, int, float, int, float);
 	@Import void initialize(int, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "RotateAnimation");
+	public static immutable string _javaParameterString = "Landroid/view/animation/RotateAnimation";
 }

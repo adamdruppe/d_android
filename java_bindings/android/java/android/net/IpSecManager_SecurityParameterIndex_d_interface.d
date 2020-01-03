@@ -7,5 +7,5 @@ final class IpSecManager_SecurityParameterIndex : IJavaObject {
 	@Import void close();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "IpSecManager$SecurityParameterIndex");
+	public static immutable string _javaParameterString = "Landroid/net/IpSecManager$SecurityParameterIndex";
 }

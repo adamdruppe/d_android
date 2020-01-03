@@ -20,5 +20,5 @@ final class MediaCodecInfo_CodecCapabilities : IJavaObject {
 	@Import import3.MediaCodecInfo_VideoCapabilities getVideoCapabilities();
 	@Import static import4.MediaCodecInfo_CodecCapabilities createFromProfileLevel(string, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodecInfo$CodecCapabilities");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodecInfo$CodecCapabilities";
 }

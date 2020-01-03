@@ -6,5 +6,5 @@ interface DeclHandler : IJavaObject {
 	@Import void attributeDecl(string, string, string, string, string);
 	@Import void internalEntityDecl(string, string);
 	@Import void externalEntityDecl(string, string, string);
-	mixin JavaPackageId!("org.xml.sax.ext", "DeclHandler");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ext/DeclHandler";
 }

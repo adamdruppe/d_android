@@ -5,5 +5,5 @@ import import0 = android.java.java.math.BigInteger_d_interface;
 
 interface DHPrivateKey : IJavaObject {
 	@Import import0.BigInteger getX();
-	mixin JavaPackageId!("javax.crypto.interfaces", "DHPrivateKey");
+	public static immutable string _javaParameterString = "Ljavax/crypto/interfaces/DHPrivateKey";
 }

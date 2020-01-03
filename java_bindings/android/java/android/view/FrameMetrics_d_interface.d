@@ -7,5 +7,5 @@ final class FrameMetrics : IJavaObject {
 	@Import this(import0.FrameMetrics);
 	@Import long getMetric(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "FrameMetrics");
+	public static immutable string _javaParameterString = "Landroid/view/FrameMetrics";
 }

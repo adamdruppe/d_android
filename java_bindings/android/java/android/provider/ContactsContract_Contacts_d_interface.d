@@ -15,5 +15,5 @@ final class ContactsContract_Contacts : IJavaObject {
 	@Import static import2.InputStream openContactPhotoInputStream(import1.ContentResolver, import0.Uri, bool);
 	@Import static import2.InputStream openContactPhotoInputStream(import1.ContentResolver, import0.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$Contacts");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$Contacts";
 }

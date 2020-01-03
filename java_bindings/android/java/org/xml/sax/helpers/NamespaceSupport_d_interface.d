@@ -17,5 +17,5 @@ final class NamespaceSupport : IJavaObject {
 	@Import void setNamespaceDeclUris(bool);
 	@Import bool isNamespaceDeclUris();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "NamespaceSupport");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/NamespaceSupport";
 }

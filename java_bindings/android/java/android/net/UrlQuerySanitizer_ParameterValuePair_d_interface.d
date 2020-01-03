@@ -7,5 +7,5 @@ import import0 = android.java.android.net.UrlQuerySanitizer_d_interface;
 final class UrlQuerySanitizer_ParameterValuePair : IJavaObject {
 	@Import this(import0.UrlQuerySanitizer, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "UrlQuerySanitizer$ParameterValuePair");
+	public static immutable string _javaParameterString = "Landroid/net/UrlQuerySanitizer$ParameterValuePair";
 }

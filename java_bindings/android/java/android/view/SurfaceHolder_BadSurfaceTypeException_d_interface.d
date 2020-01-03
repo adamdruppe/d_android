@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class SurfaceHolder_BadSurfaceTypeException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "SurfaceHolder$BadSurfaceTypeException");
+	public static immutable string _javaParameterString = "Landroid/view/SurfaceHolder$BadSurfaceTypeException";
 }

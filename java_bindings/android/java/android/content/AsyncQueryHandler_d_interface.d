@@ -15,5 +15,5 @@ final class AsyncQueryHandler : IJavaObject {
 	@Import void startDelete(int, IJavaObject, import1.Uri, string, string[]);
 	@Import void handleMessage(import3.Message);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "AsyncQueryHandler");
+	public static immutable string _javaParameterString = "Landroid/content/AsyncQueryHandler";
 }

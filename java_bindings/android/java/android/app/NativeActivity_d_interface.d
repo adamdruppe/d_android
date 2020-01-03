@@ -17,5 +17,5 @@ final class NativeActivity : IJavaObject {
 	@Import void onInputQueueDestroyed(import2.InputQueue);
 	@Import void onGlobalLayout();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "NativeActivity");
+	public static immutable string _javaParameterString = "Landroid/app/NativeActivity";
 }

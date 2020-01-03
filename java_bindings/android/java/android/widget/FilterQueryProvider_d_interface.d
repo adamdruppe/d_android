@@ -6,5 +6,5 @@ import import0 = android.java.android.database.Cursor_d_interface;
 
 interface FilterQueryProvider : IJavaObject {
 	@Import import0.Cursor runQuery(import1.CharSequence);
-	mixin JavaPackageId!("android.widget", "FilterQueryProvider");
+	public static immutable string _javaParameterString = "Landroid/widget/FilterQueryProvider";
 }

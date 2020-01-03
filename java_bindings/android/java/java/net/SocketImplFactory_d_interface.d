@@ -5,5 +5,5 @@ import import0 = android.java.java.net.SocketImpl_d_interface;
 
 interface SocketImplFactory : IJavaObject {
 	@Import import0.SocketImpl createSocketImpl();
-	mixin JavaPackageId!("java.net", "SocketImplFactory");
+	public static immutable string _javaParameterString = "Ljava/net/SocketImplFactory";
 }

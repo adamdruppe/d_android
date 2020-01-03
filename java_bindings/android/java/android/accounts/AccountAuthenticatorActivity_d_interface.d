@@ -7,5 +7,5 @@ final class AccountAuthenticatorActivity : IJavaObject {
 	@Import void setAccountAuthenticatorResult(import0.Bundle);
 	@Import void finish();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accounts", "AccountAuthenticatorActivity");
+	public static immutable string _javaParameterString = "Landroid/accounts/AccountAuthenticatorActivity";
 }

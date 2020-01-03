@@ -6,5 +6,5 @@ final class IllegalFormatCodePointException : IJavaObject {
 	@Import int getCodePoint();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IllegalFormatCodePointException");
+	public static immutable string _javaParameterString = "Ljava/util/IllegalFormatCodePointException";
 }

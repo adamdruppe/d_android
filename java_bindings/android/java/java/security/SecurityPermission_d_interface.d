@@ -5,5 +5,5 @@ final class SecurityPermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "SecurityPermission");
+	public static immutable string _javaParameterString = "Ljava/security/SecurityPermission";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.JavaException_d_interface;
 final class ErrorManager : IJavaObject {
 	@Import void error(string, import0.JavaException, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "ErrorManager");
+	public static immutable string _javaParameterString = "Ljava/util/logging/ErrorManager";
 }

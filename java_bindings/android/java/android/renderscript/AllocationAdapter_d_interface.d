@@ -18,5 +18,5 @@ final class AllocationAdapter : IJavaObject {
 	@Import static import1.AllocationAdapter createTyped(import2.RenderScript, import3.Allocation, import4.Type);
 	@Import void resize(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "AllocationAdapter");
+	public static immutable string _javaParameterString = "Landroid/renderscript/AllocationAdapter";
 }

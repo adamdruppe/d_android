@@ -51,5 +51,5 @@ final class Address : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "Address");
+	public static immutable string _javaParameterString = "Landroid/location/Address";
 }

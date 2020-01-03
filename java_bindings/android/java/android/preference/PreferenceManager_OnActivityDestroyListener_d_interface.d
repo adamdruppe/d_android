@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("PreferenceManager$OnActivityDestroyListener")
 interface PreferenceManager_OnActivityDestroyListener : IJavaObject {
 	@Import void onActivityDestroy();
-	mixin JavaPackageId!("android.preference", "PreferenceManager$OnActivityDestroyListener");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceManager$OnActivityDestroyListener";
 }

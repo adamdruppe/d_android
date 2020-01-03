@@ -9,5 +9,5 @@ final class IllegalFormatConversionException : IJavaObject {
 	@Import import0.Class getArgumentClass();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IllegalFormatConversionException");
+	public static immutable string _javaParameterString = "Ljava/util/IllegalFormatConversionException";
 }

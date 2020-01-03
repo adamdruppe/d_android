@@ -33,5 +33,5 @@ final class IntBuffer : IJavaObject {
 	@Import IJavaObject array();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "IntBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/IntBuffer";
 }

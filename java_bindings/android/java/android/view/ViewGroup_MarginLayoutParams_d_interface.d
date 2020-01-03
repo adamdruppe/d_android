@@ -22,5 +22,5 @@ final class ViewGroup_MarginLayoutParams : IJavaObject {
 	@Import int getLayoutDirection();
 	@Import void resolveLayoutDirection(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewGroup$MarginLayoutParams");
+	public static immutable string _javaParameterString = "Landroid/view/ViewGroup$MarginLayoutParams";
 }

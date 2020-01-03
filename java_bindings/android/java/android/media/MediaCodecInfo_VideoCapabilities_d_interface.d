@@ -18,5 +18,5 @@ final class MediaCodecInfo_VideoCapabilities : IJavaObject {
 	@Import bool areSizeAndRateSupported(int, int, double);
 	@Import bool isSizeSupported(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodecInfo$VideoCapabilities");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodecInfo$VideoCapabilities";
 }

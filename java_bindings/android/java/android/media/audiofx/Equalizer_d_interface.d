@@ -21,5 +21,5 @@ final class Equalizer : IJavaObject {
 	@Import import1.Equalizer_Settings getProperties();
 	@Import void setProperties(import1.Equalizer_Settings);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "Equalizer");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/Equalizer";
 }

@@ -7,5 +7,5 @@ final class SQLException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "SQLException");
+	public static immutable string _javaParameterString = "Landroid/database/SQLException";
 }

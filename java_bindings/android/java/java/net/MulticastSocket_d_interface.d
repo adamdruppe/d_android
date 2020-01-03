@@ -25,5 +25,5 @@ final class MulticastSocket : IJavaObject {
 	@Import bool getLoopbackMode();
 	@Import void send(import3.DatagramPacket, byte);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "MulticastSocket");
+	public static immutable string _javaParameterString = "Ljava/net/MulticastSocket";
 }

@@ -11,5 +11,5 @@ final class EventLog_Event : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "EventLog$Event");
+	public static immutable string _javaParameterString = "Landroid/util/EventLog$Event";
 }

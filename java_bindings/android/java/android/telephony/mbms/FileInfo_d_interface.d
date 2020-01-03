@@ -12,5 +12,5 @@ final class FileInfo : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "FileInfo");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/FileInfo";
 }

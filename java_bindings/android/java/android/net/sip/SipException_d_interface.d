@@ -7,5 +7,5 @@ final class SipException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.sip", "SipException");
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipException";
 }

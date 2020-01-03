@@ -7,5 +7,5 @@ final class SyncRequest : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "SyncRequest");
+	public static immutable string _javaParameterString = "Landroid/content/SyncRequest";
 }

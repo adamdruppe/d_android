@@ -10,5 +10,5 @@ interface DOMLocator : IJavaObject {
 	@Import int getUtf16Offset();
 	@Import import0.Node getRelatedNode();
 	@Import string getUri();
-	mixin JavaPackageId!("org.w3c.dom", "DOMLocator");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMLocator";
 }

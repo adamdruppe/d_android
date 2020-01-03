@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.Class_d_interface;
 interface Wrapper : IJavaObject {
 	@Import IJavaObject unwrap(import0.Class);
 	@Import bool isWrapperFor(import0.Class);
-	mixin JavaPackageId!("java.sql", "Wrapper");
+	public static immutable string _javaParameterString = "Ljava/sql/Wrapper";
 }

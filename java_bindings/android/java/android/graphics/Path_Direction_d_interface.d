@@ -8,5 +8,5 @@ final class Path_Direction : IJavaObject {
 	@Import static import0.Path_Direction[] values();
 	@Import static import0.Path_Direction valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Path$Direction");
+	public static immutable string _javaParameterString = "Landroid/graphics/Path$Direction";
 }

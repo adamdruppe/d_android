@@ -12,5 +12,5 @@ final class AbstractInputMethodService_AbstractInputMethodImpl : IJavaObject {
 	@Import void setSessionEnabled(import2.InputMethodSession, bool);
 	@Import void revokeSession(import2.InputMethodSession);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "AbstractInputMethodService$AbstractInputMethodImpl");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/AbstractInputMethodService$AbstractInputMethodImpl";
 }

@@ -12,5 +12,5 @@ final class PrintAttributes_Margins : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintAttributes$Margins");
+	public static immutable string _javaParameterString = "Landroid/print/PrintAttributes$Margins";
 }

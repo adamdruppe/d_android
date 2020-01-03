@@ -6,5 +6,5 @@ import import0 = android.java.android.graphics.Rect_d_interface;
 @JavaName("AbsListView$SelectionBoundsAdjuster")
 interface AbsListView_SelectionBoundsAdjuster : IJavaObject {
 	@Import void adjustListItemSelectionBounds(import0.Rect);
-	mixin JavaPackageId!("android.widget", "AbsListView$SelectionBoundsAdjuster");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsListView$SelectionBoundsAdjuster";
 }

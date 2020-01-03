@@ -8,5 +8,5 @@ import import0 = android.java.android.widget.AdapterView_d_interface;
 interface AdapterView_OnItemSelectedListener : IJavaObject {
 	@Import void onItemSelected(import0.AdapterView, import1.View, int, long);
 	@Import void onNothingSelected(import0.AdapterView);
-	mixin JavaPackageId!("android.widget", "AdapterView$OnItemSelectedListener");
+	public static immutable string _javaParameterString = "Landroid/widget/AdapterView$OnItemSelectedListener";
 }

@@ -17,5 +17,5 @@ final class BluetoothHealth : IJavaObject {
 	@Import import4.List getConnectedDevices();
 	@Import import4.List getDevicesMatchingConnectionStates(int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothHealth");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothHealth";
 }

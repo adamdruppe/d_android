@@ -7,5 +7,5 @@ interface TestTarget : IJavaObject {
 	@Import string methodName();
 	@Import string conceptName();
 	@Import import0.Class[] methodArgs();
-	mixin JavaPackageId!("dalvik.annotation", "TestTarget");
+	public static immutable string _javaParameterString = "Ldalvik/annotation/TestTarget";
 }

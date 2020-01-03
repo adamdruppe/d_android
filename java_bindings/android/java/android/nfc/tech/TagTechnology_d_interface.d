@@ -8,5 +8,5 @@ interface TagTechnology : IJavaObject {
 	@Import void connect();
 	@Import void close();
 	@Import bool isConnected();
-	mixin JavaPackageId!("android.nfc.tech", "TagTechnology");
+	public static immutable string _javaParameterString = "Landroid/nfc/tech/TagTechnology";
 }

@@ -11,5 +11,5 @@ final class PermissionCollection : IJavaObject {
 	@Import void setReadOnly();
 	@Import bool isReadOnly();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "PermissionCollection");
+	public static immutable string _javaParameterString = "Ljava/security/PermissionCollection";
 }

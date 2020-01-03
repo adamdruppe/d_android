@@ -8,5 +8,5 @@ final class Paint_Align : IJavaObject {
 	@Import static import0.Paint_Align[] values();
 	@Import static import0.Paint_Align valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Paint$Align");
+	public static immutable string _javaParameterString = "Landroid/graphics/Paint$Align";
 }

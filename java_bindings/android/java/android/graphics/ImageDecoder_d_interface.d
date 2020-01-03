@@ -47,5 +47,5 @@ final class ImageDecoder : IJavaObject {
 	@Import static import13.Bitmap decodeBitmap(import0.ImageDecoder_Source, import12.ImageDecoder_OnHeaderDecodedListener);
 	@Import static import13.Bitmap decodeBitmap(import0.ImageDecoder_Source);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ImageDecoder");
+	public static immutable string _javaParameterString = "Landroid/graphics/ImageDecoder";
 }

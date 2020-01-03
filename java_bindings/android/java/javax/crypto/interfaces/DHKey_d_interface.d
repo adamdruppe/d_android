@@ -5,5 +5,5 @@ import import0 = android.java.javax.crypto.spec.DHParameterSpec_d_interface;
 
 interface DHKey : IJavaObject {
 	@Import import0.DHParameterSpec getParams();
-	mixin JavaPackageId!("javax.crypto.interfaces", "DHKey");
+	public static immutable string _javaParameterString = "Ljavax/crypto/interfaces/DHKey";
 }

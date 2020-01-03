@@ -10,5 +10,5 @@ final class TransformerFactoryConfigurationError : IJavaObject {
 	@Import string getMessage();
 	@Import import0.JavaException getException();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.transform", "TransformerFactoryConfigurationError");
+	public static immutable string _javaParameterString = "Ljavax/xml/transform/TransformerFactoryConfigurationError";
 }

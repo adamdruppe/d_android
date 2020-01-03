@@ -155,5 +155,5 @@ final class Intent : IJavaObject {
 	@Import static import0.Intent parseIntent(import19.Resources, import20.XmlPullParser, import21.AttributeSet);
 	@Import static string normalizeMimeType(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Intent");
+	public static immutable string _javaParameterString = "Landroid/content/Intent";
 }

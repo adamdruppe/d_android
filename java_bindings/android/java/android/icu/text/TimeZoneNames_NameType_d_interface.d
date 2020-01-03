@@ -8,5 +8,5 @@ final class TimeZoneNames_NameType : IJavaObject {
 	@Import static import0.TimeZoneNames_NameType[] values();
 	@Import static import0.TimeZoneNames_NameType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "TimeZoneNames$NameType");
+	public static immutable string _javaParameterString = "Landroid/icu/text/TimeZoneNames$NameType";
 }

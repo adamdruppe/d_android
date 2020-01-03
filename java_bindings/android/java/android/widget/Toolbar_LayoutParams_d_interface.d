@@ -19,5 +19,5 @@ final class Toolbar_LayoutParams : IJavaObject {
 	@Import this(import4.ViewGroup_MarginLayoutParams);
 	@Import this(import5.ViewGroup_LayoutParams);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Toolbar$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/Toolbar$LayoutParams";
 }

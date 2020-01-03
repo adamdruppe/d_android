@@ -9,5 +9,5 @@ final class FreezePeriod : IJavaObject {
 	@Import import0.MonthDay getEnd();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "FreezePeriod");
+	public static immutable string _javaParameterString = "Landroid/app/admin/FreezePeriod";
 }

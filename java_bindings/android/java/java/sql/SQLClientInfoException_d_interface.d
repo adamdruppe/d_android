@@ -15,5 +15,5 @@ final class SQLClientInfoException : IJavaObject {
 	@Import this(string, string, int, import0.Map, import1.JavaThrowable);
 	@Import import0.Map getFailedProperties();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLClientInfoException");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLClientInfoException";
 }

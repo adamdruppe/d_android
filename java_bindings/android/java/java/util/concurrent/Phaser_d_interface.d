@@ -26,5 +26,5 @@ final class Phaser : IJavaObject {
 	@Import bool isTerminated();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "Phaser");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/Phaser";
 }

@@ -11,5 +11,5 @@ final class ContactsContract_CommonDataKinds_Im : IJavaObject {
 	@Import static int getProtocolLabelResource(int);
 	@Import static import0.CharSequence getProtocolLabel(import1.Resources, int, import0.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$CommonDataKinds$Im");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$CommonDataKinds$Im";
 }

@@ -52,5 +52,5 @@ final class TvInputService_Session : IJavaObject {
 	@Import bool onTrackballEvent(import9.MotionEvent);
 	@Import bool onGenericMotionEvent(import9.MotionEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvInputService$Session");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputService$Session";
 }

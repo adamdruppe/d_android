@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class DeniedByServerException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "DeniedByServerException");
+	public static immutable string _javaParameterString = "Landroid/media/DeniedByServerException";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class SettingsSlicesContract : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "SettingsSlicesContract");
+	public static immutable string _javaParameterString = "Landroid/provider/SettingsSlicesContract";
 }

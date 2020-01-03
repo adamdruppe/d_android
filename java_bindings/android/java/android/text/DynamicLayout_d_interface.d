@@ -24,5 +24,5 @@ final class DynamicLayout : IJavaObject {
 	@Import int getEllipsisStart(int);
 	@Import int getEllipsisCount(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "DynamicLayout");
+	public static immutable string _javaParameterString = "Landroid/text/DynamicLayout";
 }

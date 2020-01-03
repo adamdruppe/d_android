@@ -60,5 +60,5 @@ final class DecimalFormat : IJavaObject {
 	@Import import7.RoundingMode getRoundingMode();
 	@Import void setRoundingMode(import7.RoundingMode);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "DecimalFormat");
+	public static immutable string _javaParameterString = "Ljava/text/DecimalFormat";
 }

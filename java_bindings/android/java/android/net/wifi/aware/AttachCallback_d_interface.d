@@ -7,5 +7,5 @@ final class AttachCallback : IJavaObject {
 	@Import void onAttached(import0.WifiAwareSession);
 	@Import void onAttachFailed();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "AttachCallback");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/AttachCallback";
 }

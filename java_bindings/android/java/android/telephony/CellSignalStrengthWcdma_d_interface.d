@@ -13,5 +13,5 @@ final class CellSignalStrengthWcdma : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "CellSignalStrengthWcdma");
+	public static immutable string _javaParameterString = "Landroid/telephony/CellSignalStrengthWcdma";
 }

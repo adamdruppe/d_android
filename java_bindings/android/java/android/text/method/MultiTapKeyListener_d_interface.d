@@ -17,5 +17,5 @@ final class MultiTapKeyListener : IJavaObject {
 	@Import void onSpanAdded(import5.Spannable, IJavaObject, int, int);
 	@Import void onSpanRemoved(import5.Spannable, IJavaObject, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.method", "MultiTapKeyListener");
+	public static immutable string _javaParameterString = "Landroid/text/method/MultiTapKeyListener";
 }

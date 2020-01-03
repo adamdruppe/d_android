@@ -8,5 +8,5 @@ interface SeekBar_OnSeekBarChangeListener : IJavaObject {
 	@Import void onProgressChanged(import0.SeekBar, int, bool);
 	@Import void onStartTrackingTouch(import0.SeekBar);
 	@Import void onStopTrackingTouch(import0.SeekBar);
-	mixin JavaPackageId!("android.widget", "SeekBar$OnSeekBarChangeListener");
+	public static immutable string _javaParameterString = "Landroid/widget/SeekBar$OnSeekBarChangeListener";
 }

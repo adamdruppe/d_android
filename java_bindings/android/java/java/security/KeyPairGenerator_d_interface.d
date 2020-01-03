@@ -20,5 +20,5 @@ final class KeyPairGenerator : IJavaObject {
 	@Import import4.KeyPair genKeyPair();
 	@Import import4.KeyPair generateKeyPair();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyPairGenerator");
+	public static immutable string _javaParameterString = "Ljava/security/KeyPairGenerator";
 }

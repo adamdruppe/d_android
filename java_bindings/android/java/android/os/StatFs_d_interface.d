@@ -16,5 +16,5 @@ final class StatFs : IJavaObject {
 	@Import long getAvailableBytes();
 	@Import long getTotalBytes();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "StatFs");
+	public static immutable string _javaParameterString = "Landroid/os/StatFs";
 }

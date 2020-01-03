@@ -10,5 +10,5 @@ final class MessagePdu : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.carrier", "MessagePdu");
+	public static immutable string _javaParameterString = "Landroid/service/carrier/MessagePdu";
 }

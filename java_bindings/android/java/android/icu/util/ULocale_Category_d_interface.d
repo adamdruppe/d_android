@@ -8,5 +8,5 @@ final class ULocale_Category : IJavaObject {
 	@Import static import0.ULocale_Category[] values();
 	@Import static import0.ULocale_Category valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "ULocale$Category");
+	public static immutable string _javaParameterString = "Landroid/icu/util/ULocale$Category";
 }

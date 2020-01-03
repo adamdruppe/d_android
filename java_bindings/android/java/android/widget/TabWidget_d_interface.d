@@ -38,5 +38,5 @@ final class TabWidget : IJavaObject {
 	@Import import6.PointerIcon onResolvePointerIcon(import7.MotionEvent, int);
 	@Import void onFocusChange(import2.View, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TabWidget");
+	public static immutable string _javaParameterString = "Landroid/widget/TabWidget";
 }

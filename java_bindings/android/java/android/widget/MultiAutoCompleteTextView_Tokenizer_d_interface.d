@@ -8,5 +8,5 @@ interface MultiAutoCompleteTextView_Tokenizer : IJavaObject {
 	@Import int findTokenStart(import0.CharSequence, int);
 	@Import int findTokenEnd(import0.CharSequence, int);
 	@Import import0.CharSequence terminateToken(import0.CharSequence);
-	mixin JavaPackageId!("android.widget", "MultiAutoCompleteTextView$Tokenizer");
+	public static immutable string _javaParameterString = "Landroid/widget/MultiAutoCompleteTextView$Tokenizer";
 }

@@ -8,5 +8,5 @@ final class MediaBrowser_ItemCallback : IJavaObject {
 	@Import void onItemLoaded(import0.MediaBrowser_MediaItem);
 	@Import void onError(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.browse", "MediaBrowser$ItemCallback");
+	public static immutable string _javaParameterString = "Landroid/media/browse/MediaBrowser$ItemCallback";
 }

@@ -5,5 +5,5 @@ final class FullBackupDataOutput : IJavaObject {
 	@Import long getQuota();
 	@Import int getTransportFlags();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "FullBackupDataOutput");
+	public static immutable string _javaParameterString = "Landroid/app/backup/FullBackupDataOutput";
 }

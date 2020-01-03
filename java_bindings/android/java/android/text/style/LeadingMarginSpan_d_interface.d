@@ -9,5 +9,5 @@ import import3 = android.java.android.text.Layout_d_interface;
 interface LeadingMarginSpan : IJavaObject {
 	@Import int getLeadingMargin(bool);
 	@Import void drawLeadingMargin(import0.Canvas, import1.Paint, int, int, int, int, int, import2.CharSequence, int, int, bool, import3.Layout);
-	mixin JavaPackageId!("android.text.style", "LeadingMarginSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/LeadingMarginSpan";
 }

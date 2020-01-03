@@ -8,5 +8,5 @@ import import0 = android.java.java.lang.CharSequence_d_interface;
 @JavaName("LineHeightSpan$WithDensity")
 interface LineHeightSpan_WithDensity : IJavaObject {
 	@Import void chooseHeight(import0.CharSequence, int, int, int, int, import1.Paint_FontMetricsInt, import2.TextPaint);
-	mixin JavaPackageId!("android.text.style", "LineHeightSpan$WithDensity");
+	public static immutable string _javaParameterString = "Landroid/text/style/LineHeightSpan$WithDensity";
 }

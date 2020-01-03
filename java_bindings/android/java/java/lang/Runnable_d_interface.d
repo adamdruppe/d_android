@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface Runnable : IJavaObject {
 	@Import void run();
-	mixin JavaPackageId!("java.lang", "Runnable");
+	public static immutable string _javaParameterString = "Ljava/lang/Runnable";
 }

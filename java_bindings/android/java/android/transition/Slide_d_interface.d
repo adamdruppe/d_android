@@ -18,5 +18,5 @@ final class Slide : IJavaObject {
 	@Import import3.Animator onAppear(import4.ViewGroup, import5.View, import2.TransitionValues, import2.TransitionValues);
 	@Import import3.Animator onDisappear(import4.ViewGroup, import5.View, import2.TransitionValues, import2.TransitionValues);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "Slide");
+	public static immutable string _javaParameterString = "Landroid/transition/Slide";
 }

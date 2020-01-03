@@ -13,5 +13,5 @@ final class FocusFinder : IJavaObject {
 	@Import import1.View findNextKeyboardNavigationCluster(import1.View, import1.View, int);
 	@Import import1.View findNearestTouchable(import2.ViewGroup, int, int, int, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "FocusFinder");
+	public static immutable string _javaParameterString = "Landroid/view/FocusFinder";
 }

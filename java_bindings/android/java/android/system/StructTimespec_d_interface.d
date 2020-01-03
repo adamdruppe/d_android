@@ -11,5 +11,5 @@ final class StructTimespec : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "StructTimespec");
+	public static immutable string _javaParameterString = "Landroid/system/StructTimespec";
 }

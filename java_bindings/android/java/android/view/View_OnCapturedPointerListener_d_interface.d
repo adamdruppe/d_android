@@ -7,5 +7,5 @@ import import1 = android.java.android.view.MotionEvent_d_interface;
 @JavaName("View$OnCapturedPointerListener")
 interface View_OnCapturedPointerListener : IJavaObject {
 	@Import bool onCapturedPointer(import0.View, import1.MotionEvent);
-	mixin JavaPackageId!("android.view", "View$OnCapturedPointerListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnCapturedPointerListener";
 }

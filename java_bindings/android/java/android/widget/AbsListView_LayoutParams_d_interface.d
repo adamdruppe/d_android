@@ -12,5 +12,5 @@ final class AbsListView_LayoutParams : IJavaObject {
 	@Import this(int, int, int);
 	@Import this(import2.ViewGroup_LayoutParams);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AbsListView$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/AbsListView$LayoutParams";
 }

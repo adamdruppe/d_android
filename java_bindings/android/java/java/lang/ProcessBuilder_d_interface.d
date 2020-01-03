@@ -31,5 +31,5 @@ final class ProcessBuilder : IJavaObject {
 	@Import import1.ProcessBuilder redirectErrorStream(bool);
 	@Import import5.Process start();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ProcessBuilder");
+	public static immutable string _javaParameterString = "Ljava/lang/ProcessBuilder";
 }

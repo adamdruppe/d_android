@@ -18,5 +18,5 @@ final class MonthDisplayHelper : IJavaObject {
 	@Import void nextMonth();
 	@Import bool isWithinCurrentMonth(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "MonthDisplayHelper");
+	public static immutable string _javaParameterString = "Landroid/util/MonthDisplayHelper";
 }

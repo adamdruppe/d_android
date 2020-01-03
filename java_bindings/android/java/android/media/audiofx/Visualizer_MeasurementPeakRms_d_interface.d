@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Visualizer$MeasurementPeakRms")
 final class Visualizer_MeasurementPeakRms : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "Visualizer$MeasurementPeakRms");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/Visualizer$MeasurementPeakRms";
 }

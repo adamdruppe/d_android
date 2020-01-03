@@ -7,5 +7,5 @@ final class FragmentContainer : IJavaObject {
 	@Import import0.View onFindViewById(int);
 	@Import bool onHasView();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "FragmentContainer");
+	public static immutable string _javaParameterString = "Landroid/app/FragmentContainer";
 }

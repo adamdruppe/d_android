@@ -26,5 +26,5 @@ final class CharsetDecoder : IJavaObject {
 	@Import bool isCharsetDetected();
 	@Import import0.Charset detectedCharset();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "CharsetDecoder");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/CharsetDecoder";
 }

@@ -8,5 +8,5 @@ final class Thread_State : IJavaObject {
 	@Import static import0.Thread_State[] values();
 	@Import static import0.Thread_State valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Thread$State");
+	public static immutable string _javaParameterString = "Ljava/lang/Thread$State";
 }

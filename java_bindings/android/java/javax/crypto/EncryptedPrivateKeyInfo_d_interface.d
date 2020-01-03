@@ -20,5 +20,5 @@ final class EncryptedPrivateKeyInfo : IJavaObject {
 	@Import import1.PKCS8EncodedKeySpec getKeySpec(import3.Key, import4.Provider);
 	@Import byte[] getEncoded();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "EncryptedPrivateKeyInfo");
+	public static immutable string _javaParameterString = "Ljavax/crypto/EncryptedPrivateKeyInfo";
 }

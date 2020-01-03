@@ -46,5 +46,5 @@ interface Statement : IJavaObject {
 	@Import bool isClosed();
 	@Import void setPoolable(bool);
 	@Import bool isPoolable();
-	mixin JavaPackageId!("java.sql", "Statement");
+	public static immutable string _javaParameterString = "Ljava/sql/Statement";
 }

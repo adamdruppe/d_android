@@ -71,5 +71,5 @@ final class ByteBuffer : IJavaObject {
 	@Import IJavaObject array();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "ByteBuffer");
+	public static immutable string _javaParameterString = "Ljava/nio/ByteBuffer";
 }

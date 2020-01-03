@@ -12,5 +12,5 @@ interface Attr : IJavaObject {
 	@Import import0.Element getOwnerElement();
 	@Import import1.JavaTypeInfo getSchemaTypeInfo();
 	@Import bool isId();
-	mixin JavaPackageId!("org.w3c.dom", "Attr");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Attr";
 }

@@ -9,5 +9,5 @@ final class IsoEra : IJavaObject {
 	@Import static import0.IsoEra of(int);
 	@Import int getValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "IsoEra");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/IsoEra";
 }

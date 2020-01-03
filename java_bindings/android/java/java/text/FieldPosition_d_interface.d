@@ -17,5 +17,5 @@ final class FieldPosition : IJavaObject {
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "FieldPosition");
+	public static immutable string _javaParameterString = "Ljava/text/FieldPosition";
 }

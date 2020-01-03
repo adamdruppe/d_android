@@ -19,5 +19,5 @@ final class Instrumentation_ActivityMonitor : IJavaObject {
 	@Import import2.Activity waitForActivityWithTimeout(long);
 	@Import import1.Instrumentation_ActivityResult onStartActivity(import3.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Instrumentation$ActivityMonitor");
+	public static immutable string _javaParameterString = "Landroid/app/Instrumentation$ActivityMonitor";
 }

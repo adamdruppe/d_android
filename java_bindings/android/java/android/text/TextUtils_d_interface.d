@@ -57,5 +57,5 @@ final class TextUtils : IJavaObject {
 	@Import static int getCapsMode(import0.CharSequence, int, int);
 	@Import static int getLayoutDirectionFromLocale(import13.Locale);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "TextUtils");
+	public static immutable string _javaParameterString = "Landroid/text/TextUtils";
 }

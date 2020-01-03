@@ -72,5 +72,5 @@ final class Logger : IJavaObject {
 	@Import import0.Logger getParent();
 	@Import void setParent(import0.Logger);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "Logger");
+	public static immutable string _javaParameterString = "Ljava/util/logging/Logger";
 }

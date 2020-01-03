@@ -6,5 +6,5 @@ import import1 = android.java.java.util.concurrent.ThreadPoolExecutor_d_interfac
 
 interface RejectedExecutionHandler : IJavaObject {
 	@Import void rejectedExecution(import0.Runnable, import1.ThreadPoolExecutor);
-	mixin JavaPackageId!("java.util.concurrent", "RejectedExecutionHandler");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/RejectedExecutionHandler";
 }

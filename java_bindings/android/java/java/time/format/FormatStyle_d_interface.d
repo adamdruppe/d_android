@@ -7,5 +7,5 @@ final class FormatStyle : IJavaObject {
 	@Import static import0.FormatStyle[] values();
 	@Import static import0.FormatStyle valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.format", "FormatStyle");
+	public static immutable string _javaParameterString = "Ljava/time/format/FormatStyle";
 }

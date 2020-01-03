@@ -9,5 +9,5 @@ interface UnicodeMatcher : IJavaObject {
 	@Import string toPattern(bool);
 	@Import bool matchesIndexValue(int);
 	@Import void addMatchSetTo(import1.UnicodeSet);
-	mixin JavaPackageId!("android.icu.text", "UnicodeMatcher");
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeMatcher";
 }

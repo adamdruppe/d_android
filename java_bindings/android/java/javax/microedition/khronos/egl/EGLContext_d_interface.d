@@ -8,5 +8,5 @@ final class EGLContext : IJavaObject {
 	@Import static import0.EGL getEGL();
 	@Import import1.GL getGL();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.microedition.khronos.egl", "EGLContext");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/egl/EGLContext";
 }

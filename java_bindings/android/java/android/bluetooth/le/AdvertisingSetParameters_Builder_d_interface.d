@@ -17,5 +17,5 @@ final class AdvertisingSetParameters_Builder : IJavaObject {
 	@Import import0.AdvertisingSetParameters_Builder setTxPowerLevel(int);
 	@Import import1.AdvertisingSetParameters build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "AdvertisingSetParameters$Builder");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/AdvertisingSetParameters$Builder";
 }

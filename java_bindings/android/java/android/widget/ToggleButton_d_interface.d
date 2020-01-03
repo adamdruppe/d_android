@@ -19,5 +19,5 @@ final class ToggleButton : IJavaObject {
 	@Import void setBackgroundDrawable(import3.Drawable);
 	@Import import2.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ToggleButton");
+	public static immutable string _javaParameterString = "Landroid/widget/ToggleButton";
 }

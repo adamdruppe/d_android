@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface SearchView_OnSuggestionListener : IJavaObject {
 	@Import bool onSuggestionSelect(int);
 	@Import bool onSuggestionClick(int);
-	mixin JavaPackageId!("android.widget", "SearchView$OnSuggestionListener");
+	public static immutable string _javaParameterString = "Landroid/widget/SearchView$OnSuggestionListener";
 }

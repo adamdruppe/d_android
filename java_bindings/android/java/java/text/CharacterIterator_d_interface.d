@@ -12,5 +12,5 @@ interface CharacterIterator : IJavaObject {
 	@Import int getEndIndex();
 	@Import int getIndex();
 	@Import IJavaObject clone();
-	mixin JavaPackageId!("java.text", "CharacterIterator");
+	public static immutable string _javaParameterString = "Ljava/text/CharacterIterator";
 }

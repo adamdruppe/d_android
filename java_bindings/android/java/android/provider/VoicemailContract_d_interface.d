@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class VoicemailContract : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "VoicemailContract");
+	public static immutable string _javaParameterString = "Landroid/provider/VoicemailContract";
 }

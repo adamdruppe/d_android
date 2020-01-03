@@ -8,5 +8,5 @@ final class SSLEngineResult_HandshakeStatus : IJavaObject {
 	@Import static import0.SSLEngineResult_HandshakeStatus[] values();
 	@Import static import0.SSLEngineResult_HandshakeStatus valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.net.ssl", "SSLEngineResult$HandshakeStatus");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLEngineResult$HandshakeStatus";
 }

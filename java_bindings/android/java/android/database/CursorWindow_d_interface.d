@@ -40,5 +40,5 @@ final class CursorWindow : IJavaObject {
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "CursorWindow");
+	public static immutable string _javaParameterString = "Landroid/database/CursorWindow";
 }

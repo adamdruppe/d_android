@@ -119,5 +119,5 @@ final class LocalDateTime : IJavaObject {
 	@Import import23.ChronoLocalDate toLocalDate();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time", "LocalDateTime");
+	public static immutable string _javaParameterString = "Ljava/time/LocalDateTime";
 }

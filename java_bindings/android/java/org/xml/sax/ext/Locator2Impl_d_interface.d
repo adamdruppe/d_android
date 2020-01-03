@@ -10,5 +10,5 @@ final class Locator2Impl : IJavaObject {
 	@Import void setXMLVersion(string);
 	@Import void setEncoding(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.ext", "Locator2Impl");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ext/Locator2Impl";
 }

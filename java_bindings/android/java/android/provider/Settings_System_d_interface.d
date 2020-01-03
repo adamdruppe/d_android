@@ -26,5 +26,5 @@ final class Settings_System : IJavaObject {
 	@Import static void setShowGTalkServiceStatus(import0.ContentResolver, bool);
 	@Import static bool canWrite(import3.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Settings$System");
+	public static immutable string _javaParameterString = "Landroid/provider/Settings$System";
 }

@@ -5,5 +5,5 @@ final class LinkPermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "LinkPermission");
+	public static immutable string _javaParameterString = "Ljava/nio/file/LinkPermission";
 }

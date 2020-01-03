@@ -16,5 +16,5 @@ interface IBinder : IJavaObject {
 	@Import bool transact(int, import2.Parcel, import2.Parcel, int);
 	@Import void linkToDeath(import3.IBinder_DeathRecipient, int);
 	@Import bool unlinkToDeath(import3.IBinder_DeathRecipient, int);
-	mixin JavaPackageId!("android.os", "IBinder");
+	public static immutable string _javaParameterString = "Landroid/os/IBinder";
 }

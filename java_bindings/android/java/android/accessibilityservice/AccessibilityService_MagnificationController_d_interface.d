@@ -18,5 +18,5 @@ final class AccessibilityService_MagnificationController : IJavaObject {
 	@Import bool setScale(float, bool);
 	@Import bool setCenter(float, float, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityService$MagnificationController");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityService$MagnificationController";
 }

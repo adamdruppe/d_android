@@ -33,5 +33,5 @@ final class MediaRouter_RouteInfo : IJavaObject {
 	@Import bool isConnecting();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRouter$RouteInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRouter$RouteInfo";
 }

@@ -7,5 +7,5 @@ final class UserNotAuthenticatedException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "UserNotAuthenticatedException");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/UserNotAuthenticatedException";
 }

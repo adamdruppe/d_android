@@ -21,5 +21,5 @@ final class Inflater : IJavaObject {
 	@Import void reset();
 	@Import void end();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "Inflater");
+	public static immutable string _javaParameterString = "Ljava/util/zip/Inflater";
 }

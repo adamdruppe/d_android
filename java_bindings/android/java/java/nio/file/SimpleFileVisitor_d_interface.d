@@ -11,5 +11,5 @@ final class SimpleFileVisitor : IJavaObject {
 	@Import import0.FileVisitResult visitFileFailed(IJavaObject, import2.IOException);
 	@Import import0.FileVisitResult postVisitDirectory(IJavaObject, import2.IOException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "SimpleFileVisitor");
+	public static immutable string _javaParameterString = "Ljava/nio/file/SimpleFileVisitor";
 }

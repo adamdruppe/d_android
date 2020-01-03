@@ -13,5 +13,5 @@ final class MtpEvent : IJavaObject {
 	@Import int getObjectPropCode();
 	@Import int getObjectFormatCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.mtp", "MtpEvent");
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpEvent";
 }

@@ -13,5 +13,5 @@ final class UniversalTimeScale : IJavaObject {
 	@Import static import0.BigDecimal toBigDecimal(import0.BigDecimal, int);
 	@Import static long getTimeScaleValue(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "UniversalTimeScale");
+	public static immutable string _javaParameterString = "Landroid/icu/util/UniversalTimeScale";
 }

@@ -5,5 +5,5 @@ import import0 = android.java.javax.xml.namespace.QName_d_interface;
 
 interface XPathVariableResolver : IJavaObject {
 	@Import IJavaObject resolveVariable(import0.QName);
-	mixin JavaPackageId!("javax.xml.xpath", "XPathVariableResolver");
+	public static immutable string _javaParameterString = "Ljavax/xml/xpath/XPathVariableResolver";
 }

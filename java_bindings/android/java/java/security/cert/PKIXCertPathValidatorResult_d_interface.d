@@ -13,5 +13,5 @@ final class PKIXCertPathValidatorResult : IJavaObject {
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PKIXCertPathValidatorResult");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PKIXCertPathValidatorResult";
 }

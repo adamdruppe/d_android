@@ -22,5 +22,5 @@ final class InsetDrawable : IJavaObject {
 	@Import int getIntrinsicHeight();
 	@Import void getOutline(import6.Outline);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "InsetDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/InsetDrawable";
 }

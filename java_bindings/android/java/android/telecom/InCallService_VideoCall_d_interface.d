@@ -23,5 +23,5 @@ final class InCallService_VideoCall : IJavaObject {
 	@Import void requestCallDataUsage();
 	@Import void setPauseImage(import4.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "InCallService$VideoCall");
+	public static immutable string _javaParameterString = "Landroid/telecom/InCallService$VideoCall";
 }

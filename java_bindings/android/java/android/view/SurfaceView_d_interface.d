@@ -20,5 +20,5 @@ final class SurfaceView : IJavaObject {
 	@Import void setZOrderOnTop(bool);
 	@Import void setSecure(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "SurfaceView");
+	public static immutable string _javaParameterString = "Landroid/view/SurfaceView";
 }

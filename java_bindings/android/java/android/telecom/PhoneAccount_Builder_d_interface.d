@@ -25,5 +25,5 @@ final class PhoneAccount_Builder : IJavaObject {
 	@Import import3.PhoneAccount_Builder setExtras(import7.Bundle);
 	@Import import2.PhoneAccount build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "PhoneAccount$Builder");
+	public static immutable string _javaParameterString = "Landroid/telecom/PhoneAccount$Builder";
 }

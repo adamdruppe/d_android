@@ -14,5 +14,5 @@ final class GnssStatus : IJavaObject {
 	@Import bool hasCarrierFrequencyHz(int);
 	@Import float getCarrierFrequencyHz(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GnssStatus");
+	public static immutable string _javaParameterString = "Landroid/location/GnssStatus";
 }

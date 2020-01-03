@@ -7,5 +7,5 @@ import import1 = android.java.java.util.Comparator_d_interface;
 interface BinaryOperator : IJavaObject {
 	@Import static import0.BinaryOperator minBy(import1.Comparator);
 	@Import static import0.BinaryOperator maxBy(import1.Comparator);
-	mixin JavaPackageId!("java.util.function", "BinaryOperator");
+	public static immutable string _javaParameterString = "Ljava/util/function/BinaryOperator";
 }

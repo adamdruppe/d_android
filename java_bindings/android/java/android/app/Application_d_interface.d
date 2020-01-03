@@ -20,5 +20,5 @@ final class Application : IJavaObject {
 	@Import void unregisterOnProvideAssistDataListener(import3.Application_OnProvideAssistDataListener);
 	@Import static string getProcessName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Application");
+	public static immutable string _javaParameterString = "Landroid/app/Application";
 }

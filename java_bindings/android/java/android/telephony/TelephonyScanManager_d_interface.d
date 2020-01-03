@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class TelephonyScanManager : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "TelephonyScanManager");
+	public static immutable string _javaParameterString = "Landroid/telephony/TelephonyScanManager";
 }

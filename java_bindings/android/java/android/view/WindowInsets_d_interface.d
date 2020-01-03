@@ -30,5 +30,5 @@ final class WindowInsets : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "WindowInsets");
+	public static immutable string _javaParameterString = "Landroid/view/WindowInsets";
 }

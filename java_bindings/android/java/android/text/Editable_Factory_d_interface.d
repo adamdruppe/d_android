@@ -10,5 +10,5 @@ final class Editable_Factory : IJavaObject {
 	@Import static import0.Editable_Factory getInstance();
 	@Import import1.Editable newEditable(import2.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "Editable$Factory");
+	public static immutable string _javaParameterString = "Landroid/text/Editable$Factory";
 }

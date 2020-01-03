@@ -19,5 +19,5 @@ final class CertificateFactorySpi : IJavaObject {
 	@Import import6.CRL engineGenerateCRL(import1.InputStream);
 	@Import import5.Collection engineGenerateCRLs(import1.InputStream);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertificateFactorySpi");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertificateFactorySpi";
 }

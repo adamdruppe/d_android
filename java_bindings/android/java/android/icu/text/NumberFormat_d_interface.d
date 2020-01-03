@@ -81,5 +81,5 @@ final class NumberFormat : IJavaObject {
 	@Import void setRoundingMode(int);
 	@Import static import11.NumberFormat getInstance(import13.ULocale, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "NumberFormat");
+	public static immutable string _javaParameterString = "Landroid/icu/text/NumberFormat";
 }

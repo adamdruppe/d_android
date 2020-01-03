@@ -18,5 +18,5 @@ final class JarURLConnection : IJavaObject {
 	@Import import4.Attributes getMainAttributes();
 	@Import import5.Certificate[] getCertificates();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "JarURLConnection");
+	public static immutable string _javaParameterString = "Ljava/net/JarURLConnection";
 }

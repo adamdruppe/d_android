@@ -28,5 +28,5 @@ final class X509CRLSelector : IJavaObject {
 	@Import bool match(import5.CRL);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "X509CRLSelector");
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509CRLSelector";
 }

@@ -18,5 +18,5 @@ final class SessionConfiguration : IJavaObject {
 	@Import void setSessionParameters(import4.CaptureRequest);
 	@Import import4.CaptureRequest getSessionParameters();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2.params", "SessionConfiguration");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/params/SessionConfiguration";
 }

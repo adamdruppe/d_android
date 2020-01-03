@@ -5,5 +5,5 @@ final class IllegalCharsetNameException : IJavaObject {
 	@Import this(string);
 	@Import string getCharsetName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "IllegalCharsetNameException");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/IllegalCharsetNameException";
 }

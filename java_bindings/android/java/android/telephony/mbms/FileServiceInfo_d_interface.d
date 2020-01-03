@@ -9,5 +9,5 @@ final class FileServiceInfo : IJavaObject {
 	@Import int describeContents();
 	@Import import1.List getFiles();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "FileServiceInfo");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/FileServiceInfo";
 }

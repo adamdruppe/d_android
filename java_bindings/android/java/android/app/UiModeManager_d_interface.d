@@ -8,5 +8,5 @@ final class UiModeManager : IJavaObject {
 	@Import void setNightMode(int);
 	@Import int getNightMode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "UiModeManager");
+	public static immutable string _javaParameterString = "Landroid/app/UiModeManager";
 }

@@ -10,5 +10,5 @@ final class FaceDetector_Face : IJavaObject {
 	@Import float eyesDistance();
 	@Import float pose(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "FaceDetector$Face");
+	public static immutable string _javaParameterString = "Landroid/media/FaceDetector$Face";
 }

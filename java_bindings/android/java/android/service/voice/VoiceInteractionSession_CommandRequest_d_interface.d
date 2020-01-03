@@ -9,5 +9,5 @@ final class VoiceInteractionSession_CommandRequest : IJavaObject {
 	@Import void sendIntermediateResult(import0.Bundle);
 	@Import void sendResult(import0.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession$CommandRequest");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession$CommandRequest";
 }

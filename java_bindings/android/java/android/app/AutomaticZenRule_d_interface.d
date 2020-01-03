@@ -24,5 +24,5 @@ final class AutomaticZenRule : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AutomaticZenRule");
+	public static immutable string _javaParameterString = "Landroid/app/AutomaticZenRule";
 }

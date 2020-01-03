@@ -21,5 +21,5 @@ final class ChineseCalendar : IJavaObject {
 	@Import void roll(int, int);
 	@Import string getType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "ChineseCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/ChineseCalendar";
 }

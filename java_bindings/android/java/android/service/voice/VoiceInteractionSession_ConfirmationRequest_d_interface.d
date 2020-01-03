@@ -11,5 +11,5 @@ final class VoiceInteractionSession_ConfirmationRequest : IJavaObject {
 	@Import import1.CharSequence getPrompt();
 	@Import void sendConfirmationResult(bool, import2.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.voice", "VoiceInteractionSession$ConfirmationRequest");
+	public static immutable string _javaParameterString = "Landroid/service/voice/VoiceInteractionSession$ConfirmationRequest";
 }

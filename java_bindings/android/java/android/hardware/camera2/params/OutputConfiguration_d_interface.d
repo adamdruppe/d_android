@@ -24,5 +24,5 @@ final class OutputConfiguration : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2.params", "OutputConfiguration");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/params/OutputConfiguration";
 }

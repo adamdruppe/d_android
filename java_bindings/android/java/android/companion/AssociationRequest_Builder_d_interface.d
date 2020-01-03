@@ -11,5 +11,5 @@ final class AssociationRequest_Builder : IJavaObject {
 	@Import import0.AssociationRequest_Builder addDeviceFilter(import1.DeviceFilter);
 	@Import import2.AssociationRequest build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "AssociationRequest$Builder");
+	public static immutable string _javaParameterString = "Landroid/companion/AssociationRequest$Builder";
 }

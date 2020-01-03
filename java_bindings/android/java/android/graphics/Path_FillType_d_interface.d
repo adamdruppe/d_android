@@ -8,5 +8,5 @@ final class Path_FillType : IJavaObject {
 	@Import static import0.Path_FillType[] values();
 	@Import static import0.Path_FillType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Path$FillType");
+	public static immutable string _javaParameterString = "Landroid/graphics/Path$FillType";
 }

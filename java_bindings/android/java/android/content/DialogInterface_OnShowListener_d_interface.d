@@ -6,5 +6,5 @@ import import0 = android.java.android.content.DialogInterface_d_interface;
 @JavaName("DialogInterface$OnShowListener")
 interface DialogInterface_OnShowListener : IJavaObject {
 	@Import void onShow(import0.DialogInterface);
-	mixin JavaPackageId!("android.content", "DialogInterface$OnShowListener");
+	public static immutable string _javaParameterString = "Landroid/content/DialogInterface$OnShowListener";
 }

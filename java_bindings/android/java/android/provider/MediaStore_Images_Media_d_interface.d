@@ -16,5 +16,5 @@ final class MediaStore_Images_Media : IJavaObject {
 	@Import static string insertImage(import1.ContentResolver, import3.Bitmap, string, string);
 	@Import static import2.Uri getContentUri(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Images$Media");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Images$Media";
 }

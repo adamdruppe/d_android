@@ -12,5 +12,5 @@ final class SequenceInputStream : IJavaObject {
 	@Import int read(byte, int, int[]);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "SequenceInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/SequenceInputStream";
 }

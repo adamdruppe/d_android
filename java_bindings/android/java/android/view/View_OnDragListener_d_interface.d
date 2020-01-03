@@ -7,5 +7,5 @@ import import1 = android.java.android.view.DragEvent_d_interface;
 @JavaName("View$OnDragListener")
 interface View_OnDragListener : IJavaObject {
 	@Import bool onDrag(import0.View, import1.DragEvent);
-	mixin JavaPackageId!("android.view", "View$OnDragListener");
+	public static immutable string _javaParameterString = "Landroid/view/View$OnDragListener";
 }

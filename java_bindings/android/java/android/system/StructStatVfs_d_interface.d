@@ -5,5 +5,5 @@ final class StructStatVfs : IJavaObject {
 	@Import this(long, long, long, long, long, long, long, long, long, long, long);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.system", "StructStatVfs");
+	public static immutable string _javaParameterString = "Landroid/system/StructStatVfs";
 }

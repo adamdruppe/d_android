@@ -17,5 +17,5 @@ final class Credential_SimCredential : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.hotspot2.pps", "Credential$SimCredential");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/hotspot2/pps/Credential$SimCredential";
 }

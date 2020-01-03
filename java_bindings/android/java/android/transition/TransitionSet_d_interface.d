@@ -61,5 +61,5 @@ final class TransitionSet : IJavaObject {
 	@Import import3.Transition setDuration(long);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "TransitionSet");
+	public static immutable string _javaParameterString = "Landroid/transition/TransitionSet";
 }

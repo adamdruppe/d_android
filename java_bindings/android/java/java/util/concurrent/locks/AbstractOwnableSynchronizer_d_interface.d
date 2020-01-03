@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class AbstractOwnableSynchronizer : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "AbstractOwnableSynchronizer");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/AbstractOwnableSynchronizer";
 }

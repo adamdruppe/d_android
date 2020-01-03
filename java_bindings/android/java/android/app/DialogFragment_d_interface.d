@@ -37,5 +37,5 @@ final class DialogFragment : IJavaObject {
 	@Import void onDestroyView();
 	@Import void dump(string, import7.FileDescriptor, import8.PrintWriter, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "DialogFragment");
+	public static immutable string _javaParameterString = "Landroid/app/DialogFragment";
 }

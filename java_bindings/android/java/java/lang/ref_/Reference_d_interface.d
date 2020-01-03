@@ -8,5 +8,5 @@ final class Reference : IJavaObject {
 	@Import bool enqueue();
 	@Import static void reachabilityFence(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.ref", "Reference");
+	public static immutable string _javaParameterString = "Ljava/lang/ref/Reference";
 }

@@ -12,5 +12,5 @@ final class Account : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accounts", "Account");
+	public static immutable string _javaParameterString = "Landroid/accounts/Account";
 }

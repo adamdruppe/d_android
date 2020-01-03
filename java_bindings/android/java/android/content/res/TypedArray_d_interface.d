@@ -42,5 +42,5 @@ final class TypedArray : IJavaObject {
 	@Import int getChangingConfigurations();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.res", "TypedArray");
+	public static immutable string _javaParameterString = "Landroid/content/res/TypedArray";
 }

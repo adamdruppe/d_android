@@ -16,5 +16,5 @@ final class ObjectOutputStream_PutField : IJavaObject {
 	@Import void put(string, IJavaObject);
 	@Import void write(import0.ObjectOutput);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "ObjectOutputStream$PutField");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectOutputStream$PutField";
 }

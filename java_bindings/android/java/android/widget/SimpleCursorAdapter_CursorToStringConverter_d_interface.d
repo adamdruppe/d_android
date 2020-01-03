@@ -7,5 +7,5 @@ import import1 = android.java.android.database.Cursor_d_interface;
 @JavaName("SimpleCursorAdapter$CursorToStringConverter")
 interface SimpleCursorAdapter_CursorToStringConverter : IJavaObject {
 	@Import import0.CharSequence convertToString(import1.Cursor);
-	mixin JavaPackageId!("android.widget", "SimpleCursorAdapter$CursorToStringConverter");
+	public static immutable string _javaParameterString = "Landroid/widget/SimpleCursorAdapter$CursorToStringConverter";
 }

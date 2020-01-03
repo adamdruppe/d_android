@@ -9,5 +9,5 @@ final class CertPathBuilderSpi : IJavaObject {
 	@Import import0.CertPathBuilderResult engineBuild(import1.CertPathParameters);
 	@Import import2.CertPathChecker engineGetRevocationChecker();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertPathBuilderSpi");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathBuilderSpi";
 }

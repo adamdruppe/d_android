@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("CompletableFuture$AsynchronousCompletionTask")
 interface CompletableFuture_AsynchronousCompletionTask : IJavaObject {
-	mixin JavaPackageId!("java.util.concurrent", "CompletableFuture$AsynchronousCompletionTask");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CompletableFuture$AsynchronousCompletionTask";
 }

@@ -12,5 +12,5 @@ final class PKIXBuilderParameters : IJavaObject {
 	@Import int getMaxPathLength();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PKIXBuilderParameters");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PKIXBuilderParameters";
 }

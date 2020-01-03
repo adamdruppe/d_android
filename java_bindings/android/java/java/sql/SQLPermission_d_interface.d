@@ -5,5 +5,5 @@ final class SQLPermission : IJavaObject {
 	@Import this(string);
 	@Import this(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "SQLPermission");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLPermission";
 }

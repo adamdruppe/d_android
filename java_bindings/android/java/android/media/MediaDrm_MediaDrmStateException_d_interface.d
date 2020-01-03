@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MediaDrm_MediaDrmStateException : IJavaObject {
 	@Import string getDiagnosticInfo();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDrm$MediaDrmStateException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDrm$MediaDrmStateException";
 }

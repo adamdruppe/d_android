@@ -12,5 +12,5 @@ final class WifiManager_WifiLock : IJavaObject {
 	@Import void setWorkSource(import0.WorkSource);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiManager$WifiLock");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiManager$WifiLock";
 }

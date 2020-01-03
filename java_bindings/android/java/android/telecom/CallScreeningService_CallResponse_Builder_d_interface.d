@@ -12,5 +12,5 @@ final class CallScreeningService_CallResponse_Builder : IJavaObject {
 	@Import import0.CallScreeningService_CallResponse_Builder setSkipNotification(bool);
 	@Import import1.CallScreeningService_CallResponse build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "CallScreeningService$CallResponse$Builder");
+	public static immutable string _javaParameterString = "Landroid/telecom/CallScreeningService$CallResponse$Builder";
 }

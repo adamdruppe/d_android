@@ -12,5 +12,5 @@ final class ServiceInfo : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ServiceInfo");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ServiceInfo";
 }

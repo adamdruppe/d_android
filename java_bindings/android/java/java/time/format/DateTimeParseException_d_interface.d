@@ -10,5 +10,5 @@ final class DateTimeParseException : IJavaObject {
 	@Import string getParsedString();
 	@Import int getErrorIndex();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.format", "DateTimeParseException");
+	public static immutable string _javaParameterString = "Ljava/time/format/DateTimeParseException";
 }

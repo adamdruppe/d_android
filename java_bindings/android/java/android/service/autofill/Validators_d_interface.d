@@ -8,5 +8,5 @@ final class Validators : IJavaObject {
 	@Import static import0.Validator or(import0.Validator[]);
 	@Import static import0.Validator not(import0.Validator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "Validators");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/Validators";
 }

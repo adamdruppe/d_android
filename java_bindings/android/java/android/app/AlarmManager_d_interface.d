@@ -24,5 +24,5 @@ final class AlarmManager : IJavaObject {
 	@Import void setTimeZone(string);
 	@Import import3.AlarmManager_AlarmClockInfo getNextAlarmClock();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AlarmManager");
+	public static immutable string _javaParameterString = "Landroid/app/AlarmManager";
 }

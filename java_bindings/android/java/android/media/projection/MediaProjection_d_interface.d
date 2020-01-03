@@ -13,5 +13,5 @@ final class MediaProjection : IJavaObject {
 	@Import import2.VirtualDisplay createVirtualDisplay(string, int, int, int, int, import3.Surface, import4.VirtualDisplay_Callback, import1.Handler);
 	@Import void stop();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.projection", "MediaProjection");
+	public static immutable string _javaParameterString = "Landroid/media/projection/MediaProjection";
 }

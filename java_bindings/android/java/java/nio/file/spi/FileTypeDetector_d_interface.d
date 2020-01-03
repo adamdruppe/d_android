@@ -6,5 +6,5 @@ import import0 = android.java.java.nio.file.Path_d_interface;
 final class FileTypeDetector : IJavaObject {
 	@Import string probeContentType(import0.Path);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.spi", "FileTypeDetector");
+	public static immutable string _javaParameterString = "Ljava/nio/file/spi/FileTypeDetector";
 }

@@ -12,5 +12,5 @@ final class Element_Builder : IJavaObject {
 	@Import import1.Element_Builder add(import2.Element, string);
 	@Import import2.Element create();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Element$Builder");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Element$Builder";
 }

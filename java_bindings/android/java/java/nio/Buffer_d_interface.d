@@ -22,5 +22,5 @@ final class Buffer : IJavaObject {
 	@Import int arrayOffset();
 	@Import bool isDirect();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "Buffer");
+	public static immutable string _javaParameterString = "Ljava/nio/Buffer";
 }

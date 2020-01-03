@@ -20,5 +20,5 @@ final class IdentityScope : IJavaObject {
 	@Import import4.Enumeration identities();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "IdentityScope");
+	public static immutable string _javaParameterString = "Ljava/security/IdentityScope";
 }

@@ -10,5 +10,5 @@ final class PropertyChangeEvent : IJavaObject {
 	@Import IJavaObject getPropagationId();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.beans", "PropertyChangeEvent");
+	public static immutable string _javaParameterString = "Ljava/beans/PropertyChangeEvent";
 }

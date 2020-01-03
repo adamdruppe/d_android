@@ -8,5 +8,5 @@ interface Function : IJavaObject {
 	@Import import0.Function compose(import0.Function);
 	@Import import0.Function andThen(import0.Function);
 	@Import static import0.Function identity();
-	mixin JavaPackageId!("java.util.function", "Function");
+	public static immutable string _javaParameterString = "Ljava/util/function/Function";
 }

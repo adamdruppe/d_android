@@ -5,5 +5,5 @@ import import0 = android.java.android.graphics.Canvas_d_interface;
 
 interface PostProcessor : IJavaObject {
 	@Import int onPostProcess(import0.Canvas);
-	mixin JavaPackageId!("android.graphics", "PostProcessor");
+	public static immutable string _javaParameterString = "Landroid/graphics/PostProcessor";
 }

@@ -22,5 +22,5 @@ final class KeyProtection : IJavaObject {
 	@Import bool isInvalidatedByBiometricEnrollment();
 	@Import bool isUnlockedDeviceRequired();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security.keystore", "KeyProtection");
+	public static immutable string _javaParameterString = "Landroid/security/keystore/KeyProtection";
 }

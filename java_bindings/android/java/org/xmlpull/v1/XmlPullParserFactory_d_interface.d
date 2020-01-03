@@ -18,5 +18,5 @@ final class XmlPullParserFactory : IJavaObject {
 	@Import static import2.XmlPullParserFactory newInstance();
 	@Import static import2.XmlPullParserFactory newInstance(string, import3.Class);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xmlpull.v1", "XmlPullParserFactory");
+	public static immutable string _javaParameterString = "Lorg/xmlpull/v1/XmlPullParserFactory";
 }

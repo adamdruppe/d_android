@@ -44,5 +44,5 @@ interface SQLInput : IJavaObject {
 	@Import string readNString();
 	@Import import12.SQLXML readSQLXML();
 	@Import import13.RowId readRowId();
-	mixin JavaPackageId!("java.sql", "SQLInput");
+	public static immutable string _javaParameterString = "Ljava/sql/SQLInput";
 }

@@ -68,5 +68,5 @@ final class IntentFilter : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import11.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "IntentFilter");
+	public static immutable string _javaParameterString = "Landroid/content/IntentFilter";
 }

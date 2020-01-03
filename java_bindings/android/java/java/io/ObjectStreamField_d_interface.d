@@ -16,5 +16,5 @@ final class ObjectStreamField : IJavaObject {
 	@Import int compareTo(IJavaObject);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "ObjectStreamField");
+	public static immutable string _javaParameterString = "Ljava/io/ObjectStreamField";
 }

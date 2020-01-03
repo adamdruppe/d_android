@@ -11,5 +11,5 @@ final class ChooserTargetService : IJavaObject {
 	@Import import0.List onGetChooserTargets(import1.ComponentName, import2.IntentFilter);
 	@Import import3.IBinder onBind(import4.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.chooser", "ChooserTargetService");
+	public static immutable string _javaParameterString = "Landroid/service/chooser/ChooserTargetService";
 }

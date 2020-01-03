@@ -82,5 +82,5 @@ final class Scanner : IJavaObject {
 	@Import import7.Scanner reset();
 	@Import IJavaObject next();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Scanner");
+	public static immutable string _javaParameterString = "Ljava/util/Scanner";
 }

@@ -11,5 +11,5 @@ final class BluetoothA2dp : IJavaObject {
 	@Import int getConnectionState(import1.BluetoothDevice);
 	@Import bool isA2dpPlaying(import1.BluetoothDevice);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothA2dp");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothA2dp";
 }

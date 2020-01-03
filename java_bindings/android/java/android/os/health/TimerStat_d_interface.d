@@ -13,5 +13,5 @@ final class TimerStat : IJavaObject {
 	@Import void setTime(long);
 	@Import long getTime();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.health", "TimerStat");
+	public static immutable string _javaParameterString = "Landroid/os/health/TimerStat";
 }

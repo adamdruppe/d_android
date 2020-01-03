@@ -9,5 +9,5 @@ interface Iterable : IJavaObject {
 	@Import import0.Iterator iterator();
 	@Import void forEach(import1.Consumer);
 	@Import import2.Spliterator spliterator();
-	mixin JavaPackageId!("java.lang", "Iterable");
+	public static immutable string _javaParameterString = "Ljava/lang/Iterable";
 }

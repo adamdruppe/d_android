@@ -7,5 +7,5 @@ final class AudioCodec : IJavaObject {
 	@Import static import0.AudioCodec[] getCodecs();
 	@Import static import0.AudioCodec getCodec(int, string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.rtp", "AudioCodec");
+	public static immutable string _javaParameterString = "Landroid/net/rtp/AudioCodec";
 }

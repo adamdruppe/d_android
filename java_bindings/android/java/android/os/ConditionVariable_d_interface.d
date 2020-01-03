@@ -8,5 +8,5 @@ final class ConditionVariable : IJavaObject {
 	@Import void block();
 	@Import bool block(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ConditionVariable");
+	public static immutable string _javaParameterString = "Landroid/os/ConditionVariable";
 }

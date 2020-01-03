@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface XmlResourceParser : IJavaObject {
 	@Import string getAttributeNamespace(int);
 	@Import void close();
-	mixin JavaPackageId!("android.content.res", "XmlResourceParser");
+	public static immutable string _javaParameterString = "Landroid/content/res/XmlResourceParser";
 }

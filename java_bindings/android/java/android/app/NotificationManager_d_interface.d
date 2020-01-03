@@ -42,5 +42,5 @@ final class NotificationManager : IJavaObject {
 	@Import int getCurrentInterruptionFilter();
 	@Import void setInterruptionFilter(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "NotificationManager");
+	public static immutable string _javaParameterString = "Landroid/app/NotificationManager";
 }

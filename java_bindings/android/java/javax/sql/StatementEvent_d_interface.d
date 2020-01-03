@@ -11,5 +11,5 @@ final class StatementEvent : IJavaObject {
 	@Import import1.PreparedStatement getStatement();
 	@Import import2.SQLException getSQLException();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.sql", "StatementEvent");
+	public static immutable string _javaParameterString = "Ljavax/sql/StatementEvent";
 }

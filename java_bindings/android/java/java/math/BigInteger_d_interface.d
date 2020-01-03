@@ -57,5 +57,5 @@ final class BigInteger : IJavaObject {
 	@Import static import1.BigInteger probablePrime(int, import0.Random);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.math", "BigInteger");
+	public static immutable string _javaParameterString = "Ljava/math/BigInteger";
 }

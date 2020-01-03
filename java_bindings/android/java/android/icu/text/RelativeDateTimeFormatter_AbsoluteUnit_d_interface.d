@@ -8,5 +8,5 @@ final class RelativeDateTimeFormatter_AbsoluteUnit : IJavaObject {
 	@Import static import0.RelativeDateTimeFormatter_AbsoluteUnit[] values();
 	@Import static import0.RelativeDateTimeFormatter_AbsoluteUnit valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "RelativeDateTimeFormatter$AbsoluteUnit");
+	public static immutable string _javaParameterString = "Landroid/icu/text/RelativeDateTimeFormatter$AbsoluteUnit";
 }

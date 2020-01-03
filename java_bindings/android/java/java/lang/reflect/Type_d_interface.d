@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface Type : IJavaObject {
 	@Import string getTypeName();
-	mixin JavaPackageId!("java.lang.reflect", "Type");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Type";
 }

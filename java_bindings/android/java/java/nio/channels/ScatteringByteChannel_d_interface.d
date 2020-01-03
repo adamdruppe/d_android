@@ -6,5 +6,5 @@ import import0 = android.java.java.nio.ByteBuffer_d_interface;
 interface ScatteringByteChannel : IJavaObject {
 	@Import long read(import0.ByteBuffer, int, int[]);
 	@Import long read(import0.ByteBuffer[]);
-	mixin JavaPackageId!("java.nio.channels", "ScatteringByteChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/ScatteringByteChannel";
 }

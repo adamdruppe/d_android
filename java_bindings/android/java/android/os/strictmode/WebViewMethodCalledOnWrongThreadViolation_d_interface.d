@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class WebViewMethodCalledOnWrongThreadViolation : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.strictmode", "WebViewMethodCalledOnWrongThreadViolation");
+	public static immutable string _javaParameterString = "Landroid/os/strictmode/WebViewMethodCalledOnWrongThreadViolation";
 }

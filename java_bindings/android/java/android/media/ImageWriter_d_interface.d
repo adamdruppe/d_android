@@ -16,5 +16,5 @@ final class ImageWriter : IJavaObject {
 	@Import void setOnImageReleasedListener(import3.ImageWriter_OnImageReleasedListener, import4.Handler);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "ImageWriter");
+	public static immutable string _javaParameterString = "Landroid/media/ImageWriter";
 }

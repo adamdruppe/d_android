@@ -10,5 +10,5 @@ final class Pair : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import static import0.Pair create(IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "Pair");
+	public static immutable string _javaParameterString = "Landroid/util/Pair";
 }

@@ -9,5 +9,5 @@ interface PosixFileAttributes : IJavaObject {
 	@Import import0.UserPrincipal owner();
 	@Import import1.GroupPrincipal group();
 	@Import import2.Set permissions();
-	mixin JavaPackageId!("java.nio.file.attribute", "PosixFileAttributes");
+	public static immutable string _javaParameterString = "Ljava/nio/file/attribute/PosixFileAttributes";
 }

@@ -31,5 +31,5 @@ final class ArraySet : IJavaObject {
 	@Import bool removeAll(import2.Collection);
 	@Import bool retainAll(import2.Collection);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "ArraySet");
+	public static immutable string _javaParameterString = "Landroid/util/ArraySet";
 }

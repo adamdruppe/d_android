@@ -12,5 +12,5 @@ final class Notification_InboxStyle : IJavaObject {
 	@Import import1.Notification_InboxStyle setSummaryText(import2.CharSequence);
 	@Import import1.Notification_InboxStyle addLine(import2.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$InboxStyle");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$InboxStyle";
 }

@@ -9,5 +9,5 @@ final class TtsSpan_TimeBuilder : IJavaObject {
 	@Import import0.TtsSpan_TimeBuilder setHours(int);
 	@Import import0.TtsSpan_TimeBuilder setMinutes(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$TimeBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$TimeBuilder";
 }

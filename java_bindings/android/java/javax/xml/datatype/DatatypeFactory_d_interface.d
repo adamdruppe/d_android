@@ -34,5 +34,5 @@ final class DatatypeFactory : IJavaObject {
 	@Import import5.XMLGregorianCalendar newXMLGregorianCalendarTime(int, int, int, import4.BigDecimal, int);
 	@Import import5.XMLGregorianCalendar newXMLGregorianCalendarTime(int, int, int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.datatype", "DatatypeFactory");
+	public static immutable string _javaParameterString = "Ljavax/xml/datatype/DatatypeFactory";
 }

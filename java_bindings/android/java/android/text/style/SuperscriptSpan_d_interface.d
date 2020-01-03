@@ -12,5 +12,5 @@ final class SuperscriptSpan : IJavaObject {
 	@Import void updateDrawState(import1.TextPaint);
 	@Import void updateMeasureState(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "SuperscriptSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/SuperscriptSpan";
 }

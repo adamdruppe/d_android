@@ -7,5 +7,5 @@ import import0 = android.java.android.net.Uri_d_interface;
 final class MediaStore_Audio_Artists : IJavaObject {
 	@Import static import0.Uri getContentUri(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "MediaStore$Audio$Artists");
+	public static immutable string _javaParameterString = "Landroid/provider/MediaStore$Audio$Artists";
 }

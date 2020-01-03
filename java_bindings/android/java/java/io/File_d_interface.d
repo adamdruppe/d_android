@@ -65,5 +65,5 @@ final class File : IJavaObject {
 	@Import import5.Path toPath();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "File");
+	public static immutable string _javaParameterString = "Ljava/io/File";
 }

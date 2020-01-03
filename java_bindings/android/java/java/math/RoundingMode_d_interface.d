@@ -8,5 +8,5 @@ final class RoundingMode : IJavaObject {
 	@Import static import0.RoundingMode valueOf(string);
 	@Import static import0.RoundingMode valueOf(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.math", "RoundingMode");
+	public static immutable string _javaParameterString = "Ljava/math/RoundingMode";
 }

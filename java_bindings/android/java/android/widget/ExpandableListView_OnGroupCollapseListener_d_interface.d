@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ExpandableListView$OnGroupCollapseListener")
 interface ExpandableListView_OnGroupCollapseListener : IJavaObject {
 	@Import void onGroupCollapse(int);
-	mixin JavaPackageId!("android.widget", "ExpandableListView$OnGroupCollapseListener");
+	public static immutable string _javaParameterString = "Landroid/widget/ExpandableListView$OnGroupCollapseListener";
 }

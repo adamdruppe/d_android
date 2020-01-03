@@ -8,5 +8,5 @@ final class Normalizer_Form : IJavaObject {
 	@Import static import0.Normalizer_Form[] values();
 	@Import static import0.Normalizer_Form valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "Normalizer$Form");
+	public static immutable string _javaParameterString = "Ljava/text/Normalizer$Form";
 }

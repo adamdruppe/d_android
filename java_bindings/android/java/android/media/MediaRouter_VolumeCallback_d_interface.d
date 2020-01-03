@@ -8,5 +8,5 @@ final class MediaRouter_VolumeCallback : IJavaObject {
 	@Import void onVolumeUpdateRequest(import0.MediaRouter_RouteInfo, int);
 	@Import void onVolumeSetRequest(import0.MediaRouter_RouteInfo, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaRouter$VolumeCallback");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRouter$VolumeCallback";
 }

@@ -13,5 +13,5 @@ final class Geocoder : IJavaObject {
 	@Import import2.List getFromLocationName(string, int);
 	@Import import2.List getFromLocationName(string, int, double, double, double, double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "Geocoder");
+	public static immutable string _javaParameterString = "Landroid/location/Geocoder";
 }

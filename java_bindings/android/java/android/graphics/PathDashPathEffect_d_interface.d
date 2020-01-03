@@ -7,5 +7,5 @@ import import0 = android.java.android.graphics.Path_d_interface;
 final class PathDashPathEffect : IJavaObject {
 	@Import this(import0.Path, float, float, import1.PathDashPathEffect_Style);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "PathDashPathEffect");
+	public static immutable string _javaParameterString = "Landroid/graphics/PathDashPathEffect";
 }

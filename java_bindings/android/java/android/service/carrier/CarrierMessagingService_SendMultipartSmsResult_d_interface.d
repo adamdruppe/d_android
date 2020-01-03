@@ -7,5 +7,5 @@ final class CarrierMessagingService_SendMultipartSmsResult : IJavaObject {
 	@Import int[] getMessageRefs();
 	@Import int getSendStatus();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.carrier", "CarrierMessagingService$SendMultipartSmsResult");
+	public static immutable string _javaParameterString = "Landroid/service/carrier/CarrierMessagingService$SendMultipartSmsResult";
 }

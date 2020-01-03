@@ -11,5 +11,5 @@ final class MediaCodecInfo_AudioCapabilities : IJavaObject {
 	@Import int getMaxInputChannelCount();
 	@Import bool isSampleRateSupported(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodecInfo$AudioCapabilities");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodecInfo$AudioCapabilities";
 }

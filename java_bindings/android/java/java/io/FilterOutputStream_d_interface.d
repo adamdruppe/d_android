@@ -11,5 +11,5 @@ final class FilterOutputStream : IJavaObject {
 	@Import void flush();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FilterOutputStream");
+	public static immutable string _javaParameterString = "Ljava/io/FilterOutputStream";
 }

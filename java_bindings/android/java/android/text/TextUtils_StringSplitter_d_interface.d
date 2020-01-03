@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("TextUtils$StringSplitter")
 interface TextUtils_StringSplitter : IJavaObject {
 	@Import void setString(string);
-	mixin JavaPackageId!("android.text", "TextUtils$StringSplitter");
+	public static immutable string _javaParameterString = "Landroid/text/TextUtils$StringSplitter";
 }

@@ -9,5 +9,5 @@ final class KeyPair : IJavaObject {
 	@Import import0.PublicKey getPublic();
 	@Import import1.PrivateKey getPrivate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyPair");
+	public static immutable string _javaParameterString = "Ljava/security/KeyPair";
 }

@@ -9,5 +9,5 @@ interface GLSurfaceView_Renderer : IJavaObject {
 	@Import void onSurfaceCreated(import0.GL10, import1.EGLConfig);
 	@Import void onSurfaceChanged(import0.GL10, int, int);
 	@Import void onDrawFrame(import0.GL10);
-	mixin JavaPackageId!("android.opengl", "GLSurfaceView$Renderer");
+	public static immutable string _javaParameterString = "Landroid/opengl/GLSurfaceView$Renderer";
 }

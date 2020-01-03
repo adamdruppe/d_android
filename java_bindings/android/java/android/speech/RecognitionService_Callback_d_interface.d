@@ -15,5 +15,5 @@ final class RecognitionService_Callback : IJavaObject {
 	@Import void rmsChanged(float);
 	@Import int getCallingUid();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.speech", "RecognitionService$Callback");
+	public static immutable string _javaParameterString = "Landroid/speech/RecognitionService$Callback";
 }

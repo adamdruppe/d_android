@@ -44,5 +44,5 @@ final class ForkJoinTask : IJavaObject {
 	@Import static import0.ForkJoinTask adapt(import5.Runnable, IJavaObject);
 	@Import static import0.ForkJoinTask adapt(import6.Callable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ForkJoinTask");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ForkJoinTask";
 }

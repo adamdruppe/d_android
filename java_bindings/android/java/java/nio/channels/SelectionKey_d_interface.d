@@ -20,5 +20,5 @@ final class SelectionKey : IJavaObject {
 	@Import IJavaObject attach(IJavaObject);
 	@Import IJavaObject attachment();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "SelectionKey");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/SelectionKey";
 }

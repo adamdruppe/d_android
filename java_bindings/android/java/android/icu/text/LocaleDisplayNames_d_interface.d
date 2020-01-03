@@ -33,5 +33,5 @@ final class LocaleDisplayNames : IJavaObject {
 	@Import import6.List getUiList(import7.Set, bool, import8.Comparator);
 	@Import import6.List getUiListCompareWholeItems(import7.Set, import8.Comparator);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "LocaleDisplayNames");
+	public static immutable string _javaParameterString = "Landroid/icu/text/LocaleDisplayNames";
 }

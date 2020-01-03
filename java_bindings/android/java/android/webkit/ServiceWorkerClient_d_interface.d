@@ -7,5 +7,5 @@ import import1 = android.java.android.webkit.WebResourceRequest_d_interface;
 final class ServiceWorkerClient : IJavaObject {
 	@Import import0.WebResourceResponse shouldInterceptRequest(import1.WebResourceRequest);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "ServiceWorkerClient");
+	public static immutable string _javaParameterString = "Landroid/webkit/ServiceWorkerClient";
 }

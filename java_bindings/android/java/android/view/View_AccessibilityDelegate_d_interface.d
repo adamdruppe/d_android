@@ -21,5 +21,5 @@ final class View_AccessibilityDelegate : IJavaObject {
 	@Import bool onRequestSendAccessibilityEvent(import4.ViewGroup, import0.View, import2.AccessibilityEvent);
 	@Import import5.AccessibilityNodeProvider getAccessibilityNodeProvider(import0.View);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "View$AccessibilityDelegate");
+	public static immutable string _javaParameterString = "Landroid/view/View$AccessibilityDelegate";
 }

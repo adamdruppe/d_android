@@ -6,5 +6,5 @@ import import0 = android.java.android.animation.ValueAnimator_d_interface;
 @JavaName("ValueAnimator$AnimatorUpdateListener")
 interface ValueAnimator_AnimatorUpdateListener : IJavaObject {
 	@Import void onAnimationUpdate(import0.ValueAnimator);
-	mixin JavaPackageId!("android.animation", "ValueAnimator$AnimatorUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/animation/ValueAnimator$AnimatorUpdateListener";
 }

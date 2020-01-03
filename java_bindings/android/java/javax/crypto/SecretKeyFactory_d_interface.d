@@ -17,5 +17,5 @@ final class SecretKeyFactory : IJavaObject {
 	@Import import3.KeySpec getKeySpec(import2.SecretKey, import4.Class);
 	@Import import2.SecretKey translateKey(import2.SecretKey);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "SecretKeyFactory");
+	public static immutable string _javaParameterString = "Ljavax/crypto/SecretKeyFactory";
 }

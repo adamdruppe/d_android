@@ -17,5 +17,5 @@ final class FillEventHistory_Event : IJavaObject {
 	@Import import2.Map getManuallyEnteredField();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "FillEventHistory$Event");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/FillEventHistory$Event";
 }

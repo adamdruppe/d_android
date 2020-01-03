@@ -24,5 +24,5 @@ final class DngCreator : IJavaObject {
 	@Import void writeImage(import6.OutputStream, import4.Image);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "DngCreator");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/DngCreator";
 }

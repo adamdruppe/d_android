@@ -16,5 +16,5 @@ final class HardwareBuffer : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "HardwareBuffer");
+	public static immutable string _javaParameterString = "Landroid/hardware/HardwareBuffer";
 }

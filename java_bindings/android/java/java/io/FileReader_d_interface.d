@@ -9,5 +9,5 @@ final class FileReader : IJavaObject {
 	@Import this(import0.File);
 	@Import this(import1.FileDescriptor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FileReader");
+	public static immutable string _javaParameterString = "Ljava/io/FileReader";
 }

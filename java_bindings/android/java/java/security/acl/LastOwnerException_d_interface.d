@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class LastOwnerException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.acl", "LastOwnerException");
+	public static immutable string _javaParameterString = "Ljava/security/acl/LastOwnerException";
 }

@@ -48,5 +48,5 @@ final class ContentValues : IJavaObject {
 	@Import void writeToParcel(import9.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentValues");
+	public static immutable string _javaParameterString = "Landroid/content/ContentValues";
 }

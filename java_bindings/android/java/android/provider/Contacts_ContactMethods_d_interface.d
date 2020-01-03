@@ -12,5 +12,5 @@ final class Contacts_ContactMethods : IJavaObject {
 	@Import static import0.CharSequence getDisplayLabel(import1.Context, int, int, import0.CharSequence);
 	@Import void addPostalLocation(import1.Context, long, double, double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Contacts$ContactMethods");
+	public static immutable string _javaParameterString = "Landroid/provider/Contacts$ContactMethods";
 }

@@ -16,5 +16,5 @@ final class MessagePattern_Part : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "MessagePattern$Part");
+	public static immutable string _javaParameterString = "Landroid/icu/text/MessagePattern$Part";
 }

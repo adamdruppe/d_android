@@ -13,5 +13,5 @@ final class MediaPlayer_TrackInfo : IJavaObject {
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaPlayer$TrackInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$TrackInfo";
 }

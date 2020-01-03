@@ -51,5 +51,5 @@ final class Collectors : IJavaObject {
 	@Import static import0.Collector summarizingLong(import6.ToLongFunction);
 	@Import static import0.Collector summarizingDouble(import7.ToDoubleFunction);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.stream", "Collectors");
+	public static immutable string _javaParameterString = "Ljava/util/stream/Collectors";
 }

@@ -8,5 +8,5 @@ final class AttestedKeyPair : IJavaObject {
 	@Import import0.KeyPair getKeyPair();
 	@Import import1.List getAttestationRecord();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "AttestedKeyPair");
+	public static immutable string _javaParameterString = "Landroid/security/AttestedKeyPair";
 }

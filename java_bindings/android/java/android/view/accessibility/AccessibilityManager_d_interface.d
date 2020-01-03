@@ -26,5 +26,5 @@ final class AccessibilityManager : IJavaObject {
 	@Import void removeAccessibilityRequestPreparer(import5.AccessibilityRequestPreparer);
 	@Import static bool isAccessibilityButtonSupported();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityManager");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityManager";
 }

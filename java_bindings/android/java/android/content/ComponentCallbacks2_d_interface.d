@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface ComponentCallbacks2 : IJavaObject {
 	@Import void onTrimMemory(int);
-	mixin JavaPackageId!("android.content", "ComponentCallbacks2");
+	public static immutable string _javaParameterString = "Landroid/content/ComponentCallbacks2";
 }

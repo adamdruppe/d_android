@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Float2 : IJavaObject {
 	@Import this(float, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Float2");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Float2";
 }

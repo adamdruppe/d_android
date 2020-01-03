@@ -12,5 +12,5 @@ final class Space : IJavaObject {
 	@Import this(import0.Context);
 	@Import void draw(import2.Canvas);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "Space");
+	public static immutable string _javaParameterString = "Landroid/widget/Space";
 }

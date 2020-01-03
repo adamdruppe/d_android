@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("PreferenceManager$OnActivityStopListener")
 interface PreferenceManager_OnActivityStopListener : IJavaObject {
 	@Import void onActivityStop();
-	mixin JavaPackageId!("android.preference", "PreferenceManager$OnActivityStopListener");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceManager$OnActivityStopListener";
 }

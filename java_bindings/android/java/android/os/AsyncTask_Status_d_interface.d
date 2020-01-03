@@ -8,5 +8,5 @@ final class AsyncTask_Status : IJavaObject {
 	@Import static import0.AsyncTask_Status[] values();
 	@Import static import0.AsyncTask_Status valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "AsyncTask$Status");
+	public static immutable string _javaParameterString = "Landroid/os/AsyncTask$Status";
 }

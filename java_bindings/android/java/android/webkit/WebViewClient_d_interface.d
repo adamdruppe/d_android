@@ -40,5 +40,5 @@ final class WebViewClient : IJavaObject {
 	@Import bool onRenderProcessGone(import0.WebView, import11.RenderProcessGoneDetail);
 	@Import void onSafeBrowsingHit(import0.WebView, import1.WebResourceRequest, int, import12.SafeBrowsingResponse);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebViewClient");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebViewClient";
 }

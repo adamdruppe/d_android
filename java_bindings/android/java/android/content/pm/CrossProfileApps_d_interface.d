@@ -13,5 +13,5 @@ final class CrossProfileApps : IJavaObject {
 	@Import import3.CharSequence getProfileSwitchingLabel(import1.UserHandle);
 	@Import import4.Drawable getProfileSwitchingIconDrawable(import1.UserHandle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "CrossProfileApps");
+	public static immutable string _javaParameterString = "Landroid/content/pm/CrossProfileApps";
 }

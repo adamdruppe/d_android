@@ -7,5 +7,5 @@ import import0 = android.java.android.content.Context_d_interface;
 final class Telephony_Sms : IJavaObject {
 	@Import static string getDefaultSmsPackage(import0.Context);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "Telephony$Sms");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$Sms";
 }

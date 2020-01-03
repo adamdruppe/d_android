@@ -26,5 +26,5 @@ final class AppWidgetHostView : IJavaObject {
 	@Import void updateAppWidget(import8.RemoteViews);
 	@Import import9.ViewGroup_LayoutParams generateLayoutParams(import6.AttributeSet);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.appwidget", "AppWidgetHostView");
+	public static immutable string _javaParameterString = "Landroid/appwidget/AppWidgetHostView";
 }

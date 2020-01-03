@@ -15,5 +15,5 @@ final class ParcelUuid : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "ParcelUuid");
+	public static immutable string _javaParameterString = "Landroid/os/ParcelUuid";
 }

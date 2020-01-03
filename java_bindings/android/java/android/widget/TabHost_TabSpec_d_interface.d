@@ -18,5 +18,5 @@ final class TabHost_TabSpec : IJavaObject {
 	@Import import0.TabHost_TabSpec setContent(import5.Intent);
 	@Import string getTag();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "TabHost$TabSpec");
+	public static immutable string _javaParameterString = "Landroid/widget/TabHost$TabSpec";
 }

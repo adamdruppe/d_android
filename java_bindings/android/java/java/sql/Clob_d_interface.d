@@ -21,5 +21,5 @@ interface Clob : IJavaObject {
 	@Import void truncate(long);
 	@Import void free();
 	@Import import0.Reader getCharacterStream(long, long);
-	mixin JavaPackageId!("java.sql", "Clob");
+	public static immutable string _javaParameterString = "Ljava/sql/Clob";
 }

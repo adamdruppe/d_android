@@ -18,5 +18,5 @@ interface Adapter : IJavaObject {
 	@Import int getViewTypeCount();
 	@Import bool isEmpty();
 	@Import import3.CharSequence[] getAutofillOptions();
-	mixin JavaPackageId!("android.widget", "Adapter");
+	public static immutable string _javaParameterString = "Landroid/widget/Adapter";
 }

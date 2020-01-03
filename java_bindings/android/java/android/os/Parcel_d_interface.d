@@ -132,5 +132,5 @@ final class Parcel : IJavaObject {
 	@Import import12.Parcelable[] readParcelableArray(import16.ClassLoader);
 	@Import import13.Serializable readSerializable();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Parcel");
+	public static immutable string _javaParameterString = "Landroid/os/Parcel";
 }

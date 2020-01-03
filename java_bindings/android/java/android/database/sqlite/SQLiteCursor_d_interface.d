@@ -21,5 +21,5 @@ final class SQLiteCursor : IJavaObject {
 	@Import void setSelectionArguments(string[]);
 	@Import void setFillWindowForwardOnly(bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database.sqlite", "SQLiteCursor");
+	public static immutable string _javaParameterString = "Landroid/database/sqlite/SQLiteCursor";
 }

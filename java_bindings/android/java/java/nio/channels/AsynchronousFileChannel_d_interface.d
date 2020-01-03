@@ -29,5 +29,5 @@ final class AsynchronousFileChannel : IJavaObject {
 	@Import void write(import9.ByteBuffer, long, IJavaObject, import6.CompletionHandler);
 	@Import import7.Future write(import9.ByteBuffer, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "AsynchronousFileChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/AsynchronousFileChannel";
 }

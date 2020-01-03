@@ -10,5 +10,5 @@ final class PrivilegedActionException : IJavaObject {
 	@Import import1.JavaThrowable getCause();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "PrivilegedActionException");
+	public static immutable string _javaParameterString = "Ljava/security/PrivilegedActionException";
 }

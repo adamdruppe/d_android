@@ -66,5 +66,5 @@ final class Color : IJavaObject {
 	@Import static int HSVToColor(float[]);
 	@Import static int HSVToColor(int, float[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Color");
+	public static immutable string _javaParameterString = "Landroid/graphics/Color";
 }

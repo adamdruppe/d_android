@@ -9,5 +9,5 @@ final class FileSystemException : IJavaObject {
 	@Import string getReason();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "FileSystemException");
+	public static immutable string _javaParameterString = "Ljava/nio/file/FileSystemException";
 }

@@ -5,5 +5,5 @@ import import0 = android.java.android.os.IBinder_d_interface;
 
 interface IInterface : IJavaObject {
 	@Import import0.IBinder asBinder();
-	mixin JavaPackageId!("android.os", "IInterface");
+	public static immutable string _javaParameterString = "Landroid/os/IInterface";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("Telephony$CanonicalAddressesColumns")
 interface Telephony_CanonicalAddressesColumns : IJavaObject {
-	mixin JavaPackageId!("android.provider", "Telephony$CanonicalAddressesColumns");
+	public static immutable string _javaParameterString = "Landroid/provider/Telephony$CanonicalAddressesColumns";
 }

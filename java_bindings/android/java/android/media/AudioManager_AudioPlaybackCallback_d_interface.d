@@ -7,5 +7,5 @@ import import0 = android.java.java.util.List_d_interface;
 final class AudioManager_AudioPlaybackCallback : IJavaObject {
 	@Import void onPlaybackConfigChanged(import0.List);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioManager$AudioPlaybackCallback");
+	public static immutable string _javaParameterString = "Landroid/media/AudioManager$AudioPlaybackCallback";
 }

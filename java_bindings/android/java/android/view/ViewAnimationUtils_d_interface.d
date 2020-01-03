@@ -7,5 +7,5 @@ import import0 = android.java.android.animation.Animator_d_interface;
 final class ViewAnimationUtils : IJavaObject {
 	@Import static import0.Animator createCircularReveal(import1.View, int, int, float, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewAnimationUtils");
+	public static immutable string _javaParameterString = "Landroid/view/ViewAnimationUtils";
 }

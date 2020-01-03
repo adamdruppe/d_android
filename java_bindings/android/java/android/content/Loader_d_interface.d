@@ -34,5 +34,5 @@ final class Loader : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import void dump(string, import3.FileDescriptor, import4.PrintWriter, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "Loader");
+	public static immutable string _javaParameterString = "Landroid/content/Loader";
 }

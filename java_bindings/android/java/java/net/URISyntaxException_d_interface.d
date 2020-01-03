@@ -9,5 +9,5 @@ final class URISyntaxException : IJavaObject {
 	@Import int getIndex();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "URISyntaxException");
+	public static immutable string _javaParameterString = "Ljava/net/URISyntaxException";
 }

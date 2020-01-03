@@ -9,5 +9,5 @@ final class MediaPlayer_DrmInfo : IJavaObject {
 	@Import import0.Map getPssh();
 	@Import import1.UUID[] getSupportedSchemes();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaPlayer$DrmInfo");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$DrmInfo";
 }

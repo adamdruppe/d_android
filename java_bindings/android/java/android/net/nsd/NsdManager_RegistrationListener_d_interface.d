@@ -9,5 +9,5 @@ interface NsdManager_RegistrationListener : IJavaObject {
 	@Import void onUnregistrationFailed(import0.NsdServiceInfo, int);
 	@Import void onServiceRegistered(import0.NsdServiceInfo);
 	@Import void onServiceUnregistered(import0.NsdServiceInfo);
-	mixin JavaPackageId!("android.net.nsd", "NsdManager$RegistrationListener");
+	public static immutable string _javaParameterString = "Landroid/net/nsd/NsdManager$RegistrationListener";
 }

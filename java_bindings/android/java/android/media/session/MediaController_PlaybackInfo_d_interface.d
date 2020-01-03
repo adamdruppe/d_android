@@ -11,5 +11,5 @@ final class MediaController_PlaybackInfo : IJavaObject {
 	@Import int getMaxVolume();
 	@Import int getCurrentVolume();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.session", "MediaController$PlaybackInfo");
+	public static immutable string _javaParameterString = "Landroid/media/session/MediaController$PlaybackInfo";
 }

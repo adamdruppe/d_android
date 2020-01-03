@@ -30,5 +30,5 @@ final class StrictMode_VmPolicy_Builder : IJavaObject {
 	@Import import1.StrictMode_VmPolicy_Builder penaltyListener(import3.Executor, import4.StrictMode_OnVmViolationListener);
 	@Import import0.StrictMode_VmPolicy build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "StrictMode$VmPolicy$Builder");
+	public static immutable string _javaParameterString = "Landroid/os/StrictMode$VmPolicy$Builder";
 }

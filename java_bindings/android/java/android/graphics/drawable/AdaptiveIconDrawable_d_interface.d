@@ -55,5 +55,5 @@ final class AdaptiveIconDrawable : IJavaObject {
 	@Import import14.Drawable_ConstantState getConstantState();
 	@Import import0.Drawable mutate();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "AdaptiveIconDrawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/AdaptiveIconDrawable";
 }

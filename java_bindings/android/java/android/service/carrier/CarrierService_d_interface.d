@@ -11,5 +11,5 @@ final class CarrierService : IJavaObject {
 	@Import void notifyCarrierNetworkChange(bool);
 	@Import import2.IBinder onBind(import3.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.carrier", "CarrierService");
+	public static immutable string _javaParameterString = "Landroid/service/carrier/CarrierService";
 }

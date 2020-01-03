@@ -20,5 +20,5 @@ final class CardEmulation : IJavaObject {
 	@Import bool unsetPreferredService(import4.Activity);
 	@Import bool supportsAidPrefixRegistration();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc.cardemulation", "CardEmulation");
+	public static immutable string _javaParameterString = "Landroid/nfc/cardemulation/CardEmulation";
 }

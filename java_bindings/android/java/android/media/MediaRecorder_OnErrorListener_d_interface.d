@@ -6,5 +6,5 @@ import import0 = android.java.android.media.MediaRecorder_d_interface;
 @JavaName("MediaRecorder$OnErrorListener")
 interface MediaRecorder_OnErrorListener : IJavaObject {
 	@Import void onError(import0.MediaRecorder, int, int);
-	mixin JavaPackageId!("android.media", "MediaRecorder$OnErrorListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaRecorder$OnErrorListener";
 }

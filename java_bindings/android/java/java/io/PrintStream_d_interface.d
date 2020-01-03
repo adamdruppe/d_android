@@ -51,5 +51,5 @@ final class PrintStream : IJavaObject {
 	@Import import5.Appendable append(import4.CharSequence, int, int);
 	@Import import5.Appendable append(import4.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "PrintStream");
+	public static immutable string _javaParameterString = "Ljava/io/PrintStream";
 }

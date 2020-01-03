@@ -8,5 +8,5 @@ final class AutofillManager_AutofillCallback : IJavaObject {
 	@Import void onAutofillEvent(import0.View, int);
 	@Import void onAutofillEvent(import0.View, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.autofill", "AutofillManager$AutofillCallback");
+	public static immutable string _javaParameterString = "Landroid/view/autofill/AutofillManager$AutofillCallback";
 }

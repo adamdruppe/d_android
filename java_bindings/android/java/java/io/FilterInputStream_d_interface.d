@@ -12,5 +12,5 @@ final class FilterInputStream : IJavaObject {
 	@Import void reset();
 	@Import bool markSupported();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "FilterInputStream");
+	public static immutable string _javaParameterString = "Ljava/io/FilterInputStream";
 }

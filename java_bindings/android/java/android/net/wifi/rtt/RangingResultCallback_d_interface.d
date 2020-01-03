@@ -7,5 +7,5 @@ final class RangingResultCallback : IJavaObject {
 	@Import void onRangingFailure(int);
 	@Import void onRangingResults(import0.List);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.rtt", "RangingResultCallback");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/rtt/RangingResultCallback";
 }

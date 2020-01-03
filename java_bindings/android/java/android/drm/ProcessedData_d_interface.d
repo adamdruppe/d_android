@@ -6,5 +6,5 @@ final class ProcessedData : IJavaObject {
 	@Import string getAccountId();
 	@Import string getSubscriptionId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.drm", "ProcessedData");
+	public static immutable string _javaParameterString = "Landroid/drm/ProcessedData";
 }

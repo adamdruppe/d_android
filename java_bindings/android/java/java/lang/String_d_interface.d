@@ -25,6 +25,7 @@ final class String : IJavaObject {
 	@Import this(import2.StringBuilder);
 	@Import int length();
 	@Import bool isEmpty();
+	@Import wchar charAt(int);
 	@Import int codePointAt(int);
 	@Import int codePointBefore(int);
 	@Import int codePointCount(int, int);
@@ -38,6 +39,7 @@ final class String : IJavaObject {
 	@Import bool contentEquals(import1.StringBuffer);
 	@Import bool contentEquals(import3.CharSequence);
 	@Import bool equalsIgnoreCase(string);
+	@Import int compareTo(string);
 	@Import int compareToIgnoreCase(string);
 	@Import bool regionMatches(int, string, int, int);
 	@Import bool regionMatches(bool, int, string, int, int);
@@ -56,6 +58,7 @@ final class String : IJavaObject {
 	@Import string substring(int);
 	@Import string substring(int, int);
 	@Import import3.CharSequence subSequence(int, int);
+	@Import string concat(string);
 	@Import string replace(wchar, wchar);
 	@Import bool matches(string);
 	@Import bool contains(import3.CharSequence);
@@ -72,6 +75,7 @@ final class String : IJavaObject {
 	@Import string toUpperCase();
 	@Import string trim();
 	@Import @JavaName("toString") string toString_();
+	@Import wchar[] toCharArray();
 	@Import static string format(string, IJavaObject[]);
 	@Import static string format(import5.Locale, string, IJavaObject[]);
 	@Import static string valueOf(IJavaObject);
@@ -85,7 +89,8 @@ final class String : IJavaObject {
 	@Import static string valueOf(long);
 	@Import static string valueOf(float);
 	@Import static string valueOf(double);
+	@Import string intern();
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "String");
+	public static immutable string _javaParameterString = "Ljava/lang/String";
 }

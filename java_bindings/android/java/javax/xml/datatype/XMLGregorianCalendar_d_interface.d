@@ -51,5 +51,5 @@ final class XMLGregorianCalendar : IJavaObject {
 	@Import import6.TimeZone getTimeZone(int);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.datatype", "XMLGregorianCalendar");
+	public static immutable string _javaParameterString = "Ljavax/xml/datatype/XMLGregorianCalendar";
 }

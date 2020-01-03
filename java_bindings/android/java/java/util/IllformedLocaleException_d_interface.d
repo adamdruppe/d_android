@@ -6,5 +6,5 @@ final class IllformedLocaleException : IJavaObject {
 	@Import this(string, int);
 	@Import int getErrorIndex();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "IllformedLocaleException");
+	public static immutable string _javaParameterString = "Ljava/util/IllformedLocaleException";
 }

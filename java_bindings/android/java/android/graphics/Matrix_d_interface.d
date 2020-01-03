@@ -57,5 +57,5 @@ final class Matrix : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import string toShortString();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Matrix");
+	public static immutable string _javaParameterString = "Landroid/graphics/Matrix";
 }

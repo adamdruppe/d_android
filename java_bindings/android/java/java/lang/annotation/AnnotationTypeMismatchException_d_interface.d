@@ -8,5 +8,5 @@ final class AnnotationTypeMismatchException : IJavaObject {
 	@Import import0.Method element();
 	@Import string foundType();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.annotation", "AnnotationTypeMismatchException");
+	public static immutable string _javaParameterString = "Ljava/lang/annotation/AnnotationTypeMismatchException";
 }

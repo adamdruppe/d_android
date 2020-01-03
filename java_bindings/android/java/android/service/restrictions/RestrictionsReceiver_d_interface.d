@@ -9,5 +9,5 @@ final class RestrictionsReceiver : IJavaObject {
 	@Import void onRequestPermission(import0.Context, string, string, string, import1.PersistableBundle);
 	@Import void onReceive(import0.Context, import2.Intent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.restrictions", "RestrictionsReceiver");
+	public static immutable string _javaParameterString = "Landroid/service/restrictions/RestrictionsReceiver";
 }

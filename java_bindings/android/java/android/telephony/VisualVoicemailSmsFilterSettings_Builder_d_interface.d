@@ -12,5 +12,5 @@ final class VisualVoicemailSmsFilterSettings_Builder : IJavaObject {
 	@Import import1.VisualVoicemailSmsFilterSettings_Builder setOriginatingNumbers(import2.List);
 	@Import import1.VisualVoicemailSmsFilterSettings_Builder setDestinationPort(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "VisualVoicemailSmsFilterSettings$Builder");
+	public static immutable string _javaParameterString = "Landroid/telephony/VisualVoicemailSmsFilterSettings$Builder";
 }

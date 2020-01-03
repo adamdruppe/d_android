@@ -21,5 +21,5 @@ interface TextClassifier : IJavaObject {
 	@Import void onSelectionEvent(import8.SelectionEvent);
 	@Import void destroy();
 	@Import bool isDestroyed();
-	mixin JavaPackageId!("android.view.textclassifier", "TextClassifier");
+	public static immutable string _javaParameterString = "Landroid/view/textclassifier/TextClassifier";
 }

@@ -9,5 +9,5 @@ interface Predicate : IJavaObject {
 	@Import import0.Predicate negate();
 	@Import import0.Predicate or(import0.Predicate);
 	@Import static import0.Predicate isEqual(IJavaObject);
-	mixin JavaPackageId!("java.util.function", "Predicate");
+	public static immutable string _javaParameterString = "Ljava/util/function/Predicate";
 }

@@ -9,5 +9,5 @@ final class GestureDescription : IJavaObject {
 	@Import int getStrokeCount();
 	@Import import0.GestureDescription_StrokeDescription getStroke(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.accessibilityservice", "GestureDescription");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/GestureDescription";
 }

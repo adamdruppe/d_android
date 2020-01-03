@@ -9,5 +9,5 @@ final class WifiRttManager : IJavaObject {
 	@Import bool isAvailable();
 	@Import void startRanging(import0.RangingRequest, import1.Executor, import2.RangingResultCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.rtt", "WifiRttManager");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/rtt/WifiRttManager";
 }

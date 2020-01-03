@@ -36,5 +36,5 @@ final class AlphabeticIndex : IJavaObject {
 	@Import int getRecordCount();
 	@Import import8.Iterator iterator();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "AlphabeticIndex");
+	public static immutable string _javaParameterString = "Landroid/icu/text/AlphabeticIndex";
 }

@@ -8,5 +8,5 @@ final class CRL : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import bool isRevoked(import0.Certificate);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CRL");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CRL";
 }

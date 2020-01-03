@@ -8,5 +8,5 @@ final class MbmsStreamingSessionCallback : IJavaObject {
 	@Import void onStreamingServicesUpdated(import0.List);
 	@Import void onMiddlewareReady();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony.mbms", "MbmsStreamingSessionCallback");
+	public static immutable string _javaParameterString = "Landroid/telephony/mbms/MbmsStreamingSessionCallback";
 }

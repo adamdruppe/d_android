@@ -36,5 +36,5 @@ final class Signature : IJavaObject {
 	@Import IJavaObject getParameter(string);
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Signature");
+	public static immutable string _javaParameterString = "Ljava/security/Signature";
 }

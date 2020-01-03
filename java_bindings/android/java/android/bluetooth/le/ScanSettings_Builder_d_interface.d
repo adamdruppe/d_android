@@ -15,5 +15,5 @@ final class ScanSettings_Builder : IJavaObject {
 	@Import import0.ScanSettings_Builder setPhy(int);
 	@Import import1.ScanSettings build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "ScanSettings$Builder");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/ScanSettings$Builder";
 }

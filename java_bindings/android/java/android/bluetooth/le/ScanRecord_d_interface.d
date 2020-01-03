@@ -18,5 +18,5 @@ final class ScanRecord : IJavaObject {
 	@Import byte[] getBytes();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth.le", "ScanRecord");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/le/ScanRecord";
 }

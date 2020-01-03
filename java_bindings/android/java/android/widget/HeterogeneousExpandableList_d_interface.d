@@ -6,5 +6,5 @@ interface HeterogeneousExpandableList : IJavaObject {
 	@Import int getChildType(int, int);
 	@Import int getGroupTypeCount();
 	@Import int getChildTypeCount();
-	mixin JavaPackageId!("android.widget", "HeterogeneousExpandableList");
+	public static immutable string _javaParameterString = "Landroid/widget/HeterogeneousExpandableList";
 }

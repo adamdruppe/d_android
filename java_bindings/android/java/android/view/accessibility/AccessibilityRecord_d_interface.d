@@ -61,5 +61,5 @@ final class AccessibilityRecord : IJavaObject {
 	@Import void recycle();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.accessibility", "AccessibilityRecord");
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityRecord";
 }

@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class PorterDuff : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "PorterDuff");
+	public static immutable string _javaParameterString = "Landroid/graphics/PorterDuff";
 }

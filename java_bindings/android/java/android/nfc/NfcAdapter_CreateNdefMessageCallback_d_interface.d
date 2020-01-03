@@ -7,5 +7,5 @@ import import1 = android.java.android.nfc.NfcEvent_d_interface;
 @JavaName("NfcAdapter$CreateNdefMessageCallback")
 interface NfcAdapter_CreateNdefMessageCallback : IJavaObject {
 	@Import import0.NdefMessage createNdefMessage(import1.NfcEvent);
-	mixin JavaPackageId!("android.nfc", "NfcAdapter$CreateNdefMessageCallback");
+	public static immutable string _javaParameterString = "Landroid/nfc/NfcAdapter$CreateNdefMessageCallback";
 }

@@ -31,5 +31,5 @@ final class MtpObjectInfo : IJavaObject {
 	@Import long getDateModified();
 	@Import string getKeywords();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.mtp", "MtpObjectInfo");
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpObjectInfo";
 }

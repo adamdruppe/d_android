@@ -14,5 +14,5 @@ interface Attributes : IJavaObject {
 	@Import string getType(string);
 	@Import string getValue(string, string);
 	@Import string getValue(string);
-	mixin JavaPackageId!("org.xml.sax", "Attributes");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/Attributes";
 }

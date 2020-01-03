@@ -9,5 +9,5 @@ final class Permissions : IJavaObject {
 	@Import bool implies(import0.Permission);
 	@Import import1.Enumeration elements();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "Permissions");
+	public static immutable string _javaParameterString = "Ljava/security/Permissions";
 }

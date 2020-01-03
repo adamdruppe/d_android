@@ -9,5 +9,5 @@ final class PropertyChangeListenerProxy : IJavaObject {
 	@Import void propertyChange(import1.PropertyChangeEvent);
 	@Import string getPropertyName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.beans", "PropertyChangeListenerProxy");
+	public static immutable string _javaParameterString = "Ljava/beans/PropertyChangeListenerProxy";
 }

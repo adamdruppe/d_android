@@ -24,5 +24,5 @@ final class Deflater : IJavaObject {
 	@Import void reset();
 	@Import void end();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "Deflater");
+	public static immutable string _javaParameterString = "Ljava/util/zip/Deflater";
 }

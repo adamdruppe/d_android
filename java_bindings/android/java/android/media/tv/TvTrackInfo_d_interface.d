@@ -23,5 +23,5 @@ final class TvTrackInfo : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvTrackInfo");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvTrackInfo";
 }

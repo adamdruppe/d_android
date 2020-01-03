@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AlarmManager$OnAlarmListener")
 interface AlarmManager_OnAlarmListener : IJavaObject {
 	@Import void onAlarm();
-	mixin JavaPackageId!("android.app", "AlarmManager$OnAlarmListener");
+	public static immutable string _javaParameterString = "Landroid/app/AlarmManager$OnAlarmListener";
 }

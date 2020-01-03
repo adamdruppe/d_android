@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.JavaException_d_interface;
 final class CoderMalfunctionError : IJavaObject {
 	@Import this(import0.JavaException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.charset", "CoderMalfunctionError");
+	public static immutable string _javaParameterString = "Ljava/nio/charset/CoderMalfunctionError";
 }

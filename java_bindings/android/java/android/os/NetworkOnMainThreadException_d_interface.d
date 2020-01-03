@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class NetworkOnMainThreadException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "NetworkOnMainThreadException");
+	public static immutable string _javaParameterString = "Landroid/os/NetworkOnMainThreadException";
 }

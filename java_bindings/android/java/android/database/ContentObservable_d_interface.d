@@ -11,5 +11,5 @@ final class ContentObservable : IJavaObject {
 	@Import void notifyChange(bool);
 	@Import void registerObserver(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "ContentObservable");
+	public static immutable string _javaParameterString = "Landroid/database/ContentObservable";
 }

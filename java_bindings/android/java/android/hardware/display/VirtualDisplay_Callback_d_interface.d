@@ -7,5 +7,5 @@ final class VirtualDisplay_Callback : IJavaObject {
 	@Import void onResumed();
 	@Import void onStopped();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.display", "VirtualDisplay$Callback");
+	public static immutable string _javaParameterString = "Landroid/hardware/display/VirtualDisplay$Callback";
 }

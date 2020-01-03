@@ -31,5 +31,5 @@ final class RemoteConnection_Callback : IJavaObject {
 	@Import void onExtrasChanged(import0.RemoteConnection, import7.Bundle);
 	@Import void onConnectionEvent(import0.RemoteConnection, string, import7.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "RemoteConnection$Callback");
+	public static immutable string _javaParameterString = "Landroid/telecom/RemoteConnection$Callback";
 }

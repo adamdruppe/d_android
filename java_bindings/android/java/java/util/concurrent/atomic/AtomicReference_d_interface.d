@@ -18,5 +18,5 @@ final class AtomicReference : IJavaObject {
 	@Import IJavaObject accumulateAndGet(IJavaObject, import1.BinaryOperator);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "AtomicReference");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/AtomicReference";
 }

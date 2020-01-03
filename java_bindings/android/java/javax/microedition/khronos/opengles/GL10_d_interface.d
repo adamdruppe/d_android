@@ -129,5 +129,5 @@ interface GL10 : IJavaObject {
 	@Import void glTranslatex(int, int, int);
 	@Import void glVertexPointer(int, int, int, import0.Buffer);
 	@Import void glViewport(int, int, int, int);
-	mixin JavaPackageId!("javax.microedition.khronos.opengles", "GL10");
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/opengles/GL10";
 }

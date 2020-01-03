@@ -49,5 +49,5 @@ final class PreferenceActivity : IJavaObject {
 	@Import bool onPreferenceTreeClick(import12.PreferenceScreen, import10.Preference);
 	@Import import10.Preference findPreference(import7.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "PreferenceActivity");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceActivity";
 }

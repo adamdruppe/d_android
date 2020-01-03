@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("RecoverySystem$ProgressListener")
 interface RecoverySystem_ProgressListener : IJavaObject {
 	@Import void onProgress(int);
-	mixin JavaPackageId!("android.os", "RecoverySystem$ProgressListener");
+	public static immutable string _javaParameterString = "Landroid/os/RecoverySystem$ProgressListener";
 }

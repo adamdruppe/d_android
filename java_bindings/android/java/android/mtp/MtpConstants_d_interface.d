@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MtpConstants : IJavaObject {
 	@Import static bool isAbstractObject(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.mtp", "MtpConstants");
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpConstants";
 }

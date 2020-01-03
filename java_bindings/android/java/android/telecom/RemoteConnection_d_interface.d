@@ -45,5 +45,5 @@ final class RemoteConnection : IJavaObject {
 	@Import import9.List getConferenceableConnections();
 	@Import import10.RemoteConference getConference();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "RemoteConnection");
+	public static immutable string _javaParameterString = "Landroid/telecom/RemoteConnection";
 }

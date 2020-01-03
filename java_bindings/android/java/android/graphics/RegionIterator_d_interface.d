@@ -8,5 +8,5 @@ final class RegionIterator : IJavaObject {
 	@Import this(import0.Region);
 	@Import bool next(import1.Rect);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "RegionIterator");
+	public static immutable string _javaParameterString = "Landroid/graphics/RegionIterator";
 }

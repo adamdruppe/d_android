@@ -28,5 +28,5 @@ final class RelativeDateTimeFormatter : IJavaObject {
 	@Import import5.DisplayContext getCapitalizationContext();
 	@Import import4.RelativeDateTimeFormatter_Style getFormatStyle();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "RelativeDateTimeFormatter");
+	public static immutable string _javaParameterString = "Landroid/icu/text/RelativeDateTimeFormatter";
 }

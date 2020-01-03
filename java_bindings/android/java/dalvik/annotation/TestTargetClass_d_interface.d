@@ -5,5 +5,5 @@ import import0 = android.java.java.lang.Class_d_interface;
 
 interface TestTargetClass : IJavaObject {
 	@Import import0.Class value();
-	mixin JavaPackageId!("dalvik.annotation", "TestTargetClass");
+	public static immutable string _javaParameterString = "Ldalvik/annotation/TestTargetClass";
 }

@@ -13,5 +13,5 @@ final class ResourceCursorTreeAdapter : IJavaObject {
 	@Import import2.View newChildView(import0.Context, import1.Cursor, bool, import3.ViewGroup);
 	@Import import2.View newGroupView(import0.Context, import1.Cursor, bool, import3.ViewGroup);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ResourceCursorTreeAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/ResourceCursorTreeAdapter";
 }

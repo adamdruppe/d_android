@@ -19,5 +19,5 @@ final class JapaneseCalendar : IJavaObject {
 	@Import string getType();
 	@Import int getActualMaximum(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.util", "JapaneseCalendar");
+	public static immutable string _javaParameterString = "Landroid/icu/util/JapaneseCalendar";
 }

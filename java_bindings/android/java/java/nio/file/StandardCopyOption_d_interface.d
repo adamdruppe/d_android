@@ -7,5 +7,5 @@ final class StandardCopyOption : IJavaObject {
 	@Import static import0.StandardCopyOption[] values();
 	@Import static import0.StandardCopyOption valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file", "StandardCopyOption");
+	public static immutable string _javaParameterString = "Ljava/nio/file/StandardCopyOption";
 }

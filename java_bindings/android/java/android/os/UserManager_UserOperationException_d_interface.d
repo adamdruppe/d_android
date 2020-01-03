@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class UserManager_UserOperationException : IJavaObject {
 	@Import int getUserOperationResult();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "UserManager$UserOperationException");
+	public static immutable string _javaParameterString = "Landroid/os/UserManager$UserOperationException";
 }

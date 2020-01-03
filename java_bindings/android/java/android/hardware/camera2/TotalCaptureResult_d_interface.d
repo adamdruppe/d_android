@@ -8,5 +8,5 @@ final class TotalCaptureResult : IJavaObject {
 	@Import import0.List getPartialResults();
 	@Import import1.Map getPhysicalCameraResults();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "TotalCaptureResult");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/TotalCaptureResult";
 }

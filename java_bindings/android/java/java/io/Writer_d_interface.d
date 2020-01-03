@@ -20,5 +20,5 @@ final class Writer : IJavaObject {
 	@Import import2.Appendable append(import1.CharSequence, int, int);
 	@Import import2.Appendable append(import1.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.io", "Writer");
+	public static immutable string _javaParameterString = "Ljava/io/Writer";
 }

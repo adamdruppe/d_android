@@ -24,5 +24,5 @@ final class DatagramPacket : IJavaObject {
 	@Import void setData(byte[]);
 	@Import void setLength(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "DatagramPacket");
+	public static immutable string _javaParameterString = "Ljava/net/DatagramPacket";
 }

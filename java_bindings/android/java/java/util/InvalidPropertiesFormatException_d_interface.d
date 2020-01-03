@@ -7,5 +7,5 @@ final class InvalidPropertiesFormatException : IJavaObject {
 	@Import this(import0.JavaThrowable);
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "InvalidPropertiesFormatException");
+	public static immutable string _javaParameterString = "Ljava/util/InvalidPropertiesFormatException";
 }

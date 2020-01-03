@@ -28,6 +28,8 @@ final class Float : IJavaObject {
 	@Import static int hashCode(float);
 	@Import bool equals(IJavaObject);
 	@Import static int floatToIntBits(float);
+	@Import static int floatToRawIntBits(float);
+	@Import static float intBitsToFloat(int);
 	@Import int compareTo(import0.Float);
 	@Import static int compare(float, float);
 	@Import static float sum(float, float);
@@ -35,5 +37,5 @@ final class Float : IJavaObject {
 	@Import static float min(float, float);
 	@Import int compareTo(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Float");
+	public static immutable string _javaParameterString = "Ljava/lang/Float";
 }

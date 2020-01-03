@@ -51,5 +51,5 @@ final class Animation : IJavaObject {
 	@Import bool hasStarted();
 	@Import bool hasEnded();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "Animation");
+	public static immutable string _javaParameterString = "Landroid/view/animation/Animation";
 }

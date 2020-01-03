@@ -12,5 +12,5 @@ final class PatternPathMotion : IJavaObject {
 	@Import void setPatternPath(import2.Path);
 	@Import import2.Path getPath(float, float, float, float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "PatternPathMotion");
+	public static immutable string _javaParameterString = "Landroid/transition/PatternPathMotion";
 }

@@ -29,5 +29,5 @@ final class DeviceAdminInfo : IJavaObject {
 	@Import void writeToParcel(import8.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "DeviceAdminInfo");
+	public static immutable string _javaParameterString = "Landroid/app/admin/DeviceAdminInfo";
 }

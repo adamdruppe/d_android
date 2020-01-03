@@ -8,5 +8,5 @@ final class RenderScript_Priority : IJavaObject {
 	@Import static import0.RenderScript_Priority[] values();
 	@Import static import0.RenderScript_Priority valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "RenderScript$Priority");
+	public static immutable string _javaParameterString = "Landroid/renderscript/RenderScript$Priority";
 }

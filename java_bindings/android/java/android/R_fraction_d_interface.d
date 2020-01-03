@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("R$fraction")
 final class R_fraction : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "R$fraction");
+	public static immutable string _javaParameterString = "Landroid/R$fraction";
 }

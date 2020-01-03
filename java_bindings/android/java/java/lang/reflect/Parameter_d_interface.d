@@ -26,5 +26,5 @@ final class Parameter : IJavaObject {
 	@Import import3.Annotation[] getDeclaredAnnotationsByType(import2.Class);
 	@Import import3.Annotation[] getAnnotations();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang.reflect", "Parameter");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/Parameter";
 }

@@ -20,5 +20,5 @@ final class AppWidgetProviderInfo : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.appwidget", "AppWidgetProviderInfo");
+	public static immutable string _javaParameterString = "Landroid/appwidget/AppWidgetProviderInfo";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("R$dimen")
 final class R_dimen : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android", "R$dimen");
+	public static immutable string _javaParameterString = "Landroid/R$dimen";
 }

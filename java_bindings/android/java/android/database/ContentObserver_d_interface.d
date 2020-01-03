@@ -12,5 +12,5 @@ final class ContentObserver : IJavaObject {
 	@Import void dispatchChange(bool);
 	@Import void dispatchChange(bool, import1.Uri);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "ContentObserver");
+	public static immutable string _javaParameterString = "Landroid/database/ContentObserver";
 }

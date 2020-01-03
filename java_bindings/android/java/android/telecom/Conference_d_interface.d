@@ -58,5 +58,5 @@ final class Conference : IJavaObject {
 	@Import import7.Bundle getExtras();
 	@Import void onExtrasChanged(import7.Bundle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "Conference");
+	public static immutable string _javaParameterString = "Landroid/telecom/Conference";
 }

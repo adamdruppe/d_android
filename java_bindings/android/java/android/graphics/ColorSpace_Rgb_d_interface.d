@@ -36,5 +36,5 @@ final class ColorSpace_Rgb : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ColorSpace$Rgb");
+	public static immutable string _javaParameterString = "Landroid/graphics/ColorSpace$Rgb";
 }

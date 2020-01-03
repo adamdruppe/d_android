@@ -22,5 +22,5 @@ final class RelativeLayout_LayoutParams : IJavaObject {
 	@Import int[] getRules();
 	@Import void resolveLayoutDirection(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RelativeLayout$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/widget/RelativeLayout$LayoutParams";
 }

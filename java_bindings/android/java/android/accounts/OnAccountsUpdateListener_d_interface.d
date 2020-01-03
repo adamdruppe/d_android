@@ -5,5 +5,5 @@ import import0 = android.java.android.accounts.Account_d_interface;
 
 interface OnAccountsUpdateListener : IJavaObject {
 	@Import void onAccountsUpdated(import0.Account[]);
-	mixin JavaPackageId!("android.accounts", "OnAccountsUpdateListener");
+	public static immutable string _javaParameterString = "Landroid/accounts/OnAccountsUpdateListener";
 }

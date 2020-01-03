@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class Int3 : IJavaObject {
 	@Import this(int, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Int3");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Int3";
 }

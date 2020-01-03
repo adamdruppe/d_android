@@ -54,5 +54,5 @@ final class ConnectivityManager : IJavaObject {
 	@Import int getRestrictBackgroundStatus();
 	@Import byte[] getNetworkWatchlistConfigHash();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "ConnectivityManager");
+	public static immutable string _javaParameterString = "Landroid/net/ConnectivityManager";
 }

@@ -46,5 +46,5 @@ final class ConcurrentSkipListSet : IJavaObject {
 	@Import import2.SortedSet headSet(IJavaObject);
 	@Import import2.SortedSet subSet(IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentSkipListSet");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentSkipListSet";
 }

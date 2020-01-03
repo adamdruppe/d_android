@@ -19,5 +19,5 @@ final class AutofillService : IJavaObject {
 	@Import void onDisconnected();
 	@Import import7.FillEventHistory getFillEventHistory();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "AutofillService");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/AutofillService";
 }

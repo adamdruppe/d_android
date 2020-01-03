@@ -88,5 +88,5 @@ final class Drawable : IJavaObject {
 	@Import void inflate(import12.Resources, import15.XmlPullParser, import16.AttributeSet, import8.Resources_Theme);
 	@Import import17.Drawable_ConstantState getConstantState();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "Drawable");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Drawable";
 }

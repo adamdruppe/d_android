@@ -27,5 +27,5 @@ final class Subject : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth", "Subject");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/Subject";
 }

@@ -13,5 +13,5 @@ final class Drawable_ConstantState : IJavaObject {
 	@Import int getChangingConfigurations();
 	@Import bool canApplyTheme();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "Drawable$ConstantState");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Drawable$ConstantState";
 }

@@ -8,5 +8,5 @@ final class WebSettings_PluginState : IJavaObject {
 	@Import static import0.WebSettings_PluginState[] values();
 	@Import static import0.WebSettings_PluginState valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebSettings$PluginState");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebSettings$PluginState";
 }

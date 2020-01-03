@@ -6,5 +6,5 @@ import import0 = android.java.android.widget.RatingBar_d_interface;
 @JavaName("RatingBar$OnRatingBarChangeListener")
 interface RatingBar_OnRatingBarChangeListener : IJavaObject {
 	@Import void onRatingChanged(import0.RatingBar, float, bool);
-	mixin JavaPackageId!("android.widget", "RatingBar$OnRatingBarChangeListener");
+	public static immutable string _javaParameterString = "Landroid/widget/RatingBar$OnRatingBarChangeListener";
 }

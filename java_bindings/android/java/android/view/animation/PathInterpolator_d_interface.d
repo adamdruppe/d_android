@@ -12,5 +12,5 @@ final class PathInterpolator : IJavaObject {
 	@Import this(import1.Context, import2.AttributeSet);
 	@Import float getInterpolation(float);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "PathInterpolator");
+	public static immutable string _javaParameterString = "Landroid/view/animation/PathInterpolator";
 }

@@ -16,5 +16,5 @@ final class AccessController : IJavaObject {
 	@Import static import1.AccessControlContext getContext();
 	@Import static void checkPermission(import3.Permission);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "AccessController");
+	public static immutable string _javaParameterString = "Ljava/security/AccessController";
 }

@@ -8,5 +8,5 @@ final class Stack : IJavaObject {
 	@Import bool empty();
 	@Import int search(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Stack");
+	public static immutable string _javaParameterString = "Ljava/util/Stack";
 }

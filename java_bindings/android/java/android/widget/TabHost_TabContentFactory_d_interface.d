@@ -6,5 +6,5 @@ import import0 = android.java.android.view.View_d_interface;
 @JavaName("TabHost$TabContentFactory")
 interface TabHost_TabContentFactory : IJavaObject {
 	@Import import0.View createTabContent(string);
-	mixin JavaPackageId!("android.widget", "TabHost$TabContentFactory");
+	public static immutable string _javaParameterString = "Landroid/widget/TabHost$TabContentFactory";
 }

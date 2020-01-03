@@ -8,5 +8,5 @@ final class Camera_Area : IJavaObject {
 	@Import this(import0.Rect, int);
 	@Import bool equals(IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "Camera$Area");
+	public static immutable string _javaParameterString = "Landroid/hardware/Camera$Area";
 }

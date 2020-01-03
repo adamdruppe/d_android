@@ -11,5 +11,5 @@ final class SensorEventCallback : IJavaObject {
 	@Import void onFlushCompleted(import1.Sensor);
 	@Import void onSensorAdditionalInfo(import2.SensorAdditionalInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware", "SensorEventCallback");
+	public static immutable string _javaParameterString = "Landroid/hardware/SensorEventCallback";
 }

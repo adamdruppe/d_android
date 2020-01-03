@@ -34,5 +34,5 @@ interface Menu : IJavaObject {
 	@Import bool performIdentifierAction(int, int);
 	@Import void setQwertyMode(bool);
 	@Import void setGroupDividerEnabled(bool);
-	mixin JavaPackageId!("android.view", "Menu");
+	public static immutable string _javaParameterString = "Landroid/view/Menu";
 }

@@ -30,5 +30,5 @@ final class ServiceState : IJavaObject {
 	@Import int getCdmaNetworkId();
 	@Import int getCdmaSystemId();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "ServiceState");
+	public static immutable string _javaParameterString = "Landroid/telephony/ServiceState";
 }

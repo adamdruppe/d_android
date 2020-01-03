@@ -12,5 +12,5 @@ final class UserData_Builder : IJavaObject {
 	@Import import0.UserData_Builder add(string, string);
 	@Import import2.UserData build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "UserData$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/UserData$Builder";
 }

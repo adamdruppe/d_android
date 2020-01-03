@@ -8,5 +8,5 @@ final class DateFormat_Field : IJavaObject {
 	@Import static import0.DateFormat_Field ofCalendarField(int);
 	@Import int getCalendarField();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.text", "DateFormat$Field");
+	public static immutable string _javaParameterString = "Ljava/text/DateFormat$Field";
 }

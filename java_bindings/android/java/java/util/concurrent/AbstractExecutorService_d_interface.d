@@ -17,5 +17,5 @@ final class AbstractExecutorService : IJavaObject {
 	@Import import5.List invokeAll(import3.Collection);
 	@Import import5.List invokeAll(import3.Collection, long, import4.TimeUnit);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "AbstractExecutorService");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/AbstractExecutorService";
 }

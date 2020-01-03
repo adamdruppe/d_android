@@ -5,5 +5,5 @@ import import0 = android.java.java.nio.ByteBuffer_d_interface;
 
 interface ReadableByteChannel : IJavaObject {
 	@Import int read(import0.ByteBuffer);
-	mixin JavaPackageId!("java.nio.channels", "ReadableByteChannel");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/ReadableByteChannel";
 }

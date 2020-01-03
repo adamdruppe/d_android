@@ -8,5 +8,5 @@ final class Locale_FilteringMode : IJavaObject {
 	@Import static import0.Locale_FilteringMode[] values();
 	@Import static import0.Locale_FilteringMode valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Locale$FilteringMode");
+	public static immutable string _javaParameterString = "Ljava/util/Locale$FilteringMode";
 }

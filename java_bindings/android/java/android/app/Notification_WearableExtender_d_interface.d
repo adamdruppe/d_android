@@ -60,5 +60,5 @@ final class Notification_WearableExtender : IJavaObject {
 	@Import string getBridgeTag();
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "Notification$WearableExtender");
+	public static immutable string _javaParameterString = "Landroid/app/Notification$WearableExtender";
 }

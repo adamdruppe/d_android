@@ -96,5 +96,5 @@ final class MotionEvent : IJavaObject {
 	@Import bool isButtonPressed(int);
 	@Import void writeToParcel(import4.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "MotionEvent");
+	public static immutable string _javaParameterString = "Landroid/view/MotionEvent";
 }

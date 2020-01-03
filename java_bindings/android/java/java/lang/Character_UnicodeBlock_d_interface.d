@@ -9,5 +9,5 @@ final class Character_UnicodeBlock : IJavaObject {
 	@Import static import0.Character_UnicodeBlock of(int);
 	@Import static import0.Character_UnicodeBlock forName(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "Character$UnicodeBlock");
+	public static immutable string _javaParameterString = "Ljava/lang/Character$UnicodeBlock";
 }

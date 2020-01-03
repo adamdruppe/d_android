@@ -6,5 +6,5 @@ final class LightingColorFilter : IJavaObject {
 	@Import int getColorMultiply();
 	@Import int getColorAdd();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "LightingColorFilter");
+	public static immutable string _javaParameterString = "Landroid/graphics/LightingColorFilter";
 }

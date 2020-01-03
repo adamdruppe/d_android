@@ -18,5 +18,5 @@ final class Matrix2f : IJavaObject {
 	@Import void scale(float, float);
 	@Import void transpose();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Matrix2f");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Matrix2f";
 }

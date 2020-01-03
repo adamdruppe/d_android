@@ -8,5 +8,5 @@ final class TtsSpan_TextBuilder : IJavaObject {
 	@Import this(string);
 	@Import import0.TtsSpan_TextBuilder setText(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TtsSpan$TextBuilder");
+	public static immutable string _javaParameterString = "Landroid/text/style/TtsSpan$TextBuilder";
 }

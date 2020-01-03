@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class FileUriExposedViolation : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os.strictmode", "FileUriExposedViolation");
+	public static immutable string _javaParameterString = "Landroid/os/strictmode/FileUriExposedViolation";
 }

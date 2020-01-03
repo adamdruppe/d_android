@@ -12,5 +12,5 @@ final class CallScreeningService : IJavaObject {
 	@Import void onScreenCall(import2.Call_Details);
 	@Import void respondToCall(import2.Call_Details, import3.CallScreeningService_CallResponse);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "CallScreeningService");
+	public static immutable string _javaParameterString = "Landroid/telecom/CallScreeningService";
 }

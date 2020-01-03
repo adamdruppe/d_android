@@ -6,5 +6,5 @@ import import1 = android.java.android.media.VolumeShaper_Configuration_d_interfa
 
 interface VolumeAutomation : IJavaObject {
 	@Import import0.VolumeShaper createVolumeShaper(import1.VolumeShaper_Configuration);
-	mixin JavaPackageId!("android.media", "VolumeAutomation");
+	public static immutable string _javaParameterString = "Landroid/media/VolumeAutomation";
 }

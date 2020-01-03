@@ -9,5 +9,5 @@ final class PermissionRequest : IJavaObject {
 	@Import void grant(string[]);
 	@Import void deny();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "PermissionRequest");
+	public static immutable string _javaParameterString = "Landroid/webkit/PermissionRequest";
 }

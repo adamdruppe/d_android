@@ -12,5 +12,5 @@ final class CharSequenceTransformation_Builder : IJavaObject {
 	@Import import2.CharSequenceTransformation_Builder addField(import0.AutofillId, import1.Pattern, string);
 	@Import import3.CharSequenceTransformation build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.autofill", "CharSequenceTransformation$Builder");
+	public static immutable string _javaParameterString = "Landroid/service/autofill/CharSequenceTransformation$Builder";
 }

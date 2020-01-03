@@ -9,5 +9,5 @@ final class CompanionDeviceManager_Callback : IJavaObject {
 	@Import void onDeviceFound(import0.IntentSender);
 	@Import void onFailure(import1.CharSequence);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.companion", "CompanionDeviceManager$Callback");
+	public static immutable string _javaParameterString = "Landroid/companion/CompanionDeviceManager$Callback";
 }

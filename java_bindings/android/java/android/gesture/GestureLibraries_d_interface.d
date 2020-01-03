@@ -11,5 +11,5 @@ final class GestureLibraries : IJavaObject {
 	@Import static import0.GestureLibrary fromPrivateFile(import2.Context, string);
 	@Import static import0.GestureLibrary fromRawResource(import2.Context, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.gesture", "GestureLibraries");
+	public static immutable string _javaParameterString = "Landroid/gesture/GestureLibraries";
 }

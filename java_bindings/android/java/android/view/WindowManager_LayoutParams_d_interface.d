@@ -24,5 +24,5 @@ final class WindowManager_LayoutParams : IJavaObject {
 	@Import @JavaName("debug") string debug_(string);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "WindowManager$LayoutParams");
+	public static immutable string _javaParameterString = "Landroid/view/WindowManager$LayoutParams";
 }

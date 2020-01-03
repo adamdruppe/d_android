@@ -16,5 +16,5 @@ final class RangingRequest_Builder : IJavaObject {
 	@Import import0.RangingRequest_Builder addWifiAwarePeer(import4.PeerHandle);
 	@Import import5.RangingRequest build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.rtt", "RangingRequest$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/rtt/RangingRequest$Builder";
 }

@@ -19,5 +19,5 @@ final class VoiceInteractor_PickOptionRequest_Option : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "VoiceInteractor$PickOptionRequest$Option");
+	public static immutable string _javaParameterString = "Landroid/app/VoiceInteractor$PickOptionRequest$Option";
 }

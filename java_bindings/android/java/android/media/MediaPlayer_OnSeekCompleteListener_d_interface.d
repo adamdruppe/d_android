@@ -6,5 +6,5 @@ import import0 = android.java.android.media.MediaPlayer_d_interface;
 @JavaName("MediaPlayer$OnSeekCompleteListener")
 interface MediaPlayer_OnSeekCompleteListener : IJavaObject {
 	@Import void onSeekComplete(import0.MediaPlayer);
-	mixin JavaPackageId!("android.media", "MediaPlayer$OnSeekCompleteListener");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$OnSeekCompleteListener";
 }

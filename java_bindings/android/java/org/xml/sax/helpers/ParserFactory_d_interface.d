@@ -7,5 +7,5 @@ final class ParserFactory : IJavaObject {
 	@Import static import0.Parser makeParser();
 	@Import static import0.Parser makeParser(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "ParserFactory");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/ParserFactory";
 }

@@ -8,5 +8,5 @@ final class RenderScript_ContextType : IJavaObject {
 	@Import static import0.RenderScript_ContextType[] values();
 	@Import static import0.RenderScript_ContextType valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "RenderScript$ContextType");
+	public static immutable string _javaParameterString = "Landroid/renderscript/RenderScript$ContextType";
 }

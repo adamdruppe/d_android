@@ -9,5 +9,5 @@ interface TransferQueue : IJavaObject {
 	@Import bool tryTransfer(IJavaObject, long, import0.TimeUnit);
 	@Import bool hasWaitingConsumer();
 	@Import int getWaitingConsumerCount();
-	mixin JavaPackageId!("java.util.concurrent", "TransferQueue");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/TransferQueue";
 }

@@ -57,5 +57,5 @@ final class TreeMap : IJavaObject {
 	@Import void forEach(import8.BiConsumer);
 	@Import void replaceAll(import9.BiFunction);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "TreeMap");
+	public static immutable string _javaParameterString = "Ljava/util/TreeMap";
 }

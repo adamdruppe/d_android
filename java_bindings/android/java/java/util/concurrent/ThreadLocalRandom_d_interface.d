@@ -34,5 +34,5 @@ final class ThreadLocalRandom : IJavaObject {
 	@Import import3.DoubleStream doubles(long, double, double);
 	@Import import3.DoubleStream doubles(double, double);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ThreadLocalRandom");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ThreadLocalRandom";
 }

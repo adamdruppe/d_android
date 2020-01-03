@@ -21,5 +21,5 @@ final class TypedValue : IJavaObject {
 	@Import void setTo(import2.TypedValue);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.util", "TypedValue");
+	public static immutable string _javaParameterString = "Landroid/util/TypedValue";
 }

@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface Enumeration : IJavaObject {
 	@Import bool hasMoreElements();
 	@Import IJavaObject nextElement();
-	mixin JavaPackageId!("java.util", "Enumeration");
+	public static immutable string _javaParameterString = "Ljava/util/Enumeration";
 }

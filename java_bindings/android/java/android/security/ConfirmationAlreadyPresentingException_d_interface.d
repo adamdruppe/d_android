@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class ConfirmationAlreadyPresentingException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.security", "ConfirmationAlreadyPresentingException");
+	public static immutable string _javaParameterString = "Landroid/security/ConfirmationAlreadyPresentingException";
 }

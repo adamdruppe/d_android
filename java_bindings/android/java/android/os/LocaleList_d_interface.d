@@ -24,5 +24,5 @@ final class LocaleList : IJavaObject {
 	@Import static import2.LocaleList getAdjustedDefault();
 	@Import static void setDefault(import2.LocaleList);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "LocaleList");
+	public static immutable string _javaParameterString = "Landroid/os/LocaleList";
 }

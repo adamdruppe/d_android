@@ -14,5 +14,5 @@ final class WindowId : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "WindowId");
+	public static immutable string _javaParameterString = "Landroid/view/WindowId";
 }

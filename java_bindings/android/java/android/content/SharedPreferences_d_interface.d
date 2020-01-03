@@ -18,5 +18,5 @@ interface SharedPreferences : IJavaObject {
 	@Import import2.SharedPreferences_Editor edit();
 	@Import void registerOnSharedPreferenceChangeListener(import3.SharedPreferences_OnSharedPreferenceChangeListener);
 	@Import void unregisterOnSharedPreferenceChangeListener(import3.SharedPreferences_OnSharedPreferenceChangeListener);
-	mixin JavaPackageId!("android.content", "SharedPreferences");
+	public static immutable string _javaParameterString = "Landroid/content/SharedPreferences";
 }

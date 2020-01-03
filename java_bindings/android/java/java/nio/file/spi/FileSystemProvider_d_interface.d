@@ -55,5 +55,5 @@ final class FileSystemProvider : IJavaObject {
 	@Import import3.Map readAttributes(import4.Path, string, import21.LinkOption[]);
 	@Import void setAttribute(import4.Path, string, IJavaObject, import21.LinkOption[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.file.spi", "FileSystemProvider");
+	public static immutable string _javaParameterString = "Ljava/nio/file/spi/FileSystemProvider";
 }

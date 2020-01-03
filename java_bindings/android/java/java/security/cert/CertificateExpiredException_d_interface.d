@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class CertificateExpiredException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertificateExpiredException");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertificateExpiredException";
 }

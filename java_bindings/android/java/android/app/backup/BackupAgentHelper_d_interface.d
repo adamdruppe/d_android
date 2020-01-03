@@ -11,5 +11,5 @@ final class BackupAgentHelper : IJavaObject {
 	@Import void onRestore(import2.BackupDataInput, int, import0.ParcelFileDescriptor);
 	@Import void addHelper(string, import3.BackupHelper);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.backup", "BackupAgentHelper");
+	public static immutable string _javaParameterString = "Landroid/app/backup/BackupAgentHelper";
 }

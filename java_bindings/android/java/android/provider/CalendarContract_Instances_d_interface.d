@@ -9,5 +9,5 @@ final class CalendarContract_Instances : IJavaObject {
 	@Import static import0.Cursor query(import1.ContentResolver, string, long, long[]);
 	@Import static import0.Cursor query(import1.ContentResolver, string, long, long, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "CalendarContract$Instances");
+	public static immutable string _javaParameterString = "Landroid/provider/CalendarContract$Instances";
 }

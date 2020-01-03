@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ImageDecoder$Source")
 final class ImageDecoder_Source : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "ImageDecoder$Source");
+	public static immutable string _javaParameterString = "Landroid/graphics/ImageDecoder$Source";
 }

@@ -28,5 +28,5 @@ final class ShortcutManager : IJavaObject {
 	@Import bool requestPinShortcut(import2.ShortcutInfo, import3.IntentSender);
 	@Import import4.Intent createShortcutResultIntent(import2.ShortcutInfo);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ShortcutManager");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ShortcutManager";
 }

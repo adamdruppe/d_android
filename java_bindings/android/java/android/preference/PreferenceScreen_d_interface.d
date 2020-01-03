@@ -15,5 +15,5 @@ final class PreferenceScreen : IJavaObject {
 	@Import import3.Dialog getDialog();
 	@Import void onItemClick(import4.AdapterView, import5.View, int, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.preference", "PreferenceScreen");
+	public static immutable string _javaParameterString = "Landroid/preference/PreferenceScreen";
 }

@@ -9,5 +9,5 @@ final class LauncherActivity_IconResizer : IJavaObject {
 	@Import this(import0.LauncherActivity);
 	@Import import1.Drawable createIconThumbnail(import1.Drawable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "LauncherActivity$IconResizer");
+	public static immutable string _javaParameterString = "Landroid/app/LauncherActivity$IconResizer";
 }

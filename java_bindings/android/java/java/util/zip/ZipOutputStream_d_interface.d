@@ -17,5 +17,5 @@ final class ZipOutputStream : IJavaObject {
 	@Import void finish();
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.zip", "ZipOutputStream");
+	public static immutable string _javaParameterString = "Ljava/util/zip/ZipOutputStream";
 }

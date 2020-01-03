@@ -11,5 +11,5 @@ final class FingerprintManager : IJavaObject {
 	@Import bool hasEnrolledFingerprints();
 	@Import bool isHardwareDetected();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.fingerprint", "FingerprintManager");
+	public static immutable string _javaParameterString = "Landroid/hardware/fingerprint/FingerprintManager";
 }

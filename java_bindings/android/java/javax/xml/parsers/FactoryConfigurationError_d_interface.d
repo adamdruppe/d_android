@@ -10,5 +10,5 @@ final class FactoryConfigurationError : IJavaObject {
 	@Import string getMessage();
 	@Import import0.JavaException getException();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.xml.parsers", "FactoryConfigurationError");
+	public static immutable string _javaParameterString = "Ljavax/xml/parsers/FactoryConfigurationError";
 }

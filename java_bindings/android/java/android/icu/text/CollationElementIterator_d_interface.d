@@ -20,5 +20,5 @@ final class CollationElementIterator : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.icu.text", "CollationElementIterator");
+	public static immutable string _javaParameterString = "Landroid/icu/text/CollationElementIterator";
 }

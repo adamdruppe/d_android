@@ -18,5 +18,5 @@ final class CallAudioState : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "CallAudioState");
+	public static immutable string _javaParameterString = "Landroid/telecom/CallAudioState";
 }

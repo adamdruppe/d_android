@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class ClosedSelectorException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels", "ClosedSelectorException");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/ClosedSelectorException";
 }

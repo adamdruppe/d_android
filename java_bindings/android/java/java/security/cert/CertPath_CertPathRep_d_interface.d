@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("CertPath$CertPathRep")
 final class CertPath_CertPathRep : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "CertPath$CertPathRep");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPath$CertPathRep";
 }

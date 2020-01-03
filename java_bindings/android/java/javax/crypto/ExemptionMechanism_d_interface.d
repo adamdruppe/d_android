@@ -15,12 +15,12 @@ final class ExemptionMechanism : IJavaObject {
 	@Import import1.Provider getProvider();
 	@Import bool isCryptoAllowed(import2.Key);
 	@Import int getOutputSize(int);
-	@Import void init(import2.Key);
-	@Import void init(import2.Key, import3.AlgorithmParameterSpec);
-	@Import void init(import2.Key, import4.AlgorithmParameters);
+	@Import @JavaName("init") void init_(import2.Key);
+	@Import @JavaName("init") void init_(import2.Key, import3.AlgorithmParameterSpec);
+	@Import @JavaName("init") void init_(import2.Key, import4.AlgorithmParameters);
 	@Import byte[] genExemptionBlob();
 	@Import int genExemptionBlob(byte[]);
 	@Import int genExemptionBlob(byte, int[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "ExemptionMechanism");
+	public static immutable string _javaParameterString = "Ljavax/crypto/ExemptionMechanism";
 }

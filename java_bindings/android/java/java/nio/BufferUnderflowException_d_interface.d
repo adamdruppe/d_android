@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class BufferUnderflowException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio", "BufferUnderflowException");
+	public static immutable string _javaParameterString = "Ljava/nio/BufferUnderflowException";
 }

@@ -67,5 +67,5 @@ final class ListPopupWindow : IJavaObject {
 	@Import bool onKeyPreIme(int, import9.KeyEvent);
 	@Import import10.View_OnTouchListener createDragToOpenListener(import4.View);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ListPopupWindow");
+	public static immutable string _javaParameterString = "Landroid/widget/ListPopupWindow";
 }

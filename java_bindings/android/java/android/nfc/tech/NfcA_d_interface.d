@@ -17,5 +17,5 @@ final class NfcA : IJavaObject {
 	@Import void close();
 	@Import void connect();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc.tech", "NfcA");
+	public static immutable string _javaParameterString = "Landroid/nfc/tech/NfcA";
 }

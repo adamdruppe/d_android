@@ -8,5 +8,5 @@ interface BiPredicate : IJavaObject {
 	@Import import0.BiPredicate and(import0.BiPredicate);
 	@Import import0.BiPredicate negate();
 	@Import import0.BiPredicate or(import0.BiPredicate);
-	mixin JavaPackageId!("java.util.function", "BiPredicate");
+	public static immutable string _javaParameterString = "Ljava/util/function/BiPredicate";
 }

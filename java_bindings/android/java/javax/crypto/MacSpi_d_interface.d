@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MacSpi : IJavaObject {
 	@Import IJavaObject clone();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto", "MacSpi");
+	public static immutable string _javaParameterString = "Ljavax/crypto/MacSpi";
 }

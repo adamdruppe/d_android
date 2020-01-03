@@ -7,5 +7,5 @@ import import0 = android.java.android.drm.DrmManagerClient_d_interface;
 @JavaName("DrmManagerClient$OnEventListener")
 interface DrmManagerClient_OnEventListener : IJavaObject {
 	@Import void onEvent(import0.DrmManagerClient, import1.DrmEvent);
-	mixin JavaPackageId!("android.drm", "DrmManagerClient$OnEventListener");
+	public static immutable string _javaParameterString = "Landroid/drm/DrmManagerClient$OnEventListener";
 }

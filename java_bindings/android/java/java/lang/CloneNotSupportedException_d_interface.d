@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class CloneNotSupportedException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "CloneNotSupportedException");
+	public static immutable string _javaParameterString = "Ljava/lang/CloneNotSupportedException";
 }

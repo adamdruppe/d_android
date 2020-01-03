@@ -22,5 +22,5 @@ interface Editable : IJavaObject {
 	@Import import3.Appendable append(wchar);
 	@Import import3.Appendable append(import1.CharSequence, int, int);
 	@Import import3.Appendable append(import1.CharSequence);
-	mixin JavaPackageId!("android.text", "Editable");
+	public static immutable string _javaParameterString = "Landroid/text/Editable";
 }

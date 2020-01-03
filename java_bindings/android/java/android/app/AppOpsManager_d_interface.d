@@ -18,5 +18,5 @@ final class AppOpsManager : IJavaObject {
 	@Import void finishOp(string, int, string);
 	@Import void checkPackage(int, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "AppOpsManager");
+	public static immutable string _javaParameterString = "Landroid/app/AppOpsManager";
 }

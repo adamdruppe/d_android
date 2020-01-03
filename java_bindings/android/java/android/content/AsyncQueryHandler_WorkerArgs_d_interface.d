@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AsyncQueryHandler$WorkerArgs")
 final class AsyncQueryHandler_WorkerArgs : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "AsyncQueryHandler$WorkerArgs");
+	public static immutable string _javaParameterString = "Landroid/content/AsyncQueryHandler$WorkerArgs";
 }

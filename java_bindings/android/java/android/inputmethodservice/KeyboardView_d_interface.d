@@ -37,5 +37,5 @@ final class KeyboardView : IJavaObject {
 	@Import void onDetachedFromWindow();
 	@Import bool handleBack();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.inputmethodservice", "KeyboardView");
+	public static immutable string _javaParameterString = "Landroid/inputmethodservice/KeyboardView";
 }

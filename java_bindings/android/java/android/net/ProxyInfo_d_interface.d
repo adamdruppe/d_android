@@ -20,5 +20,5 @@ final class ProxyInfo : IJavaObject {
 	@Import int hashCode();
 	@Import void writeToParcel(import3.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net", "ProxyInfo");
+	public static immutable string _javaParameterString = "Landroid/net/ProxyInfo";
 }

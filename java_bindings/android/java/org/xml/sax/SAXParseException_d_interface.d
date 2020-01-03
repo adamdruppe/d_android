@@ -14,5 +14,5 @@ final class SAXParseException : IJavaObject {
 	@Import int getLineNumber();
 	@Import int getColumnNumber();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax", "SAXParseException");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/SAXParseException";
 }

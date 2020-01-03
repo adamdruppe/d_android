@@ -24,5 +24,5 @@ final class AutofillValue : IJavaObject {
 	@Import static import2.AutofillValue forList(int);
 	@Import static import2.AutofillValue forDate(long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.autofill", "AutofillValue");
+	public static immutable string _javaParameterString = "Landroid/view/autofill/AutofillValue";
 }

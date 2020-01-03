@@ -59,5 +59,5 @@ final class ThaiBuddhistDate : IJavaObject {
 	@Import @JavaName("with") import15.Temporal with_(import7.TemporalField, long);
 	@Import @JavaName("with") import15.Temporal with_(import8.TemporalAdjuster);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "ThaiBuddhistDate");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/ThaiBuddhistDate";
 }

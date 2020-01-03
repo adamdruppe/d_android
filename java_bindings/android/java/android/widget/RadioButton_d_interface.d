@@ -13,5 +13,5 @@ final class RadioButton : IJavaObject {
 	@Import void toggle();
 	@Import import2.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "RadioButton");
+	public static immutable string _javaParameterString = "Landroid/widget/RadioButton";
 }

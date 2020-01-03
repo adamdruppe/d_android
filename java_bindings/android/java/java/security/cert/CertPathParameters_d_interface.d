@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface CertPathParameters : IJavaObject {
 	@Import IJavaObject clone();
-	mixin JavaPackageId!("java.security.cert", "CertPathParameters");
+	public static immutable string _javaParameterString = "Ljava/security/cert/CertPathParameters";
 }

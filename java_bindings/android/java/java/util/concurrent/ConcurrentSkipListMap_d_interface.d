@@ -77,5 +77,5 @@ final class ConcurrentSkipListMap : IJavaObject {
 	@Import import12.NavigableMap subMap(IJavaObject, bool, IJavaObject, bool);
 	@Import import12.NavigableMap descendingMap();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ConcurrentSkipListMap");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentSkipListMap";
 }

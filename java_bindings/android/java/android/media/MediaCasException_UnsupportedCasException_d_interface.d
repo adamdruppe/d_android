@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MediaCasException$UnsupportedCasException")
 final class MediaCasException_UnsupportedCasException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCasException$UnsupportedCasException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCasException$UnsupportedCasException";
 }

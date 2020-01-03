@@ -7,5 +7,5 @@ final class ClientInfoStatus : IJavaObject {
 	@Import static import0.ClientInfoStatus[] values();
 	@Import static import0.ClientInfoStatus valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.sql", "ClientInfoStatus");
+	public static immutable string _javaParameterString = "Ljava/sql/ClientInfoStatus";
 }

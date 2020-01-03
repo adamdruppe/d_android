@@ -8,5 +8,5 @@ final class PolicyQualifierInfo : IJavaObject {
 	@Import byte[] getPolicyQualifier();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.cert", "PolicyQualifierInfo");
+	public static immutable string _javaParameterString = "Ljava/security/cert/PolicyQualifierInfo";
 }

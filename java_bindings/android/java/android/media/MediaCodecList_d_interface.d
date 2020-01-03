@@ -12,5 +12,5 @@ final class MediaCodecList : IJavaObject {
 	@Import string findDecoderForFormat(import1.MediaFormat);
 	@Import string findEncoderForFormat(import1.MediaFormat);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaCodecList");
+	public static immutable string _javaParameterString = "Landroid/media/MediaCodecList";
 }

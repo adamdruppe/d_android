@@ -168,5 +168,5 @@ final class ViewGroup : IJavaObject {
 	@Import int getNestedScrollAxes();
 	@Import import27.ViewOverlay getOverlay();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewGroup");
+	public static immutable string _javaParameterString = "Landroid/view/ViewGroup";
 }

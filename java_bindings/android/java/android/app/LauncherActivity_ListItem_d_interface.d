@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("LauncherActivity$ListItem")
 final class LauncherActivity_ListItem : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "LauncherActivity$ListItem");
+	public static immutable string _javaParameterString = "Landroid/app/LauncherActivity$ListItem";
 }

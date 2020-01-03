@@ -10,5 +10,5 @@ final class PackageItemInfo_DisplayNameComparator : IJavaObject {
 	@Import int compare(import1.PackageItemInfo, import1.PackageItemInfo);
 	@Import int compare(IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "PackageItemInfo$DisplayNameComparator");
+	public static immutable string _javaParameterString = "Landroid/content/pm/PackageItemInfo$DisplayNameComparator";
 }

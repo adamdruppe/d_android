@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 interface AutoCloseable : IJavaObject {
 	@Import void close();
-	mixin JavaPackageId!("java.lang", "AutoCloseable");
+	public static immutable string _javaParameterString = "Ljava/lang/AutoCloseable";
 }

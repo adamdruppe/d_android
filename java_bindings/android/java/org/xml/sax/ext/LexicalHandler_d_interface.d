@@ -9,5 +9,5 @@ interface LexicalHandler : IJavaObject {
 	@Import void startCDATA();
 	@Import void endCDATA();
 	@Import void comment(wchar, int, int[]);
-	mixin JavaPackageId!("org.xml.sax.ext", "LexicalHandler");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/ext/LexicalHandler";
 }

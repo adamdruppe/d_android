@@ -8,5 +8,5 @@ final class ProcessBuilder_Redirect_Type : IJavaObject {
 	@Import static import0.ProcessBuilder_Redirect_Type[] values();
 	@Import static import0.ProcessBuilder_Redirect_Type valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.lang", "ProcessBuilder$Redirect$Type");
+	public static immutable string _javaParameterString = "Ljava/lang/ProcessBuilder$Redirect$Type";
 }

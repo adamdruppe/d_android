@@ -32,5 +32,5 @@ final class StampedLock : IJavaObject {
 	@Import import1.Lock asWriteLock();
 	@Import import2.ReadWriteLock asReadWriteLock();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.locks", "StampedLock");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/locks/StampedLock";
 }

@@ -10,5 +10,5 @@ final class ResolveInfo_DisplayNameComparator : IJavaObject {
 	@Import int compare(import1.ResolveInfo, import1.ResolveInfo);
 	@Import int compare(IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content.pm", "ResolveInfo$DisplayNameComparator");
+	public static immutable string _javaParameterString = "Landroid/content/pm/ResolveInfo$DisplayNameComparator";
 }

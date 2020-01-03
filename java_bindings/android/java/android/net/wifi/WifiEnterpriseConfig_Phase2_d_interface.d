@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("WifiEnterpriseConfig$Phase2")
 final class WifiEnterpriseConfig_Phase2 : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi", "WifiEnterpriseConfig$Phase2");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiEnterpriseConfig$Phase2";
 }

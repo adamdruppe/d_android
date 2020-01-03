@@ -16,5 +16,5 @@ final class VolumeShaper_Configuration_Builder : IJavaObject {
 	@Import import1.VolumeShaper_Configuration_Builder scaleToStartVolume(float);
 	@Import import0.VolumeShaper_Configuration build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "VolumeShaper$Configuration$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/VolumeShaper$Configuration$Builder";
 }

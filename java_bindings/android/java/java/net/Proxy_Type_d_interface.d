@@ -8,5 +8,5 @@ final class Proxy_Type : IJavaObject {
 	@Import static import0.Proxy_Type[] values();
 	@Import static import0.Proxy_Type valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.net", "Proxy$Type");
+	public static immutable string _javaParameterString = "Ljava/net/Proxy$Type";
 }

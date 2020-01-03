@@ -7,5 +7,5 @@ import import0 = android.java.android.view.View_d_interface;
 final class AdapterView_AdapterContextMenuInfo : IJavaObject {
 	@Import this(import0.View, int, long);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AdapterView$AdapterContextMenuInfo");
+	public static immutable string _javaParameterString = "Landroid/widget/AdapterView$AdapterContextMenuInfo";
 }

@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MediaPlayer_ProvisioningNetworkErrorException : IJavaObject {
 	@Import this(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaPlayer$ProvisioningNetworkErrorException");
+	public static immutable string _javaParameterString = "Landroid/media/MediaPlayer$ProvisioningNetworkErrorException";
 }

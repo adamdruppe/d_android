@@ -25,5 +25,5 @@ final class ViewStub : IJavaObject {
 	@Import import4.View inflate();
 	@Import void setOnInflateListener(import5.ViewStub_OnInflateListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewStub");
+	public static immutable string _javaParameterString = "Landroid/view/ViewStub";
 }

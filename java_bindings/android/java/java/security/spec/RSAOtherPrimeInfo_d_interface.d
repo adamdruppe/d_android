@@ -9,5 +9,5 @@ final class RSAOtherPrimeInfo : IJavaObject {
 	@Import import0.BigInteger getExponent();
 	@Import import0.BigInteger getCrtCoefficient();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security.spec", "RSAOtherPrimeInfo");
+	public static immutable string _javaParameterString = "Ljava/security/spec/RSAOtherPrimeInfo";
 }

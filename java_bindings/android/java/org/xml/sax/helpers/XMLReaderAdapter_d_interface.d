@@ -32,5 +32,5 @@ final class XMLReaderAdapter : IJavaObject {
 	@Import void processingInstruction(string, string);
 	@Import void skippedEntity(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("org.xml.sax.helpers", "XMLReaderAdapter");
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/XMLReaderAdapter";
 }

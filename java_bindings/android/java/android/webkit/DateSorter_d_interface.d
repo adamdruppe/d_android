@@ -9,5 +9,5 @@ final class DateSorter : IJavaObject {
 	@Import string getLabel(int);
 	@Import long getBoundary(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "DateSorter");
+	public static immutable string _javaParameterString = "Landroid/webkit/DateSorter";
 }

@@ -13,5 +13,5 @@ final class JapaneseEra : IJavaObject {
 	@Import import1.ValueRange range(import2.TemporalField);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.time.chrono", "JapaneseEra");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/JapaneseEra";
 }

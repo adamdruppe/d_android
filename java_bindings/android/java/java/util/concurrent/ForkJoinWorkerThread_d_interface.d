@@ -8,5 +8,5 @@ final class ForkJoinWorkerThread : IJavaObject {
 	@Import int getPoolIndex();
 	@Import void run();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent", "ForkJoinWorkerThread");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ForkJoinWorkerThread";
 }

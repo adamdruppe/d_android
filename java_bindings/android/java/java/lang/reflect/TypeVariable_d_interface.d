@@ -8,5 +8,5 @@ interface TypeVariable : IJavaObject {
 	@Import import0.Type[] getBounds();
 	@Import import1.GenericDeclaration getGenericDeclaration();
 	@Import string getName();
-	mixin JavaPackageId!("java.lang.reflect", "TypeVariable");
+	public static immutable string _javaParameterString = "Ljava/lang/reflect/TypeVariable";
 }

@@ -6,5 +6,5 @@ final class HttpAuthHandler : IJavaObject {
 	@Import void cancel();
 	@Import void proceed(string, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "HttpAuthHandler");
+	public static immutable string _javaParameterString = "Landroid/webkit/HttpAuthHandler";
 }

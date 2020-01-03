@@ -12,5 +12,5 @@ final class TransitionInflater : IJavaObject {
 	@Import import2.Transition inflateTransition(int);
 	@Import import3.TransitionManager inflateTransitionManager(int, import4.ViewGroup);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "TransitionInflater");
+	public static immutable string _javaParameterString = "Landroid/transition/TransitionInflater";
 }

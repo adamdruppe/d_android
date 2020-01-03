@@ -76,5 +76,5 @@ interface PreparedStatement : IJavaObject {
 	@Import void setClob(int, import6.Reader);
 	@Import void setBlob(int, import5.InputStream);
 	@Import void setNClob(int, import6.Reader);
-	mixin JavaPackageId!("java.sql", "PreparedStatement");
+	public static immutable string _javaParameterString = "Ljava/sql/PreparedStatement";
 }

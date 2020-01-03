@@ -8,5 +8,5 @@ final class Debug_InstructionCount : IJavaObject {
 	@Import int globalTotal();
 	@Import int globalMethodInvocations();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Debug$InstructionCount");
+	public static immutable string _javaParameterString = "Landroid/os/Debug$InstructionCount";
 }

@@ -6,5 +6,5 @@ final class TabStopSpan_Standard : IJavaObject {
 	@Import this(int);
 	@Import int getTabStop();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "TabStopSpan$Standard");
+	public static immutable string _javaParameterString = "Landroid/text/style/TabStopSpan$Standard";
 }

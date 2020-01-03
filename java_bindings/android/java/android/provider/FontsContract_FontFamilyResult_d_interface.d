@@ -8,5 +8,5 @@ final class FontsContract_FontFamilyResult : IJavaObject {
 	@Import int getStatusCode();
 	@Import import0.FontsContract_FontInfo[] getFonts();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "FontsContract$FontFamilyResult");
+	public static immutable string _javaParameterString = "Landroid/provider/FontsContract$FontFamilyResult";
 }

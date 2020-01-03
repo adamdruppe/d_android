@@ -34,5 +34,5 @@ final class AppWidgetManager : IJavaObject {
 	@Import bool isRequestPinAppWidgetSupported();
 	@Import bool requestPinAppWidget(import4.ComponentName, import3.Bundle, import8.PendingIntent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.appwidget", "AppWidgetManager");
+	public static immutable string _javaParameterString = "Landroid/appwidget/AppWidgetManager";
 }

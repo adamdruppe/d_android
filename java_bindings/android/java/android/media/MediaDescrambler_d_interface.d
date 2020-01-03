@@ -12,5 +12,5 @@ final class MediaDescrambler : IJavaObject {
 	@Import int descramble(import1.ByteBuffer, import1.ByteBuffer, import2.MediaCodec_CryptoInfo);
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "MediaDescrambler");
+	public static immutable string _javaParameterString = "Landroid/media/MediaDescrambler";
 }

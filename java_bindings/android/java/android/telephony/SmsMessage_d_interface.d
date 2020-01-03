@@ -41,5 +41,5 @@ final class SmsMessage : IJavaObject {
 	@Import bool isStatusReportMessage();
 	@Import bool isReplyPathPresent();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "SmsMessage");
+	public static immutable string _javaParameterString = "Landroid/telephony/SmsMessage";
 }

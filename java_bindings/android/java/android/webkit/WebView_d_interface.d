@@ -187,5 +187,5 @@ final class WebView : IJavaObject {
 	@Import static import41.PackageInfo getCurrentWebViewPackage();
 	@Import bool onCheckIsTextEditor();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.webkit", "WebView");
+	public static immutable string _javaParameterString = "Landroid/webkit/WebView";
 }

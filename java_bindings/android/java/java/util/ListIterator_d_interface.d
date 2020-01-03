@@ -11,5 +11,5 @@ interface ListIterator : IJavaObject {
 	@Import void remove();
 	@Import void set(IJavaObject);
 	@Import void add(IJavaObject);
-	mixin JavaPackageId!("java.util", "ListIterator");
+	public static immutable string _javaParameterString = "Ljava/util/ListIterator";
 }

@@ -7,5 +7,5 @@ final class PixelFormat : IJavaObject {
 	@Import static void getPixelFormatInfo(int, import0.PixelFormat);
 	@Import static bool formatHasAlpha(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "PixelFormat");
+	public static immutable string _javaParameterString = "Landroid/graphics/PixelFormat";
 }

@@ -23,5 +23,5 @@ interface InputMethodSession : IJavaObject {
 	@Import void appPrivateCommand(string, import6.Bundle);
 	@Import void toggleSoftInput(int, int);
 	@Import void updateCursorAnchorInfo(import7.CursorAnchorInfo);
-	mixin JavaPackageId!("android.view.inputmethod", "InputMethodSession");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethodSession";
 }

@@ -21,5 +21,5 @@ final class ActivityManager_TaskDescription : IJavaObject {
 	@Import void readFromParcel(import2.Parcel);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "ActivityManager$TaskDescription");
+	public static immutable string _javaParameterString = "Landroid/app/ActivityManager$TaskDescription";
 }

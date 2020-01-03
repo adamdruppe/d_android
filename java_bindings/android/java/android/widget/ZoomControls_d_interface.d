@@ -21,5 +21,5 @@ final class ZoomControls : IJavaObject {
 	@Import bool hasFocus();
 	@Import import4.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "ZoomControls");
+	public static immutable string _javaParameterString = "Landroid/widget/ZoomControls";
 }

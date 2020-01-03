@@ -7,5 +7,5 @@ import import1 = android.java.java.lang.JavaThrowable_d_interface;
 @JavaName("Thread$UncaughtExceptionHandler")
 interface Thread_UncaughtExceptionHandler : IJavaObject {
 	@Import void uncaughtException(import0.Thread, import1.JavaThrowable);
-	mixin JavaPackageId!("java.lang", "Thread$UncaughtExceptionHandler");
+	public static immutable string _javaParameterString = "Ljava/lang/Thread$UncaughtExceptionHandler";
 }

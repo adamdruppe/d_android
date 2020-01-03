@@ -18,5 +18,5 @@ final class ChangeTransform : IJavaObject {
 	@Import void captureEndValues(import2.TransitionValues);
 	@Import import3.Animator createAnimator(import4.ViewGroup, import2.TransitionValues, import2.TransitionValues);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.transition", "ChangeTransform");
+	public static immutable string _javaParameterString = "Landroid/transition/ChangeTransform";
 }

@@ -6,5 +6,5 @@ import import0 = android.java.android.accessibilityservice.AccessibilityService_
 @JavaName("AccessibilityService$SoftKeyboardController$OnShowModeChangedListener")
 interface AccessibilityService_SoftKeyboardController_OnShowModeChangedListener : IJavaObject {
 	@Import void onShowModeChanged(import0.AccessibilityService_SoftKeyboardController, int);
-	mixin JavaPackageId!("android.accessibilityservice", "AccessibilityService$SoftKeyboardController$OnShowModeChangedListener");
+	public static immutable string _javaParameterString = "Landroid/accessibilityservice/AccessibilityService$SoftKeyboardController$OnShowModeChangedListener";
 }

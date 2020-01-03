@@ -10,5 +10,5 @@ final class PdfDocument_PageInfo : IJavaObject {
 	@Import import0.Rect getContentRect();
 	@Import int getPageNumber();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.pdf", "PdfDocument$PageInfo");
+	public static immutable string _javaParameterString = "Landroid/graphics/pdf/PdfDocument$PageInfo";
 }

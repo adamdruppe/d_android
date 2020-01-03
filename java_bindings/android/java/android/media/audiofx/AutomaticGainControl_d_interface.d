@@ -7,5 +7,5 @@ final class AutomaticGainControl : IJavaObject {
 	@Import static bool isAvailable();
 	@Import static import0.AutomaticGainControl create(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.audiofx", "AutomaticGainControl");
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/AutomaticGainControl";
 }

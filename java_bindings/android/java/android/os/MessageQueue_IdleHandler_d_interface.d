@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("MessageQueue$IdleHandler")
 interface MessageQueue_IdleHandler : IJavaObject {
 	@Import bool queueIdle();
-	mixin JavaPackageId!("android.os", "MessageQueue$IdleHandler");
+	public static immutable string _javaParameterString = "Landroid/os/MessageQueue$IdleHandler";
 }

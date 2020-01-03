@@ -8,5 +8,5 @@ final class GradientDrawable_Orientation : IJavaObject {
 	@Import static import0.GradientDrawable_Orientation[] values();
 	@Import static import0.GradientDrawable_Orientation valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "GradientDrawable$Orientation");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/GradientDrawable$Orientation";
 }

@@ -16,5 +16,5 @@ final class SuggestionsInfo : IJavaObject {
 	@Import string getSuggestionAt(int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.textservice", "SuggestionsInfo");
+	public static immutable string _javaParameterString = "Landroid/view/textservice/SuggestionsInfo";
 }

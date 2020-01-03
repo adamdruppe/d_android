@@ -12,5 +12,5 @@ final class KeyEvent_DispatcherState : IJavaObject {
 	@Import void performedLongPress(import0.KeyEvent);
 	@Import void handleUpEvent(import0.KeyEvent);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "KeyEvent$DispatcherState");
+	public static immutable string _javaParameterString = "Landroid/view/KeyEvent$DispatcherState";
 }

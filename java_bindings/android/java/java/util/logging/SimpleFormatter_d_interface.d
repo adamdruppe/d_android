@@ -6,5 +6,5 @@ import import0 = android.java.java.util.logging.LogRecord_d_interface;
 final class SimpleFormatter : IJavaObject {
 	@Import string format(import0.LogRecord);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.logging", "SimpleFormatter");
+	public static immutable string _javaParameterString = "Ljava/util/logging/SimpleFormatter";
 }

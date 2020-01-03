@@ -40,5 +40,5 @@ final class PendingIntent : IJavaObject {
 	@Import static void writePendingIntentOrNullToParcel(import0.PendingIntent, import8.Parcel);
 	@Import static import0.PendingIntent readPendingIntentOrNullFromParcel(import8.Parcel);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "PendingIntent");
+	public static immutable string _javaParameterString = "Landroid/app/PendingIntent";
 }

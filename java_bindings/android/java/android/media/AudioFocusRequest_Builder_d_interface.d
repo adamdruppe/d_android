@@ -20,5 +20,5 @@ final class AudioFocusRequest_Builder : IJavaObject {
 	@Import import1.AudioFocusRequest_Builder setForceDucking(bool);
 	@Import import0.AudioFocusRequest build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "AudioFocusRequest$Builder");
+	public static immutable string _javaParameterString = "Landroid/media/AudioFocusRequest$Builder";
 }

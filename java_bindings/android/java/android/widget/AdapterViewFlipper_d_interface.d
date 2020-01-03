@@ -24,5 +24,5 @@ final class AdapterViewFlipper : IJavaObject {
 	@Import void fyiWillBeAdvancedByHostKThx();
 	@Import import3.CharSequence getAccessibilityClassName();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "AdapterViewFlipper");
+	public static immutable string _javaParameterString = "Landroid/widget/AdapterViewFlipper";
 }

@@ -5,5 +5,5 @@ final class Build : IJavaObject {
 	@Import static string getSerial();
 	@Import static string getRadioVersion();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Build");
+	public static immutable string _javaParameterString = "Landroid/os/Build";
 }

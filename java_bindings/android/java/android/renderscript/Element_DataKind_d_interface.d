@@ -8,5 +8,5 @@ final class Element_DataKind : IJavaObject {
 	@Import static import0.Element_DataKind[] values();
 	@Import static import0.Element_DataKind valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Element$DataKind");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Element$DataKind";
 }

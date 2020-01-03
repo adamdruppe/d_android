@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("ExpandableListView$OnGroupExpandListener")
 interface ExpandableListView_OnGroupExpandListener : IJavaObject {
 	@Import void onGroupExpand(int);
-	mixin JavaPackageId!("android.widget", "ExpandableListView$OnGroupExpandListener");
+	public static immutable string _javaParameterString = "Landroid/widget/ExpandableListView$OnGroupExpandListener";
 }

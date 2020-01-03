@@ -9,5 +9,5 @@ final class CancellationSignal : IJavaObject {
 	@Import void cancel();
 	@Import void setOnCancelListener(import0.CancellationSignal_OnCancelListener);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "CancellationSignal");
+	public static immutable string _javaParameterString = "Landroid/os/CancellationSignal";
 }

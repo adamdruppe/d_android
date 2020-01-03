@@ -6,5 +6,5 @@ import import0 = android.java.android.content.DialogInterface_d_interface;
 @JavaName("DialogInterface$OnClickListener")
 interface DialogInterface_OnClickListener : IJavaObject {
 	@Import void onClick(import0.DialogInterface, int);
-	mixin JavaPackageId!("android.content", "DialogInterface$OnClickListener");
+	public static immutable string _javaParameterString = "Landroid/content/DialogInterface$OnClickListener";
 }

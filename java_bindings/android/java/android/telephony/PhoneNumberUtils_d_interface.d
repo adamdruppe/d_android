@@ -55,5 +55,5 @@ final class PhoneNumberUtils : IJavaObject {
 	@Import static void addTtsSpan(import5.Spannable, int, int);
 	@Import static import6.TtsSpan createTtsSpan(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telephony", "PhoneNumberUtils");
+	public static immutable string _javaParameterString = "Landroid/telephony/PhoneNumberUtils";
 }

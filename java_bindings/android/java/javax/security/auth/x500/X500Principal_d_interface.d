@@ -17,5 +17,5 @@ final class X500Principal : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.security.auth.x500", "X500Principal");
+	public static immutable string _javaParameterString = "Ljavax/security/auth/x500/X500Principal";
 }

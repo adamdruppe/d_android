@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("NumberPicker$Formatter")
 interface NumberPicker_Formatter : IJavaObject {
 	@Import string format(int);
-	mixin JavaPackageId!("android.widget", "NumberPicker$Formatter");
+	public static immutable string _javaParameterString = "Landroid/widget/NumberPicker$Formatter";
 }

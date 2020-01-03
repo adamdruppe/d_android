@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class EmptyStackException : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "EmptyStackException");
+	public static immutable string _javaParameterString = "Ljava/util/EmptyStackException";
 }

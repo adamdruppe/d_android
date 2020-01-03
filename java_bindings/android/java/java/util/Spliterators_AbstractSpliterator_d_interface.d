@@ -9,5 +9,5 @@ final class Spliterators_AbstractSpliterator : IJavaObject {
 	@Import long estimateSize();
 	@Import int characteristics();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "Spliterators$AbstractSpliterator");
+	public static immutable string _javaParameterString = "Ljava/util/Spliterators$AbstractSpliterator";
 }

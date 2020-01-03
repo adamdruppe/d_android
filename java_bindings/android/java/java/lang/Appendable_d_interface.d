@@ -8,5 +8,5 @@ interface Appendable : IJavaObject {
 	@Import import0.Appendable append(import1.CharSequence);
 	@Import import0.Appendable append(import1.CharSequence, int, int);
 	@Import import0.Appendable append(wchar);
-	mixin JavaPackageId!("java.lang", "Appendable");
+	public static immutable string _javaParameterString = "Ljava/lang/Appendable";
 }

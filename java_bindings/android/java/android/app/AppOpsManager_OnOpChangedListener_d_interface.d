@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("AppOpsManager$OnOpChangedListener")
 interface AppOpsManager_OnOpChangedListener : IJavaObject {
 	@Import void onOpChanged(string, string);
-	mixin JavaPackageId!("android.app", "AppOpsManager$OnOpChangedListener");
+	public static immutable string _javaParameterString = "Landroid/app/AppOpsManager$OnOpChangedListener";
 }

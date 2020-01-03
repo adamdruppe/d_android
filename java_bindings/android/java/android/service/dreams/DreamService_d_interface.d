@@ -64,5 +64,5 @@ final class DreamService : IJavaObject {
 	@Import void wakeUp();
 	@Import void onDestroy();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.dreams", "DreamService");
+	public static immutable string _javaParameterString = "Landroid/service/dreams/DreamService";
 }

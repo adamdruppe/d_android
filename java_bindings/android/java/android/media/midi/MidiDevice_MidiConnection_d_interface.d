@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class MidiDevice_MidiConnection : IJavaObject {
 	@Import void close();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.midi", "MidiDevice$MidiConnection");
+	public static immutable string _javaParameterString = "Landroid/media/midi/MidiDevice$MidiConnection";
 }

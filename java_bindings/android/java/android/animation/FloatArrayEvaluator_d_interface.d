@@ -6,5 +6,5 @@ final class FloatArrayEvaluator : IJavaObject {
 	@Import float[] evaluate(float, float, float[][]);
 	@Import IJavaObject evaluate(float, IJavaObject, IJavaObject);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.animation", "FloatArrayEvaluator");
+	public static immutable string _javaParameterString = "Landroid/animation/FloatArrayEvaluator";
 }

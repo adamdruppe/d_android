@@ -6,5 +6,5 @@ final class DuplicateFormatFlagsException : IJavaObject {
 	@Import string getFlags();
 	@Import string getMessage();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util", "DuplicateFormatFlagsException");
+	public static immutable string _javaParameterString = "Ljava/util/DuplicateFormatFlagsException";
 }

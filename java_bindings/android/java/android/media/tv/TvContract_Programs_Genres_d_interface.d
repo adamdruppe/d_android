@@ -7,5 +7,5 @@ final class TvContract_Programs_Genres : IJavaObject {
 	@Import static string[] decode(string);
 	@Import static bool isCanonical(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media.tv", "TvContract$Programs$Genres");
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvContract$Programs$Genres";
 }

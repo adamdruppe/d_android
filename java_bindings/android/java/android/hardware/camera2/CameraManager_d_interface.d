@@ -21,5 +21,5 @@ final class CameraManager : IJavaObject {
 	@Import void openCamera(string, import2.Executor, import5.CameraDevice_StateCallback);
 	@Import void setTorchMode(string, bool);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.camera2", "CameraManager");
+	public static immutable string _javaParameterString = "Landroid/hardware/camera2/CameraManager";
 }

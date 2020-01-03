@@ -8,5 +8,5 @@ final class InvalidKeyException : IJavaObject {
 	@Import this(string, import0.JavaThrowable);
 	@Import this(import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "InvalidKeyException");
+	public static immutable string _javaParameterString = "Ljava/security/InvalidKeyException";
 }

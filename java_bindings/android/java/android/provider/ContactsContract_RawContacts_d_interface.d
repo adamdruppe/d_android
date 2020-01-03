@@ -11,5 +11,5 @@ final class ContactsContract_RawContacts : IJavaObject {
 	@Import static import0.Uri getContactLookupUri(import1.ContentResolver, import0.Uri);
 	@Import static import2.EntityIterator newEntityIterator(import3.Cursor);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.provider", "ContactsContract$RawContacts");
+	public static immutable string _javaParameterString = "Landroid/provider/ContactsContract$RawContacts";
 }

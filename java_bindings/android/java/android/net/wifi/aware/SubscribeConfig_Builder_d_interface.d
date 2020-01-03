@@ -17,5 +17,5 @@ final class SubscribeConfig_Builder : IJavaObject {
 	@Import import0.SubscribeConfig_Builder setMaxDistanceMm(int);
 	@Import import2.SubscribeConfig build();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "SubscribeConfig$Builder");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/SubscribeConfig$Builder";
 }

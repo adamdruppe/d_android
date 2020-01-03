@@ -43,5 +43,5 @@ final class KeyStore : IJavaObject {
 	@Import void setEntry(string, import9.KeyStore_Entry, import10.KeyStore_ProtectionParameter);
 	@Import bool entryInstanceOf(string, import11.Class);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.security", "KeyStore");
+	public static immutable string _javaParameterString = "Ljava/security/KeyStore";
 }

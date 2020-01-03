@@ -25,5 +25,5 @@ final class TaskStackBuilder : IJavaObject {
 	@Import import7.PendingIntent getPendingIntent(int, int, import6.Bundle);
 	@Import import2.Intent[] getIntents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "TaskStackBuilder");
+	public static immutable string _javaParameterString = "Landroid/app/TaskStackBuilder";
 }

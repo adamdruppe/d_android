@@ -14,5 +14,5 @@ final class RtpStream : IJavaObject {
 	@Import void associate(import0.InetAddress, int);
 	@Import void release();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.rtp", "RtpStream");
+	public static immutable string _javaParameterString = "Landroid/net/rtp/RtpStream";
 }

@@ -9,5 +9,5 @@ final class TextPaint : IJavaObject {
 	@Import this(import0.Paint);
 	@Import void set(import1.TextPaint);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "TextPaint");
+	public static immutable string _javaParameterString = "Landroid/text/TextPaint";
 }

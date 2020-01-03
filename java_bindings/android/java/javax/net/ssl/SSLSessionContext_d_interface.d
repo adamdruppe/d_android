@@ -11,5 +11,5 @@ interface SSLSessionContext : IJavaObject {
 	@Import int getSessionTimeout();
 	@Import void setSessionCacheSize(int);
 	@Import int getSessionCacheSize();
-	mixin JavaPackageId!("javax.net.ssl", "SSLSessionContext");
+	public static immutable string _javaParameterString = "Ljavax/net/ssl/SSLSessionContext";
 }

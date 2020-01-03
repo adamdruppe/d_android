@@ -11,5 +11,5 @@ final class ConnectEvent : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app.admin", "ConnectEvent");
+	public static immutable string _javaParameterString = "Landroid/app/admin/ConnectEvent";
 }

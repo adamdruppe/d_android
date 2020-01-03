@@ -23,5 +23,5 @@ final class PrintJobInfo : IJavaObject {
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.print", "PrintJobInfo");
+	public static immutable string _javaParameterString = "Landroid/print/PrintJobInfo";
 }

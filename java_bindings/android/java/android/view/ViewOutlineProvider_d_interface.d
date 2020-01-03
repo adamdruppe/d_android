@@ -7,5 +7,5 @@ import import1 = android.java.android.graphics.Outline_d_interface;
 final class ViewOutlineProvider : IJavaObject {
 	@Import void getOutline(import0.View, import1.Outline);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "ViewOutlineProvider");
+	public static immutable string _javaParameterString = "Landroid/view/ViewOutlineProvider";
 }

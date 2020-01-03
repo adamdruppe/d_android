@@ -10,5 +10,5 @@ final class GpsSatellite : IJavaObject {
 	@Import bool hasAlmanac();
 	@Import bool usedInFix();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "GpsSatellite");
+	public static immutable string _javaParameterString = "Landroid/location/GpsSatellite";
 }

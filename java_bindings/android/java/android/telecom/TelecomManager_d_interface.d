@@ -39,5 +39,5 @@ final class TelecomManager : IJavaObject {
 	@Import bool isOutgoingCallPermitted(import0.PhoneAccountHandle);
 	@Import void acceptHandover(import4.Uri, int, import0.PhoneAccountHandle);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.telecom", "TelecomManager");
+	public static immutable string _javaParameterString = "Landroid/telecom/TelecomManager";
 }

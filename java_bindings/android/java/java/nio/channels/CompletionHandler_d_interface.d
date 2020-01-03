@@ -6,5 +6,5 @@ import import0 = android.java.java.lang.JavaThrowable_d_interface;
 interface CompletionHandler : IJavaObject {
 	@Import void completed(IJavaObject, IJavaObject);
 	@Import void failed(import0.JavaThrowable, IJavaObject);
-	mixin JavaPackageId!("java.nio.channels", "CompletionHandler");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/CompletionHandler";
 }

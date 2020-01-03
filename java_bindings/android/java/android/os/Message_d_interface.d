@@ -32,5 +32,5 @@ final class Message : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import4.Parcel, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.os", "Message");
+	public static immutable string _javaParameterString = "Landroid/os/Message";
 }

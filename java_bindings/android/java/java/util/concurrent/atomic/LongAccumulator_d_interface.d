@@ -15,5 +15,5 @@ final class LongAccumulator : IJavaObject {
 	@Import float floatValue();
 	@Import double doubleValue();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.util.concurrent.atomic", "LongAccumulator");
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/atomic/LongAccumulator";
 }

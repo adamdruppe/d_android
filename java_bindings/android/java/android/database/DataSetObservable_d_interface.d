@@ -5,5 +5,5 @@ final class DataSetObservable : IJavaObject {
 	@Import void notifyChanged();
 	@Import void notifyInvalidated();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.database", "DataSetObservable");
+	public static immutable string _javaParameterString = "Landroid/database/DataSetObservable";
 }

@@ -20,5 +20,5 @@ final class Typeface : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics", "Typeface");
+	public static immutable string _javaParameterString = "Landroid/graphics/Typeface";
 }

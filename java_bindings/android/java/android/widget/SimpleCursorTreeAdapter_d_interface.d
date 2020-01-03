@@ -14,5 +14,5 @@ final class SimpleCursorTreeAdapter : IJavaObject {
 	@Import void setViewBinder(import2.SimpleCursorTreeAdapter_ViewBinder);
 	@Import void setViewText(import3.TextView, string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.widget", "SimpleCursorTreeAdapter");
+	public static immutable string _javaParameterString = "Landroid/widget/SimpleCursorTreeAdapter";
 }

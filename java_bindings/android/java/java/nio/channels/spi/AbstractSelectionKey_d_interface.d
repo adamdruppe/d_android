@@ -5,5 +5,5 @@ final class AbstractSelectionKey : IJavaObject {
 	@Import bool isValid();
 	@Import void cancel();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("java.nio.channels.spi", "AbstractSelectionKey");
+	public static immutable string _javaParameterString = "Ljava/nio/channels/spi/AbstractSelectionKey";
 }

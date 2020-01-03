@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 final class BluetoothAssignedNumbers : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.bluetooth", "BluetoothAssignedNumbers");
+	public static immutable string _javaParameterString = "Landroid/bluetooth/BluetoothAssignedNumbers";
 }

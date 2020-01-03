@@ -17,5 +17,5 @@ interface DataInput : IJavaObject {
 	@Import double readDouble();
 	@Import string readLine();
 	@Import string readUTF();
-	mixin JavaPackageId!("java.io", "DataInput");
+	public static immutable string _javaParameterString = "Ljava/io/DataInput";
 }

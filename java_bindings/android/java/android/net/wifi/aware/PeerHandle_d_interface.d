@@ -5,5 +5,5 @@ final class PeerHandle : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.net.wifi.aware", "PeerHandle");
+	public static immutable string _javaParameterString = "Landroid/net/wifi/aware/PeerHandle";
 }

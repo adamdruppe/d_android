@@ -5,5 +5,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 final class BoringLayout_Metrics : IJavaObject {
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text", "BoringLayout$Metrics");
+	public static immutable string _javaParameterString = "Landroid/text/BoringLayout$Metrics";
 }

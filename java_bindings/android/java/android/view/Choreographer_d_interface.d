@@ -10,5 +10,5 @@ final class Choreographer : IJavaObject {
 	@Import void postFrameCallbackDelayed(import1.Choreographer_FrameCallback, long);
 	@Import void removeFrameCallback(import1.Choreographer_FrameCallback);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view", "Choreographer");
+	public static immutable string _javaParameterString = "Landroid/view/Choreographer";
 }

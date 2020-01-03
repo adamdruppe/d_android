@@ -7,5 +7,5 @@ final class FormatException : IJavaObject {
 	@Import this(string);
 	@Import this(string, import0.JavaThrowable);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.nfc", "FormatException");
+	public static immutable string _javaParameterString = "Landroid/nfc/FormatException";
 }

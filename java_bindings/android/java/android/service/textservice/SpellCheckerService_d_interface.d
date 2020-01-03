@@ -9,5 +9,5 @@ final class SpellCheckerService : IJavaObject {
 	@Import import0.IBinder onBind(import1.Intent);
 	@Import import2.SpellCheckerService_Session createSession();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.service.textservice", "SpellCheckerService");
+	public static immutable string _javaParameterString = "Landroid/service/textservice/SpellCheckerService";
 }

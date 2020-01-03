@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 @JavaName("Animation$Description")
 final class Animation_Description : IJavaObject {
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.animation", "Animation$Description");
+	public static immutable string _javaParameterString = "Landroid/view/animation/Animation$Description";
 }

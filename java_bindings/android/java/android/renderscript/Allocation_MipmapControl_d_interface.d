@@ -8,5 +8,5 @@ final class Allocation_MipmapControl : IJavaObject {
 	@Import static import0.Allocation_MipmapControl[] values();
 	@Import static import0.Allocation_MipmapControl valueOf(string);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.renderscript", "Allocation$MipmapControl");
+	public static immutable string _javaParameterString = "Landroid/renderscript/Allocation$MipmapControl";
 }

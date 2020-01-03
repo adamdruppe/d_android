@@ -7,5 +7,5 @@ import import0 = android.java.android.graphics.Shader_d_interface;
 final class ShapeDrawable_ShaderFactory : IJavaObject {
 	@Import import0.Shader resize(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.graphics.drawable", "ShapeDrawable$ShaderFactory");
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/ShapeDrawable$ShaderFactory";
 }

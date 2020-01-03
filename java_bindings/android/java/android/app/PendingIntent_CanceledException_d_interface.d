@@ -8,5 +8,5 @@ final class PendingIntent_CanceledException : IJavaObject {
 	@Import this(string);
 	@Import this(import0.JavaException);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "PendingIntent$CanceledException");
+	public static immutable string _javaParameterString = "Landroid/app/PendingIntent$CanceledException";
 }

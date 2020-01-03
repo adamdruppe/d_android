@@ -7,5 +7,5 @@ final class GCMParameterSpec : IJavaObject {
 	@Import int getTLen();
 	@Import byte[] getIV();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("javax.crypto.spec", "GCMParameterSpec");
+	public static immutable string _javaParameterString = "Ljavax/crypto/spec/GCMParameterSpec";
 }

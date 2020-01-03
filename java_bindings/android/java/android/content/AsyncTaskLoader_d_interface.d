@@ -14,5 +14,5 @@ final class AsyncTaskLoader : IJavaObject {
 	@Import bool isLoadInBackgroundCanceled();
 	@Import void dump(string, import1.FileDescriptor, import2.PrintWriter, string[]);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "AsyncTaskLoader");
+	public static immutable string _javaParameterString = "Landroid/content/AsyncTaskLoader";
 }

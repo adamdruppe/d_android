@@ -10,5 +10,5 @@ interface DOMError : IJavaObject {
 	@Import IJavaObject getRelatedException();
 	@Import IJavaObject getRelatedData();
 	@Import import0.DOMLocator getLocation();
-	mixin JavaPackageId!("org.w3c.dom", "DOMError");
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/DOMError";
 }

@@ -17,5 +17,5 @@ final class DisplayManager : IJavaObject {
 	@Import import3.VirtualDisplay createVirtualDisplay(string, int, int, int, import4.Surface, int);
 	@Import import3.VirtualDisplay createVirtualDisplay(string, int, int, int, import4.Surface, int, import5.VirtualDisplay_Callback, import2.Handler);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.hardware.display", "DisplayManager");
+	public static immutable string _javaParameterString = "Landroid/hardware/display/DisplayManager";
 }

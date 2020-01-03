@@ -26,5 +26,5 @@ interface ChronoPeriod : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	mixin JavaPackageId!("java.time.chrono", "ChronoPeriod");
+	public static immutable string _javaParameterString = "Ljava/time/chrono/ChronoPeriod";
 }

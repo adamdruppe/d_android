@@ -12,5 +12,5 @@ final class ContentProviderResult : IJavaObject {
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.content", "ContentProviderResult");
+	public static immutable string _javaParameterString = "Landroid/content/ContentProviderResult";
 }

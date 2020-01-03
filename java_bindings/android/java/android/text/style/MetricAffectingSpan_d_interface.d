@@ -10,5 +10,5 @@ final class MetricAffectingSpan : IJavaObject {
 	@Import import1.MetricAffectingSpan getUnderlying();
 	@Import import2.CharacterStyle getUnderlying();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.text.style", "MetricAffectingSpan");
+	public static immutable string _javaParameterString = "Landroid/text/style/MetricAffectingSpan";
 }

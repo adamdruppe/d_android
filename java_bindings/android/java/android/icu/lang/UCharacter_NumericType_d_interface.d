@@ -3,5 +3,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 
 @JavaName("UCharacter$NumericType")
 interface UCharacter_NumericType : IJavaObject {
-	mixin JavaPackageId!("android.icu.lang", "UCharacter$NumericType");
+	public static immutable string _javaParameterString = "Landroid/icu/lang/UCharacter$NumericType";
 }

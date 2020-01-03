@@ -33,5 +33,5 @@ final class InputMethodInfo : IJavaObject {
 	@Import void writeToParcel(import9.Parcel, int);
 	@Import int describeContents();
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.view.inputmethod", "InputMethodInfo");
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethodInfo";
 }

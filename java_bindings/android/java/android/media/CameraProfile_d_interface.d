@@ -5,5 +5,5 @@ final class CameraProfile : IJavaObject {
 	@Import static int getJpegEncodingQualityParameter(int);
 	@Import static int getJpegEncodingQualityParameter(int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.media", "CameraProfile");
+	public static immutable string _javaParameterString = "Landroid/media/CameraProfile";
 }

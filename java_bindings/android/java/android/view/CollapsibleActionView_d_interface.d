@@ -4,5 +4,5 @@ import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObjec
 interface CollapsibleActionView : IJavaObject {
 	@Import void onActionViewExpanded();
 	@Import void onActionViewCollapsed();
-	mixin JavaPackageId!("android.view", "CollapsibleActionView");
+	public static immutable string _javaParameterString = "Landroid/view/CollapsibleActionView";
 }

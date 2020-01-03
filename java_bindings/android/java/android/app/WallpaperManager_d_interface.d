@@ -58,5 +58,5 @@ final class WallpaperManager : IJavaObject {
 	@Import void clear();
 	@Import void clear(int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.app", "WallpaperManager");
+	public static immutable string _javaParameterString = "Landroid/app/WallpaperManager";
 }

@@ -10,5 +10,5 @@ final class SettingInjectorService : IJavaObject {
 	@Import void onStart(import1.Intent, int);
 	@Import int onStartCommand(import1.Intent, int, int);
 	mixin IJavaObjectImplementation!(false);
-	mixin JavaPackageId!("android.location", "SettingInjectorService");
+	public static immutable string _javaParameterString = "Landroid/location/SettingInjectorService";
 }
