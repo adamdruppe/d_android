@@ -140,7 +140,7 @@ See more info here: https://github.com/ldc-developers/ldc#installation");
 		.replace("$OS", osString)
 	;
 
-	//std.file.append(ldcConfigFileName, config);
+	std.file.append(ldcConfigFileName, config);
 
 	writefln("Ready! Give it a try.");
 
