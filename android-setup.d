@@ -13,7 +13,17 @@ import std.file;
 version(X86)
 	pragma(msg, "You might want to try -m64 build instead so curl is more likely to work. But you can try this anyway.");
 
-int main() {
+int main(string[] args) {
+
+	string ndk_path;
+
+	if(args.length < 2) {
+		writeln("Please specify the path to your NDK installation on the command line. It should be an absolute path, for example ~/Android/Sdk/ndk-bundle or /home/me/Android/ndk/android-ndk-r20/ ");
+		return 1;
+	} 
+
+	ndk_path = args[1];
+
 	auto p = executeShell("ldc2 -v");
 	if(p.status != 0 && p.status != 1) {
 		writeln("Couldn't execute ldc2. Are you sure it is installed and in your PATH?");
@@ -135,7 +145,7 @@ See more info here: https://github.com/ldc-developers/ldc#installation");
 	writefln("Configuring...");
 
 	auto config = configTemplate
-		.replace("$NDK", "/home/me/Android/ndk/android-ndk-r20/")
+		.replace("$NDK", ndk_path)
 		.replace("$D_ANDROID", dirName(thisExePath()))
 		.replace("$OS", osString)
 	;
