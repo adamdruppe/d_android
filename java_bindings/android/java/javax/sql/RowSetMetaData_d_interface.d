@@ -1,7 +1,13 @@
 module android.java.javax.sql.RowSetMetaData_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-interface RowSetMetaData : IJavaObject {
+import import0 = android.java.java.lang.Class_d_interface;
+
+final class RowSetMetaData : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/sql/ResultSetMetaData",
+	];
 	@Import void setColumnCount(int);
 	@Import void setAutoIncrement(int, bool);
 	@Import void setCaseSensitive(int, bool);
@@ -19,5 +25,42 @@ interface RowSetMetaData : IJavaObject {
 	@Import void setCatalogName(int, string);
 	@Import void setColumnType(int, int);
 	@Import void setColumnTypeName(int, string);
-	public static immutable string _javaParameterString = "Ljavax/sql/RowSetMetaData";
+	@Import import0.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import int getColumnCount();
+	@Import bool isAutoIncrement(int);
+	@Import bool isCaseSensitive(int);
+	@Import bool isSearchable(int);
+	@Import bool isCurrency(int);
+	@Import int isNullable(int);
+	@Import bool isSigned(int);
+	@Import int getColumnDisplaySize(int);
+	@Import string getColumnLabel(int);
+	@Import string getColumnName(int);
+	@Import string getSchemaName(int);
+	@Import int getPrecision(int);
+	@Import int getScale(int);
+	@Import string getTableName(int);
+	@Import string getCatalogName(int);
+	@Import int getColumnType(int);
+	@Import string getColumnTypeName(int);
+	@Import bool isReadOnly(int);
+	@Import bool isWritable(int);
+	@Import bool isDefinitelyWritable(int);
+	@Import string getColumnClassName(int);
+	@Import IJavaObject unwrap(import0.Class);
+	@Import bool isWrapperFor(import0.Class);
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljavax/sql/RowSetMetaData;";
 }
+
+
+

@@ -3,3 +3,5 @@ public import android.java.android.view.WindowId_FocusObserver_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WindowId_FocusObserver;
+
+import import1 = android.java.java.lang.Class;

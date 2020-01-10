@@ -3,3 +3,5 @@ public import android.java.android.media.browse.MediaBrowser_ConnectionCallback_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaBrowser_ConnectionCallback;
+
+import import0 = android.java.java.lang.Class;

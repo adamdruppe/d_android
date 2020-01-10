@@ -3,3 +3,34 @@ public import android.java.android.inputmethodservice.InputMethodService_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!InputMethodService;
+
+import import32 = android.java.android.content.res.Resources_Theme;
+import import23 = android.java.android.app.Application;
+import import50 = android.java.android.content.ComponentName;
+import import56 = android.java.android.content.res.ColorStateList;
+import import5 = android.java.android.view.inputmethod.InputBinding;
+import import37 = android.java.java.io.FileOutputStream;
+import import26 = android.java.android.content.res.AssetManager;
+import import42 = android.java.android.graphics.drawable.Drawable;
+import import31 = android.java.java.util.concurrent.Executor;
+import import21 = android.java.android.os.IBinder;
+import import29 = android.java.android.content.ContentResolver;
+import import30 = android.java.android.os.Looper;
+import import38 = android.java.java.io.File;
+import import20 = android.java.android.view.KeyEvent_DispatcherState;
+import import7 = android.java.android.view.inputmethod.EditorInfo;
+import import33 = android.java.java.lang.ClassLoader;
+import import39 = android.java.android.database.sqlite.SQLiteDatabase;
+import import2 = android.java.android.inputmethodservice.AbstractInputMethodService_AbstractInputMethodSessionImpl;
+import import28 = android.java.android.content.pm.PackageManager;
+import import1 = android.java.android.inputmethodservice.AbstractInputMethodService_AbstractInputMethodImpl;
+import import3 = android.java.android.view.LayoutInflater;
+import import36 = android.java.java.io.FileInputStream;
+import import19 = android.java.java.lang.CharSequence;
+import import27 = android.java.android.content.res.Resources;
+import import35 = android.java.android.content.SharedPreferences;
+import import6 = android.java.android.view.inputmethod.InputConnection;
+import import4 = android.java.android.app.Dialog;
+import import57 = android.java.android.content.res.TypedArray;
+import import34 = android.java.android.content.pm.ApplicationInfo;
+import import25 = android.java.android.content.Context;

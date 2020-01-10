@@ -3,3 +3,5 @@ public import android.java.android.app.ActivityManager_RunningAppProcessInfo_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ActivityManager_RunningAppProcessInfo;
+
+import import1 = android.java.java.lang.Class;

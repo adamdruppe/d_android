@@ -1,10 +1,12 @@
 module android.java.android.view.inputmethod.BaseInputConnection_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import5 = android.java.java.lang.CharSequence_d_interface;
 import import9 = android.java.android.os.Handler_d_interface;
 import import0 = android.java.android.view.View_d_interface;
 import import2 = android.java.android.text.Editable_d_interface;
+import import12 = android.java.java.lang.Class_d_interface;
 import import11 = android.java.android.view.inputmethod.InputContentInfo_d_interface;
 import import10 = android.java.android.view.KeyEvent_d_interface;
 import import1 = android.java.android.text.Spannable_d_interface;
@@ -15,6 +17,9 @@ import import6 = android.java.android.view.inputmethod.ExtractedText_d_interface
 import import3 = android.java.android.view.inputmethod.CompletionInfo_d_interface;
 
 final class BaseInputConnection : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/view/inputmethod/InputConnection",
+	];
 	@Import this(import0.View, bool);
 	@Import static void removeComposingSpans(import1.Spannable);
 	@Import static void setComposingSpans(import1.Spannable);
@@ -47,6 +52,19 @@ final class BaseInputConnection : IJavaObject {
 	@Import bool sendKeyEvent(import10.KeyEvent);
 	@Import bool reportFullscreenMode(bool);
 	@Import bool commitContent(import11.InputContentInfo, int, import8.Bundle);
+	@Import import12.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/inputmethod/BaseInputConnection";
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/BaseInputConnection;";
 }
+
+
+

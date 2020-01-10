@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.atomic.DoubleAccumulator_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DoubleAccumulator;
+
+import import1 = android.java.java.lang.Class;

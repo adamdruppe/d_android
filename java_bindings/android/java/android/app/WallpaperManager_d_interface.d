@@ -1,5 +1,6 @@
 module android.java.android.app.WallpaperManager_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import8 = android.java.android.content.Intent_d_interface;
 import import10 = android.java.android.graphics.Bitmap_d_interface;
@@ -8,6 +9,7 @@ import import4 = android.java.android.app.WallpaperManager_OnColorsChangedListen
 import import9 = android.java.android.net.Uri_d_interface;
 import import11 = android.java.android.graphics.Rect_d_interface;
 import import5 = android.java.android.os.Handler_d_interface;
+import import15 = android.java.java.lang.Class_d_interface;
 import import2 = android.java.android.graphics.drawable.Drawable_d_interface;
 import import7 = android.java.android.app.WallpaperInfo_d_interface;
 import import12 = android.java.java.io.InputStream_d_interface;
@@ -18,6 +20,8 @@ import import6 = android.java.android.app.WallpaperColors_d_interface;
 import import1 = android.java.android.content.Context_d_interface;
 
 final class WallpaperManager : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.WallpaperManager getInstance(import1.Context);
 	@Import import2.Drawable getDrawable();
 	@Import import2.Drawable getBuiltInDrawable();
@@ -57,6 +61,19 @@ final class WallpaperManager : IJavaObject {
 	@Import void clearWallpaperOffsets(import13.IBinder);
 	@Import void clear();
 	@Import void clear(int);
+	@Import import15.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/app/WallpaperManager";
+	public static immutable string _javaParameterString = "Landroid/app/WallpaperManager;";
 }
+
+
+

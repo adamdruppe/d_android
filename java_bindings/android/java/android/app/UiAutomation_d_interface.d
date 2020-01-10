@@ -1,11 +1,13 @@
 module android.java.android.app.UiAutomation_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import8 = android.java.android.graphics.Bitmap_d_interface;
 import import0 = android.java.android.app.UiAutomation_OnAccessibilityEventListener_d_interface;
 import import1 = android.java.android.view.accessibility.AccessibilityNodeInfo_d_interface;
 import import7 = android.java.android.app.UiAutomation_AccessibilityEventFilter_d_interface;
 import import10 = android.java.android.view.WindowAnimationFrameStats_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
 import import5 = android.java.android.view.accessibility.AccessibilityEvent_d_interface;
 import import12 = android.java.android.os.ParcelFileDescriptor_d_interface;
 import import2 = android.java.android.accessibilityservice.AccessibilityServiceInfo_d_interface;
@@ -16,7 +18,12 @@ import import11 = android.java.android.os.UserHandle_d_interface;
 import import6 = android.java.java.lang.Runnable_d_interface;
 
 final class UiAutomation : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import void setOnAccessibilityEventListener(import0.UiAutomation_OnAccessibilityEventListener);
+	@Import void adoptShellPermissionIdentity();
+	@Import void adoptShellPermissionIdentity(string[]);
+	@Import void dropShellPermissionIdentity();
 	@Import bool performGlobalAction(int);
 	@Import import1.AccessibilityNodeInfo findFocus(int);
 	@Import import2.AccessibilityServiceInfo getServiceInfo();
@@ -38,6 +45,19 @@ final class UiAutomation : IJavaObject {
 	@Import void revokeRuntimePermission(string, string);
 	@Import void revokeRuntimePermissionAsUser(string, string, import11.UserHandle);
 	@Import import12.ParcelFileDescriptor executeShellCommand(string);
+	@Import import13.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/app/UiAutomation";
+	public static immutable string _javaParameterString = "Landroid/app/UiAutomation;";
 }
+
+
+

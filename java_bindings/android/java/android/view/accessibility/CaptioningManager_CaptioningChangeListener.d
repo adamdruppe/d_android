@@ -3,3 +3,5 @@ public import android.java.android.view.accessibility.CaptioningManager_Captioni
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CaptioningManager_CaptioningChangeListener;
+
+import import2 = android.java.java.lang.Class;

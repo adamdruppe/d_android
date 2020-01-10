@@ -3,3 +3,5 @@ public import android.java.android.hardware.camera2.CameraManager_AvailabilityCa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CameraManager_AvailabilityCallback;
+
+import import0 = android.java.java.lang.Class;

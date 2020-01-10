@@ -1,11 +1,29 @@
 module android.java.android.content.DialogInterface_OnKeyListener_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.content.DialogInterface_d_interface;
 import import1 = android.java.android.view.KeyEvent_d_interface;
+import import2 = android.java.java.lang.Class_d_interface;
 
 @JavaName("DialogInterface$OnKeyListener")
-interface DialogInterface_OnKeyListener : IJavaObject {
+final class DialogInterface_OnKeyListener : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import bool onKey(import0.DialogInterface, int, import1.KeyEvent);
-	public static immutable string _javaParameterString = "Landroid/content/DialogInterface$OnKeyListener";
+	@Import import2.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Landroid/content/DialogInterface$OnKeyListener;";
 }
+
+
+

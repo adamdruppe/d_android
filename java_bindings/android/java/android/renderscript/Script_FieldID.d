@@ -3,3 +3,5 @@ public import android.java.android.renderscript.Script_FieldID_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Script_FieldID;
+
+import import0 = android.java.java.lang.Class;

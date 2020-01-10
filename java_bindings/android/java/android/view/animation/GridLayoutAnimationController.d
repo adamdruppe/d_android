@@ -3,3 +3,5 @@ public import android.java.android.view.animation.GridLayoutAnimationController_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!GridLayoutAnimationController;
+
+import import5 = android.java.java.lang.Class;

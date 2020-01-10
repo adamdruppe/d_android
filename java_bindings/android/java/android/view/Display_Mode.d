@@ -3,3 +3,5 @@ public import android.java.android.view.Display_Mode_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Display_Mode;
+
+import import1 = android.java.java.lang.Class;

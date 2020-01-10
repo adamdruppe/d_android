@@ -1,9 +1,14 @@
 module android.java.java.lang.Byte_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.lang.Byte_d_interface;
+import import1 = android.java.java.lang.Class_d_interface;
 
 final class Byte : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Comparable",
+	];
 	@Import this(byte);
 	@Import this(string);
 	@Import static @JavaName("toString") string toString_(byte);
@@ -20,6 +25,7 @@ final class Byte : IJavaObject {
 	@Import float floatValue();
 	@Import double doubleValue();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import int hashCode();
 	@Import static int hashCode(byte);
 	@Import bool equals(IJavaObject);
@@ -28,6 +34,15 @@ final class Byte : IJavaObject {
 	@Import static int toUnsignedInt(byte);
 	@Import static long toUnsignedLong(byte);
 	@Import int compareTo(IJavaObject);
+	@Import import1.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/Byte";
+	public static immutable string _javaParameterString = "Ljava/lang/Byte;";
 }
+
+
+

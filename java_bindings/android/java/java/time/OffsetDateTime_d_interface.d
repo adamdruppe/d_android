@@ -1,5 +1,6 @@
 module android.java.java.time.OffsetDateTime_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import14 = android.java.java.time.temporal.ValueRange_d_interface;
 import import8 = android.java.java.time.Instant_d_interface;
@@ -12,6 +13,7 @@ import import18 = android.java.java.time.temporal.TemporalAmount_d_interface;
 import import2 = android.java.java.time.ZoneId_d_interface;
 import import5 = android.java.java.time.LocalTime_d_interface;
 import import21 = android.java.java.time.ZonedDateTime_d_interface;
+import import23 = android.java.java.lang.Class_d_interface;
 import import13 = android.java.java.time.temporal.TemporalUnit_d_interface;
 import import7 = android.java.java.time.LocalDateTime_d_interface;
 import import19 = android.java.java.time.temporal.TemporalQuery_d_interface;
@@ -26,6 +28,12 @@ import import0 = android.java.java.util.Comparator_d_interface;
 import import9 = android.java.java.time.temporal.TemporalAccessor_d_interface;
 
 final class OffsetDateTime : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/time/temporal/Temporal",
+		"java/time/temporal/TemporalAdjuster",
+		"java/lang/Comparable",
+		"java/io/Serializable",
+	];
 	@Import static import0.Comparator timeLineOrder();
 	@Import static import1.OffsetDateTime now();
 	@Import static import1.OffsetDateTime now(import2.ZoneId);
@@ -106,13 +114,17 @@ final class OffsetDateTime : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	@Import import20.Temporal minus(long, import13.TemporalUnit);
-	@Import import20.Temporal minus(import18.TemporalAmount);
-	@Import import20.Temporal plus(long, import13.TemporalUnit);
-	@Import import20.Temporal plus(import18.TemporalAmount);
-	@Import @JavaName("with") import20.Temporal with_(import12.TemporalField, long);
-	@Import @JavaName("with") import20.Temporal with_(import17.TemporalAdjuster);
+	override string toString() { return toString_(); }
 	@Import int compareTo(IJavaObject);
+	@Import import23.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/time/OffsetDateTime";
+	public static immutable string _javaParameterString = "Ljava/time/OffsetDateTime;";
 }
+
+
+

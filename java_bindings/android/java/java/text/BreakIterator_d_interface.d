@@ -1,11 +1,16 @@
 module android.java.java.text.BreakIterator_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.util.Locale_d_interface;
 import import1 = android.java.java.text.BreakIterator_d_interface;
+import import3 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.java.text.CharacterIterator_d_interface;
 
 final class BreakIterator : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Cloneable",
+	];
 	@Import IJavaObject clone();
 	@Import int first();
 	@Import int last();
@@ -28,6 +33,19 @@ final class BreakIterator : IJavaObject {
 	@Import static import1.BreakIterator getSentenceInstance();
 	@Import static import1.BreakIterator getSentenceInstance(import2.Locale);
 	@Import static import2.Locale[] getAvailableLocales();
+	@Import import3.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/text/BreakIterator";
+	public static immutable string _javaParameterString = "Ljava/text/BreakIterator;";
 }
+
+
+

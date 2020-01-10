@@ -1,9 +1,13 @@
 module android.java.java.time.temporal.TemporalQueries_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.time.temporal.TemporalQuery_d_interface;
+import import1 = android.java.java.lang.Class_d_interface;
 
 final class TemporalQueries : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.TemporalQuery zoneId();
 	@Import static import0.TemporalQuery chronology();
 	@Import static import0.TemporalQuery precision();
@@ -11,6 +15,19 @@ final class TemporalQueries : IJavaObject {
 	@Import static import0.TemporalQuery offset();
 	@Import static import0.TemporalQuery localDate();
 	@Import static import0.TemporalQuery localTime();
+	@Import import1.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalQueries";
+	public static immutable string _javaParameterString = "Ljava/time/temporal/TemporalQueries;";
 }
+
+
+

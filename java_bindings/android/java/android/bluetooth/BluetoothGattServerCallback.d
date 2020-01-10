@@ -3,3 +3,5 @@ public import android.java.android.bluetooth.BluetoothGattServerCallback_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!BluetoothGattServerCallback;
+
+import import4 = android.java.java.lang.Class;

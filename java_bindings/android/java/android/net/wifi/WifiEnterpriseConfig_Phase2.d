@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.WifiEnterpriseConfig_Phase2_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WifiEnterpriseConfig_Phase2;
+
+import import0 = android.java.java.lang.Class;

@@ -3,3 +3,7 @@ public import android.java.android.renderscript.ScriptIntrinsicColorMatrix_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ScriptIntrinsicColorMatrix;
+
+import import8 = android.java.android.renderscript.Script_KernelID;
+import import0 = android.java.android.renderscript.ScriptIntrinsicColorMatrix;
+import import11 = android.java.java.lang.Class;

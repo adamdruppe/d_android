@@ -3,3 +3,5 @@ public import android.java.android.webkit.WebView_HitTestResult_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WebView_HitTestResult;
+
+import import0 = android.java.java.lang.Class;

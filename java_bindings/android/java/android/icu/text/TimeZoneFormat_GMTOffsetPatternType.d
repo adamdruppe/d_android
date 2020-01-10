@@ -3,3 +3,6 @@ public import android.java.android.icu.text.TimeZoneFormat_GMTOffsetPatternType_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TimeZoneFormat_GMTOffsetPatternType;
+
+import import0 = android.java.android.icu.text.TimeZoneFormat_GMTOffsetPatternType;
+import import2 = android.java.java.lang.Class;

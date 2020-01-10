@@ -3,3 +3,5 @@ public import android.java.javax.xml.datatype.DatatypeConstants_Field_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DatatypeConstants_Field;
+
+import import0 = android.java.java.lang.Class;

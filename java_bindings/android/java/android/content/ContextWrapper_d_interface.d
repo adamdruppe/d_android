@@ -1,16 +1,20 @@
 module android.java.android.content.ContextWrapper_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import7 = android.java.android.content.res.Resources_Theme_d_interface;
 import import27 = android.java.android.content.ComponentName_d_interface;
 import import29 = android.java.java.lang.Class_d_interface;
+import import35 = android.java.android.content.res.ColorStateList_d_interface;
 import import25 = android.java.android.os.UserHandle_d_interface;
 import import20 = android.java.android.content.Intent_d_interface;
 import import12 = android.java.java.io.FileOutputStream_d_interface;
 import import24 = android.java.android.os.Handler_d_interface;
 import import28 = android.java.android.content.ServiceConnection_d_interface;
 import import1 = android.java.android.content.res.AssetManager_d_interface;
+import import37 = android.java.android.util.AttributeSet_d_interface;
 import import17 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import33 = android.java.android.content.ComponentCallbacks_d_interface;
 import import21 = android.java.android.os.Bundle_d_interface;
 import import6 = android.java.java.util.concurrent.Executor_d_interface;
 import import16 = android.java.android.database.DatabaseErrorHandler_d_interface;
@@ -28,14 +32,18 @@ import import23 = android.java.android.content.BroadcastReceiver_d_interface;
 import import11 = android.java.java.io.FileInputStream_d_interface;
 import import18 = android.java.android.graphics.Bitmap_d_interface;
 import import15 = android.java.android.database.sqlite.SQLiteDatabase_CursorFactory_d_interface;
+import import34 = android.java.java.lang.CharSequence_d_interface;
 import import30 = android.java.android.net.Uri_d_interface;
 import import2 = android.java.android.content.res.Resources_d_interface;
 import import10 = android.java.android.content.SharedPreferences_d_interface;
 import import32 = android.java.android.view.Display_d_interface;
+import import36 = android.java.android.content.res.TypedArray_d_interface;
 import import9 = android.java.android.content.pm.ApplicationInfo_d_interface;
 import import0 = android.java.android.content.Context_d_interface;
 
 final class ContextWrapper : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(import0.Context);
 	@Import import0.Context getBaseContext();
 	@Import import1.AssetManager getAssets();
@@ -49,6 +57,7 @@ final class ContextWrapper : IJavaObject {
 	@Import import7.Resources_Theme getTheme();
 	@Import import8.ClassLoader getClassLoader();
 	@Import string getPackageName();
+	@Import string getOpPackageName();
 	@Import import9.ApplicationInfo getApplicationInfo();
 	@Import string getPackageResourcePath();
 	@Import string getPackageCodePath();
@@ -114,6 +123,9 @@ final class ContextWrapper : IJavaObject {
 	@Import import27.ComponentName startForegroundService(import20.Intent);
 	@Import bool stopService(import20.Intent);
 	@Import bool bindService(import20.Intent, import28.ServiceConnection, int);
+	@Import bool bindService(import20.Intent, int, import6.Executor, import28.ServiceConnection);
+	@Import bool bindIsolatedService(import20.Intent, int, string, import6.Executor, import28.ServiceConnection);
+	@Import void updateServiceGroup(import28.ServiceConnection, int, int);
 	@Import void unbindService(import28.ServiceConnection);
 	@Import bool startInstrumentation(import27.ComponentName, string, import21.Bundle);
 	@Import IJavaObject getSystemService(string);
@@ -143,6 +155,32 @@ final class ContextWrapper : IJavaObject {
 	@Import bool isRestricted();
 	@Import import0.Context createDeviceProtectedStorageContext();
 	@Import bool isDeviceProtectedStorage();
+	@Import void registerComponentCallbacks(import33.ComponentCallbacks);
+	@Import void unregisterComponentCallbacks(import33.ComponentCallbacks);
+	@Import import34.CharSequence getText(int);
+	@Import string getString(int);
+	@Import string getString(int, IJavaObject[]);
+	@Import int getColor(int);
+	@Import import17.Drawable getDrawable(int);
+	@Import import35.ColorStateList getColorStateList(int);
+	@Import import36.TypedArray obtainStyledAttributes(int[]);
+	@Import import36.TypedArray obtainStyledAttributes(int, int[]);
+	@Import import36.TypedArray obtainStyledAttributes(import37.AttributeSet, int[]);
+	@Import import36.TypedArray obtainStyledAttributes(import37.AttributeSet, int, int, int[]);
+	@Import IJavaObject getSystemService(import29.Class);
+	@Import import29.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/content/ContextWrapper";
+	public static immutable string _javaParameterString = "Landroid/content/ContextWrapper;";
 }
+
+
+

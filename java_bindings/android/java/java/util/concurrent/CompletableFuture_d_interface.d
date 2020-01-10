@@ -1,9 +1,11 @@
 module android.java.java.util.concurrent.CompletableFuture_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import6 = android.java.java.util.function_.Function_d_interface;
 import import4 = android.java.java.util.concurrent.TimeUnit_d_interface;
 import import9 = android.java.java.util.function_.BiFunction_d_interface;
+import import11 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.util.function_.Supplier_d_interface;
 import import0 = android.java.java.util.concurrent.CompletableFuture_d_interface;
 import import8 = android.java.java.util.concurrent.CompletionStage_d_interface;
@@ -14,6 +16,11 @@ import import7 = android.java.java.util.function_.Consumer_d_interface;
 import import5 = android.java.java.lang.JavaThrowable_d_interface;
 
 final class CompletableFuture : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/util/concurrent/Future",
+		"java/util/concurrent/CompletionStage",
+	];
+	@Import this(arsd.jni.Default);
 	@Import static import0.CompletableFuture supplyAsync(import1.Supplier);
 	@Import static import0.CompletableFuture supplyAsync(import1.Supplier, import2.Executor);
 	@Import static import0.CompletableFuture runAsync(import3.Runnable);
@@ -73,43 +80,18 @@ final class CompletableFuture : IJavaObject {
 	@Import void obtrudeException(import5.JavaThrowable);
 	@Import int getNumberOfDependents();
 	@Import @JavaName("toString") string toString_();
-	@Import import8.CompletionStage exceptionally(import6.Function);
-	@Import import8.CompletionStage whenCompleteAsync(import10.BiConsumer, import2.Executor);
-	@Import import8.CompletionStage whenCompleteAsync(import10.BiConsumer);
-	@Import import8.CompletionStage whenComplete(import10.BiConsumer);
-	@Import import8.CompletionStage handleAsync(import9.BiFunction, import2.Executor);
-	@Import import8.CompletionStage handleAsync(import9.BiFunction);
-	@Import import8.CompletionStage handle(import9.BiFunction);
-	@Import import8.CompletionStage thenComposeAsync(import6.Function, import2.Executor);
-	@Import import8.CompletionStage thenComposeAsync(import6.Function);
-	@Import import8.CompletionStage thenCompose(import6.Function);
-	@Import import8.CompletionStage runAfterEitherAsync(import8.CompletionStage, import3.Runnable, import2.Executor);
-	@Import import8.CompletionStage runAfterEitherAsync(import8.CompletionStage, import3.Runnable);
-	@Import import8.CompletionStage runAfterEither(import8.CompletionStage, import3.Runnable);
-	@Import import8.CompletionStage acceptEitherAsync(import8.CompletionStage, import7.Consumer, import2.Executor);
-	@Import import8.CompletionStage acceptEitherAsync(import8.CompletionStage, import7.Consumer);
-	@Import import8.CompletionStage acceptEither(import8.CompletionStage, import7.Consumer);
-	@Import import8.CompletionStage applyToEitherAsync(import8.CompletionStage, import6.Function, import2.Executor);
-	@Import import8.CompletionStage applyToEitherAsync(import8.CompletionStage, import6.Function);
-	@Import import8.CompletionStage applyToEither(import8.CompletionStage, import6.Function);
-	@Import import8.CompletionStage runAfterBothAsync(import8.CompletionStage, import3.Runnable, import2.Executor);
-	@Import import8.CompletionStage runAfterBothAsync(import8.CompletionStage, import3.Runnable);
-	@Import import8.CompletionStage runAfterBoth(import8.CompletionStage, import3.Runnable);
-	@Import import8.CompletionStage thenAcceptBothAsync(import8.CompletionStage, import10.BiConsumer, import2.Executor);
-	@Import import8.CompletionStage thenAcceptBothAsync(import8.CompletionStage, import10.BiConsumer);
-	@Import import8.CompletionStage thenAcceptBoth(import8.CompletionStage, import10.BiConsumer);
-	@Import import8.CompletionStage thenCombineAsync(import8.CompletionStage, import9.BiFunction, import2.Executor);
-	@Import import8.CompletionStage thenCombineAsync(import8.CompletionStage, import9.BiFunction);
-	@Import import8.CompletionStage thenCombine(import8.CompletionStage, import9.BiFunction);
-	@Import import8.CompletionStage thenRunAsync(import3.Runnable, import2.Executor);
-	@Import import8.CompletionStage thenRunAsync(import3.Runnable);
-	@Import import8.CompletionStage thenRun(import3.Runnable);
-	@Import import8.CompletionStage thenAcceptAsync(import7.Consumer, import2.Executor);
-	@Import import8.CompletionStage thenAcceptAsync(import7.Consumer);
-	@Import import8.CompletionStage thenAccept(import7.Consumer);
-	@Import import8.CompletionStage thenApplyAsync(import6.Function, import2.Executor);
-	@Import import8.CompletionStage thenApplyAsync(import6.Function);
-	@Import import8.CompletionStage thenApply(import6.Function);
+	override string toString() { return toString_(); }
+	@Import import11.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/util/concurrent/CompletableFuture";
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/CompletableFuture;";
 }
+
+
+

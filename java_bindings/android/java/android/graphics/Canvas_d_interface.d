@@ -1,24 +1,34 @@
 module android.java.android.graphics.Canvas_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.graphics.Bitmap_d_interface;
 import import5 = android.java.android.graphics.Rect_d_interface;
-import import11 = android.java.java.lang.CharSequence_d_interface;
+import import12 = android.java.java.lang.CharSequence_d_interface;
 import import3 = android.java.android.graphics.Matrix_d_interface;
 import import8 = android.java.android.graphics.Canvas_EdgeType_d_interface;
+import import11 = android.java.android.graphics.BlendMode_d_interface;
 import import10 = android.java.android.graphics.PorterDuff_Mode_d_interface;
-import import12 = android.java.android.graphics.Canvas_VertexMode_d_interface;
+import import16 = android.java.java.lang.Class_d_interface;
+import import14 = android.java.android.graphics.Canvas_VertexMode_d_interface;
 import import1 = android.java.android.graphics.RectF_d_interface;
 import import6 = android.java.android.graphics.Path_d_interface;
+import import15 = android.java.android.graphics.RenderNode_d_interface;
 import import9 = android.java.android.graphics.Picture_d_interface;
 import import2 = android.java.android.graphics.Paint_d_interface;
 import import4 = android.java.android.graphics.Region_Op_d_interface;
+import import13 = android.java.android.graphics.text.MeasuredText_d_interface;
 import import7 = android.java.android.graphics.DrawFilter_d_interface;
 
 final class Canvas : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Bitmap);
 	@Import bool isHardwareAccelerated();
 	@Import void setBitmap(import0.Bitmap);
+	@Import void enableZ();
+	@Import void disableZ();
 	@Import bool isOpaque();
 	@Import int getWidth();
 	@Import int getHeight();
@@ -84,7 +94,10 @@ final class Canvas : IJavaObject {
 	@Import void drawBitmapMesh(import0.Bitmap, int, int, float, int, int, int, import2.Paint[][]);
 	@Import void drawCircle(float, float, float, import2.Paint);
 	@Import void drawColor(int);
+	@Import void drawColor(long);
 	@Import void drawColor(int, import10.PorterDuff_Mode);
+	@Import void drawColor(int, import11.BlendMode);
+	@Import void drawColor(long, import11.BlendMode);
 	@Import void drawLine(float, float, float, float, import2.Paint);
 	@Import void drawLines(float, int, int, import2.Paint[]);
 	@Import void drawLines(float, import2.Paint[]);
@@ -103,15 +116,32 @@ final class Canvas : IJavaObject {
 	@Import void drawRGB(int, int, int);
 	@Import void drawRoundRect(import1.RectF, float, float, import2.Paint);
 	@Import void drawRoundRect(float, float, float, float, float, float, import2.Paint);
+	@Import void drawDoubleRoundRect(import1.RectF, float, float, import1.RectF, float, float, import2.Paint);
+	@Import void drawDoubleRoundRect(import1.RectF, float, import1.RectF, float, import2.Paint[][]);
 	@Import void drawText(wchar, int, int, float, float, import2.Paint[]);
 	@Import void drawText(string, float, float, import2.Paint);
 	@Import void drawText(string, int, int, float, float, import2.Paint);
-	@Import void drawText(import11.CharSequence, int, int, float, float, import2.Paint);
+	@Import void drawText(import12.CharSequence, int, int, float, float, import2.Paint);
 	@Import void drawTextOnPath(wchar, int, int, import6.Path, float, float, import2.Paint[]);
 	@Import void drawTextOnPath(string, import6.Path, float, float, import2.Paint);
 	@Import void drawTextRun(wchar, int, int, int, int, float, float, bool, import2.Paint[]);
-	@Import void drawTextRun(import11.CharSequence, int, int, int, int, float, float, bool, import2.Paint);
-	@Import void drawVertices(import12.Canvas_VertexMode, int, float, int, float, int, int, int, short, int, int, import2.Paint[][][][]);
+	@Import void drawTextRun(import12.CharSequence, int, int, int, int, float, float, bool, import2.Paint);
+	@Import void drawTextRun(import13.MeasuredText, int, int, int, int, float, float, bool, import2.Paint);
+	@Import void drawVertices(import14.Canvas_VertexMode, int, float, int, float, int, int, int, short, int, int, import2.Paint[][][][]);
+	@Import void drawRenderNode(import15.RenderNode);
+	@Import import16.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/graphics/Canvas";
+	public static immutable string _javaParameterString = "Landroid/graphics/Canvas;";
 }
+
+
+

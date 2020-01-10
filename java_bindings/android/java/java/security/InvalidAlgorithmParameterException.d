@@ -3,3 +3,6 @@ public import android.java.java.security.InvalidAlgorithmParameterException_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!InvalidAlgorithmParameterException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;

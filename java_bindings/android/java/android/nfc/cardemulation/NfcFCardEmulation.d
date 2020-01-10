@@ -3,3 +3,6 @@ public import android.java.android.nfc.cardemulation.NfcFCardEmulation_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!NfcFCardEmulation;
+
+import import0 = android.java.android.nfc.cardemulation.NfcFCardEmulation;
+import import4 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.media.midi.MidiManager_DeviceCallback_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MidiManager_DeviceCallback;
+
+import import2 = android.java.java.lang.Class;

@@ -3,3 +3,6 @@ public import android.java.java.security.cert.CertificateEncodingException_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CertificateEncodingException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;

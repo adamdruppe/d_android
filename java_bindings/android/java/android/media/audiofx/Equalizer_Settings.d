@@ -3,3 +3,5 @@ public import android.java.android.media.audiofx.Equalizer_Settings_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Equalizer_Settings;
+
+import import0 = android.java.java.lang.Class;

@@ -1,14 +1,19 @@
 module android.java.org.json.JSONObject_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import5 = android.java.java.lang.Number_d_interface;
+import import3 = android.java.org.json.JSONArray_d_interface;
+import import6 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.org.json.JSONTokener_d_interface;
 import import2 = android.java.org.json.JSONObject_d_interface;
 import import0 = android.java.java.util.Map_d_interface;
-import import3 = android.java.org.json.JSONArray_d_interface;
-import import5 = android.java.java.lang.Number_d_interface;
 import import4 = android.java.java.util.Iterator_d_interface;
 
 final class JSONObject : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Map);
 	@Import this(import1.JSONTokener);
 	@Import this(string);
@@ -49,10 +54,22 @@ final class JSONObject : IJavaObject {
 	@Import import4.Iterator keys();
 	@Import import3.JSONArray names();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import @JavaName("toString") string toString_(int);
 	@Import static string numberToString(import5.Number);
 	@Import static string quote(string);
 	@Import static IJavaObject wrap(IJavaObject);
+	@Import import6.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Lorg/json/JSONObject";
+	public static immutable string _javaParameterString = "Lorg/json/JSONObject;";
 }
+
+
+

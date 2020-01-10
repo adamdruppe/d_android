@@ -3,3 +3,5 @@ public import android.java.android.view.GestureDetector_SimpleOnGestureListener_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!GestureDetector_SimpleOnGestureListener;
+
+import import1 = android.java.java.lang.Class;

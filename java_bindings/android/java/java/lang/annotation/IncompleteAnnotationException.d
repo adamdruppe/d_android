@@ -3,3 +3,6 @@ public import android.java.java.lang.annotation.IncompleteAnnotationException_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!IncompleteAnnotationException;
+
+import import4 = android.java.java.lang.StackTraceElement;
+import import1 = android.java.java.lang.JavaThrowable;

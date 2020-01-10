@@ -1,16 +1,27 @@
 module android.java.android.icu.text.RuleBasedCollator_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.android.icu.text.Collator_d_interface;
 import import4 = android.java.android.icu.text.RuleBasedCollator_d_interface;
+import import8 = android.java.android.icu.util.ULocale_d_interface;
+import import12 = android.java.java.util.function_.Function_d_interface;
 import import5 = android.java.android.icu.text.UnicodeSet_d_interface;
+import import14 = android.java.java.util.function_.ToLongFunction_d_interface;
+import import9 = android.java.java.util.Locale_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.text.CharacterIterator_d_interface;
 import import7 = android.java.android.icu.util.VersionInfo_d_interface;
+import import15 = android.java.java.util.function_.ToDoubleFunction_d_interface;
 import import2 = android.java.android.icu.text.UCharacterIterator_d_interface;
+import import13 = android.java.java.util.function_.ToIntFunction_d_interface;
 import import6 = android.java.android.icu.text.CollationKey_d_interface;
 import import0 = android.java.android.icu.text.CollationElementIterator_d_interface;
+import import11 = android.java.java.util.Comparator_d_interface;
 
 final class RuleBasedCollator : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(string);
 	@Import IJavaObject clone();
 	@Import import0.CollationElementIterator getCollationElementIterator(string);
@@ -57,10 +68,50 @@ final class RuleBasedCollator : IJavaObject {
 	@Import int compare(string, string);
 	@Import import7.VersionInfo getVersion();
 	@Import import7.VersionInfo getUCAVersion();
-	@Import import3.Collator cloneAsThawed();
-	@Import import3.Collator setMaxVariable(int);
-	@Import IJavaObject cloneAsThawed();
-	@Import IJavaObject freeze();
+	@Import static import3.Collator getInstance();
+	@Import static import3.Collator getInstance(import8.ULocale);
+	@Import static import3.Collator getInstance(import9.Locale);
+	@Import static import9.Locale[] getAvailableLocales();
+	@Import static import8.ULocale[] getAvailableULocales();
+	@Import static string[] getKeywords();
+	@Import static string[] getKeywordValues(string);
+	@Import static string[] getKeywordValuesForLocale(string, import8.ULocale, bool);
+	@Import static import8.ULocale getFunctionalEquivalent(string, import8.ULocale, bool[]);
+	@Import static import8.ULocale getFunctionalEquivalent(string, import8.ULocale);
+	@Import static string getDisplayName(import9.Locale, import9.Locale);
+	@Import static string getDisplayName(import8.ULocale, import8.ULocale);
+	@Import static string getDisplayName(import9.Locale);
+	@Import static string getDisplayName(import8.ULocale);
+	@Import bool equals(string, string);
+	@Import int compare(IJavaObject, IJavaObject);
+	@Import static int[] getEquivalentReorderCodes(int);
+	@Import import10.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import import11.Comparator reversed();
+	@Import import11.Comparator thenComparing(import11.Comparator);
+	@Import import11.Comparator thenComparing(import12.Function, import11.Comparator);
+	@Import import11.Comparator thenComparing(import12.Function);
+	@Import import11.Comparator thenComparingInt(import13.ToIntFunction);
+	@Import import11.Comparator thenComparingLong(import14.ToLongFunction);
+	@Import import11.Comparator thenComparingDouble(import15.ToDoubleFunction);
+	@Import static import11.Comparator reverseOrder();
+	@Import static import11.Comparator naturalOrder();
+	@Import static import11.Comparator nullsFirst(import11.Comparator);
+	@Import static import11.Comparator nullsLast(import11.Comparator);
+	@Import static import11.Comparator comparing(import12.Function, import11.Comparator);
+	@Import static import11.Comparator comparing(import12.Function);
+	@Import static import11.Comparator comparingInt(import13.ToIntFunction);
+	@Import static import11.Comparator comparingLong(import14.ToLongFunction);
+	@Import static import11.Comparator comparingDouble(import15.ToDoubleFunction);
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/RuleBasedCollator";
+	public static immutable string _javaParameterString = "Landroid/icu/text/RuleBasedCollator;";
 }
+
+
+

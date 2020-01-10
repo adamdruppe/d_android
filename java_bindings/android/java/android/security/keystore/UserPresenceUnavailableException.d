@@ -3,3 +3,6 @@ public import android.java.android.security.keystore.UserPresenceUnavailableExce
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!UserPresenceUnavailableException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;

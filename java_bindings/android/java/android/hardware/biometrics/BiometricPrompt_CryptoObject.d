@@ -3,3 +3,5 @@ public import android.java.android.hardware.biometrics.BiometricPrompt_CryptoObj
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!BiometricPrompt_CryptoObject;
+
+import import3 = android.java.java.lang.Class;

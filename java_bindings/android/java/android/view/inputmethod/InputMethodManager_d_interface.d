@@ -1,9 +1,11 @@
 module android.java.android.view.inputmethod.InputMethodManager_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.android.os.IBinder_d_interface;
 import import7 = android.java.android.view.inputmethod.CursorAnchorInfo_d_interface;
 import import3 = android.java.android.view.View_d_interface;
+import import12 = android.java.java.lang.Class_d_interface;
 import import9 = android.java.android.view.inputmethod.InputMethodSubtype_d_interface;
 import import10 = android.java.android.view.KeyEvent_d_interface;
 import import8 = android.java.android.os.Bundle_d_interface;
@@ -15,6 +17,8 @@ import import1 = android.java.android.view.inputmethod.InputMethodInfo_d_interfa
 import import4 = android.java.android.view.inputmethod.CompletionInfo_d_interface;
 
 final class InputMethodManager : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import import0.List getInputMethodList();
 	@Import import0.List getEnabledInputMethodList();
 	@Import import0.List getEnabledInputMethodSubtypeList(import1.InputMethodInfo, bool);
@@ -54,6 +58,19 @@ final class InputMethodManager : IJavaObject {
 	@Import bool shouldOfferSwitchingToNextInputMethod(import2.IBinder);
 	@Import void setAdditionalInputMethodSubtypes(string, import9.InputMethodSubtype[]);
 	@Import import9.InputMethodSubtype getLastInputMethodSubtype();
+	@Import import12.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethodManager";
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputMethodManager;";
 }
+
+
+

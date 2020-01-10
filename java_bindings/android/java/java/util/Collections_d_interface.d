@@ -1,5 +1,6 @@
 module android.java.java.util.Collections_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import12 = android.java.java.util.Iterator_d_interface;
 import import6 = android.java.java.util.NavigableSet_d_interface;
@@ -20,6 +21,8 @@ import import5 = android.java.java.util.SortedSet_d_interface;
 import import1 = android.java.java.util.Comparator_d_interface;
 
 final class Collections : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static void sort(import0.List);
 	@Import static void sort(import0.List, import1.Comparator);
 	@Import static int binarySearch(import0.List, IJavaObject);
@@ -86,6 +89,19 @@ final class Collections : IJavaObject {
 	@Import static bool addAll(import3.Collection, IJavaObject[]);
 	@Import static import4.Set newSetFromMap(import7.Map);
 	@Import static import11.Queue asLifoQueue(import16.Deque);
+	@Import import10.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/util/Collections";
+	public static immutable string _javaParameterString = "Ljava/util/Collections;";
 }
+
+
+

@@ -3,3 +3,5 @@ public import android.java.android.speech.tts.TextToSpeech_EngineInfo_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TextToSpeech_EngineInfo;
+
+import import0 = android.java.java.lang.Class;

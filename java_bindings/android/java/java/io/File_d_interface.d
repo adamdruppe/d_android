@@ -1,14 +1,20 @@
 module android.java.java.io.File_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import0 = android.java.java.io.File_d_interface;
+import import6 = android.java.java.lang.Class_d_interface;
+import import2 = android.java.java.net.URL_d_interface;
+import import3 = android.java.java.io.FilenameFilter_d_interface;
 import import1 = android.java.java.net.URI_d_interface;
 import import5 = android.java.java.nio.file.Path_d_interface;
 import import4 = android.java.java.io.FileFilter_d_interface;
-import import2 = android.java.java.net.URL_d_interface;
-import import3 = android.java.java.io.FilenameFilter_d_interface;
-import import0 = android.java.java.io.File_d_interface;
 
 final class File : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/io/Serializable",
+		"java/lang/Comparable",
+	];
 	@Import this(string);
 	@Import this(string, string);
 	@Import this(import0.File, string);
@@ -62,8 +68,18 @@ final class File : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import import5.Path toPath();
 	@Import int compareTo(IJavaObject);
+	@Import import6.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/io/File";
+	public static immutable string _javaParameterString = "Ljava/io/File;";
 }
+
+
+

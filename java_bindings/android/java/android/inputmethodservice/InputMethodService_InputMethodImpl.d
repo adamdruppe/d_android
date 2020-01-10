@@ -3,3 +3,5 @@ public import android.java.android.inputmethodservice.InputMethodService_InputMe
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!InputMethodService_InputMethodImpl;
+
+import import9 = android.java.java.lang.Class;

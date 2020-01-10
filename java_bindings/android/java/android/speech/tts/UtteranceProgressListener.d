@@ -3,3 +3,5 @@ public import android.java.android.speech.tts.UtteranceProgressListener_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!UtteranceProgressListener;
+
+import import0 = android.java.java.lang.Class;

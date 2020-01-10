@@ -1,11 +1,13 @@
 module android.java.android.webkit.WebViewClient_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.webkit.WebView_d_interface;
 import import2 = android.java.android.graphics.Bitmap_d_interface;
 import import3 = android.java.android.webkit.WebResourceResponse_d_interface;
 import import7 = android.java.android.net.http.SslError_d_interface;
 import import12 = android.java.android.webkit.SafeBrowsingResponse_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.android.webkit.ClientCertRequest_d_interface;
 import import9 = android.java.android.webkit.HttpAuthHandler_d_interface;
 import import10 = android.java.android.view.KeyEvent_d_interface;
@@ -16,6 +18,9 @@ import import11 = android.java.android.webkit.RenderProcessGoneDetail_d_interfac
 import import6 = android.java.android.webkit.SslErrorHandler_d_interface;
 
 final class WebViewClient : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import bool shouldOverrideUrlLoading(import0.WebView, string);
 	@Import bool shouldOverrideUrlLoading(import0.WebView, import1.WebResourceRequest);
 	@Import void onPageStarted(import0.WebView, string, import2.Bitmap);
@@ -39,6 +44,19 @@ final class WebViewClient : IJavaObject {
 	@Import void onReceivedLoginRequest(import0.WebView, string, string, string);
 	@Import bool onRenderProcessGone(import0.WebView, import11.RenderProcessGoneDetail);
 	@Import void onSafeBrowsingHit(import0.WebView, import1.WebResourceRequest, int, import12.SafeBrowsingResponse);
+	@Import import13.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/webkit/WebViewClient";
+	public static immutable string _javaParameterString = "Landroid/webkit/WebViewClient;";
 }
+
+
+

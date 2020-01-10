@@ -1,11 +1,16 @@
 module android.java.android.util.JsonWriter_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.lang.Number_d_interface;
 import import0 = android.java.java.io.Writer_d_interface;
+import import3 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.android.util.JsonWriter_d_interface;
 
 final class JsonWriter : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/io/Closeable",
+	];
 	@Import this(import0.Writer);
 	@Import void setIndent(string);
 	@Import void setLenient(bool);
@@ -23,6 +28,19 @@ final class JsonWriter : IJavaObject {
 	@Import import1.JsonWriter value(import2.Number);
 	@Import void flush();
 	@Import void close();
+	@Import import3.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/util/JsonWriter";
+	public static immutable string _javaParameterString = "Landroid/util/JsonWriter;";
 }
+
+
+

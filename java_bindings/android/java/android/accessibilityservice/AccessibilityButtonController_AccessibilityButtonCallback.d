@@ -3,3 +3,5 @@ public import android.java.android.accessibilityservice.AccessibilityButtonContr
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessibilityButtonController_AccessibilityButtonCallback;
+
+import import1 = android.java.java.lang.Class;

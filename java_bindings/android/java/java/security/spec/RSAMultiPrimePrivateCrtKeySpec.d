@@ -3,3 +3,5 @@ public import android.java.java.security.spec.RSAMultiPrimePrivateCrtKeySpec_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RSAMultiPrimePrivateCrtKeySpec;
+
+import import2 = android.java.java.lang.Class;

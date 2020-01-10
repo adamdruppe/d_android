@@ -3,3 +3,6 @@ public import android.java.java.nio.file.attribute.PosixFilePermission_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PosixFilePermission;
+
+import import0 = android.java.java.nio.file.attribute.PosixFilePermission;
+import import2 = android.java.java.lang.Class;

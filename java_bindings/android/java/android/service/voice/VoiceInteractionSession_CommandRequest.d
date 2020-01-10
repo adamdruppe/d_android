@@ -3,3 +3,5 @@ public import android.java.android.service.voice.VoiceInteractionSession_Command
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!VoiceInteractionSession_CommandRequest;
+
+import import1 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.telephony.gsm.SmsMessage_SubmitPdu_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SmsMessage_SubmitPdu;
+
+import import0 = android.java.java.lang.Class;

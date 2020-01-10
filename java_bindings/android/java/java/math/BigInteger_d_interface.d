@@ -1,10 +1,16 @@
 module android.java.java.math.BigInteger_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.util.Random_d_interface;
+import import2 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.math.BigInteger_d_interface;
 
 final class BigInteger : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Comparable",
+		"java/io/Serializable",
+	];
 	@Import this(int, import0.Random);
 	@Import this(int, int, import0.Random);
 	@Import this(string);
@@ -42,6 +48,7 @@ final class BigInteger : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import @JavaName("toString") string toString_(int);
 	@Import import1.BigInteger gcd(import1.BigInteger);
 	@Import import1.BigInteger multiply(import1.BigInteger);
@@ -56,6 +63,17 @@ final class BigInteger : IJavaObject {
 	@Import import1.BigInteger nextProbablePrime();
 	@Import static import1.BigInteger probablePrime(int, import0.Random);
 	@Import int compareTo(IJavaObject);
+	@Import byte byteValue();
+	@Import short shortValue();
+	@Import import2.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/math/BigInteger";
+	public static immutable string _javaParameterString = "Ljava/math/BigInteger;";
 }
+
+
+

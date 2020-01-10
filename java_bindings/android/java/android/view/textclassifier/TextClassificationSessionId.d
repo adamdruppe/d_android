@@ -3,3 +3,5 @@ public import android.java.android.view.textclassifier.TextClassificationSession
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TextClassificationSessionId;
+
+import import1 = android.java.java.lang.Class;

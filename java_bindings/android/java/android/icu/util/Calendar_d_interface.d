@@ -1,8 +1,10 @@
 module android.java.android.icu.util.Calendar_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.android.icu.util.ULocale_d_interface;
 import import2 = android.java.java.util.Locale_d_interface;
+import import7 = android.java.java.lang.Class_d_interface;
 import import4 = android.java.java.util.Date_d_interface;
 import import1 = android.java.android.icu.util.TimeZone_d_interface;
 import import0 = android.java.android.icu.util.Calendar_d_interface;
@@ -10,6 +12,11 @@ import import5 = android.java.android.icu.text.DateFormat_d_interface;
 import import6 = android.java.android.icu.util.Calendar_WeekData_d_interface;
 
 final class Calendar : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/io/Serializable",
+		"java/lang/Cloneable",
+		"java/lang/Comparable",
+	];
 	@Import static import0.Calendar getInstance();
 	@Import static import0.Calendar getInstance(import1.TimeZone);
 	@Import static import0.Calendar getInstance(import2.Locale);
@@ -66,12 +73,22 @@ final class Calendar : IJavaObject {
 	@Import bool isWeekend();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import static import6.Calendar_WeekData getWeekDataForRegion(string);
 	@Import import6.Calendar_WeekData getWeekData();
 	@Import import0.Calendar setWeekData(import6.Calendar_WeekData);
 	@Import int getFieldCount();
 	@Import string getType();
 	@Import int compareTo(IJavaObject);
+	@Import import7.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/util/Calendar";
+	public static immutable string _javaParameterString = "Landroid/icu/util/Calendar;";
 }
+
+
+

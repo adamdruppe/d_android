@@ -3,3 +3,5 @@ public import android.java.android.service.autofill.FieldClassification_Match_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!FieldClassification_Match;
+
+import import0 = android.java.java.lang.Class;

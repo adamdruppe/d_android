@@ -1,11 +1,14 @@
 module android.java.java.time.chrono.MinguoDate_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import11 = android.java.java.time.chrono.ChronoLocalDateTime_d_interface;
 import import13 = android.java.java.time.chrono.ChronoPeriod_d_interface;
 import import8 = android.java.java.time.temporal.TemporalAdjuster_d_interface;
 import import2 = android.java.java.time.Clock_d_interface;
+import import19 = android.java.java.util.Comparator_d_interface;
 import import7 = android.java.java.time.temporal.TemporalField_d_interface;
+import import21 = android.java.java.time.format.DateTimeFormatter_d_interface;
 import import10 = android.java.java.time.temporal.TemporalUnit_d_interface;
 import import9 = android.java.java.time.temporal.TemporalAmount_d_interface;
 import import1 = android.java.java.time.ZoneId_d_interface;
@@ -16,11 +19,19 @@ import import16 = android.java.java.time.chrono.Era_d_interface;
 import import17 = android.java.java.time.chrono.Chronology_d_interface;
 import import15 = android.java.java.time.temporal.Temporal_d_interface;
 import import14 = android.java.java.time.chrono.ChronoLocalDate_d_interface;
+import import18 = android.java.java.lang.Class_d_interface;
+import import20 = android.java.java.time.temporal.TemporalQuery_d_interface;
 import import5 = android.java.java.time.chrono.MinguoEra_d_interface;
 import import3 = android.java.java.time.temporal.TemporalAccessor_d_interface;
 import import6 = android.java.java.time.temporal.ValueRange_d_interface;
 
 final class MinguoDate : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/time/chrono/ChronoLocalDate",
+		"java/time/temporal/Temporal",
+		"java/time/temporal/TemporalAdjuster",
+		"java/io/Serializable",
+	];
 	@Import static import0.MinguoDate now();
 	@Import static import0.MinguoDate now(import1.ZoneId);
 	@Import static import0.MinguoDate now(import2.Clock);
@@ -44,20 +55,30 @@ final class MinguoDate : IJavaObject {
 	@Import int hashCode();
 	@Import long until(import15.Temporal, import10.TemporalUnit);
 	@Import @JavaName("toString") string toString_();
-	@Import import14.ChronoLocalDate minus(long, import10.TemporalUnit);
-	@Import import14.ChronoLocalDate minus(import9.TemporalAmount);
-	@Import import14.ChronoLocalDate plus(long, import10.TemporalUnit);
-	@Import import14.ChronoLocalDate plus(import9.TemporalAmount);
-	@Import @JavaName("with") import14.ChronoLocalDate with_(import7.TemporalField, long);
-	@Import @JavaName("with") import14.ChronoLocalDate with_(import8.TemporalAdjuster);
-	@Import import16.Era getEra();
-	@Import import17.Chronology getChronology();
-	@Import import15.Temporal minus(long, import10.TemporalUnit);
-	@Import import15.Temporal minus(import9.TemporalAmount);
-	@Import import15.Temporal plus(long, import10.TemporalUnit);
-	@Import import15.Temporal plus(import9.TemporalAmount);
-	@Import @JavaName("with") import15.Temporal with_(import7.TemporalField, long);
-	@Import @JavaName("with") import15.Temporal with_(import8.TemporalAdjuster);
+	override string toString() { return toString_(); }
+	@Import import18.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import static import19.Comparator timeLineOrder();
+	@Import bool isLeapYear();
+	@Import int lengthOfYear();
+	@Import bool isSupported(import7.TemporalField);
+	@Import bool isSupported(import10.TemporalUnit);
+	@Import IJavaObject query(import20.TemporalQuery);
+	@Import import15.Temporal adjustInto(import15.Temporal);
+	@Import string format(import21.DateTimeFormatter);
+	@Import int compareTo(import14.ChronoLocalDate);
+	@Import bool isAfter(import14.ChronoLocalDate);
+	@Import bool isBefore(import14.ChronoLocalDate);
+	@Import bool isEqual(import14.ChronoLocalDate);
+	@Import int compareTo(IJavaObject);
+	@Import int get(import7.TemporalField);
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/time/chrono/MinguoDate";
+	public static immutable string _javaParameterString = "Ljava/time/chrono/MinguoDate;";
 }
+
+
+

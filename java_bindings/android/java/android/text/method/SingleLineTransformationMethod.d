@@ -3,3 +3,7 @@ public import android.java.android.text.method.SingleLineTransformationMethod_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SingleLineTransformationMethod;
+
+import import0 = android.java.android.text.method.SingleLineTransformationMethod;
+import import1 = android.java.java.lang.CharSequence;
+import import4 = android.java.java.lang.Class;

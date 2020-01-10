@@ -3,3 +3,5 @@ public import android.java.android.telecom.InCallService_VideoCall_Callback_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!InCallService_VideoCall_Callback;
+
+import import2 = android.java.java.lang.Class;

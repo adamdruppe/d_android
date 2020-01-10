@@ -3,3 +3,5 @@ public import android.java.android.telephony.AccessNetworkConstants_GeranBand_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessNetworkConstants_GeranBand;
+
+import import0 = android.java.java.lang.Class;

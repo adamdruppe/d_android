@@ -1,5 +1,6 @@
 module android.java.java.sql.Connection_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import9 = android.java.java.sql.NClob_d_interface;
 import import3 = android.java.java.sql.DatabaseMetaData_d_interface;
@@ -9,6 +10,7 @@ import import1 = android.java.java.sql.PreparedStatement_d_interface;
 import import0 = android.java.java.sql.Statement_d_interface;
 import import2 = android.java.java.sql.CallableStatement_d_interface;
 import import13 = android.java.java.sql.Struct_d_interface;
+import import14 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.java.sql.Blob_d_interface;
 import import10 = android.java.java.sql.SQLXML_d_interface;
 import import12 = android.java.java.sql.Array_d_interface;
@@ -16,7 +18,11 @@ import import5 = android.java.java.util.Map_d_interface;
 import import7 = android.java.java.sql.Clob_d_interface;
 import import4 = android.java.java.sql.SQLWarning_d_interface;
 
-interface Connection : IJavaObject {
+final class Connection : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/sql/Wrapper",
+		"java/lang/AutoCloseable",
+	];
 	@Import import0.Statement createStatement();
 	@Import import1.PreparedStatement prepareStatement(string);
 	@Import import2.CallableStatement prepareCall(string);
@@ -64,5 +70,21 @@ interface Connection : IJavaObject {
 	@Import import11.Properties getClientInfo();
 	@Import import12.Array createArrayOf(string, IJavaObject[]);
 	@Import import13.Struct createStruct(string, IJavaObject[]);
-	public static immutable string _javaParameterString = "Ljava/sql/Connection";
+	@Import import14.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import IJavaObject unwrap(import14.Class);
+	@Import bool isWrapperFor(import14.Class);
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljava/sql/Connection;";
 }
+
+
+

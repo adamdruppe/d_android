@@ -3,3 +3,5 @@ public import android.java.android.telephony.TelephonyScanManager_NetworkScanCal
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TelephonyScanManager_NetworkScanCallback;
+
+import import1 = android.java.java.lang.Class;

@@ -3,3 +3,6 @@ public import android.java.android.renderscript.RenderScript_Priority_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RenderScript_Priority;
+
+import import0 = android.java.android.renderscript.RenderScript_Priority;
+import import2 = android.java.java.lang.Class;

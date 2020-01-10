@@ -3,3 +3,5 @@ public import android.java.android.media.tv.TvContract_WatchNextPrograms_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TvContract_WatchNextPrograms;
+
+import import0 = android.java.java.lang.Class;

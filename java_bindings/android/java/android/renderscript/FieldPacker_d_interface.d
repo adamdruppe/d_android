@@ -1,5 +1,6 @@
 module android.java.android.renderscript.FieldPacker_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import16 = android.java.android.renderscript.Long2_d_interface;
 import import18 = android.java.android.renderscript.Long4_d_interface;
@@ -10,6 +11,7 @@ import import14 = android.java.android.renderscript.Int3_d_interface;
 import import20 = android.java.android.renderscript.Matrix3f_d_interface;
 import import21 = android.java.android.renderscript.Matrix2f_d_interface;
 import import17 = android.java.android.renderscript.Long3_d_interface;
+import import22 = android.java.java.lang.Class_d_interface;
 import import2 = android.java.android.renderscript.Float3_d_interface;
 import import6 = android.java.android.renderscript.Double4_d_interface;
 import import7 = android.java.android.renderscript.Byte2_d_interface;
@@ -25,6 +27,8 @@ import import9 = android.java.android.renderscript.Byte4_d_interface;
 import import4 = android.java.android.renderscript.Double2_d_interface;
 
 final class FieldPacker : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(int);
 	@Import this(byte[]);
 	@Import @JavaName("align") void align_(int);
@@ -106,6 +110,19 @@ final class FieldPacker : IJavaObject {
 	@Import void addBoolean(bool);
 	@Import bool subBoolean();
 	@Import byte[] getData();
+	@Import import22.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/renderscript/FieldPacker";
+	public static immutable string _javaParameterString = "Landroid/renderscript/FieldPacker;";
 }
+
+
+

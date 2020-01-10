@@ -3,3 +3,5 @@ public import android.java.org.apache.http.params.HttpConnectionParams_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!HttpConnectionParams;
+
+import import1 = android.java.java.lang.Class;

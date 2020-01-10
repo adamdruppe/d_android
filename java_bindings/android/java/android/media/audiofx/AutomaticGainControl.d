@@ -3,3 +3,7 @@ public import android.java.android.media.audiofx.AutomaticGainControl_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AutomaticGainControl;
+
+import import1 = android.java.android.media.audiofx.AudioEffect_Descriptor;
+import import4 = android.java.java.lang.Class;
+import import0 = android.java.android.media.audiofx.AutomaticGainControl;

@@ -3,3 +3,5 @@ public import android.java.android.app.ActivityManager_RunningServiceInfo_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ActivityManager_RunningServiceInfo;
+
+import import1 = android.java.java.lang.Class;

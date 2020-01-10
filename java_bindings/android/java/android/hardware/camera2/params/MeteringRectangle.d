@@ -3,3 +3,5 @@ public import android.java.android.hardware.camera2.params.MeteringRectangle_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MeteringRectangle;
+
+import import4 = android.java.java.lang.Class;

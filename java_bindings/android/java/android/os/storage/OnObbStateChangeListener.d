@@ -3,3 +3,5 @@ public import android.java.android.os.storage.OnObbStateChangeListener_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!OnObbStateChangeListener;
+
+import import0 = android.java.java.lang.Class;

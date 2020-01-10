@@ -1,8 +1,10 @@
 module android.java.java.lang.System_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.java.io.PrintStream_d_interface;
 import import5 = android.java.java.util.Properties_d_interface;
+import import7 = android.java.java.lang.Class_d_interface;
 import import4 = android.java.java.lang.SecurityManager_d_interface;
 import import0 = android.java.java.io.InputStream_d_interface;
 import import3 = android.java.java.nio.channels.Channel_d_interface;
@@ -10,6 +12,8 @@ import import2 = android.java.java.io.Console_d_interface;
 import import6 = android.java.java.util.Map_d_interface;
 
 final class System : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static void setIn(import0.InputStream);
 	@Import static void setOut(import1.PrintStream);
 	@Import static void setErr(import1.PrintStream);
@@ -37,6 +41,19 @@ final class System : IJavaObject {
 	@Import static void load(string);
 	@Import static void loadLibrary(string);
 	@Import static string mapLibraryName(string);
+	@Import import7.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/System";
+	public static immutable string _javaParameterString = "Ljava/lang/System;";
 }
+
+
+

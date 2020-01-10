@@ -3,3 +3,6 @@ public import android.java.javax.xml.transform.TransformerConfigurationException
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TransformerConfigurationException;
+
+import import5 = android.java.java.lang.Class;
+import import4 = android.java.java.lang.StackTraceElement;

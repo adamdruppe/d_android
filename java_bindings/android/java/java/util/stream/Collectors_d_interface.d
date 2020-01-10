@@ -1,10 +1,12 @@
 module android.java.java.util.stream.Collectors_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.lang.CharSequence_d_interface;
 import import9 = android.java.java.util.function_.Predicate_d_interface;
 import import3 = android.java.java.util.function_.Function_d_interface;
 import import6 = android.java.java.util.function_.ToLongFunction_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.java.util.function_.BinaryOperator_d_interface;
 import import7 = android.java.java.util.function_.ToDoubleFunction_d_interface;
 import import1 = android.java.java.util.function_.Supplier_d_interface;
@@ -13,6 +15,8 @@ import import5 = android.java.java.util.function_.ToIntFunction_d_interface;
 import import4 = android.java.java.util.Comparator_d_interface;
 
 final class Collectors : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.Collector toCollection(import1.Supplier);
 	@Import static import0.Collector toList();
 	@Import static import0.Collector toSet();
@@ -50,6 +54,19 @@ final class Collectors : IJavaObject {
 	@Import static import0.Collector summarizingInt(import5.ToIntFunction);
 	@Import static import0.Collector summarizingLong(import6.ToLongFunction);
 	@Import static import0.Collector summarizingDouble(import7.ToDoubleFunction);
+	@Import import10.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/util/stream/Collectors";
+	public static immutable string _javaParameterString = "Ljava/util/stream/Collectors;";
 }
+
+
+

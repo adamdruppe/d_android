@@ -1,5 +1,6 @@
 module android.java.android.icu.text.SimpleDateFormat_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.icu.util.ULocale_d_interface;
 import import8 = android.java.android.icu.text.NumberFormat_d_interface;
@@ -8,13 +9,21 @@ import import11 = android.java.java.text.AttributedCharacterIterator_d_interface
 import import0 = android.java.java.util.Locale_d_interface;
 import import7 = android.java.java.text.FieldPosition_d_interface;
 import import9 = android.java.java.text.ParsePosition_d_interface;
+import import16 = android.java.java.lang.Class_d_interface;
 import import3 = android.java.java.util.Date_d_interface;
+import import13 = android.java.android.icu.util.TimeZone_d_interface;
+import import15 = android.java.android.icu.text.DisplayContext_Type_d_interface;
+import import14 = android.java.android.icu.text.DateFormat_BooleanAttribute_d_interface;
 import import5 = android.java.java.lang.StringBuffer_d_interface;
 import import6 = android.java.android.icu.util.Calendar_d_interface;
 import import10 = android.java.android.icu.text.TimeZoneFormat_d_interface;
+import import12 = android.java.android.icu.text.DateFormat_d_interface;
 import import4 = android.java.android.icu.text.DisplayContext_d_interface;
 
 final class SimpleDateFormat : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(string);
 	@Import this(string, import0.Locale);
 	@Import this(string, import1.ULocale);
@@ -40,6 +49,72 @@ final class SimpleDateFormat : IJavaObject {
 	@Import import11.AttributedCharacterIterator formatToCharacterIterator(IJavaObject);
 	@Import void setNumberFormat(string, import8.NumberFormat);
 	@Import import8.NumberFormat getNumberFormat(wchar);
+	@Import import5.StringBuffer format(IJavaObject, import5.StringBuffer, import7.FieldPosition);
+	@Import import5.StringBuffer format(import3.Date, import5.StringBuffer, import7.FieldPosition);
+	@Import string format(import3.Date);
+	@Import import3.Date parse(string);
+	@Import import3.Date parse(string, import9.ParsePosition);
+	@Import IJavaObject parseObject(string, import9.ParsePosition);
+	@Import static import12.DateFormat getTimeInstance();
+	@Import static import12.DateFormat getTimeInstance(int);
+	@Import static import12.DateFormat getTimeInstance(int, import0.Locale);
+	@Import static import12.DateFormat getTimeInstance(int, import1.ULocale);
+	@Import static import12.DateFormat getDateInstance();
+	@Import static import12.DateFormat getDateInstance(int);
+	@Import static import12.DateFormat getDateInstance(int, import0.Locale);
+	@Import static import12.DateFormat getDateInstance(int, import1.ULocale);
+	@Import static import12.DateFormat getDateTimeInstance();
+	@Import static import12.DateFormat getDateTimeInstance(int, int);
+	@Import static import12.DateFormat getDateTimeInstance(int, int, import0.Locale);
+	@Import static import12.DateFormat getDateTimeInstance(int, int, import1.ULocale);
+	@Import static import12.DateFormat getInstance();
+	@Import static import0.Locale[] getAvailableLocales();
+	@Import void setCalendar(import6.Calendar);
+	@Import import6.Calendar getCalendar();
+	@Import import8.NumberFormat getNumberFormat();
+	@Import void setTimeZone(import13.TimeZone);
+	@Import import13.TimeZone getTimeZone();
+	@Import void setLenient(bool);
+	@Import bool isLenient();
+	@Import void setCalendarLenient(bool);
+	@Import bool isCalendarLenient();
+	@Import import12.DateFormat setBooleanAttribute(import14.DateFormat_BooleanAttribute, bool);
+	@Import bool getBooleanAttribute(import14.DateFormat_BooleanAttribute);
+	@Import import4.DisplayContext getContext(import15.DisplayContext_Type);
+	@Import static import12.DateFormat getDateInstance(import6.Calendar, int, import0.Locale);
+	@Import static import12.DateFormat getDateInstance(import6.Calendar, int, import1.ULocale);
+	@Import static import12.DateFormat getTimeInstance(import6.Calendar, int, import0.Locale);
+	@Import static import12.DateFormat getTimeInstance(import6.Calendar, int, import1.ULocale);
+	@Import static import12.DateFormat getDateTimeInstance(import6.Calendar, int, int, import0.Locale);
+	@Import static import12.DateFormat getDateTimeInstance(import6.Calendar, int, int, import1.ULocale);
+	@Import static import12.DateFormat getInstance(import6.Calendar, import0.Locale);
+	@Import static import12.DateFormat getInstance(import6.Calendar);
+	@Import static import12.DateFormat getDateInstance(import6.Calendar, int);
+	@Import static import12.DateFormat getTimeInstance(import6.Calendar, int);
+	@Import static import12.DateFormat getDateTimeInstance(import6.Calendar, int, int);
+	@Import static import12.DateFormat getInstanceForSkeleton(string);
+	@Import static import12.DateFormat getInstanceForSkeleton(string, import0.Locale);
+	@Import static import12.DateFormat getInstanceForSkeleton(string, import1.ULocale);
+	@Import static import12.DateFormat getInstanceForSkeleton(import6.Calendar, string, import0.Locale);
+	@Import static import12.DateFormat getInstanceForSkeleton(import6.Calendar, string, import1.ULocale);
+	@Import static import12.DateFormat getPatternInstance(string);
+	@Import static import12.DateFormat getPatternInstance(string, import0.Locale);
+	@Import static import12.DateFormat getPatternInstance(string, import1.ULocale);
+	@Import static import12.DateFormat getPatternInstance(import6.Calendar, string, import0.Locale);
+	@Import static import12.DateFormat getPatternInstance(import6.Calendar, string, import1.ULocale);
+	@Import string format(IJavaObject);
+	@Import IJavaObject parseObject(string);
+	@Import import16.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/SimpleDateFormat";
+	public static immutable string _javaParameterString = "Landroid/icu/text/SimpleDateFormat;";
 }
+
+
+

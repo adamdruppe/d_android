@@ -3,3 +3,5 @@ public import android.java.android.hardware.fingerprint.FingerprintManager_Crypt
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!FingerprintManager_CryptoObject;
+
+import import3 = android.java.java.lang.Class;

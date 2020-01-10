@@ -1,5 +1,6 @@
 module android.java.android.app.Instrumentation_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.java.lang.JavaThrowable_d_interface;
 import import6 = android.java.android.content.Intent_d_interface;
@@ -25,6 +26,9 @@ import import19 = android.java.android.app.UiAutomation_d_interface;
 import import2 = android.java.android.content.Context_d_interface;
 
 final class Instrumentation : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import void onCreate(import0.Bundle);
 	@Import void start();
 	@Import void onStart();
@@ -92,6 +96,19 @@ final class Instrumentation : IJavaObject {
 	@Import import19.UiAutomation getUiAutomation();
 	@Import import19.UiAutomation getUiAutomation(int);
 	@Import import20.TestLooperManager acquireLooperManager(import21.Looper);
+	@Import import14.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/app/Instrumentation";
+	public static immutable string _javaParameterString = "Landroid/app/Instrumentation;";
 }
+
+
+

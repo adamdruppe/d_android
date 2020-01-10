@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.atomic.AtomicIntegerArray_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AtomicIntegerArray;
+
+import import2 = android.java.java.lang.Class;

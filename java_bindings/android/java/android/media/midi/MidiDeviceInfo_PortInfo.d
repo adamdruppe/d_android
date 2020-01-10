@@ -3,3 +3,5 @@ public import android.java.android.media.midi.MidiDeviceInfo_PortInfo_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MidiDeviceInfo_PortInfo;
+
+import import0 = android.java.java.lang.Class;

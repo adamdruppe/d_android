@@ -3,3 +3,5 @@ public import android.java.android.bluetooth.BluetoothHidDeviceAppQosSettings_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!BluetoothHidDeviceAppQosSettings;
+
+import import1 = android.java.java.lang.Class;

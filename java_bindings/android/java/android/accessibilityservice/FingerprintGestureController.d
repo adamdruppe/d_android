@@ -3,3 +3,5 @@ public import android.java.android.accessibilityservice.FingerprintGestureContro
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!FingerprintGestureController;
+
+import import2 = android.java.java.lang.Class;

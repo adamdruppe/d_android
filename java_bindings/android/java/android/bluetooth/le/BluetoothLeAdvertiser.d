@@ -3,3 +3,5 @@ public import android.java.android.bluetooth.le.BluetoothLeAdvertiser_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!BluetoothLeAdvertiser;
+
+import import7 = android.java.java.lang.Class;

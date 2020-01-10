@@ -3,3 +3,5 @@ public import android.java.java.security.cert.CollectionCertStoreParameters_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CollectionCertStoreParameters;
+
+import import1 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.telephony.mbms.MbmsErrors_DownloadErrors_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MbmsErrors_DownloadErrors;
+
+import import0 = android.java.java.lang.Class;

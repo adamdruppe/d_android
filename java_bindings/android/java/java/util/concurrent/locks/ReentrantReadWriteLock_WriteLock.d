@@ -3,3 +3,6 @@ public import android.java.java.util.concurrent.locks.ReentrantReadWriteLock_Wri
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ReentrantReadWriteLock_WriteLock;
+
+import import1 = android.java.java.util.concurrent.locks.Condition;
+import import2 = android.java.java.lang.Class;

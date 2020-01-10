@@ -3,3 +3,5 @@ public import android.java.android.content.IntentFilter_AuthorityEntry_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!IntentFilter_AuthorityEntry;
+
+import import1 = android.java.java.lang.Class;

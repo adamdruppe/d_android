@@ -3,3 +3,5 @@ public import android.java.javax.security.auth.callback.PasswordCallback_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PasswordCallback;
+
+import import0 = android.java.java.lang.Class;

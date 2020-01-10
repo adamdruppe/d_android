@@ -3,3 +3,5 @@ public import android.java.android.telephony.AccessNetworkConstants_AccessNetwor
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessNetworkConstants_AccessNetworkType;
+
+import import0 = android.java.java.lang.Class;

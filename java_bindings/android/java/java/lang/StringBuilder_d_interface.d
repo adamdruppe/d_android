@@ -1,12 +1,21 @@
 module android.java.java.lang.StringBuilder_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.lang.StringBuffer_d_interface;
+import import5 = android.java.java.util.stream.IntStream_d_interface;
 import import0 = android.java.java.lang.CharSequence_d_interface;
 import import3 = android.java.java.lang.Appendable_d_interface;
+import import4 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.lang.StringBuilder_d_interface;
 
 final class StringBuilder : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Appendable",
+		"java/lang/CharSequence",
+		"java/io/Serializable",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(int);
 	@Import this(string);
 	@Import this(import0.CharSequence);
@@ -45,6 +54,7 @@ final class StringBuilder : IJavaObject {
 	@Import int lastIndexOf(string, int);
 	@Import import1.StringBuilder reverse();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import void trimToSize();
 	@Import int codePointAt(int);
 	@Import void getChars(int, int, wchar, int[]);
@@ -60,9 +70,19 @@ final class StringBuilder : IJavaObject {
 	@Import wchar charAt(int);
 	@Import int codePointCount(int, int);
 	@Import int offsetByCodePoints(int, int);
-	@Import import3.Appendable append(wchar);
-	@Import import3.Appendable append(import0.CharSequence, int, int);
-	@Import import3.Appendable append(import0.CharSequence);
+	@Import import4.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import import5.IntStream chars();
+	@Import import5.IntStream codePoints();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/StringBuilder";
+	public static immutable string _javaParameterString = "Ljava/lang/StringBuilder;";
 }
+
+
+

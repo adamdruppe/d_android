@@ -3,3 +3,7 @@ public import android.java.android.app.admin.SystemUpdatePolicy_ValidationFailed
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SystemUpdatePolicy_ValidationFailedException;
+
+import import5 = android.java.java.lang.Class;
+import import4 = android.java.java.lang.StackTraceElement;
+import import1 = android.java.java.lang.JavaThrowable;

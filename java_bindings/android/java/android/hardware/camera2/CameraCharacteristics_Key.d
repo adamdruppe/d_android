@@ -3,3 +3,4 @@ public import android.java.android.hardware.camera2.CameraCharacteristics_Key_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CameraCharacteristics_Key;
+

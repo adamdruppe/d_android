@@ -1,10 +1,15 @@
 module android.java.android.text.format.Time_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import1 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.android.text.format.Time_d_interface;
 
 final class Time : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(string);
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Time);
 	@Import long normalize(bool);
 	@Import void switchTimezone(string);
@@ -13,6 +18,7 @@ final class Time : IJavaObject {
 	@Import static int compare(import0.Time, import0.Time);
 	@Import string format(string);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import bool parse(string);
 	@Import bool parse3339(string);
 	@Import static string getCurrentTimezone();
@@ -32,6 +38,17 @@ final class Time : IJavaObject {
 	@Import long setJulianDay(int);
 	@Import static int getWeeksSinceEpochFromJulianDay(int, int);
 	@Import static int getJulianMondayFromWeeksSinceEpoch(int);
+	@Import import1.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/text/format/Time";
+	public static immutable string _javaParameterString = "Landroid/text/format/Time;";
 }
+
+
+

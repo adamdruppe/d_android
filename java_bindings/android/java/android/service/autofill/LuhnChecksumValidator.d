@@ -3,3 +3,5 @@ public import android.java.android.service.autofill.LuhnChecksumValidator_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!LuhnChecksumValidator;
+
+import import2 = android.java.java.lang.Class;

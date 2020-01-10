@@ -3,3 +3,5 @@ public import android.java.android.widget.ActionMenuView_LayoutParams_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ActionMenuView_LayoutParams;
+
+import import4 = android.java.java.lang.Class;

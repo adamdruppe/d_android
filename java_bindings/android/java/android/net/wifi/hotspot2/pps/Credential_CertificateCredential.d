@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.hotspot2.pps.Credential_CertificateC
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Credential_CertificateCredential;
+
+import import2 = android.java.java.lang.Class;

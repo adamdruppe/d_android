@@ -3,3 +3,5 @@ public import android.java.android.media.tv.TvRecordingClient_RecordingCallback_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TvRecordingClient_RecordingCallback;
+
+import import1 = android.java.java.lang.Class;

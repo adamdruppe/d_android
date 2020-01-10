@@ -3,3 +3,5 @@ public import android.java.android.media.MediaCodecInfo_CodecProfileLevel_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaCodecInfo_CodecProfileLevel;
+
+import import0 = android.java.java.lang.Class;

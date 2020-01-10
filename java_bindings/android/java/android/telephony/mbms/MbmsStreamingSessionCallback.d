@@ -3,3 +3,5 @@ public import android.java.android.telephony.mbms.MbmsStreamingSessionCallback_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MbmsStreamingSessionCallback;
+
+import import1 = android.java.java.lang.Class;

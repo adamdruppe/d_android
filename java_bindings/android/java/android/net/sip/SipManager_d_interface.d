@@ -1,11 +1,13 @@
 module android.java.android.net.sip.SipManager_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import7 = android.java.android.content.Intent_d_interface;
 import import5 = android.java.android.net.sip.SipAudioCall_d_interface;
 import import3 = android.java.android.app.PendingIntent_d_interface;
 import import8 = android.java.android.net.sip.SipSession_d_interface;
 import import6 = android.java.android.net.sip.SipAudioCall_Listener_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import4 = android.java.android.net.sip.SipRegistrationListener_d_interface;
 import import2 = android.java.android.net.sip.SipProfile_d_interface;
 import import0 = android.java.android.net.sip.SipManager_d_interface;
@@ -13,6 +15,8 @@ import import9 = android.java.android.net.sip.SipSession_Listener_d_interface;
 import import1 = android.java.android.content.Context_d_interface;
 
 final class SipManager : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.SipManager newInstance(import1.Context);
 	@Import static bool isApiSupported(import1.Context);
 	@Import static bool isVoipSupported(import1.Context);
@@ -33,6 +37,19 @@ final class SipManager : IJavaObject {
 	@Import void unregister(import2.SipProfile, import4.SipRegistrationListener);
 	@Import import8.SipSession getSessionFor(import7.Intent);
 	@Import import8.SipSession createSipSession(import2.SipProfile, import9.SipSession_Listener);
+	@Import import10.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/net/sip/SipManager";
+	public static immutable string _javaParameterString = "Landroid/net/sip/SipManager;";
 }
+
+
+

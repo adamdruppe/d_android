@@ -1,14 +1,20 @@
 module android.java.android.view.KeyEvent_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import0 = android.java.android.view.KeyEvent_d_interface;
-import import2 = android.java.android.view.KeyCharacterMap_KeyData_d_interface;
 import import3 = android.java.android.view.KeyEvent_Callback_d_interface;
-import import1 = android.java.android.view.KeyCharacterMap_d_interface;
 import import5 = android.java.android.os.Parcel_d_interface;
+import import2 = android.java.android.view.KeyCharacterMap_KeyData_d_interface;
 import import4 = android.java.android.view.KeyEvent_DispatcherState_d_interface;
+import import7 = android.java.java.lang.Class_d_interface;
+import import1 = android.java.android.view.KeyCharacterMap_d_interface;
+import import6 = android.java.android.view.InputDevice_d_interface;
+import import0 = android.java.android.view.KeyEvent_d_interface;
 
 final class KeyEvent : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/os/Parcelable",
+	];
 	@Import this(int, int);
 	@Import this(long, long, int, int, int);
 	@Import this(long, long, int, int, int, int);
@@ -71,9 +77,24 @@ final class KeyEvent : IJavaObject {
 	@Import bool dispatch(import3.KeyEvent_Callback);
 	@Import bool dispatch(import3.KeyEvent_Callback, import4.KeyEvent_DispatcherState, IJavaObject);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import static string keyCodeToString(int);
 	@Import static int keyCodeFromString(string);
 	@Import void writeToParcel(import5.Parcel, int);
+	@Import import6.InputDevice getDevice();
+	@Import bool isFromSource(int);
+	@Import int describeContents();
+	@Import import7.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/KeyEvent";
+	public static immutable string _javaParameterString = "Landroid/view/KeyEvent;";
 }
+
+
+

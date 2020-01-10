@@ -3,3 +3,5 @@ public import android.java.android.hardware.ConsumerIrManager_CarrierFrequencyRa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ConsumerIrManager_CarrierFrequencyRange;
+
+import import1 = android.java.java.lang.Class;

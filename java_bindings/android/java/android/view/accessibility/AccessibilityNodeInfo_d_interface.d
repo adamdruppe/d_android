@@ -1,20 +1,26 @@
 module android.java.android.view.accessibility.AccessibilityNodeInfo_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import6 = android.java.android.graphics.Rect_d_interface;
 import import7 = android.java.java.lang.CharSequence_d_interface;
 import import4 = android.java.android.view.accessibility.AccessibilityNodeInfo_AccessibilityAction_d_interface;
 import import1 = android.java.android.view.accessibility.AccessibilityNodeInfo_d_interface;
 import import8 = android.java.android.view.accessibility.AccessibilityNodeInfo_CollectionInfo_d_interface;
-import import11 = android.java.android.os.Parcel_d_interface;
+import import12 = android.java.android.os.Parcel_d_interface;
 import import0 = android.java.android.view.View_d_interface;
 import import9 = android.java.android.view.accessibility.AccessibilityNodeInfo_CollectionItemInfo_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
+import import11 = android.java.android.view.accessibility.AccessibilityNodeInfo_TouchDelegateInfo_d_interface;
 import import10 = android.java.android.view.accessibility.AccessibilityNodeInfo_RangeInfo_d_interface;
 import import2 = android.java.android.os.Bundle_d_interface;
 import import5 = android.java.android.view.accessibility.AccessibilityWindowInfo_d_interface;
 import import3 = android.java.java.util.List_d_interface;
 
 final class AccessibilityNodeInfo : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/os/Parcelable",
+	];
 	@Import void setSource(import0.View);
 	@Import void setSource(import0.View, int);
 	@Import import1.AccessibilityNodeInfo findFocus(int);
@@ -114,6 +120,8 @@ final class AccessibilityNodeInfo : IJavaObject {
 	@Import void setShowingHintText(bool);
 	@Import bool isHeading();
 	@Import void setHeading(bool);
+	@Import bool isTextEntryKey();
+	@Import void setTextEntryKey(bool);
 	@Import import7.CharSequence getPackageName();
 	@Import void setPackageName(import7.CharSequence);
 	@Import import7.CharSequence getClassName();
@@ -142,16 +150,28 @@ final class AccessibilityNodeInfo : IJavaObject {
 	@Import int getInputType();
 	@Import void setInputType(int);
 	@Import import2.Bundle getExtras();
+	@Import import11.AccessibilityNodeInfo_TouchDelegateInfo getTouchDelegateInfo();
+	@Import void setTouchDelegateInfo(import11.AccessibilityNodeInfo_TouchDelegateInfo);
 	@Import int describeContents();
 	@Import static import1.AccessibilityNodeInfo obtain(import0.View);
 	@Import static import1.AccessibilityNodeInfo obtain(import0.View, int);
 	@Import static import1.AccessibilityNodeInfo obtain();
 	@Import static import1.AccessibilityNodeInfo obtain(import1.AccessibilityNodeInfo);
 	@Import void recycle();
-	@Import void writeToParcel(import11.Parcel, int);
+	@Import void writeToParcel(import12.Parcel, int);
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import import13.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityNodeInfo";
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityNodeInfo;";
 }
+
+
+

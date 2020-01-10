@@ -3,3 +3,6 @@ public import android.java.android.hardware.fingerprint.FingerprintManager_Authe
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!FingerprintManager_AuthenticationResult;
+
+import import1 = android.java.java.lang.Class;
+import import0 = android.java.android.hardware.fingerprint.FingerprintManager_CryptoObject;

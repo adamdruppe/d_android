@@ -3,3 +3,5 @@ public import android.java.android.widget.ExpandableListView_ExpandableListConte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ExpandableListView_ExpandableListContextMenuInfo;
+
+import import1 = android.java.java.lang.Class;

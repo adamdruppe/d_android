@@ -1,6 +1,8 @@
 module android.java.java.util.stream.DoubleStream_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import23 = android.java.java.lang.Class_d_interface;
 import import10 = android.java.java.util.function_.DoubleBinaryOperator_d_interface;
 import import13 = android.java.java.util.function_.ObjDoubleConsumer_d_interface;
 import import1 = android.java.java.util.function_.DoublePredicate_d_interface;
@@ -22,10 +24,14 @@ import import3 = android.java.java.util.stream.Stream_d_interface;
 import import19 = android.java.java.util.function_.DoubleSupplier_d_interface;
 import import2 = android.java.java.util.function_.DoubleUnaryOperator_d_interface;
 import import21 = android.java.java.util.Spliterator_d_interface;
+import import24 = android.java.java.lang.Runnable_d_interface;
 import import14 = android.java.java.util.function_.BiConsumer_d_interface;
 import import22 = android.java.java.util.Iterator_d_interface;
 
-interface DoubleStream : IJavaObject {
+final class DoubleStream : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/util/stream/BaseStream",
+	];
 	@Import import0.DoubleStream filter(import1.DoublePredicate);
 	@Import import0.DoubleStream map(import2.DoubleUnaryOperator);
 	@Import import3.Stream mapToObj(import4.DoubleFunction);
@@ -66,9 +72,23 @@ interface DoubleStream : IJavaObject {
 	@Import static import0.DoubleStream iterate(double, import2.DoubleUnaryOperator);
 	@Import static import0.DoubleStream generate(import19.DoubleSupplier);
 	@Import static import0.DoubleStream concat(import0.DoubleStream, import0.DoubleStream);
-	@Import import20.BaseStream parallel();
-	@Import import20.BaseStream sequential();
-	@Import import21.Spliterator spliterator();
-	@Import import22.Iterator iterator();
-	public static immutable string _javaParameterString = "Ljava/util/stream/DoubleStream";
+	@Import import23.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import bool isParallel();
+	@Import import20.BaseStream unordered();
+	@Import import20.BaseStream onClose(import24.Runnable);
+	@Import void close();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljava/util/stream/DoubleStream;";
 }
+
+
+

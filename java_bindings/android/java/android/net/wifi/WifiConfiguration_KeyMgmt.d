@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.WifiConfiguration_KeyMgmt_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WifiConfiguration_KeyMgmt;
+
+import import0 = android.java.java.lang.Class;

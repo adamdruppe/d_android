@@ -3,3 +3,5 @@ public import android.java.android.view.animation.AnticipateOvershootInterpolato
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AnticipateOvershootInterpolator;
+
+import import2 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.aware.DiscoverySessionCallback_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DiscoverySessionCallback;
+
+import import4 = android.java.java.lang.Class;

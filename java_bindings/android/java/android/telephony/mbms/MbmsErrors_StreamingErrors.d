@@ -3,3 +3,5 @@ public import android.java.android.telephony.mbms.MbmsErrors_StreamingErrors_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MbmsErrors_StreamingErrors;
+
+import import0 = android.java.java.lang.Class;

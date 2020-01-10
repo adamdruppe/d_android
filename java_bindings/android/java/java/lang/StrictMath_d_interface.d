@@ -1,7 +1,12 @@
 module android.java.java.lang.StrictMath_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
+
+import import0 = android.java.java.lang.Class_d_interface;
 
 final class StrictMath : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static double sin(double);
 	@Import static double cos(double);
 	@Import static double tan(double);
@@ -69,6 +74,19 @@ final class StrictMath : IJavaObject {
 	@Import static float nextDown(float);
 	@Import static double scalb(double, int);
 	@Import static float scalb(float, int);
+	@Import import0.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/StrictMath";
+	public static immutable string _javaParameterString = "Ljava/lang/StrictMath;";
 }
+
+
+

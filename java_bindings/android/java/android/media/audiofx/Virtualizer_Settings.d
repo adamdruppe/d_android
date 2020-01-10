@@ -3,3 +3,5 @@ public import android.java.android.media.audiofx.Virtualizer_Settings_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Virtualizer_Settings;
+
+import import0 = android.java.java.lang.Class;

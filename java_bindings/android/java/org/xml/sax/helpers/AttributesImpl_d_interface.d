@@ -1,9 +1,15 @@
 module android.java.org.xml.sax.helpers.AttributesImpl_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.org.xml.sax.Attributes_d_interface;
+import import1 = android.java.java.lang.Class_d_interface;
 
 final class AttributesImpl : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"org/xml/sax/Attributes",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Attributes);
 	@Import int getLength();
 	@Import string getURI(int);
@@ -27,6 +33,19 @@ final class AttributesImpl : IJavaObject {
 	@Import void setQName(int, string);
 	@Import void setType(int, string);
 	@Import void setValue(int, string);
+	@Import import1.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/AttributesImpl";
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/AttributesImpl;";
 }
+
+
+

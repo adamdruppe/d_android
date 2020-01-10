@@ -1,11 +1,13 @@
 module android.java.java.sql.PreparedStatement_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import16 = android.java.java.sql.NClob_d_interface;
 import import6 = android.java.java.io.Reader_d_interface;
 import import0 = android.java.java.sql.ResultSet_d_interface;
 import import1 = android.java.java.math.BigDecimal_d_interface;
 import import11 = android.java.java.sql.ResultSetMetaData_d_interface;
+import import18 = android.java.java.lang.Class_d_interface;
 import import13 = android.java.java.net.URL_d_interface;
 import import8 = android.java.java.sql.Blob_d_interface;
 import import5 = android.java.java.io.InputStream_d_interface;
@@ -18,9 +20,14 @@ import import10 = android.java.java.sql.Array_d_interface;
 import import2 = android.java.java.sql.Date_d_interface;
 import import3 = android.java.java.sql.Time_d_interface;
 import import9 = android.java.java.sql.Clob_d_interface;
+import import20 = android.java.java.sql.Connection_d_interface;
 import import4 = android.java.java.sql.Timestamp_d_interface;
+import import19 = android.java.java.sql.SQLWarning_d_interface;
 
-interface PreparedStatement : IJavaObject {
+final class PreparedStatement : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/sql/Statement",
+	];
 	@Import import0.ResultSet executeQuery();
 	@Import int executeUpdate();
 	@Import void setNull(int, int);
@@ -76,5 +83,61 @@ interface PreparedStatement : IJavaObject {
 	@Import void setClob(int, import6.Reader);
 	@Import void setBlob(int, import5.InputStream);
 	@Import void setNClob(int, import6.Reader);
-	public static immutable string _javaParameterString = "Ljava/sql/PreparedStatement";
+	@Import import18.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import import0.ResultSet executeQuery(string);
+	@Import int executeUpdate(string);
+	@Import void close();
+	@Import int getMaxFieldSize();
+	@Import void setMaxFieldSize(int);
+	@Import int getMaxRows();
+	@Import void setMaxRows(int);
+	@Import void setEscapeProcessing(bool);
+	@Import int getQueryTimeout();
+	@Import void setQueryTimeout(int);
+	@Import void cancel();
+	@Import import19.SQLWarning getWarnings();
+	@Import void clearWarnings();
+	@Import void setCursorName(string);
+	@Import bool execute(string);
+	@Import import0.ResultSet getResultSet();
+	@Import int getUpdateCount();
+	@Import bool getMoreResults();
+	@Import void setFetchDirection(int);
+	@Import int getFetchDirection();
+	@Import void setFetchSize(int);
+	@Import int getFetchSize();
+	@Import int getResultSetConcurrency();
+	@Import int getResultSetType();
+	@Import void addBatch(string);
+	@Import void clearBatch();
+	@Import int[] executeBatch();
+	@Import import20.Connection getConnection();
+	@Import bool getMoreResults(int);
+	@Import import0.ResultSet getGeneratedKeys();
+	@Import int executeUpdate(string, int);
+	@Import int executeUpdate(string, int[]);
+	@Import int executeUpdate(string, string[]);
+	@Import bool execute(string, int);
+	@Import bool execute(string, int[]);
+	@Import bool execute(string, string[]);
+	@Import int getResultSetHoldability();
+	@Import bool isClosed();
+	@Import void setPoolable(bool);
+	@Import bool isPoolable();
+	@Import IJavaObject unwrap(import18.Class);
+	@Import bool isWrapperFor(import18.Class);
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljava/sql/PreparedStatement;";
 }
+
+
+

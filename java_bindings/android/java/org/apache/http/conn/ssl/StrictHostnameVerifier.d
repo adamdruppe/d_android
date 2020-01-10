@@ -3,3 +3,5 @@ public import android.java.org.apache.http.conn.ssl.StrictHostnameVerifier_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!StrictHostnameVerifier;
+
+import import3 = android.java.java.lang.Class;

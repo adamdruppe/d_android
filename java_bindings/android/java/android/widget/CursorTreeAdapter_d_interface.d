@@ -1,15 +1,21 @@
 module android.java.android.widget.CursorTreeAdapter_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import4 = android.java.java.lang.CharSequence_d_interface;
 import import0 = android.java.android.database.Cursor_d_interface;
 import import2 = android.java.android.view.View_d_interface;
 import import6 = android.java.android.widget.FilterQueryProvider_d_interface;
+import import7 = android.java.android.database.DataSetObserver_d_interface;
+import import8 = android.java.java.lang.Class_d_interface;
 import import3 = android.java.android.view.ViewGroup_d_interface;
 import import5 = android.java.android.widget.Filter_d_interface;
 import import1 = android.java.android.content.Context_d_interface;
 
 final class CursorTreeAdapter : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/widget/Filterable",
+	];
 	@Import this(import0.Cursor, import1.Context);
 	@Import this(import0.Cursor, import1.Context, bool);
 	@Import void setGroupCursor(import0.Cursor);
@@ -35,8 +41,30 @@ final class CursorTreeAdapter : IJavaObject {
 	@Import void setFilterQueryProvider(import6.FilterQueryProvider);
 	@Import void changeCursor(import0.Cursor);
 	@Import import0.Cursor getCursor();
-	@Import IJavaObject getChild(int, int);
-	@Import IJavaObject getGroup(int);
+	@Import void registerDataSetObserver(import7.DataSetObserver);
+	@Import void unregisterDataSetObserver(import7.DataSetObserver);
+	@Import bool areAllItemsEnabled();
+	@Import void onGroupExpanded(int);
+	@Import long getCombinedChildId(long, long);
+	@Import long getCombinedGroupId(long);
+	@Import bool isEmpty();
+	@Import int getChildType(int, int);
+	@Import int getChildTypeCount();
+	@Import int getGroupType(int);
+	@Import int getGroupTypeCount();
+	@Import import8.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/widget/CursorTreeAdapter";
+	public static immutable string _javaParameterString = "Landroid/widget/CursorTreeAdapter;";
 }
+
+
+

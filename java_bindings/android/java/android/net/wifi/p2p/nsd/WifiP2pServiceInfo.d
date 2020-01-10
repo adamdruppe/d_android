@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.p2p.nsd.WifiP2pServiceInfo_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WifiP2pServiceInfo;
+
+import import1 = android.java.java.lang.Class;

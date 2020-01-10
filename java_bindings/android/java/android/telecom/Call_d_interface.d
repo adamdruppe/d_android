@@ -1,8 +1,10 @@
 module android.java.android.telecom.Call_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.net.Uri_d_interface;
 import import9 = android.java.android.os.Handler_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import5 = android.java.android.telecom.InCallService_VideoCall_d_interface;
 import import6 = android.java.android.telecom.Call_Details_d_interface;
 import import7 = android.java.android.telecom.Call_RttCall_d_interface;
@@ -13,6 +15,8 @@ import import8 = android.java.android.telecom.Call_Callback_d_interface;
 import import4 = android.java.java.util.List_d_interface;
 
 final class Call : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import string getRemainingPostDialSequence();
 	@Import void answer(int);
 	@Import void deflect(import0.Uri);
@@ -50,6 +54,18 @@ final class Call : IJavaObject {
 	@Import void registerCallback(import8.Call_Callback, import9.Handler);
 	@Import void unregisterCallback(import8.Call_Callback);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import import10.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/telecom/Call";
+	public static immutable string _javaParameterString = "Landroid/telecom/Call;";
 }
+
+
+

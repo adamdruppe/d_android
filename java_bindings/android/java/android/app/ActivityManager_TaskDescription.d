@@ -3,3 +3,5 @@ public import android.java.android.app.ActivityManager_TaskDescription_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ActivityManager_TaskDescription;
+
+import import3 = android.java.java.lang.Class;

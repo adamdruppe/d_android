@@ -3,3 +3,6 @@ public import android.java.android.icu.text.RelativeDateTimeFormatter_RelativeUn
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RelativeDateTimeFormatter_RelativeUnit;
+
+import import0 = android.java.android.icu.text.RelativeDateTimeFormatter_RelativeUnit;
+import import2 = android.java.java.lang.Class;

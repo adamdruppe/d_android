@@ -3,3 +3,5 @@ public import android.java.android.app.ActivityManager_RunningTaskInfo_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ActivityManager_RunningTaskInfo;
+
+import import1 = android.java.java.lang.Class;

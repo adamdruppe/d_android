@@ -3,3 +3,5 @@ public import android.java.android.provider.ContactsContract_Settings_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_Settings;
+
+import import0 = android.java.java.lang.Class;

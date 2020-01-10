@@ -3,3 +3,5 @@ public import android.java.android.provider.DocumentsContract_Root_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DocumentsContract_Root;
+
+import import0 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.WifiManager_MulticastLock_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WifiManager_MulticastLock;
+
+import import0 = android.java.java.lang.Class;

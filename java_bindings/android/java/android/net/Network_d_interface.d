@@ -1,9 +1,11 @@
 module android.java.android.net.Network_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import7 = android.java.java.io.FileDescriptor_d_interface;
 import import9 = android.java.android.os.Parcel_d_interface;
 import import5 = android.java.java.net.DatagramSocket_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import3 = android.java.java.net.URL_d_interface;
 import import6 = android.java.java.net.Socket_d_interface;
 import import2 = android.java.java.net.URLConnection_d_interface;
@@ -13,6 +15,9 @@ import import1 = android.java.javax.net.SocketFactory_d_interface;
 import import4 = android.java.java.net.Proxy_d_interface;
 
 final class Network : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/os/Parcelable",
+	];
 	@Import import0.InetAddress[] getAllByName(string);
 	@Import import0.InetAddress getByName(string);
 	@Import import1.SocketFactory getSocketFactory();
@@ -28,6 +33,16 @@ final class Network : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import import10.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/net/Network";
+	public static immutable string _javaParameterString = "Landroid/net/Network;";
 }
+
+
+

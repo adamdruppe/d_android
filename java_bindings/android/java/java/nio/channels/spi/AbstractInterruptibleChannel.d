@@ -3,3 +3,5 @@ public import android.java.java.nio.channels.spi.AbstractInterruptibleChannel_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AbstractInterruptibleChannel;
+
+import import0 = android.java.java.lang.Class;

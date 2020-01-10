@@ -3,3 +3,5 @@ public import android.java.android.icu.util.LocaleData_PaperSize_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!LocaleData_PaperSize;
+
+import import0 = android.java.java.lang.Class;

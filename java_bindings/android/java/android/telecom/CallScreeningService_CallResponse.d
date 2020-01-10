@@ -3,3 +3,5 @@ public import android.java.android.telecom.CallScreeningService_CallResponse_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CallScreeningService_CallResponse;
+
+import import0 = android.java.java.lang.Class;

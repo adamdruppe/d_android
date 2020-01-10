@@ -3,3 +3,5 @@ public import android.java.android.app.ApplicationErrorReport_AnrInfo_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ApplicationErrorReport_AnrInfo;
+
+import import2 = android.java.java.lang.Class;

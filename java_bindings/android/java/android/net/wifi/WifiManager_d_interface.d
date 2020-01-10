@@ -1,5 +1,6 @@
 module android.java.android.net.wifi.WifiManager_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import11 = android.java.android.net.wifi.WifiManager_MulticastLock_d_interface;
 import import2 = android.java.android.net.wifi.hotspot2.PasspointConfiguration_d_interface;
@@ -7,6 +8,7 @@ import import6 = android.java.android.os.Handler_d_interface;
 import import4 = android.java.android.net.DhcpInfo_d_interface;
 import import3 = android.java.android.net.wifi.WifiInfo_d_interface;
 import import10 = android.java.android.net.wifi.WifiManager_WifiLock_d_interface;
+import import12 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.android.net.wifi.WpsInfo_d_interface;
 import import7 = android.java.java.net.InetAddress_d_interface;
 import import1 = android.java.android.net.wifi.WifiConfiguration_d_interface;
@@ -15,9 +17,14 @@ import import9 = android.java.android.net.wifi.WifiManager_WpsCallback_d_interfa
 import import5 = android.java.android.net.wifi.WifiManager_LocalOnlyHotspotCallback_d_interface;
 
 final class WifiManager : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import import0.List getConfiguredNetworks();
 	@Import int addNetwork(import1.WifiConfiguration);
 	@Import int updateNetwork(import1.WifiConfiguration);
+	@Import int addNetworkSuggestions(import0.List);
+	@Import int removeNetworkSuggestions(import0.List);
+	@Import int getMaxNumberOfNetworkSuggestionsPerApp();
 	@Import void addOrUpdatePasspointConfiguration(import2.PasspointConfiguration);
 	@Import void removePasspointConfiguration(string);
 	@Import import0.List getPasspointConfigurations();
@@ -53,6 +60,23 @@ final class WifiManager : IJavaObject {
 	@Import import10.WifiManager_WifiLock createWifiLock(int, string);
 	@Import import10.WifiManager_WifiLock createWifiLock(string);
 	@Import import11.WifiManager_MulticastLock createMulticastLock(string);
+	@Import bool isWpa3SaeSupported();
+	@Import bool isWpa3SuiteBSupported();
+	@Import bool isEnhancedOpenSupported();
+	@Import bool isEasyConnectSupported();
+	@Import import12.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiManager";
+	public static immutable string _javaParameterString = "Landroid/net/wifi/WifiManager;";
 }
+
+
+

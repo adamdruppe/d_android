@@ -3,3 +3,6 @@ public import android.java.android.security.keystore.SecureKeyImportUnavailableE
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SecureKeyImportUnavailableException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;

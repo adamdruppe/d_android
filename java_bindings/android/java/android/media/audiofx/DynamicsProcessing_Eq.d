@@ -3,3 +3,5 @@ public import android.java.android.media.audiofx.DynamicsProcessing_Eq_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DynamicsProcessing_Eq;
+
+import import2 = android.java.java.lang.Class;

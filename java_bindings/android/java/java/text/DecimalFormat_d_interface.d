@@ -1,16 +1,23 @@
 module android.java.java.text.DecimalFormat_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.text.DecimalFormatSymbols_d_interface;
 import import3 = android.java.java.text.AttributedCharacterIterator_d_interface;
 import import2 = android.java.java.text.FieldPosition_d_interface;
 import import4 = android.java.java.lang.Number_d_interface;
 import import5 = android.java.java.text.ParsePosition_d_interface;
+import import9 = android.java.java.util.Locale_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
+import import8 = android.java.java.text.NumberFormat_d_interface;
 import import6 = android.java.java.util.Currency_d_interface;
 import import7 = android.java.java.math.RoundingMode_d_interface;
 import import1 = android.java.java.lang.StringBuffer_d_interface;
 
 final class DecimalFormat : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(string);
 	@Import this(string, import0.DecimalFormatSymbols);
 	@Import import1.StringBuffer format(IJavaObject, import1.StringBuffer, import2.FieldPosition);
@@ -59,6 +66,34 @@ final class DecimalFormat : IJavaObject {
 	@Import void setCurrency(import6.Currency);
 	@Import import7.RoundingMode getRoundingMode();
 	@Import void setRoundingMode(import7.RoundingMode);
+	@Import IJavaObject parseObject(string, import5.ParsePosition);
+	@Import string format(double);
+	@Import string format(long);
+	@Import import4.Number parse(string);
+	@Import static import8.NumberFormat getInstance();
+	@Import static import8.NumberFormat getInstance(import9.Locale);
+	@Import static import8.NumberFormat getNumberInstance();
+	@Import static import8.NumberFormat getNumberInstance(import9.Locale);
+	@Import static import8.NumberFormat getIntegerInstance();
+	@Import static import8.NumberFormat getIntegerInstance(import9.Locale);
+	@Import static import8.NumberFormat getCurrencyInstance();
+	@Import static import8.NumberFormat getCurrencyInstance(import9.Locale);
+	@Import static import8.NumberFormat getPercentInstance();
+	@Import static import8.NumberFormat getPercentInstance(import9.Locale);
+	@Import static import9.Locale[] getAvailableLocales();
+	@Import string format(IJavaObject);
+	@Import IJavaObject parseObject(string);
+	@Import import10.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/text/DecimalFormat";
+	public static immutable string _javaParameterString = "Ljava/text/DecimalFormat;";
 }
+
+
+

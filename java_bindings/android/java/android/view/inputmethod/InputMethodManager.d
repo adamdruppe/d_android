@@ -3,3 +3,7 @@ public import android.java.android.view.inputmethod.InputMethodManager_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!InputMethodManager;
+
+import import11 = android.java.java.util.Map;
+import import12 = android.java.java.lang.Class;
+import import0 = android.java.java.util.List;

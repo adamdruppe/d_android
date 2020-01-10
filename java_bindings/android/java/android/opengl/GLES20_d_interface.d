@@ -1,11 +1,16 @@
 module android.java.android.opengl.GLES20_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.nio.Buffer_d_interface;
+import import3 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.nio.IntBuffer_d_interface;
 import import2 = android.java.java.nio.FloatBuffer_d_interface;
 
 final class GLES20 : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import static void glActiveTexture(int);
 	@Import static void glAttachShader(int, int);
 	@Import static void glBindAttribLocation(int, int, string);
@@ -196,6 +201,19 @@ final class GLES20 : IJavaObject {
 	@Import static void glVertexAttribPointer(int, int, int, bool, int, int);
 	@Import static void glVertexAttribPointer(int, int, int, bool, int, import0.Buffer);
 	@Import static void glViewport(int, int, int, int);
+	@Import import3.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/opengl/GLES20";
+	public static immutable string _javaParameterString = "Landroid/opengl/GLES20;";
 }
+
+
+

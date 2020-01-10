@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.atomic.AtomicMarkableReference_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AtomicMarkableReference;
+
+import import0 = android.java.java.lang.Class;

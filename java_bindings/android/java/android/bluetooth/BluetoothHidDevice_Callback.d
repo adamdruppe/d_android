@@ -3,3 +3,5 @@ public import android.java.android.bluetooth.BluetoothHidDevice_Callback_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!BluetoothHidDevice_Callback;
+
+import import1 = android.java.java.lang.Class;

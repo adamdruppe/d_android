@@ -3,3 +3,5 @@ public import android.java.android.telephony.IccOpenLogicalChannelResponse_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!IccOpenLogicalChannelResponse;
+
+import import1 = android.java.java.lang.Class;

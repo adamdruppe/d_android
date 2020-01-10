@@ -3,3 +3,5 @@ public import android.java.android.hardware.fingerprint.FingerprintManager_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!FingerprintManager;
+
+import import4 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.graphics.drawable.Animatable2_AnimationCallba
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Animatable2_AnimationCallback;
+
+import import1 = android.java.java.lang.Class;

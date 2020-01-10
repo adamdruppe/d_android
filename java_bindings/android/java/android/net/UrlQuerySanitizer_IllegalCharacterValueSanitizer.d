@@ -3,3 +3,5 @@ public import android.java.android.net.UrlQuerySanitizer_IllegalCharacterValueSa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!UrlQuerySanitizer_IllegalCharacterValueSanitizer;
+
+import import0 = android.java.java.lang.Class;

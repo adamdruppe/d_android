@@ -3,3 +3,5 @@ public import android.java.android.location.GnssMeasurementsEvent_Callback_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!GnssMeasurementsEvent_Callback;
+
+import import1 = android.java.java.lang.Class;

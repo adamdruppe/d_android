@@ -1,9 +1,11 @@
 module android.java.java.security.cert.X509CertSelector_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.javax.security.auth.x500.X500Principal_d_interface;
 import import6 = android.java.java.util.Collection_d_interface;
 import import1 = android.java.java.math.BigInteger_d_interface;
+import import8 = android.java.java.lang.Class_d_interface;
 import import3 = android.java.java.util.Date_d_interface;
 import import5 = android.java.java.util.Set_d_interface;
 import import0 = android.java.java.security.cert.X509Certificate_d_interface;
@@ -11,6 +13,10 @@ import import4 = android.java.java.security.PublicKey_d_interface;
 import import7 = android.java.java.security.cert.Certificate_d_interface;
 
 final class X509CertSelector : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/security/cert/CertSelector",
+	];
+	@Import this(arsd.jni.Default);
 	@Import void setCertificate(import0.X509Certificate);
 	@Import void setSerialNumber(import1.BigInteger);
 	@Import void setIssuer(import2.X500Principal);
@@ -61,8 +67,20 @@ final class X509CertSelector : IJavaObject {
 	@Import import5.Set getPolicy();
 	@Import import6.Collection getPathToNames();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import bool match(import7.Certificate);
 	@Import IJavaObject clone();
+	@Import import8.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/security/cert/X509CertSelector";
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509CertSelector;";
 }
+
+
+

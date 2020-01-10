@@ -3,3 +3,5 @@ public import android.java.android.icu.util.RangeValueIterator_Element_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RangeValueIterator_Element;
+
+import import0 = android.java.java.lang.Class;

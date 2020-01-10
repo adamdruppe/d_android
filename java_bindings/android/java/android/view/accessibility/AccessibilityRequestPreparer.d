@@ -3,3 +3,5 @@ public import android.java.android.view.accessibility.AccessibilityRequestPrepar
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessibilityRequestPreparer;
+
+import import3 = android.java.java.lang.Class;

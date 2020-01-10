@@ -3,3 +3,7 @@ public import android.java.java.security.cert.CertificateRevokedException_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CertificateRevokedException;
+
+import import8 = android.java.java.lang.Class;
+import import7 = android.java.java.lang.StackTraceElement;
+import import4 = android.java.java.lang.JavaThrowable;

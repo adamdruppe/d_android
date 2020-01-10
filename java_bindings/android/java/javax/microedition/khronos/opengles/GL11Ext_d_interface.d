@@ -1,12 +1,17 @@
 module android.java.javax.microedition.khronos.opengles.GL11Ext_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.java.nio.Buffer_d_interface;
+import import4 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.nio.IntBuffer_d_interface;
 import import0 = android.java.java.nio.FloatBuffer_d_interface;
 import import2 = android.java.java.nio.ShortBuffer_d_interface;
 
-interface GL11Ext : IJavaObject {
+final class GL11Ext : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"javax/microedition/khronos/opengles/GL",
+	];
 	@Import void glTexParameterfv(int, int, float, int[]);
 	@Import void glCurrentPaletteMatrixOES(int);
 	@Import void glDrawTexfOES(float, float, float, float, float);
@@ -28,5 +33,19 @@ interface GL11Ext : IJavaObject {
 	@Import void glMatrixIndexPointerOES(int, int, int, int);
 	@Import void glWeightPointerOES(int, int, int, import3.Buffer);
 	@Import void glWeightPointerOES(int, int, int, int);
-	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/opengles/GL11Ext";
+	@Import import4.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljavax/microedition/khronos/opengles/GL11Ext;";
 }
+
+
+

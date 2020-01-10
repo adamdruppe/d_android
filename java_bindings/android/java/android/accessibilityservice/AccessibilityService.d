@@ -3,3 +3,33 @@ public import android.java.android.accessibilityservice.AccessibilityService_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessibilityService;
+
+import import23 = android.java.android.content.res.Resources_Theme;
+import import13 = android.java.android.app.Application;
+import import41 = android.java.android.content.ComponentName;
+import import48 = android.java.android.content.res.ColorStateList;
+import import4 = android.java.android.accessibilityservice.FingerprintGestureController;
+import import8 = android.java.android.accessibilityservice.AccessibilityService_SoftKeyboardController;
+import import10 = android.java.android.accessibilityservice.AccessibilityServiceInfo;
+import import28 = android.java.java.io.FileOutputStream;
+import import17 = android.java.android.content.res.AssetManager;
+import import33 = android.java.android.graphics.drawable.Drawable;
+import import22 = android.java.java.util.concurrent.Executor;
+import import11 = android.java.android.os.IBinder;
+import import20 = android.java.android.content.ContentResolver;
+import import21 = android.java.android.os.Looper;
+import import29 = android.java.java.io.File;
+import import24 = android.java.java.lang.ClassLoader;
+import import30 = android.java.android.database.sqlite.SQLiteDatabase;
+import import19 = android.java.android.content.pm.PackageManager;
+import import27 = android.java.java.io.FileInputStream;
+import import3 = android.java.android.accessibilityservice.AccessibilityService_MagnificationController;
+import import47 = android.java.java.lang.CharSequence;
+import import2 = android.java.android.view.accessibility.AccessibilityNodeInfo;
+import import18 = android.java.android.content.res.Resources;
+import import26 = android.java.android.content.SharedPreferences;
+import import9 = android.java.android.accessibilityservice.AccessibilityButtonController;
+import import49 = android.java.android.content.res.TypedArray;
+import import1 = android.java.java.util.List;
+import import25 = android.java.android.content.pm.ApplicationInfo;
+import import16 = android.java.android.content.Context;

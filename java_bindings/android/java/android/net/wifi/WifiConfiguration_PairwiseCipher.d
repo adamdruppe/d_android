@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.WifiConfiguration_PairwiseCipher_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WifiConfiguration_PairwiseCipher;
+
+import import0 = android.java.java.lang.Class;

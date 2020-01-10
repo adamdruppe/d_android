@@ -3,3 +3,5 @@ public import android.java.android.provider.ContactsContract_RawContacts_Data_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_RawContacts_Data;
+
+import import0 = android.java.java.lang.Class;

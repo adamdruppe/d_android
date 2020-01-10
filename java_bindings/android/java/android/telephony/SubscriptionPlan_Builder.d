@@ -3,3 +3,7 @@ public import android.java.android.telephony.SubscriptionPlan_Builder_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SubscriptionPlan_Builder;
+
+import import3 = android.java.android.telephony.SubscriptionPlan;
+import import5 = android.java.java.lang.Class;
+import import0 = android.java.android.telephony.SubscriptionPlan_Builder;

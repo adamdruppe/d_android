@@ -3,3 +3,5 @@ public import android.java.android.media.browse.MediaBrowser_SubscriptionCallbac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaBrowser_SubscriptionCallback;
+
+import import2 = android.java.java.lang.Class;

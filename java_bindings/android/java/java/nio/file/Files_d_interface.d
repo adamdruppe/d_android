@@ -1,5 +1,6 @@
 module android.java.java.nio.file.Files_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.nio.file.OpenOption_d_interface;
 import import19 = android.java.java.io.BufferedReader_d_interface;
@@ -30,6 +31,8 @@ import import22 = android.java.java.util.List_d_interface;
 import import6 = android.java.java.nio.file.attribute.FileAttribute_d_interface;
 
 final class Files : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.InputStream newInputStream(import1.Path, import2.OpenOption[]);
 	@Import static import3.OutputStream newOutputStream(import1.Path, import2.OpenOption[]);
 	@Import static import4.SeekableByteChannel newByteChannel(import1.Path, import5.Set, import6.FileAttribute[]);
@@ -95,6 +98,19 @@ final class Files : IJavaObject {
 	@Import static import24.Stream find(import1.Path, int, import26.BiPredicate, import25.FileVisitOption[]);
 	@Import static import24.Stream lines(import1.Path, import20.Charset);
 	@Import static import24.Stream lines(import1.Path);
+	@Import import12.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/nio/file/Files";
+	public static immutable string _javaParameterString = "Ljava/nio/file/Files;";
 }
+
+
+

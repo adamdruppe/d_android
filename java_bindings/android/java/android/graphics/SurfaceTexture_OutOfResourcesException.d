@@ -3,3 +3,7 @@ public import android.java.android.graphics.SurfaceTexture_OutOfResourcesExcepti
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SurfaceTexture_OutOfResourcesException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;
+import import0 = android.java.java.lang.JavaThrowable;

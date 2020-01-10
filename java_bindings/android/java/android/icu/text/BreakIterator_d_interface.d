@@ -1,12 +1,18 @@
 module android.java.android.icu.text.BreakIterator_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import3 = android.java.android.icu.util.ULocale_d_interface;
-import import1 = android.java.android.icu.text.BreakIterator_d_interface;
-import import2 = android.java.java.util.Locale_d_interface;
+import import4 = android.java.android.icu.util.ULocale_d_interface;
+import import2 = android.java.android.icu.text.BreakIterator_d_interface;
+import import1 = android.java.java.lang.CharSequence_d_interface;
+import import5 = android.java.java.lang.Class_d_interface;
+import import3 = android.java.java.util.Locale_d_interface;
 import import0 = android.java.java.text.CharacterIterator_d_interface;
 
 final class BreakIterator : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Cloneable",
+	];
 	@Import IJavaObject clone();
 	@Import int first();
 	@Import int last();
@@ -21,23 +27,37 @@ final class BreakIterator : IJavaObject {
 	@Import int getRuleStatusVec(int[]);
 	@Import import0.CharacterIterator getText();
 	@Import void setText(string);
+	@Import void setText(import1.CharSequence);
 	@Import void setText(import0.CharacterIterator);
-	@Import static import1.BreakIterator getWordInstance();
-	@Import static import1.BreakIterator getWordInstance(import2.Locale);
-	@Import static import1.BreakIterator getWordInstance(import3.ULocale);
-	@Import static import1.BreakIterator getLineInstance();
-	@Import static import1.BreakIterator getLineInstance(import2.Locale);
-	@Import static import1.BreakIterator getLineInstance(import3.ULocale);
-	@Import static import1.BreakIterator getCharacterInstance();
-	@Import static import1.BreakIterator getCharacterInstance(import2.Locale);
-	@Import static import1.BreakIterator getCharacterInstance(import3.ULocale);
-	@Import static import1.BreakIterator getSentenceInstance();
-	@Import static import1.BreakIterator getSentenceInstance(import2.Locale);
-	@Import static import1.BreakIterator getSentenceInstance(import3.ULocale);
-	@Import static import1.BreakIterator getTitleInstance();
-	@Import static import1.BreakIterator getTitleInstance(import2.Locale);
-	@Import static import1.BreakIterator getTitleInstance(import3.ULocale);
-	@Import static import2.Locale[] getAvailableLocales();
+	@Import static import2.BreakIterator getWordInstance();
+	@Import static import2.BreakIterator getWordInstance(import3.Locale);
+	@Import static import2.BreakIterator getWordInstance(import4.ULocale);
+	@Import static import2.BreakIterator getLineInstance();
+	@Import static import2.BreakIterator getLineInstance(import3.Locale);
+	@Import static import2.BreakIterator getLineInstance(import4.ULocale);
+	@Import static import2.BreakIterator getCharacterInstance();
+	@Import static import2.BreakIterator getCharacterInstance(import3.Locale);
+	@Import static import2.BreakIterator getCharacterInstance(import4.ULocale);
+	@Import static import2.BreakIterator getSentenceInstance();
+	@Import static import2.BreakIterator getSentenceInstance(import3.Locale);
+	@Import static import2.BreakIterator getSentenceInstance(import4.ULocale);
+	@Import static import2.BreakIterator getTitleInstance();
+	@Import static import2.BreakIterator getTitleInstance(import3.Locale);
+	@Import static import2.BreakIterator getTitleInstance(import4.ULocale);
+	@Import static import3.Locale[] getAvailableLocales();
+	@Import import5.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/BreakIterator";
+	public static immutable string _javaParameterString = "Landroid/icu/text/BreakIterator;";
 }
+
+
+

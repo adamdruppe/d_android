@@ -3,3 +3,5 @@ public import android.java.android.provider.CalendarContract_CalendarCache_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CalendarContract_CalendarCache;
+
+import import0 = android.java.java.lang.Class;

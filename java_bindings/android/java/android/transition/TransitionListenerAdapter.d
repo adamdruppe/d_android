@@ -3,3 +3,5 @@ public import android.java.android.transition.TransitionListenerAdapter_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TransitionListenerAdapter;
+
+import import1 = android.java.java.lang.Class;

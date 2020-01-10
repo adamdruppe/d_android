@@ -1,10 +1,28 @@
 module android.java.android.view.GestureDetector_OnContextClickListener_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import1 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.android.view.MotionEvent_d_interface;
 
 @JavaName("GestureDetector$OnContextClickListener")
-interface GestureDetector_OnContextClickListener : IJavaObject {
+final class GestureDetector_OnContextClickListener : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import bool onContextClick(import0.MotionEvent);
-	public static immutable string _javaParameterString = "Landroid/view/GestureDetector$OnContextClickListener";
+	@Import import1.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Landroid/view/GestureDetector$OnContextClickListener;";
 }
+
+
+

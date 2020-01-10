@@ -3,3 +3,5 @@ public import android.java.android.provider.ContactsContract_DisplayPhoto_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_DisplayPhoto;
+
+import import0 = android.java.java.lang.Class;

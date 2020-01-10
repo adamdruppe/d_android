@@ -3,3 +3,5 @@ public import android.java.android.provider.CalendarContract_ExtendedProperties_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CalendarContract_ExtendedProperties;
+
+import import0 = android.java.java.lang.Class;

@@ -1,16 +1,26 @@
 module android.java.android.animation.ObjectAnimator_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.android.animation.TypeConverter_d_interface;
 import import0 = android.java.android.util.Property_d_interface;
 import import7 = android.java.android.animation.Animator_d_interface;
 import import1 = android.java.android.animation.ObjectAnimator_d_interface;
+import import10 = android.java.android.animation.Animator_AnimatorListener_d_interface;
+import import9 = android.java.android.animation.TimeInterpolator_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
 import import2 = android.java.android.graphics.Path_d_interface;
 import import4 = android.java.android.animation.TypeEvaluator_d_interface;
 import import6 = android.java.android.animation.ValueAnimator_d_interface;
+import import12 = android.java.android.animation.Animator_AnimatorPauseListener_d_interface;
+import import11 = android.java.java.util.ArrayList_d_interface;
+import import8 = android.java.android.animation.ValueAnimator_AnimatorUpdateListener_d_interface;
 import import5 = android.java.android.animation.PropertyValuesHolder_d_interface;
 
 final class ObjectAnimator : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import void setPropertyName(string);
 	@Import void setProperty(import0.Property);
 	@Import string getPropertyName();
@@ -48,11 +58,62 @@ final class ObjectAnimator : IJavaObject {
 	@Import void setupEndValues();
 	@Import import1.ObjectAnimator clone();
 	@Import @JavaName("toString") string toString_();
-	@Import import6.ValueAnimator clone();
-	@Import import6.ValueAnimator setDuration(long);
-	@Import import7.Animator clone();
-	@Import import7.Animator setDuration(long);
-	@Import IJavaObject clone();
+	override string toString() { return toString_(); }
+	@Import static bool areAnimatorsEnabled();
+	@Import static import6.ValueAnimator ofInt(int[]);
+	@Import static import6.ValueAnimator ofArgb(int[]);
+	@Import static import6.ValueAnimator ofFloat(float[]);
+	@Import static import6.ValueAnimator ofPropertyValuesHolder(import5.PropertyValuesHolder[]);
+	@Import static import6.ValueAnimator ofObject(import4.TypeEvaluator, IJavaObject[]);
+	@Import void setValues(import5.PropertyValuesHolder[]);
+	@Import import5.PropertyValuesHolder[] getValues();
+	@Import long getDuration();
+	@Import long getTotalDuration();
+	@Import void setCurrentPlayTime(long);
+	@Import void setCurrentFraction(float);
+	@Import long getCurrentPlayTime();
+	@Import long getStartDelay();
+	@Import void setStartDelay(long);
+	@Import static long getFrameDelay();
+	@Import static void setFrameDelay(long);
+	@Import IJavaObject getAnimatedValue();
+	@Import IJavaObject getAnimatedValue(string);
+	@Import void setRepeatCount(int);
+	@Import int getRepeatCount();
+	@Import void setRepeatMode(int);
+	@Import int getRepeatMode();
+	@Import void addUpdateListener(import8.ValueAnimator_AnimatorUpdateListener);
+	@Import void removeAllUpdateListeners();
+	@Import void removeUpdateListener(import8.ValueAnimator_AnimatorUpdateListener);
+	@Import void setInterpolator(import9.TimeInterpolator);
+	@Import import9.TimeInterpolator getInterpolator();
+	@Import void setEvaluator(import4.TypeEvaluator);
+	@Import void cancel();
+	@Import void end();
+	@Import void resume();
+	@Import void pause();
+	@Import bool isRunning();
+	@Import bool isStarted();
+	@Import void reverse();
+	@Import float getAnimatedFraction();
+	@Import bool isPaused();
+	@Import void addListener(import10.Animator_AnimatorListener);
+	@Import void removeListener(import10.Animator_AnimatorListener);
+	@Import import11.ArrayList getListeners();
+	@Import void addPauseListener(import12.Animator_AnimatorPauseListener);
+	@Import void removePauseListener(import12.Animator_AnimatorPauseListener);
+	@Import void removeAllListeners();
+	@Import import13.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/animation/ObjectAnimator";
+	public static immutable string _javaParameterString = "Landroid/animation/ObjectAnimator;";
 }
+
+
+

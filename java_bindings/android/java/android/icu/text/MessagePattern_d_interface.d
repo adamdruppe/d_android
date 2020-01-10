@@ -1,12 +1,19 @@
 module android.java.android.icu.text.MessagePattern_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.android.icu.text.MessagePattern_Part_d_interface;
 import import3 = android.java.android.icu.text.MessagePattern_Part_Type_d_interface;
+import import4 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.android.icu.text.MessagePattern_ApostropheMode_d_interface;
 import import1 = android.java.android.icu.text.MessagePattern_d_interface;
 
 final class MessagePattern : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Cloneable",
+		"android/icu/util/Freezable",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.MessagePattern_ApostropheMode);
 	@Import this(string);
 	@Import import1.MessagePattern parse(string);
@@ -22,6 +29,7 @@ final class MessagePattern : IJavaObject {
 	@Import bool hasNamedArguments();
 	@Import bool hasNumberedArguments();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import static int validateArgumentName(string);
 	@Import string autoQuoteApostropheDeep();
 	@Import int countParts();
@@ -37,8 +45,15 @@ final class MessagePattern : IJavaObject {
 	@Import import1.MessagePattern cloneAsThawed();
 	@Import import1.MessagePattern freeze();
 	@Import bool isFrozen();
-	@Import IJavaObject cloneAsThawed();
-	@Import IJavaObject freeze();
+	@Import import4.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/MessagePattern";
+	public static immutable string _javaParameterString = "Landroid/icu/text/MessagePattern;";
 }
+
+
+

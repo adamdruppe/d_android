@@ -3,3 +3,6 @@ public import android.java.android.content.pm.ApplicationInfo_DisplayNameCompara
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ApplicationInfo_DisplayNameComparator;
+
+import import2 = android.java.java.lang.Class;
+import import3 = android.java.java.util.Comparator;

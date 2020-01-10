@@ -1,5 +1,6 @@
 module android.java.java.time.chrono.Chronology_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import8 = android.java.java.time.chrono.ChronoLocalDateTime_d_interface;
 import import10 = android.java.java.time.Instant_d_interface;
@@ -12,6 +13,7 @@ import import17 = android.java.java.time.chrono.ChronoPeriod_d_interface;
 import import2 = android.java.java.util.Locale_d_interface;
 import import5 = android.java.java.time.chrono.Era_d_interface;
 import import6 = android.java.java.time.ZoneId_d_interface;
+import import18 = android.java.java.lang.Class_d_interface;
 import import3 = android.java.java.util.Set_d_interface;
 import import0 = android.java.java.time.chrono.Chronology_d_interface;
 import import9 = android.java.java.time.chrono.ChronoZonedDateTime_d_interface;
@@ -20,7 +22,10 @@ import import11 = android.java.java.util.List_d_interface;
 import import1 = android.java.java.time.temporal.TemporalAccessor_d_interface;
 import import4 = android.java.java.time.chrono.ChronoLocalDate_d_interface;
 
-interface Chronology : IJavaObject {
+final class Chronology : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Comparable",
+	];
 	@Import static import0.Chronology from(import1.TemporalAccessor);
 	@Import static import0.Chronology ofLocale(import2.Locale);
 	@Import static import0.Chronology of(string);
@@ -51,6 +56,17 @@ interface Chronology : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import int compareTo(IJavaObject);
-	public static immutable string _javaParameterString = "Ljava/time/chrono/Chronology";
+	@Import import18.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljava/time/chrono/Chronology;";
 }
+
+
+

@@ -3,3 +3,6 @@ public import android.java.android.security.keystore.KeyPermanentlyInvalidatedEx
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!KeyPermanentlyInvalidatedException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;

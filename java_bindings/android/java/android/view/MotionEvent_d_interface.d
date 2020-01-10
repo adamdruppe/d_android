@@ -1,13 +1,19 @@
 module android.java.android.view.MotionEvent_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import2 = android.java.android.view.MotionEvent_PointerCoords_d_interface;
-import import1 = android.java.android.view.MotionEvent_PointerProperties_d_interface;
 import import3 = android.java.android.graphics.Matrix_d_interface;
 import import4 = android.java.android.os.Parcel_d_interface;
+import import6 = android.java.java.lang.Class_d_interface;
+import import5 = android.java.android.view.InputDevice_d_interface;
+import import1 = android.java.android.view.MotionEvent_PointerProperties_d_interface;
+import import2 = android.java.android.view.MotionEvent_PointerCoords_d_interface;
 import import0 = android.java.android.view.MotionEvent_d_interface;
 
 final class MotionEvent : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/os/Parcelable",
+	];
 	@Import static import0.MotionEvent obtain(long, long, int, int, import1.MotionEvent_PointerProperties, import2.MotionEvent_PointerCoords, int, int, float, float, int, int, int, int[][]);
 	@Import static import0.MotionEvent obtain(long, long, int, int, int, import2.MotionEvent_PointerCoords, int, float, float, int, int, int, int[][]);
 	@Import static import0.MotionEvent obtain(long, long, int, float, float, float, float, int, float, float, int, int);
@@ -53,9 +59,12 @@ final class MotionEvent : IJavaObject {
 	@Import void getPointerProperties(int, import1.MotionEvent_PointerProperties);
 	@Import int getMetaState();
 	@Import int getButtonState();
+	@Import int getClassification();
 	@Import int getActionButton();
 	@Import float getRawX();
 	@Import float getRawY();
+	@Import float getRawX(int);
+	@Import float getRawY(int);
 	@Import float getXPrecision();
 	@Import float getYPrecision();
 	@Import int getHistorySize();
@@ -90,11 +99,26 @@ final class MotionEvent : IJavaObject {
 	@Import void addBatch(long, float, float, float, float, int);
 	@Import void addBatch(long, import2.MotionEvent_PointerCoords, int[]);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import static string actionToString(int);
 	@Import static string axisToString(int);
 	@Import static int axisFromString(string);
 	@Import bool isButtonPressed(int);
 	@Import void writeToParcel(import4.Parcel, int);
+	@Import import5.InputDevice getDevice();
+	@Import bool isFromSource(int);
+	@Import int describeContents();
+	@Import import6.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/MotionEvent";
+	public static immutable string _javaParameterString = "Landroid/view/MotionEvent;";
 }
+
+
+

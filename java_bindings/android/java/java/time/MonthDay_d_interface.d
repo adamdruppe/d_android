@@ -1,11 +1,13 @@
 module android.java.java.time.MonthDay_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import5 = android.java.java.lang.CharSequence_d_interface;
 import import2 = android.java.java.time.Clock_d_interface;
 import import7 = android.java.java.time.temporal.TemporalField_d_interface;
 import import6 = android.java.java.time.format.DateTimeFormatter_d_interface;
 import import1 = android.java.java.time.ZoneId_d_interface;
+import import12 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.java.time.MonthDay_d_interface;
 import import9 = android.java.java.time.temporal.TemporalQuery_d_interface;
 import import10 = android.java.java.time.temporal.Temporal_d_interface;
@@ -15,6 +17,12 @@ import import4 = android.java.java.time.temporal.TemporalAccessor_d_interface;
 import import8 = android.java.java.time.temporal.ValueRange_d_interface;
 
 final class MonthDay : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/time/temporal/TemporalAccessor",
+		"java/time/temporal/TemporalAdjuster",
+		"java/lang/Comparable",
+		"java/io/Serializable",
+	];
 	@Import static import0.MonthDay now();
 	@Import static import0.MonthDay now(import1.ZoneId);
 	@Import static import0.MonthDay now(import2.Clock);
@@ -44,7 +52,17 @@ final class MonthDay : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import int compareTo(IJavaObject);
+	@Import import12.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/time/MonthDay";
+	public static immutable string _javaParameterString = "Ljava/time/MonthDay;";
 }
+
+
+

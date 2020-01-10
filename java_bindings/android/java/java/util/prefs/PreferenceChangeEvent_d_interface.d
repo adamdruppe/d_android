@@ -1,13 +1,31 @@
 module android.java.java.util.prefs.PreferenceChangeEvent_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.util.prefs.Preferences_d_interface;
+import import1 = android.java.java.lang.Class_d_interface;
 
 final class PreferenceChangeEvent : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(import0.Preferences, string, string);
 	@Import import0.Preferences getNode();
 	@Import string getKey();
 	@Import string getNewValue();
+	@Import IJavaObject getSource();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import import1.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/util/prefs/PreferenceChangeEvent";
+	public static immutable string _javaParameterString = "Ljava/util/prefs/PreferenceChangeEvent;";
 }
+
+
+

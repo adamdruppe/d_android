@@ -1,5 +1,6 @@
 module android.java.java.nio.file.spi.FileSystemProvider_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import16 = android.java.java.nio.file.CopyOption_d_interface;
 import import17 = android.java.java.nio.file.FileStore_d_interface;
@@ -26,6 +27,8 @@ import import10 = android.java.java.nio.file.attribute.FileAttribute_d_interface
 import import13 = android.java.java.nio.channels.SeekableByteChannel_d_interface;
 
 final class FileSystemProvider : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.List installedProviders();
 	@Import string getScheme();
 	@Import import1.FileSystem newFileSystem(import2.URI, import3.Map);
@@ -54,6 +57,19 @@ final class FileSystemProvider : IJavaObject {
 	@Import import22.BasicFileAttributes readAttributes(import4.Path, import20.Class, import21.LinkOption[]);
 	@Import import3.Map readAttributes(import4.Path, string, import21.LinkOption[]);
 	@Import void setAttribute(import4.Path, string, IJavaObject, import21.LinkOption[]);
+	@Import import20.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/nio/file/spi/FileSystemProvider";
+	public static immutable string _javaParameterString = "Ljava/nio/file/spi/FileSystemProvider;";
 }
+
+
+

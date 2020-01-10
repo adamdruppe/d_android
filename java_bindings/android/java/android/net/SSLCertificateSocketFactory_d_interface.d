@@ -1,7 +1,9 @@
 module android.java.android.net.SSLCertificateSocketFactory_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.android.net.SSLSessionCache_d_interface;
+import import7 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.javax.net.ssl.SSLSocketFactory_d_interface;
 import import3 = android.java.javax.net.ssl.TrustManager_d_interface;
 import import4 = android.java.java.net.Socket_d_interface;
@@ -10,6 +12,8 @@ import import6 = android.java.java.net.InetAddress_d_interface;
 import import0 = android.java.javax.net.SocketFactory_d_interface;
 
 final class SSLCertificateSocketFactory : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(int);
 	@Import static import0.SocketFactory getDefault(int);
 	@Import static import1.SSLSocketFactory getDefault(int, import2.SSLSessionCache);
@@ -28,6 +32,20 @@ final class SSLCertificateSocketFactory : IJavaObject {
 	@Import import4.Socket createSocket(string, int);
 	@Import string[] getDefaultCipherSuites();
 	@Import string[] getSupportedCipherSuites();
+	@Import static import0.SocketFactory getDefault();
+	@Import import7.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/net/SSLCertificateSocketFactory";
+	public static immutable string _javaParameterString = "Landroid/net/SSLCertificateSocketFactory;";
 }
+
+
+

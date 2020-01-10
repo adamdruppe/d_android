@@ -3,3 +3,5 @@ public import android.java.android.accounts.AccountAuthenticatorResponse_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccountAuthenticatorResponse;
+
+import import2 = android.java.java.lang.Class;

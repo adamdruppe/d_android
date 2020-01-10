@@ -3,3 +3,6 @@ public import android.java.android.accessibilityservice.GestureDescription_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!GestureDescription;
+
+import import1 = android.java.java.lang.Class;
+import import0 = android.java.android.accessibilityservice.GestureDescription_StrokeDescription;

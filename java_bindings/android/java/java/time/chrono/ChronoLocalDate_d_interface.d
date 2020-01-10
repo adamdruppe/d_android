@@ -1,5 +1,6 @@
 module android.java.java.time.chrono.ChronoLocalDate_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.java.time.chrono.ChronoLocalDate_d_interface;
 import import11 = android.java.java.time.chrono.ChronoPeriod_d_interface;
@@ -14,10 +15,17 @@ import import13 = android.java.java.time.chrono.ChronoLocalDateTime_d_interface;
 import import3 = android.java.java.time.chrono.Chronology_d_interface;
 import import9 = android.java.java.time.temporal.TemporalQuery_d_interface;
 import import10 = android.java.java.time.temporal.Temporal_d_interface;
+import import15 = android.java.java.lang.Class_d_interface;
+import import16 = android.java.java.time.temporal.ValueRange_d_interface;
 import import2 = android.java.java.time.temporal.TemporalAccessor_d_interface;
 import import0 = android.java.java.util.Comparator_d_interface;
 
-interface ChronoLocalDate : IJavaObject {
+final class ChronoLocalDate : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/time/temporal/Temporal",
+		"java/time/temporal/TemporalAdjuster",
+		"java/lang/Comparable",
+	];
 	@Import static import0.Comparator timeLineOrder();
 	@Import static import1.ChronoLocalDate from(import2.TemporalAccessor);
 	@Import import3.Chronology getChronology();
@@ -47,12 +55,20 @@ interface ChronoLocalDate : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	@Import import10.Temporal minus(long, import6.TemporalUnit);
-	@Import import10.Temporal minus(import8.TemporalAmount);
-	@Import import10.Temporal plus(long, import6.TemporalUnit);
-	@Import import10.Temporal plus(import8.TemporalAmount);
-	@Import @JavaName("with") import10.Temporal with_(import5.TemporalField, long);
-	@Import @JavaName("with") import10.Temporal with_(import7.TemporalAdjuster);
+	override string toString() { return toString_(); }
 	@Import int compareTo(IJavaObject);
-	public static immutable string _javaParameterString = "Ljava/time/chrono/ChronoLocalDate";
+	@Import import15.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import import16.ValueRange range(import5.TemporalField);
+	@Import int get(import5.TemporalField);
+	@Import long getLong(import5.TemporalField);
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljava/time/chrono/ChronoLocalDate;";
 }
+
+
+

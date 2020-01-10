@@ -3,3 +3,6 @@ public import android.java.java.util.IllegalFormatConversionException_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!IllegalFormatConversionException;
+
+import import4 = android.java.java.lang.StackTraceElement;
+import import1 = android.java.java.lang.JavaThrowable;

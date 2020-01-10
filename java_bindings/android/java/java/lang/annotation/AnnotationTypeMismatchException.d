@@ -3,3 +3,7 @@ public import android.java.java.lang.annotation.AnnotationTypeMismatchException_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AnnotationTypeMismatchException;
+
+import import5 = android.java.java.lang.Class;
+import import4 = android.java.java.lang.StackTraceElement;
+import import1 = android.java.java.lang.JavaThrowable;

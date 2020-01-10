@@ -3,3 +3,5 @@ public import android.java.android.database.DatabaseUtils_InsertHelper_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DatabaseUtils_InsertHelper;
+
+import import2 = android.java.java.lang.Class;

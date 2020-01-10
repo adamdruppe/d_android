@@ -3,3 +3,5 @@ public import android.java.java.security.AlgorithmParameterGeneratorSpi_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AlgorithmParameterGeneratorSpi;
+
+import import0 = android.java.java.lang.Class;

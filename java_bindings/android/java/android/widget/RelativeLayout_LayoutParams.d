@@ -3,3 +3,5 @@ public import android.java.android.widget.RelativeLayout_LayoutParams_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RelativeLayout_LayoutParams;
+
+import import5 = android.java.java.lang.Class;

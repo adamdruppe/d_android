@@ -3,3 +3,5 @@ public import android.java.android.provider.ContactsContract_CommonDataKinds_Str
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_CommonDataKinds_StructuredName;
+
+import import0 = android.java.java.lang.Class;

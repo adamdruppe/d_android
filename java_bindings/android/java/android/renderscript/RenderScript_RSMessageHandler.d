@@ -3,3 +3,5 @@ public import android.java.android.renderscript.RenderScript_RSMessageHandler_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RenderScript_RSMessageHandler;
+
+import import0 = android.java.java.lang.Class;

@@ -1,12 +1,106 @@
 module android.java.java.nio.MappedByteBuffer_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.nio.MappedByteBuffer_d_interface;
+import import5 = android.java.java.nio.ShortBuffer_d_interface;
+import import3 = android.java.java.nio.ByteOrder_d_interface;
+import import2 = android.java.java.nio.Buffer_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
+import import7 = android.java.java.nio.LongBuffer_d_interface;
+import import6 = android.java.java.nio.IntBuffer_d_interface;
+import import8 = android.java.java.nio.FloatBuffer_d_interface;
+import import4 = android.java.java.nio.CharBuffer_d_interface;
+import import9 = android.java.java.nio.DoubleBuffer_d_interface;
+import import1 = android.java.java.nio.ByteBuffer_d_interface;
 
 final class MappedByteBuffer : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import bool isLoaded();
 	@Import import0.MappedByteBuffer load();
 	@Import import0.MappedByteBuffer force();
+	@Import static import1.ByteBuffer allocateDirect(int);
+	@Import static import1.ByteBuffer allocate(int);
+	@Import static import1.ByteBuffer wrap(byte, int, int[]);
+	@Import static import1.ByteBuffer wrap(byte[]);
+	@Import import1.ByteBuffer slice();
+	@Import import1.ByteBuffer duplicate();
+	@Import import1.ByteBuffer asReadOnlyBuffer();
+	@Import byte get();
+	@Import import1.ByteBuffer put(byte);
+	@Import byte get(int);
+	@Import import1.ByteBuffer put(int, byte);
+	@Import import1.ByteBuffer get(byte, int, int[]);
+	@Import import1.ByteBuffer get(byte[]);
+	@Import import1.ByteBuffer put(import1.ByteBuffer);
+	@Import import1.ByteBuffer put(byte, int, int[]);
+	@Import import1.ByteBuffer put(byte[]);
+	@Import bool hasArray();
+	@Import byte[] array();
+	@Import int arrayOffset();
+	@Import import2.Buffer position(int);
+	@Import import2.Buffer limit(int);
+	@Import import2.Buffer mark();
+	@Import import2.Buffer reset();
+	@Import import2.Buffer clear();
+	@Import import2.Buffer flip();
+	@Import import2.Buffer rewind();
+	@Import import1.ByteBuffer compact();
+	@Import bool isDirect();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import int compareTo(import1.ByteBuffer);
+	@Import import3.ByteOrder order();
+	@Import import1.ByteBuffer order(import3.ByteOrder);
+	@Import wchar getChar();
+	@Import import1.ByteBuffer putChar(wchar);
+	@Import wchar getChar(int);
+	@Import import1.ByteBuffer putChar(int, wchar);
+	@Import import4.CharBuffer asCharBuffer();
+	@Import short getShort();
+	@Import import1.ByteBuffer putShort(short);
+	@Import short getShort(int);
+	@Import import1.ByteBuffer putShort(int, short);
+	@Import import5.ShortBuffer asShortBuffer();
+	@Import int getInt();
+	@Import import1.ByteBuffer putInt(int);
+	@Import int getInt(int);
+	@Import import1.ByteBuffer putInt(int, int);
+	@Import import6.IntBuffer asIntBuffer();
+	@Import long getLong();
+	@Import import1.ByteBuffer putLong(long);
+	@Import long getLong(int);
+	@Import import1.ByteBuffer putLong(int, long);
+	@Import import7.LongBuffer asLongBuffer();
+	@Import float getFloat();
+	@Import import1.ByteBuffer putFloat(float);
+	@Import float getFloat(int);
+	@Import import1.ByteBuffer putFloat(int, float);
+	@Import import8.FloatBuffer asFloatBuffer();
+	@Import double getDouble();
+	@Import import1.ByteBuffer putDouble(double);
+	@Import double getDouble(int);
+	@Import import1.ByteBuffer putDouble(int, double);
+	@Import import9.DoubleBuffer asDoubleBuffer();
+	@Import int compareTo(IJavaObject);
+	@Import int capacity();
+	@Import int position();
+	@Import int limit();
+	@Import int remaining();
+	@Import bool hasRemaining();
+	@Import bool isReadOnly();
+	@Import import10.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/nio/MappedByteBuffer";
+	public static immutable string _javaParameterString = "Ljava/nio/MappedByteBuffer;";
 }
+
+
+

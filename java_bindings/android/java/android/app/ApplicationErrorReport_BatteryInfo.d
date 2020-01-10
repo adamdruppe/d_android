@@ -3,3 +3,5 @@ public import android.java.android.app.ApplicationErrorReport_BatteryInfo_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ApplicationErrorReport_BatteryInfo;
+
+import import2 = android.java.java.lang.Class;

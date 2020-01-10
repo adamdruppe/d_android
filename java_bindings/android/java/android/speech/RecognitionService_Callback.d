@@ -3,3 +3,5 @@ public import android.java.android.speech.RecognitionService_Callback_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RecognitionService_Callback;
+
+import import1 = android.java.java.lang.Class;

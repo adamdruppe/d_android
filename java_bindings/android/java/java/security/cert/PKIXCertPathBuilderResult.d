@@ -3,3 +3,5 @@ public import android.java.java.security.cert.PKIXCertPathBuilderResult_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PKIXCertPathBuilderResult;
+
+import import4 = android.java.java.lang.Class;

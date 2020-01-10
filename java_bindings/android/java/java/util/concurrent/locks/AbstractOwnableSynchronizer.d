@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.locks.AbstractOwnableSynchronize
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AbstractOwnableSynchronizer;
+
+import import0 = android.java.java.lang.Class;

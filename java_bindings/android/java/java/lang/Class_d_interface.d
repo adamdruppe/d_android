@@ -1,5 +1,6 @@
 module android.java.java.lang.Class_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.lang.reflect.TypeVariable_d_interface;
 import import0 = android.java.java.lang.Class_d_interface;
@@ -15,7 +16,14 @@ import import11 = android.java.java.lang.annotation.Annotation_d_interface;
 import import3 = android.java.java.lang.reflect.Type_d_interface;
 
 final class Class : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/io/Serializable",
+		"java/lang/reflect/GenericDeclaration",
+		"java/lang/reflect/Type",
+		"java/lang/reflect/AnnotatedElement",
+	];
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import string toGenericString();
 	@Import static import0.Class forName(string);
 	@Import static import0.Class forName(string, bool, import1.ClassLoader);
@@ -76,6 +84,18 @@ final class Class : IJavaObject {
 	@Import import11.Annotation[] getAnnotations();
 	@Import import11.Annotation getDeclaredAnnotation(import0.Class);
 	@Import import11.Annotation[] getDeclaredAnnotations();
+	@Import import0.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import import11.Annotation[] getDeclaredAnnotationsByType(import0.Class);
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/Class";
+	public static immutable string _javaParameterString = "Ljava/lang/Class;";
 }
+
+
+

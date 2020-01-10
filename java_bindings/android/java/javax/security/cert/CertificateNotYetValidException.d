@@ -3,3 +3,7 @@ public import android.java.javax.security.cert.CertificateNotYetValidException_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CertificateNotYetValidException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;
+import import0 = android.java.java.lang.JavaThrowable;

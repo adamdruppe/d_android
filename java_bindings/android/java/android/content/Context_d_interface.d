@@ -1,5 +1,6 @@
 module android.java.android.content.Context_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import11 = android.java.android.content.res.Resources_Theme_d_interface;
 import import32 = android.java.android.content.ComponentName_d_interface;
@@ -41,6 +42,9 @@ import import15 = android.java.android.content.pm.ApplicationInfo_d_interface;
 import import6 = android.java.android.content.Context_d_interface;
 
 final class Context : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import import0.AssetManager getAssets();
 	@Import import1.Resources getResources();
 	@Import import2.PackageManager getPackageManager();
@@ -64,6 +68,7 @@ final class Context : IJavaObject {
 	@Import import12.TypedArray obtainStyledAttributes(import13.AttributeSet, int, int, int[]);
 	@Import import14.ClassLoader getClassLoader();
 	@Import string getPackageName();
+	@Import string getOpPackageName();
 	@Import import15.ApplicationInfo getApplicationInfo();
 	@Import string getPackageResourcePath();
 	@Import string getPackageCodePath();
@@ -129,6 +134,9 @@ final class Context : IJavaObject {
 	@Import import32.ComponentName startForegroundService(import25.Intent);
 	@Import bool stopService(import25.Intent);
 	@Import bool bindService(import25.Intent, import33.ServiceConnection, int);
+	@Import bool bindService(import25.Intent, int, import5.Executor, import33.ServiceConnection);
+	@Import bool bindIsolatedService(import25.Intent, int, string, import5.Executor, import33.ServiceConnection);
+	@Import void updateServiceGroup(import33.ServiceConnection, int, int);
 	@Import void unbindService(import33.ServiceConnection);
 	@Import bool startInstrumentation(import32.ComponentName, string, import26.Bundle);
 	@Import IJavaObject getSystemService(string);
@@ -159,6 +167,19 @@ final class Context : IJavaObject {
 	@Import import6.Context createDeviceProtectedStorageContext();
 	@Import bool isRestricted();
 	@Import bool isDeviceProtectedStorage();
+	@Import import34.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/content/Context";
+	public static immutable string _javaParameterString = "Landroid/content/Context;";
 }
+
+
+

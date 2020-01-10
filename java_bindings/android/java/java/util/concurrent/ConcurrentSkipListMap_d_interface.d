@@ -1,11 +1,13 @@
 module android.java.java.util.concurrent.ConcurrentSkipListMap_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import7 = android.java.java.util.Collection_d_interface;
 import import10 = android.java.java.util.Map_Entry_d_interface;
 import import4 = android.java.java.util.function_.Function_d_interface;
 import import2 = android.java.java.util.SortedMap_d_interface;
 import import5 = android.java.java.util.function_.BiFunction_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.java.util.Set_d_interface;
 import import3 = android.java.java.util.concurrent.ConcurrentSkipListMap_d_interface;
 import import9 = android.java.java.util.concurrent.ConcurrentNavigableMap_d_interface;
@@ -16,6 +18,12 @@ import import0 = android.java.java.util.Comparator_d_interface;
 import import6 = android.java.java.util.NavigableSet_d_interface;
 
 final class ConcurrentSkipListMap : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/util/concurrent/ConcurrentNavigableMap",
+		"java/lang/Cloneable",
+		"java/io/Serializable",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Comparator);
 	@Import this(import1.Map);
 	@Import this(import2.SortedMap);
@@ -67,15 +75,19 @@ final class ConcurrentSkipListMap : IJavaObject {
 	@Import import10.Map_Entry pollLastEntry();
 	@Import void forEach(import11.BiConsumer);
 	@Import void replaceAll(import5.BiFunction);
-	@Import IJavaObject clone();
-	@Import import8.Set keySet();
-	@Import import2.SortedMap tailMap(IJavaObject);
-	@Import import2.SortedMap headMap(IJavaObject);
-	@Import import2.SortedMap subMap(IJavaObject, IJavaObject);
-	@Import import12.NavigableMap tailMap(IJavaObject, bool);
-	@Import import12.NavigableMap headMap(IJavaObject, bool);
-	@Import import12.NavigableMap subMap(IJavaObject, bool, IJavaObject, bool);
-	@Import import12.NavigableMap descendingMap();
+	@Import void putAll(import1.Map);
+	@Import int hashCode();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import import13.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentSkipListMap";
+	public static immutable string _javaParameterString = "Ljava/util/concurrent/ConcurrentSkipListMap;";
 }
+
+
+

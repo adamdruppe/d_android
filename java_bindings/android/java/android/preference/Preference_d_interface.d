@@ -1,11 +1,13 @@
 module android.java.android.preference.Preference_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.android.content.Intent_d_interface;
 import import7 = android.java.java.lang.CharSequence_d_interface;
 import import5 = android.java.android.view.View_d_interface;
 import import12 = android.java.android.content.SharedPreferences_Editor_d_interface;
 import import15 = android.java.android.preference.PreferenceGroup_d_interface;
+import import17 = android.java.java.lang.Class_d_interface;
 import import6 = android.java.android.view.ViewGroup_d_interface;
 import import1 = android.java.android.util.AttributeSet_d_interface;
 import import8 = android.java.android.graphics.drawable.Drawable_d_interface;
@@ -20,6 +22,9 @@ import import13 = android.java.android.preference.Preference_d_interface;
 import import0 = android.java.android.content.Context_d_interface;
 
 final class Preference : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Comparable",
+	];
 	@Import this(import0.Context, import1.AttributeSet, int, int);
 	@Import this(import0.Context, import1.AttributeSet, int);
 	@Import this(import0.Context, import1.AttributeSet);
@@ -87,9 +92,21 @@ final class Preference : IJavaObject {
 	@Import bool persistStringSet(import16.Set);
 	@Import import16.Set getPersistedStringSet(import16.Set);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import void saveHierarchyState(import4.Bundle);
 	@Import void restoreHierarchyState(import4.Bundle);
 	@Import int compareTo(IJavaObject);
+	@Import import17.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/preference/Preference";
+	public static immutable string _javaParameterString = "Landroid/preference/Preference;";
 }
+
+
+

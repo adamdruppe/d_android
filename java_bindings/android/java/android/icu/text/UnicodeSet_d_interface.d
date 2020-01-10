@@ -1,5 +1,6 @@
 module android.java.android.icu.text.UnicodeSet_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import4 = android.java.android.icu.text.Replaceable_d_interface;
 import import5 = android.java.java.lang.CharSequence_d_interface;
@@ -8,12 +9,21 @@ import import2 = android.java.android.icu.text.SymbolTable_d_interface;
 import import0 = android.java.android.icu.text.UnicodeSet_d_interface;
 import import7 = android.java.java.lang.Iterable_d_interface;
 import import1 = android.java.java.text.ParsePosition_d_interface;
+import import11 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.android.icu.text.UnicodeSet_SpanCondition_d_interface;
 import import10 = android.java.android.icu.text.UnicodeSet_ComparisonStyle_d_interface;
+import import13 = android.java.java.util.Spliterator_d_interface;
 import import3 = android.java.java.lang.StringBuffer_d_interface;
+import import12 = android.java.java.util.function_.Consumer_d_interface;
 import import9 = android.java.java.util.Iterator_d_interface;
 
 final class UnicodeSet : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Iterable",
+		"java/lang/Comparable",
+		"android/icu/util/Freezable",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.UnicodeSet);
 	@Import this(int, int);
 	@Import this(int[]);
@@ -82,6 +92,7 @@ final class UnicodeSet : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import import6.Collection addAllTo(import6.Collection);
 	@Import import0.UnicodeSet add(import7.Iterable);
 	@Import import0.UnicodeSet addAll(import7.Iterable);
@@ -109,8 +120,17 @@ final class UnicodeSet : IJavaObject {
 	@Import int compareTo(import7.Iterable);
 	@Import import6.Collection strings();
 	@Import int compareTo(IJavaObject);
-	@Import IJavaObject cloneAsThawed();
-	@Import IJavaObject freeze();
+	@Import import11.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import void forEach(import12.Consumer);
+	@Import import13.Spliterator spliterator();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSet";
+	public static immutable string _javaParameterString = "Landroid/icu/text/UnicodeSet;";
 }
+
+
+

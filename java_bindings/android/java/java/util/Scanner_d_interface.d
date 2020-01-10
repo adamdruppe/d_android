@@ -1,10 +1,12 @@
 module android.java.java.util.Scanner_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import10 = android.java.java.math.BigInteger_d_interface;
 import import2 = android.java.java.io.File_d_interface;
 import import11 = android.java.java.math.BigDecimal_d_interface;
 import import8 = android.java.java.util.Locale_d_interface;
+import import12 = android.java.java.lang.Class_d_interface;
 import import3 = android.java.java.nio.file.Path_d_interface;
 import import1 = android.java.java.io.InputStream_d_interface;
 import import0 = android.java.java.lang.Readable_d_interface;
@@ -13,8 +15,13 @@ import import7 = android.java.java.util.Scanner_d_interface;
 import import5 = android.java.java.io.IOException_d_interface;
 import import4 = android.java.java.nio.channels.ReadableByteChannel_d_interface;
 import import9 = android.java.java.util.regex.MatchResult_d_interface;
+import import13 = android.java.java.util.function_.Consumer_d_interface;
 
 final class Scanner : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/util/Iterator",
+		"java/io/Closeable",
+	];
 	@Import this(import0.Readable);
 	@Import this(import1.InputStream);
 	@Import this(import1.InputStream, string);
@@ -36,6 +43,7 @@ final class Scanner : IJavaObject {
 	@Import import7.Scanner useRadix(int);
 	@Import import9.MatchResult match();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import bool hasNext();
 	@Import string next();
 	@Import void remove();
@@ -80,7 +88,18 @@ final class Scanner : IJavaObject {
 	@Import bool hasNextBigDecimal();
 	@Import import11.BigDecimal nextBigDecimal();
 	@Import import7.Scanner reset();
-	@Import IJavaObject next();
+	@Import import12.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import void forEachRemaining(import13.Consumer);
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/util/Scanner";
+	public static immutable string _javaParameterString = "Ljava/util/Scanner;";
 }
+
+
+

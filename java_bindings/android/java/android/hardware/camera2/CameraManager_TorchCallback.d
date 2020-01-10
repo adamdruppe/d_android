@@ -3,3 +3,5 @@ public import android.java.android.hardware.camera2.CameraManager_TorchCallback_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CameraManager_TorchCallback;
+
+import import0 = android.java.java.lang.Class;

@@ -1,32 +1,42 @@
 module android.java.java.time.LocalDateTime_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import21 = android.java.java.time.chrono.ChronoLocalDateTime_d_interface;
-import import6 = android.java.java.time.Instant_d_interface;
-import import9 = android.java.java.lang.CharSequence_d_interface;
-import import2 = android.java.java.time.Clock_d_interface;
-import import11 = android.java.java.time.temporal.TemporalField_d_interface;
-import import10 = android.java.java.time.format.DateTimeFormatter_d_interface;
-import import12 = android.java.java.time.temporal.TemporalUnit_d_interface;
-import import16 = android.java.java.time.temporal.TemporalAmount_d_interface;
+import import19 = android.java.java.time.OffsetDateTime_d_interface;
 import import5 = android.java.java.time.LocalTime_d_interface;
 import import1 = android.java.java.time.ZoneId_d_interface;
-import import20 = android.java.java.time.ZonedDateTime_d_interface;
-import import19 = android.java.java.time.OffsetDateTime_d_interface;
-import import15 = android.java.java.time.temporal.TemporalAdjuster_d_interface;
+import import24 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.java.time.LocalDateTime_d_interface;
 import import17 = android.java.java.time.temporal.TemporalQuery_d_interface;
 import import18 = android.java.java.time.temporal.Temporal_d_interface;
-import import14 = android.java.java.time.DayOfWeek_d_interface;
-import import22 = android.java.java.time.chrono.ChronoZonedDateTime_d_interface;
 import import23 = android.java.java.time.chrono.ChronoLocalDate_d_interface;
+import import6 = android.java.java.time.Instant_d_interface;
+import import15 = android.java.java.time.temporal.TemporalAdjuster_d_interface;
+import import11 = android.java.java.time.temporal.TemporalField_d_interface;
+import import10 = android.java.java.time.format.DateTimeFormatter_d_interface;
 import import3 = android.java.java.time.Month_d_interface;
 import import4 = android.java.java.time.LocalDate_d_interface;
 import import7 = android.java.java.time.ZoneOffset_d_interface;
 import import8 = android.java.java.time.temporal.TemporalAccessor_d_interface;
 import import13 = android.java.java.time.temporal.ValueRange_d_interface;
+import import12 = android.java.java.time.temporal.TemporalUnit_d_interface;
+import import16 = android.java.java.time.temporal.TemporalAmount_d_interface;
+import import14 = android.java.java.time.DayOfWeek_d_interface;
+import import22 = android.java.java.time.chrono.ChronoZonedDateTime_d_interface;
+import import25 = android.java.java.util.Comparator_d_interface;
+import import21 = android.java.java.time.chrono.ChronoLocalDateTime_d_interface;
+import import9 = android.java.java.lang.CharSequence_d_interface;
+import import2 = android.java.java.time.Clock_d_interface;
+import import20 = android.java.java.time.ZonedDateTime_d_interface;
+import import26 = android.java.java.time.chrono.Chronology_d_interface;
 
 final class LocalDateTime : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/time/temporal/Temporal",
+		"java/time/temporal/TemporalAdjuster",
+		"java/time/chrono/ChronoLocalDateTime",
+		"java/io/Serializable",
+	];
 	@Import static import0.LocalDateTime now();
 	@Import static import0.LocalDateTime now(import1.ZoneId);
 	@Import static import0.LocalDateTime now(import2.Clock);
@@ -103,21 +113,21 @@ final class LocalDateTime : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	@Import import18.Temporal minus(long, import12.TemporalUnit);
-	@Import import18.Temporal minus(import16.TemporalAmount);
-	@Import import18.Temporal plus(long, import12.TemporalUnit);
-	@Import import18.Temporal plus(import16.TemporalAmount);
-	@Import @JavaName("with") import18.Temporal with_(import11.TemporalField, long);
-	@Import @JavaName("with") import18.Temporal with_(import15.TemporalAdjuster);
-	@Import import22.ChronoZonedDateTime atZone(import1.ZoneId);
-	@Import import21.ChronoLocalDateTime minus(long, import12.TemporalUnit);
-	@Import import21.ChronoLocalDateTime minus(import16.TemporalAmount);
-	@Import import21.ChronoLocalDateTime plus(long, import12.TemporalUnit);
-	@Import import21.ChronoLocalDateTime plus(import16.TemporalAmount);
-	@Import @JavaName("with") import21.ChronoLocalDateTime with_(import11.TemporalField, long);
-	@Import @JavaName("with") import21.ChronoLocalDateTime with_(import15.TemporalAdjuster);
-	@Import import23.ChronoLocalDate toLocalDate();
+	override string toString() { return toString_(); }
 	@Import int compareTo(IJavaObject);
+	@Import import24.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import static import25.Comparator timeLineOrder();
+	@Import import26.Chronology getChronology();
+	@Import import6.Instant toInstant(import7.ZoneOffset);
+	@Import long toEpochSecond(import7.ZoneOffset);
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/time/LocalDateTime";
+	public static immutable string _javaParameterString = "Ljava/time/LocalDateTime;";
 }
+
+
+

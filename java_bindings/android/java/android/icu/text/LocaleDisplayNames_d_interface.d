@@ -1,17 +1,21 @@
 module android.java.android.icu.text.LocaleDisplayNames_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.icu.util.ULocale_d_interface;
 import import8 = android.java.java.util.Comparator_d_interface;
 import import3 = android.java.android.icu.text.LocaleDisplayNames_DialectHandling_d_interface;
 import import2 = android.java.java.util.Locale_d_interface;
 import import5 = android.java.android.icu.text.DisplayContext_Type_d_interface;
+import import9 = android.java.java.lang.Class_d_interface;
 import import7 = android.java.java.util.Set_d_interface;
 import import6 = android.java.java.util.List_d_interface;
 import import0 = android.java.android.icu.text.LocaleDisplayNames_d_interface;
 import import4 = android.java.android.icu.text.DisplayContext_d_interface;
 
 final class LocaleDisplayNames : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.LocaleDisplayNames getInstance(import1.ULocale);
 	@Import static import0.LocaleDisplayNames getInstance(import2.Locale);
 	@Import static import0.LocaleDisplayNames getInstance(import1.ULocale, import3.LocaleDisplayNames_DialectHandling);
@@ -32,6 +36,19 @@ final class LocaleDisplayNames : IJavaObject {
 	@Import string keyValueDisplayName(string, string);
 	@Import import6.List getUiList(import7.Set, bool, import8.Comparator);
 	@Import import6.List getUiListCompareWholeItems(import7.Set, import8.Comparator);
+	@Import import9.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/LocaleDisplayNames";
+	public static immutable string _javaParameterString = "Landroid/icu/text/LocaleDisplayNames;";
 }
+
+
+

@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.WifiConfiguration_Protocol_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WifiConfiguration_Protocol;
+
+import import0 = android.java.java.lang.Class;

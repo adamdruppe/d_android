@@ -3,3 +3,5 @@ public import android.java.android.bluetooth.le.AdvertisingSetParameters_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AdvertisingSetParameters;
+
+import import1 = android.java.java.lang.Class;

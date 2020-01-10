@@ -1,5 +1,6 @@
 module android.java.java.time.Year_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import4 = android.java.java.lang.CharSequence_d_interface;
 import import2 = android.java.java.time.Clock_d_interface;
@@ -10,6 +11,7 @@ import import11 = android.java.java.time.temporal.TemporalAmount_d_interface;
 import import1 = android.java.java.time.ZoneId_d_interface;
 import import10 = android.java.java.time.temporal.TemporalAdjuster_d_interface;
 import import9 = android.java.java.time.MonthDay_d_interface;
+import import17 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.java.time.Year_d_interface;
 import import12 = android.java.java.time.temporal.TemporalQuery_d_interface;
 import import13 = android.java.java.time.temporal.Temporal_d_interface;
@@ -20,6 +22,12 @@ import import3 = android.java.java.time.temporal.TemporalAccessor_d_interface;
 import import8 = android.java.java.time.temporal.ValueRange_d_interface;
 
 final class Year : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/time/temporal/Temporal",
+		"java/time/temporal/TemporalAdjuster",
+		"java/lang/Comparable",
+		"java/io/Serializable",
+	];
 	@Import static import0.Year now();
 	@Import static import0.Year now(import1.ZoneId);
 	@Import static import0.Year now(import2.Clock);
@@ -59,13 +67,17 @@ final class Year : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	@Import import13.Temporal minus(long, import7.TemporalUnit);
-	@Import import13.Temporal minus(import11.TemporalAmount);
-	@Import import13.Temporal plus(long, import7.TemporalUnit);
-	@Import import13.Temporal plus(import11.TemporalAmount);
-	@Import @JavaName("with") import13.Temporal with_(import6.TemporalField, long);
-	@Import @JavaName("with") import13.Temporal with_(import10.TemporalAdjuster);
+	override string toString() { return toString_(); }
 	@Import int compareTo(IJavaObject);
+	@Import import17.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/time/Year";
+	public static immutable string _javaParameterString = "Ljava/time/Year;";
 }
+
+
+

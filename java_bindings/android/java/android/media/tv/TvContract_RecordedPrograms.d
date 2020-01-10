@@ -3,3 +3,5 @@ public import android.java.android.media.tv.TvContract_RecordedPrograms_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TvContract_RecordedPrograms;
+
+import import0 = android.java.java.lang.Class;

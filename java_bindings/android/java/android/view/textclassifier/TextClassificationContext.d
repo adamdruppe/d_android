@@ -3,3 +3,5 @@ public import android.java.android.view.textclassifier.TextClassificationContext
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TextClassificationContext;
+
+import import1 = android.java.java.lang.Class;

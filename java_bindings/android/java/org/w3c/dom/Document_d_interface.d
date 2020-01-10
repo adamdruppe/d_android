@@ -1,12 +1,16 @@
 module android.java.org.w3c.dom.Document_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import9 = android.java.org.w3c.dom.EntityReference_d_interface;
+import import15 = android.java.org.w3c.dom.Document_d_interface;
 import import1 = android.java.org.w3c.dom.DOMImplementation_d_interface;
+import import16 = android.java.org.w3c.dom.UserDataHandler_d_interface;
 import import12 = android.java.org.w3c.dom.DOMConfiguration_d_interface;
 import import11 = android.java.org.w3c.dom.Node_d_interface;
 import import8 = android.java.org.w3c.dom.Attr_d_interface;
 import import3 = android.java.org.w3c.dom.DocumentFragment_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
 import import6 = android.java.org.w3c.dom.CDATASection_d_interface;
 import import10 = android.java.org.w3c.dom.NodeList_d_interface;
 import import2 = android.java.org.w3c.dom.Element_d_interface;
@@ -14,8 +18,12 @@ import import4 = android.java.org.w3c.dom.Text_d_interface;
 import import7 = android.java.org.w3c.dom.ProcessingInstruction_d_interface;
 import import0 = android.java.org.w3c.dom.DocumentType_d_interface;
 import import5 = android.java.org.w3c.dom.Comment_d_interface;
+import import14 = android.java.org.w3c.dom.NamedNodeMap_d_interface;
 
-interface Document : IJavaObject {
+final class Document : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"org/w3c/dom/Node",
+	];
 	@Import import0.DocumentType getDoctype();
 	@Import import1.DOMImplementation getImplementation();
 	@Import import2.Element getDocumentElement();
@@ -47,5 +55,56 @@ interface Document : IJavaObject {
 	@Import import12.DOMConfiguration getDomConfig();
 	@Import void normalizeDocument();
 	@Import import11.Node renameNode(import11.Node, string, string);
-	public static immutable string _javaParameterString = "Lorg/w3c/dom/Document";
+	@Import import13.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import string getNodeName();
+	@Import string getNodeValue();
+	@Import void setNodeValue(string);
+	@Import short getNodeType();
+	@Import import11.Node getParentNode();
+	@Import import10.NodeList getChildNodes();
+	@Import import11.Node getFirstChild();
+	@Import import11.Node getLastChild();
+	@Import import11.Node getPreviousSibling();
+	@Import import11.Node getNextSibling();
+	@Import import14.NamedNodeMap getAttributes();
+	@Import import15.Document getOwnerDocument();
+	@Import import11.Node insertBefore(import11.Node, import11.Node);
+	@Import import11.Node replaceChild(import11.Node, import11.Node);
+	@Import import11.Node removeChild(import11.Node);
+	@Import import11.Node appendChild(import11.Node);
+	@Import bool hasChildNodes();
+	@Import import11.Node cloneNode(bool);
+	@Import void normalize();
+	@Import bool isSupported(string, string);
+	@Import string getNamespaceURI();
+	@Import string getPrefix();
+	@Import void setPrefix(string);
+	@Import string getLocalName();
+	@Import bool hasAttributes();
+	@Import string getBaseURI();
+	@Import short compareDocumentPosition(import11.Node);
+	@Import string getTextContent();
+	@Import void setTextContent(string);
+	@Import bool isSameNode(import11.Node);
+	@Import string lookupPrefix(string);
+	@Import bool isDefaultNamespace(string);
+	@Import string lookupNamespaceURI(string);
+	@Import bool isEqualNode(import11.Node);
+	@Import IJavaObject getFeature(string, string);
+	@Import IJavaObject setUserData(string, IJavaObject, import16.UserDataHandler);
+	@Import IJavaObject getUserData(string);
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Lorg/w3c/dom/Document;";
 }
+
+
+

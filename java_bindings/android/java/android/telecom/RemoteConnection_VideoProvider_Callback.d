@@ -3,3 +3,5 @@ public import android.java.android.telecom.RemoteConnection_VideoProvider_Callba
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RemoteConnection_VideoProvider_Callback;
+
+import import3 = android.java.java.lang.Class;

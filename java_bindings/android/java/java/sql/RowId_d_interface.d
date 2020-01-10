@@ -1,10 +1,26 @@
 module android.java.java.sql.RowId_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-interface RowId : IJavaObject {
+import import0 = android.java.java.lang.Class_d_interface;
+
+final class RowId : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import bool equals(IJavaObject);
 	@Import byte[] getBytes();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import int hashCode();
-	public static immutable string _javaParameterString = "Ljava/sql/RowId";
+	@Import import0.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljava/sql/RowId;";
 }
+
+
+

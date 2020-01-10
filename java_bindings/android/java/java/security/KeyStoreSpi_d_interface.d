@@ -1,5 +1,6 @@
 module android.java.java.security.KeyStoreSpi_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import8 = android.java.java.security.KeyStore_ProtectionParameter_d_interface;
 import import9 = android.java.java.lang.Class_d_interface;
@@ -13,6 +14,9 @@ import import3 = android.java.java.util.Enumeration_d_interface;
 import import1 = android.java.java.security.cert.Certificate_d_interface;
 
 final class KeyStoreSpi : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import import0.Key engineGetKey(string, wchar[]);
 	@Import import1.Certificate[] engineGetCertificateChain(string);
 	@Import import1.Certificate engineGetCertificate(string);
@@ -34,6 +38,19 @@ final class KeyStoreSpi : IJavaObject {
 	@Import import7.KeyStore_Entry engineGetEntry(string, import8.KeyStore_ProtectionParameter);
 	@Import void engineSetEntry(string, import7.KeyStore_Entry, import8.KeyStore_ProtectionParameter);
 	@Import bool engineEntryInstanceOf(string, import9.Class);
+	@Import import9.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/security/KeyStoreSpi";
+	public static immutable string _javaParameterString = "Ljava/security/KeyStoreSpi;";
 }
+
+
+

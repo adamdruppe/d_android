@@ -1,3 +1,7 @@
 module android.java.android.accessibilityservice.AccessibilityService_MagnificationController_OnMagnificationChangedListener;
 public import android.java.android.accessibilityservice.AccessibilityService_MagnificationController_OnMagnificationChangedListener_d_interface;
 
+import arsd.jni : ImportExportImpl;
+mixin ImportExportImpl!AccessibilityService_MagnificationController_OnMagnificationChangedListener;
+
+import import2 = android.java.java.lang.Class;

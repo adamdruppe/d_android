@@ -3,3 +3,5 @@ public import android.java.android.R_anim_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!R_anim;
+
+import import0 = android.java.java.lang.Class;

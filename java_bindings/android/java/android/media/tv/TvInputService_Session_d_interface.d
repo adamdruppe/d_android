@@ -1,9 +1,11 @@
 module android.java.android.media.tv.TvInputService_Session_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import4 = android.java.android.view.Surface_d_interface;
 import import1 = android.java.android.net.Uri_d_interface;
 import import6 = android.java.android.view.View_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import7 = android.java.android.media.PlaybackParams_d_interface;
 import import8 = android.java.android.view.KeyEvent_d_interface;
 import import5 = android.java.android.os.Bundle_d_interface;
@@ -14,6 +16,9 @@ import import0 = android.java.android.content.Context_d_interface;
 
 @JavaName("TvInputService$Session")
 final class TvInputService_Session : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/view/KeyEvent$Callback",
+	];
 	@Import this(import0.Context);
 	@Import void setOverlayViewEnabled(bool);
 	@Import void notifyChannelRetuned(import1.Uri);
@@ -51,6 +56,19 @@ final class TvInputService_Session : IJavaObject {
 	@Import bool onTouchEvent(import9.MotionEvent);
 	@Import bool onTrackballEvent(import9.MotionEvent);
 	@Import bool onGenericMotionEvent(import9.MotionEvent);
+	@Import import10.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputService$Session";
+	public static immutable string _javaParameterString = "Landroid/media/tv/TvInputService$Session;";
 }
+
+
+

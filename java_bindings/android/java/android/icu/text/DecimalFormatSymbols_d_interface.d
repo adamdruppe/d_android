@@ -1,17 +1,27 @@
 module android.java.android.icu.text.DecimalFormatSymbols_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.icu.util.ULocale_d_interface;
 import import0 = android.java.java.util.Locale_d_interface;
+import import5 = android.java.java.lang.Class_d_interface;
+import import3 = android.java.android.icu.text.NumberingSystem_d_interface;
 import import2 = android.java.android.icu.text.DecimalFormatSymbols_d_interface;
-import import3 = android.java.android.icu.util.Currency_d_interface;
+import import4 = android.java.android.icu.util.Currency_d_interface;
 
 final class DecimalFormatSymbols : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Cloneable",
+		"java/io/Serializable",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Locale);
 	@Import this(import1.ULocale);
 	@Import static import2.DecimalFormatSymbols getInstance();
 	@Import static import2.DecimalFormatSymbols getInstance(import0.Locale);
 	@Import static import2.DecimalFormatSymbols getInstance(import1.ULocale);
+	@Import static import2.DecimalFormatSymbols forNumberingSystem(import0.Locale, import3.NumberingSystem);
+	@Import static import2.DecimalFormatSymbols forNumberingSystem(import1.ULocale, import3.NumberingSystem);
 	@Import static import0.Locale[] getAvailableLocales();
 	@Import wchar getZeroDigit();
 	@Import wchar[] getDigits();
@@ -56,8 +66,8 @@ final class DecimalFormatSymbols : IJavaObject {
 	@Import void setCurrencySymbol(string);
 	@Import string getInternationalCurrencySymbol();
 	@Import void setInternationalCurrencySymbol(string);
-	@Import import3.Currency getCurrency();
-	@Import void setCurrency(import3.Currency);
+	@Import import4.Currency getCurrency();
+	@Import void setCurrency(import4.Currency);
 	@Import wchar getMonetaryDecimalSeparator();
 	@Import void setMonetaryDecimalSeparator(wchar);
 	@Import string getMonetaryDecimalSeparatorString();
@@ -79,6 +89,17 @@ final class DecimalFormatSymbols : IJavaObject {
 	@Import IJavaObject clone();
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
+	@Import import5.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/DecimalFormatSymbols";
+	public static immutable string _javaParameterString = "Landroid/icu/text/DecimalFormatSymbols;";
 }
+
+
+

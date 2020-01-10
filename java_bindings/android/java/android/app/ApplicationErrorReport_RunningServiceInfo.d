@@ -3,3 +3,5 @@ public import android.java.android.app.ApplicationErrorReport_RunningServiceInfo
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ApplicationErrorReport_RunningServiceInfo;
+
+import import2 = android.java.java.lang.Class;

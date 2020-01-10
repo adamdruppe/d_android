@@ -1,7 +1,9 @@
 module android.java.android.app.Dialog_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import26 = android.java.android.content.DialogInterface_OnKeyListener_d_interface;
+import import27 = android.java.java.lang.Class_d_interface;
 import import4 = android.java.android.view.Window_d_interface;
 import import25 = android.java.android.content.DialogInterface_OnShowListener_d_interface;
 import import11 = android.java.android.view.accessibility.AccessibilityEvent_d_interface;
@@ -27,9 +29,16 @@ import import21 = android.java.android.view.LayoutInflater_d_interface;
 import import7 = android.java.java.lang.CharSequence_d_interface;
 import import19 = android.java.android.net.Uri_d_interface;
 import import9 = android.java.android.view.MotionEvent_d_interface;
+import import28 = android.java.java.util.List_d_interface;
 import import0 = android.java.android.content.Context_d_interface;
 
 final class Dialog : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/content/DialogInterface",
+		"android/view/Window$Callback",
+		"android/view/KeyEvent$Callback",
+		"android/view/View$OnCreateContextMenuListener",
+	];
 	@Import this(import0.Context);
 	@Import this(import0.Context, int);
 	@Import import0.Context getContext();
@@ -117,6 +126,21 @@ final class Dialog : IJavaObject {
 	@Import void setVolumeControlStream(int);
 	@Import int getVolumeControlStream();
 	@Import void setOnKeyListener(import26.DialogInterface_OnKeyListener);
+	@Import import27.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import void onProvideKeyboardShortcuts(import28.List, import12.Menu, int);
+	@Import void onPointerCaptureChanged(bool);
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/app/Dialog";
+	public static immutable string _javaParameterString = "Landroid/app/Dialog;";
 }
+
+
+

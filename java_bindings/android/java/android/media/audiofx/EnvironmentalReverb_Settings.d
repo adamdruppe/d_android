@@ -3,3 +3,5 @@ public import android.java.android.media.audiofx.EnvironmentalReverb_Settings_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!EnvironmentalReverb_Settings;
+
+import import0 = android.java.java.lang.Class;

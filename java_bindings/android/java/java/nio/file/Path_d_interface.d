@@ -1,18 +1,27 @@
 module android.java.java.nio.file.Path_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.java.nio.file.LinkOption_d_interface;
 import import8 = android.java.java.nio.file.WatchEvent_Modifier_d_interface;
 import import4 = android.java.java.io.File_d_interface;
 import import5 = android.java.java.nio.file.WatchKey_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import6 = android.java.java.nio.file.WatchService_d_interface;
 import import2 = android.java.java.net.URI_d_interface;
 import import1 = android.java.java.nio.file.Path_d_interface;
 import import0 = android.java.java.nio.file.FileSystem_d_interface;
 import import7 = android.java.java.nio.file.WatchEvent_Kind_d_interface;
+import import12 = android.java.java.util.Spliterator_d_interface;
+import import11 = android.java.java.util.function_.Consumer_d_interface;
 import import9 = android.java.java.util.Iterator_d_interface;
 
-interface Path : IJavaObject {
+final class Path : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Comparable",
+		"java/lang/Iterable",
+		"java/nio/file/Watchable",
+	];
 	@Import import0.FileSystem getFileSystem();
 	@Import bool isAbsolute();
 	@Import import1.Path getRoot();
@@ -42,6 +51,19 @@ interface Path : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import int compareTo(IJavaObject);
-	public static immutable string _javaParameterString = "Ljava/nio/file/Path";
+	@Import import10.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import void forEach(import11.Consumer);
+	@Import import12.Spliterator spliterator();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Ljava/nio/file/Path;";
 }
+
+
+

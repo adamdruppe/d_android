@@ -3,3 +3,5 @@ public import android.java.android.telephony.VisualVoicemailService_VisualVoicem
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!VisualVoicemailService_VisualVoicemailTask;
+
+import import0 = android.java.java.lang.Class;

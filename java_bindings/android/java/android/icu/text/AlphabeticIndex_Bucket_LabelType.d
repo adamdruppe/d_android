@@ -3,3 +3,6 @@ public import android.java.android.icu.text.AlphabeticIndex_Bucket_LabelType_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AlphabeticIndex_Bucket_LabelType;
+
+import import0 = android.java.android.icu.text.AlphabeticIndex_Bucket_LabelType;
+import import2 = android.java.java.lang.Class;

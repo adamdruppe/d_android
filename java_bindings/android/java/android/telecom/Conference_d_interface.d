@@ -1,6 +1,8 @@
 module android.java.android.telecom.Conference_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import8 = android.java.java.lang.Class_d_interface;
 import import2 = android.java.android.telecom.CallAudioState_d_interface;
 import import0 = android.java.android.telecom.PhoneAccountHandle_d_interface;
 import import6 = android.java.android.telecom.StatusHints_d_interface;
@@ -11,6 +13,8 @@ import import1 = android.java.java.util.List_d_interface;
 import import3 = android.java.android.telecom.Connection_VideoProvider_d_interface;
 
 final class Conference : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(import0.PhoneAccountHandle);
 	@Import import0.PhoneAccountHandle getPhoneAccountHandle();
 	@Import import1.List getConnections();
@@ -49,6 +53,7 @@ final class Conference : IJavaObject {
 	@Import void setConnectionStartElapsedRealTime(long);
 	@Import long getConnectionTime();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import void setStatusHints(import6.StatusHints);
 	@Import import6.StatusHints getStatusHints();
 	@Import void setExtras(import7.Bundle);
@@ -57,6 +62,17 @@ final class Conference : IJavaObject {
 	@Import void removeExtras(string[]);
 	@Import import7.Bundle getExtras();
 	@Import void onExtrasChanged(import7.Bundle);
+	@Import import8.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/telecom/Conference";
+	public static immutable string _javaParameterString = "Landroid/telecom/Conference;";
 }
+
+
+

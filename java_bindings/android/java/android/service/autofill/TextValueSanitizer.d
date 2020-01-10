@@ -3,3 +3,5 @@ public import android.java.android.service.autofill.TextValueSanitizer_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TextValueSanitizer;
+
+import import2 = android.java.java.lang.Class;

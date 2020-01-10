@@ -1,8 +1,11 @@
 module android.java.java.security.cert.X509CRL_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import9 = android.java.java.security.cert.Certificate_d_interface;
 import import3 = android.java.javax.security.auth.x500.X500Principal_d_interface;
 import import6 = android.java.java.math.BigInteger_d_interface;
+import import10 = android.java.java.lang.Class_d_interface;
 import import4 = android.java.java.util.Date_d_interface;
 import import8 = android.java.java.util.Set_d_interface;
 import import2 = android.java.java.security.Principal_d_interface;
@@ -12,6 +15,9 @@ import import0 = android.java.java.security.PublicKey_d_interface;
 import import1 = android.java.java.security.Provider_d_interface;
 
 final class X509CRL : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/security/cert/X509Extension",
+	];
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import byte[] getEncoded();
@@ -31,6 +37,23 @@ final class X509CRL : IJavaObject {
 	@Import string getSigAlgName();
 	@Import string getSigAlgOID();
 	@Import byte[] getSigAlgParams();
+	@Import string getType();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import bool isRevoked(import9.Certificate);
+	@Import import10.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import bool hasUnsupportedCriticalExtension();
+	@Import import8.Set getCriticalExtensionOIDs();
+	@Import import8.Set getNonCriticalExtensionOIDs();
+	@Import byte[] getExtensionValue(string);
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/security/cert/X509CRL";
+	public static immutable string _javaParameterString = "Ljava/security/cert/X509CRL;";
 }
+
+
+

@@ -1,10 +1,29 @@
 module android.java.android.hardware.input.InputManager_InputDeviceListener_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
+
+import import0 = android.java.java.lang.Class_d_interface;
 
 @JavaName("InputManager$InputDeviceListener")
-interface InputManager_InputDeviceListener : IJavaObject {
+final class InputManager_InputDeviceListener : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import void onInputDeviceAdded(int);
 	@Import void onInputDeviceRemoved(int);
 	@Import void onInputDeviceChanged(int);
-	public static immutable string _javaParameterString = "Landroid/hardware/input/InputManager$InputDeviceListener";
+	@Import import0.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Landroid/hardware/input/InputManager$InputDeviceListener;";
 }
+
+
+

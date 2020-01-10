@@ -3,3 +3,5 @@ public import android.java.android.hardware.camera2.params.OutputConfiguration_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!OutputConfiguration;
+
+import import3 = android.java.java.util.List;

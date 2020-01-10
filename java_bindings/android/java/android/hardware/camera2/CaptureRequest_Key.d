@@ -3,3 +3,4 @@ public import android.java.android.hardware.camera2.CaptureRequest_Key_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CaptureRequest_Key;
+

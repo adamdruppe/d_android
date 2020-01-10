@@ -1,5 +1,6 @@
 module android.java.android.content.Intent_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.content.Intent_d_interface;
 import import9 = android.java.android.content.ClipData_d_interface;
@@ -25,6 +26,11 @@ import import11 = android.java.android.os.Parcelable_d_interface;
 import import2 = android.java.android.content.Context_d_interface;
 
 final class Intent : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/os/Parcelable",
+		"java/lang/Cloneable",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Intent);
 	@Import this(string);
 	@Import this(string, import1.Uri);
@@ -48,6 +54,7 @@ final class Intent : IJavaObject {
 	@Import string resolveType(import2.Context);
 	@Import string resolveType(import7.ContentResolver);
 	@Import string resolveTypeIfNeeded(import7.ContentResolver);
+	@Import string getIdentifier();
 	@Import bool hasCategory(string);
 	@Import import8.Set getCategories();
 	@Import import0.Intent getSelector();
@@ -97,6 +104,7 @@ final class Intent : IJavaObject {
 	@Import import0.Intent setTypeAndNormalize(string);
 	@Import import0.Intent setDataAndType(import1.Uri, string);
 	@Import import0.Intent setDataAndTypeAndNormalize(import1.Uri, string);
+	@Import import0.Intent setIdentifier(string);
 	@Import import0.Intent addCategory(string);
 	@Import void removeCategory(string);
 	@Import void setSelector(import0.Intent);
@@ -147,6 +155,7 @@ final class Intent : IJavaObject {
 	@Import bool filterEquals(import0.Intent);
 	@Import int filterHashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import string toURI();
 	@Import string toUri(int);
 	@Import int describeContents();
@@ -154,6 +163,17 @@ final class Intent : IJavaObject {
 	@Import void readFromParcel(import18.Parcel);
 	@Import static import0.Intent parseIntent(import19.Resources, import20.XmlPullParser, import21.AttributeSet);
 	@Import static string normalizeMimeType(string);
+	@Import import3.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/content/Intent";
+	public static immutable string _javaParameterString = "Landroid/content/Intent;";
 }
+
+
+

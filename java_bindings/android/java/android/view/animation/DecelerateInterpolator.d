@@ -3,3 +3,5 @@ public import android.java.android.view.animation.DecelerateInterpolator_d_inter
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DecelerateInterpolator;
+
+import import2 = android.java.java.lang.Class;

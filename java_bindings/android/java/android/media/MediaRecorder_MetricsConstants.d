@@ -3,3 +3,5 @@ public import android.java.android.media.MediaRecorder_MetricsConstants_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaRecorder_MetricsConstants;
+
+import import0 = android.java.java.lang.Class;

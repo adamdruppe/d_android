@@ -3,3 +3,5 @@ public import android.java.android.media.MediaRecorder_AudioEncoder_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaRecorder_AudioEncoder;
+
+import import0 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.renderscript.ScriptGroup_Binding_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ScriptGroup_Binding;
+
+import import1 = android.java.java.lang.Class;

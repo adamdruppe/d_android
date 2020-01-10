@@ -3,3 +3,5 @@ public import android.java.android.service.media.MediaBrowserService_BrowserRoot
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaBrowserService_BrowserRoot;
+
+import import1 = android.java.java.lang.Class;

@@ -3,3 +3,6 @@ public import android.java.android.database.sqlite.SQLiteDatabase_OpenParams_Bui
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SQLiteDatabase_OpenParams_Builder;
+
+import import1 = android.java.android.database.sqlite.SQLiteDatabase_OpenParams_Builder;
+import import4 = android.java.java.lang.Class;

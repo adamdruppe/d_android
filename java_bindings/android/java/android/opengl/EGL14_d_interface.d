@@ -1,12 +1,17 @@
 module android.java.android.opengl.EGL14_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.android.opengl.EGLSurface_d_interface;
 import import3 = android.java.android.opengl.EGLContext_d_interface;
+import import4 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.android.opengl.EGLDisplay_d_interface;
 import import1 = android.java.android.opengl.EGLConfig_d_interface;
 
 final class EGL14 : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import static int eglGetError();
 	@Import static import0.EGLDisplay eglGetDisplay(int);
 	@Import static bool eglInitialize(import0.EGLDisplay, int, int, int, int[][]);
@@ -40,6 +45,19 @@ final class EGL14 : IJavaObject {
 	@Import static bool eglWaitNative(int);
 	@Import static bool eglSwapBuffers(import0.EGLDisplay, import2.EGLSurface);
 	@Import static bool eglCopyBuffers(import0.EGLDisplay, import2.EGLSurface, int);
+	@Import import4.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/opengl/EGL14";
+	public static immutable string _javaParameterString = "Landroid/opengl/EGL14;";
 }
+
+
+

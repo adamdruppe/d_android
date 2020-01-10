@@ -1,25 +1,32 @@
 module android.java.android.system.Os_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import9 = android.java.android.system.StructUtsname_d_interface;
+import import10 = android.java.android.system.StructUtsname_d_interface;
 import import0 = android.java.java.io.FileDescriptor_d_interface;
-import import5 = android.java.java.net.SocketAddress_d_interface;
-import import3 = android.java.android.system.StructStat_d_interface;
-import import6 = android.java.android.system.StructPollfd_d_interface;
+import import3 = android.java.java.net.SocketAddress_d_interface;
+import import11 = android.java.java.lang.Class_d_interface;
+import import4 = android.java.android.system.StructStat_d_interface;
+import import7 = android.java.android.system.StructPollfd_d_interface;
 import import1 = android.java.java.net.InetSocketAddress_d_interface;
-import import8 = android.java.android.system.Int64Ref_d_interface;
+import import9 = android.java.android.system.Int64Ref_d_interface;
 import import2 = android.java.java.net.InetAddress_d_interface;
-import import7 = android.java.java.nio.ByteBuffer_d_interface;
-import import4 = android.java.android.system.StructStatVfs_d_interface;
+import import8 = android.java.java.nio.ByteBuffer_d_interface;
+import import5 = android.java.android.system.StructStatVfs_d_interface;
+import import6 = android.java.android.system.StructTimeval_d_interface;
 
 final class Os : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.FileDescriptor accept(import0.FileDescriptor, import1.InetSocketAddress);
 	@Import static bool access(string, int);
 	@Import static void bind(import0.FileDescriptor, import2.InetAddress, int);
+	@Import static void bind(import0.FileDescriptor, import3.SocketAddress);
 	@Import static void chmod(string, int);
 	@Import static void chown(string, int, int);
 	@Import static void close(import0.FileDescriptor);
 	@Import static void connect(import0.FileDescriptor, import2.InetAddress, int);
+	@Import static void connect(import0.FileDescriptor, import3.SocketAddress);
 	@Import static import0.FileDescriptor dup(import0.FileDescriptor);
 	@Import static import0.FileDescriptor dup2(import0.FileDescriptor, int);
 	@Import static string[] environ();
@@ -28,8 +35,8 @@ final class Os : IJavaObject {
 	@Import static void fchmod(import0.FileDescriptor, int);
 	@Import static void fchown(import0.FileDescriptor, int, int);
 	@Import static void fdatasync(import0.FileDescriptor);
-	@Import static import3.StructStat fstat(import0.FileDescriptor);
-	@Import static import4.StructStatVfs fstatvfs(import0.FileDescriptor);
+	@Import static import4.StructStat fstat(import0.FileDescriptor);
+	@Import static import5.StructStatVfs fstatvfs(import0.FileDescriptor);
 	@Import static void fsync(import0.FileDescriptor);
 	@Import static void ftruncate(import0.FileDescriptor, long);
 	@Import static string gai_strerror(int);
@@ -37,10 +44,11 @@ final class Os : IJavaObject {
 	@Import static int geteuid();
 	@Import static int getgid();
 	@Import static string getenv(string);
-	@Import static import5.SocketAddress getpeername(import0.FileDescriptor);
+	@Import static import3.SocketAddress getpeername(import0.FileDescriptor);
 	@Import static int getpid();
 	@Import static int getppid();
-	@Import static import5.SocketAddress getsockname(import0.FileDescriptor);
+	@Import static import3.SocketAddress getsockname(import0.FileDescriptor);
+	@Import static import6.StructTimeval getsockoptTimeval(import0.FileDescriptor, int, int);
 	@Import static int gettid();
 	@Import static int getuid();
 	@Import static byte[] getxattr(string, string);
@@ -54,7 +62,7 @@ final class Os : IJavaObject {
 	@Import static void listen(import0.FileDescriptor, int);
 	@Import static string[] listxattr(string);
 	@Import static long lseek(import0.FileDescriptor, long, int);
-	@Import static import3.StructStat lstat(string);
+	@Import static import4.StructStat lstat(string);
 	@Import static void mincore(long, long, byte[]);
 	@Import static void mkdir(string, int);
 	@Import static void mkfifo(string, int);
@@ -65,38 +73,40 @@ final class Os : IJavaObject {
 	@Import static void munmap(long, long);
 	@Import static import0.FileDescriptor open(string, int, int);
 	@Import static import0.FileDescriptor[] pipe();
-	@Import static int poll(import6.StructPollfd, int[]);
+	@Import static int poll(import7.StructPollfd, int[]);
 	@Import static void posix_fallocate(import0.FileDescriptor, long, long);
 	@Import static int prctl(int, long, long, long, long);
-	@Import static int pread(import0.FileDescriptor, import7.ByteBuffer, long);
+	@Import static int pread(import0.FileDescriptor, import8.ByteBuffer, long);
 	@Import static int pread(import0.FileDescriptor, byte, int, int, long[]);
-	@Import static int pwrite(import0.FileDescriptor, import7.ByteBuffer, long);
+	@Import static int pwrite(import0.FileDescriptor, import8.ByteBuffer, long);
 	@Import static int pwrite(import0.FileDescriptor, byte, int, int, long[]);
-	@Import static int read(import0.FileDescriptor, import7.ByteBuffer);
+	@Import static int read(import0.FileDescriptor, import8.ByteBuffer);
 	@Import static int read(import0.FileDescriptor, byte, int, int[]);
 	@Import static string readlink(string);
 	@Import static int readv(import0.FileDescriptor, IJavaObject, int, int[][][]);
-	@Import static int recvfrom(import0.FileDescriptor, import7.ByteBuffer, int, import1.InetSocketAddress);
+	@Import static int recvfrom(import0.FileDescriptor, import8.ByteBuffer, int, import1.InetSocketAddress);
 	@Import static int recvfrom(import0.FileDescriptor, byte, int, int, int, import1.InetSocketAddress[]);
 	@Import static void remove(string);
 	@Import static void removexattr(string, string);
 	@Import static void rename(string, string);
-	@Import static long sendfile(import0.FileDescriptor, import0.FileDescriptor, import8.Int64Ref, long);
-	@Import static int sendto(import0.FileDescriptor, import7.ByteBuffer, int, import2.InetAddress, int);
+	@Import static long sendfile(import0.FileDescriptor, import0.FileDescriptor, import9.Int64Ref, long);
+	@Import static int sendto(import0.FileDescriptor, import8.ByteBuffer, int, import2.InetAddress, int);
 	@Import static int sendto(import0.FileDescriptor, byte, int, int, int, import2.InetAddress, int[]);
+	@Import static int sendto(import0.FileDescriptor, byte, int, int, int, import3.SocketAddress[]);
 	@Import static void setegid(int);
 	@Import static void setenv(string, string, bool);
 	@Import static void seteuid(int);
 	@Import static void setgid(int);
 	@Import static int setsid();
 	@Import static void setsockoptInt(import0.FileDescriptor, int, int, int);
+	@Import static void setsockoptTimeval(import0.FileDescriptor, int, int, import6.StructTimeval);
 	@Import static void setuid(int);
 	@Import static void setxattr(string, string, byte, int[]);
 	@Import static void shutdown(import0.FileDescriptor, int);
 	@Import static import0.FileDescriptor socket(int, int, int);
 	@Import static void socketpair(int, int, int, import0.FileDescriptor, import0.FileDescriptor);
-	@Import static import3.StructStat stat(string);
-	@Import static import4.StructStatVfs statvfs(string);
+	@Import static import4.StructStat stat(string);
+	@Import static import5.StructStatVfs statvfs(string);
 	@Import static string strerror(int);
 	@Import static string strsignal(int);
 	@Import static void symlink(string, string);
@@ -104,11 +114,24 @@ final class Os : IJavaObject {
 	@Import static void tcdrain(import0.FileDescriptor);
 	@Import static void tcsendbreak(import0.FileDescriptor, int);
 	@Import static int umask(int);
-	@Import static import9.StructUtsname uname();
+	@Import static import10.StructUtsname uname();
 	@Import static void unsetenv(string);
-	@Import static int write(import0.FileDescriptor, import7.ByteBuffer);
+	@Import static int write(import0.FileDescriptor, import8.ByteBuffer);
 	@Import static int write(import0.FileDescriptor, byte, int, int[]);
 	@Import static int writev(import0.FileDescriptor, IJavaObject, int, int[][][]);
+	@Import import11.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/system/Os";
+	public static immutable string _javaParameterString = "Landroid/system/Os;";
 }
+
+
+

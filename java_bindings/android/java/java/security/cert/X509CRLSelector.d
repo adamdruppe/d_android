@@ -3,3 +3,5 @@ public import android.java.java.security.cert.X509CRLSelector_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!X509CRLSelector;
+
+import import6 = android.java.java.lang.Class;

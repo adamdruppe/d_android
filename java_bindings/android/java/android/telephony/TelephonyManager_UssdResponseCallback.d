@@ -3,3 +3,5 @@ public import android.java.android.telephony.TelephonyManager_UssdResponseCallba
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TelephonyManager_UssdResponseCallback;
+
+import import2 = android.java.java.lang.Class;

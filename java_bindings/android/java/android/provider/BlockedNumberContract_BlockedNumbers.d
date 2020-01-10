@@ -3,3 +3,5 @@ public import android.java.android.provider.BlockedNumberContract_BlockedNumbers
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!BlockedNumberContract_BlockedNumbers;
+
+import import0 = android.java.java.lang.Class;

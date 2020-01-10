@@ -3,3 +3,5 @@ public import android.java.android.accessibilityservice.AccessibilityService_Ges
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessibilityService_GestureResultCallback;
+
+import import1 = android.java.java.lang.Class;

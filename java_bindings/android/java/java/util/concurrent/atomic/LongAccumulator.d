@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.atomic.LongAccumulator_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!LongAccumulator;
+
+import import1 = android.java.java.lang.Class;

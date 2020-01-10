@@ -3,3 +3,6 @@ public import android.java.java.security.cert.PKIXRevocationChecker_Option_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PKIXRevocationChecker_Option;
+
+import import2 = android.java.java.lang.Class;
+import import0 = android.java.java.security.cert.PKIXRevocationChecker_Option;

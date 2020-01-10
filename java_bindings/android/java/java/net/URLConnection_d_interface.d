@@ -1,5 +1,6 @@
 module android.java.java.net.URLConnection_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.net.FileNameMap_d_interface;
 import import4 = android.java.java.security.Permission_d_interface;
@@ -11,6 +12,8 @@ import import7 = android.java.java.net.ContentHandlerFactory_d_interface;
 import import2 = android.java.java.util.Map_d_interface;
 
 final class URLConnection : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.FileNameMap getFileNameMap();
 	@Import static void setFileNameMap(import0.FileNameMap);
 	@Import void connect();
@@ -39,6 +42,7 @@ final class URLConnection : IJavaObject {
 	@Import import5.InputStream getInputStream();
 	@Import import6.OutputStream getOutputStream();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import void setDoInput(bool);
 	@Import bool getDoInput();
 	@Import void setDoOutput(bool);
@@ -62,6 +66,17 @@ final class URLConnection : IJavaObject {
 	@Import static void setContentHandlerFactory(import7.ContentHandlerFactory);
 	@Import static string guessContentTypeFromName(string);
 	@Import static string guessContentTypeFromStream(import5.InputStream);
+	@Import import3.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/net/URLConnection";
+	public static immutable string _javaParameterString = "Ljava/net/URLConnection;";
 }
+
+
+

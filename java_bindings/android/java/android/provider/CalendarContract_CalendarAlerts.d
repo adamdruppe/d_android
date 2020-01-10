@@ -3,3 +3,5 @@ public import android.java.android.provider.CalendarContract_CalendarAlerts_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CalendarContract_CalendarAlerts;
+
+import import0 = android.java.java.lang.Class;

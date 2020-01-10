@@ -3,3 +3,6 @@ public import android.java.android.icu.text.SearchIterator_ElementComparisonType
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SearchIterator_ElementComparisonType;
+
+import import0 = android.java.android.icu.text.SearchIterator_ElementComparisonType;
+import import2 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.media.projection.MediaProjection_Callback_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaProjection_Callback;
+
+import import0 = android.java.java.lang.Class;

@@ -3,3 +3,6 @@ public import android.java.android.icu.text.LocaleDisplayNames_UiListItem_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!LocaleDisplayNames_UiListItem;
+
+import import2 = android.java.java.lang.Class;
+import import1 = android.java.java.util.Comparator;

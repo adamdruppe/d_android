@@ -3,3 +3,5 @@ public import android.java.android.provider.ContactsContract_Intents_Insert_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_Intents_Insert;
+
+import import0 = android.java.java.lang.Class;

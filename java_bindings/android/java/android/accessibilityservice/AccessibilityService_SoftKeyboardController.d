@@ -3,3 +3,5 @@ public import android.java.android.accessibilityservice.AccessibilityService_Sof
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessibilityService_SoftKeyboardController;
+
+import import2 = android.java.java.lang.Class;

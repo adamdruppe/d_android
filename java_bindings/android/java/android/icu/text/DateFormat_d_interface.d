@@ -1,14 +1,17 @@
 module android.java.android.icu.text.DateFormat_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import7 = android.java.android.icu.util.ULocale_d_interface;
 import import8 = android.java.android.icu.text.NumberFormat_d_interface;
+import import13 = android.java.java.text.AttributedCharacterIterator_d_interface;
 import import1 = android.java.java.text.FieldPosition_d_interface;
 import import4 = android.java.java.text.ParsePosition_d_interface;
 import import12 = android.java.android.icu.text.DisplayContext_Type_d_interface;
 import import6 = android.java.java.util.Locale_d_interface;
 import import3 = android.java.java.util.Date_d_interface;
 import import9 = android.java.android.icu.util.TimeZone_d_interface;
+import import14 = android.java.java.lang.Class_d_interface;
 import import10 = android.java.android.icu.text.DateFormat_BooleanAttribute_d_interface;
 import import0 = android.java.java.lang.StringBuffer_d_interface;
 import import2 = android.java.android.icu.util.Calendar_d_interface;
@@ -16,6 +19,8 @@ import import5 = android.java.android.icu.text.DateFormat_d_interface;
 import import11 = android.java.android.icu.text.DisplayContext_d_interface;
 
 final class DateFormat : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import import0.StringBuffer format(IJavaObject, import0.StringBuffer, import1.FieldPosition);
 	@Import import0.StringBuffer format(import2.Calendar, import0.StringBuffer, import1.FieldPosition);
 	@Import import0.StringBuffer format(import3.Date, import0.StringBuffer, import1.FieldPosition);
@@ -76,6 +81,20 @@ final class DateFormat : IJavaObject {
 	@Import static import5.DateFormat getPatternInstance(string, import7.ULocale);
 	@Import static import5.DateFormat getPatternInstance(import2.Calendar, string, import6.Locale);
 	@Import static import5.DateFormat getPatternInstance(import2.Calendar, string, import7.ULocale);
+	@Import string format(IJavaObject);
+	@Import import13.AttributedCharacterIterator formatToCharacterIterator(IJavaObject);
+	@Import IJavaObject parseObject(string);
+	@Import import14.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/DateFormat";
+	public static immutable string _javaParameterString = "Landroid/icu/text/DateFormat;";
 }
+
+
+

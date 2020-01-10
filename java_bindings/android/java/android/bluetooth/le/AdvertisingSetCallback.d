@@ -3,3 +3,5 @@ public import android.java.android.bluetooth.le.AdvertisingSetCallback_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AdvertisingSetCallback;
+
+import import1 = android.java.java.lang.Class;

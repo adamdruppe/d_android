@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.ThreadPoolExecutor_DiscardOldest
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ThreadPoolExecutor_DiscardOldestPolicy;
+
+import import2 = android.java.java.lang.Class;

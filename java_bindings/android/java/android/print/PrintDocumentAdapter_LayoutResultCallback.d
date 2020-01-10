@@ -3,3 +3,5 @@ public import android.java.android.print.PrintDocumentAdapter_LayoutResultCallba
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PrintDocumentAdapter_LayoutResultCallback;
+
+import import2 = android.java.java.lang.Class;

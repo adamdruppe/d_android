@@ -1,8 +1,10 @@
 module android.java.android.view.inputmethod.InputConnection_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.java.lang.CharSequence_d_interface;
 import import7 = android.java.android.os.Handler_d_interface;
+import import9 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.android.view.inputmethod.InputContentInfo_d_interface;
 import import5 = android.java.android.view.KeyEvent_d_interface;
 import import4 = android.java.android.view.inputmethod.CorrectionInfo_d_interface;
@@ -11,7 +13,9 @@ import import2 = android.java.android.view.inputmethod.ExtractedTextRequest_d_in
 import import1 = android.java.android.view.inputmethod.ExtractedText_d_interface;
 import import3 = android.java.android.view.inputmethod.CompletionInfo_d_interface;
 
-interface InputConnection : IJavaObject {
+final class InputConnection : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import import0.CharSequence getTextBeforeCursor(int, int);
 	@Import import0.CharSequence getTextAfterCursor(int, int);
 	@Import import0.CharSequence getSelectedText(int);
@@ -38,5 +42,19 @@ interface InputConnection : IJavaObject {
 	@Import import7.Handler getHandler();
 	@Import void closeConnection();
 	@Import bool commitContent(import8.InputContentInfo, int, import6.Bundle);
-	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputConnection";
+	@Import import9.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Landroid/view/inputmethod/InputConnection;";
 }
+
+
+

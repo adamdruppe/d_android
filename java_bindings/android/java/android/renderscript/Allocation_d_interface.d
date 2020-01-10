@@ -1,5 +1,6 @@
 module android.java.android.renderscript.Allocation_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.android.graphics.Bitmap_d_interface;
 import import9 = android.java.android.view.Surface_d_interface;
@@ -9,12 +10,15 @@ import import6 = android.java.android.renderscript.RenderScript_d_interface;
 import import11 = android.java.android.renderscript.Allocation_OnBufferAvailableListener_d_interface;
 import import7 = android.java.android.renderscript.Allocation_MipmapControl_d_interface;
 import import10 = android.java.android.content.res.Resources_d_interface;
+import import12 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.android.renderscript.Type_d_interface;
 import import0 = android.java.android.renderscript.Element_d_interface;
 import import8 = android.java.java.nio.ByteBuffer_d_interface;
 import import4 = android.java.android.renderscript.Allocation_d_interface;
 
 final class Allocation : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import import0.Element getElement();
 	@Import int getUsage();
 	@Import void setAutoPadding(bool);
@@ -105,6 +109,21 @@ final class Allocation : IJavaObject {
 	@Import static import4.Allocation createFromString(import6.RenderScript, string, int);
 	@Import void setOnBufferAvailableListener(import11.Allocation_OnBufferAvailableListener);
 	@Import void destroy();
+	@Import void setName(string);
+	@Import string getName();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import import12.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/renderscript/Allocation";
+	public static immutable string _javaParameterString = "Landroid/renderscript/Allocation;";
 }
+
+
+

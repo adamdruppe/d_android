@@ -3,3 +3,5 @@ public import android.java.android.widget.AdapterView_AdapterContextMenuInfo_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AdapterView_AdapterContextMenuInfo;
+
+import import1 = android.java.java.lang.Class;

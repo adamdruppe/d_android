@@ -3,3 +3,5 @@ public import android.java.android.renderscript.RenderScript_RSErrorHandler_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RenderScript_RSErrorHandler;
+
+import import0 = android.java.java.lang.Class;

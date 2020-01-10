@@ -1,13 +1,20 @@
 module android.java.android.renderscript.ScriptIntrinsicBLAS_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import4 = android.java.android.renderscript.Double2_d_interface;
 import import3 = android.java.android.renderscript.Float2_d_interface;
 import import1 = android.java.android.renderscript.RenderScript_d_interface;
-import import2 = android.java.android.renderscript.Allocation_d_interface;
+import import5 = android.java.android.renderscript.BaseObj_d_interface;
 import import0 = android.java.android.renderscript.ScriptIntrinsicBLAS_d_interface;
+import import6 = android.java.android.renderscript.FieldPacker_d_interface;
+import import8 = android.java.java.lang.Class_d_interface;
+import import7 = android.java.android.renderscript.Element_d_interface;
+import import2 = android.java.android.renderscript.Allocation_d_interface;
+import import4 = android.java.android.renderscript.Double2_d_interface;
 
 final class ScriptIntrinsicBLAS : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static import0.ScriptIntrinsicBLAS create(import1.RenderScript);
 	@Import void SGEMV(int, float, import2.Allocation, import2.Allocation, int, float, import2.Allocation, int);
 	@Import void DGEMV(int, double, import2.Allocation, import2.Allocation, int, double, import2.Allocation, int);
@@ -106,6 +113,38 @@ final class ScriptIntrinsicBLAS : IJavaObject {
 	@Import void CHER2K(int, int, import3.Float2, import2.Allocation, import2.Allocation, float, import2.Allocation);
 	@Import void ZHER2K(int, int, import4.Double2, import2.Allocation, import2.Allocation, double, import2.Allocation);
 	@Import void BNNM(import2.Allocation, int, import2.Allocation, int, import2.Allocation, int, int);
+	@Import void bindAllocation(import2.Allocation, int);
+	@Import void setVar(int, float);
+	@Import float getVarF(int);
+	@Import void setVar(int, double);
+	@Import double getVarD(int);
+	@Import void setVar(int, int);
+	@Import int getVarI(int);
+	@Import void setVar(int, long);
+	@Import long getVarJ(int);
+	@Import void setVar(int, bool);
+	@Import bool getVarB(int);
+	@Import void setVar(int, import5.BaseObj);
+	@Import void setVar(int, import6.FieldPacker);
+	@Import void setVar(int, import6.FieldPacker, import7.Element, int[]);
+	@Import void getVarV(int, import6.FieldPacker);
+	@Import void setTimeZone(string);
+	@Import void setName(string);
+	@Import string getName();
+	@Import void destroy();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import import8.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicBLAS";
+	public static immutable string _javaParameterString = "Landroid/renderscript/ScriptIntrinsicBLAS;";
 }
+
+
+

@@ -1,14 +1,18 @@
 module android.java.android.view.accessibility.AccessibilityRecord_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import0 = android.java.android.view.View_d_interface;
 import import2 = android.java.java.lang.CharSequence_d_interface;
-import import4 = android.java.android.os.Parcelable_d_interface;
 import import1 = android.java.android.view.accessibility.AccessibilityNodeInfo_d_interface;
-import import3 = android.java.java.util.List_d_interface;
+import import0 = android.java.android.view.View_d_interface;
+import import6 = android.java.java.lang.Class_d_interface;
 import import5 = android.java.android.view.accessibility.AccessibilityRecord_d_interface;
+import import4 = android.java.android.os.Parcelable_d_interface;
+import import3 = android.java.java.util.List_d_interface;
 
 final class AccessibilityRecord : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import void setSource(import0.View);
 	@Import void setSource(import0.View, int);
 	@Import import1.AccessibilityNodeInfo getSource();
@@ -60,6 +64,18 @@ final class AccessibilityRecord : IJavaObject {
 	@Import static import5.AccessibilityRecord obtain();
 	@Import void recycle();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import import6.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityRecord";
+	public static immutable string _javaParameterString = "Landroid/view/accessibility/AccessibilityRecord;";
 }
+
+
+

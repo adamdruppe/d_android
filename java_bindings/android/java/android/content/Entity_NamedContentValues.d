@@ -3,3 +3,5 @@ public import android.java.android.content.Entity_NamedContentValues_d_interface
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Entity_NamedContentValues;
+
+import import2 = android.java.java.lang.Class;

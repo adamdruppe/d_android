@@ -1,10 +1,12 @@
 module android.java.android.icu.text.TimeZoneFormat_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.icu.util.ULocale_d_interface;
 import import12 = android.java.java.text.AttributedCharacterIterator_d_interface;
 import import2 = android.java.java.util.Locale_d_interface;
 import import9 = android.java.java.text.ParsePosition_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
 import import11 = android.java.java.text.FieldPosition_d_interface;
 import import7 = android.java.android.icu.util.TimeZone_d_interface;
 import import6 = android.java.android.icu.text.TimeZoneFormat_Style_d_interface;
@@ -16,6 +18,10 @@ import import5 = android.java.java.util.EnumSet_d_interface;
 import import8 = android.java.android.icu.util.Output_d_interface;
 
 final class TimeZoneFormat : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/icu/util/Freezable",
+		"java/io/Serializable",
+	];
 	@Import static import0.TimeZoneFormat getInstance(import1.ULocale);
 	@Import static import0.TimeZoneFormat getInstance(import2.Locale);
 	@Import import3.TimeZoneNames getTimeZoneNames();
@@ -49,8 +55,22 @@ final class TimeZoneFormat : IJavaObject {
 	@Import bool isFrozen();
 	@Import import0.TimeZoneFormat freeze();
 	@Import import0.TimeZoneFormat cloneAsThawed();
-	@Import IJavaObject cloneAsThawed();
-	@Import IJavaObject freeze();
+	@Import string format(IJavaObject);
+	@Import IJavaObject parseObject(string);
+	@Import IJavaObject clone();
+	@Import import13.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/TimeZoneFormat";
+	public static immutable string _javaParameterString = "Landroid/icu/text/TimeZoneFormat;";
 }
+
+
+

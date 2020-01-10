@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.aware.IdentityChangedListener_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!IdentityChangedListener;
+
+import import0 = android.java.java.lang.Class;

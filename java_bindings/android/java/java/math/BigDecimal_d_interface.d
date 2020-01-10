@@ -1,12 +1,18 @@
 module android.java.java.math.BigDecimal_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.math.BigDecimal_d_interface;
 import import0 = android.java.java.math.MathContext_d_interface;
 import import3 = android.java.java.math.RoundingMode_d_interface;
+import import4 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.math.BigInteger_d_interface;
 
 final class BigDecimal : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Comparable",
+		"java/io/Serializable",
+	];
 	@Import this(wchar, int, int[]);
 	@Import this(wchar, int, int, import0.MathContext[]);
 	@Import this(wchar[]);
@@ -70,6 +76,7 @@ final class BigDecimal : IJavaObject {
 	@Import import2.BigDecimal max(import2.BigDecimal);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import string toEngineeringString();
 	@Import string toPlainString();
 	@Import import1.BigInteger toBigInteger();
@@ -84,6 +91,17 @@ final class BigDecimal : IJavaObject {
 	@Import double doubleValue();
 	@Import import2.BigDecimal ulp();
 	@Import int compareTo(IJavaObject);
+	@Import byte byteValue();
+	@Import short shortValue();
+	@Import import4.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/math/BigDecimal";
+	public static immutable string _javaParameterString = "Ljava/math/BigDecimal;";
 }
+
+
+

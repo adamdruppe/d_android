@@ -1,23 +1,36 @@
 module android.java.android.graphics.drawable.ShapeDrawable_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.graphics.drawable.shapes.Shape_d_interface;
 import import1 = android.java.android.graphics.drawable.ShapeDrawable_ShaderFactory_d_interface;
 import import3 = android.java.android.graphics.Rect_d_interface;
 import import11 = android.java.android.content.res.Resources_Theme_d_interface;
 import import4 = android.java.android.graphics.Canvas_d_interface;
+import import6 = android.java.android.graphics.BlendMode_d_interface;
+import import21 = android.java.android.util.TypedValue_d_interface;
 import import9 = android.java.org.xmlpull.v1.XmlPullParser_d_interface;
-import import6 = android.java.android.graphics.PorterDuff_Mode_d_interface;
+import import8 = android.java.android.content.res.Resources_d_interface;
 import import7 = android.java.android.graphics.ColorFilter_d_interface;
 import import13 = android.java.android.graphics.drawable.Drawable_ConstantState_d_interface;
-import import8 = android.java.android.content.res.Resources_d_interface;
+import import17 = android.java.android.graphics.PorterDuff_Mode_d_interface;
 import import5 = android.java.android.content.res.ColorStateList_d_interface;
 import import10 = android.java.android.util.AttributeSet_d_interface;
 import import14 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import19 = android.java.android.graphics.Insets_d_interface;
+import import22 = android.java.android.graphics.BitmapFactory_Options_d_interface;
 import import12 = android.java.android.graphics.Outline_d_interface;
 import import2 = android.java.android.graphics.Paint_d_interface;
+import import23 = android.java.java.lang.Class_d_interface;
+import import20 = android.java.java.io.InputStream_d_interface;
+import import16 = android.java.java.lang.Runnable_d_interface;
+import import15 = android.java.android.graphics.drawable.Drawable_Callback_d_interface;
+import import18 = android.java.android.graphics.Region_d_interface;
 
 final class ShapeDrawable : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Shape);
 	@Import import0.Shape getShape();
 	@Import void setShape(import0.Shape);
@@ -36,7 +49,7 @@ final class ShapeDrawable : IJavaObject {
 	@Import void setAlpha(int);
 	@Import int getAlpha();
 	@Import void setTintList(import5.ColorStateList);
-	@Import void setTintMode(import6.PorterDuff_Mode);
+	@Import void setTintBlendMode(import6.BlendMode);
 	@Import void setColorFilter(import7.ColorFilter);
 	@Import int getOpacity();
 	@Import void setDither(bool);
@@ -46,6 +59,70 @@ final class ShapeDrawable : IJavaObject {
 	@Import void getOutline(import12.Outline);
 	@Import import13.Drawable_ConstantState getConstantState();
 	@Import import14.Drawable mutate();
+	@Import void setBounds(int, int, int, int);
+	@Import void setBounds(import3.Rect);
+	@Import void copyBounds(import3.Rect);
+	@Import import3.Rect copyBounds();
+	@Import import3.Rect getBounds();
+	@Import import3.Rect getDirtyBounds();
+	@Import void setChangingConfigurations(int);
+	@Import void setFilterBitmap(bool);
+	@Import bool isFilterBitmap();
+	@Import void setCallback(import15.Drawable_Callback);
+	@Import import15.Drawable_Callback getCallback();
+	@Import void invalidateSelf();
+	@Import void scheduleSelf(import16.Runnable, long);
+	@Import void unscheduleSelf(import16.Runnable);
+	@Import int getLayoutDirection();
+	@Import bool setLayoutDirection(int);
+	@Import bool onLayoutDirectionChanged(int);
+	@Import void setColorFilter(int, import17.PorterDuff_Mode);
+	@Import void setTint(int);
+	@Import void setTintMode(import17.PorterDuff_Mode);
+	@Import import7.ColorFilter getColorFilter();
+	@Import void clearColorFilter();
+	@Import void setHotspot(float, float);
+	@Import void setHotspotBounds(int, int, int, int);
+	@Import void getHotspotBounds(import3.Rect);
+	@Import bool isProjected();
+	@Import bool setState(int[]);
+	@Import int[] getState();
+	@Import void jumpToCurrentState();
+	@Import import14.Drawable getCurrent();
+	@Import bool setLevel(int);
+	@Import int getLevel();
+	@Import bool setVisible(bool, bool);
+	@Import bool isVisible();
+	@Import void setAutoMirrored(bool);
+	@Import bool isAutoMirrored();
+	@Import bool canApplyTheme();
+	@Import static int resolveOpacity(int, int);
+	@Import import18.Region getTransparentRegion();
+	@Import int getMinimumWidth();
+	@Import int getMinimumHeight();
+	@Import import19.Insets getOpticalInsets();
+	@Import static import14.Drawable createFromStream(import20.InputStream, string);
+	@Import static import14.Drawable createFromResourceStream(import8.Resources, import21.TypedValue, import20.InputStream, string);
+	@Import static import14.Drawable createFromResourceStream(import8.Resources, import21.TypedValue, import20.InputStream, string, import22.BitmapFactory_Options);
+	@Import static import14.Drawable createFromXml(import8.Resources, import9.XmlPullParser);
+	@Import static import14.Drawable createFromXml(import8.Resources, import9.XmlPullParser, import11.Resources_Theme);
+	@Import static import14.Drawable createFromXmlInner(import8.Resources, import9.XmlPullParser, import10.AttributeSet);
+	@Import static import14.Drawable createFromXmlInner(import8.Resources, import9.XmlPullParser, import10.AttributeSet, import11.Resources_Theme);
+	@Import static import14.Drawable createFromPath(string);
+	@Import void inflate(import8.Resources, import9.XmlPullParser, import10.AttributeSet);
+	@Import import23.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/graphics/drawable/ShapeDrawable";
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/ShapeDrawable;";
 }
+
+
+

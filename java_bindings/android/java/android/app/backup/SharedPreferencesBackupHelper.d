@@ -3,3 +3,5 @@ public import android.java.android.app.backup.SharedPreferencesBackupHelper_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SharedPreferencesBackupHelper;
+
+import import4 = android.java.java.lang.Class;

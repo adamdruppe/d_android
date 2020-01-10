@@ -3,3 +3,5 @@ public import android.java.android.service.autofill.ImageTransformation_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ImageTransformation;
+
+import import1 = android.java.java.lang.Class;

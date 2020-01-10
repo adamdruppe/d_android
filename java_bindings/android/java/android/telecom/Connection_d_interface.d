@@ -1,8 +1,10 @@
 module android.java.android.telecom.Connection_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import8 = android.java.android.bluetooth.BluetoothDevice_d_interface;
 import import0 = android.java.android.net.Uri_d_interface;
+import import11 = android.java.java.lang.Class_d_interface;
 import import3 = android.java.android.telecom.StatusHints_d_interface;
 import import1 = android.java.android.telecom.CallAudioState_d_interface;
 import import4 = android.java.android.os.Bundle_d_interface;
@@ -14,6 +16,9 @@ import import2 = android.java.android.telecom.Conference_d_interface;
 import import6 = android.java.android.telecom.Connection_VideoProvider_d_interface;
 
 final class Connection : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import static string capabilitiesToString(int);
 	@Import static string propertiesToString(int);
 	@Import import0.Uri getAddress();
@@ -79,6 +84,7 @@ final class Connection : IJavaObject {
 	@Import void onDeflect(import0.Uri);
 	@Import void onReject();
 	@Import void onReject(string);
+	@Import void onSilence();
 	@Import void onPostDialContinue(bool);
 	@Import void onPullExternalCall();
 	@Import void onCallEvent(string, import4.Bundle);
@@ -91,6 +97,19 @@ final class Connection : IJavaObject {
 	@Import static import10.Connection createFailedConnection(import5.DisconnectCause);
 	@Import static import10.Connection createCanceledConnection();
 	@Import void sendConnectionEvent(string, import4.Bundle);
+	@Import import11.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/telecom/Connection";
+	public static immutable string _javaParameterString = "Landroid/telecom/Connection;";
 }
+
+
+

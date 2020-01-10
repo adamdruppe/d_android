@@ -1,6 +1,8 @@
 module android.java.android.app.Fragment_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import26 = android.java.java.lang.Class_d_interface;
 import import7 = android.java.android.app.FragmentManager_d_interface;
 import import9 = android.java.android.content.Intent_d_interface;
 import import3 = android.java.android.app.Fragment_SavedState_d_interface;
@@ -29,11 +31,17 @@ import import23 = android.java.android.transition.Transition_d_interface;
 import import1 = android.java.android.content.Context_d_interface;
 
 final class Fragment : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/content/ComponentCallbacks2",
+		"android/view/View$OnCreateContextMenuListener",
+	];
+	@Import this(arsd.jni.Default);
 	@Import static import0.Fragment instantiate(import1.Context, string);
 	@Import static import0.Fragment instantiate(import1.Context, string, import2.Bundle);
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import int getId();
 	@Import string getTag();
 	@Import void setArguments(import2.Bundle);
@@ -137,6 +145,15 @@ final class Fragment : IJavaObject {
 	@Import void postponeEnterTransition();
 	@Import void startPostponedEnterTransition();
 	@Import void dump(string, import24.FileDescriptor, import25.PrintWriter, string[]);
+	@Import import26.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/app/Fragment";
+	public static immutable string _javaParameterString = "Landroid/app/Fragment;";
 }
+
+
+

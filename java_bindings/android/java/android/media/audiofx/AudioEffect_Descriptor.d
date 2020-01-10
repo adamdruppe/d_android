@@ -3,3 +3,5 @@ public import android.java.android.media.audiofx.AudioEffect_Descriptor_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AudioEffect_Descriptor;
+
+import import0 = android.java.java.lang.Class;

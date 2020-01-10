@@ -1,17 +1,25 @@
 module android.java.java.util.Hashtable_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.java.util.Collection_d_interface;
 import import6 = android.java.java.util.function_.Function_d_interface;
 import import5 = android.java.java.util.function_.BiFunction_d_interface;
+import import7 = android.java.java.lang.Class_d_interface;
 import import2 = android.java.java.util.Set_d_interface;
 import import4 = android.java.java.util.function_.BiConsumer_d_interface;
 import import0 = android.java.java.util.Map_d_interface;
 import import1 = android.java.java.util.Enumeration_d_interface;
 
 final class Hashtable : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/util/Map",
+		"java/lang/Cloneable",
+		"java/io/Serializable",
+	];
 	@Import this(int, float);
 	@Import this(int);
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Map);
 	@Import int size();
 	@Import bool isEmpty();
@@ -27,6 +35,7 @@ final class Hashtable : IJavaObject {
 	@Import void clear();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import import2.Set keySet();
 	@Import import2.Set entrySet();
 	@Import import3.Collection values();
@@ -43,6 +52,15 @@ final class Hashtable : IJavaObject {
 	@Import IJavaObject computeIfPresent(IJavaObject, import5.BiFunction);
 	@Import IJavaObject compute(IJavaObject, import5.BiFunction);
 	@Import IJavaObject merge(IJavaObject, IJavaObject, import5.BiFunction);
+	@Import import7.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/util/Hashtable";
+	public static immutable string _javaParameterString = "Ljava/util/Hashtable;";
 }
+
+
+

@@ -3,3 +3,5 @@ public import android.java.android.net.IpSecManager_SecurityParameterIndex_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!IpSecManager_SecurityParameterIndex;
+
+import import0 = android.java.java.lang.Class;

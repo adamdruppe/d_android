@@ -3,3 +3,5 @@ public import android.java.android.hardware.SensorManager_DynamicSensorCallback_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SensorManager_DynamicSensorCallback;
+
+import import1 = android.java.java.lang.Class;

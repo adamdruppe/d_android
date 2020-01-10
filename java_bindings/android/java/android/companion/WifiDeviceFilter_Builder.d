@@ -3,3 +3,7 @@ public import android.java.android.companion.WifiDeviceFilter_Builder_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!WifiDeviceFilter_Builder;
+
+import import2 = android.java.android.companion.WifiDeviceFilter;
+import import3 = android.java.java.lang.Class;
+import import0 = android.java.android.companion.WifiDeviceFilter_Builder;

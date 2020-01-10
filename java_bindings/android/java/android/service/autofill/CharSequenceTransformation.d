@@ -3,3 +3,5 @@ public import android.java.android.service.autofill.CharSequenceTransformation_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CharSequenceTransformation;
+
+import import1 = android.java.java.lang.Class;

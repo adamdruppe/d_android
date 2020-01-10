@@ -1,12 +1,17 @@
 module android.java.android.view.ActionMode_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.view.View_d_interface;
 import import0 = android.java.java.lang.CharSequence_d_interface;
 import import2 = android.java.android.view.Menu_d_interface;
 import import3 = android.java.android.view.MenuInflater_d_interface;
+import import4 = android.java.java.lang.Class_d_interface;
 
 final class ActionMode : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import void setTag(IJavaObject);
 	@Import IJavaObject getTag();
 	@Import void setTitle(import0.CharSequence);
@@ -29,6 +34,19 @@ final class ActionMode : IJavaObject {
 	@Import import1.View getCustomView();
 	@Import import3.MenuInflater getMenuInflater();
 	@Import void onWindowFocusChanged(bool);
+	@Import import4.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/ActionMode";
+	public static immutable string _javaParameterString = "Landroid/view/ActionMode;";
 }
+
+
+

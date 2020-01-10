@@ -3,3 +3,5 @@ public import android.java.java.security.KeyStore_TrustedCertificateEntry_d_inte
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!KeyStore_TrustedCertificateEntry;
+
+import import2 = android.java.java.lang.Class;

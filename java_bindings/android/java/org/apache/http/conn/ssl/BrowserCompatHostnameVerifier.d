@@ -3,3 +3,5 @@ public import android.java.org.apache.http.conn.ssl.BrowserCompatHostnameVerifie
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!BrowserCompatHostnameVerifier;
+
+import import3 = android.java.java.lang.Class;

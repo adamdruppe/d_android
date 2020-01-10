@@ -1,11 +1,20 @@
 module android.java.java.lang.StringBuffer_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.java.lang.StringBuffer_d_interface;
+import import4 = android.java.java.util.stream.IntStream_d_interface;
 import import0 = android.java.java.lang.CharSequence_d_interface;
 import import2 = android.java.java.lang.Appendable_d_interface;
+import import3 = android.java.java.lang.Class_d_interface;
 
 final class StringBuffer : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/lang/Appendable",
+		"java/lang/CharSequence",
+		"java/io/Serializable",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(int);
 	@Import this(string);
 	@Import this(import0.CharSequence);
@@ -59,9 +68,20 @@ final class StringBuffer : IJavaObject {
 	@Import int lastIndexOf(string, int);
 	@Import import1.StringBuffer reverse();
 	@Import @JavaName("toString") string toString_();
-	@Import import2.Appendable append(wchar);
-	@Import import2.Appendable append(import0.CharSequence, int, int);
-	@Import import2.Appendable append(import0.CharSequence);
+	override string toString() { return toString_(); }
+	@Import import3.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	@Import import4.IntStream chars();
+	@Import import4.IntStream codePoints();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/StringBuffer";
+	public static immutable string _javaParameterString = "Ljava/lang/StringBuffer;";
 }
+
+
+

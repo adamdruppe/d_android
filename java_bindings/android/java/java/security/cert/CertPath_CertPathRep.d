@@ -3,3 +3,5 @@ public import android.java.java.security.cert.CertPath_CertPathRep_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CertPath_CertPathRep;
+
+import import0 = android.java.java.lang.Class;

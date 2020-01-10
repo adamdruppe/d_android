@@ -3,3 +3,5 @@ public import android.java.android.app.Instrumentation_ActivityResult_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Instrumentation_ActivityResult;
+
+import import1 = android.java.java.lang.Class;

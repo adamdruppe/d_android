@@ -3,3 +3,5 @@ public import android.java.android.provider.ContactsContract_CommonDataKinds_Web
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_CommonDataKinds_Website;
+
+import import0 = android.java.java.lang.Class;

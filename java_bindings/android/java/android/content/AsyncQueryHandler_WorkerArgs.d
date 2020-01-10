@@ -3,3 +3,5 @@ public import android.java.android.content.AsyncQueryHandler_WorkerArgs_d_interf
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AsyncQueryHandler_WorkerArgs;
+
+import import0 = android.java.java.lang.Class;

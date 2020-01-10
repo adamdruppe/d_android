@@ -3,3 +3,5 @@ public import android.java.android.media.session.MediaSessionManager_RemoteUserI
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaSessionManager_RemoteUserInfo;
+
+import import0 = android.java.java.lang.Class;

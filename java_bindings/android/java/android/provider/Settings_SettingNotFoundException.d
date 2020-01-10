@@ -3,3 +3,7 @@ public import android.java.android.provider.Settings_SettingNotFoundException_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Settings_SettingNotFoundException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;
+import import0 = android.java.java.lang.JavaThrowable;

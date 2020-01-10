@@ -3,3 +3,5 @@ public import android.java.android.media.session.MediaController_TransportContro
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaController_TransportControls;
+
+import import4 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.hardware.camera2.params.RggbChannelVector_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RggbChannelVector;
+
+import import0 = android.java.java.lang.Class;

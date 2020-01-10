@@ -1,18 +1,23 @@
 module android.java.android.media.audiofx.DynamicsProcessing_Channel_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import2 = android.java.android.media.audiofx.DynamicsProcessing_EqBand_d_interface;
-import import3 = android.java.android.media.audiofx.DynamicsProcessing_Mbc_d_interface;
 import import4 = android.java.android.media.audiofx.DynamicsProcessing_MbcBand_d_interface;
 import import1 = android.java.android.media.audiofx.DynamicsProcessing_Eq_d_interface;
-import import0 = android.java.android.media.audiofx.DynamicsProcessing_Channel_d_interface;
+import import2 = android.java.android.media.audiofx.DynamicsProcessing_EqBand_d_interface;
+import import3 = android.java.android.media.audiofx.DynamicsProcessing_Mbc_d_interface;
+import import6 = android.java.java.lang.Class_d_interface;
 import import5 = android.java.android.media.audiofx.DynamicsProcessing_Limiter_d_interface;
+import import0 = android.java.android.media.audiofx.DynamicsProcessing_Channel_d_interface;
 
 @JavaName("DynamicsProcessing$Channel")
 final class DynamicsProcessing_Channel : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(float, bool, int, bool, int, bool, int, bool);
 	@Import this(import0.DynamicsProcessing_Channel);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import float getInputGain();
 	@Import void setInputGain(float);
 	@Import import1.DynamicsProcessing_Eq getPreEq();
@@ -29,6 +34,17 @@ final class DynamicsProcessing_Channel : IJavaObject {
 	@Import void setPostEqBand(int, import2.DynamicsProcessing_EqBand);
 	@Import import5.DynamicsProcessing_Limiter getLimiter();
 	@Import void setLimiter(import5.DynamicsProcessing_Limiter);
+	@Import import6.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/media/audiofx/DynamicsProcessing$Channel";
+	public static immutable string _javaParameterString = "Landroid/media/audiofx/DynamicsProcessing$Channel;";
 }
+
+
+

@@ -3,3 +3,5 @@ public import android.java.android.media.audiofx.Visualizer_MeasurementPeakRms_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Visualizer_MeasurementPeakRms;
+
+import import0 = android.java.java.lang.Class;

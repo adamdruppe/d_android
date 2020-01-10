@@ -1,14 +1,20 @@
 module android.java.android.net.MacAddress_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.net.MacAddress_d_interface;
 import import0 = android.java.android.os.Parcel_d_interface;
+import import2 = android.java.java.lang.Class_d_interface;
 
 final class MacAddress : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"android/os/Parcelable",
+	];
 	@Import int getAddressType();
 	@Import bool isLocallyAssigned();
 	@Import byte[] toByteArray();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import string toOuiString();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
@@ -16,6 +22,15 @@ final class MacAddress : IJavaObject {
 	@Import int describeContents();
 	@Import static import1.MacAddress fromString(string);
 	@Import static import1.MacAddress fromBytes(byte[]);
+	@Import import2.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/net/MacAddress";
+	public static immutable string _javaParameterString = "Landroid/net/MacAddress;";
 }
+
+
+

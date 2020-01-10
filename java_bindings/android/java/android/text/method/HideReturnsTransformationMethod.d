@@ -3,3 +3,7 @@ public import android.java.android.text.method.HideReturnsTransformationMethod_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!HideReturnsTransformationMethod;
+
+import import1 = android.java.java.lang.CharSequence;
+import import4 = android.java.java.lang.Class;
+import import0 = android.java.android.text.method.HideReturnsTransformationMethod;

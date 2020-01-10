@@ -1,14 +1,19 @@
 module android.java.android.os.Handler_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import3 = android.java.android.os.Handler_d_interface;
-import import5 = android.java.android.util.Printer_d_interface;
-import import4 = android.java.java.lang.Runnable_d_interface;
 import import0 = android.java.android.os.Handler_Callback_d_interface;
 import import1 = android.java.android.os.Looper_d_interface;
+import import3 = android.java.android.os.Handler_d_interface;
+import import6 = android.java.java.lang.Class_d_interface;
 import import2 = android.java.android.os.Message_d_interface;
+import import5 = android.java.android.util.Printer_d_interface;
+import import4 = android.java.java.lang.Runnable_d_interface;
 
 final class Handler : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.Handler_Callback);
 	@Import this(import1.Looper);
 	@Import this(import1.Looper, import0.Handler_Callback);
@@ -42,9 +47,22 @@ final class Handler : IJavaObject {
 	@Import void removeCallbacksAndMessages(IJavaObject);
 	@Import bool hasMessages(int);
 	@Import bool hasMessages(int, IJavaObject);
+	@Import bool hasCallbacks(import4.Runnable);
 	@Import import1.Looper getLooper();
 	@Import void dump(import5.Printer, string);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import import6.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/os/Handler";
+	public static immutable string _javaParameterString = "Landroid/os/Handler;";
 }
+
+
+

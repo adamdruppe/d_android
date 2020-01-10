@@ -3,3 +3,5 @@ public import android.java.android.telephony.SubscriptionManager_OnSubscriptions
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SubscriptionManager_OnSubscriptionsChangedListener;
+
+import import0 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.app.KeyguardManager_KeyguardDismissCallback_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!KeyguardManager_KeyguardDismissCallback;
+
+import import0 = android.java.java.lang.Class;

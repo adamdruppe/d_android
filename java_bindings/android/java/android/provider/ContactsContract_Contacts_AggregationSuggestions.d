@@ -3,3 +3,5 @@ public import android.java.android.provider.ContactsContract_Contacts_Aggregatio
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_Contacts_AggregationSuggestions;
+
+import import0 = android.java.java.lang.Class;

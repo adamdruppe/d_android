@@ -3,3 +3,5 @@ public import android.java.android.media.MediaMetadataRetriever_BitmapParams_d_i
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaMetadataRetriever_BitmapParams;
+
+import import1 = android.java.java.lang.Class;

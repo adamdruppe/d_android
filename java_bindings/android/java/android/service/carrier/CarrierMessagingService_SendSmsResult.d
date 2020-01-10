@@ -3,3 +3,5 @@ public import android.java.android.service.carrier.CarrierMessagingService_SendS
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!CarrierMessagingService_SendSmsResult;
+
+import import0 = android.java.java.lang.Class;

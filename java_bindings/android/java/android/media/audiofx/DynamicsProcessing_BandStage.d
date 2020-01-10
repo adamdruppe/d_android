@@ -3,3 +3,5 @@ public import android.java.android.media.audiofx.DynamicsProcessing_BandStage_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!DynamicsProcessing_BandStage;
+
+import import0 = android.java.java.lang.Class;

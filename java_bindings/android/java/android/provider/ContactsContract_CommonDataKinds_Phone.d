@@ -3,3 +3,6 @@ public import android.java.android.provider.ContactsContract_CommonDataKinds_Pho
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ContactsContract_CommonDataKinds_Phone;
+
+import import0 = android.java.java.lang.CharSequence;
+import import2 = android.java.java.lang.Class;

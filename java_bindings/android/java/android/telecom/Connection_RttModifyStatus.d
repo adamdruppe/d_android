@@ -3,3 +3,5 @@ public import android.java.android.telecom.Connection_RttModifyStatus_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Connection_RttModifyStatus;
+
+import import0 = android.java.java.lang.Class;

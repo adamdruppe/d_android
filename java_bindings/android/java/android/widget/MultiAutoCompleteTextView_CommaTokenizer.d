@@ -3,3 +3,5 @@ public import android.java.android.widget.MultiAutoCompleteTextView_CommaTokeniz
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MultiAutoCompleteTextView_CommaTokenizer;
+
+import import1 = android.java.java.lang.Class;

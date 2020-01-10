@@ -1,11 +1,15 @@
 module android.java.android.opengl.GLES31Ext_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.opengl.GLES31Ext_DebugProcKHR_d_interface;
+import import3 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.java.nio.IntBuffer_d_interface;
 import import2 = android.java.java.nio.ByteBuffer_d_interface;
 
 final class GLES31Ext : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import static void glBlendBarrierKHR();
 	@Import static void glDebugMessageControlKHR(int, int, int, int, int, int, bool[]);
 	@Import static void glDebugMessageControlKHR(int, int, int, int, import0.IntBuffer, bool);
@@ -54,6 +58,19 @@ final class GLES31Ext : IJavaObject {
 	@Import static void glGetSamplerParameterIuivEXT(int, int, import0.IntBuffer);
 	@Import static void glTexBufferEXT(int, int, int);
 	@Import static void glTexBufferRangeEXT(int, int, int, int, int);
+	@Import import3.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/opengl/GLES31Ext";
+	public static immutable string _javaParameterString = "Landroid/opengl/GLES31Ext;";
 }
+
+
+

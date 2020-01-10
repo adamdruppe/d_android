@@ -3,3 +3,5 @@ public import android.java.android.media.AudioRecord_MetricsConstants_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AudioRecord_MetricsConstants;
+
+import import0 = android.java.java.lang.Class;

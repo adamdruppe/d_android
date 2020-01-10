@@ -3,3 +3,5 @@ public import android.java.android.view.animation.LayoutAnimationController_Anim
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!LayoutAnimationController_AnimationParameters;
+
+import import0 = android.java.java.lang.Class;

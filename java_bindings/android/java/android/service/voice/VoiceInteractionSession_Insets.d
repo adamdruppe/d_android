@@ -3,3 +3,5 @@ public import android.java.android.service.voice.VoiceInteractionSession_Insets_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!VoiceInteractionSession_Insets;
+
+import import0 = android.java.java.lang.Class;

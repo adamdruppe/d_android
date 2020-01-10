@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.locks.AbstractQueuedLongSynchron
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AbstractQueuedLongSynchronizer_ConditionObject;
+
+import import3 = android.java.java.lang.Class;

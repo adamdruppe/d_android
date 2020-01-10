@@ -3,3 +3,6 @@ public import android.java.android.net.IpSecManager_UdpEncapsulationSocket_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!IpSecManager_UdpEncapsulationSocket;
+
+import import0 = android.java.java.io.FileDescriptor;
+import import1 = android.java.java.lang.Class;

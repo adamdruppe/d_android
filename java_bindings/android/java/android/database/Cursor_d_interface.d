@@ -1,14 +1,20 @@
 module android.java.android.database.Cursor_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import2 = android.java.android.database.DataSetObserver_d_interface;
 import import1 = android.java.android.database.ContentObserver_d_interface;
 import import3 = android.java.android.content.ContentResolver_d_interface;
 import import4 = android.java.android.net.Uri_d_interface;
-import import5 = android.java.android.os.Bundle_d_interface;
+import import2 = android.java.android.database.DataSetObserver_d_interface;
+import import7 = android.java.java.lang.Class_d_interface;
+import import6 = android.java.android.os.Bundle_d_interface;
+import import5 = android.java.java.util.List_d_interface;
 import import0 = android.java.android.database.CharArrayBuffer_d_interface;
 
-interface Cursor : IJavaObject {
+final class Cursor : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/io/Closeable",
+	];
 	@Import int getCount();
 	@Import int getPosition();
 	@Import bool move(int);
@@ -45,10 +51,26 @@ interface Cursor : IJavaObject {
 	@Import void registerDataSetObserver(import2.DataSetObserver);
 	@Import void unregisterDataSetObserver(import2.DataSetObserver);
 	@Import void setNotificationUri(import3.ContentResolver, import4.Uri);
+	@Import void setNotificationUris(import3.ContentResolver, import5.List);
 	@Import import4.Uri getNotificationUri();
+	@Import import5.List getNotificationUris();
 	@Import bool getWantsAllOnMoveCalls();
-	@Import void setExtras(import5.Bundle);
-	@Import import5.Bundle getExtras();
-	@Import import5.Bundle respond(import5.Bundle);
-	public static immutable string _javaParameterString = "Landroid/database/Cursor";
+	@Import void setExtras(import6.Bundle);
+	@Import import6.Bundle getExtras();
+	@Import import6.Bundle respond(import6.Bundle);
+	@Import import7.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Landroid/database/Cursor;";
 }
+
+
+

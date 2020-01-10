@@ -3,3 +3,5 @@ public import android.java.android.view.ScaleGestureDetector_SimpleOnScaleGestur
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ScaleGestureDetector_SimpleOnScaleGestureListener;
+
+import import1 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.provider.Contacts_People_Phones_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!Contacts_People_Phones;
+
+import import0 = android.java.java.lang.Class;

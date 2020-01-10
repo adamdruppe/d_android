@@ -3,3 +3,5 @@ public import android.java.android.service.notification.NotificationListenerServ
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!NotificationListenerService_RankingMap;
+
+import import2 = android.java.java.lang.Class;

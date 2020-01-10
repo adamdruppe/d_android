@@ -1,11 +1,13 @@
 module android.java.android.media.MediaExtractor_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import1 = android.java.android.content.Context_d_interface;
 import import10 = android.java.android.media.MediaFormat_d_interface;
 import import11 = android.java.java.nio.ByteBuffer_d_interface;
 import import5 = android.java.java.io.FileDescriptor_d_interface;
 import import2 = android.java.android.net.Uri_d_interface;
+import import14 = android.java.java.lang.Class_d_interface;
 import import8 = android.java.android.media.DrmInitData_d_interface;
 import import7 = android.java.android.media.MediaExtractor_CasInfo_d_interface;
 import import12 = android.java.android.media.MediaCodec_CryptoInfo_d_interface;
@@ -17,6 +19,9 @@ import import9 = android.java.java.util.List_d_interface;
 import import4 = android.java.android.content.res.AssetFileDescriptor_d_interface;
 
 final class MediaExtractor : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import void setDataSource(import0.MediaDataSource);
 	@Import void setDataSource(import1.Context, import2.Uri, import3.Map);
 	@Import void setDataSource(string, import3.Map);
@@ -45,6 +50,19 @@ final class MediaExtractor : IJavaObject {
 	@Import long getCachedDuration();
 	@Import bool hasCacheReachedEndOfStream();
 	@Import import13.PersistableBundle getMetrics();
+	@Import import14.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/media/MediaExtractor";
+	public static immutable string _javaParameterString = "Landroid/media/MediaExtractor;";
 }
+
+
+

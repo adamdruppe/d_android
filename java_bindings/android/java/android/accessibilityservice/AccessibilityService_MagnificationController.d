@@ -3,3 +3,6 @@ public import android.java.android.accessibilityservice.AccessibilityService_Mag
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AccessibilityService_MagnificationController;
+
+import import3 = android.java.java.lang.Class;
+import import2 = android.java.android.graphics.Region;

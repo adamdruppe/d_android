@@ -1,21 +1,27 @@
 module android.java.android.media.AudioManager_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
-import import2 = android.java.android.media.AudioFocusRequest_d_interface;
-import import12 = android.java.android.media.AudioDeviceCallback_d_interface;
-import import4 = android.java.android.app.PendingIntent_d_interface;
-import import8 = android.java.android.os.Handler_d_interface;
-import import3 = android.java.android.content.ComponentName_d_interface;
-import import7 = android.java.android.media.AudioManager_AudioPlaybackCallback_d_interface;
-import import10 = android.java.android.media.AudioManager_AudioRecordingCallback_d_interface;
+import import4 = android.java.android.media.AudioFocusRequest_d_interface;
+import import14 = android.java.android.media.AudioDeviceCallback_d_interface;
+import import6 = android.java.android.app.PendingIntent_d_interface;
+import import10 = android.java.android.os.Handler_d_interface;
+import import5 = android.java.android.content.ComponentName_d_interface;
+import import9 = android.java.android.media.AudioManager_AudioPlaybackCallback_d_interface;
+import import12 = android.java.android.media.AudioManager_AudioRecordingCallback_d_interface;
+import import15 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.android.view.KeyEvent_d_interface;
-import import11 = android.java.android.media.AudioDeviceInfo_d_interface;
-import import1 = android.java.android.media.AudioManager_OnAudioFocusChangeListener_d_interface;
-import import5 = android.java.android.media.RemoteControlClient_d_interface;
-import import6 = android.java.android.media.RemoteController_d_interface;
-import import9 = android.java.java.util.List_d_interface;
+import import1 = android.java.android.media.AudioFormat_d_interface;
+import import13 = android.java.android.media.AudioDeviceInfo_d_interface;
+import import3 = android.java.android.media.AudioManager_OnAudioFocusChangeListener_d_interface;
+import import2 = android.java.android.media.AudioAttributes_d_interface;
+import import7 = android.java.android.media.RemoteControlClient_d_interface;
+import import8 = android.java.android.media.RemoteController_d_interface;
+import import11 = android.java.java.util.List_d_interface;
 
 final class AudioManager : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import void dispatchMediaKeyEvent(import0.KeyEvent);
 	@Import bool isVolumeFixed();
 	@Import void adjustStreamVolume(int, int, int);
@@ -36,6 +42,9 @@ final class AudioManager : IJavaObject {
 	@Import void setVibrateSetting(int, int);
 	@Import void setSpeakerphoneOn(bool);
 	@Import bool isSpeakerphoneOn();
+	@Import void setAllowedCapturePolicy(int);
+	@Import int getAllowedCapturePolicy();
+	@Import static bool isOffloadedPlaybackSupported(import1.AudioFormat, import2.AudioAttributes);
 	@Import bool isBluetoothScoAvailableOffCall();
 	@Import void startBluetoothSco();
 	@Import void stopBluetoothSco();
@@ -59,29 +68,43 @@ final class AudioManager : IJavaObject {
 	@Import void playSoundEffect(int, float);
 	@Import void loadSoundEffects();
 	@Import void unloadSoundEffects();
-	@Import int requestAudioFocus(import1.AudioManager_OnAudioFocusChangeListener, int, int);
-	@Import int requestAudioFocus(import2.AudioFocusRequest);
-	@Import int abandonAudioFocusRequest(import2.AudioFocusRequest);
-	@Import int abandonAudioFocus(import1.AudioManager_OnAudioFocusChangeListener);
-	@Import void registerMediaButtonEventReceiver(import3.ComponentName);
-	@Import void registerMediaButtonEventReceiver(import4.PendingIntent);
-	@Import void unregisterMediaButtonEventReceiver(import3.ComponentName);
-	@Import void unregisterMediaButtonEventReceiver(import4.PendingIntent);
-	@Import void registerRemoteControlClient(import5.RemoteControlClient);
-	@Import void unregisterRemoteControlClient(import5.RemoteControlClient);
-	@Import bool registerRemoteController(import6.RemoteController);
-	@Import void unregisterRemoteController(import6.RemoteController);
-	@Import void registerAudioPlaybackCallback(import7.AudioManager_AudioPlaybackCallback, import8.Handler);
-	@Import void unregisterAudioPlaybackCallback(import7.AudioManager_AudioPlaybackCallback);
-	@Import import9.List getActivePlaybackConfigurations();
-	@Import void registerAudioRecordingCallback(import10.AudioManager_AudioRecordingCallback, import8.Handler);
-	@Import void unregisterAudioRecordingCallback(import10.AudioManager_AudioRecordingCallback);
-	@Import import9.List getActiveRecordingConfigurations();
+	@Import int requestAudioFocus(import3.AudioManager_OnAudioFocusChangeListener, int, int);
+	@Import int requestAudioFocus(import4.AudioFocusRequest);
+	@Import int abandonAudioFocusRequest(import4.AudioFocusRequest);
+	@Import int abandonAudioFocus(import3.AudioManager_OnAudioFocusChangeListener);
+	@Import void registerMediaButtonEventReceiver(import5.ComponentName);
+	@Import void registerMediaButtonEventReceiver(import6.PendingIntent);
+	@Import void unregisterMediaButtonEventReceiver(import5.ComponentName);
+	@Import void unregisterMediaButtonEventReceiver(import6.PendingIntent);
+	@Import void registerRemoteControlClient(import7.RemoteControlClient);
+	@Import void unregisterRemoteControlClient(import7.RemoteControlClient);
+	@Import bool registerRemoteController(import8.RemoteController);
+	@Import void unregisterRemoteController(import8.RemoteController);
+	@Import void registerAudioPlaybackCallback(import9.AudioManager_AudioPlaybackCallback, import10.Handler);
+	@Import void unregisterAudioPlaybackCallback(import9.AudioManager_AudioPlaybackCallback);
+	@Import import11.List getActivePlaybackConfigurations();
+	@Import void registerAudioRecordingCallback(import12.AudioManager_AudioRecordingCallback, import10.Handler);
+	@Import void unregisterAudioRecordingCallback(import12.AudioManager_AudioRecordingCallback);
+	@Import import11.List getActiveRecordingConfigurations();
 	@Import string getProperty(string);
-	@Import import11.AudioDeviceInfo[] getDevices(int);
-	@Import void registerAudioDeviceCallback(import12.AudioDeviceCallback, import8.Handler);
-	@Import void unregisterAudioDeviceCallback(import12.AudioDeviceCallback);
-	@Import import9.List getMicrophones();
+	@Import import13.AudioDeviceInfo[] getDevices(int);
+	@Import void registerAudioDeviceCallback(import14.AudioDeviceCallback, import10.Handler);
+	@Import void unregisterAudioDeviceCallback(import14.AudioDeviceCallback);
+	@Import import11.List getMicrophones();
+	@Import static bool isHapticPlaybackSupported();
+	@Import import15.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/media/AudioManager";
+	public static immutable string _javaParameterString = "Landroid/media/AudioManager;";
 }
+
+
+

@@ -3,3 +3,5 @@ public import android.java.android.media.tv.TvInputService_RecordingSession_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!TvInputService_RecordingSession;
+
+import import3 = android.java.java.lang.Class;

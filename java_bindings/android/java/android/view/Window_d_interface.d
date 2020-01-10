@@ -1,9 +1,11 @@
 module android.java.android.view.Window_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import3 = android.java.android.view.WindowManager_d_interface;
 import import6 = android.java.android.view.Window_OnFrameMetricsAvailableListener_d_interface;
 import import8 = android.java.android.view.Window_OnRestrictedCaptionAreaChangedListener_d_interface;
+import import28 = android.java.java.lang.Class_d_interface;
 import import2 = android.java.android.view.Window_d_interface;
 import import9 = android.java.android.view.SurfaceHolder_Callback2_d_interface;
 import import10 = android.java.android.view.InputQueue_Callback_d_interface;
@@ -27,9 +29,12 @@ import import24 = android.java.android.transition.TransitionManager_d_interface;
 import import20 = android.java.android.view.MotionEvent_d_interface;
 import import1 = android.java.android.content.res.TypedArray_d_interface;
 import import5 = android.java.android.view.Window_Callback_d_interface;
+import import27 = android.java.java.util.List_d_interface;
 import import0 = android.java.android.content.Context_d_interface;
 
 final class Window : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(import0.Context);
 	@Import import0.Context getContext();
 	@Import import1.TypedArray getWindowStyle();
@@ -152,8 +157,27 @@ final class Window : IJavaObject {
 	@Import void setNavigationBarColor(int);
 	@Import void setNavigationBarDividerColor(int);
 	@Import int getNavigationBarDividerColor();
+	@Import void setStatusBarContrastEnforced(bool);
+	@Import bool isStatusBarContrastEnforced();
+	@Import void setNavigationBarContrastEnforced(bool);
+	@Import bool isNavigationBarContrastEnforced();
+	@Import void setSystemGestureExclusionRects(import27.List);
+	@Import import27.List getSystemGestureExclusionRects();
 	@Import void setDecorCaptionShade(int);
 	@Import void setResizingCaptionDrawable(import18.Drawable);
+	@Import import28.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/view/Window";
+	public static immutable string _javaParameterString = "Landroid/view/Window;";
 }
+
+
+

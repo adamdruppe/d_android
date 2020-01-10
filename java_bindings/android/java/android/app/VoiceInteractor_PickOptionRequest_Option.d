@@ -3,3 +3,6 @@ public import android.java.android.app.VoiceInteractor_PickOptionRequest_Option_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!VoiceInteractor_PickOptionRequest_Option;
+
+import import1 = android.java.android.app.VoiceInteractor_PickOptionRequest_Option;
+import import4 = android.java.java.lang.Class;

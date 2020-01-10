@@ -3,3 +3,7 @@ public import android.java.android.media.MediaPlayer_ProvisioningNetworkErrorExc
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MediaPlayer_ProvisioningNetworkErrorException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;
+import import0 = android.java.java.lang.JavaThrowable;

@@ -1,6 +1,8 @@
 module android.java.android.icu.text.DecimalFormat_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import20 = android.java.android.icu.util.ULocale_d_interface;
 import import11 = android.java.java.lang.CharSequence_d_interface;
 import import12 = android.java.java.math.MathContext_d_interface;
 import import4 = android.java.java.math.BigInteger_d_interface;
@@ -10,15 +12,23 @@ import import5 = android.java.java.math.BigDecimal_d_interface;
 import import3 = android.java.java.text.FieldPosition_d_interface;
 import import9 = android.java.java.lang.Number_d_interface;
 import import10 = android.java.java.text.ParsePosition_d_interface;
+import import18 = android.java.android.icu.text.NumberFormat_d_interface;
+import import17 = android.java.android.icu.text.DisplayContext_Type_d_interface;
 import import15 = android.java.android.icu.util.Currency_CurrencyUsage_d_interface;
+import import19 = android.java.java.util.Locale_d_interface;
+import import21 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.android.icu.text.DecimalFormatSymbols_d_interface;
 import import1 = android.java.android.icu.text.CurrencyPluralInfo_d_interface;
 import import14 = android.java.android.icu.util.Currency_d_interface;
 import import2 = android.java.java.lang.StringBuffer_d_interface;
 import import6 = android.java.android.icu.math.BigDecimal_d_interface;
 import import13 = android.java.android.icu.math.MathContext_d_interface;
+import import16 = android.java.android.icu.text.DisplayContext_d_interface;
 
 final class DecimalFormat : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(string);
 	@Import this(string, import0.DecimalFormatSymbols);
 	@Import this(string, import0.DecimalFormatSymbols, import1.CurrencyPluralInfo, int);
@@ -109,8 +119,53 @@ final class DecimalFormat : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import string toPattern();
 	@Import string toLocalizedPattern();
+	@Import import2.StringBuffer format(IJavaObject, import2.StringBuffer, import3.FieldPosition);
+	@Import IJavaObject parseObject(string, import10.ParsePosition);
+	@Import string format(double);
+	@Import string format(long);
+	@Import string format(import4.BigInteger);
+	@Import string format(import5.BigDecimal);
+	@Import string format(import6.BigDecimal);
+	@Import string format(import8.CurrencyAmount);
+	@Import import9.Number parse(string);
+	@Import void setContext(import16.DisplayContext);
+	@Import import16.DisplayContext getContext(import17.DisplayContext_Type);
+	@Import static import18.NumberFormat getInstance();
+	@Import static import18.NumberFormat getInstance(import19.Locale);
+	@Import static import18.NumberFormat getInstance(import20.ULocale);
+	@Import static import18.NumberFormat getInstance(int);
+	@Import static import18.NumberFormat getInstance(import19.Locale, int);
+	@Import static import18.NumberFormat getNumberInstance();
+	@Import static import18.NumberFormat getNumberInstance(import19.Locale);
+	@Import static import18.NumberFormat getNumberInstance(import20.ULocale);
+	@Import static import18.NumberFormat getIntegerInstance();
+	@Import static import18.NumberFormat getIntegerInstance(import19.Locale);
+	@Import static import18.NumberFormat getIntegerInstance(import20.ULocale);
+	@Import static import18.NumberFormat getCurrencyInstance();
+	@Import static import18.NumberFormat getCurrencyInstance(import19.Locale);
+	@Import static import18.NumberFormat getCurrencyInstance(import20.ULocale);
+	@Import static import18.NumberFormat getPercentInstance();
+	@Import static import18.NumberFormat getPercentInstance(import19.Locale);
+	@Import static import18.NumberFormat getPercentInstance(import20.ULocale);
+	@Import static import18.NumberFormat getScientificInstance();
+	@Import static import18.NumberFormat getScientificInstance(import19.Locale);
+	@Import static import18.NumberFormat getScientificInstance(import20.ULocale);
+	@Import static import19.Locale[] getAvailableLocales();
+	@Import static import18.NumberFormat getInstance(import20.ULocale, int);
+	@Import string format(IJavaObject);
+	@Import IJavaObject parseObject(string);
+	@Import import21.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/icu/text/DecimalFormat";
+	public static immutable string _javaParameterString = "Landroid/icu/text/DecimalFormat;";
 }
+
+
+

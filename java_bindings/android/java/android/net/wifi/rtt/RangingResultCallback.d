@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.rtt.RangingResultCallback_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!RangingResultCallback;
+
+import import1 = android.java.java.lang.Class;

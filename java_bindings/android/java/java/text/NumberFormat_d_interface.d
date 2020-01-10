@@ -1,8 +1,11 @@
 module android.java.java.text.NumberFormat_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import8 = android.java.java.text.AttributedCharacterIterator_d_interface;
 import import1 = android.java.java.text.FieldPosition_d_interface;
 import import2 = android.java.java.text.ParsePosition_d_interface;
+import import9 = android.java.java.lang.Class_d_interface;
 import import5 = android.java.java.util.Locale_d_interface;
 import import3 = android.java.java.lang.Number_d_interface;
 import import4 = android.java.java.text.NumberFormat_d_interface;
@@ -11,6 +14,8 @@ import import7 = android.java.java.math.RoundingMode_d_interface;
 import import0 = android.java.java.lang.StringBuffer_d_interface;
 
 final class NumberFormat : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import import0.StringBuffer format(IJavaObject, import0.StringBuffer, import1.FieldPosition);
 	@Import IJavaObject parseObject(string, import2.ParsePosition);
 	@Import string format(double);
@@ -49,6 +54,20 @@ final class NumberFormat : IJavaObject {
 	@Import void setCurrency(import6.Currency);
 	@Import import7.RoundingMode getRoundingMode();
 	@Import void setRoundingMode(import7.RoundingMode);
+	@Import string format(IJavaObject);
+	@Import import8.AttributedCharacterIterator formatToCharacterIterator(IJavaObject);
+	@Import IJavaObject parseObject(string);
+	@Import import9.Class getClass();
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/text/NumberFormat";
+	public static immutable string _javaParameterString = "Ljava/text/NumberFormat;";
 }
+
+
+

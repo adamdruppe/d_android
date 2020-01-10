@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.atomic.AtomicReference_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AtomicReference;
+
+import import2 = android.java.java.lang.Class;

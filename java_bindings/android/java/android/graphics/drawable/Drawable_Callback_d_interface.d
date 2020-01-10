@@ -1,13 +1,31 @@
 module android.java.android.graphics.drawable.Drawable_Callback_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.graphics.drawable.Drawable_d_interface;
+import import2 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.java.lang.Runnable_d_interface;
 
 @JavaName("Drawable$Callback")
-interface Drawable_Callback : IJavaObject {
+final class Drawable_Callback : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import void invalidateDrawable(import0.Drawable);
 	@Import void scheduleDrawable(import0.Drawable, import1.Runnable, long);
 	@Import void unscheduleDrawable(import0.Drawable, import1.Runnable);
-	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Drawable$Callback";
+	@Import import2.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
+	mixin IJavaObjectImplementation!(false);
+	public static immutable string _javaParameterString = "Landroid/graphics/drawable/Drawable$Callback;";
 }
+
+
+

@@ -3,3 +3,6 @@ public import android.java.android.text.method.ScrollingMovementMethod_d_interfa
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ScrollingMovementMethod;
+
+import import3 = android.java.android.text.method.MovementMethod;
+import import5 = android.java.java.lang.Class;

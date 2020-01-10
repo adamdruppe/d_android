@@ -3,3 +3,5 @@ public import android.java.android.telephony.VisualVoicemailSmsFilterSettings_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!VisualVoicemailSmsFilterSettings;
+
+import import1 = android.java.java.lang.Class;

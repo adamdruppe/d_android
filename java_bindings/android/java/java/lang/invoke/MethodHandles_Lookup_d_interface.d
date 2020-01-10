@@ -1,5 +1,6 @@
 module android.java.java.lang.invoke.MethodHandles_Lookup_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import7 = android.java.java.lang.invoke.MethodHandleInfo_d_interface;
 import import0 = android.java.java.lang.Class_d_interface;
@@ -12,10 +13,13 @@ import import5 = android.java.java.lang.reflect.Constructor_d_interface;
 
 @JavaName("MethodHandles$Lookup")
 final class MethodHandles_Lookup : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import import0.Class lookupClass();
 	@Import int lookupModes();
 	@Import @JavaName("in") import1.MethodHandles_Lookup in_(import0.Class);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import import2.MethodHandle findStatic(import0.Class, string, import3.MethodType);
 	@Import import2.MethodHandle findVirtual(import0.Class, string, import3.MethodType);
 	@Import import2.MethodHandle findConstructor(import0.Class, import3.MethodType);
@@ -31,6 +35,17 @@ final class MethodHandles_Lookup : IJavaObject {
 	@Import import2.MethodHandle unreflectGetter(import6.Field);
 	@Import import2.MethodHandle unreflectSetter(import6.Field);
 	@Import import7.MethodHandleInfo revealDirect(import2.MethodHandle);
+	@Import import0.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/invoke/MethodHandles$Lookup";
+	public static immutable string _javaParameterString = "Ljava/lang/invoke/MethodHandles$Lookup;";
 }
+
+
+

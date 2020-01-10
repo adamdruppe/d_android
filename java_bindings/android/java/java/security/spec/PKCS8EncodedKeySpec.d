@@ -3,3 +3,5 @@ public import android.java.java.security.spec.PKCS8EncodedKeySpec_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PKCS8EncodedKeySpec;
+
+import import0 = android.java.java.lang.Class;

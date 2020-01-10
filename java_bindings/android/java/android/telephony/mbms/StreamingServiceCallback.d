@@ -3,3 +3,5 @@ public import android.java.android.telephony.mbms.StreamingServiceCallback_d_int
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!StreamingServiceCallback;
+
+import import0 = android.java.java.lang.Class;

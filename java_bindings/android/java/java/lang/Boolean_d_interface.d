@@ -1,9 +1,15 @@
 module android.java.java.lang.Boolean_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import1 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.java.lang.Boolean_d_interface;
 
 final class Boolean : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"java/io/Serializable",
+		"java/lang/Comparable",
+	];
 	@Import this(bool);
 	@Import this(string);
 	@Import static bool parseBoolean(string);
@@ -12,6 +18,7 @@ final class Boolean : IJavaObject {
 	@Import static import0.Boolean valueOf(string);
 	@Import static @JavaName("toString") string toString_(bool);
 	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
 	@Import int hashCode();
 	@Import static int hashCode(bool);
 	@Import bool equals(IJavaObject);
@@ -22,6 +29,15 @@ final class Boolean : IJavaObject {
 	@Import static bool logicalOr(bool, bool);
 	@Import static bool logicalXor(bool, bool);
 	@Import int compareTo(IJavaObject);
+	@Import import1.Class getClass();
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Ljava/lang/Boolean";
+	public static immutable string _javaParameterString = "Ljava/lang/Boolean;";
 }
+
+
+

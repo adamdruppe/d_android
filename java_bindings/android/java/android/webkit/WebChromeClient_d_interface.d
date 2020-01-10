@@ -1,5 +1,6 @@
 module android.java.android.webkit.WebChromeClient_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import0 = android.java.android.webkit.WebView_d_interface;
 import import1 = android.java.android.graphics.Bitmap_d_interface;
@@ -7,6 +8,7 @@ import import11 = android.java.android.webkit.ValueCallback_d_interface;
 import import3 = android.java.android.webkit.WebChromeClient_CustomViewCallback_d_interface;
 import import2 = android.java.android.view.View_d_interface;
 import import10 = android.java.android.webkit.ConsoleMessage_d_interface;
+import import13 = android.java.java.lang.Class_d_interface;
 import import7 = android.java.android.webkit.WebStorage_QuotaUpdater_d_interface;
 import import6 = android.java.android.webkit.JsPromptResult_d_interface;
 import import4 = android.java.android.os.Message_d_interface;
@@ -16,6 +18,9 @@ import import9 = android.java.android.webkit.PermissionRequest_d_interface;
 import import12 = android.java.android.webkit.WebChromeClient_FileChooserParams_d_interface;
 
 final class WebChromeClient : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import void onProgressChanged(import0.WebView, int);
 	@Import void onReceivedTitle(import0.WebView, string);
 	@Import void onReceivedIcon(import0.WebView, import1.Bitmap);
@@ -43,6 +48,19 @@ final class WebChromeClient : IJavaObject {
 	@Import import2.View getVideoLoadingProgressView();
 	@Import void getVisitedHistory(import11.ValueCallback);
 	@Import bool onShowFileChooser(import0.WebView, import11.ValueCallback, import12.WebChromeClient_FileChooserParams);
+	@Import import13.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/webkit/WebChromeClient";
+	public static immutable string _javaParameterString = "Landroid/webkit/WebChromeClient;";
 }
+
+
+

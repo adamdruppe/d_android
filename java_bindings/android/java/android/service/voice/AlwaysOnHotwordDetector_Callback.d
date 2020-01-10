@@ -3,3 +3,5 @@ public import android.java.android.service.voice.AlwaysOnHotwordDetector_Callbac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AlwaysOnHotwordDetector_Callback;
+
+import import1 = android.java.java.lang.Class;

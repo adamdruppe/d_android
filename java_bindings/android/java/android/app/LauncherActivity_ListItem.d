@@ -3,3 +3,5 @@ public import android.java.android.app.LauncherActivity_ListItem_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!LauncherActivity_ListItem;
+
+import import0 = android.java.java.lang.Class;

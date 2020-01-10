@@ -3,3 +3,5 @@ public import android.java.android.location.GnssStatus_Callback_d_interface;
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!GnssStatus_Callback;
+
+import import1 = android.java.java.lang.Class;

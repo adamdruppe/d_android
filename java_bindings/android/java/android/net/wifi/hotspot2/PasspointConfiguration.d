@@ -3,3 +3,5 @@ public import android.java.android.net.wifi.hotspot2.PasspointConfiguration_d_in
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PasspointConfiguration;
+
+import import4 = android.java.java.lang.Class;

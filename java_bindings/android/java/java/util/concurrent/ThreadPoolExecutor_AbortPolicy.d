@@ -3,3 +3,5 @@ public import android.java.java.util.concurrent.ThreadPoolExecutor_AbortPolicy_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!ThreadPoolExecutor_AbortPolicy;
+
+import import2 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.content.pm.PackageInstaller_SessionCallback_d
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!PackageInstaller_SessionCallback;
+
+import import0 = android.java.java.lang.Class;

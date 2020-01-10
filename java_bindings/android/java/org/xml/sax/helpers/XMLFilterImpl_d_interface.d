@@ -1,9 +1,11 @@
 module android.java.org.xml.sax.helpers.XMLFilterImpl_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.org.xml.sax.DTDHandler_d_interface;
 import import0 = android.java.org.xml.sax.XMLReader_d_interface;
 import import7 = android.java.org.xml.sax.Attributes_d_interface;
+import import9 = android.java.java.lang.Class_d_interface;
 import import1 = android.java.org.xml.sax.EntityResolver_d_interface;
 import import4 = android.java.org.xml.sax.ErrorHandler_d_interface;
 import import3 = android.java.org.xml.sax.ContentHandler_d_interface;
@@ -12,6 +14,14 @@ import import5 = android.java.org.xml.sax.InputSource_d_interface;
 import import6 = android.java.org.xml.sax.Locator_d_interface;
 
 final class XMLFilterImpl : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+		"org/xml/sax/XMLFilter",
+		"org/xml/sax/EntityResolver",
+		"org/xml/sax/DTDHandler",
+		"org/xml/sax/ContentHandler",
+		"org/xml/sax/ErrorHandler",
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.XMLReader);
 	@Import void setParent(import0.XMLReader);
 	@Import import0.XMLReader getParent();
@@ -46,6 +56,19 @@ final class XMLFilterImpl : IJavaObject {
 	@Import void warning(import8.SAXParseException);
 	@Import void error(import8.SAXParseException);
 	@Import void fatalError(import8.SAXParseException);
+	@Import import9.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/XMLFilterImpl";
+	public static immutable string _javaParameterString = "Lorg/xml/sax/helpers/XMLFilterImpl;";
 }
+
+
+

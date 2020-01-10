@@ -1,11 +1,16 @@
 module android.java.android.mtp.MtpObjectInfo_Builder_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
+import import2 = android.java.java.lang.Class_d_interface;
 import import0 = android.java.android.mtp.MtpObjectInfo_d_interface;
 import import1 = android.java.android.mtp.MtpObjectInfo_Builder_d_interface;
 
 @JavaName("MtpObjectInfo$Builder")
 final class MtpObjectInfo_Builder : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
+	@Import this(arsd.jni.Default);
 	@Import this(import0.MtpObjectInfo);
 	@Import import1.MtpObjectInfo_Builder setObjectHandle(int);
 	@Import import1.MtpObjectInfo_Builder setAssociationDesc(int);
@@ -28,6 +33,19 @@ final class MtpObjectInfo_Builder : IJavaObject {
 	@Import import1.MtpObjectInfo_Builder setThumbPixHeight(long);
 	@Import import1.MtpObjectInfo_Builder setThumbPixWidth(long);
 	@Import import0.MtpObjectInfo build();
+	@Import import2.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/mtp/MtpObjectInfo$Builder";
+	public static immutable string _javaParameterString = "Landroid/mtp/MtpObjectInfo$Builder;";
 }
+
+
+

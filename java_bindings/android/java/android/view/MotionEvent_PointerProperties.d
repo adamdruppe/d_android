@@ -3,3 +3,5 @@ public import android.java.android.view.MotionEvent_PointerProperties_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!MotionEvent_PointerProperties;
+
+import import1 = android.java.java.lang.Class;

@@ -3,3 +3,5 @@ public import android.java.android.widget.AbsoluteLayout_LayoutParams_d_interfac
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!AbsoluteLayout_LayoutParams;
+
+import import3 = android.java.java.lang.Class;

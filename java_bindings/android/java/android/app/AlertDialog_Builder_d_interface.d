@@ -1,11 +1,13 @@
 module android.java.android.app.AlertDialog_Builder_d_interface;
-import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl;
+import arsd.jni : IJavaObjectImplementation, JavaPackageId, JavaName, IJavaObject, ImportExportImpl, JavaInterfaceMembers;
+static import arsd.jni;
 
 import import2 = android.java.java.lang.CharSequence_d_interface;
 import import8 = android.java.android.content.DialogInterface_OnKeyListener_d_interface;
 import import6 = android.java.android.content.DialogInterface_OnCancelListener_d_interface;
 import import10 = android.java.android.database.Cursor_d_interface;
 import import3 = android.java.android.view.View_d_interface;
+import import14 = android.java.java.lang.Class_d_interface;
 import import7 = android.java.android.content.DialogInterface_OnDismissListener_d_interface;
 import import1 = android.java.android.app.AlertDialog_Builder_d_interface;
 import import4 = android.java.android.graphics.drawable.Drawable_d_interface;
@@ -18,6 +20,8 @@ import import0 = android.java.android.content.Context_d_interface;
 
 @JavaName("AlertDialog$Builder")
 final class AlertDialog_Builder : IJavaObject {
+	static immutable string[] _d_canCastTo = [
+	];
 	@Import this(import0.Context);
 	@Import this(import0.Context, int);
 	@Import import0.Context getContext();
@@ -56,6 +60,19 @@ final class AlertDialog_Builder : IJavaObject {
 	@Import import1.AlertDialog_Builder setInverseBackgroundForced(bool);
 	@Import import13.AlertDialog create();
 	@Import import13.AlertDialog show();
+	@Import import14.Class getClass();
+	@Import int hashCode();
+	@Import bool equals(IJavaObject);
+	@Import @JavaName("toString") string toString_();
+	override string toString() { return toString_(); }
+	@Import void notify();
+	@Import void notifyAll();
+	@Import void wait(long);
+	@Import void wait(long, int);
+	@Import void wait();
 	mixin IJavaObjectImplementation!(false);
-	public static immutable string _javaParameterString = "Landroid/app/AlertDialog$Builder";
+	public static immutable string _javaParameterString = "Landroid/app/AlertDialog$Builder;";
 }
+
+
+

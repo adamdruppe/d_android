@@ -3,3 +3,7 @@ public import android.java.android.database.sqlite.SQLiteTableLockedException_d_
 
 import arsd.jni : ImportExportImpl;
 mixin ImportExportImpl!SQLiteTableLockedException;
+
+import import4 = android.java.java.lang.Class;
+import import3 = android.java.java.lang.StackTraceElement;
+import import0 = android.java.java.lang.JavaThrowable;
