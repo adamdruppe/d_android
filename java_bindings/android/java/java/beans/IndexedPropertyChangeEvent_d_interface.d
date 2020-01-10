@@ -15,7 +15,7 @@ final class IndexedPropertyChangeEvent : IJavaObject {
 	@Import void setPropagationId(IJavaObject);
 	@Import IJavaObject getPropagationId();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import IJavaObject getSource();
 	@Import import0.Class getClass();
 	@Import int hashCode();

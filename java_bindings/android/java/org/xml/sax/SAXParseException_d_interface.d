@@ -24,7 +24,7 @@ final class SAXParseException : IJavaObject {
 	@Import string getMessage();
 	@Import import1.JavaException getException();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string getLocalizedMessage();
 	@Import import2.JavaThrowable getCause();
 	@Import import2.JavaThrowable initCause(import2.JavaThrowable);

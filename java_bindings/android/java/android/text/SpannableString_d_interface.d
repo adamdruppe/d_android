@@ -28,7 +28,7 @@ final class SpannableString : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int getSpanEnd(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import wchar charAt(int);
 	@Import import2.Class getClass();
 	@Import void notify();

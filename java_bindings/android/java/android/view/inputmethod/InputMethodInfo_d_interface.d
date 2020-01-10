@@ -33,7 +33,7 @@ final class InputMethodInfo : IJavaObject {
 	@Import int getIsDefaultResourceId();
 	@Import void dump(import8.Printer, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import void writeToParcel(import9.Parcel, int);

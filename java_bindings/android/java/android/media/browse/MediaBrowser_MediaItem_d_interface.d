@@ -15,7 +15,7 @@ final class MediaBrowser_MediaItem : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getFlags();
 	@Import bool isBrowsable();
 	@Import bool isPlayable();

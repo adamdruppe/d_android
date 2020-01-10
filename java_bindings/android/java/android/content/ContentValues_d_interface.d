@@ -53,7 +53,7 @@ final class ContentValues : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import9.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import10.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

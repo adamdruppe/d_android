@@ -16,7 +16,7 @@ final class Face : IJavaObject {
 	@Import import1.Point getRightEyePosition();
 	@Import import1.Point getMouthPosition();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

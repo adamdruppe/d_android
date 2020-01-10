@@ -23,7 +23,7 @@ final class Float : IJavaObject {
 	@Import bool isNaN();
 	@Import bool isInfinite();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import byte byteValue();
 	@Import short shortValue();
 	@Import int intValue();

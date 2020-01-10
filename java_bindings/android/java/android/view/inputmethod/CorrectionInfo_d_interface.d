@@ -15,7 +15,7 @@ final class CorrectionInfo : IJavaObject {
 	@Import import0.CharSequence getOldText();
 	@Import import0.CharSequence getNewText();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int describeContents();
 	@Import import2.Class getClass();

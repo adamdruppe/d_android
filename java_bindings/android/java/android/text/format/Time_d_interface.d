@@ -18,7 +18,7 @@ final class Time : IJavaObject {
 	@Import static int compare(import0.Time, import0.Time);
 	@Import string format(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool parse(string);
 	@Import bool parse3339(string);
 	@Import static string getCurrentTimezone();

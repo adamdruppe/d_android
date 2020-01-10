@@ -66,7 +66,7 @@ final class ChangeClipBounds : IJavaObject {
 	@Import import14.TransitionPropagation getPropagation();
 	@Import bool canRemoveViews();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import5.Transition clone();
 	@Import string getName();
 	@Import import7.Class getClass();

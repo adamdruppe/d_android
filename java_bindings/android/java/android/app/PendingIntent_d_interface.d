@@ -40,7 +40,7 @@ final class PendingIntent : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import8.Parcel, int);
 	@Import static void writePendingIntentOrNullToParcel(import0.PendingIntent, import8.Parcel);

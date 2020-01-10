@@ -84,7 +84,7 @@ final class JapaneseCalendar : IJavaObject {
 	@Import bool isWeekend();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static import6.Calendar_WeekData getWeekDataForRegion(string);
 	@Import import6.Calendar_WeekData getWeekData();
 	@Import import4.Calendar setWeekData(import6.Calendar_WeekData);

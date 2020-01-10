@@ -18,7 +18,7 @@ final class MidiDevice : IJavaObject {
 	@Import import3.MidiDevice_MidiConnection connectPorts(import1.MidiInputPort, int);
 	@Import void close();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import4.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

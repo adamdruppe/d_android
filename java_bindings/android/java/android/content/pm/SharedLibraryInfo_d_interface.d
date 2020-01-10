@@ -19,7 +19,7 @@ final class SharedLibraryInfo : IJavaObject {
 	@Import import1.List getDependentPackages();
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import import3.Class getClass();
 	@Import int hashCode();

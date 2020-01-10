@@ -18,7 +18,7 @@ final class DelegateLastClassLoader : IJavaObject {
 	@Import import2.Enumeration getResources(string);
 	@Import string findLibrary(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class loadClass(string);
 	@Import static import1.URL getSystemResource(string);
 	@Import static import2.Enumeration getSystemResources(string);

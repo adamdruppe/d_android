@@ -27,7 +27,7 @@ final class AssetFileDescriptor : IJavaObject {
 	@Import import3.FileInputStream createInputStream();
 	@Import import4.FileOutputStream createOutputStream();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import5.Parcel, int);
 	@Import import6.Class getClass();

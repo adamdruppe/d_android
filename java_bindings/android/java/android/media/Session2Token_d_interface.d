@@ -18,7 +18,7 @@ final class Session2Token : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getUid();
 	@Import string getPackageName();
 	@Import string getServiceName();

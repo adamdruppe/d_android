@@ -14,7 +14,7 @@ final class MidiDeviceStatus : IJavaObject {
 	@Import bool isInputPortOpen(int);
 	@Import int getOutputPortOpenCount(int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import import2.Class getClass();

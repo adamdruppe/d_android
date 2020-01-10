@@ -26,7 +26,7 @@ final class CertificateRevokedException : IJavaObject {
 	@Import import4.JavaThrowable getCause();
 	@Import import4.JavaThrowable initCause(import4.JavaThrowable);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void printStackTrace();
 	@Import void printStackTrace(import5.PrintStream);
 	@Import void printStackTrace(import6.PrintWriter);

@@ -19,7 +19,7 @@ final class GsmCellLocation : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void fillInNotifierBundle(import0.Bundle);
 	@Import static void requestLocationUpdate();
 	@Import static import1.CellLocation getEmpty();

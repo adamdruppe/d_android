@@ -107,7 +107,7 @@ final class PreferenceScreen : IJavaObject {
 	@Import bool persistStringSet(import20.Set);
 	@Import import20.Set getPersistedStringSet(import20.Set);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void saveHierarchyState(import10.Bundle);
 	@Import void restoreHierarchyState(import10.Bundle);
 	@Import int compareTo(IJavaObject);

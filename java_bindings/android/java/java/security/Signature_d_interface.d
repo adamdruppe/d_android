@@ -34,7 +34,7 @@ final class Signature : IJavaObject {
 	@Import void update(import6.ByteBuffer);
 	@Import string getAlgorithm();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void setParameter(string, IJavaObject);
 	@Import void setParameter(import7.AlgorithmParameterSpec);
 	@Import import8.AlgorithmParameters getParameters();

@@ -22,7 +22,7 @@ final class PersistableBundle : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int size();
 	@Import bool isEmpty();
 	@Import void clear();

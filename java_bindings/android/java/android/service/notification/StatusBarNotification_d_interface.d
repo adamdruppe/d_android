@@ -19,7 +19,7 @@ final class StatusBarNotification : IJavaObject {
 	@Import int describeContents();
 	@Import import3.StatusBarNotification clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool isOngoing();
 	@Import bool isClearable();
 	@Import int getUserId();

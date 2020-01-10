@@ -42,7 +42,7 @@ final class Preferences : IJavaObject {
 	@Import string absolutePath();
 	@Import bool isUserNode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void flush();
 	@Import void sync();
 	@Import void addPreferenceChangeListener(import2.PreferenceChangeListener);

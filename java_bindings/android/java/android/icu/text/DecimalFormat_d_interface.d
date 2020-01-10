@@ -119,7 +119,7 @@ final class DecimalFormat : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toPattern();
 	@Import string toLocalizedPattern();
 	@Import import2.StringBuffer format(IJavaObject, import2.StringBuffer, import3.FieldPosition);

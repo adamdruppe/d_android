@@ -15,7 +15,7 @@ final class SQLiteStatement : IJavaObject {
 	@Import string simpleQueryForString();
 	@Import import0.ParcelFileDescriptor simpleQueryForBlobFileDescriptor();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getUniqueId();
 	@Import void bindNull(int);
 	@Import void bindLong(int, long);

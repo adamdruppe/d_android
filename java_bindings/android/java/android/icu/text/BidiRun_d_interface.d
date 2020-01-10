@@ -15,7 +15,7 @@ final class BidiRun : IJavaObject {
 	@Import bool isEvenRun();
 	@Import byte getDirection();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

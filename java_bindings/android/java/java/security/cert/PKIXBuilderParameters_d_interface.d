@@ -19,7 +19,7 @@ final class PKIXBuilderParameters : IJavaObject {
 	@Import void setMaxPathLength(int);
 	@Import int getMaxPathLength();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Set getTrustAnchors();
 	@Import void setTrustAnchors(import0.Set);
 	@Import import0.Set getInitialPolicies();

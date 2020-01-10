@@ -53,7 +53,7 @@ final class Conference : IJavaObject {
 	@Import void setConnectionStartElapsedRealTime(long);
 	@Import long getConnectionTime();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void setStatusHints(import6.StatusHints);
 	@Import import6.StatusHints getStatusHints();
 	@Import void setExtras(import7.Bundle);

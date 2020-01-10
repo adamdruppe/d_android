@@ -24,7 +24,7 @@ final class IntentSender : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import5.Parcel, int);
 	@Import static void writeIntentSenderOrNullToParcel(import6.IntentSender, import5.Parcel);

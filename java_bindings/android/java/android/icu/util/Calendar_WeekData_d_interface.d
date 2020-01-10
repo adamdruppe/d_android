@@ -12,7 +12,7 @@ final class Calendar_WeekData : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

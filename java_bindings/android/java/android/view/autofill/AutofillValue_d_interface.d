@@ -22,7 +22,7 @@ final class AutofillValue : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import static import2.AutofillValue forText(import0.CharSequence);

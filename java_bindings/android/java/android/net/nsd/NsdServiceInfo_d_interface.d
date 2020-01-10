@@ -24,7 +24,7 @@ final class NsdServiceInfo : IJavaObject {
 	@Import void removeAttribute(string);
 	@Import import1.Map getAttributes();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import import3.Class getClass();

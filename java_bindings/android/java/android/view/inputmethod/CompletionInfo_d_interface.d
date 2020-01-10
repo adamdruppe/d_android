@@ -17,7 +17,7 @@ final class CompletionInfo : IJavaObject {
 	@Import import0.CharSequence getText();
 	@Import import0.CharSequence getLabel();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import int describeContents();
 	@Import import2.Class getClass();

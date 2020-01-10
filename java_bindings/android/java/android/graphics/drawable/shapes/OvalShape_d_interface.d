@@ -25,7 +25,7 @@ final class OvalShape : IJavaObject {
 	@Import bool hasAlpha();
 	@Import import6.Class getClass();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void notify();
 	@Import void notifyAll();
 	@Import void wait(long);

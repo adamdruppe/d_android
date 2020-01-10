@@ -12,7 +12,7 @@ final class VolumeShaper_Configuration : IJavaObject {
 	];
 	@Import static int getMaximumCurvePoints();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import int describeContents();

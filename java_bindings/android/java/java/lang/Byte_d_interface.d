@@ -25,7 +25,7 @@ final class Byte : IJavaObject {
 	@Import float floatValue();
 	@Import double doubleValue();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import static int hashCode(byte);
 	@Import bool equals(IJavaObject);

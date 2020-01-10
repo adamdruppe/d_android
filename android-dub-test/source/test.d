@@ -3,12 +3,10 @@ module test;
 import arsd.jni;
 
 // it is possible to import Java methods from Android APIs
+// BUT be warned: this takes > 30 seconds an 3.5 GB of compiler RAM to build on my box!!!
+// I'm trying to devise ways to make it more efficient but nothing is ever going to beat
+// DIYing just he methods you need, like below
 import android.java.android.widget.TextView;
-
-// it is important to import the module for any Java class you actually
-// call methods on btw, even if the compiler doesn't force you to. If
-// you do not explicitly import the module, the implementations will not
-// be linked in.
 
 /+
 // or you can declare just what you specifically need (also gives faster builds!)

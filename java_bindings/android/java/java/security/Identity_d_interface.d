@@ -26,7 +26,7 @@ final class Identity : IJavaObject {
 	@Import import2.Certificate[] certificates();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import @JavaName("toString") string toString_(bool);
 	@Import int hashCode();
 	@Import import3.Class getClass();

@@ -59,7 +59,7 @@ final class ConcurrentSkipListSet : IJavaObject {
 	@Import bool addAll(import1.Collection);
 	@Import bool retainAll(import1.Collection);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import7.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

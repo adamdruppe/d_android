@@ -35,7 +35,7 @@ final class ActivityOptions : IJavaObject {
 	@Import void requestUsageTimeReport(import8.PendingIntent);
 	@Import import0.ActivityOptions setAppVerificationBundle(import7.Bundle);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import9.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

@@ -31,7 +31,7 @@ final class X509CRLSelector : IJavaObject {
 	@Import import3.Date getDateAndTime();
 	@Import import4.X509Certificate getCertificateChecking();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool match(import5.CRL);
 	@Import IJavaObject clone();
 	@Import import6.Class getClass();

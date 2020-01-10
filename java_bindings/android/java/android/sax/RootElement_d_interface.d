@@ -27,7 +27,7 @@ final class RootElement : IJavaObject {
 	@Import void setEndElementListener(import5.EndElementListener);
 	@Import void setEndTextElementListener(import6.EndTextElementListener);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import7.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

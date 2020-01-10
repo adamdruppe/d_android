@@ -12,7 +12,7 @@ final class AssociationRequest : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	@Import import1.Class getClass();

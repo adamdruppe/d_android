@@ -43,7 +43,7 @@ final class MediaFormat : IJavaObject {
 	@Import static import0.MediaFormat createSubtitleFormat(string, string);
 	@Import static import0.MediaFormat createVideoFormat(string, int, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import4.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

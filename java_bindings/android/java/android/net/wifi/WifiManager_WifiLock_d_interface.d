@@ -15,7 +15,7 @@ final class WifiManager_WifiLock : IJavaObject {
 	@Import bool isHeld();
 	@Import void setWorkSource(import0.WorkSource);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

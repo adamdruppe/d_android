@@ -40,7 +40,7 @@ final class AccessibilityEvent : IJavaObject {
 	@Import void writeToParcel(import3.Parcel, int);
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static string eventTypeToString(int);
 	@Import void setSource(import4.View);
 	@Import void setSource(import4.View, int);

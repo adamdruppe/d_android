@@ -15,7 +15,7 @@ final class ParcelUuid : IJavaObject {
 	@Import static import1.ParcelUuid fromString(string);
 	@Import import0.UUID getUuid();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import int describeContents();

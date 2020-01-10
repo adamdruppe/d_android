@@ -80,7 +80,7 @@ final class CompletableFuture : IJavaObject {
 	@Import void obtrudeException(import5.JavaThrowable);
 	@Import int getNumberOfDependents();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import11.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

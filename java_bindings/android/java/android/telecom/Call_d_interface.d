@@ -54,7 +54,7 @@ final class Call : IJavaObject {
 	@Import void registerCallback(import8.Call_Callback, import9.Handler);
 	@Import void unregisterCallback(import8.Call_Callback);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import10.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

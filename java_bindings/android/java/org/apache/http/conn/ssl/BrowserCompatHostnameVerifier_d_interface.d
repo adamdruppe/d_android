@@ -13,7 +13,7 @@ final class BrowserCompatHostnameVerifier : IJavaObject {
 	@Import this(arsd.jni.Default);
 	@Import void verify(string, string, string[][]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void verify(string, import0.SSLSocket);
 	@Import bool verify(string, import1.SSLSession);
 	@Import void verify(string, import2.X509Certificate);

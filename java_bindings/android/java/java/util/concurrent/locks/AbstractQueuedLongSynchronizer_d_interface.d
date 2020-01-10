@@ -29,7 +29,7 @@ final class AbstractQueuedLongSynchronizer : IJavaObject {
 	@Import import1.Collection getExclusiveQueuedThreads();
 	@Import import1.Collection getSharedQueuedThreads();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool owns(import2.AbstractQueuedLongSynchronizer_ConditionObject);
 	@Import bool hasWaiters(import2.AbstractQueuedLongSynchronizer_ConditionObject);
 	@Import int getWaitQueueLength(import2.AbstractQueuedLongSynchronizer_ConditionObject);

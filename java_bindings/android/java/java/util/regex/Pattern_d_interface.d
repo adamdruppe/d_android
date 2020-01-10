@@ -17,7 +17,7 @@ final class Pattern : IJavaObject {
 	@Import static import0.Pattern compile(string, int);
 	@Import string pattern();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Matcher matcher(import2.CharSequence);
 	@Import int flags();
 	@Import static bool matches(string, import2.CharSequence);

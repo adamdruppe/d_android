@@ -13,7 +13,7 @@ final class LuhnChecksumValidator : IJavaObject {
 	];
 	@Import this(import0.AutofillId[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import import2.Class getClass();

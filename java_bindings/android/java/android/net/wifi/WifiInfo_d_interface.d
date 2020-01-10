@@ -27,7 +27,7 @@ final class WifiInfo : IJavaObject {
 	@Import bool getHiddenSSID();
 	@Import static import1.NetworkInfo_DetailedState getDetailedStateOf(import0.SupplicantState);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import import3.Class getClass();

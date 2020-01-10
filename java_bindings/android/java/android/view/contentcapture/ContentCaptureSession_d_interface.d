@@ -29,7 +29,7 @@ final class ContentCaptureSession : IJavaObject {
 	@Import import4.AutofillId newAutofillId(import4.AutofillId, long);
 	@Import import3.ViewStructure newVirtualViewStructure(import4.AutofillId, long);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import7.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

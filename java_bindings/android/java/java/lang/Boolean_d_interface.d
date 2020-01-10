@@ -18,7 +18,7 @@ final class Boolean : IJavaObject {
 	@Import static import0.Boolean valueOf(string);
 	@Import static @JavaName("toString") string toString_(bool);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import static int hashCode(bool);
 	@Import bool equals(IJavaObject);

@@ -16,7 +16,7 @@ final class LongAdder : IJavaObject {
 	@Import void reset();
 	@Import long sumThenReset();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import long longValue();
 	@Import int intValue();
 	@Import float floatValue();

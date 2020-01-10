@@ -54,7 +54,7 @@ final class StringBuilder : IJavaObject {
 	@Import int lastIndexOf(string, int);
 	@Import import1.StringBuilder reverse();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void trimToSize();
 	@Import int codePointAt(int);
 	@Import void getChars(int, int, wchar, int[]);

@@ -73,7 +73,7 @@ final class BigDecimal : IJavaObject {
 	@Import import1.BigInteger toBigIntegerExact();
 	@Import wchar[] toCharArray();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.BigInteger unscaledValue();
 	@Import static import2.BigDecimal valueOf(double);
 	@Import static import2.BigDecimal valueOf(long);

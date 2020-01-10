@@ -13,7 +13,7 @@ final class ConnectEvent : IJavaObject {
 	@Import import0.InetAddress getInetAddress();
 	@Import int getPort();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import string getPackageName();

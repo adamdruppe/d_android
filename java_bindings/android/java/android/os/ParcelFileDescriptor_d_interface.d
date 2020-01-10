@@ -40,7 +40,7 @@ final class ParcelFileDescriptor : IJavaObject {
 	@Import bool canDetectErrors();
 	@Import void checkError();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import7.Parcel, int);
 	@Import import8.Class getClass();

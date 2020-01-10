@@ -73,7 +73,7 @@ final class LinkedList : IJavaObject {
 	@Import bool removeAll(import0.Collection);
 	@Import bool retainAll(import0.Collection);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import5.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

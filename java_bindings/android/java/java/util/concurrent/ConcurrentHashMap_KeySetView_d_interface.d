@@ -36,7 +36,7 @@ final class ConcurrentHashMap_KeySetView : IJavaObject {
 	@Import IJavaObject[] toArray();
 	@Import IJavaObject[] toArray(IJavaObject[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import4.ConcurrentHashMap getMap();
 	@Import bool retainAll(import1.Collection);
 	@Import import5.Class getClass();

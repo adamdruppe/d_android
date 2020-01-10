@@ -22,7 +22,7 @@ final class WorkSource : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

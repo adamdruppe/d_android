@@ -53,7 +53,7 @@ final class DateTimeFormatter : IJavaObject {
 	@Import import14.Format toFormat();
 	@Import import14.Format toFormat(import3.TemporalQuery);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import15.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

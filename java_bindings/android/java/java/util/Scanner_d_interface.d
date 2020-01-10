@@ -43,7 +43,7 @@ final class Scanner : IJavaObject {
 	@Import import7.Scanner useRadix(int);
 	@Import import9.MatchResult match();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool hasNext();
 	@Import string next();
 	@Import void remove();

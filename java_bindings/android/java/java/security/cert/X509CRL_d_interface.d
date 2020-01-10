@@ -39,7 +39,7 @@ final class X509CRL : IJavaObject {
 	@Import byte[] getSigAlgParams();
 	@Import string getType();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool isRevoked(import9.Certificate);
 	@Import import10.Class getClass();
 	@Import void notify();

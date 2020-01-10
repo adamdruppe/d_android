@@ -26,7 +26,7 @@ final class TemporalField : IJavaObject {
 	@Import import4.Temporal adjustInto(import4.Temporal, long);
 	@Import import3.TemporalAccessor resolve(import5.Map, import3.TemporalAccessor, import6.ResolverStyle);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import7.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

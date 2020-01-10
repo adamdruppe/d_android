@@ -60,7 +60,7 @@ final class Matrix : IJavaObject {
 	@Import void getValues(float[]);
 	@Import void setValues(float[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toShortString();
 	@Import import3.Class getClass();
 	@Import void notify();

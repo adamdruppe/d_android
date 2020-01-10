@@ -48,7 +48,7 @@ final class BigInteger : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import @JavaName("toString") string toString_(int);
 	@Import import1.BigInteger gcd(import1.BigInteger);
 	@Import import1.BigInteger multiply(import1.BigInteger);

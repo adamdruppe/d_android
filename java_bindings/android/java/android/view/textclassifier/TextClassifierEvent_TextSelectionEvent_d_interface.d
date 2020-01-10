@@ -31,7 +31,7 @@ final class TextClassifierEvent_TextSelectionEvent : IJavaObject {
 	@Import import2.ULocale getLocale();
 	@Import import3.Bundle getExtras();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import4.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

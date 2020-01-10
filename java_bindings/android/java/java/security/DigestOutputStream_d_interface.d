@@ -16,7 +16,7 @@ final class DigestOutputStream : IJavaObject {
 	@Import void write(byte, int, int[]);
 	@Import void on(bool);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void write(byte[]);
 	@Import void flush();
 	@Import void close();

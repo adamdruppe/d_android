@@ -23,7 +23,7 @@ final class Class : IJavaObject {
 		"java/lang/reflect/AnnotatedElement",
 	];
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toGenericString();
 	@Import static import0.Class forName(string);
 	@Import static import0.Class forName(string, bool, import1.ClassLoader);

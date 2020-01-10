@@ -12,7 +12,7 @@ final class FontVariationAxis : IJavaObject {
 	@Import string getTag();
 	@Import float getStyleValue();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static import0.FontVariationAxis[] fromFontVariationSettings(string);
 	@Import static string toFontVariationSettings(import0.FontVariationAxis[]);
 	@Import bool equals(IJavaObject);

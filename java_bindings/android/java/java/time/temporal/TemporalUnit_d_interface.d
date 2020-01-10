@@ -17,7 +17,7 @@ final class TemporalUnit : IJavaObject {
 	@Import import1.Temporal addTo(import1.Temporal, long);
 	@Import long between(import1.Temporal, import1.Temporal);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

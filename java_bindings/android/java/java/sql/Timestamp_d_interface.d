@@ -16,7 +16,7 @@ final class Timestamp : IJavaObject {
 	@Import long getTime();
 	@Import static import0.Timestamp valueOf(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getNanos();
 	@Import void setNanos(int);
 	@Import bool equals(import0.Timestamp);

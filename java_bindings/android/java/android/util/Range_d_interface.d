@@ -23,7 +23,7 @@ final class Range : IJavaObject {
 	@Import import1.Range extend(import0.Comparable, import0.Comparable);
 	@Import import1.Range extend(import0.Comparable);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import import2.Class getClass();
 	@Import void notify();

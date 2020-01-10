@@ -31,7 +31,7 @@ final class TransformerConfigurationException : IJavaObject {
 	@Import string getMessage();
 	@Import string getLocalizedMessage();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.JavaThrowable fillInStackTrace();
 	@Import import4.StackTraceElement[] getStackTrace();
 	@Import void setStackTrace(import4.StackTraceElement[]);

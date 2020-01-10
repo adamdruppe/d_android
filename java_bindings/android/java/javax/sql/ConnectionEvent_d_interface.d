@@ -14,7 +14,7 @@ final class ConnectionEvent : IJavaObject {
 	@Import import1.SQLException getSQLException();
 	@Import IJavaObject getSource();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

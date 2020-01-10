@@ -17,7 +17,7 @@ final class InstrumentationInfo : IJavaObject {
 	@Import this(arsd.jni.Default);
 	@Import this(import0.InstrumentationInfo);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import import2.CharSequence loadLabel(import3.PackageManager);

@@ -18,7 +18,7 @@ final class AlteredCharSequence : IJavaObject {
 	@Import import1.CharSequence subSequence(int, int);
 	@Import void getChars(int, int, wchar, int[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

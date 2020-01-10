@@ -13,7 +13,7 @@ final class DynamicsProcessing_Eq : IJavaObject {
 	@Import this(bool, bool, int);
 	@Import this(import0.DynamicsProcessing_Eq);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void setBand(int, import1.DynamicsProcessing_EqBand);
 	@Import import1.DynamicsProcessing_EqBand getBand(int);
 	@Import int getBandCount();

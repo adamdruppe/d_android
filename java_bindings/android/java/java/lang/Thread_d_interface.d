@@ -56,7 +56,7 @@ final class Thread : IJavaObject {
 	@Import bool isDaemon();
 	@Import void checkAccess();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import4.ClassLoader getContextClassLoader();
 	@Import void setContextClassLoader(import4.ClassLoader);
 	@Import static bool holdsLock(IJavaObject);

@@ -14,7 +14,7 @@ final class MediaTimestamp : IJavaObject {
 	@Import float getMediaClockRate();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Class getClass();
 	@Import int hashCode();
 	@Import void notify();

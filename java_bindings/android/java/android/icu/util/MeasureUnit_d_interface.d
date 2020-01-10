@@ -14,7 +14,7 @@ final class MeasureUnit : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static import0.Set getAvailableTypes();
 	@Import static import0.Set getAvailable(string);
 	@Import static import0.Set getAvailable();

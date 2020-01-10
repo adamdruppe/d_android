@@ -19,7 +19,7 @@ final class Transformation : IJavaObject {
 	@Import void setAlpha(float);
 	@Import float getAlpha();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toShortString();
 	@Import import2.Class getClass();
 	@Import int hashCode();

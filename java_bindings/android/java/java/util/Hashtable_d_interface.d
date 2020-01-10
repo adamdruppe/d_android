@@ -35,7 +35,7 @@ final class Hashtable : IJavaObject {
 	@Import void clear();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Set keySet();
 	@Import import2.Set entrySet();
 	@Import import3.Collection values();

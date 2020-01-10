@@ -13,7 +13,7 @@ final class ConfigurationInfo : IJavaObject {
 	@Import this(arsd.jni.Default);
 	@Import this(import0.ConfigurationInfo);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import string getGlEsVersion();

@@ -46,7 +46,7 @@ final class ByteBuffer : IJavaObject {
 	@Import import0.ByteBuffer compact();
 	@Import bool isDirect();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import int compareTo(import0.ByteBuffer);

@@ -36,7 +36,7 @@ final class Charset : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int compareTo(IJavaObject);
 	@Import import8.Class getClass();
 	@Import void notify();

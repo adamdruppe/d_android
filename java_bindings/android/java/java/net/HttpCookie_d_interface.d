@@ -37,7 +37,7 @@ final class HttpCookie : IJavaObject {
 	@Import void setHttpOnly(bool);
 	@Import static bool domainMatches(string, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import IJavaObject clone();

@@ -52,7 +52,7 @@ final class ColorSpace_Rgb : IJavaObject {
 	@Import float[] toXyz(float, float, float);
 	@Import float[] fromXyz(float, float, float);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static import3.ColorSpace_Connector connect(import4.ColorSpace, import4.ColorSpace);
 	@Import static import3.ColorSpace_Connector connect(import4.ColorSpace, import4.ColorSpace, import5.ColorSpace_RenderIntent);
 	@Import static import3.ColorSpace_Connector connect(import4.ColorSpace);

@@ -34,7 +34,7 @@ final class StampedLock : IJavaObject {
 	@Import bool isReadLocked();
 	@Import int getReadLockCount();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Lock asReadLock();
 	@Import import1.Lock asWriteLock();
 	@Import import2.ReadWriteLock asReadWriteLock();

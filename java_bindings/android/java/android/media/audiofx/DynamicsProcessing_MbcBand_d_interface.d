@@ -12,7 +12,7 @@ final class DynamicsProcessing_MbcBand : IJavaObject {
 	@Import this(bool, float, float, float, float, float, float, float, float, float, float);
 	@Import this(import0.DynamicsProcessing_MbcBand);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import float getAttackTime();
 	@Import void setAttackTime(float);
 	@Import float getReleaseTime();

@@ -10,7 +10,7 @@ final class Annotation : IJavaObject {
 	@Import this(IJavaObject);
 	@Import IJavaObject getValue();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

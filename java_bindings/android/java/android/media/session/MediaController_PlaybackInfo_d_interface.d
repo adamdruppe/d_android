@@ -17,7 +17,7 @@ final class MediaController_PlaybackInfo : IJavaObject {
 	@Import int getCurrentVolume();
 	@Import import0.AudioAttributes getAudioAttributes();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import import2.Class getClass();

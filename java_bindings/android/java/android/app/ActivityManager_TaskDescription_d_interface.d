@@ -26,7 +26,7 @@ final class ActivityManager_TaskDescription : IJavaObject {
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import void readFromParcel(import2.Parcel);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

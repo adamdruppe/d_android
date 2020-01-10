@@ -89,7 +89,7 @@ final class Bundle : IJavaObject {
 	@Import void writeToParcel(import12.Parcel, int);
 	@Import void readFromParcel(import12.Parcel);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int size();
 	@Import bool isEmpty();
 	@Import bool containsKey(string);

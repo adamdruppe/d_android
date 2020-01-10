@@ -99,7 +99,7 @@ final class PreferenceGroup : IJavaObject {
 	@Import bool persistStringSet(import16.Set);
 	@Import import16.Set getPersistedStringSet(import16.Set);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void saveHierarchyState(import6.Bundle);
 	@Import void restoreHierarchyState(import6.Bundle);
 	@Import int compareTo(IJavaObject);

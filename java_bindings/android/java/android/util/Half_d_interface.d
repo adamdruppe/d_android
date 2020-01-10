@@ -24,7 +24,7 @@ final class Half : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int compareTo(import0.Half);
 	@Import static int hashCode(short);
 	@Import static int compare(short, short);

@@ -27,7 +27,7 @@ final class ScanFilter : IJavaObject {
 	@Import byte[] getManufacturerDataMask();
 	@Import bool matches(import2.ScanResult);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import import3.Class getClass();

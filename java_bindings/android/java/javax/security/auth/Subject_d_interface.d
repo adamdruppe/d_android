@@ -30,7 +30,7 @@ final class Subject : IJavaObject {
 	@Import import0.Set getPrivateCredentials(import5.Class);
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import import5.Class getClass();
 	@Import void notify();

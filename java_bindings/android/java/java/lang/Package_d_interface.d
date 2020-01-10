@@ -25,7 +25,7 @@ final class Package : IJavaObject {
 	@Import static import1.Package[] getPackages();
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Annotation getAnnotation(import3.Class);
 	@Import bool isAnnotationPresent(import3.Class);
 	@Import import2.Annotation[] getAnnotationsByType(import3.Class);

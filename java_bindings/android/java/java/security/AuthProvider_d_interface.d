@@ -30,7 +30,7 @@ final class AuthProvider : IJavaObject {
 	@Import double getVersion();
 	@Import string getInfo();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void clear();
 	@Import void load(import2.InputStream);
 	@Import void putAll(import3.Map);

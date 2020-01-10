@@ -16,7 +16,7 @@ final class LocalSocket : IJavaObject {
 	@Import this(arsd.jni.Default);
 	@Import this(int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void connect(import0.LocalSocketAddress);
 	@Import void bind(import0.LocalSocketAddress);
 	@Import import0.LocalSocketAddress getLocalSocketAddress();

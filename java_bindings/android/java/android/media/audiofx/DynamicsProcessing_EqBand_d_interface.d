@@ -12,7 +12,7 @@ final class DynamicsProcessing_EqBand : IJavaObject {
 	@Import this(bool, float, float);
 	@Import this(import0.DynamicsProcessing_EqBand);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import float getGain();
 	@Import void setGain(float);
 	@Import bool isEnabled();

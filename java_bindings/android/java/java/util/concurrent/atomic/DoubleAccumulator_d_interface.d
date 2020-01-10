@@ -15,7 +15,7 @@ final class DoubleAccumulator : IJavaObject {
 	@Import void reset();
 	@Import double getThenReset();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import double doubleValue();
 	@Import long longValue();
 	@Import int intValue();

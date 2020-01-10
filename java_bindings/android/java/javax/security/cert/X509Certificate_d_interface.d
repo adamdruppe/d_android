@@ -33,7 +33,7 @@ final class X509Certificate : IJavaObject {
 	@Import void verify(import5.PublicKey);
 	@Import void verify(import5.PublicKey, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import5.PublicKey getPublicKey();
 	@Import import6.Class getClass();
 	@Import void notify();

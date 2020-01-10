@@ -67,7 +67,7 @@ final class X509CertSelector : IJavaObject {
 	@Import import5.Set getPolicy();
 	@Import import6.Collection getPathToNames();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool match(import7.Certificate);
 	@Import IJavaObject clone();
 	@Import import8.Class getClass();

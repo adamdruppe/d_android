@@ -35,7 +35,7 @@ final class ZipEntry : IJavaObject {
 	@Import string getComment();
 	@Import bool isDirectory();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import IJavaObject clone();
 	@Import import2.Class getClass();

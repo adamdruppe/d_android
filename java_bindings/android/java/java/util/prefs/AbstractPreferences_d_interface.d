@@ -42,7 +42,7 @@ final class AbstractPreferences : IJavaObject {
 	@Import void addNodeChangeListener(import2.NodeChangeListener);
 	@Import void removeNodeChangeListener(import2.NodeChangeListener);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void sync();
 	@Import void flush();
 	@Import void exportNode(import3.OutputStream);

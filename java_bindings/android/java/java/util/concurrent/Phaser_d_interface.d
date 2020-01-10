@@ -30,7 +30,7 @@ final class Phaser : IJavaObject {
 	@Import import0.Phaser getRoot();
 	@Import bool isTerminated();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

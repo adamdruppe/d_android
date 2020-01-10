@@ -16,7 +16,7 @@
 			"sourcePaths": ["translated_headers"],
 			"importPaths": ["translated_headers"],
 			"dependencies": {
-				"arsd-official:jni": ">=5.0.1"
+				"arsd-official:jni": ">=5.0.2"
 			},
 			"targetType": "library"
 		},
@@ -26,7 +26,7 @@
 			"importPaths": ["java_bindings"],
 			"dflags": ["-i"],
 			"dependencies": {
-				"arsd-official:jni": ">=5.0.1"
+				"arsd-official:jni": ">=5.0.2"
 			},
 			"targetType": "sourceLibrary"
 		}

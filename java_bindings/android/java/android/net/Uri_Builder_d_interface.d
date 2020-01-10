@@ -28,7 +28,7 @@ final class Uri_Builder : IJavaObject {
 	@Import import0.Uri_Builder clearQuery();
 	@Import import1.Uri build();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

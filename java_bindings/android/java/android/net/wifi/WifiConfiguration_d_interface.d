@@ -15,7 +15,7 @@ final class WifiConfiguration : IJavaObject {
 	@Import import0.MacAddress getRandomizedMacAddress();
 	@Import bool isPasspoint();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.ProxyInfo getHttpProxy();
 	@Import void setHttpProxy(import1.ProxyInfo);
 	@Import int describeContents();

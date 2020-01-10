@@ -11,7 +11,7 @@ final class StructTimeval : IJavaObject {
 	@Import static import0.StructTimeval fromMillis(long);
 	@Import long toMillis();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import1.Class getClass();

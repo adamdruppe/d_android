@@ -30,7 +30,7 @@ final class SSLServerSocket : IJavaObject {
 	@Import import0.SSLParameters getSSLParameters();
 	@Import void setSSLParameters(import0.SSLParameters);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void bind(import1.SocketAddress);
 	@Import void bind(import1.SocketAddress, int);
 	@Import import2.InetAddress getInetAddress();

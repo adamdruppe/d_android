@@ -28,7 +28,7 @@ final class Inet4Address : IJavaObject {
 	@Import string getHostName();
 	@Import string getCanonicalHostName();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static import1.InetAddress getByAddress(string, byte[]);
 	@Import static import1.InetAddress getByName(string);
 	@Import static import1.InetAddress[] getAllByName(string);

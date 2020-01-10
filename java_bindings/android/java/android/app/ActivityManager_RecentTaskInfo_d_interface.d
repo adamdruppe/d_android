@@ -15,7 +15,7 @@ final class ActivityManager_RecentTaskInfo : IJavaObject {
 	@Import void readFromParcel(import0.Parcel);
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

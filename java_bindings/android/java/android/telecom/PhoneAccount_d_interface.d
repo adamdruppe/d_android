@@ -36,7 +36,7 @@ final class PhoneAccount : IJavaObject {
 	@Import int describeContents();
 	@Import void writeToParcel(import7.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import8.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

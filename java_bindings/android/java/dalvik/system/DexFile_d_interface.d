@@ -16,7 +16,7 @@ final class DexFile : IJavaObject {
 	@Import static import1.DexFile loadDex(string, string, int);
 	@Import string getName();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void close();
 	@Import import2.Class loadClass(string, import3.ClassLoader);
 	@Import import4.Enumeration entries();

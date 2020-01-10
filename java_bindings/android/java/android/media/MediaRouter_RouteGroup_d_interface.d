@@ -26,7 +26,7 @@ final class MediaRouter_RouteGroup : IJavaObject {
 	@Import void requestSetVolume(int);
 	@Import void requestUpdateVolume(int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.CharSequence getName();
 	@Import import2.CharSequence getName(import3.Context);
 	@Import import2.CharSequence getDescription();

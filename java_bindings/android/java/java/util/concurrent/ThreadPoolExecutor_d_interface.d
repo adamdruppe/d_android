@@ -50,7 +50,7 @@ final class ThreadPoolExecutor : IJavaObject {
 	@Import long getTaskCount();
 	@Import long getCompletedTaskCount();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import6.Future submit(import4.Runnable);
 	@Import import6.Future submit(import4.Runnable, IJavaObject);
 	@Import import6.Future submit(import7.Callable);

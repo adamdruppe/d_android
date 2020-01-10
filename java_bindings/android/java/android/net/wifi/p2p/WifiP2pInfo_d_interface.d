@@ -13,7 +13,7 @@ final class WifiP2pInfo : IJavaObject {
 	@Import this(arsd.jni.Default);
 	@Import this(import0.WifiP2pInfo);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import import2.Class getClass();

@@ -53,7 +53,7 @@ final class CharBuffer : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int compareTo(import0.CharBuffer);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int length();
 	@Import wchar charAt(int);
 	@Import import0.CharBuffer subSequence(int, int);

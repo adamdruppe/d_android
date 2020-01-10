@@ -8,7 +8,7 @@ final class SQLiteQuery : IJavaObject {
 	static immutable string[] _d_canCastTo = [
 	];
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getUniqueId();
 	@Import void bindNull(int);
 	@Import void bindLong(int, long);

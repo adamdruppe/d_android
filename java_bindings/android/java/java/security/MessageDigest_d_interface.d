@@ -22,7 +22,7 @@ final class MessageDigest : IJavaObject {
 	@Import int digest(byte, int, int[]);
 	@Import byte[] digest(byte[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static bool isEqual(byte, byte[][]);
 	@Import void reset();
 	@Import string getAlgorithm();

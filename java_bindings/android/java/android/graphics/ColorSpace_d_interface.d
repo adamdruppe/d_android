@@ -27,7 +27,7 @@ final class ColorSpace : IJavaObject {
 	@Import float[] fromXyz(float, float, float);
 	@Import float[] fromXyz(float[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import static import1.ColorSpace_Connector connect(import2.ColorSpace, import2.ColorSpace);

@@ -27,7 +27,7 @@ final class PluralRules : IJavaObject {
 	@Import import5.Collection getAllKeywordValues(string);
 	@Import import5.Collection getSamples(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import bool equals(import0.PluralRules);
 	@Import import6.Class getClass();

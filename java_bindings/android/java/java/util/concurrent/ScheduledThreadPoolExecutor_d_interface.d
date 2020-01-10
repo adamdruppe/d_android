@@ -65,7 +65,7 @@ final class ScheduledThreadPoolExecutor : IJavaObject {
 	@Import long getTaskCount();
 	@Import long getCompletedTaskCount();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import IJavaObject invokeAny(import9.Collection);
 	@Import IJavaObject invokeAny(import9.Collection, long, import4.TimeUnit);
 	@Import import7.List invokeAll(import9.Collection);

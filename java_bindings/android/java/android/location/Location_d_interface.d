@@ -62,7 +62,7 @@ final class Location : IJavaObject {
 	@Import import1.Bundle getExtras();
 	@Import void setExtras(import1.Bundle);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void dump(import2.Printer, string);
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);

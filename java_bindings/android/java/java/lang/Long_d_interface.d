@@ -33,7 +33,7 @@ final class Long : IJavaObject {
 	@Import float floatValue();
 	@Import double doubleValue();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import static int hashCode(long);
 	@Import bool equals(IJavaObject);

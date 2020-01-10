@@ -21,7 +21,7 @@ final class ApplicationInfo : IJavaObject {
 	@Import static import1.CharSequence getCategoryTitle(import2.Context, int);
 	@Import void dump(import3.Printer, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import import1.CharSequence loadDescription(import5.PackageManager);

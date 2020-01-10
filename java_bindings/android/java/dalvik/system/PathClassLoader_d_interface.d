@@ -15,7 +15,7 @@ final class PathClassLoader : IJavaObject {
 	@Import this(string, string, import0.ClassLoader);
 	@Import string findLibrary(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Class loadClass(string);
 	@Import import2.URL getResource(string);
 	@Import import3.Enumeration getResources(string);

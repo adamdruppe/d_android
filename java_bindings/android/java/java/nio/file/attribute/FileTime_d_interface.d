@@ -21,7 +21,7 @@ final class FileTime : IJavaObject {
 	@Import int hashCode();
 	@Import int compareTo(import0.FileTime);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int compareTo(IJavaObject);
 	@Import import3.Class getClass();
 	@Import void notify();

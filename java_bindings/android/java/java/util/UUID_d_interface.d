@@ -22,7 +22,7 @@ final class UUID : IJavaObject {
 	@Import int clockSequence();
 	@Import long node();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import int compareTo(import0.UUID);

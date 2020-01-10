@@ -412,7 +412,7 @@ final class CheckBox : IJavaObject {
 	@Import int getExplicitStyle();
 	@Import void saveAttributeDataForStyleable(import0.Context, int, import1.AttributeSet, import48.TypedArray, int, int[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getVerticalFadingEdgeLength();
 	@Import void setFadingEdgeLength(int);
 	@Import int getHorizontalFadingEdgeLength();

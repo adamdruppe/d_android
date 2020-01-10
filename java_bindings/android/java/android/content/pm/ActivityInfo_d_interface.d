@@ -20,7 +20,7 @@ final class ActivityInfo : IJavaObject {
 	@Import int getThemeResource();
 	@Import void dump(import1.Printer, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import bool isEnabled();

@@ -31,7 +31,7 @@ final class ContentProviderOperation : IJavaObject {
 	@Import import5.ContentValues resolveValueBackReferences(import3.ContentProviderResult, int[]);
 	@Import string[] resolveSelectionArgsBackReferences(import3.ContentProviderResult, int[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import import6.Class getClass();
 	@Import int hashCode();

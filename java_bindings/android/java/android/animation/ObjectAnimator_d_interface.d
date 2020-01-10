@@ -58,7 +58,7 @@ final class ObjectAnimator : IJavaObject {
 	@Import void setupEndValues();
 	@Import import1.ObjectAnimator clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static bool areAnimatorsEnabled();
 	@Import static import6.ValueAnimator ofInt(int[]);
 	@Import static import6.ValueAnimator ofArgb(int[]);

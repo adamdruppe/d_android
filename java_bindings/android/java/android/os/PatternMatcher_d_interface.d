@@ -15,7 +15,7 @@ final class PatternMatcher : IJavaObject {
 	@Import int getType();
 	@Import bool match(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import import1.Class getClass();

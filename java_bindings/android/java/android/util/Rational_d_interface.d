@@ -18,7 +18,7 @@ final class Rational : IJavaObject {
 	@Import bool isZero();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import double doubleValue();
 	@Import float floatValue();

@@ -18,7 +18,7 @@ final class Condition : IJavaObject {
 	@Import this(import1.Parcel);
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static string stateToString(int);
 	@Import static string relevanceToString(int);
 	@Import bool equals(IJavaObject);

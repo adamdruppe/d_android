@@ -46,7 +46,7 @@ final class WebViewFragment : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getId();
 	@Import string getTag();
 	@Import void setArguments(import3.Bundle);

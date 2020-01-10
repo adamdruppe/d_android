@@ -17,7 +17,7 @@ final class SAXNotSupportedException : IJavaObject {
 	@Import string getMessage();
 	@Import import0.JavaException getException();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string getLocalizedMessage();
 	@Import import1.JavaThrowable getCause();
 	@Import import1.JavaThrowable initCause(import1.JavaThrowable);

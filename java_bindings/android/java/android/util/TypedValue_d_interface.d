@@ -26,7 +26,7 @@ final class TypedValue : IJavaObject {
 	@Import static string coerceToString(int, int);
 	@Import void setTo(import2.TypedValue);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

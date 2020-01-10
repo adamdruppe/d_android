@@ -41,7 +41,7 @@ final class Currency : IJavaObject {
 	@Import double getRoundingIncrement();
 	@Import double getRoundingIncrement(import6.Currency_CurrencyUsage);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static bool isAvailable(string, import3.Date, import3.Date);
 	@Import string getType();
 	@Import string getSubtype();

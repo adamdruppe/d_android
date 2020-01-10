@@ -25,7 +25,7 @@ final class SparseLongArray : IJavaObject {
 	@Import void clear();
 	@Import void append(int, long);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

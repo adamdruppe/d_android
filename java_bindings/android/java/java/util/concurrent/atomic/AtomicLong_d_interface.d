@@ -29,7 +29,7 @@ final class AtomicLong : IJavaObject {
 	@Import long getAndAccumulate(long, import1.LongBinaryOperator);
 	@Import long accumulateAndGet(long, import1.LongBinaryOperator);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int intValue();
 	@Import long longValue();
 	@Import float floatValue();

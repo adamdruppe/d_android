@@ -18,7 +18,7 @@ final class RouteInfo : IJavaObject {
 	@Import bool hasGateway();
 	@Import bool matches(import1.InetAddress);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import int describeContents();

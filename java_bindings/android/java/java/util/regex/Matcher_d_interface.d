@@ -45,7 +45,7 @@ final class Matcher : IJavaObject {
 	@Import bool hasAnchoringBounds();
 	@Import import2.Matcher useAnchoringBounds(bool);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool hitEnd();
 	@Import bool requireEnd();
 	@Import import5.Class getClass();

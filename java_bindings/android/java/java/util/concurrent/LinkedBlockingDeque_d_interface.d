@@ -62,7 +62,7 @@ final class LinkedBlockingDeque : IJavaObject {
 	@Import IJavaObject[] toArray();
 	@Import IJavaObject[] toArray(IJavaObject[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void clear();
 	@Import import2.Iterator iterator();
 	@Import import2.Iterator descendingIterator();

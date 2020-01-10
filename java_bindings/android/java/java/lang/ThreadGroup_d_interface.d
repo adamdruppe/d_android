@@ -37,7 +37,7 @@ final class ThreadGroup : IJavaObject {
 	@Import void uncaughtException(import1.Thread, import2.JavaThrowable);
 	@Import bool allowThreadSuspension(bool);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

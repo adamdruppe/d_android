@@ -14,7 +14,7 @@ final class ModuleInfo : IJavaObject {
 	@Import string getPackageName();
 	@Import bool isHidden();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

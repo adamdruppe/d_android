@@ -53,7 +53,7 @@ final class CopyOnWriteArrayList : IJavaObject {
 	@Import void replaceAll(import3.UnaryOperator);
 	@Import void sort(import4.Comparator);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import5.Iterator iterator();

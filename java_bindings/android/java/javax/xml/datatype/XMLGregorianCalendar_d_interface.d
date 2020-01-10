@@ -50,7 +50,7 @@ final class XMLGregorianCalendar : IJavaObject {
 	@Import string toXMLFormat();
 	@Import import3.QName getXMLSchemaType();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool isValid();
 	@Import void add(import4.Duration);
 	@Import import5.GregorianCalendar toGregorianCalendar();

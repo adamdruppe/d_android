@@ -15,7 +15,7 @@ final class Certificate : IJavaObject {
 	@Import void verify(import0.PublicKey);
 	@Import void verify(import0.PublicKey, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.PublicKey getPublicKey();
 	@Import import1.Class getClass();
 	@Import void notify();

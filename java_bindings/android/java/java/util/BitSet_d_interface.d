@@ -49,7 +49,7 @@ final class BitSet : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.IntStream stream();
 	@Import import4.Class getClass();
 	@Import void notify();

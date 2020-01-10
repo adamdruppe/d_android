@@ -22,7 +22,7 @@ final class TransformerFactoryConfigurationError : IJavaObject {
 	@Import import1.JavaThrowable getCause();
 	@Import import1.JavaThrowable initCause(import1.JavaThrowable);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void printStackTrace();
 	@Import void printStackTrace(import2.PrintStream);
 	@Import void printStackTrace(import3.PrintWriter);

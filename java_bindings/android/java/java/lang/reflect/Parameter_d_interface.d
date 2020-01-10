@@ -15,7 +15,7 @@ final class Parameter : IJavaObject {
 	@Import int hashCode();
 	@Import bool isNamePresent();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Executable getDeclaringExecutable();
 	@Import int getModifiers();
 	@Import string getName();

@@ -14,7 +14,7 @@ final class NetworkRequest : IJavaObject {
 	@Import bool hasCapability(int);
 	@Import bool hasTransport(int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import1.Class getClass();

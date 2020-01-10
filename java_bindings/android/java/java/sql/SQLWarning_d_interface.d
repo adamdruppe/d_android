@@ -36,7 +36,7 @@ final class SQLWarning : IJavaObject {
 	@Import import0.JavaThrowable getCause();
 	@Import import0.JavaThrowable initCause(import0.JavaThrowable);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void printStackTrace();
 	@Import void printStackTrace(import4.PrintStream);
 	@Import void printStackTrace(import5.PrintWriter);

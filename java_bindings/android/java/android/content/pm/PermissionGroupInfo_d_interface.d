@@ -18,7 +18,7 @@ final class PermissionGroupInfo : IJavaObject {
 	@Import this(import0.PermissionGroupInfo);
 	@Import import1.CharSequence loadDescription(import2.PackageManager);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	@Import import1.CharSequence loadLabel(import2.PackageManager);

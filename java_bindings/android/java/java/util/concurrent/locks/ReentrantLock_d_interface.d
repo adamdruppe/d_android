@@ -30,7 +30,7 @@ final class ReentrantLock : IJavaObject {
 	@Import bool hasWaiters(import1.Condition);
 	@Import int getWaitQueueLength(import1.Condition);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

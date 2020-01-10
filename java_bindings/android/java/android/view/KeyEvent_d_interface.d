@@ -77,7 +77,7 @@ final class KeyEvent : IJavaObject {
 	@Import bool dispatch(import3.KeyEvent_Callback);
 	@Import bool dispatch(import3.KeyEvent_Callback, import4.KeyEvent_DispatcherState, IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static string keyCodeToString(int);
 	@Import static int keyCodeFromString(string);
 	@Import void writeToParcel(import5.Parcel, int);

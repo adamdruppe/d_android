@@ -155,7 +155,7 @@ final class Intent : IJavaObject {
 	@Import bool filterEquals(import0.Intent);
 	@Import int filterHashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toURI();
 	@Import string toUri(int);
 	@Import int describeContents();

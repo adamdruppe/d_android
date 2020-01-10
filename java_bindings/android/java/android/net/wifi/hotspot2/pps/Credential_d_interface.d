@@ -36,7 +36,7 @@ final class Credential : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import7.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

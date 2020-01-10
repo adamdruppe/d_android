@@ -21,7 +21,7 @@ final class MtpDevice : IJavaObject {
 	@Import string getDeviceName();
 	@Import int getDeviceId();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.MtpDeviceInfo getDeviceInfo();
 	@Import int[] getStorageIds();
 	@Import int[] getObjectHandles(int, int, int);

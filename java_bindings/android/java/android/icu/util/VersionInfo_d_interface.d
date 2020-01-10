@@ -15,7 +15,7 @@ final class VersionInfo : IJavaObject {
 	@Import static import0.VersionInfo getInstance(int, int);
 	@Import static import0.VersionInfo getInstance(int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getMajor();
 	@Import int getMinor();
 	@Import int getMilli();

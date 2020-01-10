@@ -58,7 +58,7 @@ final class TreeSet : IJavaObject {
 	@Import bool containsAll(import1.Collection);
 	@Import bool retainAll(import1.Collection);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import6.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

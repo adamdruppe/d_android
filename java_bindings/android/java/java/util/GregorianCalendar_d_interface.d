@@ -77,7 +77,7 @@ final class GregorianCalendar : IJavaObject {
 	@Import void setMinimalDaysInFirstWeek(int);
 	@Import int getMinimalDaysInFirstWeek();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import8.Instant toInstant();
 	@Import int compareTo(IJavaObject);
 	@Import import9.Class getClass();

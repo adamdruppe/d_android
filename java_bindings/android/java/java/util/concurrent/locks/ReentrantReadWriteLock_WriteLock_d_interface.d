@@ -19,7 +19,7 @@ final class ReentrantReadWriteLock_WriteLock : IJavaObject {
 	@Import void unlock();
 	@Import import1.Condition newCondition();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool isHeldByCurrentThread();
 	@Import int getHoldCount();
 	@Import import2.Class getClass();

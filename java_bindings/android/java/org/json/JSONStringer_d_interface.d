@@ -19,7 +19,7 @@ final class JSONStringer : IJavaObject {
 	@Import import0.JSONStringer value(long);
 	@Import import0.JSONStringer key(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

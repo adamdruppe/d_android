@@ -16,7 +16,7 @@ final class PrivilegedActionException : IJavaObject {
 	@Import import0.JavaException getException();
 	@Import import1.JavaThrowable getCause();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string getMessage();
 	@Import string getLocalizedMessage();
 	@Import import1.JavaThrowable initCause(import1.JavaThrowable);

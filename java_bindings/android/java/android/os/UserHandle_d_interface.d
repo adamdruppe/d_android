@@ -13,7 +13,7 @@ final class UserHandle : IJavaObject {
 	@Import this(import0.Parcel);
 	@Import static import1.UserHandle getUserHandleForUid(int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import int describeContents();

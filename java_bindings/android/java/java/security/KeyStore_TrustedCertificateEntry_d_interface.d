@@ -16,7 +16,7 @@ final class KeyStore_TrustedCertificateEntry : IJavaObject {
 	@Import import0.Certificate getTrustedCertificate();
 	@Import import1.Set getAttributes();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

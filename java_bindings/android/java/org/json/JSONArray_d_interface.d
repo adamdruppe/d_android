@@ -53,7 +53,7 @@ final class JSONArray : IJavaObject {
 	@Import import3.JSONObject toJSONObject(import2.JSONArray);
 	@Import string join(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import @JavaName("toString") string toString_(int);
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();

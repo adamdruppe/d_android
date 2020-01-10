@@ -42,7 +42,7 @@ final class PluralFormat : IJavaObject {
 	@Import bool equals(import9.PluralFormat);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string format(IJavaObject);
 	@Import import10.AttributedCharacterIterator formatToCharacterIterator(IJavaObject);
 	@Import IJavaObject parseObject(string);

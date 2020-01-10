@@ -35,7 +35,7 @@ final class URL : IJavaObject {
 	@Import int hashCode();
 	@Import bool sameFile(import1.URL);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toExternalForm();
 	@Import import2.URI toURI();
 	@Import import3.URLConnection openConnection();

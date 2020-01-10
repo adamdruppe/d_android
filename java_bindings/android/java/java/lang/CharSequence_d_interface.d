@@ -13,7 +13,7 @@ final class CharSequence : IJavaObject {
 	@Import wchar charAt(int);
 	@Import import0.CharSequence subSequence(int, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.IntStream chars();
 	@Import import1.IntStream codePoints();
 	@Import import2.Class getClass();

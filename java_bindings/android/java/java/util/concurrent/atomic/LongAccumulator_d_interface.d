@@ -15,7 +15,7 @@ final class LongAccumulator : IJavaObject {
 	@Import void reset();
 	@Import long getThenReset();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import long longValue();
 	@Import int intValue();
 	@Import float floatValue();

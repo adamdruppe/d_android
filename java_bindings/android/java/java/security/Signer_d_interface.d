@@ -18,7 +18,7 @@ final class Signer : IJavaObject {
 	@Import import1.PrivateKey getPrivateKey();
 	@Import void setKeyPair(import2.KeyPair);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string getName();
 	@Import import0.IdentityScope getScope();
 	@Import import3.PublicKey getPublicKey();

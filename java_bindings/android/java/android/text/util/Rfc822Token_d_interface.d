@@ -15,7 +15,7 @@ final class Rfc822Token : IJavaObject {
 	@Import void setAddress(string);
 	@Import void setComment(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static string quoteNameIfNecessary(string);
 	@Import static string quoteName(string);
 	@Import static string quoteComment(string);

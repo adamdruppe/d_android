@@ -52,7 +52,7 @@ final class Properties : IJavaObject {
 	@Import void clear();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import6.Set keySet();
 	@Import import6.Set entrySet();
 	@Import import10.Collection values();

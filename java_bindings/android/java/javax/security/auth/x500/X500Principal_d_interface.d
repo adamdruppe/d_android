@@ -21,7 +21,7 @@ final class X500Principal : IJavaObject {
 	@Import string getName(string, import0.Map);
 	@Import byte[] getEncoded();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import2.Class getClass();

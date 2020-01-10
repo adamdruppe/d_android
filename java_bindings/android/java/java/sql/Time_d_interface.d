@@ -15,7 +15,7 @@ final class Time : IJavaObject {
 	@Import void setTime(long);
 	@Import static import0.Time valueOf(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getYear();
 	@Import int getMonth();
 	@Import int getDay();

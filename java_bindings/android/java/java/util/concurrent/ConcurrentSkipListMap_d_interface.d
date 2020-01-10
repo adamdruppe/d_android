@@ -78,7 +78,7 @@ final class ConcurrentSkipListMap : IJavaObject {
 	@Import void putAll(import1.Map);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import13.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

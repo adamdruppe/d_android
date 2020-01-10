@@ -17,7 +17,7 @@ final class ByteArrayOutputStream : IJavaObject {
 	@Import byte[] toByteArray();
 	@Import int size();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import @JavaName("toString") string toString_(string);
 	@Import @JavaName("toString") string toString_(int);
 	@Import void close();

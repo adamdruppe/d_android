@@ -50,7 +50,7 @@ final class AsyncQueryHandler_WorkerHandler : IJavaObject {
 	@Import import1.Looper getLooper();
 	@Import void dump(import6.Printer, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import7.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

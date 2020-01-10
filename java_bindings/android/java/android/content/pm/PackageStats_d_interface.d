@@ -14,7 +14,7 @@ final class PackageStats : IJavaObject {
 	@Import this(import0.Parcel);
 	@Import this(import1.PackageStats);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import bool equals(IJavaObject);

@@ -13,7 +13,7 @@ final class StringJoiner : IJavaObject {
 	@Import this(import0.CharSequence, import0.CharSequence, import0.CharSequence);
 	@Import import1.StringJoiner setEmptyValue(import0.CharSequence);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.StringJoiner add(import0.CharSequence);
 	@Import import1.StringJoiner merge(import1.StringJoiner);
 	@Import int length();

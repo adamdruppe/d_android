@@ -20,7 +20,7 @@ final class AclEntry : IJavaObject {
 	@Import bool checkPermission(import1.Permission);
 	@Import import2.Enumeration permissions();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import IJavaObject clone();
 	@Import import3.Class getClass();
 	@Import int hashCode();

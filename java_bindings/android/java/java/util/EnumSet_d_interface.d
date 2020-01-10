@@ -46,7 +46,7 @@ final class EnumSet : IJavaObject {
 	@Import bool retainAll(import2.Collection);
 	@Import void clear();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

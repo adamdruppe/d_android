@@ -14,7 +14,7 @@ final class FillEventHistory : IJavaObject {
 	@Import import0.Bundle getClientState();
 	@Import import1.List getEvents();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import import3.Class getClass();

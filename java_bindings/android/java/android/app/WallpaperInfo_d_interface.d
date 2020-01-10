@@ -36,7 +36,7 @@ final class WallpaperInfo : IJavaObject {
 	@Import bool supportsMultipleDisplays();
 	@Import void dump(import8.Printer, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void writeToParcel(import9.Parcel, int);
 	@Import int describeContents();
 	@Import import10.Class getClass();

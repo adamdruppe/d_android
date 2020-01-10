@@ -17,7 +17,7 @@ final class PKIXCertPathValidatorResult : IJavaObject {
 	@Import import2.PublicKey getPublicKey();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

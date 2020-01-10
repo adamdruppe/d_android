@@ -44,7 +44,7 @@ final class AnimatorSet : IJavaObject {
 	@Import import6.AnimatorSet clone();
 	@Import void reverse();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import long getTotalDuration();
 	@Import bool isPaused();
 	@Import void addListener(import7.Animator_AnimatorListener);

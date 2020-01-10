@@ -36,7 +36,7 @@ final class SimpleTimeZone : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import bool hasSameRules(import1.TimeZone);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string getID();
 	@Import void setID(string);
 	@Import string getDisplayName();

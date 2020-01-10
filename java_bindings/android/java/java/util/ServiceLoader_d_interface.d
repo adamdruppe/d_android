@@ -19,7 +19,7 @@ final class ServiceLoader : IJavaObject {
 	@Import static import1.ServiceLoader load(import2.Class);
 	@Import static import1.ServiceLoader loadInstalled(import2.Class);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

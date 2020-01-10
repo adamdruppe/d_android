@@ -26,7 +26,7 @@ final class ClipData_Item : IJavaObject {
 	@Import import0.CharSequence coerceToStyledText(import3.Context);
 	@Import string coerceToHtmlText(import3.Context);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import4.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

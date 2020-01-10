@@ -29,7 +29,7 @@ final class AtomicInteger : IJavaObject {
 	@Import int getAndAccumulate(int, import1.IntBinaryOperator);
 	@Import int accumulateAndGet(int, import1.IntBinaryOperator);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int intValue();
 	@Import long longValue();
 	@Import float floatValue();

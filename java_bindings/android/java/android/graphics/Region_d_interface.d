@@ -44,7 +44,7 @@ final class Region : IJavaObject {
 	@Import bool op(import1.Rect, import0.Region, import3.Region_Op);
 	@Import bool op(import0.Region, import0.Region, import3.Region_Op);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import bool equals(IJavaObject);

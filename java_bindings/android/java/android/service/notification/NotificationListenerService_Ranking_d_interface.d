@@ -32,7 +32,7 @@ final class NotificationListenerService_Ranking : IJavaObject {
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void notify();
 	@Import void notifyAll();
 	@Import void wait(long);

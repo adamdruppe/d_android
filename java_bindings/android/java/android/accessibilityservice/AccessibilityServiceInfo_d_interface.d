@@ -30,7 +30,7 @@ final class AccessibilityServiceInfo : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static string feedbackTypeToString(int);
 	@Import static string flagToString(int);
 	@Import static string capabilityToString(int);

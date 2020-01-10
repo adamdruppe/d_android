@@ -36,7 +36,7 @@ final class Loader : IJavaObject {
 	@Import void onContentChanged();
 	@Import string dataToString(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void dump(string, import3.FileDescriptor, import4.PrintWriter, string[]);
 	@Import import5.Class getClass();
 	@Import int hashCode();

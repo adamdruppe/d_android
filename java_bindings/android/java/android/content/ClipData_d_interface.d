@@ -30,7 +30,7 @@ final class ClipData : IJavaObject {
 	@Import int getItemCount();
 	@Import import1.ClipData_Item getItemAt(int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import7.Parcel, int);
 	@Import import8.Class getClass();

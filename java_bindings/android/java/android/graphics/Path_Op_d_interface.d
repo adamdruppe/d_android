@@ -15,7 +15,7 @@ final class Path_Op : IJavaObject {
 	@Import string name();
 	@Import int ordinal();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import int compareTo(import1.Enum);

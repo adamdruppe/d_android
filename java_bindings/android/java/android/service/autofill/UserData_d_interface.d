@@ -13,7 +13,7 @@ final class UserData : IJavaObject {
 	@Import string getFieldClassificationAlgorithmForCategory(string);
 	@Import string getId();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import static int getMaxUserDataSize();

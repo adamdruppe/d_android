@@ -19,7 +19,7 @@ final class KeyStore_PrivateKeyEntry : IJavaObject {
 	@Import import1.Certificate getCertificate();
 	@Import import2.Set getAttributes();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

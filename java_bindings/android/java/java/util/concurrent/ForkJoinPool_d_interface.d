@@ -44,7 +44,7 @@ final class ForkJoinPool : IJavaObject {
 	@Import int getQueuedSubmissionCount();
 	@Import bool hasQueuedSubmissions();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void shutdown();
 	@Import import6.List shutdownNow();
 	@Import bool isTerminated();

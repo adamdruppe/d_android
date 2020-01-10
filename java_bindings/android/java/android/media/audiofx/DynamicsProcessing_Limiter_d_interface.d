@@ -12,7 +12,7 @@ final class DynamicsProcessing_Limiter : IJavaObject {
 	@Import this(bool, bool, int, float, float, float, float, float);
 	@Import this(import0.DynamicsProcessing_Limiter);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getLinkGroup();
 	@Import void setLinkGroup(int);
 	@Import float getAttackTime();

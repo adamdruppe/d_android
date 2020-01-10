@@ -44,7 +44,7 @@ final class ULocale : IJavaObject {
 	@Import string getName();
 	@Import static string getName(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Iterator getKeywords();
 	@Import static import3.Iterator getKeywords(string);
 	@Import string getKeywordValue(string);

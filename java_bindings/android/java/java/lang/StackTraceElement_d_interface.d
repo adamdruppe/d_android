@@ -15,7 +15,7 @@ final class StackTraceElement : IJavaObject {
 	@Import string getMethodName();
 	@Import bool isNativeMethod();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import0.Class getClass();

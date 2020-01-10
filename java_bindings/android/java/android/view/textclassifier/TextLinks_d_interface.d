@@ -17,7 +17,7 @@ final class TextLinks : IJavaObject {
 	@Import import1.Bundle getExtras();
 	@Import int apply(import2.Spannable, int, import3.Function);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import import5.Class getClass();

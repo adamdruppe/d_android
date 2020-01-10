@@ -10,7 +10,7 @@ final class Principal : IJavaObject {
 	];
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import string getName();
 	@Import bool implies(import0.Subject);

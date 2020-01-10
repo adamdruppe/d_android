@@ -18,7 +18,7 @@ final class Character : IJavaObject {
 	@Import static int hashCode(wchar);
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static @JavaName("toString") string toString_(wchar);
 	@Import static bool isValidCodePoint(int);
 	@Import static bool isBmpCodePoint(int);

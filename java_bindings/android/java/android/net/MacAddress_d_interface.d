@@ -14,7 +14,7 @@ final class MacAddress : IJavaObject {
 	@Import bool isLocallyAssigned();
 	@Import byte[] toByteArray();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toOuiString();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

@@ -44,7 +44,7 @@ final class URI : IJavaObject {
 	@Import int hashCode();
 	@Import int compareTo(import0.URI);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toASCIIString();
 	@Import int compareTo(IJavaObject);
 	@Import import2.Class getClass();

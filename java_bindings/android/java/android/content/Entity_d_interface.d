@@ -15,7 +15,7 @@ final class Entity : IJavaObject {
 	@Import import1.ArrayList getSubValues();
 	@Import void addSubValue(import2.Uri, import0.ContentValues);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

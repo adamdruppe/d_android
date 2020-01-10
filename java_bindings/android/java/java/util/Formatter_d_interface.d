@@ -33,7 +33,7 @@ final class Formatter : IJavaObject {
 	@Import import1.Locale locale();
 	@Import @JavaName("out") import0.Appendable out_();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void flush();
 	@Import void close();
 	@Import import5.IOException ioException();

@@ -11,7 +11,7 @@ final class LinkAddress : IJavaObject {
 		"android/os/Parcelable",
 	];
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import0.InetAddress getAddress();

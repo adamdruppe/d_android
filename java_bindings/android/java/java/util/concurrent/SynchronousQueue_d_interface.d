@@ -39,7 +39,7 @@ final class SynchronousQueue : IJavaObject {
 	@Import IJavaObject[] toArray();
 	@Import IJavaObject[] toArray(IJavaObject[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int drainTo(import1.Collection);
 	@Import int drainTo(import1.Collection, int);
 	@Import bool add(IJavaObject);

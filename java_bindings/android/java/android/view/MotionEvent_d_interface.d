@@ -99,7 +99,7 @@ final class MotionEvent : IJavaObject {
 	@Import void addBatch(long, float, float, float, float, int);
 	@Import void addBatch(long, import2.MotionEvent_PointerCoords, int[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static string actionToString(int);
 	@Import static string axisToString(int);
 	@Import static int axisFromString(string);

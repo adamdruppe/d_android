@@ -14,7 +14,7 @@ final class DnsEvent : IJavaObject {
 	@Import import0.List getInetAddresses();
 	@Import int getTotalResolvedAddressCount();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import1.Parcel, int);
 	@Import string getPackageName();

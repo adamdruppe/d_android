@@ -33,7 +33,7 @@ final class ApnSetting : IJavaObject {
 	@Import int getMvnoType();
 	@Import int getCarrierId();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);

@@ -40,7 +40,7 @@ final class Icon : IJavaObject {
 	@Import import6.Icon setTintBlendMode(import10.BlendMode);
 	@Import static import6.Icon createWithFilePath(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import11.Parcel, int);
 	@Import import12.Class getClass();

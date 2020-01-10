@@ -38,7 +38,7 @@ final class ArraySet : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Iterator iterator();
 	@Import bool containsAll(import1.Collection);
 	@Import bool addAll(import1.Collection);

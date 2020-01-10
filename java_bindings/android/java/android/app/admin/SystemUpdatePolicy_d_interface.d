@@ -20,7 +20,7 @@ final class SystemUpdatePolicy : IJavaObject {
 	@Import import0.SystemUpdatePolicy setFreezePeriods(import1.List);
 	@Import import1.List getFreezePeriods();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);
 	@Import import3.Class getClass();

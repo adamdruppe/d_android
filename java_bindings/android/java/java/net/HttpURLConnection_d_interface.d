@@ -56,7 +56,7 @@ final class HttpURLConnection : IJavaObject {
 	@Import import1.InputStream getInputStream();
 	@Import import6.OutputStream getOutputStream();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void setDoInput(bool);
 	@Import bool getDoInput();
 	@Import void setDoOutput(bool);

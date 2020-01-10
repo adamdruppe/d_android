@@ -19,7 +19,7 @@ final class MethodHandles_Lookup : IJavaObject {
 	@Import int lookupModes();
 	@Import @JavaName("in") import1.MethodHandles_Lookup in_(import0.Class);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.MethodHandle findStatic(import0.Class, string, import3.MethodType);
 	@Import import2.MethodHandle findVirtual(import0.Class, string, import3.MethodType);
 	@Import import2.MethodHandle findConstructor(import0.Class, import3.MethodType);

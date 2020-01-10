@@ -32,7 +32,7 @@ final class ChronoField : IJavaObject {
 	@Import long getFrom(import4.TemporalAccessor);
 	@Import import5.Temporal adjustInto(import5.Temporal, long);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string name();
 	@Import int ordinal();
 	@Import bool equals(IJavaObject);

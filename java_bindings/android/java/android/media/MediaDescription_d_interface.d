@@ -25,7 +25,7 @@ final class MediaDescription : IJavaObject {
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import5.Class getClass();
 	@Import int hashCode();
 	@Import void notify();

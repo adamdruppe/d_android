@@ -46,7 +46,7 @@ final class SpannableStringBuilder : IJavaObject {
 	@Import import0.CharSequence subSequence(int, int);
 	@Import void getChars(int, int, wchar, int[]);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getTextWatcherDepth();
 	@Import int getTextRunCursor(int, int, int, int, int, import3.Paint);
 	@Import void setFilters(import4.InputFilter[]);

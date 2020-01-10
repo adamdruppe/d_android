@@ -12,7 +12,7 @@ final class MediaCodecInfo_VideoCapabilities_PerformancePoint : IJavaObject {
 	];
 	@Import this(int, int, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import bool covers(import0.MediaFormat);
 	@Import bool covers(import1.MediaCodecInfo_VideoCapabilities_PerformancePoint);

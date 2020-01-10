@@ -12,7 +12,7 @@ final class ScanResult : IJavaObject {
 	@Import bool is80211mcResponder();
 	@Import bool isPasspointNetwork();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import import1.Class getClass();

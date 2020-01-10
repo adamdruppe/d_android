@@ -23,7 +23,7 @@ final class SpannedString : IJavaObject {
 	@Import int length();
 	@Import int getSpanEnd(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getSpanStart(IJavaObject);
 	@Import int getSpanFlags(IJavaObject);
 	@Import wchar charAt(int);

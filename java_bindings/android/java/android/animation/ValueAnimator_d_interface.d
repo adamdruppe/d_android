@@ -61,7 +61,7 @@ final class ValueAnimator : IJavaObject {
 	@Import float getAnimatedFraction();
 	@Import import0.ValueAnimator clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool isPaused();
 	@Import void addListener(import6.Animator_AnimatorListener);
 	@Import void removeListener(import6.Animator_AnimatorListener);

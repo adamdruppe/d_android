@@ -27,7 +27,7 @@ final class TextClassification : IJavaObject {
 	@Import string getId();
 	@Import import5.Bundle getExtras();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import6.Parcel, int);
 	@Import import7.Class getClass();

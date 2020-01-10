@@ -36,7 +36,7 @@ final class SubscriptionInfo : IJavaObject {
 	@Import void writeToParcel(import4.Parcel, int);
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import import5.Class getClass();

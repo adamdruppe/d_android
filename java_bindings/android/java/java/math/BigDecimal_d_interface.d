@@ -76,7 +76,7 @@ final class BigDecimal : IJavaObject {
 	@Import import2.BigDecimal max(import2.BigDecimal);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toEngineeringString();
 	@Import string toPlainString();
 	@Import import1.BigInteger toBigInteger();

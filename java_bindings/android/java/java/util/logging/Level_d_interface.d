@@ -13,7 +13,7 @@ final class Level : IJavaObject {
 	@Import string getName();
 	@Import string getLocalizedName();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int intValue();
 	@Import static import0.Level parse(string);
 	@Import bool equals(IJavaObject);

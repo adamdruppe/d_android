@@ -15,7 +15,7 @@ final class LDAPCertStoreParameters : IJavaObject {
 	@Import int getPort();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

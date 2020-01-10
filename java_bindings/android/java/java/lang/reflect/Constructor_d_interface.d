@@ -24,7 +24,7 @@ final class Constructor : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toGenericString();
 	@Import IJavaObject newInstance(IJavaObject[]);
 	@Import bool isVarArgs();

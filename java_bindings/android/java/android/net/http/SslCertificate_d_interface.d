@@ -25,7 +25,7 @@ final class SslCertificate : IJavaObject {
 	@Import import4.SslCertificate_DName getIssuedBy();
 	@Import import1.X509Certificate getX509Certificate();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import5.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

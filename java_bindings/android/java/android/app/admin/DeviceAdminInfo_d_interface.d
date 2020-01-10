@@ -31,7 +31,7 @@ final class DeviceAdminInfo : IJavaObject {
 	@Import bool supportsTransferOwnership();
 	@Import void dump(import7.Printer, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void writeToParcel(import8.Parcel, int);
 	@Import int describeContents();
 	@Import import9.Class getClass();

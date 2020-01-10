@@ -44,7 +44,7 @@ final class PropertyValuesHolder : IJavaObject {
 	@Import void setProperty(import1.Property);
 	@Import string getPropertyName();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import6.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

@@ -20,7 +20,7 @@ final class FillEventHistory_Event : IJavaObject {
 	@Import import2.Map getFieldsClassification();
 	@Import import2.Map getManuallyEnteredField();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import3.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

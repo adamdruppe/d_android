@@ -18,7 +18,7 @@ final class Configuration : IJavaObject {
 	@Import bool isLayoutSizeAtLeast(int);
 	@Import void setTo(import0.Configuration);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void setToDefaults();
 	@Import int updateFrom(import0.Configuration);
 	@Import int diff(import0.Configuration);

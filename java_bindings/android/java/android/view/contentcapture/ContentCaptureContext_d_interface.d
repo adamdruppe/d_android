@@ -16,7 +16,7 @@ final class ContentCaptureContext : IJavaObject {
 	@Import import1.LocusId getLocusId();
 	@Import static import2.ContentCaptureContext forLocusId(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int describeContents();
 	@Import void writeToParcel(import3.Parcel, int);
 	@Import import4.Class getClass();

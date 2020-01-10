@@ -15,7 +15,7 @@ final class BaseDexClassLoader : IJavaObject {
 	@Import this(string, import0.File, string, import1.ClassLoader);
 	@Import string findLibrary(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class loadClass(string);
 	@Import import3.URL getResource(string);
 	@Import import4.Enumeration getResources(string);

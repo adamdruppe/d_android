@@ -43,7 +43,7 @@ final class SSLSocket : IJavaObject {
 	@Import void setHandshakeApplicationProtocolSelector(import3.BiFunction);
 	@Import import3.BiFunction getHandshakeApplicationProtocolSelector();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void connect(import4.SocketAddress);
 	@Import void connect(import4.SocketAddress, int);
 	@Import void bind(import4.SocketAddress);

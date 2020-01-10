@@ -83,7 +83,7 @@ final class IslamicCalendar : IJavaObject {
 	@Import bool isWeekend();
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static import7.Calendar_WeekData getWeekDataForRegion(string);
 	@Import import7.Calendar_WeekData getWeekData();
 	@Import import5.Calendar setWeekData(import7.Calendar_WeekData);

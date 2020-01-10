@@ -14,7 +14,7 @@ final class BluetoothLeDeviceFilter : IJavaObject {
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import int describeContents();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static int getRenamePrefixLengthLimit();
 	@Import import1.Class getClass();
 	@Import void notify();

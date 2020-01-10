@@ -23,7 +23,7 @@ final class JapaneseEra : IJavaObject {
 	@Import int getValue();
 	@Import import3.ValueRange range(import4.TemporalField);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import5.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

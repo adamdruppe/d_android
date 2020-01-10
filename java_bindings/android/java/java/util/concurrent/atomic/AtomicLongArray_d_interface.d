@@ -30,7 +30,7 @@ final class AtomicLongArray : IJavaObject {
 	@Import long getAndAccumulate(int, long, import1.LongBinaryOperator);
 	@Import long accumulateAndGet(int, long, import1.LongBinaryOperator);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

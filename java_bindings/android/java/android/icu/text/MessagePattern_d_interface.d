@@ -29,7 +29,7 @@ final class MessagePattern : IJavaObject {
 	@Import bool hasNamedArguments();
 	@Import bool hasNumberedArguments();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static int validateArgumentName(string);
 	@Import string autoQuoteApostropheDeep();
 	@Import int countParts();

@@ -42,7 +42,7 @@ final class Date : IJavaObject {
 	@Import int compareTo(import0.Date);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string toLocaleString();
 	@Import string toGMTString();
 	@Import int getTimezoneOffset();

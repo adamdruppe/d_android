@@ -33,7 +33,7 @@ final class TvInputInfo : IJavaObject {
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void writeToParcel(import6.Parcel, int);
 	@Import import7.Class getClass();
 	@Import void notify();

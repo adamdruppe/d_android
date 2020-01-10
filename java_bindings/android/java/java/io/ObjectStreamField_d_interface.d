@@ -19,7 +19,7 @@ final class ObjectStreamField : IJavaObject {
 	@Import bool isUnshared();
 	@Import int compareTo(IJavaObject);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

@@ -88,7 +88,7 @@ final class SQLiteDatabase : IJavaObject {
 	@Import import12.List getAttachedDbs();
 	@Import bool isDatabaseIntegrityOk();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void acquireReference();
 	@Import void releaseReference();
 	@Import void releaseReferenceFromContainer();

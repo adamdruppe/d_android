@@ -50,7 +50,7 @@ final class HttpAuthHandler : IJavaObject {
 	@Import import2.Looper getLooper();
 	@Import void dump(import5.Printer, string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import6.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

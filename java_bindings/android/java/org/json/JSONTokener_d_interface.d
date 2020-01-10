@@ -13,7 +13,7 @@ final class JSONTokener : IJavaObject {
 	@Import string nextString(wchar);
 	@Import import0.JSONException syntaxError(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool more();
 	@Import wchar next();
 	@Import wchar next(wchar);

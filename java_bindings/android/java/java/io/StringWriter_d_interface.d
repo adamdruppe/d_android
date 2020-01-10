@@ -22,7 +22,7 @@ final class StringWriter : IJavaObject {
 	@Import import0.StringWriter append(import1.CharSequence, int, int);
 	@Import import0.StringWriter append(wchar);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.StringBuffer getBuffer();
 	@Import void flush();
 	@Import void close();

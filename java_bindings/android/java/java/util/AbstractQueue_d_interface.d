@@ -30,7 +30,7 @@ final class AbstractQueue : IJavaObject {
 	@Import bool removeAll(import0.Collection);
 	@Import bool retainAll(import0.Collection);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import2.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

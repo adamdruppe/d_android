@@ -15,7 +15,7 @@ final class FillRequest : IJavaObject {
 	@Import int getFlags();
 	@Import import0.List getFillContexts();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Bundle getClientState();
 	@Import int describeContents();
 	@Import void writeToParcel(import2.Parcel, int);

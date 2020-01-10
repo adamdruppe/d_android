@@ -11,7 +11,7 @@ final class DynamicsProcessing_BandStage : IJavaObject {
 	@Import this(bool, bool, int);
 	@Import int getBandCount();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool isEnabled();
 	@Import void setEnabled(bool);
 	@Import bool isInUse();

@@ -15,7 +15,7 @@ final class PKIXCertPathBuilderResult : IJavaObject {
 	@Import this(import0.CertPath, import1.TrustAnchor, import2.PolicyNode, import3.PublicKey);
 	@Import import0.CertPath getCertPath();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.TrustAnchor getTrustAnchor();
 	@Import import2.PolicyNode getPolicyTree();
 	@Import import3.PublicKey getPublicKey();

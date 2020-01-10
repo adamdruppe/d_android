@@ -84,7 +84,7 @@ final class String : IJavaObject {
 	@Import string toUpperCase();
 	@Import string trim();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import wchar[] toCharArray();
 	@Import static string format(string, IJavaObject[]);
 	@Import static string format(import5.Locale, string, IJavaObject[]);

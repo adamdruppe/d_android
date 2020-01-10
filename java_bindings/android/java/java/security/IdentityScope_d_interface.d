@@ -25,7 +25,7 @@ final class IdentityScope : IJavaObject {
 	@Import void removeIdentity(import1.Identity);
 	@Import import4.Enumeration identities();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string getName();
 	@Import import0.IdentityScope getScope();
 	@Import import3.PublicKey getPublicKey();

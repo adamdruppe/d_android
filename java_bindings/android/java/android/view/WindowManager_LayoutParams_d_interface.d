@@ -29,7 +29,7 @@ final class WindowManager_LayoutParams : IJavaObject {
 	@Import int copyFrom(import2.WindowManager_LayoutParams);
 	@Import @JavaName("debug") string debug_(string);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void resolveLayoutDirection(int);
 	@Import import3.Class getClass();
 	@Import int hashCode();

@@ -17,7 +17,7 @@ final class MessagePattern_Part : IJavaObject {
 	@Import int getValue();
 	@Import import1.MessagePattern_ArgType getArgType();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import import2.Class getClass();

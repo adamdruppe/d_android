@@ -66,7 +66,7 @@ final class Calendar : IJavaObject {
 	@Import int getActualMaximum(int);
 	@Import IJavaObject clone();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import6.Instant toInstant();
 	@Import int compareTo(IJavaObject);
 	@Import import7.Class getClass();

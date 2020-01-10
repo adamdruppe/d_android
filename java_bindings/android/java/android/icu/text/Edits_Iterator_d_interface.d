@@ -20,7 +20,7 @@ final class Edits_Iterator : IJavaObject {
 	@Import int replacementIndex();
 	@Import int destinationIndex();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

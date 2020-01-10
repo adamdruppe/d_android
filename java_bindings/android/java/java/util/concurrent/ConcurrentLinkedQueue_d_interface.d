@@ -27,7 +27,7 @@ final class ConcurrentLinkedQueue : IJavaObject {
 	@Import bool remove(IJavaObject);
 	@Import bool addAll(import0.Collection);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import IJavaObject[] toArray();
 	@Import IJavaObject[] toArray(IJavaObject[]);
 	@Import import1.Iterator iterator();

@@ -42,7 +42,7 @@ final class Display : IJavaObject {
 	@Import void getRealMetrics(import6.DisplayMetrics);
 	@Import int getState();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import7.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

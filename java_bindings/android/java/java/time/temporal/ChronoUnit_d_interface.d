@@ -22,7 +22,7 @@ final class ChronoUnit : IJavaObject {
 	@Import import2.Temporal addTo(import2.Temporal, long);
 	@Import long between(import2.Temporal, import2.Temporal);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import string name();
 	@Import int ordinal();
 	@Import bool equals(IJavaObject);

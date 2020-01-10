@@ -125,7 +125,7 @@ final class ListPreference : IJavaObject {
 	@Import bool persistStringSet(import18.Set);
 	@Import import18.Set getPersistedStringSet(import18.Set);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void saveHierarchyState(import8.Bundle);
 	@Import void restoreHierarchyState(import8.Bundle);
 	@Import int compareTo(IJavaObject);

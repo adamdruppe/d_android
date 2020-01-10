@@ -11,7 +11,7 @@ final class StructStat : IJavaObject {
 	@Import this(long, long, int, long, int, int, long, long, long, long, long, long, long);
 	@Import this(long, long, int, long, int, int, long, long, import0.StructTimespec, import0.StructTimespec, import0.StructTimespec, long, long);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Class getClass();
 	@Import int hashCode();
 	@Import bool equals(IJavaObject);

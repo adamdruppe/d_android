@@ -12,7 +12,7 @@ final class TextView_SavedState : IJavaObject {
 	];
 	@Import void writeToParcel(import0.Parcel, int);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import1.Parcelable getSuperState();
 	@Import int describeContents();
 	@Import import2.Class getClass();

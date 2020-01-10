@@ -14,7 +14,7 @@ final class SNIHostName : IJavaObject {
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static import0.SNIMatcher createSNIMatcher(string);
 	@Import int getType();
 	@Import byte[] getEncoded();

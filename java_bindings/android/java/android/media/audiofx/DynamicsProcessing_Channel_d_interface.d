@@ -17,7 +17,7 @@ final class DynamicsProcessing_Channel : IJavaObject {
 	@Import this(float, bool, int, bool, int, bool, int, bool);
 	@Import this(import0.DynamicsProcessing_Channel);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import float getInputGain();
 	@Import void setInputGain(float);
 	@Import import1.DynamicsProcessing_Eq getPreEq();

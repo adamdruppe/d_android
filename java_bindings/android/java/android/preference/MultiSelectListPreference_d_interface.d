@@ -123,7 +123,7 @@ final class MultiSelectListPreference : IJavaObject {
 	@Import bool persistStringSet(import3.Set);
 	@Import import3.Set getPersistedStringSet(import3.Set);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void saveHierarchyState(import9.Bundle);
 	@Import void restoreHierarchyState(import9.Bundle);
 	@Import int compareTo(IJavaObject);

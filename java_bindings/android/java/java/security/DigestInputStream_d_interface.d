@@ -16,7 +16,7 @@ final class DigestInputStream : IJavaObject {
 	@Import int read(byte, int, int[]);
 	@Import void on(bool);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int read(byte[]);
 	@Import long skip(long);
 	@Import int available();

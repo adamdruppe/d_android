@@ -20,7 +20,7 @@ final class Map_Entry : IJavaObject {
 	@Import static import0.Comparator comparingByValue(import0.Comparator);
 	@Import import1.Class getClass();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import void notify();
 	@Import void notifyAll();
 	@Import void wait(long);

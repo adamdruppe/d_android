@@ -15,7 +15,7 @@ final class DynamicsProcessing_Config : IJavaObject {
 	static immutable string[] _d_canCastTo = [
 	];
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import int getVariant();
 	@Import float getPreferredFrameDuration();
 	@Import bool isPreEqInUse();

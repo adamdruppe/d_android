@@ -10,7 +10,7 @@ final class CRL : IJavaObject {
 	];
 	@Import string getType();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import bool isRevoked(import0.Certificate);
 	@Import import1.Class getClass();
 	@Import int hashCode();

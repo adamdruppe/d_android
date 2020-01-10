@@ -54,7 +54,7 @@ final class JSONObject : IJavaObject {
 	@Import import4.Iterator keys();
 	@Import import3.JSONArray names();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import @JavaName("toString") string toString_(int);
 	@Import static string numberToString(import5.Number);
 	@Import static string quote(string);

@@ -37,7 +37,7 @@ final class WindowInsets : IJavaObject {
 	@Import import1.Insets getTappableElementInsets();
 	@Import import0.WindowInsets consumeStableInsets();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import0.WindowInsets inset(int, int, int, int);
 	@Import bool equals(IJavaObject);
 	@Import int hashCode();

@@ -58,7 +58,7 @@ final class ArrayList : IJavaObject {
 	@Import int hashCode();
 	@Import bool containsAll(import0.Collection);
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import import9.Class getClass();
 	@Import void notify();
 	@Import void notifyAll();

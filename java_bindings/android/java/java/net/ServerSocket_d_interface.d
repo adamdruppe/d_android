@@ -32,7 +32,7 @@ final class ServerSocket : IJavaObject {
 	@Import void setReuseAddress(bool);
 	@Import bool getReuseAddress();
 	@Import @JavaName("toString") string toString_();
-	override string toString() { return toString_(); }
+	override string toString() { return arsd.jni.javaObjectToString(this); }
 	@Import static void setSocketFactory(import4.SocketImplFactory);
 	@Import void setReceiveBufferSize(int);
 	@Import int getReceiveBufferSize();
