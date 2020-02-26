@@ -22,7 +22,7 @@ int main(string[] args) {
 		return 1;
 	} 
 
-	ndk_path = args[1];
+	ndk_path = args[1].replace("\\", "/");
 
 	auto p = executeShell("ldc2 -v");
 	if(p.status != 0 && p.status != 1) {
@@ -146,7 +146,7 @@ See more info here: https://github.com/ldc-developers/ldc#installation");
 
 	auto config = configTemplate
 		.replace("$NDK", ndk_path)
-		.replace("$D_ANDROID", dirName(thisExePath()))
+		.replace("$D_ANDROID", dirName(thisExePath()).replace("\\", "/"))
 		.replace("$OS", osString)
 	;
 
