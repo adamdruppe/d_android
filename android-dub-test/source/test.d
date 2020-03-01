@@ -6,9 +6,8 @@ import arsd.jni;
 // BUT be warned: this takes > 30 seconds an 3.5 GB of compiler RAM to build on my box!!!
 // I'm trying to devise ways to make it more efficient but nothing is ever going to beat
 // DIYing just he methods you need, like below
-import android.java.android.widget.TextView;
+//import android.java.android.widget.TextView;
 
-/+
 // or you can declare just what you specifically need (also gives faster builds!)
 // this demos the long-form thing
 final class TextView : IJavaObject { // JavaClass!("android.widget", TextView) {
@@ -17,7 +16,6 @@ final class TextView : IJavaObject { // JavaClass!("android.widget", TextView) {
         mixin JavaPackageId!("android.widget", "TextView");
 }
 mixin ImportExportImpl!TextView;
-+/
 
 // as well as export your own native methods for JNI to call pretty easily:
 // this shows the short-form implementation

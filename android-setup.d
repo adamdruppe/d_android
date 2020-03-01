@@ -130,10 +130,9 @@ See more info here: https://github.com/ldc-developers/ldc#installation");
 					mkdirRecurse(dirName(header.filename));
 					currentFile = File(header.filename, "wb");
 				}
+				currentFile.rawWrite(data[]);
 				if(fileFinished)
 					writeln("\n", header.filename, " extracted");
-				else
-					currentFile.rawWrite(data[]);
 
 			});
 		}
@@ -144,10 +143,16 @@ See more info here: https://github.com/ldc-developers/ldc#installation");
 
 	writefln("Configuring...");
 
+	version(Windows)
+		string osExt = ".cmd";
+	else
+		string osExt = "";
+
 	auto config = configTemplate
 		.replace("$NDK", ndk_path)
 		.replace("$D_ANDROID", dirName(thisExePath()).replace("\\", "/"))
 		.replace("$OS", osString)
+		.replace("$EXT", osExt)
 	;
 
 	std.file.append(ldcConfigFileName, config);
@@ -166,7 +171,7 @@ immutable string configTemplate = q{
     switches = [
         "-defaultlib=phobos2-ldc,druntime-ldc",
         "-link-defaultlib-shared=false",
-        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/armv7a-linux-androideabi21-clang",
+        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/armv7a-linux-androideabi21-clang$EXT",
         "-linker=bfd",
         "-mcpu=cortex-a8",
     ];
@@ -181,7 +186,7 @@ immutable string configTemplate = q{
     switches = [
         "-defaultlib=phobos2-ldc,druntime-ldc",
         "-link-defaultlib-shared=false",
-        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/aarch64-linux-android21-clang",
+        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/aarch64-linux-android21-clang$EXT",
         "-linker=bfd",
     ];
     lib-dirs = [
@@ -195,7 +200,7 @@ immutable string configTemplate = q{
     switches = [
         "-defaultlib=phobos2-ldc,druntime-ldc",
         "-link-defaultlib-shared=false",
-        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/i686-linux-android21-clang",
+        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/i686-linux-android21-clang$EXT",
         "-linker=bfd",
     ];
     lib-dirs = [
@@ -209,7 +214,7 @@ immutable string configTemplate = q{
     switches = [
         "-defaultlib=phobos2-ldc,druntime-ldc",
         "-link-defaultlib-shared=false",
-        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/x86_64-linux-android21-clang",
+        "-gcc=$NDK/toolchains/llvm/prebuilt/$OS/bin/x86_64-linux-android21-clang$EXT",
         "-linker=bfd",
     ];
     lib-dirs = [
