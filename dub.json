@@ -1,13 +1,12 @@
 {
 	"name": "d_android",
-	"targetType": "sourceLibrary",
+	"targetType": "library",
 	"description": "Helper programs, instructions, and bindings for using D on Android",
 	"license": "Apache-2.0",
 	"dependencies": {
 		"d_android:ndk_bindings": "*",
 		"d_android:java_bindings": "*"
 	},
-	"sourceFiles": ["source/hacks.d"],
 
 	"subPackages": [
 		{
@@ -24,12 +23,18 @@
 			"name": "java_bindings",
 			"description": "Bindings for Android Java classes",
 			"importPaths": ["java_bindings"],
+			"sourceFiles": ["source/hacks.d"],
 			"dflags": ["-i"],
 			"dependencies": {
 				"arsd-official:jni": ">=5.0.2"
 			},
 			"targetType": "sourceLibrary"
+		},
+		{
+			"name": "setup",
+			"description": "Setup program for Android development",
+			"sourceFiles": ["android-setup.d"],
+			"targetType": "executable"
 		}
-
 	]
 }
