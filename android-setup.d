@@ -103,6 +103,11 @@ See more info here: https://github.com/ldc-developers/ldc#installation");
 
 	bool keep;
 
+	// putting the runtimes here with the package means easy spot we should be able
+	// to write to... but it might make more sense to put them with the ldc install
+	// instead, just i fear that not being writable.
+	chdir(dirName(thisExePath()));
+
 	void handleChunk(string url, ubyte[] chunk) {
 		if(chunk.length == 0) {
 			if(!xzd.finished)
