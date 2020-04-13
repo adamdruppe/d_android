@@ -10,6 +10,7 @@ Set the environment variable NDK to its path.
 2. Download LDC, at least version 1.20 from the official release page for your operating system. Make sure ldc2 is in your PATH.
 3. If you use dub, make sure you have at least version 1.18
 4. Compile and run `android-setup.d`. It will download the pre-built Android runtimes for you and set up ldc2.conf.
+5. If you are on LDC 1.20, add `void main() {}` to your source file to avoid `_tls_start` related linker errors. If you are using LDC 1.21 or later, that is not necessary.
 
 Now, you can compile your project. There are four targets you will want to build:
 
