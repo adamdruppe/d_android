@@ -1,6 +1,20 @@
-After building the individual files in the parent directory, try:
+After building the individual files in the parent directory, try (on Windows, use `copy` instead of `cp`):
 
-    $ NDK=/path/to/ndk/android-ndk-r20/ ../android-dub-build BasicActivity/app/src/main/
+    # build for arm
+    dub build --compiler=ldc2 -a armv7a-none-linux-android
+    cp libtest.so BasicActivity/app/src/main/jniLibs/armeabi-v7a/
+
+    # build for arm 64 bit
+    dub build --compiler=ldc2 -a aarch64-none-linux-android
+    cp libtest.so BasicActivity/app/src/main/jniLibs/arm64-v8a/
+
+    # build for x86, can be used in the simulator
+    dub build --compiler=ldc2 -a i386-none-linux-android
+    cp libtest.so BasicActivity/app/src/main/jniLibs/x86/
+
+    # and x86 64 bit
+    dub build --compiler=ldc2 -a x86_64-none-linux-android
+    cp libtest.so BasicActivity/app/src/main/jniLibs/x86_64/
 
 That will build the sample and put the generated artifacts in the included BasicActivity sample, which you can then open, build, run, etc. in Android Studio.
 
