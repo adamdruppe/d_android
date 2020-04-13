@@ -49,8 +49,8 @@ After that, you can use your stuff with Android Studio just like any other lib.
 
 I like to put the jniLibs directory under the main module.
 
-   $ dub build --compiler=ldc2 -a armv7a-none-linux-android
-   $ cp libtest.so /home/me/Android/omg/app/src/main/jniLibs/
+    $ dub build --compiler=ldc2 -a armv7a-none-linux-android
+    $ cp libtest.so /home/me/Android/omg/app/src/main/jniLibs/
 
 If you use dub, make sure you set targetType = dynamicLibrary in your app's dub.json as an android thing must be a `.so` library.
 
