@@ -5,7 +5,7 @@ module android.ndk;
 
 package alias off64_t = long;
 
-public import android.ndk.api.level;
+public import android.ndk.api_level;
 public import android.ndk.asset_manager;
 public import android.ndk.asset_manager_jni;
 public import android.ndk.bitmap;

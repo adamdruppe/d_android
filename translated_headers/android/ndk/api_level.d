@@ -26,7 +26,7 @@
  * SUCH DAMAGE.
  */
 
-module android.ndk.api.level;
+module android.ndk.api_level;
 
 import arsd.jni;
 import android.ndk;
