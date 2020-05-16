@@ -1,8 +1,11 @@
+.project
+.classpath
 .gradle/
 .idea/
+.settings/
 .cxx/
 *.iml
-local.properties
+*.properties
 **/build/
 **/jniLibs/
 
