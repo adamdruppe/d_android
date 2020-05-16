@@ -61,7 +61,7 @@ struct ACameraDevice;
 struct ACameraIdList
 {
     int numCameras;             ///< Number of camera device Ids
-    const(char*)* cameraIds;    ///< list of camera device Ids
+    const(char)** cameraIds;    ///< list of camera device Ids
 }
 
 /// Enum for ACameraDevice_ErrorStateCallback error code
