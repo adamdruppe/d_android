@@ -222,7 +222,7 @@ camera_status_t ACameraMetadata_getConstEntry (
 camera_status_t ACameraMetadata_getAllTags (
     const(ACameraMetadata)* metadata,
     int* numEntries,
-    const(uint*)* tags);
+    const(uint)** tags);
 
 /**
  * Create a copy of input {@link ACameraMetadata}.
