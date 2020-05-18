@@ -18,9 +18,6 @@ module android.ndk.log;
 
 import core.stdc.stdarg;
 
-import arsd.jni;
-import android.ndk;
-
 extern (C):
 nothrow:
 @nogc:
@@ -69,24 +66,34 @@ nothrow:
 enum android_LogPriority
 {
     /** For internal use only.  */
-    ANDROID_LOG_UNKNOWN = 0,
+    unknown = 0,
     /** The default priority, for internal use only.  */
-    ANDROID_LOG_DEFAULT = 1, /* only for SetMinPriority() */
+    default_ = 1, /* only for SetMinPriority() */
     /** Verbose logging. Should typically be disabled for a release apk. */
-    ANDROID_LOG_VERBOSE = 2,
+    verbose = 2,
     /** Debug logging. Should typically be disabled for a release apk. */
-    ANDROID_LOG_DEBUG = 3,
+    debug_ = 3,
     /** Informational logging. Should typically be disabled for a release apk. */
-    ANDROID_LOG_INFO = 4,
+    info = 4,
     /** Warning logging. For use with recoverable failures. */
-    ANDROID_LOG_WARN = 5,
+    warn = 5,
     /** Error logging. For use with unrecoverable failures. */
-    ANDROID_LOG_ERROR = 6,
+    error = 6,
     /** Fatal logging. For use when aborting. */
-    ANDROID_LOG_FATAL = 7,
+    fatal = 7,
     /** For internal use only.  */
-    ANDROID_LOG_SILENT = 8 /* only for SetMinPriority(); must be last */
+    silent = 8 /* only for SetMinPriority(); must be last */
 }
+
+alias ANDROID_LOG_UNKNOWN = android_LogPriority.unknown;
+alias ANDROID_LOG_DEFAULT = android_LogPriority.default_;
+alias ANDROID_LOG_VERBOSE = android_LogPriority.verbose;
+alias ANDROID_LOG_DEBUG = android_LogPriority.debug_;
+alias ANDROID_LOG_INFO = android_LogPriority.info;
+alias ANDROID_LOG_WARN = android_LogPriority.warn;
+alias ANDROID_LOG_ERROR = android_LogPriority.error;
+alias ANDROID_LOG_FATAL = android_LogPriority.fatal;
+alias ANDROID_LOG_SILENT = android_LogPriority.silent;
 
 /**
  * Writes the constant string `text` to the log, with priority `prio` and tag
@@ -138,27 +145,38 @@ void __android_log_assert (
  */
 enum log_id
 {
-    LOG_ID_MIN = 0,
+    min = 0,
 
     /** The main log buffer. This is the only log buffer available to apps. */
-    LOG_ID_MAIN = 0,
+    main = 0,
     /** The radio log buffer. */
-    LOG_ID_RADIO = 1,
+    radio = 1,
     /** The event log buffer. */
-    LOG_ID_EVENTS = 2,
+    events = 2,
     /** The system log buffer. */
-    LOG_ID_SYSTEM = 3,
+    system = 3,
     /** The crash log buffer. */
-    LOG_ID_CRASH = 4,
+    crash = 4,
     /** The statistics log buffer. */
-    LOG_ID_STATS = 5,
+    stats = 5,
     /** The security log buffer. */
-    LOG_ID_SECURITY = 6,
+    security = 6,
     /** The kernel log buffer. */
-    LOG_ID_KERNEL = 7,
+    kernel = 7,
 
-    LOG_ID_MAX = 8
+    max = 8
 }
+
+alias LOG_ID_MIN = log_id.min;
+alias LOG_ID_MAIN = log_id.main;
+alias LOG_ID_RADIO = log_id.radio;
+alias LOG_ID_EVENTS = log_id.events;
+alias LOG_ID_SYSTEM = log_id.system;
+alias LOG_ID_CRASH = log_id.crash;
+alias LOG_ID_STATS = log_id.stats;
+alias LOG_ID_SECURITY = log_id.security;
+alias LOG_ID_KERNEL = log_id.kernel;
+alias LOG_ID_MAX = log_id.max;
 
 alias log_id_t = log_id;
 
