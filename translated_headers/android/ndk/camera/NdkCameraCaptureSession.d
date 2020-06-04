@@ -39,6 +39,7 @@ import android.ndk.camera.NdkCameraError;
 import android.ndk.camera.NdkCameraMetadata;
 import android.ndk.camera.NdkCaptureRequest;
 import android.ndk.camera.NdkCameraWindowType;
+public import android.ndk.camera.NdkCameraDevice: ACameraDevice;
 
 extern (C):
 nothrow:
@@ -429,7 +430,6 @@ enum
  */
 void ACameraCaptureSession_close (ACameraCaptureSession* session);
 
-struct ACameraDevice;
 
 /**
  * Get the ACameraDevice pointer associated with this capture session in the device argument

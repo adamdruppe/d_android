@@ -25,9 +25,6 @@
 
 module android.ndk.looper;
 
-import arsd.jni;
-import android.ndk;
-
 extern (C):
 nothrow:
 @nogc:
